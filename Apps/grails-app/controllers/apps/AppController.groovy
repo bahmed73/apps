@@ -1,0 +1,107 @@
+package apps
+
+import static org.springframework.http.HttpStatus.*
+import grails.transaction.Transactional
+
+@Transactional(readOnly = true)
+class AppController {
+
+    static allowedMethods = [save: "POST", update: "PUT", delete: "DELETE"]
+
+    def index(Integer max) {
+        params.max = Math.min(max ?: 10, 100)
+        respond App.list(params), model:[appCount: App.count()]
+    }
+
+    def show(App app) {
+        respond app
+    }
+
+    def create() {
+        respond new App(params)
+    }
+
+    @Transactional
+    def save(App app) {
+        if (app == null) {
+            transactionStatus.setRollbackOnly()
+            notFound()
+            return
+        }
+
+        if (app.hasErrors()) {
+            transactionStatus.setRollbackOnly()
+            respond app.errors, view:'create'
+            return
+        }
+
+        app.save flush:true
+
+        request.withFormat {
+            form multipartForm {
+                flash.message = message(code: 'default.created.message', args: [message(code: 'app.label', default: 'App'), app.id])
+                redirect app
+            }
+            '*' { respond app, [status: CREATED] }
+        }
+    }
+
+    def edit(App app) {
+        respond app
+    }
+
+    @Transactional
+    def update(App app) {
+        if (app == null) {
+            transactionStatus.setRollbackOnly()
+            notFound()
+            return
+        }
+
+        if (app.hasErrors()) {
+            transactionStatus.setRollbackOnly()
+            respond app.errors, view:'edit'
+            return
+        }
+
+        app.save flush:true
+
+        request.withFormat {
+            form multipartForm {
+                flash.message = message(code: 'default.updated.message', args: [message(code: 'app.label', default: 'App'), app.id])
+                redirect app
+            }
+            '*'{ respond app, [status: OK] }
+        }
+    }
+
+    @Transactional
+    def delete(App app) {
+
+        if (app == null) {
+            transactionStatus.setRollbackOnly()
+            notFound()
+            return
+        }
+
+        app.delete flush:true
+
+        request.withFormat {
+            form multipartForm {
+                flash.message = message(code: 'default.deleted.message', args: [message(code: 'app.label', default: 'App'), app.id])
+                redirect action:"index", method:"GET"
+            }
+            '*'{ render status: NO_CONTENT }
+        }
+    }
+
+    protected void notFound() {
+        request.withFormat {
+            form multipartForm {
+                flash.message = message(code: 'default.not.found.message', args: [message(code: 'app.label', default: 'App'), params.id])
+                redirect action: "index", method: "GET"
+            }
+            '*'{ render status: NOT_FOUND }
+        }
+    }
+}
