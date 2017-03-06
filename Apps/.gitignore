@@ -14,3 +14,7 @@ build/
 /bin/
 /bin/
 /bin/
+target-eclipse
+../RemoteSystemsTempFiles/
+../.metadata/
+
