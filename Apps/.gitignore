@@ -18,3 +18,5 @@ target-eclipse
 ../RemoteSystemsTempFiles/
 ../.metadata/
 
+/bin/
+/bin/
