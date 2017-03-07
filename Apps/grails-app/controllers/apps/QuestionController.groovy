@@ -18,10 +18,14 @@ class QuestionController {
     }
 
 	def showAnswers(Question question) {
-		def app = question.app
-		def answers = Answer.findAllByQuestion(question)
-		def answerCount = answers.size()
-		respond question, [model: [app: app, answers: answers, answerCount: answerCount]]
+		if (question) {
+			def app = question.app
+			def answers = Answer.findAllByQuestion(question)
+			def answerCount = answers.size()
+			respond question, [model: [app: app, answers: answers, answerCount: answerCount]]
+		} else {
+			redirect(action:"index")
+		}
 	}
 	
     def create() {
