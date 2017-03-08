@@ -42,6 +42,7 @@
         </div>
         </div>
         
+        <!-- 
         <div style="float: center; background-color: #ffffff;border:5px solid #ccc;margin:10px;">
          <div id="show-app" class="content scaffold-show" role="main">
             <h1>Describe (Optional)</h1>
@@ -52,7 +53,8 @@
             </div>
         </div>
         </div>
-        
+         -->
+         
         <div style="float: center; background-color: #ffffff;border:5px solid #ccc;margin:10px;">
          <div id="show-app" class="content scaffold-show" role="main">
             <h1>Create Time</h1>

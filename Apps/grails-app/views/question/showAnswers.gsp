@@ -20,9 +20,6 @@
     	<div style="float: center; background-color: #ffffff;border:5px solid #ccc;margin:10px;">
          <div id="show-app" class="content scaffold-show" role="main">
             <h1>Product</h1>
-            <g:if test="${flash.message}">
-            <div class="message" role="status">${flash.message}</div>
-            </g:if>
             <div style="margin:15px;color:#266870;">
             <h2>
             <f:display bean="app" property="name" />
@@ -34,9 +31,6 @@
         <div style="float: center; background-color: #ffffff;border:5px solid #ccc;margin:10px;">
         <div id="show-question" class="content scaffold-show" role="main">
             <h1>Question</h1>
-            <g:if test="${flash.message}">
-            <div class="message" role="status">${flash.message}</div>
-            </g:if>
             <div style="margin:15px;color:#266870;">
             <h2>
             <f:display bean="question" property="name"/>
@@ -48,6 +42,9 @@
         <div style="float: center; background-color: #ffffff;border:5px solid #77777c;margin:10px;">
         <div id="create-answer" class="content scaffold-create" role="main">
             <h1>Answer this Question</h1>
+            <g:if test="${flash.message}">
+            <div class="message" role="status">${flash.message}</div>
+            </g:if>
             <g:form action="answerQuestion" controller="question">
             <g:hiddenField name="question" value="${question.id}" />
             <g:field type="text" size="55" name="answer" value="Answer this question here and then click on 'Save my answer' below..."/>
@@ -61,13 +58,12 @@
         <div style="float: center; background-color: #ffffff;border:5px solid #ccc;margin:10px;">
         <div id="list-answer" class="content scaffold-list" role="main">
         <h1>Answers</h1>
-            <g:if test="${flash.message}">
-            <div class="message" role="status">${flash.message}</div>
-            </g:if>
             <f:table collection="${answers}" properties="['name', 'createTime']" />
+            <!-- 
             <div class="pagination">
                 <g:paginate total="${answerCount ?: 0}" params="[questionId: question.id]" />
             </div>
+             -->
         </div>
         </div>
         

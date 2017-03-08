@@ -46,17 +46,24 @@ class QuestionController {
 					def questionId = params.question
 					
 					def question = Question.get(questionId)
-					def answer = new Answer()
-					answer.status = 1
-					answer.name = answerText
-					answer.app = question.app
-					answer.createTime = new Date()
-					answer.updateTime = new Date()
-					answer.question = question
 					
-					answer.save flush:true
-					
-					redirect(action:"showAnswers", params: [questionId: question.id])
+					if (answerText.equals("Answer this question here and then click on 'Save my answer' below...")) {
+						flash.message = "Please provide an answer"
+						redirect(action:"showAnswers", params: [questionId: question.id])
+					} else {
+				
+						def answer = new Answer()
+						answer.status = 1
+						answer.name = answerText
+						answer.app = question.app
+						answer.createTime = new Date()
+						answer.updateTime = new Date()
+						answer.question = question
+						
+						answer.save flush:true
+						
+						redirect(action:"showAnswers", params: [questionId: question.id])
+					}
 				}
 			}
 		} else {
