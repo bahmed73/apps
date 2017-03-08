@@ -19,7 +19,7 @@
     	<br><br>	
     	<div style="float: center; background-color: #ffffff;border:5px solid #ccc;margin:10px;">
          <div id="show-app" class="content scaffold-show" role="main">
-            <h1>Product</h1>
+            <h1>Product Views: ${viewCounter} </h1>
             <div style="margin:15px;color:#266870;">
             <h2>
             <f:display bean="app" property="name" />

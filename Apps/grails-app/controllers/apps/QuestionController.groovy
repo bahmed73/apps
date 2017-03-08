@@ -24,7 +24,8 @@ class QuestionController {
 			def answers = Answer.findAllByQuestion(question)
 			def answerCount = answers.size()
 			addView(app, request.getRemoteAddr())
-			respond question, [model: [app: app, answers: answers, answerCount: answerCount]]
+			def viewCounter = View.countByApp(app)
+			respond question, [model: [app: app, answers: answers, answerCount: answerCount, viewCounter: viewCounter]]
 		} else if (params.questionId) {
 			def questionId = params.questionId
 			question = Question.get(questionId)
@@ -33,7 +34,8 @@ class QuestionController {
 			def answers = Answer.findAllByQuestion(question)
 			def answerCount = answers.size()
 			addView(app, request.getRemoteAddr())
-			respond question, [model: [app: app, answers: answers, answerCount: answerCount]]
+			def viewCounter = View.countByApp(app)
+			respond question, [model: [app: app, answers: answers, answerCount: answerCount, viewCounter: viewCounter]]
 		} else {
 			redirect(action:"index")
 		}
