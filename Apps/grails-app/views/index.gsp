@@ -7,8 +7,9 @@
     <asset:link rel="icon" href="favicon.ico" type="image/x-ico" />
 </head>
 <body>
+<!--
     <content tag="nav">
-    	<!--  
+    	  
         <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Application Status <span class="caret"></span></a>
             <ul class="dropdown-menu">
@@ -44,45 +45,50 @@
                 </g:each>
             </ul>
         </li>
-        -->
+        
     </content>
-
-    <div class="svg" role="presentation" >
-        <div class="grails-logo-container">
-            <asset:image src="surveys-35.png" class="grails-logo" width="900" height="275"/>
-            <!--  <asset:image src="surveys.png" class="grails-logo"/> -->
-        </div>
-    </div>
+-->
+    
 
 	<div >
         <section class="row colset-2-its">
-            <br>
-
+        
+        <div class="svg" role="presentation" style="float:center;">
+        		<div class="grails-logo-container">
+            		<asset:image src="surveys-35.png" class="grails-logo" width="900" height="275"/>
+            		<!--  <asset:image src="surveys.png" class="grails-logo"/> -->
+        	</div>
+    		</div>
+    		
+    	<br>	
+            
 			<h1>
 			
 			<!--  <div style="float: left; width: 270px; background-color: #ffffff;font-size:4;margin:10px;">
 				<span style="margin-left:30px;"><g:link controller="appType" action="index"> <asset:image src="surveys-types.png" width="200" height="53"/></g:link></span><br>
     		</div>-->
+    		<!--  
 			<div style="float: left; width:271px; background-color: #ffffff;border:1px solid #ccc;margin:10px;">
     			<span style="margin:35px;"><g:link controller="app" action="index"><asset:image src="surveys-surveys.png" width="200" height="53"/></g:link></span><br>
     			<div style="float: left; background-color: #ffffff;font-size:4;margin:15px;">
     				<span style="margin:50px;">Create a Survey</span><br>
     			</div>
     		</div>
+    		-->
     		<!--  
     		<div style="float: left; width: 270px; background-color: #ffffff;font-size:4;margin:10px;">
     			<span style="margin-left:30px;"><g:link controller="campaign" action="index"><asset:image src="surveys-campaigns.png" width="200" height="53"/></g:link></span><br>
     		</div>-->
-    		<div style="float: left; width:271px; background-color: #ffffff;border:1px solid #ccc;margin:10px;">
-    			<span style="margin:35px;"><g:link controller="question" action="index"><asset:image src="surveys-questions.png" width="200" height="53"/></g:link></span><br>
-    			<div style="float: left; background-color: #ffffff;font-size:4;margin:15px;">
-    				<span style="margin:50px;">Ask a Question</span><br>
+    		<div style="float: left; width:450px; background-color: #ffffff;border:5px solid #ccc;margin:20px;">
+    			<span style="margin:100px;"><g:link controller="question" action="index"><asset:image src="surveys-questions.png" width="200" height="53"/></g:link></span><br>
+    			<div style="float: left; background-color: #ffffff;font-size:4;margin:15px;color:#266870;">
+    				<span style="margin:120px;">Ask a Question</span><br>
     			</div>
     		</div>
-    		<div style="float: left; width:271px; background-color: #ffffff;border:1px solid #ccc;margin:10px;">
-    			<span style="margin:35px;"><g:link controller="answer" action="index"><asset:image src="surveys-answers.png" width="200" height="53"/></g:link></span><br>
-    			<div style="float: left; background-color: #ffffff;font-size:4;margin:15px;">
-    				<span style="margin:50px;">Check Answers</span><br>
+    		<div style="float: left; width:450px; background-color: #ffffff;border:5px solid #ccc;margin:20px;">
+    			<span style="margin:100px;"><g:link controller="answer" action="index"><asset:image src="surveys-answers.png" width="200" height="53"/></g:link></span><br>
+    			<div style="float: left; background-color: #ffffff;font-size:4;margin:15px;color:#266870;">
+    				<span style="margin:120px;">Check Answers</span><br>
     			</div>
     		</div>
 			
@@ -95,7 +101,7 @@
             <br><br>
             <br><br>
             <br><br>
-            <div class="svg" role="presentation" style="float:left;">
+            <div class="svg" role="presentation" style="float:center;">
         		<div class="grails-logo-container">
             		<asset:image src="surveys-33.png" class="grails-logo" width="900" height="275"/>
             		<!--  <asset:image src="surveys.png" class="grails-logo"/> -->
@@ -104,6 +110,8 @@
     		
     		<br>
 
+			<!-- 
+			
 			<h1>
 			
 			<div style="float: left; width:271px; background-color: #ffffff;border:1px solid #ccc;margin:10px;margin-top:40px;">
@@ -120,7 +128,7 @@
     		</div>
     		
             </h1>
-            
+             -->
         </section>
     </div>
 
