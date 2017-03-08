@@ -23,6 +23,7 @@ class QuestionController {
 			def app = question.app
 			def answers = Answer.findAllByQuestion(question)
 			def answerCount = answers.size()
+			addView(app, request.getRemoteAddr())
 			respond question, [model: [app: app, answers: answers, answerCount: answerCount]]
 		} else if (params.questionId) {
 			def questionId = params.questionId
@@ -31,6 +32,7 @@ class QuestionController {
 			def app = question.app
 			def answers = Answer.findAllByQuestion(question)
 			def answerCount = answers.size()
+			addView(app, request.getRemoteAddr())
 			respond question, [model: [app: app, answers: answers, answerCount: answerCount]]
 		} else {
 			redirect(action:"index")
@@ -158,4 +160,14 @@ class QuestionController {
             '*'{ render status: NOT_FOUND }
         }
     }
+	
+	protected void addView(App app, String ip) {
+		def view = new View()
+		view.status = 1
+		view.app = app
+		view.createTime = new Date()
+		view.ip = ip
+		
+		view.save flush:true
+	}
 }
