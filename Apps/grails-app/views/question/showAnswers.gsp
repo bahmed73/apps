@@ -45,6 +45,19 @@
         </div>
         </div>
         
+        <div style="float: center; background-color: #ffffff;border:5px solid #77777c;margin:10px;">
+        <div id="create-answer" class="content scaffold-create" role="main">
+            <h1>Answer this Question</h1>
+            <g:form action="answerQuestion" controller="question">
+            <g:hiddenField name="question" value="${question.id}" />
+            <g:field type="text" size="55" name="answer" value="Answer this question here and then click on 'Save my answer' below..."/>
+                <fieldset class="buttons">
+                    <g:submitButton name="create" class="save" value="Save my answer" />
+                </fieldset>
+            </g:form>
+        </div>
+        </div>
+        
         <div style="float: center; background-color: #ffffff;border:5px solid #ccc;margin:10px;">
         <div id="list-answer" class="content scaffold-list" role="main">
         <h1>Answers</h1>
@@ -53,7 +66,7 @@
             </g:if>
             <f:table collection="${answers}" properties="['name', 'createTime']" />
             <div class="pagination">
-                <g:paginate total="${answerCount ?: 0}" />
+                <g:paginate total="${answerCount ?: 0}" params="[questionId: question.id]" />
             </div>
         </div>
         </div>

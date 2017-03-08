@@ -45,9 +45,6 @@
         <div style="float: center; background-color: #ffffff;border:5px solid #ccc;margin:10px;">
          <div id="show-app" class="content scaffold-show" role="main">
             <h1>Describe (Optional)</h1>
-            <g:if test="${flash.message}">
-            <div class="message" role="status">${flash.message}</div>
-            </g:if>
             <div style="margin:15px;color:#266870;">
             <h2>
             <f:display bean="answer" property="description" />
@@ -59,9 +56,6 @@
         <div style="float: center; background-color: #ffffff;border:5px solid #ccc;margin:10px;">
          <div id="show-app" class="content scaffold-show" role="main">
             <h1>Create Time</h1>
-            <g:if test="${flash.message}">
-            <div class="message" role="status">${flash.message}</div>
-            </g:if>
             <div style="margin:15px;color:#266870;">
             <h2>
             <f:display bean="answer" property="createTime" />

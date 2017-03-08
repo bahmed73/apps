@@ -19,10 +19,46 @@ class QuestionController {
 
 	def showAnswers(Question question) {
 		if (question) {
+			
 			def app = question.app
 			def answers = Answer.findAllByQuestion(question)
 			def answerCount = answers.size()
 			respond question, [model: [app: app, answers: answers, answerCount: answerCount]]
+		} else if (params.questionId) {
+			def questionId = params.questionId
+			question = Question.get(questionId)
+			
+			def app = question.app
+			def answers = Answer.findAllByQuestion(question)
+			def answerCount = answers.size()
+			respond question, [model: [app: app, answers: answers, answerCount: answerCount]]
+		} else {
+			redirect(action:"index")
+		}
+	}
+	
+	def answerQuestion() {
+		if (params) {
+			if (params.answer) {
+				def answerText = params.answer
+				
+				if (params.question) {
+					def questionId = params.question
+					
+					def question = Question.get(questionId)
+					def answer = new Answer()
+					answer.status = 1
+					answer.name = answerText
+					answer.app = question.app
+					answer.createTime = new Date()
+					answer.updateTime = new Date()
+					answer.question = question
+					
+					answer.save flush:true
+					
+					redirect(action:"showAnswers", params: [questionId: question.id])
+				}
+			}
 		} else {
 			redirect(action:"index")
 		}
