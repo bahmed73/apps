@@ -76,21 +76,21 @@
 													<section class="box">
 													<!-- <a href="http://www.mytweetmark.com" class="image image-full"><asset:image src="foodal-homepage-16.png"/></a> -->
 													<header>
-														<span style="font-size:20px;">Welcome to Foodal</span>
+														<span style="font-size:28px;">Welcome to Foodal</span>
 														<span >!</span>
 													</header>
 													<br><br>
-													<p style="font-size:16px;">Start a shelf; upload your products.</p>
+													<p style="font-size:24px;">Start a shelf; upload your products.</p>
 													<br><br>
-													<p style="font-size:16px;">Measure your success with analytics.</p>
+													<p style="font-size:24px;">Measure your success with analytics.</p>
 													<br><br>
-													<p style="font-size:16px;">Gain more customers on social media platforms.</p>
+													<p style="font-size:24px;">Gain more customers on social media platforms.</p>
 													<br><br>
-													<p style="font-size:16px;">Monthly Subscription: $50, if revenue > $50. First month free!</p>
+													<p style="font-size:24px;">Monthly Subscription: $50, if revenue > $50. You first month is free.</p>
 													<br><br>
-													<p style="font-size:16px;">Monthly Subscription: $100, if revenue > $500.</p>
+													<p style="font-size:24px;">Monthly Subscription: $100, if revenue > $500.</p>
 													<br><br>
-													<p style="font-size:16px;">Monthly Subscription: $150, if revenue > $1000.</p>
+													<p style="font-size:24px;">Monthly Subscription: $150, if revenue > $1000.</p>
 													<br><br>
 													<footer class="actions">
 														<a href="mailto:bilal.ahmed@foodal.co" class="button fa fa-file-text">Email us today!</a>

@@ -76,21 +76,21 @@
 													<section class="box">
 													<!-- <a href="http://www.mytweetmark.com" class="image image-full"><asset:image src="foodal-homepage-16.png"/></a> -->
 													<header>
-														<span style="font-size:20px;">Analytics Dashboard</span>
+														<span style="font-size:28px;">Analytics Dashboard</span>
 														<span >!</span>
 													</header>
 													<br><br>
-													<p style="font-size:16px;">Watch social media traffic.</p>
+													<p style="font-size:24px;">Watch social media traffic.</p>
 													<br><br>
-													<p style="font-size:16px;">See referrer traffic data charts.</p>
+													<p style="font-size:24px;">See referrer traffic data charts.</p>
 													<br><br>
-													<p style="font-size:16px;">Watch real-time buyer conversion success ratio.</p>
+													<p style="font-size:24px;">Watch real-time buyer conversion success ratio.</p>
 													<br><br>
-													<p style="font-size:16px;">Measure which products are most successful!</p>
+													<p style="font-size:24px;">Measure which products are most successful!</p>
 													<br><br>
-													<p style="font-size:16px;">Increase customers engagement month over month.</p>
+													<p style="font-size:24px;">Increase customers engagement month over month.</p>
 													<br><br>
-													<p style="font-size:16px;">Use real-time data to measure best selling products.</p>
+													<p style="font-size:24px;">Use real-time data to measure best selling products.</p>
 													<br><br>
 													<footer class="actions">
 														<a href="mailto:bilal.ahmed@foodal.co" class="button fa fa-file-text">Email us today!</a>
