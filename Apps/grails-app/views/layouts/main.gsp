@@ -25,7 +25,7 @@
                 </button>
                 <a class="navbar-brand" href="/#">
                     <i class="fa grails-icon">
-                        <asset:image src="surveys-40.png"/>
+                        <asset:image src="favicon.png"/>
                     </i> Surveys
                 </a>
             </div>
@@ -40,10 +40,11 @@
     <g:layoutBody/>
 
     <div class="footer" role="contentinfo">
-    				<h1>					
+    				<h1>				
+    				<a href="http://foodal.co"><asset:image src="favicon.png" width="50px" height="50px"/></a>	
 									<ul>
-										<li><a href="https://www.facebook.com/pages/mytweetmarkcom/125516600684" target="_blank"><span>Find us on Facebook!</span></a></li><br>
-										<li><a href="https://twitter.com/mytweetmark" target="_blank"><span>See @mytweetmark on Twitter!</span></a></li>
+										<li><a href="https://www.facebook.com/foodalCo/" target="_blank"><span>Find us on Facebook!</span></a></li><br>
+										<li><a href="https://twitter.com/foodal_" target="_blank"><span>See @foodal_ on Twitter!</span></a></li>
 										<!--li><a class="fa fa-google-plus solo" href="#"><span>Google+</span></a></li-->
 									</ul>
 									</h1>
