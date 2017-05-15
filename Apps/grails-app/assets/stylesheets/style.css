@@ -21,9 +21,9 @@
 		/*font-family: 'Source Sans Pro';*/
 		font-family: 'Alegreya Sans', sans-serif;
 		font-weight: 300;
-		background: #ffffff;
+		background: white;
 		/*background-image: url('images/bg02.png');*/
-		color: #ff9966;
+		color: #ae2828;
 	}
 
 	strong, b
@@ -34,7 +34,7 @@
 	
 	h1, h2, h3, h4, h5, h6
 	{
-		color: #FFFFFF;
+		color: #000000;
 		font-weight: 700;
 	}
 
@@ -46,7 +46,7 @@
 
 	a
 	{
-		color: #ffffff;
+		color: white;
 		text-decoration: underline;
 	}
 	
@@ -147,7 +147,7 @@
 			cursor: pointer;
 			border: 0;
 			border-radius: 5px;
-			background: #660099;
+			background: #831111;
 			color: #fff !important;
 			font-weight: 700;
 			outline: 0;
@@ -160,7 +160,7 @@
 
 			.button:hover
 			{
-				background: #e53359;
+				background: #e03f3f;
 			}
 			
 			.button:active
@@ -989,7 +989,7 @@
 	#header-wrapper
 	{
 		position: relative;
-		background: #ffffff;
+		background: white;
 		border-bottom: solid 1px #ccc;
 	}
 
@@ -1028,7 +1028,7 @@
 	#main-wrapper
 	{
 		position: relative;
-		background: red;
+		background: black;
 	}
 
 		#main-wrapper:before

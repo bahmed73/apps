@@ -117,7 +117,7 @@
 							
 							<!-- Portfolio -->
 								<section>
-									<h2>Also see:</h2>
+									<span style="font-size:40px;color:white">Also visit:</span>
 									
 									<div>
 										<div class="row">
@@ -276,7 +276,7 @@
 										</li>
 										<li>
 											<h3>Mail</h3>
-											<p><a href="#">bilal.ahmed@foodal.co</a></p>
+											<p><a href="mailto:bilal.ahmed@foodal.co">bilal.ahmed@foodal.co</a></p>
 										</li>
 										<!--li>
 											<h3>Phone</h3>
