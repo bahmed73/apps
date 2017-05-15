@@ -9,7 +9,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
 
     <asset:stylesheet src="application.css"/>
-
+<LINK REL="SHORTCUT ICON"
+       HREF="${createLinkTo(dir:'images', file:'favicon.ico')}">
+<link rel="icon" href="${createLinkTo(dir:'images', file:'favicon.ico')}"/>
     <g:layoutHead/>
 </head>
 <body>
@@ -26,7 +28,7 @@
                 <a class="navbar-brand" href="/#">
                     <i class="fa grails-icon">
                         <asset:image src="favicon.png"/>
-                    </i> Surveys
+                    </i> 
                 </a>
             </div>
             <div class="navbar-collapse collapse" aria-expanded="false" style="height: 0.8px;">

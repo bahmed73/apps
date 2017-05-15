@@ -35,7 +35,7 @@
 		<!--[if lte IE 8]><asset:javascript src="html5shiv.js"/><asset:stylesheet src="ie8.css"/><![endif]-->
 	</head>
 	<body class="homepage">
-	<a href="http://www.homecook.me"><asset:image src="favicon.png" class="grails-logo"/></a>
+	<a href="/#"><asset:image src="favicon.png" class="grails-logo"/></a>
 		<!-- Header Wrapper -->
 			<div id="header-wrapper">
 				<div class="container">

@@ -11,7 +11,7 @@
         <a href="#show-question" class="skip" tabindex="-1"><g:message code="default.link.skip.label" default="Skip to content&hellip;"/></a>
         <div class="svg" role="presentation" style="float:center;">
         		<div class="grails-logo-container">
-            		<asset:image src="Product-6.png" class="grails-logo" width="900" height="275"/>
+            		<asset:image src="foodal-homepage.png" class="grails-logo" width="900" height="275"/>
             		<!--  <asset:image src="surveys.png" class="grails-logo"/> -->
         	</div>
     		</div>
