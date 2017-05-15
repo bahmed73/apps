@@ -260,12 +260,12 @@
 									<header>
 										<h2>Connect with us</h2>
 									</header>
-									<ul class="social">
+									<!--  <ul class="social">-->
 										<!--  <li><a class="fa fa-facebook solo" href="https://www.facebook.com/foodalCo/"><span>Facebook</span></a></li>
 										<li><a class="fa fa-twitter solo" href="https://twitter.com/foodal_"><span>Twitter</span></a></li>
 										<li><a class="fa fa-linkedin solo" href="https://www.linkedin.com/company-beta/18041812/"><span>LinkedIn</span></a></li>-->
 										<!--li><a class="fa fa-google-plus solo" href="#"><span>Google+</span></a></li-->
-									</ul>
+									<!--  </ul> -->
 									<ul class="contact">
 										<li>
 											<h3>Address</h3>

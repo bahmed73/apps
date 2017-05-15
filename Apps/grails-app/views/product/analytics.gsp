@@ -74,7 +74,7 @@
 										<div class="row">
 											<div class="6u">
 													<section class="box">
-													<a href="http://www.mytweetmark.com" class="image image-full"><asset:image src="foodal-homepage-16.png"/></a>
+													<a href="http://www.mytweetmark.com" class="image image-full"><asset:image src="fi-a.png"/></a>
 													<!--header>
 														<h3>Aptent veroeros et aliquam</h3>
 														<span class="byline">Posted 45 minutes ago</span>
@@ -88,7 +88,7 @@
 											</div>
 											<div class="6u">
 												<section class="box">
-													<a href="http://www.homecook.me" class="image image-full"><asset:image src="foodal-homepage-17.png"/></a>
+													<a href="http://www.homecook.me" class="image image-full"><asset:image src="fi-d.png"/></a>
 													<!--header>
 														<h3>Aptent veroeros et aliquam</h3>
 														<span class="byline">Posted 45 minutes ago</span>
@@ -260,12 +260,12 @@
 									<header>
 										<h2>Connect with us</h2>
 									</header>
-									<ul class="social">
+									<!--  <ul class="social">-->
 										<!--  <li><a class="fa fa-facebook solo" href="https://www.facebook.com/foodalCo/"><span>Facebook</span></a></li>
 										<li><a class="fa fa-twitter solo" href="https://twitter.com/foodal_"><span>Twitter</span></a></li>
 										<li><a class="fa fa-linkedin solo" href="https://www.linkedin.com/company-beta/18041812/"><span>LinkedIn</span></a></li>-->
 										<!--li><a class="fa fa-google-plus solo" href="#"><span>Google+</span></a></li-->
-									</ul>
+									<!-- </ul> -->
 									<ul class="contact">
 										<li>
 											<h3>Address</h3>
