@@ -76,8 +76,8 @@
 													<section class="box">
 													<!-- <a href="http://www.mytweetmark.com" class="image image-full"><asset:image src="foodal-homepage-16.png"/></a> -->
 													<header>
-														<span style="font-size:20px;">Welcome to Foodal!</span>
-														<span >...</span>
+														<span style="font-size:20px;">Welcome to Foodal</span>
+														<span >!</span>
 													</header>
 													<br><br>
 													<p style="font-size:16px;">Start a shelf; upload your products.</p>
