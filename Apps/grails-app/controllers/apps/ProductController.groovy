@@ -20,6 +20,14 @@ class ProductController {
     def create() {
         respond new Product(params)
     }
+	
+	def shelf() {
+		
+	}
+	
+	def analytics() {
+		
+	}
 
     @Transactional
     def save(Product product) {

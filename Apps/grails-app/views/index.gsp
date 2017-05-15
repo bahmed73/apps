@@ -61,8 +61,8 @@
 								<!-- Nav -->
 										<nav id="nav">
 											<ul>
-												<li><a href="http://www.homecook.me/product/list">Products</a></li>
-												<li><a href="http://www.homecook.me/farmerMarket/list">Markets</a></li>
+												<li><g:link controller="product" action="shelf">Create a Shelf</g:link></li>
+												<li><g:link controller="product" action="analytics">View Analytics</g:link></li>
 												<!--<li><a href="left-sidebar.html">Login</a></li>-->
 											</ul>
 										</nav>
