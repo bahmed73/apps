@@ -22,11 +22,19 @@ class ProductController {
     }
 	
 	def shelf() {
-		
+		App app = App.findByName("foodal")
+		 
+		if (app != null) {
+			addView(app, request.getRemoteAddr())
+		}
 	}
 	
 	def analytics() {
+		App app = App.findByName("foodal")
 		
+		if (app != null) {
+			addView(app, request.getRemoteAddr())
+		}
 	}
 
     @Transactional
@@ -112,4 +120,14 @@ class ProductController {
             '*'{ render status: NOT_FOUND }
         }
     }
+	
+	protected void addView(App app, String ip) {
+		def view = new View()
+		view.status = 1
+		view.app = app
+		view.createTime = new Date()
+		view.ip = ip
+		
+		view.save flush:true
+	}
 }
