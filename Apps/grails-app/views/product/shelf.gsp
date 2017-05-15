@@ -48,7 +48,7 @@
 									<a href="http://www.homecook.me/farmerMarket/list">
 										<span class="image image-full"><asset:image src="foodal-homepage.png"/></span>
 										<header>
-											<h2>Homecook.me</h2>
+											<h2>Foodal</h2>
 											<!--span class="byline">welcome!</span-->
 										</header>
 									</a>
@@ -61,8 +61,8 @@
 								<!-- Nav -->
 										<nav id="nav">
 											<ul>
-												<li><a href="http://www.homecook.me/product/list">Products</a></li>
-												<li><a href="http://www.homecook.me/farmerMarket/list">Markets</a></li>
+												<li><g:link controller="product" action="shelf">Create a Shelf</g:link></li>
+												<li><g:link controller="product" action="analytics">View Analytics</g:link></li>
 												<!--<li><a href="left-sidebar.html">Login</a></li>-->
 											</ul>
 										</nav>
@@ -74,16 +74,21 @@
 										<div class="row">
 											<div class="6u">
 													<section class="box">
-													<header>
-														<h2>Market your local businesses and farmers markets on Twitter through us!</h2>
+													<a href="http://www.mytweetmark.com" class="image image-full"><asset:image src="foodal-homepage-16.png"/></a>
+													<!--header>
+														<h3>Aptent veroeros et aliquam</h3>
+														<span class="byline">Posted 45 minutes ago</span>
 													</header>
-													<p>Homecook.me allows local business and farmers markets to create their social media profile. Include markets, products, price, blog, recipes, contact information. On twitter, tweets are generated to bring online traffic to the business. The business can be searched on google. As a customer, register to connect with your favorite farmers market business. <a href="http://www.mediabistro.com/alltwitter/farmers-markets-going-high-tech-with-twitter_b1976" >Continue Reading...</a></p>
-													
+													<p>Lorem ipsum dolor sit amet sit veroeros sed et blandit consequat sed veroeros lorem et blandit  adipiscing feugiat phasellus tempus hendrerit, tortor vitae mattis tempor, sapien sem feugiat sapien, id suscipit magna felis nec elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos lorem ipsum dolor sit amet.</p>
+													<footer class="actions">
+														<a href="#" class="button fa fa-file-text">Continue Reading</a>
+														<a href="#" class="button alt fa fa-comment">33 comments</a>
+													</footer-->
 												</section>
 											</div>
 											<div class="6u">
 												<section class="box">
-													<a href="http://www.foundersspace.com/contributors/bilal-ahmed-founder-of-mytweetmark-homecookme/" class="image image-full"><asset:image src="foodal-homepage-3-400.png"/></a>
+													<a href="http://www.homecook.me" class="image image-full"><asset:image src="foodal-homepage-17.png"/></a>
 													<!--header>
 														<h3>Aptent veroeros et aliquam</h3>
 														<span class="byline">Posted 45 minutes ago</span>
@@ -256,9 +261,9 @@
 										<h2>Connect with us</h2>
 									</header>
 									<ul class="social">
-										<li><a class="fa fa-facebook solo" href="https://www.facebook.com/foodalCo/"><span>Facebook</span></a></li>
+										<!--  <li><a class="fa fa-facebook solo" href="https://www.facebook.com/foodalCo/"><span>Facebook</span></a></li>
 										<li><a class="fa fa-twitter solo" href="https://twitter.com/foodal_"><span>Twitter</span></a></li>
-										<li><a class="fa fa-linkedin solo" href="https://www.linkedin.com/company-beta/18041812/"><span>LinkedIn</span></a></li>
+										<li><a class="fa fa-linkedin solo" href="https://www.linkedin.com/company-beta/18041812/"><span>LinkedIn</span></a></li>-->
 										<!--li><a class="fa fa-google-plus solo" href="#"><span>Google+</span></a></li-->
 									</ul>
 									<ul class="contact">
@@ -290,9 +295,7 @@
 									</header>
 									<ul class="divided">
 										<li><a href="http://www.homecook.me/images/survey.doc">Survey</a></li>
-										<li><a href="http://www.slideshare.net/mytweetmark/homecookme-local-food-and-farmers-market-presentation">Slides</a></li>
 										<li><a href="http://www.homecook.me/users/privacy">Privacy</a></li>
-										<li><a href="http://www.homecook.me/users/tos">Terms</a></li>
 									</ul>
 								</section>
 
@@ -304,9 +307,7 @@
 									</header>
 									<ul class="divided">
 										<li><a href="http://www.foundersspace.com/news-announcements/startup-splotlight-mytweetmark/">On FoundersSpace</a></li>
-										<li><a href="https://twitter.com/mytweetmark">mytweetmark on Twitter</a></li>
-										<li><a href="https://angel.co/foodal">On AngelList</a></li>
-										<li><a href="https://twitter.com/homecookme">homecookme on Twitter</a></li>
+										<li><a href="http://www.homecook.me/users/tos">Terms</a></li>
 										<!--li><a href="#">Sem feugiat sapien id suscipit magna felis nec</a></li>
 										<li><a href="#">Elit class aptent taciti sociosqu ad litora</a></li-->
 									</ul>

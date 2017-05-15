@@ -21,7 +21,7 @@
 		/*font-family: 'Source Sans Pro';*/
 		font-family: 'Alegreya Sans', sans-serif;
 		font-weight: 300;
-		background: #006633;
+		background: #ffffff;
 		/*background-image: url('images/bg02.png');*/
 		color: #ff9966;
 	}
@@ -989,7 +989,7 @@
 	#header-wrapper
 	{
 		position: relative;
-		background: #006633;
+		background: #ffffff;
 		border-bottom: solid 1px #ccc;
 	}
 
@@ -1028,7 +1028,7 @@
 	#main-wrapper
 	{
 		position: relative;
-		background: green;
+		background: red;
 	}
 
 		#main-wrapper:before
@@ -1050,7 +1050,7 @@
 		
 			#main-wrapper .major h2
 			{
-				background: #006633 url('images/bg02.png');
+				background: #ffffff url('images/bg02.png');
 			}
 	
 	#footer-wrapper
