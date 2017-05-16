@@ -82,11 +82,11 @@
 													<br><br>
 													<p style="font-size:24px;">Start a shelf; upload your products.</p>
 													<br><br>
-													<p style="font-size:24px;">Measure your success with analytics.</p>
+													<p style="font-size:24px;">Measure your product success with analytics.</p>
 													<br><br>
 													<p style="font-size:24px;">Gain more customers on social media platforms.</p>
 													<br><br>
-													<p style="font-size:24px;">Monthly Subscription: $50, if revenue > $50. You first month is free.</p>
+													<p style="font-size:24px;">Monthly Subscription: $50, if revenue > $50. Your first month is free.</p>
 													<br><br>
 													<p style="font-size:24px;">Monthly Subscription: $100, if revenue > $500.</p>
 													<br><br>

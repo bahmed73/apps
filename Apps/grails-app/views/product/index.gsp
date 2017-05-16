@@ -30,13 +30,6 @@
             </div>
         </div>
         
-        <div class="svg" role="presentation" style="float:center;">
-        		<div class="grails-logo-container">
-            		<asset:image src="Product-7.png" class="grails-logo" width="900" height="275"/>
-            		<!--  <asset:image src="surveys.png" class="grails-logo"/> -->
-        	</div>
-    		</div>
-    		
         </section>
         </div>
     </body>
