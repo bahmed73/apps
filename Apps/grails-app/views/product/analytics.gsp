@@ -80,9 +80,9 @@
 														<span >!</span>
 													</header>
 													<br><br>
-													<p style="font-size:24px;">Watch social media traffic.</p>
+													<p style="font-size:24px;">Watch social media <g:link class="list" action="index" controller="productView"><span style="color:#8a7e7e;">traffic.</span></g:link></p>
 													<br><br>
-													<p style="font-size:24px;">See referrer traffic data charts.</p>
+													<p style="font-size:24px;">See <g:link class="list" action="index" controller="view"><span style="color:#8a7e7e;">referrer traffic</span></g:link> data charts.</p>
 													<br><br>
 													<p style="font-size:24px;">Watch real-time buyer conversion success ratio.</p>
 													<br><br>
