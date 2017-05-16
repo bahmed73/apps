@@ -86,7 +86,7 @@
 													<br><br>
 													<p style="font-size:24px;">Watch real-time buyer conversion success ratio.</p>
 													<br><br>
-													<p style="font-size:24px;">Measure which products are most successful!</p>
+													<p style="font-size:24px;"><g:link class="list" action="index" controller="appType"><span style="color:#8a7e7e;">Measure</span></g:link> which products are most successful!</p>
 													<br><br>
 													<p style="font-size:24px;">Increase customers engagement month over month.</p>
 													<br><br>

@@ -10,10 +10,19 @@ class AppController {
 
     def index(Integer max) {
         params.max = Math.min(max ?: 10, 100)
+		
+		def appViews = View.findAll()
+		System.out.println("appViews = " + appViews)
+		
+		
+		def appList2 = App.list(params)
+		System.out.println("appList2 = " + appList2)
+		
         respond App.list(params), model:[appCount: App.count()]
     }
 
     def show(App app) {
+		addView(app, request.getRemoteAddr())
         respond app
     }
 
@@ -104,4 +113,14 @@ class AppController {
             '*'{ render status: NOT_FOUND }
         }
     }
+	
+	protected void addView(App app, String ip) {
+		def view = new View()
+		view.status = 1
+		view.app = app
+		view.createTime = new Date()
+		view.ip = ip
+		
+		view.save flush:true
+	}
 }
