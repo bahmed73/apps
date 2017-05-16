@@ -9,12 +9,12 @@
     <div>
         <section class="row colset-2-its">
         <a href="#show-question" class="skip" tabindex="-1"><g:message code="default.link.skip.label" default="Skip to content&hellip;"/></a>
-        <div class="svg" role="presentation" style="float:center;">
-        		<div class="grails-logo-container">
-            		<asset:image src="foodal-homepage.png" class="grails-logo" width="900" height="275"/>
-            		<!--  <asset:image src="surveys.png" class="grails-logo"/> -->
-        	</div>
-    		</div>
+        <div class="nav" role="navigation">
+            <ul>
+                <li><a class="home" href="${createLink(uri: '/')}"><g:message code="default.home.label"/></a></li>
+                <li><g:link class="create" action="create"><g:message code="default.new.label" args="[entityName]" /></g:link></li>
+            </ul>
+        </div>
     		
     	<br><br>	
         
