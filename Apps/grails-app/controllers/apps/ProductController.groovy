@@ -130,4 +130,14 @@ class ProductController {
 		
 		view.save flush:true
 	}
+	
+	protected void addProductView(Product product, String ip) {
+		def view = new ProductView()
+		view.status = 1
+		view.product = product
+		view.createTime = new Date()
+		view.ip = ip
+		
+		view.save flush:true
+	}
 }
