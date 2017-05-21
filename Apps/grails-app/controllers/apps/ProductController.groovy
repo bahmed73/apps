@@ -9,7 +9,9 @@ class ProductController {
     static allowedMethods = [save: "POST", update: "PUT", delete: "DELETE"]
 
     def index(Integer max) {
-		System.out.println("1")
+		params.max = Math.min(max ?: 10, 100)
+		respond AppType.list(params), model:[appTypeCount: AppType.count()]
+		/*System.out.println("1")
 		
         params.max = Math.min(max ?: 10, 100)
 		System.out.println("2")
@@ -24,8 +26,28 @@ class ProductController {
 		def test="test"
 		
         respond Product.list(params), model:[productCount: Product.count(), productViews: productViews, productList2: productList2, test:test]
+        */
     }
 
+	
+	def listing(Integer max) {
+		System.out.println("1")
+		
+		params.max = Math.min(max ?: 10, 100)
+		System.out.println("2")
+		
+		def productViews = ProductView.findAll()
+		System.out.println("3: productViews = " + productViews)
+		
+		
+		def productList2 = Product.list(params)
+		System.out.println("4: productList2 = " + productList2)
+		
+		def test="test"
+		
+		respond Product.list(params), model:[productCount: Product.count(), productViews: productViews, productList2: productList2, test:test]
+	}
+	
     def show(Product product) {
 		addProductView(product, request.getRemoteAddr())
         respond product

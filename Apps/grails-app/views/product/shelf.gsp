@@ -81,7 +81,7 @@
 														<span >!</span>
 													</header>
 													<br><br>
-													<p style="font-size:24px;">Upload pictures of your <g:link class="list" action="index" controller="product"><span style="color:#8a7e7e;">products.</span></g:link></p>
+													<p style="font-size:24px;">Upload pictures of your <g:link class="list" action="index" controller="products"><span style="color:#8a7e7e;">products.</span></g:link></p>
 													<br><br>
 													<p style="font-size:24px;">Add name, price and description.</p>
 													<br><br>
