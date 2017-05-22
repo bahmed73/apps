@@ -3,11 +3,11 @@ package apps
 import grails.transaction.Transactional
 import com.stripe.model.*
 import com.stripe.exception.*
+import com.stripe.Stripe
 
 @Transactional
 class PaymentService {
 
-	//Set Stripe Secret/Api Key
 	def stripeSecret = "sk_test_5i1QWnJC2wtuzSZ9s4nUcpVU"
 	def stripePublishable = "pk_test_VBLyN579809ToN0y2VA4VXG8"
 	
@@ -16,6 +16,8 @@ class PaymentService {
     }
 	
 	def charge(String stripeToken, Double amount) {
+		Stripe.apiKey = "sk_test_5i1QWnJC2wtuzSZ9s4nUcpVU"
+		
         def amountInCents = (amount * 100) as Integer
 
         def chargeParams = [

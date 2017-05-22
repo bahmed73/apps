@@ -73,7 +73,7 @@ $(document).ready(function(){
 		$cardExpYear = $('#exp_year'),
 		$checkoutForm = $('#checkout_form');
 
-	Stripe.setPublishableKey("YOUR STRIPE PUBLISHABLE KEY");
+	Stripe.setPublishableKey("pk_test_VBLyN579809ToN0y2VA4VXG8");
 
 	$('#submit').click(checkCreditCardValues);
 	

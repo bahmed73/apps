@@ -24,6 +24,19 @@
             <h1><b>Product:</b></h1>
             <h1><i><f:display bean="products" property="name"/></i></h1>
             <h1><f:display bean="products" property="price"/></h1>
+            
+            <form action="checkout" controller="checkout" method="POST">
+			<script
+  			src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+  			data-key="pk_test_VBLyN579809ToN0y2VA4VXG8"
+  			data-amount="2000"
+  			data-name="Demo Site"
+  			data-description="2 widgets"
+  			data-image="https://stripe.com/img/documentation/checkout/marketplace.png"
+  			data-locale="auto">
+			</script>
+			</form>
+
             <g:form resource="${this.products}" method="DELETE">
                 <fieldset class="buttons">
                     <g:link class="edit" action="edit" resource="${this.products}"><g:message code="default.button.edit.label" default="Edit" /></g:link>
