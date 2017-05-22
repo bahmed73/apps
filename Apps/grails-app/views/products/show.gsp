@@ -19,6 +19,7 @@
             <g:if test="${flash.message}">
             <div class="message" role="status">${flash.message}</div>
             </g:if>
+            <asset:image src="PRODUCTS_${products.id}-03"/>
             <f:display bean="products" />
             <g:form resource="${this.products}" method="DELETE">
                 <fieldset class="buttons">

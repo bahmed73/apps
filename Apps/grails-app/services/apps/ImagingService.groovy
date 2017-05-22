@@ -315,10 +315,11 @@ class ImagingService {
 		 */
 		public static String generate650x650(ImagePlus image, String input) throws Exception {
 			
-			int fileType = getFileType(input);
+			int fileType = 0;
+			/*int fileType = getFileType(input);
 			if (fileType == FILETYPE_UNKNOWN) {
 				throw new Exception();
-			}
+			}*/
 	
 			//int dimensions[]    = image.getDimensions();
 			//int width           = dimensions[0];
@@ -360,17 +361,21 @@ class ImagingService {
 		 */
 		public static String generateOriginal(ImagePlus image, String input) throws Exception {
 			
-			int fileType = getFileType(input);
+			int fileType = 0;
+			/*int fileType = getFileType(input);
 			if (fileType == FILETYPE_UNKNOWN) {
 				throw new Exception();
-			}
+			}*/
 	
 	//      int dimensions[]    = image.getDimensions();
 			//int width           = dimensions[0];
 			//int height          = dimensions[1];
 			int width = image.getDimensions()[0]
 			int height = image.getDimensions()[1]
-			String output = input.substring(0, input.lastIndexOf('.'))+"-03."+getFileTypeStr(input);
+			//String output = input.substring(0, input.lastIndexOf('.'))+"-03."+getFileTypeStr(input);
+			
+			String output = input + "-03";
+			
 			try {
 				float compareFrequency = 0.2F
 				float megaLength    = 0;

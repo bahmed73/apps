@@ -1,10 +1,13 @@
 package apps
 
 import grails.transaction.Transactional
+import ij.ImagePlus
 
 @Transactional
 class AppsService {
 
+	def imagingService
+	
     def serviceMethod() {
 
     }
@@ -72,4 +75,27 @@ class AppsService {
 		
 		view.save flush:true
 	}
+	
+	def uploadProductPhoto(File file) {
+		println "inside uploadProductPhoto"
+		
+		String fileName = file.getAbsolutePath()
+		
+		println "inside $fileName"
+		
+		ImagePlus image = imagingService.openImagePlus(fileName);
+		try {
+			imagingService.generate100x100(image, fileName, true);
+			imagingService.generate50x50(image, fileName, true);
+			imagingService.generateOriginal(image, fileName);
+		} catch (Exception e) {
+			
+			log.error("uploadProductPhoto: error generating images")
+			println "uploadProductPhoto: error generating images"
+			e.printStackTrace()
+			
+		}
+		
+	}
+
 }

@@ -44,6 +44,37 @@ class ProductsController {
 
         products.save flush:true
 
+		try {
+			def transferFile = request.getFile('myFile')
+			if(transferFile != null && !transferFile.empty) {
+				println "file is not empty, transferring"
+				String fileName
+
+				switch (grails.util.Environment.current) {
+				case grails.util.Environment.DEVELOPMENT:
+						fileName = "C:\\development\\workspace\\Apps\\grails-app\\assets\\images\\PRODUCTS_"+products.id
+						System.out.println("fileName = " + fileName)
+						File file = new File(fileName)
+						transferFile.transferTo( file )
+						appsService.uploadProductPhoto(file)
+						break
+				case grails.util.Environment.PRODUCTION:
+						fileName = "C:\\development\\workspace\\Apps\\grails-app\\assets\\images\\PRODUCTS_"+products.id
+						System.out.println("fileName = " + fileName)
+						File file = new File(fileName)
+						transferFile.transferTo( file )
+						appsService.uploadProductPhoto(file)
+						break
+				}
+
+			}
+			else {
+			   println "file is empty"
+			}
+		} catch (Exception e) {
+				e.printStackTrace( )
+		}
+		
         request.withFormat {
             form multipartForm {
                 flash.message = message(code: 'default.created.message', args: [message(code: 'products.label', default: 'Products'), products.id])
@@ -73,6 +104,34 @@ class ProductsController {
 
         products.save flush:true
 
+		try {
+			def transferFile = request.getFile('myFile')
+			if(transferFile != null && !transferFile.empty) {
+				println "file is not empty, transferring"
+				String fileName
+
+				switch (grails.util.Environment.current) {
+				case grails.util.Environment.TEST:
+						fileName = "C:\\development\\workspace\\Apps\\grails-app\\assets\\images\\PRODUCTS_"+products.id
+						File file = new File(fileName)
+						transferFile.transferTo( file )
+						appsService.uploadProductPhoto(file)
+						break
+				case grails.util.Environment.PRODUCTION:
+						fileName = "C:\\development\\workspace\\Apps\\grails-app\\assets\\images\\PRODUCTS_"+products.id
+						File file = new File(fileName)
+						transferFile.transferTo( file )
+						appsService.uploadProductPhoto(file)
+						break
+				}
+
+			}
+			else {
+			   println "file is empty"
+			}
+		} catch (Exception e) {
+				e.printStackTrace( )
+		} 
         request.withFormat {
             form multipartForm {
                 flash.message = message(code: 'default.updated.message', args: [message(code: 'products.label', default: 'Products'), products.id])
