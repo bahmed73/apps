@@ -80,17 +80,13 @@
 														<span >!</span>
 													</header>
 													<br><br>
-													<p style="font-size:24px;">Watch social media <g:link class="list" action="index" controller="productView"><span style="color:#8a7e7e;">traffic.</span></g:link></p>
+													<p style="font-size:24px;">Watch social media <g:link class="list" action="index" controller="productView"><span style="color:#8a7e7e;">traffic to your product page,</span></g:link> who came by location.</p>
 													<br><br>
-													<p style="font-size:24px;">See <g:link class="list" action="index" controller="view"><span style="color:#8a7e7e;">referrer traffic</span></g:link> data charts.</p>
+													<p style="font-size:24px;">See <g:link class="list" action="index" controller="productReferer"><span style="color:#8a7e7e;">referrer traffic,</span></g:link> from which website the traffic came from.</p>
 													<br><br>
-													<p style="font-size:24px;">Watch real-time buyer conversion success ratio.</p>
-													<br><br>
-													<p style="font-size:24px;"><g:link class="list" action="index" controller="appType"><span style="color:#8a7e7e;">Measure</span></g:link> which products are most successful!</p>
+													<p style="font-size:24px;">Watch real-time buyer conversion success ratio for your shelf, by products and data.</p>
 													<br><br>
 													<p style="font-size:24px;">Increase customers engagement month over month.</p>
-													<br><br>
-													<p style="font-size:24px;">Use real-time data to measure best selling products.</p>
 													<br><br>
 													<footer class="actions">
 														<a href="mailto:bilal.ahmed@foodal.co" class="button fa fa-file-text">Email us today!</a>

@@ -26,10 +26,17 @@
                 </g:eachError>
             </ul>
             </g:hasErrors>
-            <g:form resource="${this.products}" method="PUT">
+            <g:form resource="${this.products}" method="POST" enctype="multipart/form-data">
                 <g:hiddenField name="version" value="${this.products?.version}" />
                 <fieldset class="form">
                     <f:all bean="products"/>
+                </fieldset>
+                <fieldset>
+                	<div style="float:left;width:50" class="post"><h4>Upload Product Image (JPG):</h4></div>
+              				Please be patient while the file uploads.<br>
+              		<div>
+                  <input type="file" name="myFile" />
+              </div>	
                 </fieldset>
                 <fieldset class="buttons">
                     <input class="save" type="submit" value="${message(code: 'default.button.update.label', default: 'Update')}" />

@@ -3,7 +3,6 @@ package apps
 class App {
 
 //Long id
-        Integer status
         Date createTime
         String name
         String description
@@ -12,7 +11,6 @@ class App {
 
     static constraints = {
                 //id(nullable:true)
-                status(nullable:false)
                 createTime(nullable:false)
                 name(nullable:false, maxSize:500)
                 description(nullable:false, maxSize:50000)
