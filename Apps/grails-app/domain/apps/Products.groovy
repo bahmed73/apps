@@ -12,6 +12,7 @@ class Products {
 		String price
 		String shippingInfo
 		String returnPolicy
+		User user
 
     static constraints = {
                 //id(nullable:true)
@@ -24,6 +25,7 @@ class Products {
 				price(nullable:false)
 				shippingInfo(nullable:true)
 				returnPolicy(nullable:true)
+				user(nullable:false)
     }
 
         static mapping = {

@@ -3,6 +3,7 @@ package apps
 import static org.springframework.http.HttpStatus.*
 import grails.transaction.Transactional
 import grails.plugin.springsecurity.annotation.Secured
+import java.security.Principal
 //import grails.plugin.springsecurity.annotation.Secured
 
 @Secured('ROLE_ADMIN')
@@ -42,6 +43,12 @@ class ProductsController {
             return
         }
 
+		Principal principal = request.getUserPrincipal();
+        System.out.println("principal name" + principal.getName())
+		
+		def user = User.findByUsername(principal.getName())
+		products.user = user
+		
         products.save flush:true
 
 		try {
@@ -102,6 +109,12 @@ class ProductsController {
             return
         }
 
+		Principal principal = request.getUserPrincipal();
+		System.out.println("principal name" + principal.getName())
+		
+		def user = User.findByUsername(principal.getName())
+		products.user = user
+		
         products.save flush:true
 
 		try {
