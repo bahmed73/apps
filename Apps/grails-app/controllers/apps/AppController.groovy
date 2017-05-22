@@ -8,6 +8,8 @@ import grails.plugin.springsecurity.annotation.Secured
 
 class AppController {
 
+	def appsService
+	
     static allowedMethods = [save: "POST", update: "PUT", delete: "DELETE"]
 
     def index(Integer max) {
@@ -24,7 +26,8 @@ class AppController {
     }
 
     def show(App app) {
-		addView(app, request.getRemoteAddr())
+		appsService.addView(app, request.getRemoteAddr())
+		appsService.trackAppReferer(request.getHeader("REFERER"), app)
         respond app
     }
 

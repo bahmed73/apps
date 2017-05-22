@@ -9,6 +9,8 @@ import grails.plugin.springsecurity.annotation.Secured
 //@Transactional(readOnly = true)
 class ProductsController {
 
+	def appsService
+	
     static allowedMethods = [save: "POST", update: "PUT", delete: "DELETE"]
 
     def index(Integer max) {
@@ -17,6 +19,8 @@ class ProductsController {
     }
 
     def show(Products products) {
+		appsService.addProductView(products, request.getRemoteAddr())
+		appsService.trackProductReferer(request.getHeader("REFERER"), products)
         respond products
     }
 

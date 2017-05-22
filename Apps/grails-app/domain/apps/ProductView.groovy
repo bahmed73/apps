@@ -6,14 +6,14 @@ class ProductView {
         Integer status
         Date createTime
         String ip
-        Product product
+        Products products
 
     static constraints = {
                 //id(nullable:true)
                 status(nullable:false)
                 createTime(nullable:false)
                 ip(nullable:false, maxSize:20)
-                product(nullable:false)
+                products(nullable:false)
     }
 
         static mapping = {
