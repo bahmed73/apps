@@ -1,12 +1,16 @@
 package apps
 
 import grails.transaction.Transactional
-import com.stripe.model.Charge
-import com.stripe.exception.CardException
+import com.stripe.model.*
+import com.stripe.exception.*
 
 @Transactional
 class PaymentService {
 
+	//Set Stripe Secret/Api Key
+	def stripeSecret = "sk_test_5i1QWnJC2wtuzSZ9s4nUcpVU"
+	def stripePublishable = "pk_test_VBLyN579809ToN0y2VA4VXG8"
+	
     def serviceMethod() {
 
     }
@@ -18,7 +22,7 @@ class PaymentService {
             'amount': amountInCents, 
             'currency': 'usd', 
             'card': stripeToken, 
-            'description': 'customer@sample.org'
+            'description': 'bilal.ahmed@foodal.co'
         ]
 
         def status
