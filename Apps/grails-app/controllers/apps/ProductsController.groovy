@@ -101,7 +101,17 @@ class ProductsController {
     }
 
     def edit(Products products) {
-        respond products
+		
+		def user = springSecurityService.currentUser
+		System.out.println("username = " + user.username)
+		
+		if (products.user == user) {
+			respond products
+		} else {
+		flash.message ="Access denied."
+			redirect action:"index", method:"GET"
+			return
+		}
     }
 
     @Transactional
@@ -122,6 +132,13 @@ class ProductsController {
 		System.out.println("principal name" + principal.getName())
 		
 		def user = User.findByUsername(principal.getName())
+		
+		if (products.user != user) {
+			flash.message ="Access denied."
+			redirect action:"index", method:"GET"
+			return
+		}
+		
 		products.user = user
 		
         products.save flush:true
@@ -172,6 +189,15 @@ class ProductsController {
             return
         }
 
+		def user = springSecurityService.currentUser
+		System.out.println("username = " + user.username)
+		
+		if (products.user != user) {
+			flash.message ="Access denied."
+			redirect action:"index", method:"GET"
+			return
+		}
+		
         products.delete flush:true
 
         request.withFormat {
