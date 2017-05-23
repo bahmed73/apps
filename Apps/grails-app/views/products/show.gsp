@@ -6,6 +6,8 @@
         <title><g:message code="default.show.label" args="[entityName]" /></title>
     </head>
     <body>
+    <div>
+     <section class="row colset-2-its">
         <a href="#show-products" class="skip" tabindex="-1"><g:message code="default.link.skip.label" default="Skip to content&hellip;"/></a>
         <div class="nav" role="navigation">
             <ul>
@@ -14,16 +16,23 @@
                 <li><g:link class="create" action="create"><g:message code="default.new.label" args="[entityName]" /></g:link></li>
             </ul>
         </div>
-        <div style="float:left;width:650px">
         <div id="show-products" class="content scaffold-show" role="main">
             <h1><g:message code="default.show.label" args="[entityName]" /></h1>
             <g:if test="${flash.message}">
             <div class="message" role="status">${flash.message}</div>
             </g:if>
-            <asset:image src="PRODUCTS_${products.id}-03"/>
-            <h1><b>Product:</b></h1>
-            <h1><i><f:display bean="products" property="name"/></i></h1>
-            <h1><f:display bean="products" property="price"/></h1>
+            <div style="float: left; border:1px solid #ccc;zoom:1;">
+            <div style="margin:30px;">
+            <h2>Name: <i><b><f:display bean="products" property="name"/></i></b></h2>
+            <h1>Price: <i><b>$<f:display bean="products" property="price"/></i></b></h1>
+            <br><br>
+            <h4>Description: <f:display bean="products" property="description"/></h4><br>
+            <h4>Size: <f:display bean="products" property="productSize"/></h4><br>
+            <h4>Color: <f:display bean="products" property="productColor"/></h4>
+            <br>
+            <h2>Shipping Info: <f:display bean="products" property="shippingInfo"/></h2>
+            <h2>Return Policy: <f:display bean="products" property="returnPolicy"/></h2>
+            <br><br>
             
             <form action="checkout" controller="checkout" method="POST">
 			<script
@@ -42,13 +51,22 @@
 			</script>
 			</form>
 
+			<br><br>
+			</div>
             <g:form resource="${this.products}" method="DELETE">
                 <fieldset class="buttons">
                     <g:link class="edit" action="edit" resource="${this.products}"><g:message code="default.button.edit.label" default="Edit" /></g:link>
                     <input class="delete" type="submit" value="${message(code: 'default.button.delete.label', default: 'Delete')}" onclick="return confirm('${message(code: 'default.button.delete.confirm.message', default: 'Are you sure?')}');" />
                 </fieldset>
             </g:form>
+            </div>
+            
+            <div style="float: left; font-size:16px;margin:25px;margin-left:50px;">
+            <asset:image src="PRODUCTS_${products.id}-03"/>
+            </div>
+            
         </div>
+        </section>
         </div>
     </body>
 </html>
