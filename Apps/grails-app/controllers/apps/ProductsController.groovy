@@ -26,8 +26,9 @@ class ProductsController {
         respond productsList
     }
 
+	@Secured(['IS_AUTHENTICATED_ANONYMOUSLY'])
     def show(Products products) {
-		def user = springSecurityService.currentUser
+		def user = products.user
 		
 		appsService.addProductView(products, request.getRemoteAddr(), user)
 		appsService.trackProductReferer(request.getHeader("REFERER"), products, user)
