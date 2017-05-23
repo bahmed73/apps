@@ -11,12 +11,18 @@ import java.security.Principal
 class ProductsController {
 
 	def appsService
+	def springSecurityService
 	
     static allowedMethods = [save: "POST", update: "PUT", delete: "DELETE"]
 
     def index(Integer max) {
         params.max = Math.min(max ?: 10, 100)
-        respond Products.list(params), model:[productsCount: Products.count()]
+		
+		def user = springSecurityService.currentUser
+		System.out.println("username = " + user.username)
+		
+		def productsList = Products.findAllByUser(user)
+        respond productsList
     }
 
     def show(Products products) {
