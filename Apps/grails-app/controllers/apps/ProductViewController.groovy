@@ -8,11 +8,19 @@ import grails.plugin.springsecurity.annotation.Secured
 
 class ProductViewController {
 
+	def springSecurityService
+	
     static allowedMethods = [save: "POST", update: "PUT", delete: "DELETE"]
 
     def index(Integer max) {
         params.max = Math.min(max ?: 10, 100)
-        respond ProductView.list(params), model:[productViewCount: ProductView.count()]
+		
+		def user = springSecurityService.currentUser
+		System.out.println("username = " + user.username)
+		
+		def productViewList = ProductView.findAllByUser(user)
+		
+        respond productViewList
     }
 
     def show(ProductView productView) {

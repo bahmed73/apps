@@ -9,12 +9,20 @@ import grails.plugin.springsecurity.annotation.Secured
 @Secured('ROLE_ADMIN')
 class ProductRefererController {
 
+	def springSecurityService
+	
     static allowedMethods = [save: "POST", update: "PUT", delete: "DELETE"]
 
     def index(Integer max) {
         params.max = Math.min(max ?: 10, 100)
-        respond ProductReferer.list(params), model:[productRefererCount: ProductReferer.count()]
-    }
+		
+		def user = springSecurityService.currentUser
+		System.out.println("username = " + user.username)
+		
+		def productRefererList = ProductReferer.findAllByUser(user)
+		
+		respond productRefererList
+	}
 
     def show(ProductReferer productReferer) {
         respond productReferer

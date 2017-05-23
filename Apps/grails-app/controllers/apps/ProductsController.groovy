@@ -26,9 +26,12 @@ class ProductsController {
     }
 
     def show(Products products) {
-		appsService.addProductView(products, request.getRemoteAddr())
-		appsService.trackProductReferer(request.getHeader("REFERER"), products)
-        respond products
+		def user = springSecurityService.currentUser
+		
+		appsService.addProductView(products, request.getRemoteAddr(), user)
+		appsService.trackProductReferer(request.getHeader("REFERER"), products, user)
+		def productViews = ProductView.countByProducts(products)
+        respond products, model:[productViews: productViews]
     }
 
     def create() {

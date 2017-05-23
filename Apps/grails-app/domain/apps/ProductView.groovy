@@ -7,6 +7,7 @@ class ProductView {
         Date createTime
         String ip
         Products products
+		User user
 
     static constraints = {
                 //id(nullable:true)
@@ -14,6 +15,7 @@ class ProductView {
                 createTime(nullable:false)
                 ip(nullable:false, maxSize:20)
                 products(nullable:false)
+				user(nullable:false)
     }
 
         static mapping = {

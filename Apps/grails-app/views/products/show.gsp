@@ -22,18 +22,28 @@
             <div class="message" role="status">${flash.message}</div>
             </g:if>
             <div style="float: left; border:1px solid #ccc;zoom:1;">
-            <div style="margin:30px;">
-            <h2>Name: <i><b><f:display bean="products" property="name"/></i></b></h2>
+            <div style="float:left; margin:30px;">
+            <div style="float:left;margin:10px;border:1px solid #ccc;zoom:1;">
+             <div style="float: left; font-size:16px;margin:25px;margin-left:50px;">
+            <asset:image src="PRODUCTS_${products.id}-03"/>
+            </div>
+            <h1>Name: <i><b><f:display bean="products" property="name"/></i></b></h1>
             <h1>Price: <i><b>$<f:display bean="products" property="price"/></i></b></h1>
+            <h1>Views: ${productViews}</h1>
+            </div>
             <br><br>
+            <div style="float:left">
+            <br>
             <h4>Description: <f:display bean="products" property="description"/></h4><br>
             <h4>Size: <f:display bean="products" property="productSize"/></h4><br>
             <h4>Color: <f:display bean="products" property="productColor"/></h4>
             <br>
             <h2>Shipping Info: <f:display bean="products" property="shippingInfo"/></h2>
             <h2>Return Policy: <f:display bean="products" property="returnPolicy"/></h2>
-            <br><br>
-            
+            <br>
+            </div>
+            <div style="float:left">
+            <br>
             <form action="checkout" controller="checkout" method="POST">
 			<script
   			src="https://checkout.stripe.com/checkout.js" class="stripe-button"
@@ -53,6 +63,7 @@
 
 			<br><br>
 			</div>
+			</div>
             <g:form resource="${this.products}" method="DELETE">
                 <fieldset class="buttons">
                     <g:link class="edit" action="edit" resource="${this.products}"><g:message code="default.button.edit.label" default="Edit" /></g:link>
@@ -61,9 +72,7 @@
             </g:form>
             </div>
             
-            <div style="float: left; font-size:16px;margin:25px;margin-left:50px;">
-            <asset:image src="PRODUCTS_${products.id}-03"/>
-            </div>
+           
             
         </div>
         </section>

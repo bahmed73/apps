@@ -13,7 +13,7 @@ class AppsService {
     }
 	
 	//trackProductReferer(request.getHeader("REFERER"), products)
-	def trackProductReferer(String referer, Products products) {
+	def trackProductReferer(String referer, Products products, User user) {
 		
 		try {
 		
@@ -22,6 +22,7 @@ class AppsService {
 				productRefererInstance.referer=referer
 				productRefererInstance.createTime=new Date()
 				productRefererInstance.products = products
+				productRefererInstance.user = user
 				if(!productRefererInstance.hasErrors() && productRefererInstance.save()) {
 					System.out.println("productRefererInstance saved")
 				} else {
@@ -66,12 +67,13 @@ class AppsService {
 		view.save flush:true
 	}
 	
-	def addProductView(Products products, String ip) {
+	def addProductView(Products products, String ip, User user) {
 		def view = new ProductView()
 		view.status = 1
 		view.products = products
 		view.createTime = new Date()
 		view.ip = ip
+		view.user = user
 		
 		view.save flush:true
 	}
