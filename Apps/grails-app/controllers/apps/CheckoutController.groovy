@@ -31,7 +31,7 @@ class CheckoutController {
 	
 	def checkout() {
 		System.out.println("Inside checkout")
-		try {
+		/*try {
 			def amount = Double.parseDouble(params.amount)
 			def token = params.stripeToken
 			
@@ -52,7 +52,7 @@ class CheckoutController {
 		} catch (Exception e) {
 			flash.message = "Something went wrong ..."
 			println("Status is: " + e.printStackTrace());
-		}
+		}*/
 	}
 	
     @Transactional

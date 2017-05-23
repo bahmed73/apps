@@ -29,9 +29,14 @@
 			<script
   			src="https://checkout.stripe.com/checkout.js" class="stripe-button"
   			data-key="pk_test_VBLyN579809ToN0y2VA4VXG8"
-  			data-amount="2000"
-  			data-name="Demo Site"
-  			data-description="2 widgets"
+  			data-amount="${products.price}"
+  			data-name="foodal"
+  			data-description="${products.name}"
+  			data-zip-code="true"
+  			data-shipping-address="true"
+  			data-billing-address="true"
+  			
+  			
   			data-image="https://stripe.com/img/documentation/checkout/marketplace.png"
   			data-locale="auto">
 			</script>
