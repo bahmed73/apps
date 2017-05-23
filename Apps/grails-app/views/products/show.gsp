@@ -24,9 +24,9 @@
             <div class="message" role="status">${flash.message}</div>
             </g:if>
             <div style="float: left; border:1px solid #ccc;zoom:1;">
-            <div style="float:left; margin:30px;">
+            <div style="float:left; margin:150px;">
             <div style="float:left;margin:10px;border:1px solid #ccc;zoom:1;">
-             <div style="float: left; font-size:16px;margin:25px;margin-left:50px;">
+             <div style="float: left; font-size:16px;margin:100px;">
             <asset:image src="PRODUCTS_${products.id}-03"/>
             </div>
             <h1>Name: <i><b><f:display bean="products" property="name"/></i></b></h1>

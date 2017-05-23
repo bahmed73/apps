@@ -12,6 +12,7 @@ class ProductsController {
 
 	def appsService
 	def springSecurityService
+	def mailService
 	
     static allowedMethods = [save: "POST", update: "PUT", delete: "DELETE"]
 
@@ -60,6 +61,14 @@ class ProductsController {
 		
         products.save flush:true
 
+		/*
+		mailService.sendMail {
+			to "bilal.ahmed@foodal.co"
+			from "bilal.ahmed@foodal.co"
+			subject "New Product"
+			text "A new product has been created"
+		}*/
+		
 		try {
 			def transferFile = request.getFile('myFile')
 			if(transferFile != null && !transferFile.empty) {

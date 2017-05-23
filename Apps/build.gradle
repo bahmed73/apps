@@ -61,6 +61,7 @@ dependencies {
 	compile 'org.grails.plugins:spring-security-core:3.0.4'
 	compile fileTree(dir:'lib', include:'*.jar')
 	//runtime files('lib/ij.jar')
+	compile "org.grails.plugins:mail:2.0.0.RC6"
 }
 
 bootRun {
