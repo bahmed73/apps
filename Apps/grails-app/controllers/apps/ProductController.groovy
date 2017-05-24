@@ -8,6 +8,8 @@ import grails.plugin.springsecurity.annotation.Secured
 
 class ProductController {
 
+	def springSecurityService
+	
     static allowedMethods = [save: "POST", update: "PUT", delete: "DELETE"]
 
     def index(Integer max) {
@@ -32,22 +34,46 @@ class ProductController {
     }
 
 	
-	def listing(Integer max) {
-		System.out.println("1")
+	def listing() {
+		System.out.println("listing")
+		def user = springSecurityService.currentUser
+		System.out.println("username = " + user.username)
 		
-		params.max = Math.min(max ?: 10, 100)
-		System.out.println("2")
+		def productRefererList = ProductReferer.findAllByUser(user)
+		def productRefererInstanceTotal = ProductReferer.countByUser(user)
+		def productRefererInstanceList = ProductReferer.findAllByUser(user)
 		
-		def productViews = ProductView.findAll()
-		System.out.println("3: productViews = " + productViews)
+		def productRefererMap
 		
-		
-		def productList2 = Product.list(params)
-		System.out.println("4: productList2 = " + productList2)
-		
-		def test="test"
-		
-		respond Product.list(params), model:[productCount: Product.count(), productViews: productViews, productList2: productList2, test:test]
+		if (productRefererList != null && !productRefererList.isEmpty()) {
+			System.out.println("we have referers")
+			productRefererMap = new HashMap<String, Integer>()
+			for (int i=0; i<productRefererList.size(); i++ ) {
+					def referer
+					if (productRefererList.get(i).referer.contains("http://")) {
+							referer = productRefererList.get(i).referer.substring(7)
+					}
+
+					def index = referer.indexOf('/')
+
+					if (index > 0) {
+							referer = referer.substring(0, index)
+					}
+
+					if (productRefererMap.get(referer)!=null) {
+							//exists, increment count
+							def countRef = productRefererMap.get(referer)
+							productRefererMap.remove(referer)
+							productRefererMap.put(referer, countRef+1)
+					} else {
+							productRefererMap.put(referer, 1)
+					}
+			}
+		}
+		System.out.println("productRefererMap = " + productRefererMap.size())
+		System.out.println("productRefererInstanceTotal = " + productRefererInstanceTotal)
+		System.out.println("productRefererInstanceList = " + productRefererInstanceList.size())
+		//respond productRefererMap, model:[productRefererMap: productRefererMap, productRefererInstanceTotal: productRefererInstanceTotal, productRefererInstanceList: productRefererInstanceList]
 	}
 	
     def show(Product product) {
@@ -68,6 +94,7 @@ class ProductController {
 	}
 	
 	def analytics() {
+		System.out.println("inside analytics")
 		App app = App.findByName("foodal")
 		
 		if (app != null) {
