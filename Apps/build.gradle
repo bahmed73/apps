@@ -62,6 +62,7 @@ dependencies {
 	compile fileTree(dir:'lib', include:'*.jar')
 	//runtime files('lib/ij.jar')
 	compile "org.grails.plugins:mail:2.0.0.RC6"
+	compile 'com.jameskleeh:excel-builder:0.4.0'
 }
 
 bootRun {

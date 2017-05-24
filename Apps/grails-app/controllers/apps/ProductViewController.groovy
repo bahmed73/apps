@@ -4,8 +4,9 @@ import static org.springframework.http.HttpStatus.*
 import grails.transaction.Transactional
 
 import grails.plugin.springsecurity.annotation.Secured
-@Secured('ROLE_ADMIN')
+import com.jameskleeh.excel.ExcelBuilder
 
+@Secured('ROLE_ADMIN')
 class ProductViewController {
 
 	def springSecurityService
@@ -23,6 +24,37 @@ class ProductViewController {
         respond productViewList
     }
 
+	def export() {
+		System.out.println("inside export")
+		def filename = "C:\\development\\workspace\\Apps\\grails-app\\assets\\images\\test.xlsx"
+		File file = new File(filename)
+		
+		def user = springSecurityService.currentUser
+		System.out.println("username = " + user.username)
+		
+		def productViewList = ProductView.findAllByUser(user)
+		
+		ExcelBuilder.output(new FileOutputStream(file)) {
+			sheet {
+				if (productViewList!=null && !productViewList.isEmpty()) {
+					for (int i=0; i<productViewList.size(); i++) {
+						row(productViewList.get(i).ip, productViewList.get(i).products.name)
+					}
+				} else {
+					row("china", "india")
+					row("russia", "pakistan")
+				}
+			}
+		}
+		
+		//render (file: new File(result), fileName: "TemplateSQL.met", contentType: "text/met")
+		
+		response.setContentType("application/octet-stream")
+		response.setHeader("Content-disposition", "attachment; filename=\"" + filename + "\"")
+		response.outputStream << file.newInputStream()
+		return
+	}
+	
     def show(ProductView productView) {
         respond productView
     }

@@ -5,6 +5,7 @@ import grails.transaction.Transactional
 
 import grails.plugin.springsecurity.annotation.Secured
 //import grails.plugin.springsecurity.annotation.Secured
+import com.jameskleeh.excel.ExcelBuilder
 
 @Secured('ROLE_ADMIN')
 class ProductRefererController {
@@ -24,6 +25,37 @@ class ProductRefererController {
 		respond productRefererList
 	}
 
+	def export() {
+		System.out.println("inside export")
+		def filename = "C:\\development\\workspace\\Apps\\grails-app\\assets\\images\\test.xlsx"
+		File file = new File(filename)
+		
+		def user = springSecurityService.currentUser
+		System.out.println("username = " + user.username)
+		
+		def productRefererList = ProductReferer.findAllByUser(user)
+		
+		ExcelBuilder.output(new FileOutputStream(file)) {
+			sheet {
+				if (productRefererList!=null && !productRefererList.isEmpty()) {
+					for (int i=0; i<productRefererList.size(); i++) {
+						row(productRefererList.get(i).referer, productRefererList.get(i).products.name)
+					}
+				} else {
+					row("china", "india")
+					row("russia", "pakistan")
+				}
+			}
+		}
+		
+		//render (file: new File(result), fileName: "TemplateSQL.met", contentType: "text/met")
+		
+		response.setContentType("application/octet-stream")
+		response.setHeader("Content-disposition", "attachment; filename=\"" + filename + "\"")
+		response.outputStream << file.newInputStream()
+		return
+	}
+	
     def show(ProductReferer productReferer) {
         respond productReferer
     }

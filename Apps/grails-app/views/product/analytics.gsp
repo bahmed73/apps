@@ -119,11 +119,13 @@
 														<span >!</span>
 													</header>
 													<br><br>
-													<p style="font-size:24px;">Watch social media <g:link class="list" action="index" controller="productView"><span style="color:#8a7e7e;">traffic to your product page,</span></g:link> by location.</p>
+													<p style="font-size:24px;">Watch social media <g:link class="list" action="index" controller="productView"><span style="color:#8a7e7e;">traffic to your product page.</span></g:link></p>
 													<br><br>
 													<p style="font-size:24px;">See <g:link class="list" action="index" controller="productReferer"><span style="color:#8a7e7e;">referrer traffic,</span></g:link> from which website.</p>
 													<br><br>
-													<p style="font-size:24px;">Watch real-time buyer conversion success ratio for your shelf, by products and data.</p>
+													<p style="font-size:24px;">Download product referer report <g:link class="list" action="export" controller="productReferer"><span style="color:#8a7e7e;">here.</span></g:link></p>
+													<br><br>
+													<p style="font-size:24px;">Download product view report <g:link class="list" action="export" controller="productView"><span style="color:#8a7e7e;">here.</span></g:link></p>
 													<br><br>
 													<p style="font-size:24px;">See <g:link class="list" action="index" controller="userProfile"><span style="color:#8a7e7e;">Settings.</span></g:link></p>
 													<br><br>
