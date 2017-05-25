@@ -137,7 +137,7 @@
 											</div>
 											<div class="6u">
 												<section class="box">
-													<div id="chart_div"></div>
+													<a href="http://www.homecook.me" class="image image-full"><asset:image src="foodal-homepage-15.png"/></a>
 													<!--header>
 														<h3>Aptent veroeros et aliquam</h3>
 														<span class="byline">Posted 45 minutes ago</span>
