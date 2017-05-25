@@ -26,8 +26,13 @@ class ProductsController {
         respond productsList
     }
 
-	@Secured(['IS_AUTHENTICATED_ANONYMOUSLY'])
+	@Secured(['IS_AUTHENTICATED_ANONYMOUSLY', 'ROLE_ADMIN'])
     def show(Products products) {
+		
+		if (products == null) {
+			redirect action:"index", method:"GET"
+			return
+		}
 		def user = products.user
 		
 		appsService.addProductView(products, request.getRemoteAddr(), user)
@@ -40,6 +45,10 @@ class ProductsController {
         respond new Products(params)
     }
 
+	def checkout() {
+		System.out.println("Inside products.checkout")	
+	}
+	
     @Transactional
     def save(Products products) {
         if (products == null) {
