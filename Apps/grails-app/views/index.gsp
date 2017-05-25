@@ -86,7 +86,7 @@
 													<br><br>
 													<p style="font-size:26px;">Monthly Subscription: $50, if revenue > $50. So it's free.</p>
 													<br><br>
-													<form action="checkout" controller="product" method="POST">
+													<form action="checkout" controller="checkout" method="POST">
 													<script
 										  			src="https://checkout.stripe.com/checkout.js" class="stripe-button"
 										  			data-key="pk_test_VBLyN579809ToN0y2VA4VXG8"
