@@ -80,11 +80,13 @@
 														<span >!</span>
 													</header>
 													<br><br>
-													<p style="font-size:26px;">Start a shelf; upload your products.</p>
+													<p style="font-size:20px;">Start a shelf; Upload your products.</p>
 													<br><br>
-													<p style="font-size:26px;">Measure your product success with analytics.</p>
+													<p style="font-size:20px;">Measure your product success with analytics and download reports.</p>
 													<br><br>
-													<p style="font-size:26px;">Monthly Subscription: $50, if revenue > $50. So it's free.</p>
+													<p style="font-size:20px;">Monthly Subscription is $50. But if your revenue is greater than $50, it's free!</p>
+													<br><br>
+													<p style="font-size:20px;">Get started today by paying with your card button below to obtain a user login.</p>
 													<br><br>
 													<form action="checkout" controller="checkout" method="POST">
 													<script
@@ -103,7 +105,7 @@
 													</script>
 													</form>
 													<br><br>
-													<p style="font-size:26px;">Email us today and get started!</p>
+													<p style="font-size:20px;">Email us today and get started!</p>
 													<br><br>
 													<footer class="actions">
 														<a href="mailto:bilal.ahmed@foodal.co" class="button fa fa-file-text">Email us today!</a>

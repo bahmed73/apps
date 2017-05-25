@@ -71,7 +71,7 @@
 						<div class="12u">
 								<section>
 									<div>
-										<div class="row">
+										<div class="row" style="border:1px solid #ae2828;">
 											<div class="6u">
 													<section class="box">
 													<!-- <a href="http://www.mytweetmark.com" class="image image-full"><asset:image src="foodal-homepage-16.png"/></a> -->
@@ -110,19 +110,21 @@
 										  			data-locale="auto">
 													</script>
 													</form>
-													<br><br>
-													<p style="font-size:26px;">Email us today and get started!</p>
-													<br><br>
-													<footer class="actions">
-														<a href="mailto:bilal.ahmed@foodal.co" class="button fa fa-file-text">Email us today!</a>
-														<br><br>
-													</footer>
+													
 												</section>
 											</div>
 											<div class="6u">
 												<section class="box">
+												<header>
 													<asset:image src="PRODUCTS_${products.id}-03"/>
-													
+												</header>
+													<br><br>
+													<p style="font-size:14px;">Email us today and get started on selling your products!</p>
+													<br>
+													<footer class="actions">
+														<a href="mailto:bilal.ahmed@foodal.co" class="button fa fa-file-text">Email us today!</a>
+														<br><br>
+													</footer>	
 													<!--header>
 														<h3>Aptent veroeros et aliquam</h3>
 														<span class="byline">Posted 45 minutes ago</span>

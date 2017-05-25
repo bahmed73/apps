@@ -115,19 +115,19 @@
 													<section class="box">
 													<!-- <a href="http://www.mytweetmark.com" class="image image-full"><asset:image src="foodal-homepage-16.png"/></a> -->
 													<header>
-														<span style="font-size:28px;">Analytics Dashboard</span>
+														<span style="font-size:28px;">Analytics</span>
 														<span >!</span>
 													</header>
 													<br><br>
-													<p style="font-size:24px;">Watch social media <g:link class="list" action="index" controller="productView"><span style="color:#8a7e7e;">traffic to your product page.</span></g:link></p>
+													<p style="font-size:20px;">Watch social media <g:link class="list" action="index" controller="productView"><span style="color:#8a7e7e;">traffic to your product page.</span></g:link></p>
 													<br><br>
-													<p style="font-size:24px;">See <g:link class="list" action="index" controller="productReferer"><span style="color:#8a7e7e;">referrer traffic,</span></g:link> from which website.</p>
+													<p style="font-size:20px;">See <g:link class="list" action="index" controller="productReferer"><span style="color:#8a7e7e;">referrer traffic,</span></g:link> from which website.</p>
 													<br><br>
-													<p style="font-size:24px;">Download product referer report <g:link class="list" action="export" controller="productReferer"><span style="color:#8a7e7e;">here.</span></g:link></p>
+													<p style="font-size:20px;">Download product referer report <g:link class="list" action="export" controller="productReferer"><span style="color:#8a7e7e;">here.</span></g:link></p>
 													<br><br>
-													<p style="font-size:24px;">Download product view report <g:link class="list" action="export" controller="productView"><span style="color:#8a7e7e;">here.</span></g:link></p>
+													<p style="font-size:20px;">Download product view report <g:link class="list" action="export" controller="productView"><span style="color:#8a7e7e;">here.</span></g:link></p>
 													<br><br>
-													<p style="font-size:24px;">See <g:link class="list" action="index" controller="userProfile"><span style="color:#8a7e7e;">Settings.</span></g:link></p>
+													<p style="font-size:20px;">See <g:link class="list" action="index" controller="userProfile"><span style="color:#8a7e7e;">Settings.</span></g:link></p>
 													<br><br>
 													<footer class="actions">
 														<a href="mailto:bilal.ahmed@foodal.co" class="button fa fa-file-text">Email us today!</a>

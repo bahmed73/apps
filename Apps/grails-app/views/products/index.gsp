@@ -68,12 +68,13 @@
 										</nav>
 							<!-- Intro -->
 							
+							<g:if test="${productsList}">
 							<g:each in="${productsList}" status="i" var="productsInstance">
 								<div class="row">
 								<div class="12u">
 									<section>
 										<div>
-											<div class="row" style="border:2px solid #ccc;">
+											<div class="row" style="border:1px solid #ae2828;">
 												<div class="6u">
 														<section class="box">
 														<header>
@@ -99,6 +100,27 @@
 								</div>
 								</div>
 							</g:each>
+							</g:if>
+							<g:else>
+							<div class="row">
+								<div class="12u">
+									<section>
+									<div>
+										<div class="row">
+										
+										<div class="6u">
+													<section class="box">
+													<!-- <a href="http://www.mytweetmark.com" class="image image-full"><asset:image src="foodal-homepage-16.png"/></a> -->
+													<header>
+													<g:link controller="products" action="create"><span style="font-size:28px;color:#8a7e7e;">Please create a product.</span></g:link>
+													</header>
+													</section>
+										</div>
+									</div>
+									</section>
+								</div>
+							</diSv>
+							</g:else>
 				        	</div>
 				        	</div>				
 							
