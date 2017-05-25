@@ -7,6 +7,8 @@ import grails.plugin.springsecurity.annotation.Secured
 @Secured('ROLE_ADMIN')
 class UserController {
 
+	def springSecurityService
+	
     static allowedMethods = [save: "POST", update: "PUT", delete: "DELETE"]
 
     def index(Integer max) {
@@ -15,6 +17,15 @@ class UserController {
     }
 
     def show(User user) {
+		def loggedInUser = springSecurityService.currentUser
+		System.out.println("username = " + user.username)
+		
+		if (loggedInUser != user) {
+			flash.message ="Access denied."
+			redirect action:"shelf", controller: "product"
+			return
+		}
+		
         respond user
     }
 
