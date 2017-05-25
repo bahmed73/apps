@@ -77,19 +77,19 @@
 													<section class="box">
 													<!-- <a href="http://www.mytweetmark.com" class="image image-full"><asset:image src="foodal-homepage-16.png"/></a> -->
 													<header>
-														<span style="font-size:28px;">Create a Shelf</span>
+														<span style="font-size:28px;">Your Shelf</span>
 														<span >!</span>
 													</header>
 													<br><br>
-													<p style="font-size:24px;">Upload pictures of your <g:link class="list" action="index" controller="products"><span style="color:#8a7e7e;">products.</span></g:link></p>
+													<p style="font-size:24px;">Upload pictures of your <g:link class="list" action="index" controller="products"><span style="color:#8a7e7e;">products here.</span></g:link></p>
 													<br><br>
 													<p style="font-size:24px;">Add name, price and description.</p>
 													<br><br>
 													<p style="font-size:24px;">Allow us to generate social media traffic.</p>
 													<br><br>
-													<p style="font-size:24px;">Measure monthly traffic and buy conversion!</p>
+													<p style="font-size:24px;"><g:link action="analytics" controller="product"><span style="color:#8a7e7e;">View analytics</span></g:link> and download reports.</p>
 													<br><br>
-													<p style="font-size:24px;">Increase customers month over month.</p>
+													<p style="font-size:24px;">Make sure to fill in your user <g:link action="index" controller="userProfile"><span style="color:#8a7e7e;">profile settings.</span></g:link></p>
 													<br><br>
 													<p style="font-size:24px;">Increase revenue by measuring successful products.</p>
 													<br><br>
