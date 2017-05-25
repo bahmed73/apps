@@ -101,6 +101,15 @@ class ProductController {
 			addView(app, request.getRemoteAddr())
 		}
 	}
+	
+	def checkout() {
+		System.out.println("inside checkout")
+		App app = App.findByName("foodal")
+		
+		if (app != null) {
+			addView(app, request.getRemoteAddr())
+		}
+	}
 
     @Transactional
     def save(Product product) {

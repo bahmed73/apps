@@ -86,6 +86,23 @@
 													<br><br>
 													<p style="font-size:26px;">Monthly Subscription: $50, if revenue > $50. So it's free.</p>
 													<br><br>
+													<form action="checkout" controller="product" method="POST">
+													<script
+										  			src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+										  			data-key="pk_test_VBLyN579809ToN0y2VA4VXG8"
+										  			data-amount="50.00"
+										  			data-name="foodal Subscription"
+										  			data-description="Monthly Subscription"
+										  			data-zip-code="true"
+										  			data-shipping-address="true"
+										  			data-billing-address="true"
+										  			
+										  			
+										  			data-image="https://stripe.com/img/documentation/checkout/marketplace.png"
+										  			data-locale="auto">
+													</script>
+													</form>
+													<br><br>
 													<p style="font-size:26px;">Email us today and get started!</p>
 													<br><br>
 													<footer class="actions">
