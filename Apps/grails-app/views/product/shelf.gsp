@@ -80,7 +80,7 @@
 														<span style="font-size:35px;">Shelf</span>
 													</header>
 													<div>
-													<ul style="list-style-type:disc; margin:50px;font-size:35px;">
+													<ul style="list-style-type:disc; margin:50px;font-size:24px;">
 													<li><g:link class="list" action="index" controller="products"><span style="color:#8a7e7e;">Products</span></g:link></li>
 													<li><g:link action="analytics" controller="product"><span style="color:#8a7e7e;">Analytics</span></g:link></li>
 													<li><g:link action="index" controller="userProfile"><span style="color:#8a7e7e;">Settings</span></g:link></li>

@@ -80,13 +80,15 @@
 														<span style="font-size:35px;">Analytics</span>
 													</header>
 													<div>
-													<ul style="list-style-type:disc; margin:50px;font-size:35px;">
+													<ul style="list-style-type:disc; margin:50px;font-size:24px;">
 													<li><g:link class="list" action="index" controller="productView"><span style="color:#8a7e7e;">Product Views</span></g:link></li>
 													<li><g:link class="list" action="export" controller="productView"><span style="color:#8a7e7e;">Download Report: Product Views</span></g:link></li>
 													<li><g:link class="list" action="index" controller="productReferer"><span style="color:#8a7e7e;">Product Referers</span></g:link></li>
 													<li><g:link class="list" action="export" controller="productReferer"><span style="color:#8a7e7e;">Download Report: Product Referers</span></g:link></li>
 													<li><g:link class="list" action="index" controller="blogView"><span style="color:#8a7e7e;">Blog Views</span></g:link></li>
+													<li><g:link class="list" action="export" controller="blogView"><span style="color:#8a7e7e;">Download Report: Blog Views</span></g:link></li>
 													<li><g:link class="list" action="index" controller="blogReferer"><span style="color:#8a7e7e;">Blog Referer</span></g:link></li>
+													<li><g:link class="list" action="export" controller="blogReferer"><span style="color:#8a7e7e;">Download Report: Blog Referers</span></g:link></li>
 													</ul>
 													</div>
 													<br>
