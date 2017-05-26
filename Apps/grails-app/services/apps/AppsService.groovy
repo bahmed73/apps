@@ -99,5 +99,27 @@ class AppsService {
 		}
 		
 	}
+	
+	def uploadBlogPhoto(File file) {
+		println "inside uploadBlogPhoto"
+		
+		String fileName = file.getAbsolutePath()
+		
+		println "inside $fileName"
+		
+		ImagePlus image = imagingService.openImagePlus(fileName);
+		try {
+			imagingService.generate100x100(image, fileName, true);
+			imagingService.generate50x50(image, fileName, true);
+			imagingService.generateOriginal(image, fileName);
+		} catch (Exception e) {
+			
+			log.error("uploadBlogPhoto: error generating images")
+			println "uploadBlogPhoto: error generating images"
+			e.printStackTrace()
+			
+		}
+		
+	}
 
 }

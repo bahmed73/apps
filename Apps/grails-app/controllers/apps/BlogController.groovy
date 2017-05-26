@@ -9,6 +9,7 @@ import grails.plugin.springsecurity.annotation.Secured
 class BlogController {
 
 	def springSecurityService
+	def appsService
 	
     static allowedMethods = [save: "POST", update: "PUT", delete: "DELETE"]
 
@@ -46,6 +47,37 @@ class BlogController {
 		
         blog.save flush:true
 
+		try {
+			def transferFile = request.getFile('myFile')
+			if(transferFile != null && !transferFile.empty) {
+				println "file is not empty, transferring"
+				String fileName
+
+				switch (grails.util.Environment.current) {
+				case grails.util.Environment.DEVELOPMENT:
+						fileName = "C:\\development\\workspace\\Apps\\grails-app\\assets\\images\\BLOG_"+blog.id
+						System.out.println("fileName = " + fileName)
+						File file = new File(fileName)
+						transferFile.transferTo( file )
+						appsService.uploadBlogPhoto(file)
+						break
+				case grails.util.Environment.PRODUCTION:
+						fileName = "C:\\development\\workspace\\Apps\\grails-app\\assets\\images\\BLOG_"+blog.id
+						System.out.println("fileName = " + fileName)
+						File file = new File(fileName)
+						transferFile.transferTo( file )
+						appsService.uploadBlogPhoto(file)
+						break
+				}
+
+			}
+			else {
+			   println "file is empty"
+			}
+		} catch (Exception e) {
+				e.printStackTrace( )
+		}
+		
         request.withFormat {
             form multipartForm {
                 flash.message = message(code: 'default.created.message', args: [message(code: 'blog.label', default: 'Blog'), blog.id])
@@ -89,6 +121,37 @@ class BlogController {
 		
         blog.save flush:true
 
+		try {
+			def transferFile = request.getFile('myFile')
+			if(transferFile != null && !transferFile.empty) {
+				println "file is not empty, transferring"
+				String fileName
+
+				switch (grails.util.Environment.current) {
+				case grails.util.Environment.DEVELOPMENT:
+						fileName = "C:\\development\\workspace\\Apps\\grails-app\\assets\\images\\BLOG_"+blog.id
+						System.out.println("fileName = " + fileName)
+						File file = new File(fileName)
+						transferFile.transferTo( file )
+						appsService.uploadBlogPhoto(file)
+						break
+				case grails.util.Environment.PRODUCTION:
+						fileName = "C:\\development\\workspace\\Apps\\grails-app\\assets\\images\\BLOG_"+blog.id
+						System.out.println("fileName = " + fileName)
+						File file = new File(fileName)
+						transferFile.transferTo( file )
+						appsService.uploadBlogPhoto(file)
+						break
+				}
+
+			}
+			else {
+			   println "file is empty"
+			}
+		} catch (Exception e) {
+				e.printStackTrace( )
+		}
+		
         request.withFormat {
             form multipartForm {
                 flash.message = message(code: 'default.updated.message', args: [message(code: 'blog.label', default: 'Blog'), blog.id])
