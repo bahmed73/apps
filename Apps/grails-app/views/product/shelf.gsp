@@ -91,7 +91,7 @@
 													<br><br>
 													<p style="font-size:20px;">Make sure to fill in your user <g:link action="index" controller="userProfile"><span style="color:#8a7e7e;">profile settings.</span></g:link></p>
 													<br><br>
-													<p style="font-size:20px;">Increase revenue by measuring successful products.</p>
+													<p style="font-size:20px;"><g:link action="index" controller="blog"><span style="color:#8a7e7e;">Create blogs</span></g:link> to make your products noticed.</p>
 													<br><br>
 													<footer class="actions">
 														<a href="mailto:bilal.ahmed@foodal.co" class="button fa fa-file-text">Email us today!</a>
