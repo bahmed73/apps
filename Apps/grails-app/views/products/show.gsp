@@ -71,7 +71,7 @@
 						<div class="12u">
 								<section>
 									<div>
-										<div class="row" style="border:1px solid #ae2828;">
+										<div class="row">
 											<div class="6u">
 													<section class="box">
 													<!-- <a href="http://www.mytweetmark.com" class="image image-full"><asset:image src="foodal-homepage-16.png"/></a> -->
