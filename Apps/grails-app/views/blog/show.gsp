@@ -76,13 +76,12 @@
 													<section class="box">
 													<!-- <a href="http://www.mytweetmark.com" class="image image-full"><asset:image src="foodal-homepage-16.png"/></a> -->
 													<header>
-														<span style="font-size:28px;"><f:display bean="blog" property="name"/></span>
-														<span >!</span>
+														<span style="font-size:35px;"><f:display bean="blog" property="name"/></span>
 													</header>
 													<br><br>
-													<p style="font-size:24px;">Description: <f:display bean="blog" property="description"/></p>
+													<p style="font-size:18px;">Description: <f:display bean="blog" property="description"/></p>
 													<br><br>
-													<p style="font-size:12px;">Views: ${blogViews}</p>
+													<p style="font-size:16px;color:#8a7e7e;">Views: ${blogViews}</p>
 													<br><br>
 													
 												</section>
@@ -93,7 +92,7 @@
 													<asset:image src="BLOG_${blog.id}-03"/>
 												</header>
 													<br><br>
-													<p style="font-size:14px;">Email us today and get started on selling your products!</p>
+													<p style="font-size:14px;">Questions? Email us today for 24/7 support.</p>
 													<br>
 													<footer class="actions">
 														<a href="mailto:bilal.ahmed@foodal.co" class="button fa fa-file-text">Email us today!</a>

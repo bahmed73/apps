@@ -76,13 +76,12 @@
 													<section class="box">
 													<!-- <a href="http://www.mytweetmark.com" class="image image-full"><asset:image src="foodal-homepage-16.png"/></a> -->
 													<header>
-														<span style="font-size:28px;"><f:display bean="products" property="name"/></span>
-														<span >!</span>
+														<span style="font-size:35px;"><f:display bean="products" property="name"/></span>
 													</header>
 													<br><br>
-													<p style="font-size:24px;">Price: $<f:display bean="products" property="price"/></p>
+													<p style="font-size:24px;color:#8a7e7e;">Price: $<f:display bean="products" property="price"/></p>
 													<br><br>
-													<p style="font-size:12px;">Views: ${productViews}</p>
+													<p style="font-size:16px;color:#8a7e7e;">Views: ${productViews}</p>
 													<br><br>
 													<p style="font-size:18px;">Description: <f:display bean="products" property="description"/></p>
 													<br><br>
@@ -90,9 +89,9 @@
 													<br><br>
 													<p style="font-size:18px;">Color: <f:display bean="products" property="productColor"/></p>
 													<br><br>
-													<p style="font-size:14px;">ShippingInfo: <f:display bean="products" property="shippingInfo"/></p>
+													<p style="font-size:18px;">ShippingInfo: <f:display bean="products" property="shippingInfo"/></p>
 													<br><br>
-													<p style="font-size:14px;">Return Policy: <f:display bean="products" property="returnPolicy"/></p>
+													<p style="font-size:18px;">Return Policy: <f:display bean="products" property="returnPolicy"/></p>
 													<br><br>
 													<form action="checkout" controller="checkout" method="POST">
 													<script
@@ -119,7 +118,7 @@
 													<asset:image src="PRODUCTS_${products.id}-03"/>
 												</header>
 													<br><br>
-													<p style="font-size:14px;">Email us today and get started on selling your products!</p>
+													<p style="font-size:14px;">Questions? Email us today for 24/7 support.</p>
 													<br>
 													<footer class="actions">
 														<a href="mailto:bilal.ahmed@foodal.co" class="button fa fa-file-text">Email us today!</a>

@@ -79,7 +79,7 @@
 														<span style="font-size:35px;">Welcome to Foodal!</span>
 													</header>
 													<div>
-													<ul style="list-style-type:disc; margin:50px;font-size:35px;">
+													<ul style="list-style-type:disc; margin:50px;font-size:30px;">
 													<li>Start Shelf: Upload Products.</p></li>
 													<li>Measure: Analytics Dashboard.</li>
 													<li>Create Blogs.</li>

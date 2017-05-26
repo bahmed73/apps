@@ -78,15 +78,14 @@
 												<div class="6u">
 														<section class="box">
 														<header>
-														<span style="font-size:28px;">${productsInstance.name}</span>
-														<span >!</span>
+														<span style="font-size:35px;">${productsInstance.name}</span>
 														</header>
 														<br><br>
-														<p style="font-size:24px;">Price: ${productsInstance.price} dollars</p>
+														<p style="font-size:24px;color:#8a7e7e;">Price: ${productsInstance.price} dollars</p>
 														<br><br>
 														<p style="font-size:18px;">Description: ${productsInstance.description}</p>
 														<br><br>
-														<p style="font-size:24px;"><g:link controller="products" action="show" id="${productsInstance.id}"><span style="color:#8a7e7e;">Read more...</span></g:link></p>
+														<p style="font-size:18px;"><g:link controller="products" action="show" id="${productsInstance.id}"><span style="color:#8a7e7e;">Read more...</span></g:link></p>
 														</section>
 												</div>
 												<div class="6u">
