@@ -77,21 +77,18 @@
 													<section class="box">
 													<!-- <a href="http://www.mytweetmark.com" class="image image-full"><asset:image src="foodal-homepage-16.png"/></a> -->
 													<header>
-														<span style="font-size:28px;">Shelf</span>
-														<span >!</span>
+														<span style="font-size:35px;">Shelf</span>
 													</header>
-													<br><br>
-													<p style="font-size:20px;">Upload <g:link class="list" action="index" controller="products"><span style="color:#8a7e7e;">products here.</span></g:link></p>
-													<br><br>
-													<p style="font-size:20px;">Add name, price and description.</p>
-													<br><br>
-													<p style="font-size:20px;">Allow us to generate social media traffic.</p>
-													<br><br>
-													<p style="font-size:20px;"><g:link action="analytics" controller="product"><span style="color:#8a7e7e;">View analytics</span></g:link> and download reports.</p>
-													<br><br>
-													<p style="font-size:20px;">Make sure to fill in your user <g:link action="index" controller="userProfile"><span style="color:#8a7e7e;">profile settings.</span></g:link></p>
-													<br><br>
-													<p style="font-size:20px;"><g:link action="index" controller="blog"><span style="color:#8a7e7e;">Create blogs</span></g:link> to make your products noticed.</p>
+													<div>
+													<ul style="list-style-type:disc; margin:50px;font-size:35px;">
+													<li><g:link class="list" action="index" controller="products"><span style="color:#8a7e7e;">Products</span></g:link></li>
+													<li><g:link action="analytics" controller="product"><span style="color:#8a7e7e;">Analytics</span></g:link></li>
+													<li><g:link action="index" controller="userProfile"><span style="color:#8a7e7e;">Settings</span></g:link></li>
+													<li><g:link action="index" controller="blog"><span style="color:#8a7e7e;">Blogs</span></g:link></li>
+													</ul>
+													</div>
+													<br>
+													<p style="font-size:20px;">Questions? Email us today for 24/7 support.</p>
 													<br><br>
 													<footer class="actions">
 														<a href="mailto:bilal.ahmed@foodal.co" class="button fa fa-file-text">Email us today!</a>

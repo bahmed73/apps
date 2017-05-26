@@ -76,18 +76,17 @@
 													<section class="box">
 													<!-- <a href="http://www.mytweetmark.com" class="image image-full"><asset:image src="foodal-homepage-16.png"/></a> -->
 													<header>
-														<span style="font-size:28px;">Welcome to Foodal</span>
-														<span >!</span>
+														<span style="font-size:35px;">Welcome to Foodal!</span>
 													</header>
-													<br><br>
-													<p style="font-size:20px;">Start a shelf; Upload your products.</p>
-													<br><br>
-													<p style="font-size:20px;">Measure your product success with analytics and download reports.</p>
-													<br><br>
-													<p style="font-size:20px;">Monthly Subscription is $50. But if your revenue is greater than $50, it's free!</p>
-													<br><br>
-													<p style="font-size:20px;">Get started today by paying with your card button below to obtain a user login.</p>
-													<br><br>
+													<div>
+													<ul style="list-style-type:disc; margin:50px;font-size:35px;">
+													<li>Start Shelf: Upload Products.</p></li>
+													<li>Measure: Analytics Dashboard.</li>
+													<li>Create Blogs.</li>
+													<li>Monthly Subscription is $50. But if your revenue is greater than $50, it's free! We provide 24/7 support and service for our local customers.</li>
+													</ul>
+													</div>
+													<br>
 													<form action="checkout" controller="checkout" method="POST">
 													<script
 										  			src="https://checkout.stripe.com/checkout.js" class="stripe-button"
@@ -105,7 +104,7 @@
 													</script>
 													</form>
 													<br><br>
-													<p style="font-size:20px;">Email us today and get started!</p>
+													<p style="font-size:20px;">Questions? Email us today and get started.</p>
 													<br><br>
 													<footer class="actions">
 														<a href="mailto:bilal.ahmed@foodal.co" class="button fa fa-file-text">Email us today!</a>
