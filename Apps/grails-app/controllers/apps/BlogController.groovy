@@ -19,7 +19,16 @@ class BlogController {
     }
 
     def show(Blog blog) {
-        respond blog
+        if (blog == null) {
+			redirect action:"index", method:"GET"
+			return
+		}
+		def user = blog.user
+		
+		appsService.addBlogView(blog, request.getRemoteAddr(), user)
+		appsService.trackBlogReferer(request.getHeader("REFERER"), blog, user)
+		def blogViews = BlogView.countByBlog(blog)
+        respond blog, model:[blogViews: blogViews]
     }
 
     def create() {

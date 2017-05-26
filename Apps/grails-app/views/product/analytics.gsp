@@ -129,6 +129,10 @@
 													<br><br>
 													<p style="font-size:20px;">See <g:link class="list" action="index" controller="userProfile"><span style="color:#8a7e7e;">Settings.</span></g:link></p>
 													<br><br>
+													<p style="font-size:20px;">See <g:link class="list" action="index" controller="blogView"><span style="color:#8a7e7e;">blog views.</span></g:link></p>
+													<br><br>
+													<p style="font-size:20px;">See <g:link class="list" action="index" controller="blogReferer"><span style="color:#8a7e7e;">blog referer.</span></g:link></p>
+													<br><br>
 													<footer class="actions">
 														<a href="mailto:bilal.ahmed@foodal.co" class="button fa fa-file-text">Email us today!</a>
 														<br><br>

@@ -35,6 +35,29 @@ class AppsService {
 		}
 	}
 	
+	//trackBLogReferer(request.getHeader("REFERER"), blog)
+	def trackBlogReferer(String referer, Blog blog, User user) {
+		
+		try {
+		
+			if (referer!=null && !referer.equals("") && blog!=null) {
+				def blogRefererInstance = new BlogReferer()
+				blogRefererInstance.referer=referer
+				blogRefererInstance.createTime=new Date()
+				blogRefererInstance.blog = blog
+				blogRefererInstance.user = user
+				if(!blogRefererInstance.hasErrors() && blogRefererInstance.save()) {
+					System.out.println("blogRefererInstance saved")
+				} else {
+					System.out.println("blogRefererInstance not saved")
+				}
+						  
+			}
+		} catch (Exception e) {
+			e.printStackTrace()
+		}
+	}
+	
 	//trackProductReferer(request.getHeader("REFERER"), products)
 	def trackAppReferer(String referer, App app) {
 		
@@ -71,6 +94,16 @@ class AppsService {
 		def view = new ProductView()
 		view.status = 1
 		view.products = products
+		view.createTime = new Date()
+		view.ip = ip
+		view.user = user
+		
+		view.save flush:true
+	}
+	
+	def addBlogView(Blog blog, String ip, User user) {
+		def view = new BlogView()
+		view.blog = blog
 		view.createTime = new Date()
 		view.ip = ip
 		view.user = user

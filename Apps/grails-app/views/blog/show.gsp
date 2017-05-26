@@ -82,6 +82,9 @@
 													<br><br>
 													<p style="font-size:24px;">Description: <f:display bean="blog" property="description"/></p>
 													<br><br>
+													<p style="font-size:12px;">Views: ${blogViews}</p>
+													<br><br>
+													
 												</section>
 											</div>
 											<div class="6u">
