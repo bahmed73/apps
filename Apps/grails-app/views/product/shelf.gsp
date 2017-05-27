@@ -89,7 +89,9 @@
 													</ul>
 													</div>
 													<br>
-													<p style="font-size:20px;">Questions? Email us today for 24/7 support.</p>
+													<g:form controller="logout">                        
+    													<g:submitButton name="logout" value="Logout" />
+													</g:form>
 													<br><br>
 													<footer class="actions">
 														<a href="mailto:bilal.ahmed@foodal.co" class="button fa fa-file-text">Email us today!</a>
