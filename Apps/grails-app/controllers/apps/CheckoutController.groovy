@@ -12,9 +12,20 @@ class CheckoutController {
 	
     static allowedMethods = [save: "POST", update: "PUT", delete: "DELETE"]
 
+	@Secured('IS_AUTHENTICATED_ANONYMOUSLY')
     def index(Integer max) {
-        params.max = Math.min(max ?: 10, 100)
-        respond Checkout.list(params), model:[checkoutCount: Checkout.count()]
+		System.out.println("from stripe?" + params)
+		
+		if (params.stripeToken != null) {
+			paymentService.homepageCheckout(params)
+			redirect(controller: "register")
+		} else {
+		
+        	params.max = Math.min(max ?: 10, 100)
+			respond Checkout.list(params), model:[checkoutCount: Checkout.count()]
+			return
+		}
+		
     }
 
     def show(Checkout checkout) {

@@ -40,4 +40,14 @@ class PaymentService {
 
         return
     }
+	
+	def homepageCheckout(params) {
+		def checkout = new Checkout()
+		checkout.createTime = new Date()
+		checkout.stripeToken = params.stripeToken
+		checkout.stripeEmail = params.stripeEmail
+		checkout.stripeBillingName = params.stripeBillingName
+		
+		checkout.save flush:true
+	}
 }
