@@ -13,6 +13,7 @@ class ProductsController {
 	def appsService
 	def springSecurityService
 	def mailService
+	def paymentService
 	
     static allowedMethods = [save: "POST", update: "PUT", delete: "DELETE"]
 
@@ -29,6 +30,12 @@ class ProductsController {
 	@Secured(['IS_AUTHENTICATED_ANONYMOUSLY', 'ROLE_ADMIN'])
     def show(Products products) {
 		
+		System.out.println("show products, params = " + params)
+		
+		if (params.stripeToken != null) {
+			System.out.println("stripe token = " + params.stripeToken)
+			paymentService.productCheckout(params)
+		}
 		if (products == null) {
 			redirect action:"index", method:"GET"
 			return

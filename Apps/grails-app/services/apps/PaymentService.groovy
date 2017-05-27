@@ -50,4 +50,14 @@ class PaymentService {
 		
 		checkout.save flush:true
 	}
+	
+	def productCheckout(params) {
+		def checkout = new ProductCheckout()
+		checkout.createTime = new Date()
+		checkout.stripeToken = params.stripeToken
+		checkout.stripeEmail = params.stripeEmail
+		checkout.stripeBillingName = params.stripeBillingName
+		
+		checkout.save flush:true
+	}
 }
