@@ -87,6 +87,7 @@
 													</ul>
 													</div>
 													<br>
+													<!-- 
 													<form action="checkout" controller="checkout" method="POST">
 													<script
 										  			src="https://checkout.stripe.com/checkout.js" class="stripe-button"
@@ -102,7 +103,7 @@
 										  			data-image="https://stripe.com/img/documentation/checkout/marketplace.png"
 										  			data-locale="auto">
 													</script>
-													</form>
+													</form> -->
 													<br><br>
 													<p style="font-size:20px;">Questions? Email us today and get started.</p>
 													<br><br>
