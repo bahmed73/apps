@@ -27,7 +27,7 @@ class ProductsController {
         respond productsList
     }
 
-	@Secured(['IS_AUTHENTICATED_ANONYMOUSLY', 'ROLE_ADMIN'])
+	@Secured(['ROLE_ANONYMOUS', 'ROLE_ADMIN'])
     def show(Products products) {
 		
 		System.out.println("show products, params = " + params)
@@ -95,6 +95,13 @@ class ProductsController {
 				switch (grails.util.Environment.current) {
 				case grails.util.Environment.DEVELOPMENT:
 						fileName = "C:\\development\\workspace\\Apps\\grails-app\\assets\\images\\PRODUCTS_"+products.id
+						System.out.println("fileName = " + fileName)
+						File file = new File(fileName)
+						transferFile.transferTo( file )
+						appsService.uploadProductPhoto(file)
+						break
+				case grails.util.Environment.TEST:
+						fileName = "/usr/share/tomcat/webapps/ROOT/assets/PRODUCTS_"+products.id
 						System.out.println("fileName = " + fileName)
 						File file = new File(fileName)
 						transferFile.transferTo( file )

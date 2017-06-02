@@ -93,6 +93,7 @@
 													<br><br>
 													<p style="font-size:18px;">Return Policy: <f:display bean="products" property="returnPolicy"/></p>
 													<br><br>
+													<!--  
 													<form action="checkout" controller="checkout" method="POST">
 													<script
 										  			src="https://checkout.stripe.com/checkout.js" class="stripe-button"
@@ -109,7 +110,7 @@
 										  			data-locale="auto">
 													</script>
 													</form>
-													
+													-->
 												</section>
 											</div>
 											<div class="6u">
