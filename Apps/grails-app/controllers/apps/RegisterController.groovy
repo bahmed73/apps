@@ -2,6 +2,6 @@ package apps
 
 import grails.plugin.springsecurity.annotation.Secured
 
-@Secured('ROLE_ADMIN')
+@Secured(['IS_AUTHENTICATED_ANONYMOUSLY'])
 class RegisterController extends grails.plugin.springsecurity.ui.RegisterController {
 }
