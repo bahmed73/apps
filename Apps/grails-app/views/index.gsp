@@ -80,10 +80,10 @@
 													</header>
 													<div>
 													<ul style="list-style-type:disc; margin:50px;font-size:20px;">
-													<li>Start Shelf: Upload local products.</p></li>
-													<li>Measure: Analytics dashboard for customer traffic.</li>
+													<li>Upload local products.</p></li>
+													<li>Analytics dashboard for customer traffic.</li>
 													<li>Create blogs for marketing the products.</li>
-													<li>Monthly Subscription is $50 to start generating revenue from your business.</li> 
+													<li>Monthly subscription is $50 to start generating online revenue from your business.</li> 
 													<li>We provide 24/7 support and service for our local customers.</li>
 													</ul>
 													</div>
