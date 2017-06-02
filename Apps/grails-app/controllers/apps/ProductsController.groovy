@@ -108,7 +108,7 @@ class ProductsController {
 						appsService.uploadProductPhoto(file)
 						break
 				case grails.util.Environment.PRODUCTION:
-						fileName = "C:\\development\\workspace\\Apps\\grails-app\\assets\\images\\PRODUCTS_"+products.id
+						fileName = "/usr/share/tomcat/webapps/ROOT/assets/PRODUCTS_"+products.id
 						System.out.println("fileName = " + fileName)
 						File file = new File(fileName)
 						transferFile.transferTo( file )
@@ -198,7 +198,7 @@ class ProductsController {
 						appsService.uploadProductPhoto(file)
 						break
 				case grails.util.Environment.PRODUCTION:
-						fileName = "C:\\development\\workspace\\Apps\\grails-app\\assets\\images\\PRODUCTS_"+products.id
+						fileName = "/usr/share/tomcat/webapps/ROOT/assets/PRODUCTS_"+products.id
 						System.out.println("fileName = " + fileName)
 						File file = new File(fileName)
 						transferFile.transferTo( file )
