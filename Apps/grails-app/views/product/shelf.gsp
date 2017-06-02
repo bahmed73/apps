@@ -79,8 +79,12 @@
 													<header>
 														<span style="font-size:35px;">Shelf</span>
 													</header>
+													<g:form controller="logout">                        
+    													<g:submitButton name="logout" value="Logout" />
+													</g:form>
+													
 													<div>
-													<ul style="list-style-type:disc; margin:50px;font-size:24px;">
+													<ul style="list-style-type:disc; margin:50px;font-size:20px;">
 													<li><g:link class="list" action="index" controller="products"><span style="color:#8a7e7e;">Products</span></g:link></li>
 													<li><g:link action="index" controller="productCheckout"><span style="color:#8a7e7e;">Checkouts</span></g:link></li>
 													<li><g:link action="index" controller="blog"><span style="color:#8a7e7e;">Blogs</span></g:link></li>

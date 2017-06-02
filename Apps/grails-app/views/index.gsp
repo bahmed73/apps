@@ -79,11 +79,12 @@
 														<span style="font-size:35px;">Welcome to Foodal!</span>
 													</header>
 													<div>
-													<ul style="list-style-type:disc; margin:50px;font-size:24px;">
-													<li>Start Shelf: Upload Products.</p></li>
-													<li>Measure: Analytics Dashboard.</li>
-													<li>Create Blogs.</li>
-													<li>Monthly Subscription is $50. But if your revenue is greater than $50, it's free! We provide 24/7 support and service for our local customers.</li>
+													<ul style="list-style-type:disc; margin:50px;font-size:20px;">
+													<li>Start Shelf: Upload local products.</p></li>
+													<li>Measure: Analytics dashboard for customer traffic.</li>
+													<li>Create blogs for marketing the products.</li>
+													<li>Monthly Subscription is $50 to start generating revenue from your business.</li> 
+													<li>We provide 24/7 support and service for our local customers.</li>
 													</ul>
 													</div>
 													<br>
@@ -115,7 +116,12 @@
 											</div>
 											<div class="6u">
 												<section class="box">
-													<a href="http://www.homecook.me" class="image image-full"><asset:image src="foodal-homepage-17.png"/></a>
+													
+													                                    <a class="twitter-timeline"  href="https://twitter.com/hashtag/localfood" data-widget-id="870750237916250113" data-chrome="nofooter" data-theme="light">#localfood Tweets</a>
+            																			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+          
+          
+          
 													<!--header>
 														<h3>Aptent veroeros et aliquam</h3>
 														<span class="byline">Posted 45 minutes ago</span>

@@ -78,9 +78,13 @@
 													<!-- <a href="http://www.mytweetmark.com" class="image image-full"><asset:image src="foodal-homepage-16.png"/></a> -->
 													<header>
 														<span style="font-size:35px;">Analytics</span>
+														<g:form controller="logout">                        
+    													<g:submitButton name="logout" value="Logout" />
+													</g:form>
+													
 													</header>
 													<div>
-													<ul style="list-style-type:disc; margin:50px;font-size:24px;">
+													<ul style="list-style-type:disc; margin:50px;font-size:20px;">
 													<li><g:link class="list" action="index" controller="productView"><span style="color:#8a7e7e;">Product Views</span></g:link></li>
 													<li><g:link class="list" action="export" controller="productView"><span style="color:#8a7e7e;">Download Report: Product Views</span></g:link></li>
 													<li><g:link class="list" action="index" controller="productReferer"><span style="color:#8a7e7e;">Product Referers</span></g:link></li>
