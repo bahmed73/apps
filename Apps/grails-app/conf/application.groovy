@@ -82,3 +82,5 @@ grails.plugin.springsecurity.filterChain.chainMap = [
 	[pattern: '/**',             filters: 'JOINED_FILTERS']
 ]
 
+grails.plugin.springsecurity.ui.register.defaultRoleNames = ['ROLE_ADMIN']
+grails.plugin.springsecurity.ui.register.emailSubject = 'Welcome to Foodal!'
