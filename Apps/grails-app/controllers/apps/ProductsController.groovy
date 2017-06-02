@@ -183,14 +183,23 @@ class ProductsController {
 				String fileName
 
 				switch (grails.util.Environment.current) {
-				case grails.util.Environment.TEST:
+				case grails.util.Environment.DEVELOPMENT:
 						fileName = "C:\\development\\workspace\\Apps\\grails-app\\assets\\images\\PRODUCTS_"+products.id
+						System.out.println("fileName = " + fileName)
+						File file = new File(fileName)
+						transferFile.transferTo( file )
+						appsService.uploadProductPhoto(file)
+						break
+				case grails.util.Environment.TEST:
+						fileName = "/usr/share/tomcat/webapps/ROOT/assets/PRODUCTS_"+products.id
+						System.out.println("fileName = " + fileName)
 						File file = new File(fileName)
 						transferFile.transferTo( file )
 						appsService.uploadProductPhoto(file)
 						break
 				case grails.util.Environment.PRODUCTION:
 						fileName = "C:\\development\\workspace\\Apps\\grails-app\\assets\\images\\PRODUCTS_"+products.id
+						System.out.println("fileName = " + fileName)
 						File file = new File(fileName)
 						transferFile.transferTo( file )
 						appsService.uploadProductPhoto(file)
