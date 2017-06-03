@@ -33,6 +33,16 @@ if (Environment.isDevelopmentMode() && targetDir != null) {
     }
     logger("StackTrace", ERROR, ['FULL_STACKTRACE'], false)
     root(ERROR, ['STDOUT', 'FULL_STACKTRACE'])
+} else if (Environment.isProductionMode()) {
+    appender("FULL_STACKTRACE", FileAppender) {
+        file = "foodal.log"
+        append = true
+        encoder(PatternLayoutEncoder) {
+            pattern = "%level %logger - %msg%n"
+        }
+    }
+    logger("StackTrace", DEBUG, ['FULL_STACKTRACE'], false)
+    root(DEBUG, ['STDOUT', 'FULL_STACKTRACE'])
 }
 else {
     root(ERROR, ['STDOUT'])
