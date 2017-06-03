@@ -149,11 +149,15 @@ class ProductsController {
 
     @Transactional
     def update(Products products) {
+		log.info "inside update"
+		
         if (products == null) {
             transactionStatus.setRollbackOnly()
             notFound()
             return
         }
+		
+		log.info "products.id = " + products.id
 
         if (products.hasErrors()) {
             transactionStatus.setRollbackOnly()
