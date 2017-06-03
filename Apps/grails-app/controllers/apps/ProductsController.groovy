@@ -58,12 +58,14 @@ class ProductsController {
 	
     @Transactional
     def save(Products products) {
+		log.info "inside products.save"
+		
         if (products == null) {
             transactionStatus.setRollbackOnly()
             notFound()
             return
         }
-
+		log.info "products is not null"
         if (products.hasErrors()) {
             transactionStatus.setRollbackOnly()
             respond products.errors, view:'create'
@@ -71,7 +73,7 @@ class ProductsController {
         }
 
 		Principal principal = request.getUserPrincipal();
-        System.out.println("principal name" + principal.getName())
+        log.info "principal name" + principal.getName()
 		
 		def user = User.findByUsername(principal.getName())
 		products.user = user
@@ -89,7 +91,7 @@ class ProductsController {
 		try {
 			def transferFile = request.getFile('myFile')
 			if(transferFile != null && !transferFile.empty) {
-				println "file is not empty, transferring"
+				log.info "file is not empty, transferring"
 				String fileName
 
 				switch (grails.util.Environment.current) {
@@ -109,7 +111,7 @@ class ProductsController {
 						break
 				case grails.util.Environment.PRODUCTION:
 						fileName = "/usr/share/tomcat/webapps/ROOT/assets/PRODUCTS_"+products.id
-						System.out.println("fileName = " + fileName)
+						log.info "fileName = " + fileName
 						File file = new File(fileName)
 						transferFile.transferTo( file )
 						appsService.uploadProductPhoto(file)
@@ -118,7 +120,7 @@ class ProductsController {
 
 			}
 			else {
-			   println "file is empty"
+			   log.info "file is empty"
 			}
 		} catch (Exception e) {
 				e.printStackTrace( )
