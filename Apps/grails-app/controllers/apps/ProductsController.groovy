@@ -27,23 +27,31 @@ class ProductsController {
         respond productsList
     }
 
-	@Secured(['ROLE_ANONYMOUS', 'ROLE_ADMIN'])
-    def show(Products products) {
+	@Transactional
+	def show(Products products) {
 		
-		System.out.println("show products, params = " + params)
+		log.info "show products, params = " + params
 		
 		if (params.stripeToken != null) {
-			System.out.println("stripe token = " + params.stripeToken)
+			log.info "stripe token = " + params.stripeToken
 			paymentService.productCheckout(params)
 		}
 		if (products == null) {
 			redirect action:"index", method:"GET"
 			return
 		}
+		
+		log.info "product is not null"
 		def user = products.user
 		
-		//appsService.addProductView(products, request.getRemoteAddr(), user)
-		//appsService.trackProductReferer(request.getHeader("REFERER"), products, user)
+		appsService.addProductView(products, request.getRemoteAddr(), user)
+		
+		log.info "added product views"
+		
+		appsService.trackProductReferer(request.getHeader("REFERER"), products, user)
+		
+		log.info "added product referers"
+		
 		def productViews = ProductView.countByProducts(products)
         respond products, model:[productViews: productViews]
     }
