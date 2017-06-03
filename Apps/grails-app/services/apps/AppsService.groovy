@@ -112,11 +112,11 @@ class AppsService {
 	}
 	
 	def uploadProductPhoto(File file) {
-		println "inside uploadProductPhoto"
+		log.info "inside uploadProductPhoto"
 		
 		String fileName = file.getAbsolutePath()
 		
-		println "inside $fileName"
+		log.info "fileName = " + fileName
 		
 		ImagePlus image = imagingService.openImagePlus(fileName);
 		try {
@@ -125,8 +125,7 @@ class AppsService {
 			imagingService.generateOriginal(image, fileName);
 		} catch (Exception e) {
 			
-			log.error("uploadProductPhoto: error generating images")
-			println "uploadProductPhoto: error generating images"
+			log.info"uploadProductPhoto: error generating images"
 			e.printStackTrace()
 			
 		}
@@ -134,11 +133,11 @@ class AppsService {
 	}
 	
 	def uploadBlogPhoto(File file) {
-		println "inside uploadBlogPhoto"
+		log.info "inside uploadBlogPhoto"
 		
 		String fileName = file.getAbsolutePath()
 		
-		println "inside $fileName"
+		log.info "fileName = " + fileName
 		
 		ImagePlus image = imagingService.openImagePlus(fileName);
 		try {
@@ -147,8 +146,7 @@ class AppsService {
 			imagingService.generateOriginal(image, fileName);
 		} catch (Exception e) {
 			
-			log.error("uploadBlogPhoto: error generating images")
-			println "uploadBlogPhoto: error generating images"
+			log.info"uploadBlogPhoto: error generating images"
 			e.printStackTrace()
 			
 		}
