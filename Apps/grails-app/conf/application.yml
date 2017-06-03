@@ -109,9 +109,9 @@ dataSource:
     jmxExport: true
     //driverClassName: org.h2.Driver
     driverClassName: org.postgresql.Driver
-    username: postgres
-    password: Brahmananda1
-    url: jdbc:postgresql://localhost:5432
+    username: "postgres"
+    password: "Brahmananda1"
+    url: jdbc:postgresql://localhost:5432/postgres
     dbCreate: create-drop
 
 environments:
