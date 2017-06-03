@@ -3,6 +3,8 @@ package apps
 import static org.springframework.http.HttpStatus.*
 import grails.transaction.Transactional
 import grails.plugin.springsecurity.annotation.Secured
+import groovy.util.logging.Log;
+
 import java.security.Principal
 //import grails.plugin.springsecurity.annotation.Secured
 
@@ -132,6 +134,8 @@ class ProductsController {
 			}
 		} catch (Exception e) {
 				e.printStackTrace( )
+				log.info "caught exception: " + e.getMessage()
+				log.info "caught exception: " + e
 		}
 		
         request.withFormat {
@@ -226,7 +230,7 @@ class ProductsController {
 			}
 		} catch (Exception e) {
 				e.printStackTrace()
-				log.info "Exception in edit products"
+				log.info "Exception in edit products: " + e
 		} 
         request.withFormat {
             form multipartForm {
