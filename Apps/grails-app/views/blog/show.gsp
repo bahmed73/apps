@@ -33,6 +33,8 @@
 	
 		</noscript>-->
 		<!--[if lte IE 8]><asset:javascript src="html5shiv.js"/><asset:stylesheet src="ie8.css"/><![endif]-->
+		<asset:javascript src="application.js"/>
+  		<asset:stylesheet src="application.css"/>
 	</head>
 	<body class="homepage">
 	<a href="/#"><asset:image src="favicon.png" class="grails-logo"/></a>
