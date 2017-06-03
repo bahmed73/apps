@@ -76,4 +76,5 @@ bootRun {
 assets {
     minifyJs = true
     minifyCss = true
+	excludes = ["spring*"]
 }
