@@ -29,7 +29,13 @@
                 <fieldset class="form">
                     <f:all bean="blog"/>
                 </fieldset>
-                <input type="file" name="myFile" />
+                <fieldset>
+                	<div style="float:left;width:50" class="post"><h4>Upload Blog Image (JPG):</h4></div>
+              				Please be patient while the file uploads.<br>
+              		<div>
+                  <input type="file" name="myFile" />
+              </div>	
+                </fieldset>
                 <fieldset class="buttons">
                     <g:submitButton name="create" class="save" value="${message(code: 'default.button.create.label', default: 'Create')}" />
                 </fieldset>
