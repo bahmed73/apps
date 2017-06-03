@@ -35,7 +35,7 @@ if (Environment.isDevelopmentMode() && targetDir != null) {
     root(ERROR, ['STDOUT', 'FULL_STACKTRACE'])
 } else {
     appender("FULL_STACKTRACE", FileAppender) {
-        file = "foodal.log"
+        file = "logs/foodal.log"
         append = true
         encoder(PatternLayoutEncoder) {
             pattern = "%level %logger - %msg%n"
