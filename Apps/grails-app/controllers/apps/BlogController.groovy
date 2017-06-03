@@ -2,8 +2,8 @@ package apps
 
 import static org.springframework.http.HttpStatus.*
 import grails.transaction.Transactional
-
 import grails.plugin.springsecurity.annotation.Secured
+import groovy.util.logging.Log;
 
 @Secured('ROLE_ADMIN')
 class BlogController {
@@ -18,7 +18,7 @@ class BlogController {
         respond Blog.list(params), model:[blogCount: Blog.count()]
     }
 
-	@Secured(['ROLE_ANONYMOUS', 'ROLE_ADMIN'])
+	@Transactional
     def show(Blog blog) {
         if (blog == null) {
 			redirect action:"index", method:"GET"
@@ -52,7 +52,7 @@ class BlogController {
 
 		def user = springSecurityService.currentUser
 		
-		System.out.println("username = " + user.username)
+		log.info "inside save blog: username = " + user.username
 		blog.user = user
 		
         blog.save flush:true
@@ -60,7 +60,7 @@ class BlogController {
 		try {
 			def transferFile = request.getFile('myFile')
 			if(transferFile != null && !transferFile.empty) {
-				println "file is not empty, transferring"
+				log.info "file is not empty, transferring"
 				String fileName
 
 				switch (grails.util.Environment.current) {
@@ -72,15 +72,15 @@ class BlogController {
 						appsService.uploadBlogPhoto(file)
 						break
 				case grails.util.Environment.TEST:
-						fileName = "/usr/share/tomcat/webapps/ROOT/assets/BLOG_"+blog.id
+						fileName = "/usr/share/tomcat/webapps/ROOT/assets/images/BLOG_"+blog.id
 						System.out.println("fileName = " + fileName)
 						File file = new File(fileName)
 						transferFile.transferTo( file )
 						appsService.uploadBlogPhoto(file)
 						break
 				case grails.util.Environment.PRODUCTION:
-						fileName = "/usr/share/tomcat/webapps/ROOT/assets/BLOG_"+blog.id
-						System.out.println("fileName = " + fileName)
+						fileName = "/usr/share/tomcat/webapps/ROOT/assets/images/BLOG_"+blog.id
+						log.info "fileName = " + fileName
 						File file = new File(fileName)
 						transferFile.transferTo( file )
 						appsService.uploadBlogPhoto(file)
@@ -89,10 +89,11 @@ class BlogController {
 
 			}
 			else {
-			   println "file is empty"
+			   log.info "file is empty"
 			}
 		} catch (Exception e) {
 				e.printStackTrace( )
+				log.info e
 		}
 		
         request.withFormat {
@@ -106,7 +107,7 @@ class BlogController {
 
     def edit(Blog blog) {
 		def user = springSecurityService.currentUser
-		System.out.println("username = " + user.username)
+		log.info "inside edit blog: username = " + user.username
 		
 		if (blog.user == user) {
 			respond blog
@@ -133,7 +134,7 @@ class BlogController {
 
 		def user = springSecurityService.currentUser
 		
-		System.out.println("username = " + user.username)
+		log.info "inside update blog: username = " + user.username
 		blog.user = user
 		
         blog.save flush:true
@@ -141,7 +142,7 @@ class BlogController {
 		try {
 			def transferFile = request.getFile('myFile')
 			if(transferFile != null && !transferFile.empty) {
-				println "file is not empty, transferring"
+				log.info "file is not empty, transferring"
 				String fileName
 
 				switch (grails.util.Environment.current) {
@@ -153,15 +154,15 @@ class BlogController {
 						appsService.uploadBlogPhoto(file)
 						break
 				case grails.util.Environment.TEST:
-						fileName = "/usr/share/tomcat/webapps/ROOT/assets/BLOG_"+blog.id
+						fileName = "/usr/share/tomcat/webapps/ROOT/assets/images/BLOG_"+blog.id
 						System.out.println("fileName = " + fileName)
 						File file = new File(fileName)
 						transferFile.transferTo( file )
 						appsService.uploadBlogPhoto(file)
 						break
 				case grails.util.Environment.PRODUCTION:
-						fileName = "/usr/share/tomcat/webapps/ROOT/assets/BLOG_"+blog.id
-						System.out.println("fileName = " + fileName)
+						fileName = "/usr/share/tomcat/webapps/ROOT/assets/images/BLOG_"+blog.id
+						log.info "fileName = " + fileName
 						File file = new File(fileName)
 						transferFile.transferTo( file )
 						appsService.uploadBlogPhoto(file)
@@ -170,10 +171,11 @@ class BlogController {
 
 			}
 			else {
-			   println "file is empty"
+			   log.info "file is empty"
 			}
 		} catch (Exception e) {
 				e.printStackTrace( )
+				log.info "caught exception: " + e
 		}
 		
         request.withFormat {
