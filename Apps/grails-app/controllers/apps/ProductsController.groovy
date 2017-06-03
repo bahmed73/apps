@@ -42,8 +42,8 @@ class ProductsController {
 		}
 		def user = products.user
 		
-		appsService.addProductView(products, request.getRemoteAddr(), user)
-		appsService.trackProductReferer(request.getHeader("REFERER"), products, user)
+		//appsService.addProductView(products, request.getRemoteAddr(), user)
+		//appsService.trackProductReferer(request.getHeader("REFERER"), products, user)
 		def productViews = ProductView.countByProducts(products)
         respond products, model:[productViews: productViews]
     }
