@@ -18,6 +18,7 @@ class BlogController {
         respond Blog.list(params), model:[blogCount: Blog.count()]
     }
 
+	@Secured(['ROLE_ANONYMOUS', 'ROLE_ADMIN'])
     def show(Blog blog) {
         if (blog == null) {
 			redirect action:"index", method:"GET"
@@ -70,8 +71,15 @@ class BlogController {
 						transferFile.transferTo( file )
 						appsService.uploadBlogPhoto(file)
 						break
+				case grails.util.Environment.TEST:
+						fileName = "/usr/share/tomcat/webapps/ROOT/assets/BLOG_"+blog.id
+						System.out.println("fileName = " + fileName)
+						File file = new File(fileName)
+						transferFile.transferTo( file )
+						appsService.uploadBlogPhoto(file)
+						break
 				case grails.util.Environment.PRODUCTION:
-						fileName = "C:\\development\\workspace\\Apps\\grails-app\\assets\\images\\BLOG_"+blog.id
+						fileName = "/usr/share/tomcat/webapps/ROOT/assets/BLOG_"+blog.id
 						System.out.println("fileName = " + fileName)
 						File file = new File(fileName)
 						transferFile.transferTo( file )
@@ -144,8 +152,15 @@ class BlogController {
 						transferFile.transferTo( file )
 						appsService.uploadBlogPhoto(file)
 						break
+				case grails.util.Environment.TEST:
+						fileName = "/usr/share/tomcat/webapps/ROOT/assets/BLOG_"+blog.id
+						System.out.println("fileName = " + fileName)
+						File file = new File(fileName)
+						transferFile.transferTo( file )
+						appsService.uploadBlogPhoto(file)
+						break
 				case grails.util.Environment.PRODUCTION:
-						fileName = "C:\\development\\workspace\\Apps\\grails-app\\assets\\images\\BLOG_"+blog.id
+						fileName = "/usr/share/tomcat/webapps/ROOT/assets/BLOG_"+blog.id
 						System.out.println("fileName = " + fileName)
 						File file = new File(fileName)
 						transferFile.transferTo( file )
