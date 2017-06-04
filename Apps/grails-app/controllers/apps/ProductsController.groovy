@@ -33,6 +33,7 @@ class ProductsController {
     }
 
 	@Transactional
+	@Secured(['ROLE_ADMIN', 'ROLE_ANONYMOUS'])
 	def show(Products products) {
 		
 		log.info "show products, params = " + params

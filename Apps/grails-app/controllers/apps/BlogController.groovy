@@ -22,6 +22,7 @@ class BlogController {
     }
 
 	@Transactional
+	@Secured(['ROLE_ADMIN', 'ROLE_ANONYMOUS'])
     def show(Blog blog) {
         if (blog == null) {
 			redirect action:"index", method:"GET"
