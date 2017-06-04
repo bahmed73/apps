@@ -116,7 +116,8 @@
 											<div class="6u">
 												<section class="box">
 												<header>
-													<asset:image src="PRODUCTS_${products.id}-03"/>
+													<!-- <asset:image src="PRODUCTS_${products.id}-03"/> -->
+													<img src="${grailsApplication.mainContext.servletContext.getRealPath('/assets/images/PRODUCTS_${products.id}-03')}"/>
 												</header>
 													<br><br>
 													<p style="font-size:14px;">Questions? Email us today for 24/7 support.</p>
