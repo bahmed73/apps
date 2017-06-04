@@ -86,7 +86,6 @@
 												</div>
 												<div class="6u">
 														<section class="box">
-														<!-- <asset:image src="BLOG_${blogInstance.id}-01"/> -->
 														<g:img file="BLOG_${blogInstance.id}-01" absolute="true" dir="assets/images" />
 														</section>
 												</div>

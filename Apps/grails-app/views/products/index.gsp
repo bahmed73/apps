@@ -90,7 +90,6 @@
 												</div>
 												<div class="6u">
 														<section class="box">
-														<asset:image src="PRODUCTS_${productsInstance.id}-01"/>
 														<g:img file="PRODUCTS_${productsInstance.id}-01" absolute="true" dir="assets/images" />
 														</section>
 												</div>
