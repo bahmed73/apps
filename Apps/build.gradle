@@ -77,6 +77,4 @@ bootRun {
 assets {
     minifyJs = true
     minifyCss = true
-	excludes = ['**/PRODUCTS_*']
-	excludes = ['**/BLOG_*']
 }
