@@ -90,7 +90,7 @@
 												<section class="box">
 												<header>
 													<!-- <asset:image src="BLOG_${blog.id}-03"/> -->
-													<img src="images/BLOG_${blog.id}-03"/>
+													<img src="/images/BLOG_${blog.id}-03"/>
 													
 												</header>
 													<br><br>
