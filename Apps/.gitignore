@@ -10,32 +10,13 @@ build/
 .settings
 .classpath
 /bin/
-/bin/
-/bin/
-/bin/
-/bin/
 target-eclipse
 ../RemoteSystemsTempFiles/
 ../.metadata/
 
-/bin/
-/bin/
-/bin/
-/bin/
-/bin/
-/bin/
-/bin/
-/bin/
-/bin/
-/bin/
-/bin/
-/bin/
-/bin/
-/bin/
-/bin/
 /grails-app/assets/images/PRODUCTS_*
 /grails-app/assets/images/test.*
 
-/bin/
-
 /grails-app/assets/images/BLOG*
+/grails-app/assets/PRODUCTS*
+logs/

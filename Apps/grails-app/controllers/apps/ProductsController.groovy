@@ -19,6 +19,9 @@ class ProductsController {
 	
     static allowedMethods = [save: "POST", update: "PUT", delete: "DELETE"]
 
+	static fProd = "/usr/share/tomcat/webapps/ROOT/assets/images"
+	static fTest = "C:\\development\\workspace\\Apps\\grails-app\\assets\\images"
+	
     def index(Integer max) {
         params.max = Math.min(max ?: 10, 100)
 		
@@ -106,21 +109,21 @@ class ProductsController {
 
 				switch (grails.util.Environment.current) {
 				case grails.util.Environment.DEVELOPMENT:
-						fileName = "C:\\development\\workspace\\Apps\\grails-app\\assets\\images\\PRODUCTS_"+products.id
+						fileName = fTest + "\\PRODUCTS_"+products.id
 						System.out.println("fileName = " + fileName)
 						File file = new File(fileName)
 						transferFile.transferTo( file )
 						appsService.uploadProductPhoto(file)
 						break
 				case grails.util.Environment.TEST:
-						fileName = "/usr/share/tomcat/webapps/ROOT/assets/PRODUCTS_"+products.id
+						fileName = fProd + "/PRODUCTS_"+products.id
 						System.out.println("fileName = " + fileName)
 						File file = new File(fileName)
 						transferFile.transferTo( file )
 						appsService.uploadProductPhoto(file)
 						break
 				case grails.util.Environment.PRODUCTION:
-						fileName = "/usr/share/tomcat/webapps/ROOT/assets/PRODUCTS_"+products.id
+						fileName = fProd + "/PRODUCTS_"+products.id
 						log.info "fileName = " + fileName
 						File file = new File(fileName)
 						transferFile.transferTo( file )
@@ -202,21 +205,21 @@ class ProductsController {
 
 				switch (grails.util.Environment.current) {
 				case grails.util.Environment.DEVELOPMENT:
-						fileName = "C:\\development\\workspace\\Apps\\grails-app\\assets\\images\\PRODUCTS_"+products.id
+						fileName = fTest + "\\PRODUCTS_"+products.id
 						System.out.println("fileName = " + fileName)
 						File file = new File(fileName)
 						transferFile.transferTo( file )
 						appsService.uploadProductPhoto(file)
 						break
 				case grails.util.Environment.TEST:
-						fileName = "/usr/share/tomcat/webapps/ROOT/assets/PRODUCTS_"+products.id
+						fileName = fProd + "/PRODUCTS_"+products.id
 						System.out.println("fileName = " + fileName)
 						File file = new File(fileName)
 						transferFile.transferTo( file )
 						appsService.uploadProductPhoto(file)
 						break
 				case grails.util.Environment.PRODUCTION:
-						fileName = "/usr/share/tomcat/webapps/ROOT/assets/PRODUCTS_"+products.id
+						fileName = fProd + "/PRODUCTS_"+products.id
 						log.info "fileName = " + fileName
 						File file = new File(fileName)
 						transferFile.transferTo( file )
