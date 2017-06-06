@@ -14,7 +14,10 @@ grails.plugin.springsecurity.controllerAnnotations.staticRules = [
 	[pattern: '/**/js/**',       access: ['permitAll']],
 	[pattern: '/**/css/**',      access: ['permitAll']],
 	[pattern: '/**/images/**',   access: ['permitAll']],
-	[pattern: '/**/favicon.ico', access: ['permitAll']]
+	[pattern: '/**/favicon.ico', access: ['permitAll']],
+	[pattern: '/product/twitter',        access: ['permitAll']],
+	[pattern: '/product/twitterLoggedIn',access: ['permitAll']],
+	[pattern: '/product/twitterUserData',access: ['permitAll']]
 ]
 
 grails.plugin.springsecurity.filterChain.chainMap = [
@@ -42,7 +45,10 @@ grails.plugin.springsecurity.controllerAnnotations.staticRules = [
 	[pattern: '/**/js/**',       access: ['permitAll']],
 	[pattern: '/**/css/**',      access: ['permitAll']],
 	[pattern: '/**/images/**',   access: ['permitAll']],
-	[pattern: '/**/favicon.ico', access: ['permitAll']]
+	[pattern: '/**/favicon.ico', access: ['permitAll']],
+	[pattern: '/product/twitter',        access: ['permitAll']],
+	[pattern: '/product/twitterLoggedIn',access: ['permitAll']],
+	[pattern: '/product/twitterUserData',access: ['permitAll']]
 ]
 
 grails.plugin.springsecurity.filterChain.chainMap = [
@@ -70,7 +76,10 @@ grails.plugin.springsecurity.controllerAnnotations.staticRules = [
 	[pattern: '/**/js/**',       access: ['permitAll']],
 	[pattern: '/**/css/**',      access: ['permitAll']],
 	[pattern: '/**/images/**',   access: ['permitAll']],
-	[pattern: '/**/favicon.ico', access: ['permitAll']]
+	[pattern: '/**/favicon.ico', access: ['permitAll']],
+	[pattern: '/product/twitter',        access: ['permitAll']],
+	[pattern: '/product/twitterLoggedIn',access: ['permitAll']],
+	[pattern: '/product/twitterUserData',access: ['permitAll']]
 ]
 
 grails.plugin.springsecurity.filterChain.chainMap = [

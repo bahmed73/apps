@@ -111,6 +111,21 @@ class ProductController {
 		}
 	}
 
+	def twitter() {
+		System.out.println("inside twitter")
+		log.info "inside twitter"
+	}
+	
+	def twitterLoggedIn() {
+		System.out.println("inside twitter loggedin")
+		log.info "inside twitter logged in"
+	}
+	
+	def twitterUserData() {
+		System.out.println("inside twitter user data")
+		log.info "inside twitter user data"
+	}
+	
     @Transactional
     def save(Product product) {
         if (product == null) {
