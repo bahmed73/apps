@@ -10,6 +10,8 @@ import grails.plugin.springsecurity.annotation.Secured
 
 class ProductController {
 
+	static scope = 'session'
+	
 	def springSecurityService
 	
     static allowedMethods = [save: "POST", update: "PUT", delete: "DELETE"]
