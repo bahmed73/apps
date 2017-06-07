@@ -25,7 +25,7 @@ class TwitterService {
 		
 		QueryResult result = twitter.search(query)
 		
-		if (result != null && result.size() > 0) {
+		if (result != null) {
 			
 			List tweets = result.getTweets()
 			tweets.each {tweet ->   
