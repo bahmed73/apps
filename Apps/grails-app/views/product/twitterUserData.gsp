@@ -67,8 +67,8 @@
 											</ul>
 										</nav>
 							<!-- Intro -->
-							<g:if test="${searchResults}">
-							<g:each in="${searchResults}" status="i" var="tweet">
+							<g:if test="${session.searchResults}">
+							<g:each in="${session.searchResults}" status="i" var="tweet">
 								<div class="row">
 								<div class="12u">
 									<section>

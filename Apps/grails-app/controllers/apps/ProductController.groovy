@@ -155,7 +155,7 @@ class ProductController {
 		System.out.println("inside twitter user data: loggedIn!")
 		log.info "inside twitter user data: loggedIn!"
 		
-		def searchResults = twitterService.search("#russiagate", session.twitter)
+		session.searchResults = twitterService.search("#russiagate", session.twitter)
 		
 		log.info "searchResults Count = " + searchResults.size()
 		
