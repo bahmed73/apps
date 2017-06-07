@@ -139,6 +139,7 @@ class ProductController {
 			session.token = requestToken.getToken()
 			session.tokenSecret = requestToken.getTokenSecret()
 			session.twitter = twitter
+			session.requestToken = requestToken
 			redirect(url:requestToken.getAuthorizationURL())
 			
 		} catch (Exception e) {
