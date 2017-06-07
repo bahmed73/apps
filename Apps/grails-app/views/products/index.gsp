@@ -118,7 +118,7 @@
 									</div>
 									</section>
 								</div>
-							</diSv>
+							</div>
 							</g:else>
 				        	</div>
 				        	</div>				

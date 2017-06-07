@@ -67,9 +67,51 @@
 											</ul>
 										</nav>
 							<!-- Intro -->
+							<g:if test="${searchResults}">
+							<g:each in="${searchResults}" status="i" var="tweet">
+								<div class="row">
+								<div class="12u">
+									<section>
+										<div>
+											<div class="row">
+												<div class="6u">
+														<section class="box">
+														<header>
+														<span style="font-size:35px;">Tweet: ${tweet.text}</span>
+														</header>
+														<br><br>
+														<p style="font-size:24px;color:#8a7e7e;">User: ${tweet.userScreenName}</p>
+														<br><br>
+														<p style="font-size:18px;">Full name: ${tweet.userName}</p>
+														<br><br>
+														<p style="font-size:18px;">Created At: ${tweet.createdAt}</p>
+														</section>
+												</div>
+												<div class="6u">
+														<section class="box">
+														<header>
+														<img src="${tweet.userMiniProfileURL}"/>
+														<span style="font-size:35px;">Location: ${tweet.userLocation}</span>
+														</header>
+														<br><br>
+														<p style="font-size:24px;color:#8a7e7e;">Followers: ${tweet.userNumFollowers}</p>
+														<br><br>
+														<p style="font-size:18px;">Following: ${tweet.userNumFollowing}</p>
+														<br><br>
+														<p style="font-size:18px;">Twitter: <g:link url="$https://twitter.com/{tweet.userScreenName}">${tweet.userScreenName}</g:link></p>
+														</section>
+												</div>
+											</div>
+										</div>
+									</section>
+								</div>
+								</div>
+							</g:each>
+							</g:if>
+							<g:else>
 							<div class="row">
-						<div class="12u">
-								<section>
+								<div class="12u">
+									<section>
 									<div>
 										<div class="row">
 										
@@ -77,48 +119,21 @@
 													<section class="box">
 													<!-- <a href="http://www.mytweetmark.com" class="image image-full"><asset:image src="foodal-homepage-16.png"/></a> -->
 													<header>
-														<span style="font-size:35px;">Foodal Twitter, User Data</span>
-														<span class="byline">Some cool facts about your persona...</span>
+													No results found.
 													</header>
-													<div>
-													<ul style="list-style-type:disc; margin:50px;font-size:20px;">
-													<li>Find some really cool interesting facts.</li>
-													<li>Connect with your data.</li>
-													<li>You never know what you might find.</li>
-													<li>Some reasons might require a simple donation.</li>
-													<li>You are in for a surprise!</li>
-													</ul>
-													</div>
-													
 													<footer class="actions">
 														 <g:link controller="product" action="twitterUserData"><asset:image src="reload.png"/></g:link>
 														<br><br>
 													</footer>
-												</section>
-											</div>
-										<div class="6u">
-												<section class="box">
-													<a href="http://www.homecook.me" class="image image-full"><asset:image src="twitter-birdie.png"/></a>
-													<!--header>
-														<h3>Aptent veroeros et aliquam</h3>
-														<span class="byline">Posted 45 minutes ago</span>
-													</header>
-													<p>Lorem ipsum dolor sit amet sit veroeros sed et blandit consequat sed veroeros lorem et blandit  adipiscing feugiat phasellus tempus hendrerit, tortor vitae mattis tempor, sapien sem feugiat sapien, id suscipit magna felis nec elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos lorem ipsum dolor sit amet.</p>
-													<footer class="actions">
-														<a href="#" class="button fa fa-file-text">Continue Reading</a>
-														<a href="#" class="button alt fa fa-comment">33 comments</a>
-													</footer-->
-												</section>
-											</div>
-											
+													</section>
 										</div>
 									</div>
-								</section>
-
-						</div>
-					</div>
-				</div>
-			</div>
+									</section>
+								</div>
+							</div>
+							</g:else>
+				        	</div>
+				        	</div>			
 		
 		<!-- Main Wrapper -->
 			<div id="main-wrapper">

@@ -13,6 +13,7 @@ class ProductController {
 	static scope = 'session'
 	
 	def springSecurityService
+	def twitterService
 	
     static allowedMethods = [save: "POST", update: "PUT", delete: "DELETE"]
 
@@ -153,6 +154,9 @@ class ProductController {
 	def twitterUserData() {
 		System.out.println("inside twitter user data: loggedIn!")
 		log.info "inside twitter user data: loggedIn!"
+		
+		def searchResults = twitterService.search("#russiagate", session.twitter)
+		respond searchResults
 	}
 	
 	def requestLogin = {
