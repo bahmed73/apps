@@ -2,6 +2,8 @@ package apps
 
 import static org.springframework.http.HttpStatus.*
 import grails.transaction.Transactional
+import twitter4j.*
+import twitter4j.auth.*
 
 import grails.plugin.springsecurity.annotation.Secured
 @Secured('ROLE_ADMIN')
@@ -12,6 +14,10 @@ class ProductController {
 	
     static allowedMethods = [save: "POST", update: "PUT", delete: "DELETE"]
 
+	static final String consumerKey = "qq1Mr7tLmzDSsUcGtBZmvM35d"
+	static final String consumerSecret = "huFnBilI98zuGZH4IicZsWOgs7w2b2OHJ9NtQhtedTkZ3XrLzM"
+	
+	
     def index(Integer max) {
 		params.max = Math.min(max ?: 10, 100)
 		respond AppType.list(params), model:[appTypeCount: AppType.count()]
@@ -119,11 +125,69 @@ class ProductController {
 	def twitterLoggedIn() {
 		System.out.println("inside twitter loggedin")
 		log.info "inside twitter logged in"
+		
+		try {
+			Twitter twitter = new TwitterFactory().getInstance()
+			twitter.setOAuthConsumer(consumerKey, consumerSecret)
+			RequestToken requestToken = twitter.getOAuthRequestToken()
+			
+			System.out.println("inside twitter loggedIn!: requestToken  = " + requestToken)
+			log.info "inside twitter user data: loggedIn! requestToken = " + requestToken
+			
+			session.token = requestToken.getToken()
+			session.tokenSecret = requestToken.getTokenSecret()
+			session.twitter = twitter
+			redirect(url:requestToken.getAuthorizationURL())
+			
+		} catch (Exception e) {
+			System.out.println("Caught exception in Twitter login: " + e.getMessage())
+			log.info "Caught exception in Twitter login: " + e.getMessage()
+		}
+		
+		
 	}
 	
 	def twitterUserData() {
-		System.out.println("inside twitter user data")
-		log.info "inside twitter user data"
+		System.out.println("inside twitter user data: loggedIn!")
+		log.info "inside twitter user data: loggedIn!"
+	}
+	
+	def requestLogin = {
+		System.out.println("inside requestLogin")
+		log.info "inside requestLogin"
+	}
+	
+	def processLogin = {
+		System.out.println("inside processLogin")
+		log.info "inside processLogin"
+		
+		if (!session.requestToken) {
+			flash.message = "User twitter request token not available.";
+			session.requestToken = null
+			session.twitter = null
+			redirect(uri:"/")
+			return
+		} else {
+			System.out.println("requestToken = " + session.requestToken)
+			log.info "requestToken = "+ session.requestToken
+			try {
+				AccessToken accessToken = session.twitter.getOAuthAccessToken(session.requestToken, params.oauth_verifier)
+				
+				System.out.println("accessToken = " + accessToken)
+				log.info "accessToken = "+ accessToken
+				
+				def twitterUser = session.twitter.verifyCredentials()
+				
+				System.out.println("user is authenticated = " + twitterUser)
+				log.info "user is authenticated = "+ twitterUser
+				
+				redirect(action:"twitterUserData")
+
+			} catch (Exception e) {
+				System.out.println("Caught exception in processLogin: " + e.getMessage())
+				log.info "Caught exception in processLogin: " + e.getMessage()
+			}
+		}
 	}
 	
     @Transactional
