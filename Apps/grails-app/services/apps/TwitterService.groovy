@@ -4,6 +4,7 @@ import twitter4j.*
 import twitter4j.http.*
 import twitter4j.auth.*
 import twitter4j.conf.*
+import java.util.*
 
 import grails.transaction.Transactional
 
@@ -20,7 +21,7 @@ class TwitterService {
 		
 		log.info "inside twitter.search: term = " + term
 		
-		def resultList = new ArrayList()
+		List resultList = new ArrayList()
 		
 		Query query = new Query(term)
 		query.setCount(numberOfTweets)
