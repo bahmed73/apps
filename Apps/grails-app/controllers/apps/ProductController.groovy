@@ -157,8 +157,6 @@ class ProductController {
 		
 		session.searchResults = twitterService.search("#russiagate", session.twitter)
 		
-		log.info "searchResults Count = " + searchResults.size()
-		
 		//render (view: "twitterUserData", bean: searchResults)
 		//respond searchResults, model:[searchTerm: "#russiagate", searchCount:searchResults.size()]
 	}
