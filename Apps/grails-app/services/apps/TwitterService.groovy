@@ -10,8 +10,7 @@ import grails.transaction.Transactional
 @Transactional
 class TwitterService {
 
-	static public final int numberOfTweets = 40
-	static public final int numberOfPages = 2
+	static public final int numberOfTweets = 50
 	
     def serviceMethod() {
 
@@ -22,8 +21,7 @@ class TwitterService {
 		def resultList = new ArrayList()
 		
 		Query query = new Query(term)
-		query.setRpp(numberOfTweets)
-		query.setPage(numberOfPages)
+		query.setCount(numberOfTweets)
 		
 		QueryResult result = twitter.search(query)
 		
