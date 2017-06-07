@@ -30,7 +30,7 @@ class TwitterService {
 			List tweets = result.getTweets()
 			tweets.each {tweet ->   
 				def expandoObj = new Expando()
-				expandoObj.userScreenName = tweet.user.screenName()
+				expandoObj.userScreenName = tweet.user.getScreenName()
 				expandoObj.text = tweet.getText()
 				expandoObj.createdAt = tweet.getCreatedAt()
 				expandoObj.userName = tweet.user.getName()
