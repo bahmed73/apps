@@ -77,11 +77,8 @@
 												<div class="6u">
 														<section class="box">
 														<header>
-														<span style="font-size:35px;">Search: ${searchTerm}</span>
-														<span style="font-size:35px;">Count: ${searchCount}</span>
+														<span style="font-size:35px;">Tweet: ${tweet.text}</span>
 														</header>
-														<br><br>
-														<p style="font-size:24px;color:#8a7e7e;">Tweet: ${tweet.text}</p>
 														<br><br>
 														<p style="font-size:24px;color:#8a7e7e;">User: ${tweet.userScreenName}</p>
 														<br><br>

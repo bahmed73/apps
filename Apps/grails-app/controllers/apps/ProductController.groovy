@@ -159,7 +159,8 @@ class ProductController {
 		
 		log.info "searchResults Count = " + searchResults.size()
 		
-		respond searchResults, model:[searchTerm: "#russiagate", searchCount:searchResults.size()]
+		render (bean: searchResults)
+		//respond searchResults, model:[searchTerm: "#russiagate", searchCount:searchResults.size()]
 	}
 	
 	def requestLogin = {
