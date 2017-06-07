@@ -29,10 +29,6 @@ class TwitterService {
 			
 			List tweets = result.getTweets()
 			tweets.each {tweet ->   
-				log.info "ID : ${tweet.id}"     
-				log.info "User : ${tweet.user.screenName}"     
-				log.info "Tweet : ${tweet.text}"    
-				
 				def expandoObj = new Expando()
 				expandoObj.userScreenName = tweet.user.screenName()
 				expandoObj.text = tweet.getText()
