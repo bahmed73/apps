@@ -90,7 +90,6 @@
 												<div class="6u">
 														<section class="box">
 														<header>
-														<img src="${tweet.userMiniProfileURL}"/>
 														<span style="font-size:35px;">Location: ${tweet.userLocation}</span>
 														</header>
 														<br><br>
