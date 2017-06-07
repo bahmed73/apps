@@ -156,7 +156,10 @@ class ProductController {
 		log.info "inside twitter user data: loggedIn!"
 		
 		def searchResults = twitterService.search("#russiagate", session.twitter)
-		respond searchResults
+		
+		log.info "searchResults Count = " + searchResults.size()
+		
+		respond searchResults, model:[searchTerm: "#russiagate", searchCount:searchResults.size()]
 	}
 	
 	def requestLogin = {

@@ -18,12 +18,14 @@ class TwitterService {
 	
 	public def search(String term, Twitter twitter) {
 		
+		log.info "inside twitter.search: term = " + term
+		
 		def resultList = new ArrayList()
 		
 		Query query = new Query(term)
 		query.setCount(numberOfTweets)
 		
-		QueryResult result = twitter.search(query)
+		def result = twitter.search(query)
 		
 		if (result != null) {
 			
@@ -41,6 +43,9 @@ class TwitterService {
 				resultList.add(expandoObj)
 			}
 		}
+		
+		log.info "twitter.search count = " + resultList.size()
+		
 		return resultList
 	}
 
