@@ -313,7 +313,7 @@ class ImagingService {
 		 * @param input
 		 * @return output
 		 */
-		public static String generate650x650(ImagePlus image, String input) throws Exception {
+		public static String generate400x400(ImagePlus image, String input) throws Exception {
 			
 			int fileType = 0;
 			/*int fileType = getFileType(input);
@@ -333,19 +333,19 @@ class ImagingService {
 			try {
 				int newWidth = 0;
 				int newHeight = 0;
-				if (width > 650 || height > 650 ) {
+				if (width > 400 || height > 400 ) {
 					if (width > height) {
-						newWidth = 650;
+						newWidth = 400;
 						float ratio = (float)height/width;
-						newHeight = (int) (650*ratio);
+						newHeight = (int) (400*ratio);
 					} else {
-						newHeight = 650;
+						newHeight = 400;
 						float ratio = (float)width/height;
-						newWidth = (int)(650 * ratio);
+						newWidth = (int)(400 * ratio);
 					}
 					ImagePlus newImage = makeImage(image, newWidth, newHeight);
 					saveFile(newImage, fileType, output);
-				} else if (width <= 650 && height <= 650) {
+				} else if (width <= 400 && height <= 400) {
 					saveFile(image, fileType, output);
 				}
 			} catch (Exception e) {

@@ -130,7 +130,7 @@ class AppsService {
 			files = new File(output)
 			products.imageTwo = files.bytes
 			
-			output = imagingService.generate650x650(image, fileName);
+			output = imagingService.generate400x400(image, fileName);
 			
 			files = new File(output)
 			products.imageThree = files.bytes
@@ -163,7 +163,7 @@ class AppsService {
 			files = new File(output)
 			blog.imageTwo = files.bytes
 			
-			output = imagingService.generate650x650(image, fileName);
+			output = imagingService.generate400x400(image, fileName);
 			
 			files = new File(output)
 			blog.imageThree = files.bytes
