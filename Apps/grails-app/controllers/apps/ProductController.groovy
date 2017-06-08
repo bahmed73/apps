@@ -155,10 +155,10 @@ class ProductController {
 		System.out.println("inside twitter user data: loggedIn!")
 		log.info "inside twitter user data: loggedIn!"
 		
-		session.searchResults = twitterService.search("#russiagate", session.twitter)
+		def searchResults = twitterService.search("#russiagate", session.twitter)
 		
 		//render (view: "twitterUserData", bean: searchResults)
-		//respond searchResults, model:[searchTerm: "#russiagate", searchCount:searchResults.size()]
+		respond searchResults, model:[searchTerm: "#russiagate", searchCount:searchResults.size()]
 	}
 	
 	def requestLogin = {

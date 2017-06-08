@@ -67,8 +67,8 @@
 											</ul>
 										</nav>
 							<!-- Intro -->
-							<g:if test="${session.searchResults}">
-							<g:each in="${session.searchResults}" status="i" var="tweet">
+							<g:if test="${searchResults}">
+							<g:each in="${searchResults}" status="i" var="tweet">
 								<div class="row">
 								<div class="12u">
 									<section>
@@ -77,27 +77,8 @@
 												<div class="6u">
 														<section class="box">
 														<header>
-														<span style="font-size:35px;">Tweet: ${tweet.text}</span>
+														<span style="font-size:35px;">${tweet}</span>
 														</header>
-														<br><br>
-														<p style="font-size:24px;color:#8a7e7e;">User: ${tweet.userScreenName}</p>
-														<br><br>
-														<p style="font-size:18px;">Full name: ${tweet.userName}</p>
-														<br><br>
-														<p style="font-size:18px;">Created At: ${tweet.createdAt}</p>
-														</section>
-												</div>
-												<div class="6u">
-														<section class="box">
-														<header>
-														<span style="font-size:35px;">Location: ${tweet.userLocation}</span>
-														</header>
-														<br><br>
-														<p style="font-size:24px;color:#8a7e7e;">Followers: ${tweet.userNumFollowers}</p>
-														<br><br>
-														<p style="font-size:18px;">Following: ${tweet.userNumFollowing}</p>
-														<br><br>
-														<p style="font-size:18px;">Twitter: <g:link url="$https://twitter.com/{tweet.userScreenName}">${tweet.userScreenName}</g:link></p>
 														</section>
 												</div>
 											</div>
