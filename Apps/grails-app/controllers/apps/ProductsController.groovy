@@ -16,6 +16,7 @@ class ProductsController {
 	def springSecurityService
 	def mailService
 	def paymentService
+	def twitterService
 	
     static allowedMethods = [save: "POST", update: "PUT", delete: "DELETE"]
 
@@ -31,6 +32,16 @@ class ProductsController {
 		def productsList = Products.findAllByUser(user)
         respond productsList
     }
+	
+	def twitterUserData() {
+		System.out.println("inside twitter user data: loggedIn!")
+		log.info "inside twitter user data: loggedIn!"
+		
+		def searchResults = twitterService.search("#russiagate", session.twitter)
+		
+		//render (view: "twitterUserData", bean: searchResults)
+		respond searchResults, model:[searchTerm: "#russiagate", searchCount:searchResults.size()]
+	}
 
 	@Transactional
 	@Secured(['ROLE_ADMIN', 'ROLE_ANONYMOUS'])

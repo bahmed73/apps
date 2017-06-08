@@ -33,9 +33,9 @@ class TwitterService {
 			List tweets = result.getTweets()
 			tweets.each {tweet ->   
 				
-				def tweetString = tweet.user.getScreenName() + "says " + tweet.getText() + " on " + tweet.getCreatedAt()
+				//def tweetString = tweet.user.getScreenName() + "says " + tweet.getText() + " on " + tweet.getCreatedAt()
 				
-				/*
+				
 				def expandoObj = new Expando()
 				expandoObj.userScreenName = tweet.user.getScreenName()
 				expandoObj.text = tweet.getText()
@@ -45,9 +45,9 @@ class TwitterService {
 				expandoObj.userNumFollowing = tweet.user.getFriendsCount() 
 				expandoObj.userLocation = tweet.user.getLocation()
 				expandoObj.userMiniProfileURL = tweet.user.getMiniProfileImageURL()
-				resultList.add(expandoObj)*/
+				resultList.add(expandoObj)
 				
-				resultList.add(tweetString)
+				//resultList.add(tweetString)
 			}
 		}
 		
