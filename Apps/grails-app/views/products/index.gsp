@@ -90,7 +90,7 @@
 												</div>
 												<div class="6u">
 														<section class="box">
-														<img src="data:image/png;base64,${productsInstance.imageOne.encodeBase64()}"/>
+														<img src="data:image/png;base64,${productsInstance.imageOne?.encodeBase64()}"/>
 														</section>
 												</div>
 											</div>

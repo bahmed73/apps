@@ -86,7 +86,7 @@
 												</div>
 												<div class="6u">
 														<section class="box">
-														<img src="data:image/png;base64,${blogInstance.imageOne.encodeBase64()}"/>
+														<img src="data:image/png;base64,${blogInstance.imageOne?.encodeBase64()}"/>
 														</section>
 												</div>
 											</div>

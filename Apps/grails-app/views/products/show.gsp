@@ -117,7 +117,7 @@
 												<section class="box">
 												<header>
 													<!-- <asset:image src="PRODUCTS_${products.id}-03"/> -->
-													<img src="data:image/png;base64,${products.imageThree.encodeBase64()}"/>
+													<img src="data:image/png;base64,${products.imageThree?.encodeBase64()}"/>
 												</header>
 													<br><br>
 													<p style="font-size:14px;">Questions? Email us today for 24/7 support.</p>
