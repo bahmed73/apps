@@ -327,7 +327,9 @@ class ImagingService {
 			int width = image.getDimensions()[0]
 			int height = image.getDimensions()[1]
 			
-			String output = input.substring(0, input.lastIndexOf('.'))+"-02."+getFileTypeStr(input);
+			//String output = input.substring(0, input.lastIndexOf('.'))+"-03."+getFileTypeStr(input);
+			String output = input + "-03";
+			
 			try {
 				int newWidth = 0;
 				int newHeight = 0;

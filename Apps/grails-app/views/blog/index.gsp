@@ -86,7 +86,7 @@
 												</div>
 												<div class="6u">
 														<section class="box">
-														<g:img file="BLOG_${blogInstance.id}-01" absolute="true" dir="assets/images" />
+														<img src="data:image/png;base64,${blogInstance.imageOne.encodeBase64()}"/>
 														</section>
 												</div>
 											</div>

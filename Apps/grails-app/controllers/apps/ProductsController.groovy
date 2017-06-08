@@ -92,8 +92,7 @@ class ProductsController {
 		def user = User.findByUsername(principal.getName())
 		products.user = user
 		
-        products.save flush:true
-
+        
 		/*
 		mailService.sendMail {
 			to "bilal.ahmed@foodal.co"
@@ -114,21 +113,21 @@ class ProductsController {
 						System.out.println("fileName = " + fileName)
 						File file = new File(fileName)
 						transferFile.transferTo( file )
-						appsService.uploadProductPhoto(file)
+						appsService.uploadProductPhoto(file, products)
 						break
 				case grails.util.Environment.TEST:
 						fileName = fProd + "/PRODUCTS_"+products.id
 						System.out.println("fileName = " + fileName)
 						File file = new File(fileName)
 						transferFile.transferTo( file )
-						appsService.uploadProductPhoto(file)
+						appsService.uploadProductPhoto(file, products)
 						break
 				case grails.util.Environment.PRODUCTION:
 						fileName = fProd + "/PRODUCTS_"+products.id
 						log.info "fileName = " + fileName
 						File file = new File(fileName)
 						transferFile.transferTo( file )
-						appsService.uploadProductPhoto(file)
+						appsService.uploadProductPhoto(file, products)
 						break
 				}
 
@@ -141,6 +140,9 @@ class ProductsController {
 				log.info "caught exception: " + e.getMessage()
 				log.info "caught exception: " + e
 		}
+		
+		products.save flush:true
+		
 		
         request.withFormat {
             form multipartForm {
@@ -196,8 +198,7 @@ class ProductsController {
 		
 		products.user = user
 		
-        products.save flush:true
-
+        
 		try {
 			def transferFile = request.getFile('myFile')
 			if(transferFile != null && !transferFile.empty) {
@@ -210,21 +211,21 @@ class ProductsController {
 						System.out.println("fileName = " + fileName)
 						File file = new File(fileName)
 						transferFile.transferTo( file )
-						appsService.uploadProductPhoto(file)
+						appsService.uploadProductPhoto(file, products)
 						break
 				case grails.util.Environment.TEST:
 						fileName = fProd + "/PRODUCTS_"+products.id
 						System.out.println("fileName = " + fileName)
 						File file = new File(fileName)
 						transferFile.transferTo( file )
-						appsService.uploadProductPhoto(file)
+						appsService.uploadProductPhoto(file, products)
 						break
 				case grails.util.Environment.PRODUCTION:
 						fileName = fProd + "/PRODUCTS_"+products.id
 						log.info "fileName = " + fileName
 						File file = new File(fileName)
 						transferFile.transferTo( file )
-						appsService.uploadProductPhoto(file)
+						appsService.uploadProductPhoto(file, products)
 						break
 				}
 
@@ -236,6 +237,9 @@ class ProductsController {
 				e.printStackTrace()
 				log.info "Exception in edit products: " + e
 		} 
+		
+		products.save flush:true
+		
         request.withFormat {
             form multipartForm {
                 flash.message = message(code: 'default.updated.message', args: [message(code: 'products.label', default: 'Products'), products.id])

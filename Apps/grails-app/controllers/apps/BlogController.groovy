@@ -17,8 +17,16 @@ class BlogController {
 	static fTest = "C:\\development\\workspace\\Apps\\grails-app\\assets\\images"
 	
     def index(Integer max) {
-        params.max = Math.min(max ?: 10, 100)
-        respond Blog.list(params), model:[blogCount: Blog.count()]
+		params.max = Math.min(max ?: 10, 100)
+		
+		def user = springSecurityService.currentUser
+		System.out.println("username = " + user.username)
+		
+		def blogList = Blog.findAllByUser(user)
+		respond blogList
+		
+		/*params.max = Math.min(max ?: 10, 100)
+        respond Blog.list(params), model:[blogCount: Blog.count()]*/
     }
 
 	@Transactional
@@ -73,21 +81,21 @@ class BlogController {
 						System.out.println("fileName = " + fileName)
 						File file = new File(fileName)
 						transferFile.transferTo( file )
-						appsService.uploadBlogPhoto(file)
+						appsService.uploadBlogPhoto(file, blog)
 						break
 				case grails.util.Environment.TEST:
 						fileName = fProd + "/BLOG_"+blog.id
 						System.out.println("fileName = " + fileName)
 						File file = new File(fileName)
 						transferFile.transferTo( file )
-						appsService.uploadBlogPhoto(file)
+						appsService.uploadBlogPhoto(file, blog)
 						break
 				case grails.util.Environment.PRODUCTION:
 						fileName = fProd + "/BLOG_"+blog.id
 						log.info "fileName = " + fileName
 						File file = new File(fileName)
 						transferFile.transferTo( file )
-						appsService.uploadBlogPhoto(file)
+						appsService.uploadBlogPhoto(file, blog)
 						break
 				}
 
@@ -155,21 +163,21 @@ class BlogController {
 						System.out.println("fileName = " + fileName)
 						File file = new File(fileName)
 						transferFile.transferTo( file )
-						appsService.uploadBlogPhoto(file)
+						appsService.uploadBlogPhoto(file, blog)
 						break
 				case grails.util.Environment.TEST:
 						fileName = fProd + "/BLOG_"+blog.id
 						System.out.println("fileName = " + fileName)
 						File file = new File(fileName)
 						transferFile.transferTo( file )
-						appsService.uploadBlogPhoto(file)
+						appsService.uploadBlogPhoto(file, blog)
 						break
 				case grails.util.Environment.PRODUCTION:
 						fileName = fProd + "/BLOG_"+blog.id
 						log.info "fileName = " + fileName
 						File file = new File(fileName)
 						transferFile.transferTo( file )
-						appsService.uploadBlogPhoto(file)
+						appsService.uploadBlogPhoto(file, blog)
 						break
 				}
 

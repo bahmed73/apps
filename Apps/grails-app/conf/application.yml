@@ -96,6 +96,12 @@ grails:
                         class: "javax.net.ssl.SSLSocketFactory"
                         fallback: false
 ---
+grails:
+    controllers:
+        upload:
+          maxFileSize: 26214400
+          maxRequestSize: 26214400
+---
 hibernate:
     cache:
         queries: false

@@ -27,7 +27,7 @@
             </g:hasErrors>
             <g:form action="save" method="post" enctype="multipart/form-data">
                 <fieldset class="form">
-                    <f:all bean="blog"/>
+                    <f:all bean="blog" except="imageOne, imageTwo, imageThree"/>
                 </fieldset>
                 <fieldset>
                 	<div style="float:left;width:50" class="post"><h4>Upload Blog Image (JPG):</h4></div>

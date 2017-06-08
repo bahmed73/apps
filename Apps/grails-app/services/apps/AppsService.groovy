@@ -111,7 +111,7 @@ class AppsService {
 		view.save flush:true
 	}
 	
-	def uploadProductPhoto(File file) {
+	def uploadProductPhoto(File file, Products products) {
 		log.info "inside uploadProductPhoto"
 		
 		String fileName = file.getAbsolutePath()
@@ -120,9 +120,21 @@ class AppsService {
 		
 		ImagePlus image = imagingService.openImagePlus(fileName);
 		try {
-			imagingService.generate100x100(image, fileName, true);
-			imagingService.generate50x50(image, fileName, true);
-			imagingService.generateOriginal(image, fileName);
+			def output = imagingService.generate100x100(image, fileName, true);
+			
+			def files = new File(output)
+			products.imageOne = files.bytes
+			
+			output = imagingService.generate50x50(image, fileName, true);
+			
+			files = new File(output)
+			products.imageTwo = files.bytes
+			
+			output = imagingService.generate650x650(image, fileName);
+			
+			files = new File(output)
+			products.imageThree = files.bytes
+			
 		} catch (Exception e) {
 			
 			log.info"uploadProductPhoto: error generating images"
@@ -132,7 +144,7 @@ class AppsService {
 		
 	}
 	
-	def uploadBlogPhoto(File file) {
+	def uploadBlogPhoto(File file, Blog blog) {
 		log.info "inside uploadBlogPhoto"
 		
 		String fileName = file.getAbsolutePath()
@@ -141,9 +153,21 @@ class AppsService {
 		
 		ImagePlus image = imagingService.openImagePlus(fileName);
 		try {
-			imagingService.generate100x100(image, fileName, true);
-			imagingService.generate50x50(image, fileName, true);
-			imagingService.generateOriginal(image, fileName);
+			def output = imagingService.generate100x100(image, fileName, true);
+			
+			def files = new File(output)
+			blog.imageOne = files.bytes
+			
+			output = imagingService.generate50x50(image, fileName, true);
+			
+			files = new File(output)
+			blog.imageTwo = files.bytes
+			
+			output = imagingService.generate650x650(image, fileName);
+			
+			files = new File(output)
+			blog.imageThree = files.bytes
+			
 		} catch (Exception e) {
 			
 			log.info"uploadBlogPhoto: error generating images"

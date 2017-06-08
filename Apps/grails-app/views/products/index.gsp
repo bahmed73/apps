@@ -90,7 +90,7 @@
 												</div>
 												<div class="6u">
 														<section class="box">
-														<g:img file="PRODUCTS_${productsInstance.id}-01" absolute="true" dir="assets/images" />
+														<img src="data:image/png;base64,${productsInstance.imageOne.encodeBase64()}"/>
 														</section>
 												</div>
 											</div>
