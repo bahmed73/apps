@@ -67,7 +67,7 @@
 											</ul>
 										</nav>
 							<!-- Intro -->
-							<g:if test="${searchResults}">
+							<g:if test="${session.searchResults}">
 							<div class="row">
 								<div class="12u">
 									<section>
@@ -76,7 +76,7 @@
 												<div class="6u">
 														<section class="box">
 														<header>
-														<span style="font-size:35px;">search term: ${searchTerm}</span>
+														<span style="font-size:35px;">search term: ${session.searchTerm}</span>
 														</header>
 														</section>
 												</div>
@@ -85,7 +85,7 @@
 									</section>
 								</div>
 								</div>
-							<g:each in="${searchResults}" status="i" var="tweet">
+							<g:each in="${session.searchResults}" status="i" var="tweet">
 								<div class="row">
 								<div class="12u">
 									<section>
