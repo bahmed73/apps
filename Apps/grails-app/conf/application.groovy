@@ -18,6 +18,9 @@ grails.plugin.springsecurity.controllerAnnotations.staticRules = [
 	[pattern: '/product/twitter',        access: ['permitAll']],
 	[pattern: '/product/twitterLoggedIn',access: ['permitAll']],
 	[pattern: '/product/twitterUserData',access: ['permitAll']],
+	[pattern: '/product/twitterg20',access: ['permitAll']],
+	[pattern: '/product/twitterBrics',access: ['permitAll']],
+	[pattern: '/product/twitterPanamaPapers',access: ['permitAll']],
 	[pattern: '/product/processLogin',access: ['permitAll']]
 ]
 
@@ -50,6 +53,9 @@ grails.plugin.springsecurity.controllerAnnotations.staticRules = [
 	[pattern: '/product/twitter',        access: ['permitAll']],
 	[pattern: '/product/twitterLoggedIn',access: ['permitAll']],
 	[pattern: '/product/twitterUserData',access: ['permitAll']],
+	[pattern: '/product/twitterg20',access: ['permitAll']],
+	[pattern: '/product/twitterBrics',access: ['permitAll']],
+	[pattern: '/product/twitterPanamaPapers',access: ['permitAll']],
 	[pattern: '/product/processLogin',access: ['permitAll']]
 ]
 
@@ -82,6 +88,9 @@ grails.plugin.springsecurity.controllerAnnotations.staticRules = [
 	[pattern: '/product/twitter',        access: ['permitAll']],
 	[pattern: '/product/twitterLoggedIn',access: ['permitAll']],
 	[pattern: '/product/twitterUserData',access: ['permitAll']],
+	[pattern: '/product/twitterg20',access: ['permitAll']],
+	[pattern: '/product/twitterBrics',access: ['permitAll']],
+	[pattern: '/product/twitterPanamaPapers',access: ['permitAll']],
 	[pattern: '/product/processLogin',access: ['permitAll']]
 ]
 

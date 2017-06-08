@@ -164,6 +164,45 @@ class ProductController {
 		respond searchResults, model:[searchTerm: "#russiagate", searchCount:searchResults.size()]
 	}
 	
+	def twitterg20() {
+		System.out.println("inside twitter g20: loggedIn!")
+		log.info "inside twitter g20: loggedIn!"
+		
+		def searchResults = twitterService.search("#g20", session.twitter)
+		
+		session.searchTerm = "#g20"
+		session.searchResults = searchResults
+		
+		//render (view: "twitterUserData", bean: searchResults)
+		respond searchResults, model:[searchTerm: "#g20", searchCount:searchResults.size()]
+	}
+	
+	def twitterBrics() {
+		System.out.println("inside twitter brics: loggedIn!")
+		log.info "inside twitter brics: loggedIn!"
+		
+		def searchResults = twitterService.search("#brics", session.twitter)
+		
+		session.searchTerm = "#brics"
+		session.searchResults = searchResults
+		
+		//render (view: "twitterUserData", bean: searchResults)
+		respond searchResults, model:[searchTerm: "#brics", searchCount:searchResults.size()]
+	}
+	
+	def twitterPanamaPapers() {
+		System.out.println("inside twitter panama papers: loggedIn!")
+		log.info "inside twitter panama papers: loggedIn!"
+		
+		def searchResults = twitterService.search("#panamapapers", session.twitter)
+		
+		session.searchTerm = "#panamapapers"
+		session.searchResults = searchResults
+		
+		//render (view: "twitterUserData", bean: searchResults)
+		respond searchResults, model:[searchTerm: "#panamapapers", searchCount:searchResults.size()]
+	}
+	
 	def requestLogin = {
 		System.out.println("inside requestLogin")
 		log.info "inside requestLogin"
