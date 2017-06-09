@@ -117,7 +117,7 @@
 														<br><br>
 														<p style="font-size:18px;">Following: ${tweet.userNumFollowing}</p>
 														<br><br>
-														<p style="font-size:18px;color:#8a7e7e;">Twitter: <g:link url="$https://twitter.com/{tweet.userScreenName}">${tweet.userScreenName}</g:link></p>
+														<p style="font-size:18px;color:#8a7e7e;">Twitter: <g:link url="https://twitter.com/${tweet.userScreenName}">${tweet.userScreenName}</g:link></p>
 														</section>
 												</div>
 											</div>
@@ -141,7 +141,7 @@
 													No results found.
 													</header>
 													<footer class="actions">
-														 <g:link controller="product" action="twitterUserData"><asset:image src="reload.png"/></g:link>
+														 <g:link controller="product" action="twitterPanamaPapers"><asset:image src="reload.png"/></g:link>
 														<br><br>
 													</footer>
 													</section>

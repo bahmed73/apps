@@ -129,7 +129,7 @@
 													No results found.
 													</header>
 													<footer class="actions">
-														 <g:link controller="product" action="twitterUserData"><asset:image src="reload.png"/></g:link>
+														 <g:link controller="product" action="twitterHeadline"><asset:image src="reload.png"/></g:link>
 														<br><br>
 													</footer>
 													</section>

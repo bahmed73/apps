@@ -74,7 +74,7 @@ class TwitterService {
 			
 			for (int i=0;i<result.size();i++) {
 			
-				tweet = result.get(i)
+				def tweet = result.get(i)
 				
 				//def tweetString = tweet.user.getScreenName() + "says " + tweet.getText() + " on " + tweet.getCreatedAt()
 				
