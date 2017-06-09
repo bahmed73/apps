@@ -63,12 +63,12 @@ class TwitterService {
 		List resultList = new ArrayList()
 		
 		def result = twitter.getUserTimeline("nytimes")
-		result.add(twitter.getUserTimeline("cnn"))
-		result.add(twitter.getUserTimeline("nypost"))
-		result.add(twitter.getUserTimeline("rt_com"))
-		result.add(twitter.getUserTimeline("xhnews"))
-		result.add(twitter.getUserTimeline("moscowtimes"))
-		result.add(twitter.getUserTimeline("foxnews"))
+		result.addAll(twitter.getUserTimeline("cnn"))
+		result.addAll(twitter.getUserTimeline("nypost"))
+		result.addAll(twitter.getUserTimeline("rt_com"))
+		result.addAll(twitter.getUserTimeline("xhnews"))
+		result.addAll(twitter.getUserTimeline("moscowtimes"))
+		result.addAll(twitter.getUserTimeline("foxnews"))
 		
 		if (result != null) {
 			
