@@ -55,5 +55,48 @@ class TwitterService {
 		
 		return resultList
 	}
+	
+	public def headline(Twitter twitter) {
+		
+		log.info "inside twitter.headline"
+		
+		List resultList = new ArrayList()
+		
+		def result = twitter.getUserTimeline("nytimes")
+		result.add(twitter.getUserTimeline("cnn"))
+		result.add(twitter.getUserTimeline("nypost"))
+		result.add(twitter.getUserTimeline("rt_com"))
+		result.add(twitter.getUserTimeline("xhnews"))
+		result.add(twitter.getUserTimeline("moscowtimes"))
+		result.add(twitter.getUserTimeline("foxnews"))
+		
+		if (result != null) {
+			
+			for (int i=0;i<result.size();i++) {
+			
+				tweet = result.get(i)
+				
+				//def tweetString = tweet.user.getScreenName() + "says " + tweet.getText() + " on " + tweet.getCreatedAt()
+				
+				
+				def expandoObj = new Expando()
+				expandoObj.userScreenName = tweet.user.getScreenName()
+				expandoObj.text = tweet.getText()
+				expandoObj.createdAt = tweet.getCreatedAt()
+				expandoObj.userName = tweet.user.getName()
+				expandoObj.userNumFollowers = tweet.user.getFollowersCount()
+				expandoObj.userNumFollowing = tweet.user.getFriendsCount()
+				expandoObj.userLocation = tweet.user.getLocation()
+				expandoObj.userMiniProfileURL = tweet.user.getMiniProfileImageURL()
+				resultList.add(expandoObj)
+				
+				//resultList.add(tweetString)
+			}
+		}
+		
+		log.info "twitter.search count = " + resultList.size()
+		
+		return resultList
+	}
 
 }

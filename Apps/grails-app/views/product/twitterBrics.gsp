@@ -64,6 +64,7 @@
 												<li><g:link controller="product" action="twitterg20">G20</g:link></li>
 												<li><g:link controller="product" action="twitterUserData">Russia Gate</g:link></li>
 												<li><g:link controller="product" action="twitterPanamaPapers">Panama Papers</g:link></li>
+												<li><g:link controller="product" action="twitterHeadline">Headlines</g:link></li>
 												<!--<li><a href="left-sidebar.html">Login</a></li>-->
 											</ul>
 										</nav>

@@ -61,10 +61,10 @@
 								<!-- Nav -->
 										<nav id="nav">
 											<ul>
-												<li><g:link controller="product" action="twitterUserData">Russia Gate</g:link></li>
-												<li><g:link controller="product" action="twitterBrics">Brics</g:link></li>
 												<li><g:link controller="product" action="twitterg20">G20</g:link></li>
-												<li><g:link controller="product" action="twitterHeadline">Headlines</g:link></li>
+												<li><g:link controller="product" action="twitterBrics">Brics</g:link></li>
+												<li><g:link controller="product" action="twitterPanamaPapers">Panama Papers</g:link></li>
+												<li><g:link controller="product" action="twitterUserData">Russia Gate</g:link></li>
 												<!--<li><a href="left-sidebar.html">Login</a></li>-->
 											</ul>
 										</nav>
@@ -78,8 +78,8 @@
 												<div class="6u">
 														<section class="box">
 														<header>
-														<span style="font-size:35px;">search term: ${session.searchTerm}</span>
-														<g:link controller="product" action="twitterPanamaPapers"><asset:image src="reload.png"/></g:link>
+														<span style="font-size:35px;">Headlines</span>
+														<g:link controller="product" action="twitterHeadline"><asset:image src="reload.png"/></g:link>
 														</header>
 														</section>
 												</div>
@@ -99,25 +99,13 @@
 														<header>
 														<span style="font-size:35px;">Tweet: ${tweet.text}</span>
 														</header>
-														<br><br>
-														<p style="font-size:24px;color:#8a7e7e;">User: ${tweet.userScreenName}</p>
-														<br><br>
-														<p style="font-size:18px;">Full name: ${tweet.userName}</p>
-														<br><br>
-														<p style="font-size:18px;">Created At: ${tweet.createdAt}</p>
 														</section>
 												</div>
 												<div class="6u">
 														<section class="box">
-														<header>
-														<span style="font-size:35px;">Location: ${tweet.userLocation}</span>
-														</header>
+														<p style="font-size:24px;color:#8a7e7e;">User: ${tweet.userScreenName}</p>
 														<br><br>
-														<p style="font-size:24px;color:#8a7e7e;">Followers: ${tweet.userNumFollowers}</p>
-														<br><br>
-														<p style="font-size:18px;">Following: ${tweet.userNumFollowing}</p>
-														<br><br>
-														<p style="font-size:18px;color:#8a7e7e;">Twitter: <g:link url="$https://twitter.com/{tweet.userScreenName}">${tweet.userScreenName}</g:link></p>
+														<p style="font-size:18px;">Created At: ${tweet.createdAt}</p>
 														</section>
 												</div>
 											</div>
