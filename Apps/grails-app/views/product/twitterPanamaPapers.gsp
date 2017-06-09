@@ -117,7 +117,7 @@
 														<br><br>
 														<p style="font-size:18px;">Following: ${tweet.userNumFollowing}</p>
 														<br><br>
-														<p style="font-size:18px;color:#8a7e7e;">Twitter: <g:link url="https://twitter.com/${tweet.userScreenName}">${tweet.userScreenName}</g:link></p>
+														<p style="font-size:18px;color:#8a7e7e;">Twitter: <g:link url="https://twitter.com/${tweet.userScreenName}"><span style="color:#8a7e7e;">${tweet.userScreenName}</span></g:link></p>
 														</section>
 												</div>
 											</div>

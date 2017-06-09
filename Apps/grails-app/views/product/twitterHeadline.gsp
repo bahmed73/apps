@@ -103,7 +103,7 @@
 												</div>
 												<div class="6u">
 														<section class="box">
-														<p style="font-size:24px;color:#8a7e7e;">User: ${tweet.userScreenName}</p>
+														<p style="font-size:24px;color:#8a7e7e;">User: <g:link url="https://twitter.com/${tweet.userScreenName}"><span style="color:#8a7e7e;">${tweet.userScreenName}</span></g:link></p>
 														<br><br>
 														<p style="font-size:18px;">Created At: ${tweet.createdAt}</p>
 														</section>
