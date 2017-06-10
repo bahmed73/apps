@@ -233,13 +233,14 @@
 	{ 
 		text-align: center;
 		background-color: #660000;
-		height: 4em;
+		height: 5em;
 	}
 
 		#nav > ul
 		{
 			margin: 0;
 			padding-top: 1em;
+			padding-bottom: 1em;
 		}
 
 		#nav > ul > li > ul
@@ -250,7 +251,7 @@
 		#nav > ul > li
 		{
 			display: inline-block;
-			margin: 0 10em;
+			margin: 1 10em;
 		}
 		
 			#nav > ul > li > a
@@ -258,7 +259,7 @@
 				border-radius: 5px;
 				color: #f7941d;
 				text-decoration: none;
-				padding: 0.6em 1.2em 0.6em 1.2em;
+				padding: 0.7em 1.2em 0.7em 1.2em;
 				-moz-transition: background-color .25s ease-in-out;
 				-webkit-transition: background-color .25s ease-in-out;
 				-o-transition: background-color .25s ease-in-out;
