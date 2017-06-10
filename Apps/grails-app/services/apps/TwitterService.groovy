@@ -121,7 +121,7 @@ class TwitterService {
 			
 				def tweet = result.get(i)
 				
-				if (tweet.contains("trump")) {
+				if (tweet.getText().contains("trump")) {
 				
 					def expandoObj = new Expando()
 					expandoObj.userScreenName = tweet.user.getScreenName()
