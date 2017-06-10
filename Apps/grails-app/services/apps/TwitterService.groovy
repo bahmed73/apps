@@ -186,4 +186,49 @@ class TwitterService {
 		
 		return resultList
 	}
+	
+	public def entertainment(Twitter twitter) {
+		
+		log.info "inside twitter.entertainment"
+		
+		List resultList = new ArrayList()
+		
+		def result = twitter.getUserTimeline("snoopdogg")
+		result.addAll(twitter.getUserTimeline("diddy"))
+		result.addAll(twitter.getUserTimeline("hillaryclinton"))
+		result.addAll(twitter.getUserTimeline("barackobama"))
+		result.addAll(twitter.getUserTimeline("siliconhbo"))
+		result.addAll(twitter.getUserTimeline("whoismrrobot"))
+		result.addAll(twitter.getUserTimeline("god"))
+		result.addAll(twitter.getUserTimeline("jesus"))
+		result.addAll(twitter.getUserTimeline("funnyordie"))
+		
+		if (result != null) {
+			
+			for (int i=0;i<result.size();i++) {
+			
+				def tweet = result.get(i)
+				
+				//def tweetString = tweet.user.getScreenName() + "says " + tweet.getText() + " on " + tweet.getCreatedAt()
+				
+				
+				def expandoObj = new Expando()
+				expandoObj.userScreenName = tweet.user.getScreenName()
+				expandoObj.text = tweet.getText()
+				expandoObj.createdAt = tweet.getCreatedAt()
+				expandoObj.userName = tweet.user.getName()
+				expandoObj.userNumFollowers = tweet.user.getFollowersCount()
+				expandoObj.userNumFollowing = tweet.user.getFriendsCount()
+				expandoObj.userLocation = tweet.user.getLocation()
+				expandoObj.userMiniProfileURL = tweet.user.getMiniProfileImageURL()
+				resultList.add(expandoObj)
+				
+				//resultList.add(tweetString)
+			}
+		}
+		
+		log.info "twitter.entertainment count = " + resultList.size()
+		
+		return resultList
+	}
 }
