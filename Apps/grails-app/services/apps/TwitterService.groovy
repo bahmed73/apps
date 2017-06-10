@@ -98,5 +98,50 @@ class TwitterService {
 		
 		return resultList
 	}
+	
+	public def trump(Twitter twitter) {
+		
+		log.info "inside twitter.trump"
+		
+		List resultList = new ArrayList()
+		
+		def result = twitter.getUserTimeline("nytimes")
+		result.addAll(twitter.getUserTimeline("cnn"))
+		result.addAll(twitter.getUserTimeline("nypost"))
+		result.addAll(twitter.getUserTimeline("rt_com"))
+		result.addAll(twitter.getUserTimeline("xhnews"))
+		result.addAll(twitter.getUserTimeline("moscowtimes"))
+		result.addAll(twitter.getUserTimeline("foxnews"))
+		result.addAll(twitter.getUserTimeline("bpolitics"))
+		result.addAll(twitter.getUserTimeline("polito"))
+		
+		if (result != null) {
+			
+			for (int i=0;i<result.size();i++) {
+			
+				def tweet = result.get(i)
+				
+				if (tweet.contains("trump")) {
+				
+					def expandoObj = new Expando()
+					expandoObj.userScreenName = tweet.user.getScreenName()
+					expandoObj.text = tweet.getText()
+					expandoObj.createdAt = tweet.getCreatedAt()
+					expandoObj.userName = tweet.user.getName()
+					expandoObj.userNumFollowers = tweet.user.getFollowersCount()
+					expandoObj.userNumFollowing = tweet.user.getFriendsCount()
+					expandoObj.userLocation = tweet.user.getLocation()
+					expandoObj.userMiniProfileURL = tweet.user.getMiniProfileImageURL()
+					resultList.add(expandoObj)
+				}
+				
+				//resultList.add(tweetString)
+			}
+		}
+		
+		log.info "twitter.search count = " + resultList.size()
+		
+		return resultList
+	}
 
 }

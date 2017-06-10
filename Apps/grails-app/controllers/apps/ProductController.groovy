@@ -151,6 +151,18 @@ class ProductController {
 		
 	}
 	
+	def twitterTrump() {
+		System.out.println("inside twitter trump: loggedIn!")
+		log.info "inside twitter trump: loggedIn!"
+		
+		def searchResults = twitterService.trump(session.twitter)
+		
+		session.searchResults = searchResults
+		
+		//render (view: "twitterUserData", bean: searchResults)
+		respond searchResults, model:[searchCount:searchResults.size()]
+	}
+	
 	def twitterHeadline() {
 		System.out.println("inside twitter headline: loggedIn!")
 		log.info "inside twitter headline: loggedIn!"
