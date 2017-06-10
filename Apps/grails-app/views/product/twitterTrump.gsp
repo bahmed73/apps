@@ -79,7 +79,7 @@
 												<div class="6u">
 														<section class="box">
 														<header>
-														<span style="font-size:35px;">Headlines</span>
+														<span style="font-size:35px;">Twitter trump: </span>
 														<g:link controller="product" action="twitterTrump"><asset:image src="reload.png"/></g:link>
 														</header>
 														</section>
