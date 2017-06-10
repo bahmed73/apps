@@ -25,6 +25,7 @@ grails.plugin.springsecurity.controllerAnnotations.staticRules = [
 	[pattern: '/product/twitterTrump',access: ['permitAll']],
 	[pattern: '/product/twitterVenture',access: ['permitAll']],
 	[pattern: '/product/twitterEntertainment',access: ['permitAll']],
+	[pattern: '/product/twitterDefense',access: ['permitAll']],
 	[pattern: '/product/processLogin',access: ['permitAll']]
 ]
 
@@ -64,6 +65,7 @@ grails.plugin.springsecurity.controllerAnnotations.staticRules = [
 	[pattern: '/product/twitterTrump',access: ['permitAll']],
 	[pattern: '/product/twitterVenture',access: ['permitAll']],
 	[pattern: '/product/twitterEntertainment',access: ['permitAll']],
+	[pattern: '/product/twitterDefense',access: ['permitAll']],
 	[pattern: '/product/processLogin',access: ['permitAll']]
 ]
 
@@ -103,6 +105,7 @@ grails.plugin.springsecurity.controllerAnnotations.staticRules = [
 	[pattern: '/product/twitterTrump',access: ['permitAll']],
 	[pattern: '/product/twitterVenture',access: ['permitAll']],
 	[pattern: '/product/twitterEntertainment',access: ['permitAll']],
+	[pattern: '/product/twitterDefense',access: ['permitAll']],
 	[pattern: '/product/processLogin',access: ['permitAll']]
 ]
 

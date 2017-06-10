@@ -157,6 +157,9 @@ class TwitterService {
 		result.addAll(twitter.getUserTimeline("ycombinator"))
 		result.addAll(twitter.getUserTimeline("a16z"))
 		result.addAll(twitter.getUserTimeline("500startups"))
+		result.addAll(twitter.getUserTimeline("sfnewtech"))
+		result.addAll(twitter.getUserTimeline("sfbeta"))
+		result.addAll(twitter.getUserTimeline("leanstartup"))
 		
 		if (result != null) {
 			
@@ -228,6 +231,58 @@ class TwitterService {
 		}
 		
 		log.info "twitter.entertainment count = " + resultList.size()
+		
+		return resultList
+	}
+	
+	public def defense(Twitter twitter) {
+		
+		log.info "inside twitter.defense"
+		
+		List resultList = new ArrayList()
+		
+		def result = twitter.getUserTimeline("gendavegoldfein")
+		result.addAll(twitter.getUserTimeline("usairforce"))
+		result.addAll(twitter.getUserTimeline("pacaf"))
+		result.addAll(twitter.getUserTimeline("nasa"))
+		result.addAll(twitter.getUserTimeline("deptofdefense"))
+		result.addAll(twitter.getUserTimeline("airmobilitycmd"))
+		result.addAll(twitter.getUserTimeline("usaf_acc"))
+		result.addAll(twitter.getUserTimeline("us_stratcom"))
+		result.addAll(twitter.getUserTimeline("thejointstaff"))
+		result.addAll(twitter.getUserTimeline("lockheedmartin"))
+		result.addAll(twitter.getUserTimeline("cjtfoir"))
+		result.addAll(twitter.getUserTimeline("af_academy"))
+		result.addAll(twitter.getUserTimeline("usnato"))
+		result.addAll(twitter.getUserTimeline("afspace"))
+		result.addAll(twitter.getUserTimeline("space_station"))
+		result.addAll(twitter.getUserTimeline("pacificcommand"))
+		
+		if (result != null) {
+			
+			for (int i=0;i<result.size();i++) {
+			
+				def tweet = result.get(i)
+				
+				//def tweetString = tweet.user.getScreenName() + "says " + tweet.getText() + " on " + tweet.getCreatedAt()
+				
+				
+				def expandoObj = new Expando()
+				expandoObj.userScreenName = tweet.user.getScreenName()
+				expandoObj.text = tweet.getText()
+				expandoObj.createdAt = tweet.getCreatedAt()
+				expandoObj.userName = tweet.user.getName()
+				expandoObj.userNumFollowers = tweet.user.getFollowersCount()
+				expandoObj.userNumFollowing = tweet.user.getFriendsCount()
+				expandoObj.userLocation = tweet.user.getLocation()
+				expandoObj.userMiniProfileURL = tweet.user.getMiniProfileImageURL()
+				resultList.add(expandoObj)
+				
+				//resultList.add(tweetString)
+			}
+		}
+		
+		log.info "twitter.defencse count = " + resultList.size()
 		
 		return resultList
 	}
