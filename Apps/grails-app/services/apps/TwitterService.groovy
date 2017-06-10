@@ -120,8 +120,9 @@ class TwitterService {
 			for (int i=0;i<result.size();i++) {
 			
 				def tweet = result.get(i)
+				def text = tweet.getText()
 				
-				if (tweet.getText().containsIgnoreCase("trump")) {
+				if (text.containsIgnoreCase("trump")) {
 				
 					def expandoObj = new Expando()
 					expandoObj.userScreenName = tweet.user.getScreenName()
