@@ -66,6 +66,7 @@
 												<li><g:link controller="product" action="twitterPanamaPapers">Panama Papers</g:link></li>
 												<li><g:link controller="product" action="twitterHeadline">Headlines</g:link></li>
 												<li><g:link controller="product" action="twitterTrump">Trump</g:link></li>
+												<li><g:link controller="product" action="twitterVenture">Venture</g:link></li>
 												<!--<li><a href="left-sidebar.html">Login</a></li>-->
 											</ul>
 										</nav>

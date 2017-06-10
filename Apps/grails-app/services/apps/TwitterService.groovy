@@ -145,4 +145,45 @@ class TwitterService {
 		return resultList
 	}
 
+	public def venture(Twitter twitter) {
+		
+		log.info "inside twitter.venture"
+		
+		List resultList = new ArrayList()
+		
+		def result = twitter.getUserTimeline("founding")
+		result.addAll(twitter.getUserTimeline("foundersspace"))
+		result.addAll(twitter.getUserTimeline("angellist"))
+		result.addAll(twitter.getUserTimeline("ycombinator"))
+		result.addAll(twitter.getUserTimeline("a16z"))
+		result.addAll(twitter.getUserTimeline("500startups"))
+		
+		if (result != null) {
+			
+			for (int i=0;i<result.size();i++) {
+			
+				def tweet = result.get(i)
+				
+				//def tweetString = tweet.user.getScreenName() + "says " + tweet.getText() + " on " + tweet.getCreatedAt()
+				
+				
+				def expandoObj = new Expando()
+				expandoObj.userScreenName = tweet.user.getScreenName()
+				expandoObj.text = tweet.getText()
+				expandoObj.createdAt = tweet.getCreatedAt()
+				expandoObj.userName = tweet.user.getName()
+				expandoObj.userNumFollowers = tweet.user.getFollowersCount()
+				expandoObj.userNumFollowing = tweet.user.getFriendsCount()
+				expandoObj.userLocation = tweet.user.getLocation()
+				expandoObj.userMiniProfileURL = tweet.user.getMiniProfileImageURL()
+				resultList.add(expandoObj)
+				
+				//resultList.add(tweetString)
+			}
+		}
+		
+		log.info "twitter.venture count = " + resultList.size()
+		
+		return resultList
+	}
 }
