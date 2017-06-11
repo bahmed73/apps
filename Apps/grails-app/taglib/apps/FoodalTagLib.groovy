@@ -21,6 +21,70 @@ class FoodalTagLib {
 	 * Base 64 encoded, utf-8 string returned as a result, from file, to bytes, to string.
 	 */
 	
+	def tLink = { attrs, body -> 
+		
+		def text = attrs.text ? attrs.text: "";
+		log.info "text = " + text
+		
+		def returnLink = ""
+		def returnText = ""
+		def textAfter = ""
+		def remainingText = ""
+		
+		if (text.contains("http")) {
+			
+			
+			def index = text.indexOf(" http")
+			returnText = text.substring(0, index)
+			textAfter = text.substring(index, text.length())
+			index = textAfter.indexOf(" ")
+			if (index > 0) {
+				returnLink = textAfter.substring(0, index) 
+				returnText+=" <a href='" + returnLink + "'></a>"
+				remainingText = textAfter.substring(index, textAfter.length())
+				
+				if (remainingText.contains("http")) {
+					returnText += recurse(remainingText)
+				} else {
+					returnText+= remainingText
+				}
+				log.info "returnText = " + returnText
+				out << body() << returnText
+			}
+		} else {
+			log.info "text = " + text
+			out << body() << text
+		}
+		
+	}
+	
+	private def recurse(String text) {
+		
+		log.info "recurse = " + text
+		
+		def returnLink = ""
+		def returnText = ""
+		def textAfter = ""
+		def remainingText = ""
+		
+		def index = text.indexOf(" http")
+		returnText = text.substring(0, index)
+		textAfter = text.substring(index, text.length())
+		index = textAfter.indexOf(" ")
+		if (index > 0) {
+			returnLink = textAfter.substring(0, index)
+			returnText+=" <a href='" + returnLink + "'></a>"
+			remainingText = textAfter.substring(index, textAfter.length())
+			returnText+= remainingText
+			
+			log.info "recurse returnText = " + returnText
+			
+			return returnText
+		} else {
+			log.info "recurse text = " + text
+			return text
+		}
+	}
 	
 	/*
 	 * <img src="data:image/png;base64,<foodal:pImage numb='${products.id}' resize='3'/>"/>

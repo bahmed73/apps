@@ -102,7 +102,7 @@
 												<div class="6u">
 														<section class="box">
 														<header>
-														<span style="font-size:35px;">Tweet: ${tweet.text}</span>
+														<span style="font-size:35px;">Tweet: <foodal:tLink text="${tweet.text}"></foodal:tLink></span>
 														</header>
 														<br><br>
 														<p style="font-size:24px;color:#8a7e7e;">User: ${tweet.userScreenName}</p>
