@@ -36,12 +36,12 @@ class FoodalTagLib {
 			
 			def index = text.indexOf(" http")
 			returnText = text.substring(0, index)
-			textAfter = text.substring(index, text.length())
+			textAfter = text.substring(index, text.length()-1)
 			index = textAfter.indexOf(" ")
 			if (index > 0) {
 				returnLink = textAfter.substring(0, index) 
 				returnText+=" <a href='" + returnLink + "'></a>"
-				remainingText = textAfter.substring(index, textAfter.length())
+				remainingText = textAfter.substring(index, textAfter.length()-1)
 				
 				if (remainingText.contains("http")) {
 					returnText += recurse(remainingText)
@@ -69,12 +69,12 @@ class FoodalTagLib {
 		
 		def index = text.indexOf(" http")
 		returnText = text.substring(0, index)
-		textAfter = text.substring(index, text.length())
+		textAfter = text.substring(index, text.length()-1)
 		index = textAfter.indexOf(" ")
 		if (index > 0) {
 			returnLink = textAfter.substring(0, index)
 			returnText+=" <a href='" + returnLink + "'></a>"
-			remainingText = textAfter.substring(index, textAfter.length())
+			remainingText = textAfter.substring(index, textAfter.length()-1)
 			returnText+= remainingText
 			
 			log.info "recurse returnText = " + returnText
