@@ -34,7 +34,7 @@ class FoodalTagLib {
 		if (text.contains("http")) {
 			
 			
-			def index = text.indexOf(" http")
+			def index = text.indexOf("http")
 			returnText = text.substring(0, index)
 			textAfter = text.substring(index, text.length()-1)
 			index = textAfter.indexOf(" ")
@@ -67,7 +67,7 @@ class FoodalTagLib {
 		def textAfter = ""
 		def remainingText = ""
 		
-		def index = text.indexOf(" http")
+		def index = text.indexOf("http")
 		returnText = text.substring(0, index)
 		textAfter = text.substring(index, text.length()-1)
 		index = textAfter.indexOf(" ")
