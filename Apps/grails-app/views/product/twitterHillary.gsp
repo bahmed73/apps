@@ -84,7 +84,7 @@
 												<div class="6u">
 														<section class="box">
 														<header>
-														<span style="font-size:35px;">Twitter Yoga: </span>
+														<span style="font-size:35px;">Twitter Hillary: </span>
 														<g:link controller="product" action="twitterHillary"><asset:image src="reload.png"/></g:link>
 														</header>
 														</section>
