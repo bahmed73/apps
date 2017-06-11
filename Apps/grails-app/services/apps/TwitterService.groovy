@@ -145,10 +145,7 @@ class TwitterService {
 		
 		List resultList = new ArrayList()
 		
-		def result = twitter.getUserTimeline("darth")
-		result.addAll(twitter.getUserTimeline("mikeisaac"))
-		result.addAll(twitter.getUserTimeline("fakegrimlock"))
-		result.addAll(twitter.getUserTimeline("jebbush"))
+		def result = twitter.getUserTimeline("jebbush")
 		result.addAll(twitter.getUserTimeline("fmanjoo"))
 		result.addAll(twitter.getUserTimeline("ditzkoff"))
 		result.addAll(twitter.getUserTimeline("sarahnmerson"))
