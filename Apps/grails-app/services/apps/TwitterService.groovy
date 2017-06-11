@@ -148,7 +148,6 @@ class TwitterService {
 		def result = twitter.getUserTimeline("jebbush")
 		result.addAll(twitter.getUserTimeline("fmanjoo"))
 		result.addAll(twitter.getUserTimeline("ditzkoff"))
-		result.addAll(twitter.getUserTimeline("sarahnmerson"))
 		
 		if (result != null) {
 			
