@@ -71,7 +71,7 @@
 												<li><g:link controller="product" action="twitterEntertainment">Entertainment</g:link></li>
 												<li><g:link controller="product" action="twitterDefense">Defense</g:link></li>
 												<li><g:link controller="product" action="twitterYoga">Yoga</g:link></li>
-												<li><g:link controller="product" action="twitterThiel">Thiel</g:link></li>
+												<li><g:link controller="product" action="twitterHillary">Hillary</g:link></li>
 												<!--<li><a href="left-sidebar.html">Login</a></li>-->
 											</ul>
 										</nav>
@@ -85,8 +85,8 @@
 												<div class="6u">
 														<section class="box">
 														<header>
-														<span style="font-size:35px;">Twitter Hillary: </span>
-														<g:link controller="product" action="twitterHillary"><asset:image src="reload.png"/></g:link>
+														<span style="font-size:35px;">Twitter Thiel: </span>
+														<g:link controller="product" action="twitterThiel"><asset:image src="reload.png"/></g:link>
 														</header>
 														</section>
 												</div>
@@ -136,7 +136,7 @@
 													No results found.
 													</header>
 													<footer class="actions">
-														 <g:link controller="product" action="twitterHillary"><asset:image src="reload.png"/></g:link>
+														 <g:link controller="product" action="twitterThiel"><asset:image src="reload.png"/></g:link>
 														<br><br>
 													</footer>
 													</section>

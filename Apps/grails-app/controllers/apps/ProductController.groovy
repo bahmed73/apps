@@ -174,6 +174,18 @@ class ProductController {
 		//render (view: "twitterUserData", bean: searchResults)
 		respond searchResults, model:[searchCount:searchResults.size()]
 	}
+	
+	def twitterThiel() {
+		System.out.println("inside twitter thiel: loggedIn!")
+		log.info "inside twitter thiel: loggedIn!"
+		
+		def searchResults = twitterService.thiel(session.twitter)
+		
+		session.searchResults = searchResults
+		
+		//render (view: "twitterUserData", bean: searchResults)
+		respond searchResults, model:[searchCount:searchResults.size()]
+	}
 
 	
 	def twitterHeadline() {
