@@ -21,6 +21,9 @@ class FoodalTagLib {
 	 * Base 64 encoded, utf-8 string returned as a result, from file, to bytes, to string.
 	 */
 	
+	/*
+	 * Bug in the code for returning encoded string
+	 */
 	def tLink = { attrs, body -> 
 		
 		def text = attrs.text ? attrs.text: "";
