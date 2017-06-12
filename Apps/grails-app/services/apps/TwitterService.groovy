@@ -123,6 +123,7 @@ class TwitterService {
 				
 				def expandoObj = new Expando()
 				expandoObj.userScreenName = tweet.user.getScreenName()
+				expandoObj.id = tweet.getId()
 				expandoObj.text = tweet.getText()
 				expandoObj.createdAt = tweet.getCreatedAt()
 				expandoObj.userName = tweet.user.getName()
@@ -162,6 +163,7 @@ class TwitterService {
 				
 				def expandoObj = new Expando()
 				expandoObj.userScreenName = tweet.user.getScreenName()
+				expandoObj.id = tweet.getId()
 				expandoObj.text = tweet.getText()
 				expandoObj.createdAt = tweet.getCreatedAt()
 				expandoObj.userName = tweet.user.getName()
@@ -207,6 +209,7 @@ class TwitterService {
 				
 					def expandoObj = new Expando()
 					expandoObj.userScreenName = tweet.user.getScreenName()
+					expandoObj.id = tweet.getId()
 					expandoObj.text = tweet.getText()
 					expandoObj.createdAt = tweet.getCreatedAt()
 					expandoObj.userName = tweet.user.getName()
@@ -258,6 +261,7 @@ class TwitterService {
 				
 				def expandoObj = new Expando()
 				expandoObj.userScreenName = tweet.user.getScreenName()
+				expandoObj.id = tweet.getId()
 				expandoObj.text = tweet.getText()
 				expandoObj.createdAt = tweet.getCreatedAt()
 				expandoObj.userName = tweet.user.getName()
@@ -303,6 +307,7 @@ class TwitterService {
 				
 				def expandoObj = new Expando()
 				expandoObj.userScreenName = tweet.user.getScreenName()
+				expandoObj.id = tweet.getId()
 				expandoObj.text = tweet.getText()
 				expandoObj.createdAt = tweet.getCreatedAt()
 				expandoObj.userName = tweet.user.getName()
@@ -355,6 +360,7 @@ class TwitterService {
 				
 				def expandoObj = new Expando()
 				expandoObj.userScreenName = tweet.user.getScreenName()
+				expandoObj.id = tweet.getId()
 				expandoObj.text = tweet.getText()
 				expandoObj.createdAt = tweet.getCreatedAt()
 				expandoObj.userName = tweet.user.getName()
@@ -401,6 +407,7 @@ class TwitterService {
 				
 				def expandoObj = new Expando()
 				expandoObj.userScreenName = tweet.user.getScreenName()
+				expandoObj.id = tweet.getId()
 				expandoObj.text = tweet.getText()
 				expandoObj.createdAt = tweet.getCreatedAt()
 				expandoObj.userName = tweet.user.getName()

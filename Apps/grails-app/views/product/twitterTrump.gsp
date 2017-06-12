@@ -105,6 +105,9 @@
 														<section class="box">
 														<header>
 														<span style="font-size:35px;">Tweet: ${tweet.text}</span>
+														<br>
+														<g:link controller="product" action="retweet" id="${tweet.id}"><asset:image src="retweet.png"/></g:link>
+														<g:link controller="product" action="favorite" id ="${tweet.id}"><asset:image src="favorite.png"/></g:link>
 														</header>
 														</section>
 												</div>
