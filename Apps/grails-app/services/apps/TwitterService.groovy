@@ -38,6 +38,7 @@ class TwitterService {
 				
 				def expandoObj = new Expando()
 				expandoObj.userScreenName = tweet.user.getScreenName()
+				expandoObj.id = tweet.getId()
 				expandoObj.text = tweet.getText()
 				expandoObj.createdAt = tweet.getCreatedAt()
 				expandoObj.userName = tweet.user.getName()
@@ -415,5 +416,19 @@ class TwitterService {
 		log.info "twitter.yoga count = " + resultList.size()
 		
 		return resultList
+	}
+	
+	public def retweet(tweetId, twitter) {
+		
+		log.info "inside twitter.retweet"
+		
+		twitter.retweetStatus(Long.valueOf(tweetId))
+	}
+	
+	public def favorite(tweetId, twitter) {
+		
+		log.info "inside twitter.favorite"
+		
+		twitter.createFavorite(Long.valueOf(tweetId))
 	}
 }

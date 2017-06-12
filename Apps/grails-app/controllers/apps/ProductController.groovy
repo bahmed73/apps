@@ -298,6 +298,27 @@ class ProductController {
 		
 		//render (view: "twitterUserData", bean: searchResults)
 		respond searchResults, model:[searchTerm: "#panamapapers", searchCount:searchResults.size()]
+	} 
+	
+	def retweet() {
+	
+		if (params.id != null) {
+			System.out.println("inside twitter retweet!")
+			log.info "inside twitter retweet"
+			twitterService.retweet(params.id, session.twitter)
+		}
+		
+		redirect(action:"twitterUserData")
+	}
+	
+	def favorite() {
+		
+		if (params.id != null) {
+			System.out.println("inside twitter favorite")
+			log.info "inside twitter favorite"
+			twitterService.favorite(params.id, session.twitter)
+		}
+		redirect(action:"twitterUserData")
 	}
 	
 	def requestLogin = {
