@@ -308,7 +308,7 @@ class ProductController {
 			twitterService.retweet(params.id, session.twitter)
 		}
 		
-		redirect(action:"twitterUserData")
+		redirect(uri: request.getHeader('referer') )
 	}
 	
 	def favorite() {
@@ -318,7 +318,7 @@ class ProductController {
 			log.info "inside twitter favorite"
 			twitterService.favorite(params.id, session.twitter)
 		}
-		redirect(action:"twitterUserData")
+		redirect(uri: request.getHeader('referer') )
 	}
 	
 	def requestLogin = {
