@@ -24,6 +24,21 @@ class TweetController {
 		respond tweetList
 	}
 	
+	def archiveBrics() {
+		def tweetList = Tweet.findAllByTweettTextIlike("%brics%", [max: 20])
+		respond tweetList
+	}
+	
+	def archivePanamaPapers() {
+		def tweetList = Tweet.findAllByTweettTextIlike("%panamapapers%", [max: 20])
+		respond tweetList
+	}
+	
+	def archiveRussiaGate() {
+		def tweetList = Tweet.findAllByTweettTextIlike("%russiagate%", [max: 20])
+		respond tweetList
+	}
+	
     def show(Tweet tweet) {
         respond tweet
     }

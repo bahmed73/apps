@@ -66,7 +66,7 @@
 												<li><g:link controller="tweet" action="index">Recent</g:link></li>
 												<li><g:link controller="tweet" action="archivePanamaPapers">Panama Papers</g:link></li>
 												<li><g:link controller="tweet" action="archiveRussiaGate">Russia Gate</g:link></li>
-												<li><g:link controller="tweet" action="archiveBrics">Brics</g:link></li>
+												<li><g:link controller="tweet" action="archiveG20">G20</g:link></li>
 												<!--<li><a href="left-sidebar.html">Login</a></li>-->
 											</ul>
 										</nav>
@@ -79,7 +79,7 @@
 											<div class="row">
 														<section class="box">
 														<header>
-														<span style="font-size:35px;">G20 News</span>
+														<span style="font-size:35px;">BRICS News</span>
 														</header>
 														<br><br>
 														<g:if test="${tweetList}">
