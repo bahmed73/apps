@@ -63,6 +63,7 @@
 										<nav id="nav">
 											<ul>
 												<li><g:link controller="product" action="twitter">Real-Time</g:link></li>
+												<li><g:link controller="tweet" action="archiveG20">G20</g:link></li>
 												<!--<li><a href="left-sidebar.html">Login</a></li>-->
 											</ul>
 										</nav>

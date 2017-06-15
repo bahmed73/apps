@@ -19,6 +19,11 @@ class TweetController {
         respond Tweet.list(params), model:[tweetCount: Tweet.count()]
     }
 
+	def archiveG20() {
+		def tweetList = Tweet.findAllByTweettTextIlike("%g20%", [max: 20])
+		respond tweetList
+	}
+	
     def show(Tweet tweet) {
         respond tweet
     }
