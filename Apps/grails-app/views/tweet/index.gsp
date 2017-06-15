@@ -78,12 +78,33 @@
 														<span style="font-size:35px;">Tweets</span>
 														</header>
 														<br><br>
-														<div class="nav nav-tabs navbar" style="color:#8a7e7e;">
-															<p class="navbar navbar-header" style="font-size:28px;color:#8a7e7e;margin:2px;"><f:table collection="${tweetList}" properties="['userScreenName', 'tweettText', 'createdAt', 'followersCount', 'friendsCount']"/></p>
-															<div class="navbar-text pagination pagination-large">
-						                					<g:paginate class="navbar-text pagination pagination-large" style="color:#8a7e7e;" total="${tweetCount ?: 0}" />
-						                					</div>
-					                					</div>
+														<g:if test="${tweetList}">
+															<g:each in="${tweetList}" status="i" var="tweetInstance">
+																<div class="row">
+																<div class="12u">
+																	<section>
+																		<div>
+																			<div class="row">
+																				<div class="6u">
+																						<section class="box">
+																						<header>
+																						<span style="font-size:35px;">${tweetInstance.tweettText}</span>
+																						<img src="${tweetInstance.miniProfileImageURL}" alt="Grails"/>
+																						<g:link url="https://twitter.com/${tweetInstance.userScreenName}"><span style="color:#8a7e7e;font-size:35px;">${tweet.userScreenName}</span></g:link>
+																						</header>
+																						<br><br>
+																						</section>
+																				</div>
+																			</div>
+																		</div>
+																	</section>
+																</div>
+																</div>
+															</g:each>
+															<div class="pagination">
+												                <g:paginate total="${tweetList ?: 0}" />
+												            </div>
+															</g:if>
 														<br><br>
 														</section>
 												
