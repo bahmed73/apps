@@ -4,6 +4,7 @@ import twitter4j.*
 import twitter4j.http.*
 import twitter4j.auth.*
 import twitter4j.conf.*
+
 import java.util.*
 
 import grails.transaction.Transactional
@@ -46,6 +47,7 @@ class TwitterService {
 				expandoObj.userNumFollowing = tweet.user.getFriendsCount() 
 				expandoObj.userLocation = tweet.user.getLocation()
 				expandoObj.userMiniProfileURL = tweet.user.getMiniProfileImageURL()
+				addTweet(expandoObj)
 				resultList.add(expandoObj)
 				
 				//resultList.add(tweetString)
@@ -87,6 +89,7 @@ class TwitterService {
 				expandoObj.userNumFollowing = tweet.user.getFriendsCount()
 				expandoObj.userLocation = tweet.user.getLocation()
 				expandoObj.userMiniProfileURL = tweet.user.getMiniProfileImageURL()
+				addTweet(expandoObj)
 				resultList.add(expandoObj)
 				
 				//resultList.add(tweetString)
@@ -131,6 +134,7 @@ class TwitterService {
 				expandoObj.userNumFollowing = tweet.user.getFriendsCount()
 				expandoObj.userLocation = tweet.user.getLocation()
 				expandoObj.userMiniProfileURL = tweet.user.getMiniProfileImageURL()
+				addTweet(expandoObj)
 				resultList.add(expandoObj)
 				
 				//resultList.add(tweetString)
@@ -171,6 +175,7 @@ class TwitterService {
 				expandoObj.userNumFollowing = tweet.user.getFriendsCount()
 				expandoObj.userLocation = tweet.user.getLocation()
 				expandoObj.userMiniProfileURL = tweet.user.getMiniProfileImageURL()
+				addTweet(expandoObj)
 				resultList.add(expandoObj)
 				
 				//resultList.add(tweetString)
@@ -217,6 +222,7 @@ class TwitterService {
 					expandoObj.userNumFollowing = tweet.user.getFriendsCount()
 					expandoObj.userLocation = tweet.user.getLocation()
 					expandoObj.userMiniProfileURL = tweet.user.getMiniProfileImageURL()
+					addTweet(expandoObj)
 					resultList.add(expandoObj)
 				}
 				
@@ -269,6 +275,7 @@ class TwitterService {
 				expandoObj.userNumFollowing = tweet.user.getFriendsCount()
 				expandoObj.userLocation = tweet.user.getLocation()
 				expandoObj.userMiniProfileURL = tweet.user.getMiniProfileImageURL()
+				addTweet(expandoObj)
 				resultList.add(expandoObj)
 				
 				//resultList.add(tweetString)
@@ -315,6 +322,7 @@ class TwitterService {
 				expandoObj.userNumFollowing = tweet.user.getFriendsCount()
 				expandoObj.userLocation = tweet.user.getLocation()
 				expandoObj.userMiniProfileURL = tweet.user.getMiniProfileImageURL()
+				addTweet(expandoObj)
 				resultList.add(expandoObj)
 				
 				//resultList.add(tweetString)
@@ -368,6 +376,7 @@ class TwitterService {
 				expandoObj.userNumFollowing = tweet.user.getFriendsCount()
 				expandoObj.userLocation = tweet.user.getLocation()
 				expandoObj.userMiniProfileURL = tweet.user.getMiniProfileImageURL()
+				addTweet(expandoObj)
 				resultList.add(expandoObj)
 				
 				//resultList.add(tweetString)
@@ -415,6 +424,7 @@ class TwitterService {
 				expandoObj.userNumFollowing = tweet.user.getFriendsCount()
 				expandoObj.userLocation = tweet.user.getLocation()
 				expandoObj.userMiniProfileURL = tweet.user.getMiniProfileImageURL()
+				addTweet(expandoObj)
 				resultList.add(expandoObj)
 				
 				//resultList.add(tweetString)
@@ -438,5 +448,39 @@ class TwitterService {
 		log.info "inside twitter.favorite"
 		
 		twitter.createFavorite(Long.valueOf(tweetId))
+	}
+	
+	def addTweet(expando) {
+		
+		def tweet = new Tweet()
+		
+		tweet.userScreenName = expando.userScreenName
+		tweet.tweetId = expando.tweetId
+		tweet.tweettText = expando.tweettText
+		tweet.createdAt = expando.createdAt
+		tweet.userName = expando.userName
+		tweet.followersCount = expando.followersCount
+		tweet.friendsCount = expando.friendsCount
+		tweet.location = expando.location
+		tweet.miniProfileImageURL = expando.miniProfileImageURL
+		
+		tweet.save flush:true
+	}
+	
+	def addTweet(userScreenName, tweetId, tweettText, createdAt, userName, followersCount, friendsCount, location, miniProfileImageURL) {
+		
+		def tweet = new Tweet()
+		
+		tweet.userScreenName = userScreenName
+		tweet.tweetId = tweetId 
+		tweet.tweettText = tweettText 
+		tweet.createdAt = createdAt 
+		tweet.userName = userName
+		tweet.followersCount = followersCount
+		tweet.friendsCount = friendsCount
+		tweet.location = location
+		tweet.miniProfileImageURL = miniProfileImageURL
+		
+		tweet.save flush:true
 	}
 }

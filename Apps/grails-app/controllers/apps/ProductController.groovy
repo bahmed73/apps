@@ -151,6 +151,7 @@ class ProductController {
 		
 	}
 	
+	@Transactional
 	def twitterTrump() {
 		System.out.println("inside twitter trump: loggedIn!")
 		log.info "inside twitter trump: loggedIn!"
@@ -163,6 +164,7 @@ class ProductController {
 		respond searchResults, model:[searchCount:searchResults.size()]
 	}
 	
+	@Transactional
 	def twitterHillary() {
 		System.out.println("inside twitter hillary: loggedIn!")
 		log.info "inside twitter hillary: loggedIn!"
@@ -175,6 +177,7 @@ class ProductController {
 		respond searchResults, model:[searchCount:searchResults.size()]
 	}
 	
+	@Transactional
 	def twitterThiel() {
 		System.out.println("inside twitter thiel: loggedIn!")
 		log.info "inside twitter thiel: loggedIn!"
@@ -188,6 +191,7 @@ class ProductController {
 	}
 
 	
+	@Transactional
 	def twitterHeadline() {
 		System.out.println("inside twitter headline: loggedIn!")
 		log.info "inside twitter headline: loggedIn!"
@@ -200,6 +204,7 @@ class ProductController {
 		respond searchResults, model:[searchCount:searchResults.size()]
 	}
 	
+	@Transactional
 	def twitterVenture() {
 		System.out.println("inside twitter venture: loggedIn!")
 		log.info "inside twitter venture: loggedIn!"
@@ -212,6 +217,7 @@ class ProductController {
 		respond searchResults, model:[searchCount:searchResults.size()]
 	}
 	
+	@Transactional
 	def twitterEntertainment() {
 		System.out.println("inside twitter entertainment: loggedIn!")
 		log.info "inside twitter entertainment: loggedIn!"
@@ -224,6 +230,7 @@ class ProductController {
 		respond searchResults, model:[searchCount:searchResults.size()]
 	}
 	
+	@Transactional
 	def twitterDefense() {
 		System.out.println("inside twitter defense: loggedIn!")
 		log.info "inside twitter defense: loggedIn!"
@@ -236,6 +243,7 @@ class ProductController {
 		respond searchResults, model:[searchCount:searchResults.size()]
 	}
 	
+	@Transactional
 	def twitterYoga() {
 		System.out.println("inside twitter yoga: loggedIn!")
 		log.info "inside twitter yoga: loggedIn!"
@@ -248,6 +256,7 @@ class ProductController {
 		respond searchResults, model:[searchCount:searchResults.size()]
 	}
 	
+	@Transactional
 	def twitterUserData() {
 		System.out.println("inside twitter user data: loggedIn!")
 		log.info "inside twitter user data: loggedIn!"
@@ -261,6 +270,7 @@ class ProductController {
 		respond searchResults, model:[searchTerm: "#russiagate", searchCount:searchResults.size()]
 	}
 	
+	@Transactional
 	def twitterg20() {
 		System.out.println("inside twitter g20: loggedIn!")
 		log.info "inside twitter g20: loggedIn!"
@@ -274,6 +284,7 @@ class ProductController {
 		respond searchResults, model:[searchTerm: "#g20", searchCount:searchResults.size()]
 	}
 	
+	@Transactional
 	def twitterBrics() {
 		System.out.println("inside twitter brics: loggedIn!")
 		log.info "inside twitter brics: loggedIn!"
@@ -287,6 +298,7 @@ class ProductController {
 		respond searchResults, model:[searchTerm: "#brics", searchCount:searchResults.size()]
 	}
 	
+	@Transactional
 	def twitterPanamaPapers() {
 		System.out.println("inside twitter panama papers: loggedIn!")
 		log.info "inside twitter panama papers: loggedIn!"

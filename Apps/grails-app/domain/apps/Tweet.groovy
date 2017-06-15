@@ -22,7 +22,7 @@ class Tweet {
 		followersCount(nullable:false)
 		friendsCount(nullable:false)
 		location(nullable:false)
-		miniProfileImageURL(nullable:false)
+		miniProfileImageURL(nullable:false, maxSize:2048)
 	}
 	
     static mapping = {
