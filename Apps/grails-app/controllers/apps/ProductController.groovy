@@ -43,6 +43,10 @@ class ProductController {
     }
 
 	
+	def premium() {
+		log.info "inside premium"
+	}
+	
 	def listing() {
 		System.out.println("listing")
 		def user = springSecurityService.currentUser
@@ -112,7 +116,7 @@ class ProductController {
 	}
 	
 	def checkout() {
-		System.out.println("inside checkout")
+		log.info "inside checkout"
 		App app = App.findByName("foodal")
 		
 		if (app != null) {
