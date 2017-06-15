@@ -76,16 +76,18 @@
 													<section class="box">
 													<!-- <a href="http://www.mytweetmark.com" class="image image-full"><asset:image src="foodal-homepage-16.png"/></a> -->
 													<header>
-														<span style="font-size:35px;">User: <f:display bean="tweet" property="name"/></span>
+														<img src="${tweet.miniProfileImageURL}" alt="Grails"/>
+														<g:link url="https://twitter.com/${tweet.userScreenName}"><span style="color:#8a7e7e;font-size:35px;">${tweet.userScreenName}</span></g:link>
+														<g:link controller="tweet" action="index">Archived</g:link>
 													</header>
 													<br><br>
-													<p style="font-size:24px;color:#8a7e7e;">Tweet: <f:display bean="tweet" property="tweet"/></p>
+													<p style="font-size:24px;color:#8a7e7e;">Tweet: <f:display bean="tweet" property="tweettText"/></p>
 													<br><br>
 													<p style="font-size:16px;color:#8a7e7e;">Created At: <f:display bean="tweet" property="createdAt"/></p>
 													<br><br>
-													<p style="font-size:18px;">Followers: <f:display bean="tweet" property="userNumFollowers"/></p>
+													<p style="font-size:18px;">Followers: <f:display bean="tweet" property="followersCount"/></p>
 													<br><br>
-													<p style="font-size:18px;">Following: <f:display bean="tweet" property="userNumFollowing"/></p>
+													<p style="font-size:18px;">Following: <f:display bean="tweet" property="friendsCount"/></p>
 													<br><br>
 													<p style="font-size:18px;">Location: <f:display bean="tweet" property="location"/></p>
 													<br><br>
