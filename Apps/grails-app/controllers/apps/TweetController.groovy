@@ -15,7 +15,7 @@ class TweetController {
     static allowedMethods = [save: "POST", update: "PUT", delete: "DELETE"]
 
     def index(Integer max) {
-        params.max = Math.min(max ?: 10, 100)
+        params.max = Math.min(max ?: 20, 100)
         respond Tweet.list(params), model:[tweetCount: Tweet.count()]
     }
 
@@ -36,6 +36,21 @@ class TweetController {
 	
 	def archiveRussiaGate() {
 		def tweetList = Tweet.findAllByTweettTextIlike("%russiagate%", [max: 20])
+		respond tweetList
+	}
+	
+	def archiveDefense() {
+		def tweetList = Tweet.findAllByTweettTextIlike("%f35%", [max: 20])
+		respond tweetList
+	}
+	
+	def archiveTrump() {
+		def tweetList = Tweet.findAllByTweettTextIlike("%trump%", [max: 20])
+		respond tweetList
+	}
+	
+	def archiveStartups() {
+		def tweetList = Tweet.findAllByTweettTextIlike("%startups%", [max: 20])
 		respond tweetList
 	}
 	

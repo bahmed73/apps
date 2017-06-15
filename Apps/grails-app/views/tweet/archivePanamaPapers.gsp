@@ -67,6 +67,9 @@
 												<li><g:link controller="tweet" action="archiveG20">G20</g:link></li>
 												<li><g:link controller="tweet" action="archiveRussiaGate">Russia Gate</g:link></li>
 												<li><g:link controller="tweet" action="archiveBrics">Brics</g:link></li>
+												<li><g:link controller="tweet" action="archiveDefense">Defense</g:link></li>
+												<li><g:link controller="tweet" action="archiveTrump">Trump</g:link></li>
+												<li><g:link controller="tweet" action="archiveStartups">Startups</g:link></li>
 												<!--<li><a href="left-sidebar.html">Login</a></li>-->
 											</ul>
 										</nav>
