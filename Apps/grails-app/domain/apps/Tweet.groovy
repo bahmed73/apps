@@ -16,7 +16,7 @@ class Tweet {
 		//id(nullable:true)
 		userScreenName(nullable:false)
 		tweetId(nullable:false)
-		tweetText(nullable:false)
+		tweettText(nullable:false)
 		createdAt(nullable:false)
 		userName(nullable:false)
 		followersCount(nullable:false)

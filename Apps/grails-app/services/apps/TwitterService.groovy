@@ -455,14 +455,14 @@ class TwitterService {
 		def tweet = new Tweet()
 		
 		tweet.userScreenName = expando.userScreenName
-		tweet.tweetId = expando.tweetId
-		tweet.tweettText = expando.tweettText
+		tweet.tweetId = expando.id
+		tweet.tweettText = expando.text
 		tweet.createdAt = expando.createdAt
 		tweet.userName = expando.userName
-		tweet.followersCount = expando.followersCount
-		tweet.friendsCount = expando.friendsCount
-		tweet.location = expando.location
-		tweet.miniProfileImageURL = expando.miniProfileImageURL
+		tweet.followersCount = expando.userNumFollowers
+		tweet.friendsCount = expando.userNumFollowing
+		tweet.location = expando.userLocation
+		tweet.miniProfileImageURL = expando.userMiniProfileURL
 		
 		tweet.save flush:true
 	}
