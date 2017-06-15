@@ -61,8 +61,8 @@
 								<!-- Nav -->
 										<nav id="nav">
 											<ul>
-												<li><g:link controller="products" action="edit" id="${products.id}">Edit Product</g:link></li>
-												<li><g:link controller="products" action="index">Show Products</g:link></li>
+												<li><g:link controller="product" action="twitter">Real-Time</g:link></li>
+												<li><g:link controller="tweet" action="index">Archived</g:link></li>
 												<!--<li><a href="left-sidebar.html">Login</a></li>-->
 											</ul>
 										</nav>
@@ -76,22 +76,18 @@
 													<section class="box">
 													<!-- <a href="http://www.mytweetmark.com" class="image image-full"><asset:image src="foodal-homepage-16.png"/></a> -->
 													<header>
-														<span style="font-size:35px;"><f:display bean="tweet" property="userScreenName"/></span>
+														<span style="font-size:35px;">User: <f:display bean="tweet" property="name"/></span>
 													</header>
 													<br><br>
-													<p style="font-size:24px;color:#8a7e7e;">Price: <f:display bean="tweet"/></p>
+													<p style="font-size:24px;color:#8a7e7e;">Tweet: <f:display bean="tweet" property="tweet"/></p>
 													<br><br>
-													<p style="font-size:16px;color:#8a7e7e;">Views: <f:display bean="tweet"/></p>
+													<p style="font-size:16px;color:#8a7e7e;">Created At: <f:display bean="tweet" property="createdAt"/></p>
 													<br><br>
-													<p style="font-size:18px;">Description: <f:display bean="tweet" /></p>
+													<p style="font-size:18px;">Followers: <f:display bean="tweet" property="userNumFollowers"/></p>
 													<br><br>
-													<p style="font-size:18px;">Size: <f:display bean="tweet" /></p>
+													<p style="font-size:18px;">Following: <f:display bean="tweet" property="userNumFollowing"/></p>
 													<br><br>
-													<p style="font-size:18px;">Color: <f:display bean="tweet"/></p>
-													<br><br>
-													<p style="font-size:18px;">ShippingInfo: <f:display bean="products" property="shippingInfo"/></p>
-													<br><br>
-													<p style="font-size:18px;">Return Policy: <f:display bean="products" property="returnPolicy"/></p>
+													<p style="font-size:18px;">Location: <f:display bean="tweet" property="location"/></p>
 													<br><br>
 													<!--  
 													<form action="checkout" controller="checkout" method="POST">
@@ -113,30 +109,6 @@
 													-->
 												</section>
 											</div>
-											<div class="6u">
-												<section class="box">
-												<header>
-													<!-- <asset:image src="PRODUCTS_${products.id}-03"/> -->
-													<img src="data:image/png;base64,${products.imageThree?.encodeBase64()}"/>
-												</header>
-													<br><br>
-													<p style="font-size:14px;">Questions? Email us today for 24/7 support.</p>
-													<br>
-													<footer class="actions">
-														<a href="mailto:bilal.ahmed@foodal.co" class="button fa fa-file-text">Email us today!</a>
-														<br><br>
-													</footer>	
-													<!--header>
-														<h3>Aptent veroeros et aliquam</h3>
-														<span class="byline">Posted 45 minutes ago</span>
-													</header>
-													<p>Lorem ipsum dolor sit amet sit veroeros sed et blandit consequat sed veroeros lorem et blandit  adipiscing feugiat phasellus tempus hendrerit, tortor vitae mattis tempor, sapien sem feugiat sapien, id suscipit magna felis nec elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos lorem ipsum dolor sit amet.</p>
-													<footer class="actions">
-														<a href="#" class="button fa fa-file-text">Continue Reading</a>
-														<a href="#" class="button alt fa fa-comment">33 comments</a>
-													</footer-->
-												</section>
-											</div>
 										</div>
 									</div>
 								</section>
@@ -145,7 +117,7 @@
 					</div>
 				</div>
 			</div>
-		
+					
 		<!-- Main Wrapper -->
 			<div id="main-wrapper">
 				<div class="container">

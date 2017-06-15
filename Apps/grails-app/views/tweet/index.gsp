@@ -79,9 +79,11 @@
 														</header>
 														<br><br>
 														
-														<p style="font-size:24px;color:#8a7e7e;"><f:table collection="${tweetList}" properties="['userScreenName', 'tweettText', 'createdAt', 'followersCount', 'friendsCount']"/></p>
-														<div class="pagination" style="font-size:24px;color:#8a7e7e;">
+														<p style="font-size:24px;color:#8a7e7e;width:800px;"><f:table collection="${tweetList}" properties="['userScreenName', 'tweettText', 'createdAt', 'followersCount', 'friendsCount']"/></p>
+														<div class="btn-toolbar">
+														<div class="btn-group">
 					                					<g:paginate total="${tweetCount ?: 0}" />
+					            						</div>
 					            						</div>
 														<br><br>
 														</section>
