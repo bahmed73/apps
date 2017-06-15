@@ -41,6 +41,7 @@ grails.plugin.springsecurity.controllerAnnotations.staticRules = [
 	[pattern: '/tweet/archiveDefense',access: ['permitAll']],
 	[pattern: '/tweet/archiveTrump',access: ['permitAll']],
 	[pattern: '/tweet/archiveStartups',access: ['permitAll']],
+	[pattern: '/tweet/archiveYoga',access: ['permitAll']],
 	[pattern: '/product/processLogin',access: ['permitAll']]
 ]
 
@@ -96,6 +97,7 @@ grails.plugin.springsecurity.controllerAnnotations.staticRules = [
 	[pattern: '/tweet/archiveDefense',access: ['permitAll']],
 	[pattern: '/tweet/archiveTrump',access: ['permitAll']],
 	[pattern: '/tweet/archiveStartups',access: ['permitAll']],
+	[pattern: '/tweet/archiveYoga',access: ['permitAll']],
 	[pattern: '/product/processLogin',access: ['permitAll']]
 ]
 
@@ -151,6 +153,7 @@ grails.plugin.springsecurity.controllerAnnotations.staticRules = [
 	[pattern: '/tweet/archiveDefense',access: ['permitAll']],
 	[pattern: '/tweet/archiveTrump',access: ['permitAll']],
 	[pattern: '/tweet/archiveStartups',access: ['permitAll']],
+	[pattern: '/tweet/archiveYoga',access: ['permitAll']],
 	[pattern: '/product/processLogin',access: ['permitAll']]
 ]
 

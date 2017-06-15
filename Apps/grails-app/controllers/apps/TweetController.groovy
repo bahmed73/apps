@@ -54,6 +54,11 @@ class TweetController {
 		respond tweetList
 	}
 	
+	def archiveYoga() {
+		def tweetList = Tweet.findAllByTweettTextIlike("%yoga%", [max: 20])
+		respond tweetList
+	}
+	
     def show(Tweet tweet) {
         respond tweet
     }
