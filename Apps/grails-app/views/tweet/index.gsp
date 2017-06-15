@@ -77,11 +77,12 @@
 														<span style="font-size:35px;">Tweets</span>
 														</header>
 														<br><br>
-														
-														<p style="font-size:24px;color:#8a7e7e;"><f:table collection="${tweetList}" properties="['userScreenName', 'tweettText', 'createdAt', 'followersCount', 'friendsCount']"/></p>
-														<div class="pagination">
-					                					<g:paginate total="${tweetCount ?: 0}" />
-					            						</div>
+														<div class="nav nav-tabs navbar" style="color:#8a7e7e;">
+															<p class="navbar navbar-header" style="font-size:28px;color:#8a7e7e;margin:2px;"><f:table collection="${tweetList}" properties="['userScreenName', 'tweettText', 'createdAt', 'followersCount', 'friendsCount']"/></p>
+															<div class="navbar-text pagination pagination-large">
+						                					<g:paginate class="navbar-text pagination pagination-large" style="color:#8a7e7e;" total="${tweetCount ?: 0}" />
+						                					</div>
+					                					</div>
 														<br><br>
 														</section>
 												
