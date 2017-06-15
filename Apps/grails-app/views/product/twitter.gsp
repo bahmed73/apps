@@ -61,8 +61,7 @@
 								<!-- Nav -->
 										<nav id="nav">
 											<ul>
-												<li><g:link controller="product" action="shelf">Create a Shelf</g:link></li>
-												<li><g:link controller="product" action="analytics">View Analytics</g:link></li>
+												<li><g:link controller="tweet" action="index">Archived News</g:link></li>
 												<!--<li><a href="left-sidebar.html">Login</a></li>-->
 											</ul>
 										</nav>
@@ -77,19 +76,19 @@
 													<section class="box">
 													<!-- <a href="http://www.mytweetmark.com" class="image image-full"><asset:image src="foodal-homepage-16.png"/></a> -->
 													<header>
-														<span style="font-size:35px;">Foodal Twitter!</span>
-														<span class="byline">Login with your Twitter account to get started.</span>
+														<span style="font-size:35px;">Foodal News!</span>
 													</header>
 													<div>
 													<ul style="list-style-type:disc; margin:50px;font-size:20px;">
 													<li>Find some really cool interesting facts.</li>
-													<li>Connect with your data.</li>
+													<li>Find out what news CNN, nytimes, nypost, Hillary Clinton, Snoop Dogg, Diddy and many others are reading.</li>
 													<li>You never know what you might find.</li>
-													<li>Some reasons might require a simple donation.</li>
-													<li>You are in for a surprise!</li>
+													<li><b>If you have a Twitter account, login to real-time dashboard.</b></li>
+													<li>If you don't have a Twitter account, please view the daily archived news.</li>
 													</ul>
 													</div>
 													<br>
+													<g:link controller="tweet" action="index"><span style="font-size:35px;color:#8a7e7e;">Daily Archived News.</span></g:link>
 													
 													<br><br>
 													<footer class="actions">

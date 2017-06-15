@@ -31,6 +31,9 @@ grails.plugin.springsecurity.controllerAnnotations.staticRules = [
 	[pattern: '/product/twitterThiel',access: ['permitAll']],
 	[pattern: '/product/retweet',access: ['permitAll']],
 	[pattern: '/product/favorite',access: ['permitAll']],
+	[pattern: '/tweet/index',access: ['permitAll']],
+	[pattern: '/tweet/show',access: ['permitAll']],
+	[pattern: '/product/premium',access: ['permitAll']],
 	[pattern: '/product/processLogin',access: ['permitAll']]
 ]
 
@@ -76,6 +79,9 @@ grails.plugin.springsecurity.controllerAnnotations.staticRules = [
 	[pattern: '/product/twitterThiel',access: ['permitAll']],
 	[pattern: '/product/retweet',access: ['permitAll']],
 	[pattern: '/product/favorite',access: ['permitAll']],
+	[pattern: '/tweet/index',access: ['permitAll']],
+	[pattern: '/tweet/show',access: ['permitAll']],
+	[pattern: '/product/premium',access: ['permitAll']],
 	[pattern: '/product/processLogin',access: ['permitAll']]
 ]
 
@@ -121,6 +127,9 @@ grails.plugin.springsecurity.controllerAnnotations.staticRules = [
 	[pattern: '/product/twitterThiel',access: ['permitAll']],
 	[pattern: '/product/retweet',access: ['permitAll']],
 	[pattern: '/product/favorite',access: ['permitAll']],
+	[pattern: '/tweet/index',access: ['permitAll']],
+	[pattern: '/tweet/show',access: ['permitAll']],
+	[pattern: '/product/premium',access: ['permitAll']],
 	[pattern: '/product/processLogin',access: ['permitAll']]
 ]
 

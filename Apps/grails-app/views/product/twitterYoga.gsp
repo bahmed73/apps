@@ -72,6 +72,7 @@
 												<li><g:link controller="product" action="twitterDefense">Defense</g:link></li>
 												<li><g:link controller="product" action="twitterHillary">Hillary</g:link></li>
 												<li><g:link controller="product" action="twitterThiel">Thiel</g:link></li>
+												<li><g:link controller="tweet" action="index">Archived</g:link></li>
 												<!--<li><a href="left-sidebar.html">Login</a></li>-->
 											</ul>
 										</nav>
