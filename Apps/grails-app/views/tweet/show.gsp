@@ -72,7 +72,7 @@
 								<section>
 									<div>
 										<div class="row">
-											<div class="6u">
+											
 													<section class="box">
 													<!-- <a href="http://www.mytweetmark.com" class="image image-full"><asset:image src="foodal-homepage-16.png"/></a> -->
 													<header>
@@ -110,7 +110,7 @@
 													</form>
 													-->
 												</section>
-											</div>
+											
 										</div>
 									</div>
 								</section>

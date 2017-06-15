@@ -88,11 +88,10 @@
 																				
 																						<section class="box">
 																						<header>
-																						<span style="font-size:35px;">Tweet: ${tweetInstance.tweettText}</span>
+																						<span style="font-size:35px;">${tweetInstance.tweettText}</span>
 																						<br><br>
 																						<g:link controller="tweet" action="show" id="${tweetInstance.id}">by <img src="${tweetInstance.miniProfileImageURL}" alt="Grails"/></g:link>
-																						<br>
-																						<g:link url="https://twitter.com/${tweetInstance.userScreenName}"><span style="color:#8a7e7e;font-size:28px;">Twitter: ${tweetInstance.userScreenName}</span></g:link>
+																						<g:link url="https://twitter.com/${tweetInstance.userScreenName}"><span style="color:#8a7e7e;font-size:28px;">${tweetInstance.userScreenName}</span></g:link>
 																						</header>
 																						<br><br>
 																						</section>
