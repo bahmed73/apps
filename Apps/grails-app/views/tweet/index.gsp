@@ -85,16 +85,18 @@
 																	<section>
 																		<div>
 																			<div class="row">
-																				<div class="6u">
+																				
 																						<section class="box">
 																						<header>
-																						<span style="font-size:35px;">${tweetInstance.tweettText}</span>
-																						<g:link controller="tweet" action="show" id="${tweetInstance.id}"><img src="${tweetInstance.miniProfileImageURL}" alt="Grails"/></g:link>
-																						<g:link url="https://twitter.com/${tweetInstance.userScreenName}"><span style="color:#8a7e7e;font-size:35px;">${tweetInstance.userScreenName}</span></g:link>
+																						<span style="font-size:35px;">Tweet: ${tweetInstance.tweettText}</span>
+																						<br><br>
+																						<g:link controller="tweet" action="show" id="${tweetInstance.id}">by <img src="${tweetInstance.miniProfileImageURL}" alt="Grails"/></g:link>
+																						<br>
+																						<g:link url="https://twitter.com/${tweetInstance.userScreenName}"><span style="color:#8a7e7e;font-size:28px;">Twitter: ${tweetInstance.userScreenName}</span></g:link>
 																						</header>
 																						<br><br>
 																						</section>
-																				</div>
+																				
 																			</div>
 																		</div>
 																	</section>
