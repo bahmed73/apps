@@ -11,6 +11,9 @@ class PaymentService {
 	def stripeSecret = "sk_test_5i1QWnJC2wtuzSZ9s4nUcpVU"
 	def stripePublishable = "pk_test_VBLyN579809ToN0y2VA4VXG8"
 	
+	def stripeProductSecret = "sk_live_JTBjE2udFzOGJpABo18JFSLR"
+	def stripeProductPublisher = "pk_live_XG5V3QMNoSvnijnOBH1SRO2I"
+	
     def serviceMethod() {
 
     }

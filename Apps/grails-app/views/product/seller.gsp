@@ -76,16 +76,16 @@
 													<section class="box">
 													<!-- <a href="http://www.mytweetmark.com" class="image image-full"><asset:image src="foodal-homepage-16.png"/></a> -->
 													<header>
-														<span style="font-size:35px;">Foodal News!</span>
-														<span class="byline">Get the latest premium real-time news from Twitter.</span>
+														<span style="font-size:35px;">Foodal Product Shelf!</span>
+														<span class="byline">Build a Shelf, Sell your Products.</span>
 													</header>
 													<div>
 													<ul style="list-style-type:disc; margin:50px;font-size:20px;">
-													<li>Find some really cool interesting facts.</li>
-													<li>Find out where CNN, nytimes, nypost, Hillary Clinton, Snoop Dogg, Diddy, Fox news and many others get their news from.</li>
-													<li>You never know what you might find.</li>
-													<li>Since this is our first release, please help, make a simple donation of $100.</li>
-													<li>Lets get started!</li>
+													<li>Upload local products.</li>
+													<li>Provide product pictures, price and details.</li>
+													<li>Create blogs to market your product.</li>
+													<li>Monthly subscription is $50/month.</li>
+													<li>Start making money from home!</li>
 													</ul>
 													</div>
 													<br>
@@ -93,13 +93,13 @@
 													<br><br>
 													<footer class="actions">
 														  
-													<form action="twitter" controller="product" method="POST">
+													<form controller="checkout" method="POST">
 													<script
 										  			src="https://checkout.stripe.com/checkout.js" class="stripe-button"
 										  			data-key="pk_live_XG5V3QMNoSvnijnOBH1SRO2I"
 										  			data-amount="50.00"
 										  			data-name="foodal"
-										  			data-description="News Subscription"
+										  			data-description="Shelf Subscription"
 										  			data-zip-code="true"
 										  			data-shipping-address="true"
 										  			data-billing-address="true"

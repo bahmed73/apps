@@ -47,6 +47,16 @@ class ProductController {
 		log.info "inside premium"
 	}
 	
+	def seller() {
+		log.info "inside seller"
+		
+		System.out.println("from stripe?" + params)
+		
+		if (params.stripeToken != null) {
+			redirect controller:"register"
+		}
+	}
+	
 	def listing() {
 		System.out.println("listing")
 		def user = springSecurityService.currentUser

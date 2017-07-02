@@ -16,6 +16,7 @@ class CheckoutController {
     def index(Integer max) {
 		System.out.println("from stripe?" + params)
 		
+		/*
 		if (params.stripeToken != null) {
 			paymentService.homepageCheckout(params)
 			redirect(controller: "register")
@@ -24,8 +25,8 @@ class CheckoutController {
         	params.max = Math.min(max ?: 10, 100)
 			respond Checkout.list(params), model:[checkoutCount: Checkout.count()]
 			return
-		}
-		
+		}*/
+		redirect controller:"register"
     }
 
     def show(Checkout checkout) {
@@ -40,6 +41,7 @@ class CheckoutController {
 		
 	}
 	
+	@Secured('IS_AUTHENTICATED_ANONYMOUSLY')
 	def checkout() {
 		System.out.println("Inside checkout")
 		/*try {
@@ -64,6 +66,7 @@ class CheckoutController {
 			flash.message = "Something went wrong ..."
 			println("Status is: " + e.printStackTrace());
 		}*/
+		redirect controller:"register"
 	}
 	
     @Transactional
