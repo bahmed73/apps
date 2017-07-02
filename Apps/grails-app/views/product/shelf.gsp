@@ -98,7 +98,7 @@
 													</g:form>
 													<br><br>
 													<footer class="actions">
-														<a href="mailto:bilal.ahmed@foodal.co" class="button fa fa-file-text">Email us today!</a>
+														<a href="mailto:bilal@mytweetmark.com" class="button fa fa-file-text">Email us today!</a>
 														<br><br>
 													</footer>
 												</section>
@@ -294,7 +294,7 @@
 										</li>
 										<li>
 											<h3>Mail</h3>
-											<p><a href="mailto:bilal.ahmed@foodal.co">bilal.ahmed@foodal.co</a></p>
+											<p><a href="mailto:bilal@mytweetmark.com">bilal@mytweetmark.com</a></p>
 										</li>
 										<!--li>
 											<h3>Phone</h3>

@@ -48,7 +48,7 @@ class CheckoutController {
 		
 		/*
 		mailService.sendMail {
-			to "bilal@mytweetmark.com", "bilal.ahmed@foodal.co"
+			to "bilal@mytweetmark.com"
 			from "bilal.ahmed@foodal.co"
 			subject "Order received"
 			text "Please validate transaction."

@@ -106,7 +106,7 @@ class ProductsController {
         
 		/*
 		mailService.sendMail {
-			to "bilal.ahmed@foodal.co"
+			to "bilal@mytweetmark.com"
 			from "bilal.ahmed@foodal.co"
 			subject "New Product"
 			text "A new product has been created"

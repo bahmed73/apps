@@ -27,7 +27,7 @@ class PaymentService {
             'amount': amountInCents, 
             'currency': 'usd', 
             'card': stripeToken, 
-            'description': 'bilal.ahmed@foodal.co'
+            'description': 'bilal@mytweetmark.com'
         ]
 
         def status
