@@ -93,12 +93,12 @@
 													<br><br>
 													<p style="font-size:18px;">Return Policy: <f:display bean="products" property="returnPolicy"/></p>
 													<br><br>
-													<!--  
-													<form action="checkout" controller="checkout" method="POST">
+													  
+													<form action="productCheckout" controller="checkout" method="POST">
 													<script
 										  			src="https://checkout.stripe.com/checkout.js" class="stripe-button"
-										  			data-key="pk_test_VBLyN579809ToN0y2VA4VXG8"
-										  			data-amount="50.00"
+										  			data-key="pk_live_XG5V3QMNoSvnijnOBH1SRO2I"
+										  			data-amount="${products.price}00"
 										  			data-name="foodal Subscription"
 										  			data-description="Monthly Subscription"
 										  			data-zip-code="true"
@@ -110,7 +110,7 @@
 										  			data-locale="auto">
 													</script>
 													</form>
-													-->
+													
 												</section>
 											</div>
 											<div class="6u">

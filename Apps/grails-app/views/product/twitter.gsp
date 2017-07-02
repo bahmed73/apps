@@ -85,6 +85,8 @@
 													<li>You never know what you might find.</li>
 													<li><b>If you have a Twitter account, login to real-time dashboard.</b></li>
 													<li>If you don't have a Twitter account, please view the daily archived news.</li>
+													<li>If you have already paid, please bookmark this page.</li>
+													<li>Let's get started!</li>
 													</ul>
 													</div>
 													<br>

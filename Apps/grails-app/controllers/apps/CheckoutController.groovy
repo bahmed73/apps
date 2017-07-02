@@ -42,6 +42,44 @@ class CheckoutController {
 	}
 	
 	@Secured('IS_AUTHENTICATED_ANONYMOUSLY')
+	def productCheckout() {
+		System.out.println("Inside product checkout")
+		log.info "Order received"
+		
+		/*
+		mailService.sendMail {
+			to "bilal@mytweetmark.com", "bilal.ahmed@foodal.co"
+			from "bilal.ahmed@foodal.co"
+			subject "Order received"
+			text "Please validate transaction."
+		}
+		*/
+		
+		/*try {
+			def amount = Double.parseDouble(params.amount)
+			def token = params.stripeToken
+			
+			System.out.println("amount = " + amount)
+			System.out.println("token = " + token)
+			
+			if(amount && token){
+				println "\n\nSTRIPE API KEY : ${Stripe.apiKey} -> TOKEN : ${token} -> AMOUNT : ${amount}\n\n"
+				//convert amount into cents
+				def amountInCents = (amount * 100) as Integer
+				System.out.println("amount in cents: " + amountInCents)
+				
+				paymentService.charge(token, amountInCents)
+				flash.message = "Successfully charged Stripe"
+			}
+
+		
+		} catch (Exception e) {
+			flash.message = "Something went wrong ..."
+			println("Status is: " + e.printStackTrace());
+		}*/
+	}
+
+	@Secured('IS_AUTHENTICATED_ANONYMOUSLY')
 	def checkout() {
 		System.out.println("Inside checkout")
 		/*try {

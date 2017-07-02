@@ -76,46 +76,32 @@
 													<section class="box">
 													<!-- <a href="http://www.mytweetmark.com" class="image image-full"><asset:image src="foodal-homepage-16.png"/></a> -->
 													<header>
-														<span style="font-size:35px;">Foodal Product Shelf!</span>
-														<span class="byline">Build a Shelf, Sell your Products.</span>
+														<span style="font-size:35px;">Congratulations!</span>
+														<span class="byline">Your transaction is complete.</span>
 													</header>
 													<div>
 													<ul style="list-style-type:disc; margin:50px;font-size:20px;">
-													<li>Upload local products.</li>
-													<li>Provide product pictures, price and details.</li>
-													<li>Create blogs to market your product.</li>
-													<li>Monthly subscription is $50/month.</li>
-													<li>Start making money from home!</li>
+													<li>Your order is on it's way.</li>
+													<li>Feel free to email us.</li>
+													<li>Please make sure to visit the foodal website again.</li>
+													<li>We only work with the best sellers.</li>
+													<li>Your satisfaction is over first priority.</li>
+													<li>Thank you!</li>
 													</ul>
 													</div>
 													<br>
 													
 													<br><br>
 													<footer class="actions">
-														  
-													<form controller="checkout" method="POST">
-													<script
-										  			src="https://checkout.stripe.com/checkout.js" class="stripe-button"
-										  			data-key="pk_live_XG5V3QMNoSvnijnOBH1SRO2I"
-										  			data-amount="5000.00"
-										  			data-name="foodal"
-										  			data-description="Shelf Subscription"
-										  			data-zip-code="true"
-										  			data-shipping-address="true"
-										  			data-billing-address="true"
-										  			
-										  			
-										  			data-image="https://stripe.com/img/documentation/checkout/marketplace.png"
-										  			data-locale="auto">
-													</script>
-													</form> 
+														  <a href="mailto:bilal.ahmed@foodal.co" class="button fa fa-file-text">Email us today!</a>
+													 
 														<br><br>
 													</footer>
 												</section>
 											</div>
 										<div class="6u">
 												<section class="box">
-													<a href="http://www.homecook.me" class="image image-full"><asset:image src="foodal-homepage-16.png"/></a>
+													<a href="http://www.homecook.me" class="image image-full"><asset:image src="twitter-birdie.png"/></a>
 													<!--header>
 														<h3>Aptent veroeros et aliquam</h3>
 														<span class="byline">Posted 45 minutes ago</span>
