@@ -57,6 +57,28 @@ class ProductController {
 		}
 	}
 	
+	@Secured('IS_AUTHENTICATED_ANONYMOUSLY')
+	def mytweetmark() {
+		log.info "inside mytweetmark"
+		
+		System.out.println("from stripe?" + params)
+		
+		if (params.stripeToken != null) {
+			redirect uri:"http://www.mytweetmark.com"
+		}
+	}
+	
+	@Secured('IS_AUTHENTICATED_ANONYMOUSLY')
+	def homecookme() {
+		log.info "inside homecookme"
+		
+		System.out.println("from stripe?" + params)
+		
+		if (params.stripeToken != null) {
+			redirect uri:"http://www.homecook.me"
+		}
+	}
+	
 	def listing() {
 		System.out.println("listing")
 		def user = springSecurityService.currentUser
