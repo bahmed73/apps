@@ -85,6 +85,7 @@
 													<li>Create blogs for marketing the products.</li>
 													<li>Monthly subscription is $50 to start generating online revenue from your business.</li> 
 													<li>We provide 24/7 support and service for our local customers.</li>
+													<li>Email us first, then <g:link controller="product" action="help"><span style="color:#8a7e7e;">let's get started!</span></g:link></li>
 													</ul>
 													</div>
 													<br>

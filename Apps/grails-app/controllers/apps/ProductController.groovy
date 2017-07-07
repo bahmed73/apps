@@ -47,6 +47,10 @@ class ProductController {
 		log.info "inside premium"
 	}
 	
+	def help() {
+		log.info "inside help"
+	}
+	
 	def seller() {
 		log.info "inside seller"
 		
