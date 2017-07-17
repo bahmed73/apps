@@ -86,6 +86,7 @@
 													<li>Create blogs to market your product.</li>
 													<li>Monthly subscription is $50/month.</li>
 													<li>Start making money from home!</li>
+													<li>Email us first, then <g:link controller="product" action="help"><span style="color:#8a7e7e;">let's get started!</span></g:link></li>
 													</ul>
 													</div>
 													<br>
