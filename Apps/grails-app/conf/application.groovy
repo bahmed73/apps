@@ -45,7 +45,8 @@ grails.plugin.springsecurity.controllerAnnotations.staticRules = [
 	[pattern: '/tweet/archiveYoga',access: ['permitAll']],
 	[pattern: '/product/processLogin',access: ['permitAll']],
 	[pattern: '/checkout/productCheckout',access: ['permitAll']],
-	[pattern: '/product/help',access: ['permitAll']]
+	[pattern: '/product/help',access: ['permitAll']],
+	[pattern: '/product/software',access: ['permitAll']]
 ]
 
 grails.plugin.springsecurity.filterChain.chainMap = [
@@ -104,7 +105,8 @@ grails.plugin.springsecurity.controllerAnnotations.staticRules = [
 	[pattern: '/tweet/archiveYoga',access: ['permitAll']],
 	[pattern: '/product/processLogin',access: ['permitAll']],
 	[pattern: '/checkout/productCheckout',access: ['permitAll']],
-	[pattern: '/product/help',access: ['permitAll']]
+	[pattern: '/product/help',access: ['permitAll']],
+	[pattern: '/product/software',access: ['permitAll']]
 ]
 
 grails.plugin.springsecurity.filterChain.chainMap = [
@@ -163,7 +165,8 @@ grails.plugin.springsecurity.controllerAnnotations.staticRules = [
 	[pattern: '/tweet/archiveYoga',access: ['permitAll']],
 	[pattern: '/product/processLogin',access: ['permitAll']],
 	[pattern: '/checkout/productCheckout',access: ['permitAll']],
-	[pattern: '/product/help',access: ['permitAll']]
+	[pattern: '/product/help',access: ['permitAll']],
+	[pattern: '/product/software',access: ['permitAll']]
 ]
 
 grails.plugin.springsecurity.filterChain.chainMap = [

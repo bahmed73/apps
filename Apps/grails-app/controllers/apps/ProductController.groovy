@@ -165,6 +165,11 @@ class ProductController {
 		log.info "inside twitter"
 	}
 	
+	def software() {
+		System.out.println("inside software")
+		log.info "inside software"
+	}
+	
 	def twitterLoggedIn() {
 		System.out.println("inside twitter loggedin")
 		log.info "inside twitter logged in"
