@@ -77,8 +77,8 @@
 										<nav id="nav">
 											<ul>
 												<li><g:link url="/">Home</g:link></li>
-												<li><g:link controller="product" action="loop">Body loops</g:link></li>
-												<li><g:link controller="product" action="dad">Earth loops</g:link></li>
+												<li><g:link controller="product" action="mom">Body loops</g:link></li>
+												<li><g:link controller="product" action="loop">Earth loops</g:link></li>
 												<!--<li><a href="left-sidebar.html">Login</a></li>-->
 											</ul>
 										</nav>
@@ -91,16 +91,17 @@
 										<div class="6u">
 													<section class="box">
 													<header>
-														<span style="font-size:35px;">Foodal Loop Software - Space!</span>
+														<span style="font-size:35px;">Foodal Loop Software - Earth!</span>
 														<span class="byline">Run a loop, and feel the affects on your body. The heart and mind become completely in sync with the body.</span>
-														<span class="byline">A loop uses holy grails, kinetic and potential energies to heal the body. The practice utilizes Hindu vedas and Islamic prayers.</span>
-														<span class="byline">An external loop harmonizes IQ - intelligence and EQ - emotional intelligence, with the world, and the country you reside.</span>
+														<span class="byline">A loop uses holy grails, kinetic and potential energies to heal the body. The practice utilizes Hindu vedas, chinese dao (dragon work) and Islamic prayers.</span>
+														<span class="byline">An earth loop internal harmonizes earth, water, fire, air and ether elements for the body, with the world, and the country you reside.</span>
+														<span class="byline">An earth loop external harmonizes earth, water, fire, wood and metal elements for the body, with the world, and the country you reside.</span>
 														
 													</header>
 													<div>
 													<ul style="list-style-type:disc; margin:50px;font-size:20px;">
-													<li>Earth basketball - Start from single seed, center of the earth, explode, use the male side for earth, female ocean for water.</li>
-													<li>Utilize the solar and lunar energies, sun and moon, and relax for 5 minutes, breathe normal and any thoughts, let them go.</li>
+													<li>Earth - As a single germ cell, meditate on two parts, male and female from the ground up, 1st chakra. One is for internal (vedic) and the second for external (dao).</li>
+													<li>Feel all the planets in our orbit, within the cell, explode. Let the energy go upwards all through the chakras, rinsing yours and everyone else around with the grails, red and white.</li>
 													<g:actionSubmit value="spin" onclick="return spin();"/>
 													</ul>
 													</div>
@@ -124,11 +125,11 @@
 										<div class="6u">
 													
 													<header>
-														<span class="byline">Run a prayer for the continent, based on belief and culture, protected from nuclear, biological, nanotechnology and other energies with grails.</span>
+														<span class="byline">Water - As a single germ cell, meditate on two parts, male and female in the water. One is for internal water, 2nd chakra and the second for external, ocean.</span>
 													</header>
 													<div>
 													<ul style="list-style-type:disc; margin:50px;font-size:20px;">
-													<li>Stand in the mirror, meditate gently, and ask guides for direction, moving forward for 5 minutes.</li>
+													<li>Feel all the planets in our orbit, within the cell, explode. Let the energy go upwards all through the chakras, rinsing yours and everyone else around with the grails, orange and blue.</li>
 													<g:actionSubmit value="spin" onclick="return spin();"/>
 													</ul>
 													</div>
@@ -152,11 +153,11 @@
 										<div class="6u">
 													
 													<header>
-														<span class="byline">Run a prayer for yourself, be present at the moment, relative to what is happening in the world, including war.</span>
+														<span class="byline">Fire - As a single germ cell, meditate on two parts, male and female on the sun. One is for internal fire, digestion, soul etc, 3nd chakra and the second for external, sun.</span>
 													</header>
 													<div>
 													<ul style="list-style-type:disc; margin:50px;font-size:20px;">
-													<li>Stand in the mirror for 5 minutes, meditate on food, water, kitchen, toilet, bed and yoga mat, listen for karma and dharma (action) tips.</li>
+													<li>Feel all the planets in our orbit, within the cell, explode. Let the energy go upwards all through the chakras, burning what is not needed inside, providing solar energy for everyone else around and outside with the grails, yellow and red.</li>
 													<g:actionSubmit value="spin" onclick="return spin();"/>
 													</ul>
 													</div>
@@ -180,11 +181,11 @@
 										<div class="6u">
 													
 													<header>
-														<span class="byline">Meditation on self in the mirror, listen to your intuition and guides.</span>
+														<span class="byline">Air - As a single germ cell, meditate on two parts, male and female on the air. One is breathing, 4th chakra and the second for external, wood, protection, home building and walls.</span>
 													</header>
 													<div>
 													<ul style="list-style-type:disc; margin:50px;font-size:20px;">
-													<li>Run the loop and stand in the mirror for 5 minutes. Pay attention to your body, blood, bones, hair, nails, fingers, toes, legs, arms, organs, heart and mind.</li>
+													<li>Feel all the planets in our orbit, within the cell, explode. Let the energy go upwards all through the chakras, cooling inside, providing atmosphere for everyone else around and outside with the grails, pink and green.</li>
 													<g:actionSubmit value="spin" onclick="return spin();"/>
 													</ul>
 													</div>
@@ -202,6 +203,33 @@
 									
 								</section>
 								
+								<section>
+									<div>
+										<div class="row">
+										<div class="6u">
+													
+													<header>
+														<span class="byline">Ether - As a single germ cell, meditate on two parts, male and female on the ether. One is silence, 5th chakra and the second for metal, grey color, observation, connect with dieties in the astral.</span>
+													</header>
+													<div>
+													<ul style="list-style-type:disc; margin:50px;font-size:20px;">
+													<li>Feel all the planets in our orbit, within the cell, explode. Let the energy go upwards all through the chakras, providing vision and balance, technology advancement through computers, wires and phones, for everyone else around and outside with the grails, light blue and grey.</li>
+													<g:actionSubmit value="spin" onclick="return spin();"/>
+													</ul>
+													</div>
+												
+											</div>
+										<div class="6u">
+												<section class="box">
+													<div id="spinner" style="display:none;">
+														<g:img dir="images" file="spinner.gif" alt="Loading..."/>
+													</div>
+												</section>
+											</div>
+										</div>
+									</div>
+									
+								</section>
 						</div>
 					</div>
 				</div>

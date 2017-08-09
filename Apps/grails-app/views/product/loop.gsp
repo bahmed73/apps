@@ -77,7 +77,8 @@
 										<nav id="nav">
 											<ul>
 												<li><g:link url="/">Home</g:link></li>
-												<li><g:link controller="product" action="mom">External loops</g:link></li>
+												<li><g:link controller="product" action="mom">Space loops</g:link></li>
+												<li><g:link controller="product" action="dad">Earth loops</g:link></li>
 												<!--<li><a href="left-sidebar.html">Login</a></li>-->
 											</ul>
 										</nav>
@@ -90,7 +91,7 @@
 										<div class="6u">
 													<section class="box">
 													<header>
-														<span style="font-size:35px;">Foodal Loop Software - Internal!</span>
+														<span style="font-size:35px;">Foodal Loop Software - Body!</span>
 														<span class="byline">Run a loop, and feel the affects on your body. The heart and mind become completely in sync with the body.</span>
 														<span class="byline">A loop uses holy grails, kinetic and potential energies to heal the body. The practice utilizes Hindu vedas and Islamic prayers.</span>
 														<span class="byline">An internal loop harmonizes IQ - intelligence and EQ - emotional intelligence, with the soul, home and office, temple or kitchen.</span>
