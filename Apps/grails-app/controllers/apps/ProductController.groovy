@@ -56,6 +56,11 @@ class ProductController {
 		log.info "inside loop"
 	}
 	
+	def mom() {
+		System.out.println("inside mom")
+		log.info "inside mom"
+	}
+	
 	def seller() {
 		log.info "inside seller"
 		
