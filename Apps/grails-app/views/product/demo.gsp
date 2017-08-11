@@ -33,6 +33,21 @@
 	
 		</noscript>-->
 		<!--[if lte IE 8]><asset:javascript src="html5shiv.js"/><asset:stylesheet src="ie8.css"/><![endif]-->
+		<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script src="/resources/demos/external/globalize/globalize.js"></script>
+  <script src="/resources/demos/external/globalize/globalize.culture.de-DE.js"></script>
+  <script src="/resources/demos/external/jquery-mousewheel/jquery.mousewheel.js"></script>
+  <script>
+  function spin() {
+	  var spinner = $( "#spinner" ).spinner();
+	  spinner.spinner( "value", 30 );
+	  spinner.spinner( "enable" );
+	  $("#spinner").toggle();
+	  }
+  </script>
 	</head>
 	<body class="homepage">
 	<a href="/#"><asset:image src="favicon.png" class="grails-logo"/></a>
@@ -71,162 +86,36 @@
 								<section>
 									<div>
 										<div class="row">
-										
 										<div class="6u">
 													<section class="box">
-													<!-- <a href="http://www.mytweetmark.com" class="image image-full"><asset:image src="foodal-homepage-16.png"/></a> -->
 													<header>
-														<span style="font-size:35px;">Foodal Software - Loop Formula</span>
-														<span class="byline"><g:link controller="product" action="demo"><span style="color:#8a7e7e;">Click for demo.</span></g:link></span>
+														<span style="font-size:35px;">Foodal Loop Software - Neo!</span>
+														<span class="byline">Run a loop, and feel the affects on your body. The heart and mind become completely in sync with the body.</span>
+														<span class="byline">A loop uses holy grails, kinetic and potential energies to heal the body. The practice utilizes Hindu vedas and Islamic prayers.</span>
+														<span class="byline">An external loop harmonizes IQ - intelligence and EQ - emotional intelligence, with the world, and the country you reside.</span>
+														
 													</header>
 													<div>
 													<ul style="list-style-type:disc; margin:50px;font-size:20px;">
-													<li>Run grails loops.</li>
-													<li>Work with red loop.</li>
-													<li>Work with white loop.</li>
-													<li>Work with kinetic energy loop x.</li>
-													<li>Work with potential energy loop y.</li>
-													<li>Work with titanic energy loop z.</li>
-													<li>Work with kinetic energy (female) loop u.</li>
-													<li>Work with potential energy (female) loop v.</li>
-													<li>Work with titanic energy (female) loop w.</li>
-													
-													<li>Work with kinetic energy x.</li>
-													<li>sotware apply loop 1/14 x.</li>
-													<li>sotware apply loop 1/14 y.</li>
-													<li>sotware apply loop 1/14 z.</li>
-													<li>sotware apply loop 1/14 u.</li>
-													<li>sotware apply loop 1/14 v.</li>
-													<li>sotware apply loop 1/14 w.</li>
-													
-													<li>sotware apply loop 2/14 x.</li>
-													<li>sotware apply loop 2/14 y.</li>
-													<li>sotware apply loop 2/14 z.</li>
-													<li>sotware apply loop 2/14 u.</li>
-													<li>sotware apply loop 2/14 v.</li>
-													<li>sotware apply loop 2/14 w.</li>
-													
-													<li>Work with kinetic energy -x.</li>
-													<li>sotware apply loop -1/14 x.</li>
-													<li>sotware apply loop -1/14 y.</li>
-													<li>sotware apply loop -1/14 z.</li>
-													<li>sotware apply loop -1/14 u.</li>
-													<li>sotware apply loop -1/14 v.</li>
-													<li>sotware apply loop -1/14 w.</li>
-													
-													<li>sotware apply loop -2/14 x.</li>
-													<li>sotware apply loop -2/14 y.</li>
-													<li>sotware apply loop -2/14 z.</li>
-													<li>sotware apply loop -2/14 u.</li>
-													<li>sotware apply loop -2/14 v.</li>
-													<li>sotware apply loop -2/14 w.</li>
-													
-													<li>Software update, kinetic energy 0/x loop everyone, relax, mirror.</li>
-													
-													<li>software update, #kinetic x.</li>
-													<li>software update, #potential y.</li>
-													<li>software update, #titantic z.</li>
-													<li>software update, #kinetic #potential #titantic, xyz, loop.</li>
-													<li>software update, #chemistry loop.</li>
-													<li>software update, #physics loop.</li>
-													<li>software update, #math loop.</li>
-													<li>software update, xyz, XYZ, loop.</li>
-													<li>software update, uvw, UVW, loop.</li>
-													<li>software update, language uvwxyz, loop.</li>
-													<li>software update, waves uvwxyz, loop.</li>
-													<li>software update, current uvwxyz, loop.</li>
-													<li>software update, gas uvwxyz, loop.</li>
-													<li>software update, dead earth particle uvwxyz, loop.</li>
-													<li>software update, dead earth core uvwxyz, loop.</li>
-													<li>software update, galaxy particle uvwxyz, loop.</li>
-													<li>software update, shiva particle uvwxyz, loop.</li>
-													<li>software update, indra particle uvwxyz, loop.</li>
-													<li>software update, nag/amber/maria particle uvwxyz, loop.</li>
-													<li>software update, ganesh particle uvwxyz, loop.</li>
-													<li>software update, hanuman particle uvwxyz, loop.</li>
-													<li>software update, sun/moon/saturn particle uvwxyz, loop.</li>
-													<li>software update, prithvi/varuna/mitra/vayu/nada particle uvwxyz, loop.</li>
-													<li>software update, prithvi/varuna/mitra/rose/ea (sumer) particle uvwxyz, loop.</li>
-													<li>software update, hardware, uvwxyz, loop.</li>
-													<li>software update, material uvwxyz, loop.</li>
-													<li>software update, lab data uvwxyz, loop.</li>
-													<li>software update, bardo uvwxyz, loop.</li>
-													<li>software update, tree of life uvwxyz, loop.</li>
-													<li>software update, gunas uvwxyz, loop.</li>
-													<li>software update, chakras uvwxyz, loop.</li>
-													<li>software update, koshas uvwxyz, loop.</li>
-													<li>software update, allah/allah mia (female), guru ji uvwxyz, loop.</li>
-													<li>software update, ishwar/ishwari/guru uvwxyz, loop.</li>
-													<li>software update, prajapate ye uvwxyz, loop.</li>
-													<li>software update, mantras uvwxyz, loop.</li>
-													<li>software update, miraj uvwxyz, loop.</li>
-													<li>software update, physics circuit uvwxyz, loop.</li>
-													<li>software update, chemistry compound uvwxyz, loop.</li>
-													<li>software update, chemistry compound, mix gold, silver, bronze and kala (earth germ) particle uvwxyz, loop.</li>
-													<li>software update, chemistry particle, single cell, uvwxyz, loop.</li>
-													<li>software update, physics particle, single cell, uvwxyz, loop.</li>
-													<li>software update, math particle, single cell, uvwxyz, loop.</li>
-													<li>software update, yoga particle uvwxyz, loop.</li>
-													<li>software update, food particle uvwxyz, loop.</li>
-													<li>software update, water particle uvwxyz, loop.</li>
-													<li>software update, work particle uvwxyz, loop.</li>
-													<li>software update, self-realization particle uvwxyz, loop.</li>
-													<li>software update, soul particle uvwxyz, loop.</li>
-													<li>software update, aham brahma asmi particle uvwxyz, loop.</li>
-													<li>software update, shiva particle uvwxyz, loop.</li>
-													<li>software update, brahma particle uvwxyz, loop.</li>
-													<li>software update, amitabha (2nd buddha) particle uvwxyz, loop.</li>
-													<li>software update, buddha particle uvwxyz, loop.</li>
-													<li>software update, sun particle, navagrahas particle uvwxyz, loop.</li>
-													<li>software update, moon particle, navagrahas particle uvwxyz, loop.</li>
-													<li>software update, saturn particle, navagrahas particle uvwxyz, loop.</li>
-													<li>software update, saturn particle, trident, snake, indra, galaxy, navagrahas particle uvwxyz, loop.</li>
-													<li>software update, sun, moon, saturn, uvwxyz, loop</li>
-													<li>software update, 1st (Anu, 2nd Enlil/Ninlil, Antu, Ea, Ea/Ba) sun, moon, saturn, uvwxyz, sumer, loop</li>
-													<li>software update, Ea/Ba lab/Allah/GuruJi, uvwxyz, loop.</li>
-													<li>software update, 3 labs, Ea/Ba lab/Allah/GuruJi, ghost ship * 2, 1 shiva ship, uvwxyz, loop.</li>
-													<li>software update, inner/outer, galaxy, big bang, bhagavad gita 1 & 2, uvwxyz, loop to infiniti.</li>
-													<li>software update, inner/outer, galaxy, big bang, bhagavad gita 1 & 2, final fantasy 7, uvwxyz, loop to infiniti.</li>
-													<li>software update, inner/outer, galaxy, big bang, bhagavad gita 1 & 2, uvwxyz, Mu, Atlantis, Arctic, Antarctica pyramids + saturn * 3, loop to infiniti.</li>
-													<li>software update, inner/outer, galaxy, big bang, bhagavad gita 1 & 2, mountain, river, cave, home, work, tantra yoga, tree, snake, allah, trident </li>
-													<li>software update, inner/outer, galaxy, big bang, bhagavad gita 1 & 2, water crystal, sun rays, dot dot, internet, phone, computer, toilet, trash, car </li>
-													<li>software update, inner/outer, galaxy, big bang, bhagavad gita 1 & 2, store, bills, credit, bank, money, indriyas, agni, kitchen, bed, carpet, music </li>
-													<li>software update, inner/outer, galaxy, big bang, bhagavad gita 1 & 2, mirror, clothes, bathroom, living room, dining room, temple, bar, restaurant, friends, love, family, uvwxyz, loop to infiniti.</li>
-													<li><b>If you have a Twitter account, login to process dashboard.</b></li>
-													<li>software update, dragon, demo to dream team, 18, 2 minutes, then loop everyone. go neo. </li>
-													<li>software update, hound of heaven, demo to dream team, 18, 2 minutes, then loop everyone. go neo. </li>
-													<li>software update, dream team of 18 (inner/outer) guards, dragon & hound of heaven, 2 minutes, then loop everyone. go neo. </li>
-													<li>software update, radha uvwxyz * 2, demo to dream team, 18, 2 minutes, then loop everyone. go neo. </li>
-													<li>software update, dream team of 18 (inner/outer/brahma) guards, dragon, hound of heaven and radha, 3 minutes, then loop everyone. go neo. </li>
-													<li>software update, dream team, nirguna + siguna brahman, radha, guru ji, dragon & hound of heaven, 2 minutes, then loop everyone. go neo. </li>
-													<li>software update, dream team, samuel + liliyath, radha, guru ji, dragon & hound of heaven, 2 minutes, draw (art), outline (kala shiva, kalki, black brahma & buddha snakes + 2nd buddha), then loop everyone. go neo. </li>
-													<li>software update, dream team, samuel + liliyath, radha, guru ji, dragon & hound of heaven, 2 minutes; inverse uvwxyz * 3, draw (art), outline (kali +1 or 2, durga +1 or 2, or single cell +1 or 2), then loop everyone. go neo. </li>
-													<li> software update brahmananda (Ishwar), loop.</li>
-													<li> software update Durga, (Iswari), loop.</li>
-													<li> software update Durga (noori) navagrahas, (Iswari), loop.</li>
-													<li> software update brahmananda (noor) navagrahas, (Ishwar), loop.</li>
-													<li> software update brahmananda (Ishwar), Durga (Ishwari), birth time, reset, memory (brain), loop.</li>
-													<li> software update brahmananda (Ishwar), Durga (Ishwari), birth time, reset, memory (heart), loop.</li>
-													<li> software update brahmananda (Ishwar), Durga (Ishwari), birth time, reset, memory (soul), loop.</li>
-													<li> software update brahmananda (Ishwar), Durga (Ishwari), birth time, reset, memory (bardo), loop.</li>
-													<li> software update brahmananda (Ishwar), Durga (Ishwari), birth time, reset, memory (matrix), loop.</li>
-													<li> software update brahmananda (Ishwar), Durga (Ishwari), birth time (neo/ea/ba), reset, loop.</li>
-													<li> software update brahmananda (Ishwar), Durga (Ishwari), birth time, (neo/ea/ba) reset, memory (neo/ea/ba infiniti), loop.</li>
-													<li>If you don't have a Twitter account, please view the daily archived loops.</li>
-													<li>If you have already paid, please bookmark this page.</li>
-													<li>Let's get started!</li>
+													<li>You are the architect of the matrix. You are working with neo. Look at yourself in the mirror, chose a weapon and wait. Be ready to fly and see some monsters.</li>
+													<li>Architect - Start from single seed, center of the earth, explode, use the male side for earth, female ocean for water.</li>
+													<li>Use the hacker energy, internet, email, security, keys, ciphers, active diectory, social networking, web servers, firewalls, android, iphone and operating systems.</li>
+													<li>Meditate on single point focus, required for coding. Let everthing go, and just look at the loop.</li>
+													<li>Utilize the solar and lunar energies, sun and moon, and relax for 5 minutes, breathe normal and any thoughts, let them go.</li>
+													<g:actionSubmit value="spin" onclick="return spin();"/>
 													</ul>
 													</div>
-													<br>
+													
+													<br><br>
 													<footer class="actions">
 														  
-													<form action="loop" controller="product" method="POST">
+													<form controller="checkout" method="POST">
 													<script
 										  			src="https://checkout.stripe.com/checkout.js" class="stripe-button"
 										  			data-key="pk_live_XG5V3QMNoSvnijnOBH1SRO2I"
 										  			data-amount="5000.00"
 										  			data-name="foodal"
-										  			data-description="News Subscription"
+										  			data-description="Neo Subscription"
 										  			data-zip-code="true"
 										  			data-shipping-address="true"
 										  			data-billing-address="true"
@@ -235,30 +124,24 @@
 										  			data-image="https://stripe.com/img/documentation/checkout/marketplace.png"
 										  			data-locale="auto">
 													</script>
-													</form>  
+													</form> 
 														<br><br>
 													</footer>
 												</section>
 											</div>
 										<div class="6u">
 												<section class="box">
-													<a href="http://www.homecook.me" class="image image-full"><asset:image src="twitter-anonymous.png"/></a>
-													<!--header>
-														<h3>Aptent veroeros et aliquam</h3>
-														<span class="byline">Posted 45 minutes ago</span>
-													</header>
-													<p>Lorem ipsum dolor sit amet sit veroeros sed et blandit consequat sed veroeros lorem et blandit  adipiscing feugiat phasellus tempus hendrerit, tortor vitae mattis tempor, sapien sem feugiat sapien, id suscipit magna felis nec elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos lorem ipsum dolor sit amet.</p>
-													<footer class="actions">
-														<a href="#" class="button fa fa-file-text">Continue Reading</a>
-														<a href="#" class="button alt fa fa-comment">33 comments</a>
-													</footer-->
+													<div id="spinner" style="display:none;">
+														<g:img dir="images" file="spinner.gif" alt="Loading..."/>
+													</div>
 												</section>
 											</div>
-											
 										</div>
 									</div>
+									
 								</section>
 
+														
 						</div>
 					</div>
 				</div>
