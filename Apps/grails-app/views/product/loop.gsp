@@ -79,6 +79,8 @@
 												<li><g:link url="/">Home</g:link></li>
 												<li><g:link controller="product" action="mom">Space loops</g:link></li>
 												<li><g:link controller="product" action="dad">Earth loops</g:link></li>
+												<li><g:link controller="product" action="male">Male loops</g:link></li>
+												<li><g:link controller="product" action="female">Female loops</g:link></li>
 												<!--<li><a href="left-sidebar.html">Login</a></li>-->
 											</ul>
 										</nav>
@@ -92,6 +94,7 @@
 													<section class="box">
 													<header>
 														<span style="font-size:35px;">Foodal Loop Software - Body!</span>
+														<span class="byline">Om la lum, va vum, ra rum, ya yum, ha hum, om om, shreem shreem.</span>
 														<span class="byline">Run a loop, and feel the affects on your body. The heart and mind become completely in sync with the body.</span>
 														<span class="byline">A loop uses holy grails, kinetic and potential energies to heal the body. The practice utilizes Hindu vedas and Islamic prayers.</span>
 														<span class="byline">An internal loop harmonizes IQ - intelligence and EQ - emotional intelligence, with the soul, home and office, temple or kitchen.</span>
@@ -128,6 +131,7 @@
 													</header>
 													<div>
 													<ul style="list-style-type:disc; margin:50px;font-size:20px;">
+													<li>ya wadood.</li>
 													<li>Lay down and relax for 5 minutes, create perfect protection and aura with spiritual energy.</li>
 													<g:actionSubmit value="spin" onclick="return spin();"/>
 													</ul>
@@ -156,6 +160,7 @@
 													</header>
 													<div>
 													<ul style="list-style-type:disc; margin:50px;font-size:20px;">
+													<li>Om tarumbakum yayamahey, sukandim poshtivardanam, orvarikum eva bundhinam, mitior mokshiya mamretum, swaha.</li>
 													<li>Lay down and relax for 5 minutes. Balance your physical energy with vedanta.</li>
 													<g:actionSubmit value="spin" onclick="return spin();"/>
 													</ul>
@@ -184,6 +189,7 @@
 													</header>
 													<div>
 													<ul style="list-style-type:disc; margin:50px;font-size:20px;">
+													<li>Om bhuh bhuvah swaha, maha janah tapah sateyam</li>
 													<li>Run the loop and stand in the mirror for 5 minutes.</li>
 													<g:actionSubmit value="spin" onclick="return spin();"/>
 													</ul>

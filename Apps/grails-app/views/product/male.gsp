@@ -79,7 +79,7 @@
 												<li><g:link url="/">Home</g:link></li>
 												<li><g:link controller="product" action="loop">Body loops</g:link></li>
 												<li><g:link controller="product" action="dad">Earth loops</g:link></li>
-												<li><g:link controller="product" action="male">Male loops</g:link></li>
+												<li><g:link controller="product" action="mom">Space loops</g:link></li>
 												<li><g:link controller="product" action="female">Female loops</g:link></li>
 												<!--<li><a href="left-sidebar.html">Login</a></li>-->
 											</ul>
@@ -93,8 +93,7 @@
 										<div class="6u">
 													<section class="box">
 													<header>
-														<span style="font-size:35px;">Foodal Loop Software - Space!</span>
-														<span class="byline">Kadoosh Kadoosh Kadoosh, adonai teaseeboyath.</span>
+														<span style="font-size:35px;">Foodal Loop Software - Male!</span>
 														<span class="byline">Run a loop, and feel the affects on your body. The heart and mind become completely in sync with the body.</span>
 														<span class="byline">A loop uses holy grails, kinetic and potential energies to heal the body. The practice utilizes Hindu vedas and Islamic prayers.</span>
 														<span class="byline">An external loop harmonizes IQ - intelligence and EQ - emotional intelligence, with the world, and the country you reside.</span>
@@ -102,7 +101,9 @@
 													</header>
 													<div>
 													<ul style="list-style-type:disc; margin:50px;font-size:20px;">
-													<li>Earth basketball - Start from single seed, center of the earth, explode, use the male side for earth, female ocean for water.</li>
+													<li>Architect - Start from single seed, center of the earth, explode, use the male side for earth, female ocean for water.</li>
+													<li>Use the hacker energy, internet, email, security, keys, ciphers, active diectory, social networking, web servers, firewalls, android, iphone and operating systems.</li>
+													<li>Meditate on single point focus, required for coding. Let everthing go, and just look at the loop.</li>
 													<li>Utilize the solar and lunar energies, sun and moon, and relax for 5 minutes, breathe normal and any thoughts, let them go.</li>
 													<g:actionSubmit value="spin" onclick="return spin();"/>
 													</ul>
@@ -127,11 +128,12 @@
 										<div class="6u">
 													
 													<header>
-														<span class="byline">Run a prayer for the continent, based on belief and culture, protected from nuclear, biological, nanotechnology and other energies with grails.</span>
+														<span class="byline">Salivahana - Run a prayer for the continent, based on belief and culture, protected from nuclear, biological, nanotechnology and other energies with grails.</span>
 													</header>
 													<div>
 													<ul style="list-style-type:disc; margin:50px;font-size:20px;">
-													<li>om ra ka ba va la shwat.</li>
+													<li>Meditation in the house, or home, relative to fridge. A fridge is a constant source of electrical energy, developed by Tesla.</li>
+													<li>Meditate on trident submarines, jassm-er warheads, wanna cry malware, f22, f35, b1, b2, thresher, k-219, scorpion, k-8 and komsomolets.</li>
 													<li>Stand in the mirror, meditate gently, and ask guides for direction, moving forward for 5 minutes.</li>
 													<g:actionSubmit value="spin" onclick="return spin();"/>
 													</ul>
@@ -156,11 +158,12 @@
 										<div class="6u">
 													
 													<header>
-														<span class="byline">Run a prayer for yourself, be present at the moment, relative to what is happening in the world, including war.</span>
+														<span class="byline">Shiva Gate - Run a prayer for yourself, be present at the moment, relative to what is happening in the world, including war.</span>
 													</header>
 													<div>
 													<ul style="list-style-type:disc; margin:50px;font-size:20px;">
-													<li>om a e i o u om om</li>
+													<li>Listen for intuition, look for a monkey climbing up the tree, in the astral heaven with a friend or guru. </li>
+													<li>Look for an elephant going down the stairs in the underworld.</li>
 													<li>Stand in the mirror for 5 minutes, meditate on food, water, kitchen, toilet, bed and yoga mat, listen for karma and dharma (action) tips.</li>
 													<g:actionSubmit value="spin" onclick="return spin();"/>
 													</ul>
@@ -185,11 +188,11 @@
 										<div class="6u">
 													
 													<header>
-														<span class="byline">Meditation on self in the mirror, listen to your intuition and guides.</span>
+														<span class="byline">Devil Gate - Meditation on self in the mirror, listen to your intuition and guides.</span>
 													</header>
 													<div>
 													<ul style="list-style-type:disc; margin:50px;font-size:20px;">
-													<li>Om aaeem rheem kreem shreem, chamandayeh vichuchay namaha</li>
+													<li>According to Vedanta, a soul is composed of 4 parts, light, dark, male and female. An avatar has all 4 qualities.</li>
 													<li>Run the loop and stand in the mirror for 5 minutes. Pay attention to your body, blood, bones, hair, nails, fingers, toes, legs, arms, organs, heart and mind.</li>
 													<g:actionSubmit value="spin" onclick="return spin();"/>
 													</ul>

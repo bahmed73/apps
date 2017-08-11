@@ -77,8 +77,10 @@
 										<nav id="nav">
 											<ul>
 												<li><g:link url="/">Home</g:link></li>
-												<li><g:link controller="product" action="mom">Body loops</g:link></li>
-												<li><g:link controller="product" action="loop">Earth loops</g:link></li>
+												<li><g:link controller="product" action="mom">Space loops</g:link></li>
+												<li><g:link controller="product" action="loop">Body loops</g:link></li>
+												<li><g:link controller="product" action="male">Male loops</g:link></li>
+												<li><g:link controller="product" action="female">Female loops</g:link></li>
 												<!--<li><a href="left-sidebar.html">Login</a></li>-->
 											</ul>
 										</nav>
@@ -92,6 +94,7 @@
 													<section class="box">
 													<header>
 														<span style="font-size:35px;">Foodal Loop Software - Earth!</span>
+														<span class="byline">Alhamdullilah./span>
 														<span class="byline">Run a loop, and feel the affects on your body. The heart and mind become completely in sync with the body.</span>
 														<span class="byline">A loop uses holy grails, kinetic and potential energies to heal the body. The practice utilizes Hindu vedas, chinese dao (dragon work) and Islamic prayers.</span>
 														<span class="byline">An earth loop internal harmonizes earth, water, fire, air and ether elements for the body, with the world, and the country you reside.</span>

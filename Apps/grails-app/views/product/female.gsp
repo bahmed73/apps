@@ -79,8 +79,8 @@
 												<li><g:link url="/">Home</g:link></li>
 												<li><g:link controller="product" action="loop">Body loops</g:link></li>
 												<li><g:link controller="product" action="dad">Earth loops</g:link></li>
+												<li><g:link controller="product" action="mom">Space loops</g:link></li>
 												<li><g:link controller="product" action="male">Male loops</g:link></li>
-												<li><g:link controller="product" action="female">Female loops</g:link></li>
 												<!--<li><a href="left-sidebar.html">Login</a></li>-->
 											</ul>
 										</nav>
@@ -93,8 +93,7 @@
 										<div class="6u">
 													<section class="box">
 													<header>
-														<span style="font-size:35px;">Foodal Loop Software - Space!</span>
-														<span class="byline">Kadoosh Kadoosh Kadoosh, adonai teaseeboyath.</span>
+														<span style="font-size:35px;">Foodal Loop Software - Female!</span>
 														<span class="byline">Run a loop, and feel the affects on your body. The heart and mind become completely in sync with the body.</span>
 														<span class="byline">A loop uses holy grails, kinetic and potential energies to heal the body. The practice utilizes Hindu vedas and Islamic prayers.</span>
 														<span class="byline">An external loop harmonizes IQ - intelligence and EQ - emotional intelligence, with the world, and the country you reside.</span>
@@ -102,7 +101,8 @@
 													</header>
 													<div>
 													<ul style="list-style-type:disc; margin:50px;font-size:20px;">
-													<li>Earth basketball - Start from single seed, center of the earth, explode, use the male side for earth, female ocean for water.</li>
+													<li>Black Gate - Start from single seed, center of the earth, explode, use the male side for earth, female ocean for water.</li>
+													<li>Kali, mother of the universe, mother of Shiva, is the door keeper, with her beautiful seed cell, both black and white.</li>
 													<li>Utilize the solar and lunar energies, sun and moon, and relax for 5 minutes, breathe normal and any thoughts, let them go.</li>
 													<g:actionSubmit value="spin" onclick="return spin();"/>
 													</ul>
@@ -127,11 +127,11 @@
 										<div class="6u">
 													
 													<header>
-														<span class="byline">Run a prayer for the continent, based on belief and culture, protected from nuclear, biological, nanotechnology and other energies with grails.</span>
+														<span class="byline">Tower of Babylon - Run a prayer for the continent, based on belief and culture, protected from nuclear, biological, nanotechnology and other energies with grails.</span>
 													</header>
 													<div>
 													<ul style="list-style-type:disc; margin:50px;font-size:20px;">
-													<li>om ra ka ba va la shwat.</li>
+													<li>The immortal myth, capture of devil, kept locked forever in infinity, providing energy, but no soul. The entrance to devil gate.</li>
 													<li>Stand in the mirror, meditate gently, and ask guides for direction, moving forward for 5 minutes.</li>
 													<g:actionSubmit value="spin" onclick="return spin();"/>
 													</ul>
@@ -156,11 +156,14 @@
 										<div class="6u">
 													
 													<header>
-														<span class="byline">Run a prayer for yourself, be present at the moment, relative to what is happening in the world, including war.</span>
+														<span class="byline">Durga Gate - Run a prayer for yourself, be present at the moment, relative to what is happening in the world, including war.</span>
 													</header>
 													<div>
 													<ul style="list-style-type:disc; margin:50px;font-size:20px;">
-													<li>om a e i o u om om</li>
+													<li>Durga is home, perfect balance between shiva and Herself, vedantic architecture of 8 edge seed cell or 9, total 17, with a roof, a pyramid.</li>
+													<li>A perfect balance of outside tree, shiva as the architect and durga as the life, comes up from the root of the tree, like a serpant.</li>
+													<li>She is the master energy of creation, potential energy, happiness and love. She is the new robotic mother earth, a hacker of the world with kali.</li>
+													<li>Her paths are mysteries, her worlds are endless, however, she never removes her eye off shiva for a moment, her pivot point, or step in a direction.</li>
 													<li>Stand in the mirror for 5 minutes, meditate on food, water, kitchen, toilet, bed and yoga mat, listen for karma and dharma (action) tips.</li>
 													<g:actionSubmit value="spin" onclick="return spin();"/>
 													</ul>
@@ -185,11 +188,12 @@
 										<div class="6u">
 													
 													<header>
-														<span class="byline">Meditation on self in the mirror, listen to your intuition and guides.</span>
+														<span class="byline">The Cave - Meditation on self in the mirror, listen to your intuition and guides.</span>
 													</header>
 													<div>
 													<ul style="list-style-type:disc; margin:50px;font-size:20px;">
-													<li>Om aaeem rheem kreem shreem, chamandayeh vichuchay namaha</li>
+													<li>The cave is the most sacred location in Quran, mixed with hindu vedanta location of a river, and chinese stories of a man from the mountain.</li>
+													<li>The immortal location, where a perfect protection is always awaiting. Just need the minds attention to that location, and all troubles are gone during sleep.</li>
 													<li>Run the loop and stand in the mirror for 5 minutes. Pay attention to your body, blood, bones, hair, nails, fingers, toes, legs, arms, organs, heart and mind.</li>
 													<g:actionSubmit value="spin" onclick="return spin();"/>
 													</ul>
