@@ -77,6 +77,9 @@
 										<nav id="nav">
 											<ul>
 												<li><g:link url="/">Home</g:link></li>
+												<li><g:link controller="product" action="demo4">W</g:link></li>
+												<li><g:link controller="product" action="demo">X</g:link></li>
+												<li><g:link controller="product" action="demo2">Y</g:link></li>
 												<!--<li><a href="left-sidebar.html">Login</a></li>-->
 											</ul>
 										</nav>
@@ -93,7 +96,7 @@
 														<span class="byline">X being the point, add Y, soul-mate, shiva and durga, two points drawing a line.</span>
 														<span class="byline">Add Z, third point, guru to begin with, but upon realization, let the guru to. Accept all gurus as One, now make 1 collective I, I AM, a e i o u, YOU, Earth, Aurath, OM.</span>
 														<span class="byline">From Z point, gravity being center of the Universe, galaxy, planets and the earth, meditate on a pyramid, Earth pyramid. All the planets, galaxies and universes within.</span>
-														<span class="byline">Fee the infiniti, between the two points, X and Y, Z, god and other forces, moving it, spinning it. Make vertical, z direction movement between two points, between earth and space, grounded to the gravity, positive and negative, black and white ions.</span>
+														<span class="byline">Feel the infiniti, between the two points, X and Y, Z, god and other forces, moving it, spinning it. Make vertical, z direction movement between two points, between earth and space, grounded to the gravity, positive and negative, black and white ions.</span>
 														<span class="byline">Feel the affects on your body, on both sides. The heart and mind become completely in sync with the body. It's the cross within the body, centering.</span>
 														<span class="byline">A horizontal loop uses round circles holy grails, kinetic and potential energies to heal the body. The practice utilizes Hindu vedas and Islamic prayers.</span>
 														<span class="byline">An external y loop harmonizes IQ - intelligence and EQ - emotional intelligence, with the world, and the country you reside.</span>

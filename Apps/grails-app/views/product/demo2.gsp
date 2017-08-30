@@ -77,6 +77,9 @@
 										<nav id="nav">
 											<ul>
 												<li><g:link url="/">Home</g:link></li>
+												<li><g:link controller="product" action="demo4">W</g:link></li>
+												<li><g:link controller="product" action="demo">X</g:link></li>
+												<li><g:link controller="product" action="demo3">Z</g:link></li>
 												<!--<li><a href="left-sidebar.html">Login</a></li>-->
 											</ul>
 										</nav>
