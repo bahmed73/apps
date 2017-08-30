@@ -77,6 +77,7 @@
 										<nav id="nav">
 											<ul>
 												<li><g:link url="/">Home</g:link></li>
+												<li><g:link controller="product" action="demo6">S, T</g:link></li>
 												<li><g:link controller="product" action="demo5">U, V</g:link></li>
 												<li><g:link controller="product" action="demo">X</g:link></li>
 												<li><g:link controller="product" action="demo2">Y</g:link></li>
@@ -93,7 +94,7 @@
 										<div class="6u">
 													<section class="box">
 													<header>
-														<span style="font-size:35px;">Foodal Loop Software - Feather W!</span>
+														<span style="font-size:35px;">W point</span>
 														<span class="byline">W, point of weightlessness. X, birth point, Y soul-mate point, shiva and durga, two points drawing a line.</span>
 														<span class="byline">Z, third point, god or guru to begin with, but upon realization, let the guru to. Accept all gurus as One, now make 1 collective I, I AM, a e i o u, YOU, Earth, Aurath, OM.</span>
 														<span class="byline">From Z point, gravity being center of the Universe, galaxy, planets and the earth, meditate on a pyramid, Earth pyramid. All the planets, galaxies and universes within.</span>

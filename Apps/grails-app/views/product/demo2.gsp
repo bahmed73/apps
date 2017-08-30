@@ -77,6 +77,7 @@
 										<nav id="nav">
 											<ul>
 												<li><g:link url="/">Home</g:link></li>
+												<li><g:link controller="product" action="demo6">S, T</g:link></li>
 												<li><g:link controller="product" action="demo5">U, V</g:link></li>
 												<li><g:link controller="product" action="demo4">W</g:link></li>
 												<li><g:link controller="product" action="demo">X</g:link></li>
@@ -93,7 +94,7 @@
 										<div class="6u">
 													<section class="box">
 													<header>
-														<span style="font-size:35px;">Foodal Loop Software - Neon!</span>
+														<span style="font-size:35px;">Y point</span>
 														<span class="byline">The vertical, z direction movement between two points, between earth and space, grounded to the gravity, positive and negative, black and white ions.</span>
 														<span class="byline">Feel the affects on your body, on both sides. The heart and mind become completely in sync with the body. It's the cross within the body, centering.</span>
 														<span class="byline">A horizontal loop uses round circles holy grails, kinetic and potential energies to heal the body. The practice utilizes Hindu vedas and Islamic prayers.</span>

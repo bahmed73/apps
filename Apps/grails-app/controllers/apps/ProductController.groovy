@@ -91,6 +91,11 @@ class ProductController {
 		log.info "inside demo5"
 	}
 	
+	def demo6() {
+		System.out.println("inside demo6")
+		log.info "inside demo6"
+	}
+	
 	def male() {
 		System.out.println("inside male")
 		log.info "inside male"

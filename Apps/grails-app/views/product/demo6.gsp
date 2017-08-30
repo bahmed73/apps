@@ -77,11 +77,11 @@
 										<nav id="nav">
 											<ul>
 												<li><g:link url="/">Home</g:link></li>
-												<li><g:link controller="product" action="demo6">S, T</g:link></li>
 												<li><g:link controller="product" action="demo5">U, V</g:link></li>
 												<li><g:link controller="product" action="demo4">W</g:link></li>
 												<li><g:link controller="product" action="demo">X</g:link></li>
 												<li><g:link controller="product" action="demo2">Y</g:link></li>
+												<li><g:link controller="product" action="demo3">Z</g:link></li>
 												<!--<li><a href="left-sidebar.html">Login</a></li>-->
 											</ul>
 										</nav>
@@ -94,12 +94,15 @@
 										<div class="6u">
 													<section class="box">
 													<header>
-														<span style="font-size:35px;">Z point</span>
-														<span class="byline">X being the point, add Y, soul-mate, shiva and durga, two points drawing a line.</span>
-														<span class="byline">Add Z, third point, guru to begin with, but upon realization, let the guru to. Accept all gurus as One, now make 1 collective I, I AM, a e i o u, YOU, Earth, Aurath, OM.</span>
+														<span style="font-size:35px;">S and T points</span>
+														<span class="byline">S and T points are astral, connecting to other planets, mars being fire mitra, nepture water varuna, mercury air vayu, uranius and pluto ether, earth prithvi.</span>
+														<span class="byline">U and V points, x-axis and y-axis rotation, relation to circle and vertical line, a cross, relative to W point, achieved after navigating points X, Y and Z.</span>
+														<span class="byline">W, point of weightlessness. X, birth point, Y soul-mate point, shiva and durga, two points drawing a line.</span>
+														<span class="byline">Z, third point, god or guru to begin with, but upon realization, let the guru to. Accept all gurus as One, now make 1 collective I, I AM, a e i o u, YOU, Earth, Aurath, OM.</span>
 														<span class="byline">From Z point, gravity being center of the Universe, galaxy, planets and the earth, meditate on a pyramid, Earth pyramid. All the planets, galaxies and universes within.</span>
-														<span class="byline">Feel the infiniti, between the two points, X and Y, Z, god and other forces, moving it, spinning it. Make vertical, z direction movement between two points, between earth and space, grounded to the gravity, positive and negative, black and white ions.</span>
-														<span class="byline">Feel the affects on your body, on both sides. The heart and mind become completely in sync with the body. It's the cross within the body, centering.</span>
+														<span class="byline">Feel the infiniti, between the three points, X and Y, Z, god and other forces, moving it, spinning it. Make vertical, z movement between two points, between earth and space, grounded to the gravity, positive and negative, black and white ions.</span>
+														<span class="byline">When experiencing silence or nada, meditate on the moving energy. Move the feet off the ground. Stay still. Feel the earth moving under your feet.</span>
+														<span class="byline">Feel the prana on your body, on both sides. The heart and mind become completely in sync with the body. It's the cross within the body, centering.</span>
 														<span class="byline">A horizontal loop uses round circles holy grails, kinetic and potential energies to heal the body. The practice utilizes Hindu vedas and Islamic prayers.</span>
 														<span class="byline">An external y loop harmonizes IQ - intelligence and EQ - emotional intelligence, with the world, and the country you reside.</span>
 														<span class="byline">The z loop, with respect to x and y, balances the points, according to the laws of the universe and the galaxy.</span>
@@ -141,7 +144,7 @@
 										<div class="6u">
 												<section class="box">
 													<div id="spinner" style="display:none;">
-														<g:img dir="images" file="y.gif" alt="Loading..."/>
+														<g:img dir="images" file="s.gif" alt="Loading..."/>
 													</div>
 												</section>
 											</div>
