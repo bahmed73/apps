@@ -63,6 +63,7 @@
 											<ul>
 												
 												<li><g:link url="/">Home</g:link></li>
+												<li><g:link controller="product" action="demo5">U, V</g:link></li>
 												<li><g:link controller="product" action="demo4">W</g:link></li>
 												<li><g:link controller="product" action="demo">X</g:link></li>
 												<li><g:link controller="product" action="demo2">Y</g:link></li>
@@ -87,6 +88,7 @@
 														<span class="byline"><g:link controller="product" action="demo2"><span style="color:#8a7e7e;">Click for demo 2.</span></g:link></span>
 														<span class="byline"><g:link controller="product" action="demo3"><span style="color:#8a7e7e;">Click for demo 3.</span></g:link></span>
 														<span class="byline"><g:link controller="product" action="demo4"><span style="color:#8a7e7e;">Click for demo 4.</span></g:link></span>
+														<span class="byline"><g:link controller="product" action="demo5"><span style="color:#8a7e7e;">Click for demo 5.</span></g:link></span>
 													</header>
 													<div>
 													<ul style="list-style-type:disc; margin:50px;font-size:20px;">

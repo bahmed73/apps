@@ -77,6 +77,7 @@
 										<nav id="nav">
 											<ul>
 												<li><g:link url="/">Home</g:link></li>
+												<li><g:link controller="product" action="demo5">U, V</g:link></li>
 												<li><g:link controller="product" action="demo4">W</g:link></li>
 												<li><g:link controller="product" action="demo">X</g:link></li>
 												<li><g:link controller="product" action="demo2">Y</g:link></li>
@@ -92,7 +93,7 @@
 										<div class="6u">
 													<section class="box">
 													<header>
-														<span style="font-size:35px;">Foodal Loop Software - Dream Team!</span>
+														<span style="font-size:35px;">Foodal Loop Software - Dream Team Z!</span>
 														<span class="byline">X being the point, add Y, soul-mate, shiva and durga, two points drawing a line.</span>
 														<span class="byline">Add Z, third point, guru to begin with, but upon realization, let the guru to. Accept all gurus as One, now make 1 collective I, I AM, a e i o u, YOU, Earth, Aurath, OM.</span>
 														<span class="byline">From Z point, gravity being center of the Universe, galaxy, planets and the earth, meditate on a pyramid, Earth pyramid. All the planets, galaxies and universes within.</span>
