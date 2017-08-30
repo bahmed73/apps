@@ -78,6 +78,8 @@
 													<header>
 														<span style="font-size:35px;">Foodal Software - Loop Formula</span>
 														<span class="byline"><g:link controller="product" action="demo"><span style="color:#8a7e7e;">Click for demo.</span></g:link></span>
+														<span class="byline"><g:link controller="product" action="demo2"><span style="color:#8a7e7e;">Click for demo 2.</span></g:link></span>
+														<span class="byline"><g:link controller="product" action="demo3"><span style="color:#8a7e7e;">Click for demo 3.</span></g:link></span>
 													</header>
 													<div>
 													<ul style="list-style-type:disc; margin:50px;font-size:20px;">
