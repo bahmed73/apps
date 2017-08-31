@@ -62,7 +62,8 @@ grails.plugin.springsecurity.controllerAnnotations.staticRules = [
 	[pattern: '/product/n',access: ['permitAll']],
 	[pattern: '/product/o',access: ['permitAll']],
 	[pattern: '/product/p',access: ['permitAll']],
-	[pattern: '/product/q',access: ['permitAll']]
+	[pattern: '/product/q',access: ['permitAll']],
+	[pattern: '/product/r',access: ['permitAll']]
 ]
 
 grails.plugin.springsecurity.filterChain.chainMap = [
@@ -138,7 +139,8 @@ grails.plugin.springsecurity.controllerAnnotations.staticRules = [
 	[pattern: '/product/n',access: ['permitAll']],
 	[pattern: '/product/o',access: ['permitAll']],
 	[pattern: '/product/p',access: ['permitAll']],
-	[pattern: '/product/q',access: ['permitAll']]
+	[pattern: '/product/q',access: ['permitAll']],
+	[pattern: '/product/r',access: ['permitAll']]
 ]
 
 grails.plugin.springsecurity.filterChain.chainMap = [
@@ -214,7 +216,8 @@ grails.plugin.springsecurity.controllerAnnotations.staticRules = [
 	[pattern: '/product/n',access: ['permitAll']],
 	[pattern: '/product/o',access: ['permitAll']],
 	[pattern: '/product/p',access: ['permitAll']],
-	[pattern: '/product/q',access: ['permitAll']]
+	[pattern: '/product/q',access: ['permitAll']],
+	[pattern: '/product/r',access: ['permitAll']]
 ]
 
 grails.plugin.springsecurity.filterChain.chainMap = [

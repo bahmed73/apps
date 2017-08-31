@@ -82,6 +82,12 @@
 												<li><g:link controller="product" action="male">Male loops</g:link></li>
 												<li><g:link controller="product" action="female">Female loops</g:link></li>
 												<li><g:link controller="product" action="software">Formula</g:link></li>
+												<li><g:link controller="product" action="m">M</g:link></li>
+												<li><g:link controller="product" action="n">N</g:link></li>
+												<li><g:link controller="product" action="o">O</g:link></li>
+												<li><g:link controller="product" action="p">P</g:link></li>
+												<li><g:link controller="product" action="q">Q</g:link></li>
+												<li><g:link controller="product" action="r">R</g:link></li>
 												<!--<li><a href="left-sidebar.html">Login</a></li>-->
 											</ul>
 										</nav>
