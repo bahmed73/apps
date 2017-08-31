@@ -83,6 +83,10 @@
 												<li><g:link controller="product" action="male">Male loops</g:link></li>
 												<li><g:link controller="product" action="female">Female loops</g:link></li>
 												<li><g:link controller="product" action="software">Formula</g:link></li>
+												<li><g:link controller="product" action="a">A</g:link></li>
+												<li><g:link controller="product" action="b">B</g:link></li>
+												<li><g:link controller="product" action="c">C</g:link></li>
+												<li><g:link controller="product" action="d">D</g:link></li>
 												<li><g:link controller="product" action="f">F</g:link></li>
 												<li><g:link controller="product" action="g">G</g:link></li>
 												<li><g:link controller="product" action="h">H</g:link></li>

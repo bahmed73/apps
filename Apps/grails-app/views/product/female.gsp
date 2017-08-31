@@ -82,6 +82,14 @@
 												<li><g:link controller="product" action="mom">Space loops</g:link></li>
 												<li><g:link controller="product" action="male">Male loops</g:link></li>
 												<li><g:link controller="product" action="software">Formula</g:link></li>
+												<li><g:link controller="product" action="a">A</g:link></li>
+												<li><g:link controller="product" action="b">B</g:link></li>
+												<li><g:link controller="product" action="c">C</g:link></li>
+												<li><g:link controller="product" action="d">D</g:link></li>
+												<li><g:link controller="product" action="e">E</g:link></li>
+												<li><g:link controller="product" action="f">F</g:link></li>
+												<li><g:link controller="product" action="g">G</g:link></li>
+												<li><g:link controller="product" action="h">H</g:link></li>
 												<li><g:link controller="product" action="i">I</g:link></li>
 												<li><g:link controller="product" action="j">J</g:link></li>
 												<li><g:link controller="product" action="k">K</g:link></li>
