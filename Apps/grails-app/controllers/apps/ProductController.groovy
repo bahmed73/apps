@@ -131,6 +131,11 @@ class ProductController {
 		log.info "inside q"
 	}
 	
+	def r() {
+		System.out.println("inside r")
+		log.info "inside r"
+	}
+	
 	def seller() {
 		log.info "inside seller"
 		
