@@ -106,6 +106,26 @@ class ProductController {
 		log.info "inside female"
 	}
 	
+	def i() {
+		System.out.println("inside i")
+		log.info "inside i"
+	}
+	
+	def j() {
+		System.out.println("inside j")
+		log.info "inside j"
+	}
+	
+	def k() {
+		System.out.println("inside k")
+		log.info "inside k"
+	}
+	
+	def l() {
+		System.out.println("inside l")
+		log.info "inside l"
+	}
+	
 	def m() {
 		System.out.println("inside m")
 		log.info "inside m"
