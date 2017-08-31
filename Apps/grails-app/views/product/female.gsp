@@ -81,6 +81,7 @@
 												<li><g:link controller="product" action="dad">Earth loops</g:link></li>
 												<li><g:link controller="product" action="mom">Space loops</g:link></li>
 												<li><g:link controller="product" action="male">Male loops</g:link></li>
+												<li><g:link controller="product" action="software">Formula</g:link></li>
 												<!--<li><a href="left-sidebar.html">Login</a></li>-->
 											</ul>
 										</nav>
