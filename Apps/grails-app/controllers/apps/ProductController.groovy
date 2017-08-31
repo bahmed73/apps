@@ -156,6 +156,46 @@ class ProductController {
 		log.info "inside r"
 	}
 	
+	def a() {
+		System.out.println("inside a")
+		log.info "inside a"
+	}
+	
+	def b() {
+		System.out.println("inside b")
+		log.info "inside b"
+	}
+	
+	def c() {
+		System.out.println("inside c")
+		log.info "inside c"
+	}
+	
+	def d() {
+		System.out.println("inside d")
+		log.info "inside d"
+	}
+	
+	def e() {
+		System.out.println("inside e")
+		log.info "inside e"
+	}
+	
+	def f() {
+		System.out.println("inside f")
+		log.info "inside f"
+	}
+	
+	def g() {
+		System.out.println("inside g")
+		log.info "inside g"
+	}
+	
+	def h() {
+		System.out.println("inside h")
+		log.info "inside h"
+	}
+	
 	def seller() {
 		log.info "inside seller"
 		
