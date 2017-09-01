@@ -85,7 +85,7 @@
 												<li><g:link controller="product" action="software">Formula</g:link></li>
 												<li><g:link controller="product" action="circult">Circuit</g:link></li>
 												<li><g:link controller="product" action="analogue">Analogue</g:link></li>
-												<li><g:link controller="product" action="birth">Birth</g:link></li>
+												<li><g:link controller="product" action="levitation">Levitation</g:link></li>
 												<li><g:link controller="product" action="a">A</g:link></li>
 												<li><g:link controller="product" action="b">B</g:link></li>
 												<li><g:link controller="product" action="c">C</g:link></li>
@@ -116,8 +116,8 @@
 										<div class="6u">
 													<section class="box">
 													<header>
-														<span style="font-size:35px;">Levitation</span>
-														<span class="byline">Levitation current is the voltage between many points, moves in upward or downward direction. The circuit exists in a round silo, a round circle. It is full of activity and energy. Parallel in many series, running together in harmony, positive and negative, dark and light, grounded to ether.</span>
+														<span style="font-size:35px;">Birth</span>
+														<span class="byline">Birth is the first circuit, where the voltage between mom, son, god and all the astrology elements in One place. The energy moves in all directions. The circuit exists in a round silo, a round circle. It is full of activity and energy. Parallel in many series, running together in harmony, positive and negative, dark and light, grounded to ether. The mix of germ cell and sperm cell plus ovary that accepts the cell through trial and error. A birth is most special gift, through selective conditioning of karma, after many lifetimes for some. Only one sperm cell is accepted by the female ovary, divided by the amount of sperm cells produced per ejaculation.</span>
 														<span class="byline">Analogue current is the voltage between two points. The circuit is either parallel or series. The series is a line, full of activity. Parallel is two series, running together in harmony, positive and negative, grounded.</span>
 														<span class="byline">Circuit current is the voltage between many points. The circuit is a multiplexer, however balanced to gravity, on universe and galaxy laws. The series is a line, full of activity. A circuit runs the business rules in harmony, directional, storage, automatic on and off, positive and negative plus grounded.</span>
 														<span class="byline">Z, third point, god or guru to begin with, but upon realization, let the guru to. Accept all gurus as One, now make 1 collective I, I AM, a e i o u, YOU, Earth, Aurath, OM.</span>
@@ -166,7 +166,7 @@
 										<div class="6u">
 												<section class="box">
 													<div id="spinner" style="display:none;">
-														<g:img dir="images" file="levitation.gif" alt="Loading..."/>
+														<g:img dir="images" file="birth.gif" alt="Loading..."/>
 													</div>
 												</section>
 											</div>

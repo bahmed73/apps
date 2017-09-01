@@ -211,6 +211,11 @@ class ProductController {
 		log.info "inside levitation"
 	}
 	
+	def birth() {
+		System.out.println("inside birth")
+		log.info "inside birth"
+	}
+	
 	def seller() {
 		log.info "inside seller"
 		
