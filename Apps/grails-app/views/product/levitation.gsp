@@ -83,8 +83,8 @@
 												<li><g:link controller="product" action="male">Male loops</g:link></li>
 												<li><g:link controller="product" action="female">Female loops</g:link></li>
 												<li><g:link controller="product" action="software">Formula</g:link></li>
+												<li><g:link controller="product" action="circult">Circuit</g:link></li>
 												<li><g:link controller="product" action="analogue">Analogue</g:link></li>
-												<li><g:link controller="product" action="levitation">Levitation</g:link></li>
 												<li><g:link controller="product" action="a">A</g:link></li>
 												<li><g:link controller="product" action="b">B</g:link></li>
 												<li><g:link controller="product" action="c">C</g:link></li>
@@ -115,9 +115,10 @@
 										<div class="6u">
 													<section class="box">
 													<header>
-														<span style="font-size:35px;">Circuit</span>
-														<span class="byline">Circuit current is the voltage between many points. The circuit is a multiplexer, however balanced to gravity, on universe and galaxy laws. The series is a line, full of activity. A circuit runs the business rules in harmony, directional, storage, automatic on and off, positive and negative plus grounded.</span>
+														<span style="font-size:35px;">Levitation</span>
+														<span class="byline">Levitation current is the voltage between many points, moves in upward or downward direction. The circuit exists in a round silo, a round circle. It is full of activity and energy. Parallel in many series, running together in harmony, positive and negative, dark and light, grounded to ether.</span>
 														<span class="byline">Analogue current is the voltage between two points. The circuit is either parallel or series. The series is a line, full of activity. Parallel is two series, running together in harmony, positive and negative, grounded.</span>
+														<span class="byline">Circuit current is the voltage between many points. The circuit is a multiplexer, however balanced to gravity, on universe and galaxy laws. The series is a line, full of activity. A circuit runs the business rules in harmony, directional, storage, automatic on and off, positive and negative plus grounded.</span>
 														<span class="byline">Z, third point, god or guru to begin with, but upon realization, let the guru to. Accept all gurus as One, now make 1 collective I, I AM, a e i o u, YOU, Earth, Aurath, OM.</span>
 														<span class="byline">From Z point, gravity being center of the Universe, galaxy, planets and the earth, meditate on a pyramid, Earth pyramid. All the planets, galaxies and universes within.</span>
 														<span class="byline">Feel the infiniti, between the three points, X and Y, Z, god and other forces, moving it, spinning it. Make vertical, z movement between two points, between earth and space, grounded to the gravity, positive and negative, black and white ions.</span>
@@ -164,7 +165,7 @@
 										<div class="6u">
 												<section class="box">
 													<div id="spinner" style="display:none;">
-														<g:img dir="images" file="rlcircuit.gif" alt="Loading..."/>
+														<g:img dir="images" file="levitation.gif" alt="Loading..."/>
 													</div>
 												</section>
 											</div>

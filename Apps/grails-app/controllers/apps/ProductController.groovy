@@ -206,6 +206,11 @@ class ProductController {
 		log.info "inside circuit"
 	}
 	
+	def levitation() {
+		System.out.println("inside levitation")
+		log.info "inside levitation"
+	}
+	
 	def seller() {
 		log.info "inside seller"
 		
