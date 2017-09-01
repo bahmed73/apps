@@ -196,6 +196,16 @@ class ProductController {
 		log.info "inside h"
 	}
 	
+	def analogue() {
+		System.out.println("inside analogue")
+		log.info "inside analogue"
+	}
+	
+	def circuit() {
+		System.out.println("inside circuit")
+		log.info "inside circuit"
+	}
+	
 	def seller() {
 		log.info "inside seller"
 		
