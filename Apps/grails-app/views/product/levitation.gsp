@@ -86,6 +86,7 @@
 												<li><g:link controller="product" action="circult">Circuit</g:link></li>
 												<li><g:link controller="product" action="analogue">Analogue</g:link></li>
 												<li><g:link controller="product" action="birth">Birth</g:link></li>
+												<li><g:link controller="product" action="magnet">Magnet</g:link></li>
 												<li><g:link controller="product" action="a">A</g:link></li>
 												<li><g:link controller="product" action="b">B</g:link></li>
 												<li><g:link controller="product" action="c">C</g:link></li>
