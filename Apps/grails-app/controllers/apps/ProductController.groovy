@@ -216,6 +216,11 @@ class ProductController {
 		log.info "inside birth"
 	}
 	
+	def magnet() {
+		System.out.println("inside magnet")
+		log.info "inside magnet"
+	}
+	
 	def seller() {
 		log.info "inside seller"
 		
