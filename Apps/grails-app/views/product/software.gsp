@@ -101,7 +101,7 @@
 														<span class="byline"><g:link controller="product" action="birth"><span style="color:#8a7e7e;">Click for demo 10.</span></g:link></span>
 														<span class="byline"><g:link controller="product" action="magnet"><span style="color:#8a7e7e;">Click for demo 11.</span></g:link></span>
 													</header>
-													<div class="6u">
+													<div>
 													<form action="loop" controller="product" method="POST">
 													<script
 										  			src="https://checkout.stripe.com/checkout.js" class="stripe-button"
@@ -232,7 +232,6 @@
 													<li>software update, inner/outer, galaxy, big bang, bhagavad gita 1 & 2, water crystal, sun rays, dot dot, internet, phone, computer, toilet, trash, car </li>
 													<li>software update, inner/outer, galaxy, big bang, bhagavad gita 1 & 2, store, bills, credit, bank, money, indriyas, agni, kitchen, bed, carpet, music </li>
 													<li>software update, inner/outer, galaxy, big bang, bhagavad gita 1 & 2, mirror, clothes, bathroom, living room, dining room, temple, bar, restaurant, friends, love, family, uvwxyz, loop to infiniti.</li>
-													<li><b>If you have a Twitter account, login to process dashboard.</b></li>
 													<li>software update, dragon, demo to dream team, 18, 2 minutes, then loop everyone. go neo. </li>
 													<li>software update, hound of heaven, demo to dream team, 18, 2 minutes, then loop everyone. go neo. </li>
 													<li>software update, dream team of 18 (inner/outer) guards, dragon & hound of heaven, 2 minutes, then loop everyone. go neo. </li>
