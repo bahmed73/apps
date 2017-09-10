@@ -101,7 +101,25 @@
 														<span class="byline"><g:link controller="product" action="birth"><span style="color:#8a7e7e;">Click for demo 10.</span></g:link></span>
 														<span class="byline"><g:link controller="product" action="magnet"><span style="color:#8a7e7e;">Click for demo 11.</span></g:link></span>
 													</header>
-													<div>
+													<div class="6u">
+													<form action="loop" controller="product" method="POST">
+													<script
+										  			src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+										  			data-key="pk_live_XG5V3QMNoSvnijnOBH1SRO2I"
+										  			data-amount="5000.00"
+										  			data-name="foodal"
+										  			data-description="News Subscription"
+										  			data-zip-code="true"
+										  			data-shipping-address="true"
+										  			data-billing-address="true"
+										  			
+										  			
+										  			data-image="https://stripe.com/img/documentation/checkout/marketplace.png"
+										  			data-locale="auto">
+													</script>
+													</form>
+													
+													<span style="font-size:35px;">Vedanta and Energy</span>
 													<ul style="list-style-type:disc; margin:50px;font-size:20px;">
 													<li>Run grails loops.</li>
 													<li>Work with red loop.</li>

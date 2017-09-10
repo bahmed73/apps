@@ -86,6 +86,7 @@
 													<li>You never know what you might find.</li>
 													<li>Since this is our first release, please help, make a simple donation of $50.</li>
 													<li>Lets get started!</li>
+													<li>See a <g:link controller="product" action="twitter"><span style="color:#8a7e7e;">demo</span></g:link></li>
 													</ul>
 													</div>
 													<br>
