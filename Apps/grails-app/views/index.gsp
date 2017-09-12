@@ -74,6 +74,7 @@
 											<ul>
 												<li><g:link controller="product" action="software">#if? Programming</g:link></li>
 												<li><g:link controller="product" action="premium">Premium News</g:link></li>
+												<li><g:link controller="product" action="shelf">Shelf</g:link></li>
 												<!--<li><a href="left-sidebar.html">Login</a></li>-->
 											</ul>
 										</nav>
