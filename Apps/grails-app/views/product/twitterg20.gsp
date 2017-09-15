@@ -45,8 +45,8 @@
 
 							<!-- Banner -->
 								<section id="banner">
-									<a href="http://www.homecook.me/farmerMarket/list">
-										<span class="image image-full"><asset:image src="foodal-homepage.png"/></span>
+									<a href="http://foodal.co">
+										<span class="image image-full"><asset:image src="foodal-ween-3.png"/></span>
 										<header>
 											<h2>Foodal</h2>
 											<!--span class="byline">welcome!</span-->
@@ -61,6 +61,7 @@
 								<!-- Nav -->
 										<nav id="nav">
 											<ul>
+												<li><g:link url="/">Home</g:link></li>
 												<li><g:link controller="product" action="twitterUserData">Russia Gate</g:link></li>
 												<li><g:link controller="product" action="twitterBrics">Brics</g:link></li>
 												<li><g:link controller="product" action="twitterPanamaPapers">Panama Papers</g:link></li>

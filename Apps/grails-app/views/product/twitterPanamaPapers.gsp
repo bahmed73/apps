@@ -61,6 +61,7 @@
 								<!-- Nav -->
 										<nav id="nav">
 											<ul>
+												<li><g:link url="/">Home</g:link></li>
 												<li><g:link controller="product" action="twitterUserData">Russia Gate</g:link></li>
 												<li><g:link controller="product" action="twitterBrics">Brics</g:link></li>
 												<li><g:link controller="product" action="twitterg20">G20</g:link></li>
