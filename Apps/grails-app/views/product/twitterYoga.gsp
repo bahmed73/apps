@@ -45,8 +45,8 @@
 
 							<!-- Banner -->
 								<section id="banner">
-									<a href="http://www.homecook.me/farmerMarket/list">
-										<span class="image image-full"><asset:image src="foodal-homepage.png"/></span>
+									<a href="http://foodal.co">
+										<span class="image image-full"><asset:image src="baba-ji.png"/></span>
 										<header>
 											<h2>Foodal</h2>
 											<!--span class="byline">welcome!</span-->
@@ -61,6 +61,7 @@
 								<!-- Nav -->
 										<nav id="nav">
 											<ul>
+												<li><g:link url="/">Home</g:link></li>
 												<li><g:link controller="product" action="twitterg20">G20</g:link></li>
 												<li><g:link controller="product" action="twitterBrics">Brics</g:link></li>
 												<li><g:link controller="product" action="twitterPanamaPapers">Panama Papers</g:link></li>
@@ -167,7 +168,7 @@
 										<div class="row">
 											<div class="4u" >
 												<section class="box">
-													<a href="http://www.homecook.me/farmerMarket/all" class="image image-full"><asset:image src="foodal-hat.png"/></a>
+													<a href="http://www.homecook.me/farmerMarket/all" class="image image-full"><asset:image src="skill.png"/></a>
 												
 													<p><a href="http://www.homecook.me/farmerMarket/all">Alphabetical customer listing</a></p>
 												
@@ -175,13 +176,13 @@
 											</div>
 											<div class="4u">
 												<section class="box">
-													<a href="http://www.homecook.me/homecookme" class="image image-full"><asset:image src="foodal-hoodie.png"/></a>
+													<a href="http://www.homecook.me/homecookme" class="image image-full"><asset:image src="vc.png"/></a>
 													<p><a href="http://www.homecook.me/homecookme">Local food API and programming</a></p>
 												</section>
 											</div>
 											<div class="4u">
 												<section class="box">
-													<a href="http://www.mytweetmark.com" class="image image-full"><asset:image src="foodal-pen.png"/></a>
+													<a href="http://www.mytweetmark.com" class="image image-full"><asset:image src="whiteman-2.png"/></a>
 													<p><a href="http://www.mytweetmark.com">Twitter marketing tool</a></p>
 												</section>
 											</div>
