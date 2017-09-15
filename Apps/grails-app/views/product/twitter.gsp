@@ -308,8 +308,8 @@
 										<h2>More about us</h2>
 									</header>
 									<ul class="divided">
-										<li><a href="http://www.homecook.me/images/survey.doc">Survey</a></li>
-										<li><a href="http://www.homecook.me/users/privacy">Privacy</a></li>
+										<li><a href="https://angel.co/foodal">On AngelList</a></li>
+										<li><a href="https://www.facebook.com/foodalCo/">On Facebook</a></li>
 									</ul>
 								</section>
 
@@ -320,8 +320,8 @@
 										<h2>And more...</h2>
 									</header>
 									<ul class="divided">
-										<li><a href="http://www.foundersspace.com/news-announcements/startup-splotlight-mytweetmark/">On FoundersSpace</a></li>
-										<li><a href="http://www.homecook.me/users/tos">Terms</a></li>
+										<li><a href="https://linkedin.com/in/bahmed73">On LinkedIn</a></li>
+										<li><a href="https://twitter.com/foodal_">On Twitter</a></li>
 										<!--li><a href="#">Sem feugiat sapien id suscipit magna felis nec</a></li>
 										<li><a href="#">Elit class aptent taciti sociosqu ad litora</a></li-->
 									</ul>
