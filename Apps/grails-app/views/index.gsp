@@ -74,7 +74,7 @@
 											<ul>
 												<li><g:link controller="product" action="software">#if? Programming</g:link></li>
 												<li><g:link controller="product" action="premium">Premium News</g:link></li>
-												<li><g:link controller="product" action="shelf">Shelf</g:link></li>
+												<li><g:link controller="product" action="shelf">Login</g:link></li>
 												<!--<li><a href="left-sidebar.html">Login</a></li>-->
 											</ul>
 										</nav>
@@ -97,7 +97,7 @@
 													<li>Create blogs for marketing the products.</li>
 													<li>Monthly subscription is $50 to start generating online revenue from your business.</li> 
 													<li>We provide 24/7 support and service for our local customers.</li>
-													<li>Email us first, then <g:link controller="product" action="help"><span style="color:#8a7e7e;">let's get started!</span></g:link></li>
+													<li><g:link controller="product" action="seller"><span style="color:#8a7e7e;">Let's get started!</span></g:link></li>
 													</ul>
 													</div>
 													<br>

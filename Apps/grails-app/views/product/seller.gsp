@@ -46,7 +46,7 @@
 							<!-- Banner -->
 								<section id="banner">
 									<a href="http://www.homecook.me/farmerMarket/list">
-										<span class="image image-full"><asset:image src="foodal-homepage.png"/></span>
+										<span class="image image-full"><asset:image src="ChrisCornell-2.png"/></span>
 										<header>
 											<h2>Foodal</h2>
 											<!--span class="byline">welcome!</span-->
@@ -85,8 +85,7 @@
 													<li>Provide product pictures, price and details.</li>
 													<li>Create blogs to market your product.</li>
 													<li>Monthly subscription is $50/month.</li>
-													<li>Start making money from home!</li>
-													<li>Email us first, then <g:link controller="product" action="help"><span style="color:#8a7e7e;">let's get started!</span></g:link></li>
+													<li>See our <g:link controller="product" action="help"><span style="color:#8a7e7e;">help page.</span></g:link></li>
 													</ul>
 													</div>
 													<br>
