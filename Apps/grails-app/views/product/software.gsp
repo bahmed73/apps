@@ -45,7 +45,7 @@
 
 							<!-- Banner -->
 								<section id="banner">
-									<a href="http://www.homecook.me/farmerMarket/list">
+									<a href="http://foodal.co">
 										<span class="image image-full"><asset:image src="if-wallpaper-3.png"/></span>
 										<header>
 											<h2>Foodal</h2>

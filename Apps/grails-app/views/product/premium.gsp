@@ -45,7 +45,7 @@
 
 							<!-- Banner -->
 								<section id="banner">
-									<a href="http://www.homecook.me/farmerMarket/list">
+									<a href="http://foodal.co">
 										<span class="image image-full"><asset:image src="if-wallpaper.png"/></span>
 										<header>
 											<h2>Foodal</h2>
@@ -152,7 +152,7 @@
 										<div class="row">
 											<div class="4u" >
 												<section class="box">
-													<a href="http://www.homecook.me/farmerMarket/all" class="image image-full"><asset:image src="foodal-hat.png"/></a>
+													<a href="http://www.homecook.me/farmerMarket/all" class="image image-full"><asset:image src="revenue-model.png"/></a>
 												
 													<p><a href="http://www.homecook.me/farmerMarket/all">Alphabetical customer listing</a></p>
 												
@@ -160,13 +160,13 @@
 											</div>
 											<div class="4u">
 												<section class="box">
-													<a href="http://www.homecook.me/homecookme" class="image image-full"><asset:image src="foodal-hoodie.png"/></a>
+													<a href="http://www.homecook.me/homecookme" class="image image-full"><asset:image src="quit.png"/></a>
 													<p><a href="http://www.homecook.me/homecookme">Local food API and programming</a></p>
 												</section>
 											</div>
 											<div class="4u">
 												<section class="box">
-													<a href="http://www.mytweetmark.com" class="image image-full"><asset:image src="foodal-pen.png"/></a>
+													<a href="http://www.mytweetmark.com" class="image image-full"><asset:image src="shutUp.png"/></a>
 													<p><a href="http://www.mytweetmark.com">Twitter marketing tool</a></p>
 												</section>
 											</div>

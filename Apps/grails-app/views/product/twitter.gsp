@@ -45,7 +45,7 @@
 
 							<!-- Banner -->
 								<section id="banner">
-									<a href="http://www.homecook.me/farmerMarket/list">
+									<a href="http://foodal.co">
 										<span class="image image-full"><asset:image src="foodal-profile.png"/></span>
 										<header>
 											<h2>Foodal</h2>
@@ -61,6 +61,7 @@
 								<!-- Nav -->
 										<nav id="nav">
 											<ul>
+												<li><g:link url="/">Home</g:link></li>
 												<li><g:link controller="tweet" action="index">Archived News</g:link></li>
 												<!--<li><a href="left-sidebar.html">Login</a></li>-->
 											</ul>
@@ -137,7 +138,7 @@
 										<div class="row">
 											<div class="4u" >
 												<section class="box">
-													<a href="http://www.homecook.me/farmerMarket/all" class="image image-full"><asset:image src="foodal-hat.png"/></a>
+													<a href="http://www.homecook.me/farmerMarket/all" class="image image-full"><asset:image src="quit.png"/></a>
 												
 													<p><a href="http://www.homecook.me/farmerMarket/all">Alphabetical customer listing</a></p>
 												
@@ -145,13 +146,13 @@
 											</div>
 											<div class="4u">
 												<section class="box">
-													<a href="http://www.homecook.me/homecookme" class="image image-full"><asset:image src="foodal-hoodie.png"/></a>
+													<a href="http://www.homecook.me/homecookme" class="image image-full"><asset:image src="gutfeeling.png"/></a>
 													<p><a href="http://www.homecook.me/homecookme">Local food API and programming</a></p>
 												</section>
 											</div>
 											<div class="4u">
 												<section class="box">
-													<a href="http://www.mytweetmark.com" class="image image-full"><asset:image src="foodal-pen.png"/></a>
+													<a href="http://www.mytweetmark.com" class="image image-full"><asset:image src="simplicity.png"/></a>
 													<p><a href="http://www.mytweetmark.com">Twitter marketing tool</a></p>
 												</section>
 											</div>
