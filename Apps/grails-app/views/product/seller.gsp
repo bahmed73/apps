@@ -62,6 +62,7 @@
 										<nav id="nav">
 											<ul>
 												<li><g:link url="/">Home</g:link></li>
+												<li><g:link controller="product" action="help">Help</g:link></li>
 												<!--<li><a href="left-sidebar.html">Login</a></li>-->
 											</ul>
 										</nav>
@@ -151,7 +152,7 @@
 										<div class="row">
 											<div class="4u" >
 												<section class="box">
-													<a href="http://www.homecook.me/farmerMarket/all" class="image image-full"><asset:image src="foodal-hat.png"/></a>
+													<a href="http://www.homecook.me/farmerMarket/all" class="image image-full"><asset:image src="foodal-mousepad.png"/></a>
 												
 													<p><a href="http://www.homecook.me/farmerMarket/all">Alphabetical customer listing</a></p>
 												
@@ -159,13 +160,13 @@
 											</div>
 											<div class="4u">
 												<section class="box">
-													<a href="http://www.homecook.me/homecookme" class="image image-full"><asset:image src="foodal-hoodie.png"/></a>
+													<a href="http://www.homecook.me/homecookme" class="image image-full"><asset:image src="foodal-mug.png"/></a>
 													<p><a href="http://www.homecook.me/homecookme">Local food API and programming</a></p>
 												</section>
 											</div>
 											<div class="4u">
 												<section class="box">
-													<a href="http://www.mytweetmark.com" class="image image-full"><asset:image src="foodal-pen.png"/></a>
+													<a href="http://www.mytweetmark.com" class="image image-full"><asset:image src="foodal-notebook.png"/></a>
 													<p><a href="http://www.mytweetmark.com">Twitter marketing tool</a></p>
 												</section>
 											</div>

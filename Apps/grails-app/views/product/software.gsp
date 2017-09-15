@@ -317,22 +317,22 @@
 										<div class="row">
 											<div class="4u" >
 												<section class="box">
-													<a href="http://www.homecook.me/farmerMarket/all" class="image image-full"><asset:image src="foodal-hat.png"/></a>
+													<a href="https://www.facebook.com/foodalCo/" class="image image-full"><asset:image src="troll.png"/></a>
 												
-													<p><a href="http://www.homecook.me/farmerMarket/all">Alphabetical customer listing</a></p>
+													<p><a href="https://www.facebook.com/foodalCo/">Tests on Facebook</a></p>
 												
 												</section>
 											</div>
 											<div class="4u">
 												<section class="box">
-													<a href="http://www.homecook.me/homecookme" class="image image-full"><asset:image src="foodal-hoodie.png"/></a>
-													<p><a href="http://www.homecook.me/homecookme">Local food API and programming</a></p>
+													<a href="https://www.linkedin.com/company/18041812/" class="image image-full"><asset:image src="if-programming.png"/></a>
+													<p><a href="https://www.linkedin.com/company/18041812/">Tests on LinkedIn</a></p>
 												</section>
 											</div>
 											<div class="4u">
 												<section class="box">
-													<a href="http://www.mytweetmark.com" class="image image-full"><asset:image src="foodal-pen.png"/></a>
-													<p><a href="http://www.mytweetmark.com">Twitter marketing tool</a></p>
+													<a href="https://angel.co/foodal" class="image image-full"><asset:image src="if-programming-2.png"/></a>
+													<p><a href="https://angel.co/foodal">Tests On AngelList</a></p>
 												</section>
 											</div>
 										</div>
