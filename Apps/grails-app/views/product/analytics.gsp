@@ -46,8 +46,8 @@
 
 							<!-- Banner -->
 								<section id="banner">
-									<a href="http://foodal.co/product/software">
-										<span class="image image-full"><asset:image src="foodal-homepage.png"/></span>
+									<a href="http://foodal.co/product/premium">
+										<span class="image image-full"><asset:image src="news-3.png"/></span>
 										<header>
 											<h2>Foodal</h2>
 											<!--span class="byline">welcome!</span-->
@@ -62,6 +62,7 @@
 								<!-- Nav -->
 										<nav id="nav">
 											<ul>
+												<li><g:link url="/">Home</g:link></li>
 												<li><g:link controller="product" action="shelf">Create a Shelf</g:link></li>
 												<li><g:link controller="product" action="analytics">View Analytics</g:link></li>
 												<!--<li><a href="left-sidebar.html">Login</a></li>-->
@@ -110,7 +111,7 @@
 											</div>
 											<div class="6u">
 												<section class="box">
-													<a href="http://foodal.co/product/seller" class="image image-full"><asset:image src="client-profile.png"/></a>
+													<a href="http://foodal.co/product/premium" class="image image-full"><asset:image src="client-profile.png"/></a>
 													<!--header>
 														<h3>Aptent veroeros et aliquam</h3>
 														<span class="byline">Posted 45 minutes ago</span>

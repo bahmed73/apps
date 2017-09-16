@@ -61,6 +61,7 @@
 								<!-- Nav -->
 										<nav id="nav">
 											<ul>
+												<li><g:link url="/">Home</g:link></li>
 												<li><g:link controller="product" action="shelf">Create a Shelf</g:link></li>
 												<li><g:link controller="product" action="analytics">View Analytics</g:link></li>
 												<!--<li><a href="left-sidebar.html">Login</a></li>-->

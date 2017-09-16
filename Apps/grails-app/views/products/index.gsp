@@ -45,7 +45,7 @@
 
 							<!-- Banner -->
 								<section id="banner">
-									<a href="http://www.homecook.me/farmerMarket/list">
+									<a href="http://foodal.co/product/software">
 										<span class="image image-full"><asset:image src="foodal-homepage.png"/></span>
 										<header>
 											<h2>Foodal</h2>
@@ -61,6 +61,7 @@
 								<!-- Nav -->
 										<nav id="nav">
 											<ul>
+												<li><g:link url="/">Home</g:link></li>
 												<li><g:link controller="product" action="shelf">Create a Shelf</g:link></li>
 												<li><g:link controller="products" action="create">Create a Product</g:link></li>
 												<!--<li><a href="left-sidebar.html">Login</a></li>-->
