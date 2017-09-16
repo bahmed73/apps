@@ -33,6 +33,18 @@
 	
 		</noscript>-->
 		<!--[if lte IE 8]><asset:javascript src="html5shiv.js"/><asset:stylesheet src="ie8.css"/><![endif]-->
+		
+		<!-- Global Site Tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-106312202-1"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments)};
+		  gtag('js', new Date());
+		
+		  gtag('config', 'UA-106312202-1');
+		</script>
+		
+		
 	</head>
 	<body class="homepage">
 	<a href="/#"><asset:image src="favicon.png" class="grails-logo"/></a>
@@ -102,25 +114,8 @@
 														<span class="byline"><g:link controller="product" action="magnet"><span style="color:#8a7e7e;">Click for demo 11.</span></g:link></span>
 													</header>
 													<div>
-													<form action="loop" controller="product" method="POST">
-													<script
-										  			src="https://checkout.stripe.com/checkout.js" class="stripe-button"
-										  			data-key="pk_live_XG5V3QMNoSvnijnOBH1SRO2I"
-										  			data-amount="5000.00"
-										  			data-name="foodal"
-										  			data-description="News Subscription"
-										  			data-zip-code="true"
-										  			data-shipping-address="true"
-										  			data-billing-address="true"
-										  			
-										  			
-										  			data-image="https://stripe.com/img/documentation/checkout/marketplace.png"
-										  			data-locale="auto">
-													</script>
-													</form>
-													
 													<span style="font-size:35px;">Vedanta and Energy</span>
-													<span class="byline"><a href="http://foodal.co/blog/show/36542"><span style="color:#8a7e7e;">Read more ...</span></a></span>
+													<span class="byline"><a href="http://foodal.co/blog/show/36542"><span style="font-size:26px;color:#8a7e7e;">Read more ...</span></a></span>
 													</div>
 													<br>
 													<footer class="actions">

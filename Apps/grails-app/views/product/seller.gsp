@@ -33,6 +33,18 @@
 	
 		</noscript>-->
 		<!--[if lte IE 8]><asset:javascript src="html5shiv.js"/><asset:stylesheet src="ie8.css"/><![endif]-->
+		
+		<!-- Global Site Tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-106312202-1"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments)};
+		  gtag('js', new Date());
+		
+		  gtag('config', 'UA-106312202-1');
+		</script>
+		
+		
 	</head>
 	<body class="homepage">
 	<a href="/#"><asset:image src="favicon.png" class="grails-logo"/></a>
@@ -85,7 +97,7 @@
 													<li>Upload local products.</li>
 													<li>Provide product pictures, price and details.</li>
 													<li>Create blogs to market your product.</li>
-													<li>Monthly subscription is $50/month.</li>
+													<li>Monthly subscription is <b>$50/month.</b></li>
 													<li>See our <g:link controller="product" action="help"><span style="color:#8a7e7e;">help page.</span></g:link></li>
 													</ul>
 													</div>
