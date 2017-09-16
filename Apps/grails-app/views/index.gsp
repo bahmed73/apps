@@ -126,6 +126,7 @@
 													<footer class="actions">
 														<a href="mailto:bilal@mytweetmark.com" class="button fa fa-file-text">Email us today!</a>
 														<br><br>
+														
 													</footer>
 												</section>
 											</div>
@@ -134,6 +135,26 @@
 													
 													                                    <a class="twitter-timeline"  href="https://twitter.com/hashtag/localfood" data-widget-id="870750237916250113" data-chrome="nofooter" data-theme="light">#localfood Tweets</a>
             																			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+          
+          
+          
+													<!--header>
+														<h3>Aptent veroeros et aliquam</h3>
+														<span class="byline">Posted 45 minutes ago</span>
+													</header>
+													<p>Lorem ipsum dolor sit amet sit veroeros sed et blandit consequat sed veroeros lorem et blandit  adipiscing feugiat phasellus tempus hendrerit, tortor vitae mattis tempor, sapien sem feugiat sapien, id suscipit magna felis nec elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos lorem ipsum dolor sit amet.</p>
+													<footer class="actions">
+														<a href="#" class="button fa fa-file-text">Continue Reading</a>
+														<a href="#" class="button alt fa fa-comment">33 comments</a>
+													</footer-->
+												</section>
+											</div>
+											<div>
+												<section class="box">
+													
+													                                    <p style="font-size:35px;">#if? Programming Language</p>
+														<div data-slider-id="kqzchd"></div>
+															<script type="text/javascript" src="http://app.sliderui.com/sliders/kqzchd.js"></script>
           
           
           
