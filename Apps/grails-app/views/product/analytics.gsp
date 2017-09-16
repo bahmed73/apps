@@ -46,7 +46,7 @@
 
 							<!-- Banner -->
 								<section id="banner">
-									<a href="http://www.homecook.me/farmerMarket/list">
+									<a href="http://foodal.co/product/software">
 										<span class="image image-full"><asset:image src="foodal-homepage.png"/></span>
 										<header>
 											<h2>Foodal</h2>
@@ -110,7 +110,7 @@
 											</div>
 											<div class="6u">
 												<section class="box">
-													<a href="http://www.homecook.me" class="image image-full"><asset:image src="foodal-homepage-15.png"/></a>
+													<a href="http://foodal.co/product/seller" class="image image-full"><asset:image src="client-profile.png"/></a>
 													<!--header>
 														<h3>Aptent veroeros et aliquam</h3>
 														<span class="byline">Posted 45 minutes ago</span>
