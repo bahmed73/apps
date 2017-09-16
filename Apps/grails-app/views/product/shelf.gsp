@@ -90,7 +90,6 @@
 													<li><g:link action="index" controller="productCheckout"><span style="color:#8a7e7e;">Checkouts</span></g:link></li>
 													<li><g:link action="index" controller="blog"><span style="color:#8a7e7e;">Blogs</span></g:link></li>
 													<li><g:link action="analytics" controller="product"><span style="color:#8a7e7e;">Analytics</span></g:link></li>
-													<li><g:link action="index" controller="userProfile"><span style="color:#8a7e7e;">Settings</span></g:link></li>
 													<li><g:link controller="product" action="help"><span style="color:#8a7e7e;">Help</span></g:link></li>
 													</ul>
 													</div>
