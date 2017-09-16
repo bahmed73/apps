@@ -96,7 +96,7 @@
 													<li>Find some really cool interesting facts.</li>
 													<li>Find out where CNN, nytimes, nypost, Hillary Clinton, Snoop Dogg, Diddy, Fox news and many others get their news from.</li>
 													<li>You never know what you might find.</li>
-													<li>Since this is our first release, please help, make a simple donation of $50.</li>
+													<li>Since this is our first release, please help, make a simple donation of $5.</li>
 													<li>Lets get started!</li>
 													<li>See a <g:link controller="product" action="twitter"><span style="color:#8a7e7e;">demo</span></g:link></li>
 													</ul>
@@ -110,7 +110,7 @@
 													<script
 										  			src="https://checkout.stripe.com/checkout.js" class="stripe-button"
 										  			data-key="pk_live_XG5V3QMNoSvnijnOBH1SRO2I"
-										  			data-amount="5000.00"
+										  			data-amount="500.00"
 										  			data-name="foodal"
 										  			data-description="News Subscription"
 										  			data-zip-code="true"

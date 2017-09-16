@@ -124,7 +124,7 @@
 													<script
 										  			src="https://checkout.stripe.com/checkout.js" class="stripe-button"
 										  			data-key="pk_live_XG5V3QMNoSvnijnOBH1SRO2I"
-										  			data-amount="5000.00"
+										  			data-amount="500.00"
 										  			data-name="foodal"
 										  			data-description="News Subscription"
 										  			data-zip-code="true"

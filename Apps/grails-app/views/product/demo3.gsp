@@ -32,6 +32,17 @@
 			<asset:stylesheet src="style-desktop.css"/>
 	
 		</noscript>-->
+		
+		<!-- Global Site Tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-106312202-1"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments)};
+		  gtag('js', new Date());
+		
+		  gtag('config', 'UA-106312202-1');
+		</script>
+		
 		<!--[if lte IE 8]><asset:javascript src="html5shiv.js"/><asset:stylesheet src="ie8.css"/><![endif]-->
 		<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
   <link rel="stylesheet" href="/resources/demos/style.css">
@@ -123,7 +134,7 @@
 													<script
 										  			src="https://checkout.stripe.com/checkout.js" class="stripe-button"
 										  			data-key="pk_live_XG5V3QMNoSvnijnOBH1SRO2I"
-										  			data-amount="5000.00"
+										  			data-amount="500.00"
 										  			data-name="foodal"
 										  			data-description="Neo Subscription"
 										  			data-zip-code="true"
