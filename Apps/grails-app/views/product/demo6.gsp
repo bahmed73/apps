@@ -155,7 +155,7 @@
 											</div>
 										<div class="6u">
 												<section class="box">
-													<div id="spinner" style="display:none;">
+													<div id="spinner" style="display:none;width:400px;">
 														<g:img dir="images" file="s.gif" alt="Loading..."/>
 													</div>
 												</section>
