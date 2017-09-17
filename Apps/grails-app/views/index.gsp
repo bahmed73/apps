@@ -61,9 +61,9 @@
   <script>
   $( function() {
     // run the currently selected effect
-    function runEffect() {
+    function runEffect3() {
       // get effect type from
-      var selectedEffect = "size";
+      var selectedEffect = "shake";
  
       // Most effect types need no options passed by default
       var options = {};
@@ -90,12 +90,12 @@
  // run the currently selected effect
     function runEffect2() {
       // get effect type from
-      var selectedEffect = "scale";
+      var selectedEffect = "bounce";
  
       // Most effect types need no options passed by default
       var options = {};
       // some effects have required parameters
-      if ( selectedEffect === "scale" ) {
+      if ( selectedEffect === "bounce" ) {
         options = { percent: 50, to: { width: 300, height: 150 } };
       } else if ( selectedEffect === "transfer" ) {
         options = { to: "#button2", className: "ui-effects-transfer" };
@@ -116,7 +116,7 @@
     
     // Set effect from select menu value
     $( "#button3" ).on( "click", function() {
-      runEffect();
+      runEffect3();
       return false;
     });
 
@@ -125,6 +125,40 @@
       runEffect2();
       return false;
     });
+
+    // run the currently selected effect
+    function runEffect4() {
+      // get effect type from
+      var selectedEffect = "pulsate";
+ 
+      // Most effect types need no options passed by default
+      var options = {};
+      // some effects have required parameters
+      if ( selectedEffect === "scale" ) {
+        options = { percent: 50, to: { width: 300, height: 150 } };
+      } else if ( selectedEffect === "transfer" ) {
+        options = { to: "#button4", className: "ui-effects-transfer" };
+      } else if ( selectedEffect === "size" ) {
+        options = { to: { width: 300, height: 150 } };
+      }
+ 
+      // Run the effect
+      $( "#effect4" ).effect( selectedEffect, options, 500, callback );
+    };
+ 
+    // Callback function to bring a hidden box back
+    function callback() {
+      setTimeout(function() {
+        $( "#effect4" ).removeAttr( "style" ).hide().fadeIn();
+      }, 1000 );
+    };
+
+ // Set effect from select menu value
+    $( "#button4" ).on( "click", function() {
+      runEffect4();
+      return false;
+    });
+    
     
   } );
   </script>
@@ -158,6 +192,7 @@
 										<nav id="nav">
 										<button id="button3" class="ui-state-default ui-corner-all">Try #if?</button>
 										<button id="button2" class="ui-state-default ui-corner-all">Farmers Markets</button>
+										<button id="button4" class="ui-state-default ui-corner-all">Real-time News</button>
 											<ul>
 												<li><g:link controller="product" action="software">#if? Programming</g:link></li>
 												<li><g:link controller="product" action="premium">Premium News</g:link></li>
@@ -193,7 +228,6 @@
 														</span>
   													</div>
 													</div>
-													<div>
 													
 													<div class="toggler">
   													<div id="effect2" class="ui-widget-content ui-corner-all">
@@ -207,6 +241,19 @@
 													</ul>
 													</span>
 													</div>
+													</div>
+													
+													<div class="toggler">
+  													<div id="effect4" class="ui-widget-content ui-corner-all">
+  													<span style="font-size:25px;">
+  													<ul>
+													<li>Real-time News:</li>
+													<li>CNN, nytimes, nypost, foxnews.</p></li>
+													<li>G20, BRICS, Panama Papers.</li>
+													<li>Start now with $5.</li> 
+													<li><g:link controller="product" action="premium"><span style="color:#8a7e7e;">See News.</span></g:link></li>
+													</ul>
+													</span>
 													</div>
 													</div>
 													<br>
