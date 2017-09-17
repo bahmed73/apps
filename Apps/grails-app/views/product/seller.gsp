@@ -172,8 +172,8 @@
 											</div>
 											<div class="4u">
 												<section class="box">
-													<a href="http://www.homecook.me/homecookme" class="image image-full"><asset:image src="foodal-mug.png"/></a>
-													<p><a href="http://www.homecook.me/homecookme">Local food API and programming</a></p>
+													<a href="https://github.com/bahmed73/apps" class="image image-full"><asset:image src="foodal-mug.png"/></a>
+													<p><a href="https://github.com/bahmed73/apps">On GitHub</a></p>
 												</section>
 											</div>
 											<div class="4u">

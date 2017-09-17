@@ -44,6 +44,90 @@
 		  gtag('config', 'UA-106312202-1');
 		</script>
 		
+		<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>jQuery UI Effects - Effect demo</title>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <style>
+    .toggler { width: 500px; height: 200px; position: relative; }
+    #button { padding: .5em 1em; text-decoration: none; }
+    #effect { width: 240px; height: 170px; padding: 0.4em; position: relative; }
+    #effect h3 { margin: 0; padding: 0.4em; text-align: center; }
+    .ui-effects-transfer { border: 2px dotted gray; }
+  </style>
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script>
+  $( function() {
+    // run the currently selected effect
+    function runEffect() {
+      // get effect type from
+      var selectedEffect = "size";
+ 
+      // Most effect types need no options passed by default
+      var options = {};
+      // some effects have required parameters
+      if ( selectedEffect === "scale" ) {
+        options = { percent: 50 };
+      } else if ( selectedEffect === "transfer" ) {
+        options = { to: "#button3", className: "ui-effects-transfer" };
+      } else if ( selectedEffect === "size" ) {
+        options = { to: { width: 300, height: 150 } };
+      }
+ 
+      // Run the effect
+      $( "#effect3" ).effect( selectedEffect, options, 500, callback );
+    };
+ 
+    // Callback function to bring a hidden box back
+    function callback() {
+      setTimeout(function() {
+        $( "#effect3" ).removeAttr( "style" ).hide().fadeIn();
+      }, 1000 );
+    };
+
+ // run the currently selected effect
+    function runEffect2() {
+      // get effect type from
+      var selectedEffect = "scale";
+ 
+      // Most effect types need no options passed by default
+      var options = {};
+      // some effects have required parameters
+      if ( selectedEffect === "scale" ) {
+        options = { percent: 50, to: { width: 300, height: 150 } };
+      } else if ( selectedEffect === "transfer" ) {
+        options = { to: "#button2", className: "ui-effects-transfer" };
+      } else if ( selectedEffect === "size" ) {
+        options = { to: { width: 300, height: 150 } };
+      }
+ 
+      // Run the effect
+      $( "#effect2" ).effect( selectedEffect, options, 500, callback );
+    };
+ 
+    // Callback function to bring a hidden box back
+    function callback() {
+      setTimeout(function() {
+        $( "#effect2" ).removeAttr( "style" ).hide().fadeIn();
+      }, 1000 );
+    };
+    
+    // Set effect from select menu value
+    $( "#button3" ).on( "click", function() {
+      runEffect();
+      return false;
+    });
+
+ // Set effect from select menu value
+    $( "#button2" ).on( "click", function() {
+      runEffect2();
+      return false;
+    });
+    
+  } );
+  </script>
 		
 	</head>
 	<body class="homepage">
@@ -72,6 +156,8 @@
 					
 								<!-- Nav -->
 										<nav id="nav">
+										<button id="button3" class="ui-state-default ui-corner-all">Try #if?</button>
+										<button id="button2" class="ui-state-default ui-corner-all">Farmers Markets</button>
 											<ul>
 												<li><g:link controller="product" action="software">#if? Programming</g:link></li>
 												<li><g:link controller="product" action="premium">Premium News</g:link></li>
@@ -79,6 +165,7 @@
 												<li><g:link controller="product" action="shelf">Login</g:link></li>
 												<!--<li><a href="left-sidebar.html">Login</a></li>-->
 											</ul>
+											
 										</nav>
 							<!-- Intro -->
 							<div class="row">
@@ -92,15 +179,35 @@
 													<header>
 														<span style="font-size:35px;">Welcome to Foodal!</span>
 													</header>
+													<div class="toggler">
+  													<div id="effect3" class="ui-widget-content ui-corner-all">
+  														<span style="font-size:25px;">
+	  													<ul>
+														<li>#if? Programming Tests:</li>
+														<li><g:link controller="product" action="demo">X Point</g:link></li>
+														<li><g:link controller="product" action="demo2">Y Point</g:link></li>
+														<li><g:link controller="product" action="demo3">Z Point</g:link></li>
+														<li>Hit Spin Button.</li>
+														<!--<li><a href="left-sidebar.html">Login</a></li>-->
+														</ul>
+														</span>
+  													</div>
+													</div>
 													<div>
-													<ul style="list-style-type:disc; margin:50px;font-size:20px;">
-													<li>Upload local products.</p></li>
-													<li>Analytics dashboard for customer traffic.</li>
-													<li>Create blogs for marketing the products.</li>
-													<li>Monthly subscription is $50 to start generating online revenue from your business.</li> 
-													<li>We provide 24/7 support and service for our local customers.</li>
+													
+													<div class="toggler">
+  													<div id="effect2" class="ui-widget-content ui-corner-all">
+  													<span style="font-size:25px;">
+  													<ul>
+													<li>Local Business:</li>
+													<li>Upload products.</p></li>
+													<li>Analytics.</li>
+													<li>Monthly subscription is $50.</li> 
 													<li><g:link controller="product" action="seller"><span style="color:#8a7e7e;">Let's get started!</span></g:link></li>
 													</ul>
+													</span>
+													</div>
+													</div>
 													</div>
 													<br>
 													<!-- 

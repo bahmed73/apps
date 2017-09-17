@@ -74,6 +74,7 @@
 										<nav id="nav">
 											<ul>
 												<li><g:link url="/">Home</g:link></li>
+												<li><g:link controller="product" action="premium">demo</g:link></li>
 												<!--<li><a href="left-sidebar.html">Login</a></li>-->
 											</ul>
 										</nav>
@@ -172,8 +173,8 @@
 											</div>
 											<div class="4u">
 												<section class="box">
-													<a href="http://www.homecook.me/homecookme" class="image image-full"><asset:image src="quit.png"/></a>
-													<p><a href="http://www.homecook.me/homecookme">Local food API and programming</a></p>
+													<a href="https://github.com/bahmed73/apps" class="image image-full"><asset:image src="quit.png"/></a>
+													<p><a href="https://github.com/bahmed73/apps">On GitHub</a></p>
 												</section>
 											</div>
 											<div class="4u">
