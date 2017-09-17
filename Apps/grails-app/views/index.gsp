@@ -52,8 +52,12 @@
   <style>
     .toggler { width: 500px; height: 200px; position: relative; }
     #button { padding: .5em 1em; text-decoration: none; }
-    #effect { width: 240px; height: 170px; padding: 0.4em; position: relative; }
-    #effect h3 { margin: 0; padding: 0.4em; text-align: center; }
+    #effect2 { width: 500px; height: 170px; padding: 0.4em; position: relative; }
+    #effect2 h3 { margin: 0; padding: 0.4em; text-align: center; }
+    #effect3 { width: 500px; height: 170px; padding: 0.4em; position: relative; }
+    #effect3 h3 { margin: 0; padding: 0.4em; text-align: center; }
+    #effect4 { width: 500px; height: 170px; padding: 0.4em; position: relative; }
+    #effect4 h3 { margin: 0; padding: 0.4em; text-align: center; }
     .ui-effects-transfer { border: 2px dotted gray; }
   </style>
   <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
@@ -229,11 +233,15 @@
   													</div>
 													</div>
 													
+													<header>
+														<span style="font-size:35px;">Local Business</span>
+													</header>
+													
 													<div class="toggler">
   													<div id="effect2" class="ui-widget-content ui-corner-all">
   													<span style="font-size:25px;">
   													<ul>
-													<li>Local Business:</li>
+													<li>Farmers Markets:</li>
 													<li>Upload products.</p></li>
 													<li>Analytics.</li>
 													<li>Monthly subscription is $50.</li> 
@@ -243,7 +251,15 @@
 													</div>
 													</div>
 													
-													<div class="toggler">
+												</section>
+											</div>
+											<div class="6u">
+												<section class="box">
+												<header>
+														<span style="font-size:35px;">News:</span>
+													</header>
+													
+												<div class="toggler">
   													<div id="effect4" class="ui-widget-content ui-corner-all">
   													<span style="font-size:25px;">
   													<ul>
@@ -256,72 +272,26 @@
 													</span>
 													</div>
 													</div>
-													<br>
-													<!-- 
-													<form action="checkout" controller="checkout" method="POST">
-													<script
-										  			src="https://checkout.stripe.com/checkout.js" class="stripe-button"
-										  			data-key="pk_test_VBLyN579809ToN0y2VA4VXG8"
-										  			data-amount="50.00"
-										  			data-name="foodal Subscription"
-										  			data-description="Monthly Subscription"
-										  			data-zip-code="true"
-										  			data-shipping-address="true"
-										  			data-billing-address="true"
-										  			
-										  			
-										  			data-image="https://stripe.com/img/documentation/checkout/marketplace.png"
-										  			data-locale="auto">
-													</script>
-													</form> -->
-													<br><br>
+													
+													<header>
+														<span style="font-size:35px;">Contact Us:</span>
+													</header>
+													
+													<div class="toggler">
+  													<div id="effect2" class="ui-widget-content ui-corner-all">
+  													<span style="font-size:25px;">
+  													
+  													<br>
 													<p style="font-size:20px;">Questions? Email us today and get started.</p>
-													<br><br>
+													<br>
 													<footer class="actions">
 														<a href="mailto:bilal@mytweetmark.com" class="button fa fa-file-text">Email us today!</a>
 														<br><br>
 														
 													</footer>
-												</section>
-											</div>
-											<div class="6u">
-												<section class="box">
-													
-													                                    <a class="twitter-timeline"  href="https://twitter.com/hashtag/localfood" data-widget-id="870750237916250113" data-chrome="nofooter" data-theme="light">#localfood Tweets</a>
-            																			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-          
-          
-          
-													<!--header>
-														<h3>Aptent veroeros et aliquam</h3>
-														<span class="byline">Posted 45 minutes ago</span>
-													</header>
-													<p>Lorem ipsum dolor sit amet sit veroeros sed et blandit consequat sed veroeros lorem et blandit  adipiscing feugiat phasellus tempus hendrerit, tortor vitae mattis tempor, sapien sem feugiat sapien, id suscipit magna felis nec elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos lorem ipsum dolor sit amet.</p>
-													<footer class="actions">
-														<a href="#" class="button fa fa-file-text">Continue Reading</a>
-														<a href="#" class="button alt fa fa-comment">33 comments</a>
-													</footer-->
-												</section>
-											</div>
-											<div>
-												<section class="box">
-													
-													                                    <p style="font-size:35px;">#if? Programming Language</p>
-														<div data-slider-id="kqzchd"></div>
-															<script type="text/javascript" src="http://app.sliderui.com/sliders/kqzchd.js"></script>
-          
-          
-          
-													<!--header>
-														<h3>Aptent veroeros et aliquam</h3>
-														<span class="byline">Posted 45 minutes ago</span>
-													</header>
-													<p>Lorem ipsum dolor sit amet sit veroeros sed et blandit consequat sed veroeros lorem et blandit  adipiscing feugiat phasellus tempus hendrerit, tortor vitae mattis tempor, sapien sem feugiat sapien, id suscipit magna felis nec elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos lorem ipsum dolor sit amet.</p>
-													<footer class="actions">
-														<a href="#" class="button fa fa-file-text">Continue Reading</a>
-														<a href="#" class="button alt fa fa-comment">33 comments</a>
-													</footer-->
-												</section>
+													</span>
+													</div>
+													</div>
 											</div>
 										</div>
 									</div>
