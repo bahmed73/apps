@@ -181,7 +181,7 @@
 				<div class="container">
 					
 					<div class="row">
-						<div class="12u" id="draggable5" class="ui-widget-content">
+						<div class="12u">
 
 							<!-- Banner -->
 								<section id="banner">
@@ -197,7 +197,7 @@
 								
 						</div>
 					</div>
-								<div id="draggable6" class="ui-widget-content">	
+								<div>	
 								<!-- Nav -->
 										<nav id="nav">
 										<button id="button3" class="ui-state-default ui-corner-all">Try #if?</button>
@@ -311,7 +311,7 @@
 		
 		<!-- Main Wrapper -->
 			<div id="main-wrapper">
-				<div class="container"  id="draggable7" class="ui-widget-content">
+				<div class="container">
 					<div class="row">
 						<div class="12u">
 							
@@ -321,7 +321,7 @@
 									
 									<div>
 										<div class="row">
-											<div class="4u" >
+											<div class="4u"  id="draggable5" class="ui-widget-content">
 												<section class="box">
 													<a href="http://www.homecook.me/farmerMarket/all" class="image image-full"><asset:image src="client-profile.png"/></a>
 												
@@ -329,13 +329,13 @@
 												
 												</section>
 											</div>
-											<div class="4u">
+											<div class="4u"  id="draggable6" class="ui-widget-content">
 												<section class="box">
 													<a href="https://github.com/bahmed73/apps" class="image image-full"><asset:image src="foodal-hoodie.png"/></a>
 													<p><a href="https://github.com/bahmed73/apps">On GitHub</a></p>
 												</section>
 											</div>
-											<div class="4u">
+											<div class="4u"  id="draggable7" class="ui-widget-content">
 												<section class="box">
 													<a href="http://www.mytweetmark.com" class="image image-full"><asset:image src="gutfeeling.png"/></a>
 													<p><a href="http://www.mytweetmark.com">Twitter marketing tool</a></p>
