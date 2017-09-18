@@ -163,7 +163,10 @@
       return false;
     });
     
-    
+    $( "#draggable" ).draggable();
+    $( "#draggable2" ).draggable();
+    $( "#draggable3" ).draggable();
+    $( "#draggable4" ).draggable();  
   } );
   </script>
 		
@@ -218,7 +221,7 @@
 													<header>
 														<span style="font-size:35px;">Welcome to Foodal!</span>
 													</header>
-													<div class="toggler">
+													<div class="toggler" id="draggable" class="ui-widget-content">
   													<div id="effect3" class="ui-widget-content ui-corner-all">
   														<span style="font-size:25px;">
 	  													<ul>
@@ -237,7 +240,7 @@
 														<span style="font-size:35px;">Local Business</span>
 													</header>
 													
-													<div class="toggler">
+													<div class="toggler" id="draggable2" class="ui-widget-content">
   													<div id="effect2" class="ui-widget-content ui-corner-all">
   													<span style="font-size:25px;">
   													<ul>
@@ -259,7 +262,7 @@
 														<span style="font-size:35px;">News:</span>
 													</header>
 													
-												<div class="toggler">
+												<div class="toggler" id="draggable3" class="ui-widget-content">
   													<div id="effect4" class="ui-widget-content ui-corner-all">
   													<span style="font-size:25px;">
   													<ul>
@@ -277,7 +280,7 @@
 														<span style="font-size:35px;">Contact Us:</span>
 													</header>
 													
-													<div class="toggler">
+													<div class="toggler" id="draggable4">
   													<div id="effect2" class="ui-widget-content ui-corner-all">
   													<span style="font-size:25px;">
   													
