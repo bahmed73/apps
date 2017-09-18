@@ -248,7 +248,7 @@
 													<li>Upload products.</p></li>
 													<li>Analytics.</li>
 													<li>Monthly subscription is $50.</li> 
-													<li><g:link controller="product" action="seller"><span style="color:#8a7e7e;">Let's get started!</span></g:link></li>
+													<li><g:link controller="product" action="seller">Let's get started!</g:link></li>
 													</ul>
 													</span>
 													</div>
@@ -270,7 +270,7 @@
 													<li>CNN, nytimes, nypost, foxnews.</p></li>
 													<li>G20, BRICS, Panama Papers.</li>
 													<li>Start now with $5.</li> 
-													<li><g:link controller="product" action="premium"><span style="color:#8a7e7e;">See News.</span></g:link></li>
+													<li><g:link controller="product" action="premium">See News.</g:link></li>
 													</ul>
 													</span>
 													</div>
