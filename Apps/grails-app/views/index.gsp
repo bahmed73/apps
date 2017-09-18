@@ -166,7 +166,10 @@
     $( "#draggable" ).draggable();
     $( "#draggable2" ).draggable();
     $( "#draggable3" ).draggable();
-    $( "#draggable4" ).draggable();  
+    $( "#draggable4" ).draggable();
+    $( "#draggable5" ).draggable();
+    $( "#draggable6" ).draggable();
+    $( "#draggable7" ).draggable();  
   } );
   </script>
 		
@@ -178,7 +181,7 @@
 				<div class="container">
 					
 					<div class="row">
-						<div class="12u">
+						<div class="12u" id="draggable5" class="ui-widget-content">
 
 							<!-- Banner -->
 								<section id="banner">
@@ -194,7 +197,7 @@
 								
 						</div>
 					</div>
-					
+								<div id="draggable6" class="ui-widget-content">	
 								<!-- Nav -->
 										<nav id="nav">
 										<button id="button3" class="ui-state-default ui-corner-all">Try #if?</button>
@@ -209,6 +212,7 @@
 											</ul>
 											
 										</nav>
+										</div>
 							<!-- Intro -->
 							<div class="row">
 						<div class="12u">
@@ -307,7 +311,7 @@
 		
 		<!-- Main Wrapper -->
 			<div id="main-wrapper">
-				<div class="container">
+				<div class="container"  id="draggable7" class="ui-widget-content">
 					<div class="row">
 						<div class="12u">
 							
