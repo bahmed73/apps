@@ -167,9 +167,9 @@
     $( "#draggable2" ).draggable();
     $( "#draggable3" ).draggable();
     $( "#draggable4" ).draggable();
-    $( "#draggable5" ).draggable();
-    $( "#draggable6" ).draggable();
-    $( "#draggable7" ).draggable();  
+    $( "#resizable" ).resizable();
+    $( "#resizable2" ).resizable();
+    $( "#resizable3" ).resizable();  
   } );
   </script>
 		
@@ -321,7 +321,7 @@
 									
 									<div>
 										<div class="row">
-											<div class="4u"  id="draggable5" class="ui-widget-content">
+											<div class="4u"  id="resizable" class="ui-widget-content">
 												<section class="box">
 													<a href="http://www.homecook.me/farmerMarket/all" class="image image-full"><asset:image src="client-profile.png"/></a>
 												
@@ -329,13 +329,13 @@
 												
 												</section>
 											</div>
-											<div class="4u"  id="draggable6" class="ui-widget-content">
+											<div class="4u"  id="resizable2" class="ui-widget-content">
 												<section class="box">
 													<a href="https://github.com/bahmed73/apps" class="image image-full"><asset:image src="foodal-hoodie.png"/></a>
 													<p><a href="https://github.com/bahmed73/apps">On GitHub</a></p>
 												</section>
 											</div>
-											<div class="4u"  id="draggable7" class="ui-widget-content">
+											<div class="4u"  id="resizable3" class="ui-widget-content">
 												<section class="box">
 													<a href="http://www.mytweetmark.com" class="image image-full"><asset:image src="gutfeeling.png"/></a>
 													<p><a href="http://www.mytweetmark.com">Twitter marketing tool</a></p>
