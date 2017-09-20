@@ -170,6 +170,9 @@
     $( "#resizable" ).resizable();
     $( "#resizable2" ).resizable();
     $( "#resizable3" ).resizable();  
+    $( "#dialog" ).dialog({
+    	  draggable: true
+    	});
   } );
   </script>
 		
@@ -191,6 +194,9 @@
 											<h2>Foodal</h2>
 											<!--span class="byline">welcome!</span-->
 										</header>
+										<div id="dialog" title="Local Business">
+										  <p>For local food and farmers markets business, please signup and start selling products online! Monthly subscription of $50 and make more than $500 a month.</p>
+										</div>
 									</a>
 									
 								</section>
@@ -225,7 +231,7 @@
 													<header>
 														<span style="font-size:35px;">Welcome to Foodal!</span>
 													</header>
-													<div id="resizable7" class="ui-widget-content">
+													<div class="ui-widget-content">
   													<div id="effect3" class="ui-widget-content ui-corner-all">
   														<span style="font-size:25px;">
 	  													<ul>
@@ -244,7 +250,7 @@
 														<span style="font-size:35px;">Local Business</span>
 													</header>
 													
-													<div id="resizable6" class="ui-widget-content">
+													<div class="ui-widget-content">
   													<div id="effect2" class="ui-widget-content ui-corner-all">
   													<span style="font-size:25px;">
   													<ul>
@@ -266,7 +272,7 @@
 														<span style="font-size:35px;">News:</span>
 													</header>
 													
-												<div id="resizable5" class="ui-widget-content">
+												<div class="ui-widget-content">
   													<div id="effect4" class="ui-widget-content ui-corner-all">
   													<span style="font-size:25px;">
   													<ul>
@@ -284,7 +290,7 @@
 														<span style="font-size:35px;">Contact Us:</span>
 													</header>
 													
-													<div id="resizable4" class="ui-widget-content">
+													<div class="ui-widget-content">
   													<div id="effect2" class="ui-widget-content ui-corner-all">
   													<span style="font-size:25px;">
   													
@@ -321,7 +327,7 @@
 									
 									<div>
 										<div class="row">
-											<div class="4u"  id="resizable" class="ui-widget-content">
+											<div class="4u"  class="ui-widget-content">
 												<section class="box">
 													<a href="http://www.homecook.me/farmerMarket/all" class="image image-full"><asset:image src="client-profile.png"/></a>
 												
@@ -329,13 +335,13 @@
 												
 												</section>
 											</div>
-											<div class="4u"  id="resizable2" class="ui-widget-content">
+											<div class="4u"  class="ui-widget-content">
 												<section class="box">
 													<a href="https://github.com/bahmed73/apps" class="image image-full"><asset:image src="foodal-hoodie.png"/></a>
 													<p><a href="https://github.com/bahmed73/apps">On GitHub</a></p>
 												</section>
 											</div>
-											<div class="4u"  id="resizable3" class="ui-widget-content">
+											<div class="4u"  class="ui-widget-content">
 												<section class="box">
 													<a href="http://www.mytweetmark.com" class="image image-full"><asset:image src="gutfeeling.png"/></a>
 													<p><a href="http://www.mytweetmark.com">Twitter marketing tool</a></p>
