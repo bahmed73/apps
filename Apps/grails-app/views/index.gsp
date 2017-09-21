@@ -296,9 +296,9 @@
 								<div>	
 								<!-- Nav -->
 										<nav id="nav">
-										<button id="button3" class="ui-state-default ui-corner-all" title="Try #if? programming tests for healing and energy.">Try #if?</button>
+										<button id="button3" class="ui-state-default ui-corner-all" title="Try #if? programming tests for healing and energy.">#if?</button>
 										<button id="button2" class="ui-state-default ui-corner-all" title="For local food and farmers markets business, please sign up for $50/month.">Farmers Markets</button>
-										<button id="button4" class="ui-state-default ui-corner-all" title="See our real-time news from all major news sources.">Real-time News</button>
+										<button id="button4" class="ui-state-default ui-corner-all" title="See our real-time news from all major news sources.">News</button>
 										<button id="button" class="ui-state-default ui-corner-all" title="Please feel free to email, call (415)699-1762.">Contact Us</button>
 											<ul>
 												<li><g:link controller="product" action="software">#if? Programming</g:link></li>
