@@ -50,20 +50,28 @@
   <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
   <link rel="stylesheet" href="/resources/demos/style.css">
   <style>
-    .toggler { width: 500px; height: 200px; position: relative; }
-    #button { padding: .5em 1em; text-decoration: none; }
-    #effect2 { width: 500px; height: 170px; padding: 0.4em; position: relative; }
+    .toggler { width: 400px; height: 200px; position: relative; }
+    #effect { width: 400px; height: 170px; padding: 0.4em; position: relative; }
+    #effect h3 { margin: 0; padding: 0.4em; text-align: center; }
+    #effect2 { width: 400px; height: 170px; padding: 0.4em; position: relative; }
     #effect2 h3 { margin: 0; padding: 0.4em; text-align: center; }
-    #effect3 { width: 500px; height: 170px; padding: 0.4em; position: relative; }
+    #effect3 { width: 400px; height: 170px; padding: 0.4em; position: relative; }
     #effect3 h3 { margin: 0; padding: 0.4em; text-align: center; }
-    #effect4 { width: 500px; height: 170px; padding: 0.4em; position: relative; }
+    #effect4 { width: 400px; height: 170px; padding: 0.4em; position: relative; }
     #effect4 h3 { margin: 0; padding: 0.4em; text-align: center; }
     .ui-effects-transfer { border: 2px dotted gray; }
+    label {
+    display: inline-block;
+    width: 5em;
+  }
   </style>
   <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
   <script>
   $( function() {
+
+	  $( document ).tooltip();
+	  
     // run the currently selected effect
     function runEffect3() {
       // get effect type from
@@ -162,14 +170,96 @@
       runEffect4();
       return false;
     });
+
+    $( "#button" ).on( "click", function() {
+        runEffect();
+        return false;
+      });
+
+ // run the currently selected effect
+    function runEffect() {
+      // get effect type from
+      var selectedEffect = "pulsate";
+ 
+      // Most effect types need no options passed by default
+      var options = {};
+      // some effects have required parameters
+      if ( selectedEffect === "scale" ) {
+        options = { percent: 50, to: { width: 300, height: 150 } };
+      } else if ( selectedEffect === "transfer" ) {
+        options = { to: "#button", className: "ui-effects-transfer" };
+      } else if ( selectedEffect === "size" ) {
+        options = { to: { width: 300, height: 150 } };
+      }
+ 
+      // Run the effect
+      $( "#effect" ).effect( selectedEffect, options, 500, callback );
+    };
+ 
+    // Callback function to bring a hidden box back
+    function callback() {
+      setTimeout(function() {
+        $( "#effect4" ).removeAttr( "style" ).hide().fadeIn();
+      }, 1000 );
+    };
+      
+    $( "#resizable4" ).resizable({
+    	  ghost: true
+    });
+    $( "#resizable5" ).resizable({
+    	  ghost: true
+    });
+    $( "#resizable6" ).resizable({
+    	  ghost: true
+    });
+    $( "#resizable7" ).resizable({
+    	  ghost: true
+    });
+    $( "#resizable" ).resizable({
+    	  ghost: true
+    });
+    $( "#resizable2" ).resizable({
+    	  ghost: true
+    });
+    $( "#resizable3" ).resizable({
+    	  ghost: true
+    });
+
+    var ghost = $( "resizable" ).resizable( "option", "ghost" );
     
-    $( "#resizable4" ).resizable();
-    $( "#resizable5" ).resizable();
-    $( "#resizable6" ).resizable();
-    $( "#resizable7" ).resizable();
-    $( "#resizable" ).resizable();
-    $( "#resizable2" ).resizable();
-    $( "#resizable3" ).resizable();  
+ 	// Setter
+ 	$( "resizable" ).resizable( "option", "ghost", true );
+
+	var ghost2 = $( "resizable2" ).resizable( "option", "ghost" );
+    
+ 	// Setter
+ 	$( "resizable2" ).resizable( "option", "ghost", true );
+
+	var ghost3 = $( "resizable3" ).resizable( "option", "ghost" );
+    
+ 	// Setter
+ 	$( "resizable3" ).resizable( "option", "ghost", true );
+
+	var ghost4 = $( "resizable4" ).resizable( "option", "ghost" );
+    
+ 	// Setter
+ 	$( "resizable4" ).resizable( "option", "ghost", true );
+
+	var ghost5 = $( "resizable5" ).resizable( "option", "ghost" );
+    
+ 	// Setter
+ 	$( "resizable5" ).resizable( "option", "ghost", true );
+
+	var ghost6 = $( "resizable6" ).resizable( "option", "ghost" );
+    
+ 	// Setter
+ 	$( "resizable6" ).resizable( "option", "ghost", true );
+
+	var ghost7 = $( "resizable7" ).resizable( "option", "ghost" );
+    
+ 	// Setter
+ 	$( "resizable7" ).resizable( "option", "ghost", true );
+   
     $( "#dialog" ).dialog({
     	  draggable: true
     	});
@@ -206,9 +296,10 @@
 								<div>	
 								<!-- Nav -->
 										<nav id="nav">
-										<button id="button3" class="ui-state-default ui-corner-all">Try #if?</button>
-										<button id="button2" class="ui-state-default ui-corner-all">Farmers Markets</button>
-										<button id="button4" class="ui-state-default ui-corner-all">Real-time News</button>
+										<button id="button3" class="ui-state-default ui-corner-all" title="Try #if? programming tests for healing and energy.">Try #if?</button>
+										<button id="button2" class="ui-state-default ui-corner-all" title="For local food and farmers markets business, please sign up for $50/month.">Farmers Markets</button>
+										<button id="button4" class="ui-state-default ui-corner-all" title="See our real-time news from all major news sources.">Real-time News</button>
+										<button id="button" class="ui-state-default ui-corner-all" title="Please feel free to email, call (415)699-1762.">Contact Us</button>
 											<ul>
 												<li><g:link controller="product" action="software">#if? Programming</g:link></li>
 												<li><g:link controller="product" action="premium">Premium News</g:link></li>
@@ -231,8 +322,9 @@
 													<header>
 														<span style="font-size:35px;">Welcome to Foodal!</span>
 													</header>
+													<div id="effect3" class="ui-widget-content ui-corner-all">
 													<div id="resizable7" class="ui-widget-content">
-  													<div id="effect3" class="ui-widget-content ui-corner-all">
+  													
   														<span style="font-size:25px;">
 	  													<ul>
 														<li>#if? Programming Tests:</li>
@@ -250,8 +342,8 @@
 														<span style="font-size:35px;">Local Business</span>
 													</header>
 													
+													<div id="effect2" class="ui-widget-content ui-corner-all">
 													<div id="resizable6" class="ui-widget-content">
-  													<div id="effect2" class="ui-widget-content ui-corner-all">
   													<span style="font-size:25px;">
   													<ul>
 													<li>Farmers Markets:</li>
@@ -272,8 +364,9 @@
 														<span style="font-size:35px;">News:</span>
 													</header>
 													
-												<div id="resizable5" class="ui-widget-content">
+												
   													<div id="effect4" class="ui-widget-content ui-corner-all">
+  													<div id="resizable5" class="ui-widget-content">
   													<span style="font-size:25px;">
   													<ul>
 													<li>Real-time News:</li>
@@ -290,8 +383,8 @@
 														<span style="font-size:35px;">Contact Us:</span>
 													</header>
 													
+													<div id="effect" class="ui-widget-content ui-corner-all">
 													<div id="resizable4" class="ui-widget-content">
-  													<div id="effect2" class="ui-widget-content ui-corner-all">
   													<span style="font-size:25px;">
   													
   													<br>
