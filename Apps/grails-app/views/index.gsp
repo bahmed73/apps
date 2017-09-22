@@ -204,25 +204,32 @@
     };
       
     $( "#resizable4" ).resizable({
-    	  ghost: true
+    	  ghost: true,
+    	  animate: true
     });
     $( "#resizable5" ).resizable({
-    	  ghost: true
+    	  ghost: true,
+    	  animate: true
     });
     $( "#resizable6" ).resizable({
-    	  ghost: true
+    	  ghost: true,
+    	  animate: true
     });
     $( "#resizable7" ).resizable({
-    	  ghost: true
+    	  ghost: true,
+    	  animate: true
     });
     $( "#resizable" ).resizable({
-    	  ghost: true
+    	  ghost: true,
+    	  animate: true
     });
     $( "#resizable2" ).resizable({
-    	  ghost: true
+    	  ghost: true,
+    	  animate: true
     });
     $( "#resizable3" ).resizable({
-    	  ghost: true
+    	  ghost: true,
+    	  animate: true
     });
 
     var ghost = $( "resizable" ).resizable( "option", "ghost" );
@@ -259,10 +266,7 @@
     
  	// Setter
  	$( "resizable7" ).resizable( "option", "ghost", true );
-   
-    $( "#dialog" ).dialog({
-    	  draggable: true
-    	});
+
   } );
   </script>
 		
@@ -284,9 +288,6 @@
 											<h2>Foodal</h2>
 											<!--span class="byline">welcome!</span-->
 										</header>
-										<div id="dialog" title="Local Business">
-										  <p>For local food and farmers markets business, please signup and start selling products online! Monthly subscription of $50 and make more than $500 a month.</p>
-										</div>
 									</a>
 									
 								</section>
