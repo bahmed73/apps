@@ -33,6 +33,21 @@
 	
 		</noscript>-->
 		<!--[if lte IE 8]><asset:javascript src="html5shiv.js"/><asset:stylesheet src="ie8.css"/><![endif]-->
+		
+		<meta charset="utf-8">
+		  <meta name="viewport" content="width=device-width, initial-scale=1">
+		  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+		  <link rel="stylesheet" href="/resources/demos/style.css">
+		  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+		  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+		  <script>
+		  $( function() {
+		    $( "#menu" ).menu();
+		  } );
+		  </script>
+		  <style>
+		  .ui-menu { width: 400px; }
+		  </style>
 	</head>
 	<body class="homepage">
 	<a href="/#"><asset:image src="favicon.png" class="grails-logo"/></a>
@@ -84,15 +99,22 @@
     													<g:submitButton name="logout" value="Logout" />
 													</g:form>
 													
+													<br><br>
 													<div>
-													<ul style="list-style-type:disc; margin:50px;font-size:20px;">
-													<li><g:link class="list" action="index" controller="products"><span style="color:#8a7e7e;">Products</span></g:link></li>
-													<li><g:link action="index" controller="productCheckout"><span style="color:#8a7e7e;">Checkouts</span></g:link></li>
-													<li><g:link action="index" controller="blog"><span style="color:#8a7e7e;">Blogs</span></g:link></li>
-													<li><g:link action="analytics" controller="product"><span style="color:#8a7e7e;">Analytics</span></g:link></li>
-													<li><g:link controller="product" action="help"><span style="color:#8a7e7e;">Help</span></g:link></li>
+													
+													<ul id="menu">
+													<li><div><g:link class="list" action="index" controller="products"><span style="color:#8a7e7e;">Products</span></g:link></div></li>
+													<li>-</li>
+													<li><div><g:link action="index" controller="productCheckout"><span style="color:#8a7e7e;">Checkouts</span></g:link></div></li>
+													<li>-</li>
+													<li><div><g:link action="index" controller="blog"><span style="color:#8a7e7e;">Blogs</span></g:link></div></li>
+													<li>-</li>
+													<li><div><g:link action="analytics" controller="product"><span style="color:#8a7e7e;">Analytics</span></g:link></div></li>
+													<li>-</li>
+													<li><div><g:link controller="product" action="help"><span style="color:#8a7e7e;">Help</span></g:link></div></li>
 													</ul>
 													</div>
+													<br>
 													<br>
 													<g:form controller="logout">                        
     													<g:submitButton name="logout" value="Logout" />

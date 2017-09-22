@@ -34,6 +34,21 @@
 	
 		</noscript>-->
 		<!--[if lte IE 8]><asset:javascript src="html5shiv.js"/><asset:stylesheet src="ie8.css"/><![endif]-->
+		
+		<meta charset="utf-8">
+		  <meta name="viewport" content="width=device-width, initial-scale=1">
+		  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+		  <link rel="stylesheet" href="/resources/demos/style.css">
+		  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+		  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+		  <script>
+		  $( function() {
+		    $( "#menu" ).menu();
+		  } );
+		  </script>
+		  <style>
+		  .ui-menu { width: 400px; }
+		  </style>
 	</head>
 	<body class="homepage">
 	<a href="/#"><asset:image src="favicon.png" class="grails-logo"/></a>
@@ -84,19 +99,28 @@
 													</g:form>
 													
 													</header>
+													<br><br>
 													<div>
-													<ul style="list-style-type:disc; margin:50px;font-size:20px;">
-													<li><g:link class="list" action="index" controller="productView"><span style="color:#8a7e7e;">Product Views</span></g:link></li>
-													<li><g:link class="list" action="export" controller="productView"><span style="color:#8a7e7e;">Download Report: Product Views</span></g:link></li>
-													<li><g:link class="list" action="index" controller="productReferer"><span style="color:#8a7e7e;">Product Referers</span></g:link></li>
-													<li><g:link class="list" action="export" controller="productReferer"><span style="color:#8a7e7e;">Download Report: Product Referers</span></g:link></li>
-													<li><g:link class="list" action="index" controller="blogView"><span style="color:#8a7e7e;">Blog Views</span></g:link></li>
-													<li><g:link class="list" action="export" controller="blogView"><span style="color:#8a7e7e;">Download Report: Blog Views</span></g:link></li>
-													<li><g:link class="list" action="index" controller="blogReferer"><span style="color:#8a7e7e;">Blog Referer</span></g:link></li>
-													<li><g:link class="list" action="export" controller="blogReferer"><span style="color:#8a7e7e;">Download Report: Blog Referers</span></g:link></li>
+													<ul id="menu">
+													<li><div><g:link class="list" action="index" controller="productView"><span style="color:#8a7e7e;">Product Views</span></g:link></div></li>
+													<li>-</li>
+													<li><div><g:link class="list" action="export" controller="productView"><span style="color:#8a7e7e;">Download Report: Product Views</span></g:link></div></li>
+													<li>-</li>
+													<li><div><g:link class="list" action="index" controller="productReferer"><span style="color:#8a7e7e;">Product Referers</span></g:link></div></li>
+													<li>-</li>
+													<li><div><g:link class="list" action="export" controller="productReferer"><span style="color:#8a7e7e;">Download Report: Product Referers</span></g:link></div></li>
+													<li>-</li>
+													<li><div><g:link class="list" action="index" controller="blogView"><span style="color:#8a7e7e;">Blog Views</span></g:link></div></li>
+													<li>-</li>
+													<li><div><g:link class="list" action="export" controller="blogView"><span style="color:#8a7e7e;">Download Report: Blog Views</span></g:link></div></li>
+													<li>-</li>
+													<li><div><g:link class="list" action="index" controller="blogReferer"><span style="color:#8a7e7e;">Blog Referer</span></g:link></div></li>
+													<li>-</li>
+													<li><div><g:link class="list" action="export" controller="blogReferer"><span style="color:#8a7e7e;">Download Report: Blog Referers</span></g:link></div></li>
 													</ul>
+													
 													</div>
-													<br>
+													<br><br>
 													<g:form controller="logout">                        
     													<g:submitButton name="logout" value="Logout" />
 													</g:form>
