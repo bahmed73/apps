@@ -282,8 +282,8 @@
 
 							<!-- Banner -->
 								<section id="banner">
-									<a href="http://foodal.co/product/software">
-										<span class="image image-full"><asset:image src="if-wallpaper.png"/></span>
+									<a href="http://foodal.co/product/seller">
+										<span class="image image-full" title="Start selling your local food and farmers markets products on foodal!"><asset:image src="stairs.png"/></span>
 										<header>
 											<h2>Foodal</h2>
 											<!--span class="byline">welcome!</span-->
@@ -323,6 +323,25 @@
 													<header>
 														<span style="font-size:35px;">Welcome to Foodal!</span>
 													</header>
+													
+													<div id="effect2" class="ui-widget-content ui-corner-all">
+													<div id="resizable6" class="ui-widget-content">
+  													<span style="font-size:25px;">
+  													<ul>
+													<li>Farmers Markets:</li>
+													<li>Upload products.</p></li>
+													<li>Analytics.</li>
+													<li>Monthly subscription is $50.</li> 
+													<li><g:link controller="product" action="seller">Let's get started!</g:link></li>
+													</ul>
+													</span>
+													</div>
+													</div>
+													
+													<header>
+														<span style="font-size:35px;">#if? Programming:</span>
+													</header>
+													
 													<div id="effect3" class="ui-widget-content ui-corner-all">
 													<div id="resizable7" class="ui-widget-content">
   													
@@ -337,24 +356,6 @@
 														</ul>
 														</span>
   													</div>
-													</div>
-													
-													<header>
-														<span style="font-size:35px;">Local Business</span>
-													</header>
-													
-													<div id="effect2" class="ui-widget-content ui-corner-all">
-													<div id="resizable6" class="ui-widget-content">
-  													<span style="font-size:25px;">
-  													<ul>
-													<li>Farmers Markets:</li>
-													<li>Upload products.</p></li>
-													<li>Analytics.</li>
-													<li>Monthly subscription is $50.</li> 
-													<li><g:link controller="product" action="seller">Let's get started!</g:link></li>
-													</ul>
-													</span>
-													</div>
 													</div>
 													
 												</section>
@@ -372,7 +373,7 @@
   													<ul>
 													<li>Real-time News:</li>
 													<li>CNN, nytimes, nypost, foxnews.</p></li>
-													<li>G20, BRICS, Panama Papers.</li>
+													<li>G20, BRICS, and more.</li>
 													<li>Start now with $5.</li> 
 													<li><g:link controller="product" action="premium">See News.</g:link></li>
 													</ul>
@@ -423,7 +424,7 @@
 										<div class="row">
 											<div class="4u"  id="resizable" class="ui-widget-content">
 												<section class="box">
-													<a href="http://www.homecook.me/farmerMarket/all" class="image image-full"><asset:image src="client-profile.png"/></a>
+													<a href="http://www.homecook.me/farmerMarket/all" class="image image-full"><asset:image src="farmersmarket.png"/></a>
 												
 													<p><a href="http://www.homecook.me/farmerMarket/all">Alphabetical customer listing</a></p>
 												
@@ -431,13 +432,13 @@
 											</div>
 											<div class="4u"  id="resizable2" class="ui-widget-content">
 												<section class="box">
-													<a href="https://github.com/bahmed73/apps" class="image image-full"><asset:image src="foodal-hoodie.png"/></a>
+													<a href="https://github.com/bahmed73/apps" class="image image-full"><asset:image src="coding.png"/></a>
 													<p><a href="https://github.com/bahmed73/apps">On GitHub</a></p>
 												</section>
 											</div>
 											<div class="4u"  id="resizable3" class="ui-widget-content">
 												<section class="box">
-													<a href="http://www.mytweetmark.com" class="image image-full"><asset:image src="gutfeeling.png"/></a>
+													<a href="http://www.mytweetmark.com" class="image image-full"><asset:image src="marketing.png"/></a>
 													<p><a href="http://www.mytweetmark.com">Twitter marketing tool</a></p>
 												</section>
 											</div>
