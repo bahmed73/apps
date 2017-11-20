@@ -96,6 +96,16 @@ class ProductController {
 		log.info "inside demo6"
 	}
 	
+	def demo7() {
+		System.out.println("inside demo7")
+		log.info "inside demo7"
+	}
+	
+	def demo8() {
+		System.out.println("inside demo8")
+		log.info "inside demo8"
+	}
+	
 	def male() {
 		System.out.println("inside male")
 		log.info "inside male"
@@ -219,6 +229,66 @@ class ProductController {
 	def magnet() {
 		System.out.println("inside magnet")
 		log.info "inside magnet"
+	}
+	
+	def day1() {
+		System.out.println("inside day1")
+		log.info "inside day1"
+	}
+	
+	def day2() {
+		System.out.println("inside day2")
+		log.info "inside day2"
+	}
+	
+	def day3() {
+		System.out.println("inside day3")
+		log.info "inside day3"
+	}
+	
+	def day4() {
+		System.out.println("inside day4")
+		log.info "inside day4"
+	}
+	
+	def day5() {
+		System.out.println("inside day5")
+		log.info "inside day5"
+	}
+	
+	def day6() {
+		System.out.println("inside day6")
+		log.info "inside day6"
+	}
+	
+	def day7() {
+		System.out.println("inside day7")
+		log.info "inside day7"
+	}
+	
+	def day8() {
+		System.out.println("inside day8")
+		log.info "inside day8"
+	}
+	
+	def day9() {
+		System.out.println("inside day9")
+		log.info "inside day9"
+	}
+	
+	def day10() {
+		System.out.println("inside day10")
+		log.info "inside day11"
+	}
+	
+	def day11() {
+		System.out.println("inside day11")
+		log.info "inside day11"
+	}
+	
+	def day12() {
+		System.out.println("inside day12")
+		log.info "inside day12"
 	}
 	
 	def seller() {

@@ -44,7 +44,21 @@
 		  gtag('config', 'UA-106312202-1');
 		</script>
 		
-		
+		<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script src="/resources/demos/external/globalize/globalize.js"></script>
+  <script src="/resources/demos/external/globalize/globalize.culture.de-DE.js"></script>
+  <script src="/resources/demos/external/jquery-mousewheel/jquery.mousewheel.js"></script>
+  <script>
+  function spin() {
+	  var spinner = $( "#spinner" ).spinner();
+	  spinner.spinner( "value", 30 );
+	  spinner.spinner( "enable" );
+	  $("#spinner").toggle();
+	  }
+  </script>
 	</head>
 	<body class="homepage">
 	<a href="/#"><asset:image src="favicon.png" class="grails-logo"/></a>
@@ -73,19 +87,18 @@
 								<!-- Nav -->
 										<nav id="nav">
 											<ul>
-												
 												<li><g:link url="/">Home</g:link></li>
-												<li><g:link controller="product" action="demo6">S, T</g:link></li>
-												<li><g:link controller="product" action="demo5">U, V</g:link></li>
-												<li><g:link controller="product" action="demo4">W</g:link></li>
-												<li><g:link controller="product" action="demo">X</g:link></li>
-												<li><g:link controller="product" action="demo2">Y</g:link></li>
-												<li><g:link controller="product" action="demo3">Z</g:link></li>
-												<li><g:link controller="product" action="analogue">Analogue</g:link></li>
-												<li><g:link controller="product" action="Circuit">Circuit</g:link></li>
-												<li><g:link controller="product" action="levitation">Levitation</g:link></li>
-												<li><g:link controller="product" action="birth">Birth</g:link></li>
-												<li><g:link controller="product" action="magnet">Magnet</g:link></li>
+												<li><g:link controller="product" action="day2">Day 2</g:link></li>
+												<li><g:link controller="product" action="day3">Day 3</g:link></li>
+												<li><g:link controller="product" action="day4">Day 4</g:link></li>
+												<li><g:link controller="product" action="day5">Day 5</g:link></li>
+												<li><g:link controller="product" action="day6">Day 6</g:link></li>
+												<li><g:link controller="product" action="day7">Day 7</g:link></li>
+												<li><g:link controller="product" action="day8">Day 8</g:link></li>
+												<li><g:link controller="product" action="day9">Day 9</g:link></li>
+												<li><g:link controller="product" action="day10">Day 10</g:link></li>
+												<li><g:link controller="product" action="day11">Day 11</g:link></li>
+												<li><g:link controller="product" action="day12">Day 12</g:link></li>
 												<!--<li><a href="left-sidebar.html">Login</a></li>-->
 											</ul>
 										</nav>
@@ -95,60 +108,42 @@
 								<section>
 									<div>
 										<div class="row">
-										
 										<div class="6u">
 													<section class="box">
-													<!-- <a href="http://www.mytweetmark.com" class="image image-full"><asset:image src="foodal-homepage-16.png"/></a> -->
-													
 													<header>
-														<span style="font-size:35px;">Saguna Brahmani and Brahman - Begin Time(0)</span>
-														<span class="byline"><g:link controller="product" action="day1"><span style="color:#8a7e7e;">Shiva Trinity - Day 1.</span></g:link></span>
-														<span class="byline"><g:link controller="product" action="day2"><span style="color:#8a7e7e;">Shiva Trinity - Day 2.</span></g:link></span>
-														<span class="byline"><g:link controller="product" action="day3"><span style="color:#8a7e7e;">Shiva Trinity - Day 3.</span></g:link></span>
-														<span class="byline"><g:link controller="product" action="day4"><span style="color:#8a7e7e;">Krishna Trinity - Day 1.</span></g:link></span>
-														<span class="byline"><g:link controller="product" action="day5"><span style="color:#8a7e7e;">Krishna Trinity - Day 2.</span></g:link></span>
-														<span class="byline"><g:link controller="product" action="day6"><span style="color:#8a7e7e;">Krishna Trinity - Day 3.</span></g:link></span>
-														<span class="byline"><g:link controller="product" action="day7"><span style="color:#8a7e7e;">Brahma Trinity - Day 1.</span></g:link></span>
-														<span class="byline"><g:link controller="product" action="day8"><span style="color:#8a7e7e;">Brahma Trinity - Day 2.</span></g:link></span>
-														<span class="byline"><g:link controller="product" action="day9"><span style="color:#8a7e7e;">Brahma Trinity - Day 3.</span></g:link></span>
-														<span class="byline"><g:link controller="product" action="day10"><span style="color:#8a7e7e;">Durga Trinity - Day 1.</span></g:link></span>
-														<span class="byline"><g:link controller="product" action="day11"><span style="color:#8a7e7e;">Durga Trinity - Day 2.</span></g:link></span>
-														<span class="byline"><g:link controller="product" action="day12"><span style="color:#8a7e7e;">Durga Trinity - Day 3.</span></g:link></span>
-														<span style="font-size:35px;">Saguna Brahmani and Brahman - Part II</span>
-														<span class="byline"><g:link controller="product" action="day12"><span style="color:#8a7e7e;">30 days, 10 vidyas - shukriya, raat (night), dinn (day) - gleam (stars in the eyes, universe, soul of allah). </span></g:link></span>
-														<span class="byline"><g:link controller="product" action="day12"><span style="color:#8a7e7e;">Shiva Trinity (vidya ratri, Issa Shankara sham subah, dua), Krishna Trinity (vidya ratri, subah sham X, dua), Brahma Trinity (ratri, subah X buddha, dua)</span></g:link></span> 
-														<span class="byline"><g:link controller="product" action="day12"><span style="color:#8a7e7e;">Durga Trinity (ratri subah ashram), Ma Trinity(ratri subah beta), Ba Trinity (ratri subah sham Mohammad), Krishna Vidya (dream), Tara Vidya (dream), Goddess Vidya (dream), X Vidya Trinity (dream, ratri, subah), start, #earth 0 explode, loop everyone, close all chakras, bring it down to a point, loop infiniti.</span></g:link></span>
-													</header>
-													
-													<header>
-														<span style="font-size:35px;">Foodal Software - Loop Formula</span>
-														<span class="byline"><g:link controller="product" action="demo"><span style="color:#8a7e7e;">Click for demo.</span></g:link></span>
-														<span class="byline"><g:link controller="product" action="demo2"><span style="color:#8a7e7e;">Click for demo 2.</span></g:link></span>
-														<span class="byline"><g:link controller="product" action="demo3"><span style="color:#8a7e7e;">Click for demo 3.</span></g:link></span>
-														<span class="byline"><g:link controller="product" action="demo4"><span style="color:#8a7e7e;">Click for demo 4.</span></g:link></span>
-														<span class="byline"><g:link controller="product" action="demo5"><span style="color:#8a7e7e;">Click for demo 5.</span></g:link></span>
-														<span class="byline"><g:link controller="product" action="demo6"><span style="color:#8a7e7e;">Click for demo 6.</span></g:link></span>
-														<span class="byline"><g:link controller="product" action="analogue"><span style="color:#8a7e7e;">Click for demo 7.</span></g:link></span>
-														<span class="byline"><g:link controller="product" action="circuit"><span style="color:#8a7e7e;">Click for demo 8.</span></g:link></span>
-														<span class="byline"><g:link controller="product" action="levitation"><span style="color:#8a7e7e;">Click for demo 9.</span></g:link></span>
-														<span class="byline"><g:link controller="product" action="birth"><span style="color:#8a7e7e;">Click for demo 10.</span></g:link></span>
-														<span class="byline"><g:link controller="product" action="magnet"><span style="color:#8a7e7e;">Click for demo 11.</span></g:link></span>
-														<span class="byline"><g:link controller="product" action="demo7"><span style="color:#8a7e7e;">Click for demo 12 - point power.</span></g:link></span>
+														<span style="font-size:35px;">Shiva Trinity - Day 1</span>
+														<span class="byline">Begin Time (0), Saguna Brahman and Saguna Brahmani, explode.</span>
+														<span class="byline">End Time (#, -1), Nirguna Brahman and Nirguna Brahmani, explode.</span>
+														<span class="byline">System restart, all grids.</span>
+														<span class="byline">Durga and brahma vidya (0), explode.</span>
+														<span class="byline">6 point trinity, Indra (0), Agni (0), God (0), Durga (0), Mother (0), Shiva (0), explode.</span>
+														<span class="byline">Balance (0), 50% male, 50% female, explode.</span>
+														<span class="byline">Close all chakras, earth (0) explode.</span>
+														<span class="byline">Loop everyone, (-V#, V#, -H#, H#), explode.</span>
+														<span class="byline">Bring it to a point, point strong, earth (0), loop #.</span>
+														<span class="byline">Locked.</span>
+															
 													</header>
 													<div>
-													<span style="font-size:35px;">Vedanta and Energy</span>
-													<span class="byline"><a href="http://foodal.co/blog/show/36542"><span style="font-size:26px;color:#8a7e7e;">Read more ...</span></a></span>
+													<ul style="list-style-type:disc; margin:50px;font-size:20px;">
+													<li>You are the architect of the matrix. You are working with neo. Look at yourself in the mirror, chose a weapon and wait. Be ready to fly and see some monsters.</li>
+													<li>Architect - Start from single seed, center of the earth, explode, use the male side for earth, female ocean for water.</li>
+													<li>Meditate on single point focus, required for coding. Let everthing go, and just look at the loop.</li>
+													<li>Utilize the solar and lunar energies, sun and moon, and relax for 5 minutes, breathe normal and any thoughts, let them go.</li>
+													<g:actionSubmit value="spin" onclick="return spin();"/>
+													</ul>
 													</div>
-													<br>
+													
+													<br><br>
 													<footer class="actions">
 														  
-													<form action="loop" controller="product" method="POST">
+													<form controller="checkout" method="POST">
 													<script
 										  			src="https://checkout.stripe.com/checkout.js" class="stripe-button"
 										  			data-key="pk_live_XG5V3QMNoSvnijnOBH1SRO2I"
 										  			data-amount="500.00"
 										  			data-name="foodal"
-										  			data-description="News Subscription"
+										  			data-description="Neo Subscription"
 										  			data-zip-code="true"
 										  			data-shipping-address="true"
 										  			data-billing-address="true"
@@ -157,30 +152,24 @@
 										  			data-image="https://stripe.com/img/documentation/checkout/marketplace.png"
 										  			data-locale="auto">
 													</script>
-													</form>  
+													</form> 
 														<br><br>
 													</footer>
 												</section>
 											</div>
 										<div class="6u">
 												<section class="box">
-													<a href="http://www.homecook.me" class="image image-full"><asset:image src="twitter-anonymous.png"/></a>
-													<!--header>
-														<h3>Aptent veroeros et aliquam</h3>
-														<span class="byline">Posted 45 minutes ago</span>
-													</header>
-													<p>Lorem ipsum dolor sit amet sit veroeros sed et blandit consequat sed veroeros lorem et blandit  adipiscing feugiat phasellus tempus hendrerit, tortor vitae mattis tempor, sapien sem feugiat sapien, id suscipit magna felis nec elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos lorem ipsum dolor sit amet.</p>
-													<footer class="actions">
-														<a href="#" class="button fa fa-file-text">Continue Reading</a>
-														<a href="#" class="button alt fa fa-comment">33 comments</a>
-													</footer-->
+													<div id="spinner" style="display:none;width:400px;">
+														<g:img dir="images" file="s.gif" alt="Loading..."/>
+													</div>
 												</section>
 											</div>
-											
 										</div>
 									</div>
+									
 								</section>
 
+														
 						</div>
 					</div>
 				</div>
@@ -200,22 +189,22 @@
 										<div class="row">
 											<div class="4u" >
 												<section class="box">
-													<a href="https://www.facebook.com/foodalCo/" class="image image-full"><asset:image src="troll.png"/></a>
+													<a href="http://www.homecook.me/farmerMarket/all" class="image image-full"><asset:image src="foodal-hat.png"/></a>
 												
-													<p><a href="https://www.facebook.com/foodalCo/">Tests on Facebook</a></p>
+													<p><a href="http://www.homecook.me/farmerMarket/all">Alphabetical customer listing</a></p>
 												
 												</section>
 											</div>
 											<div class="4u">
 												<section class="box">
-													<a href="https://www.linkedin.com/company/18041812/" class="image image-full"><asset:image src="if-programming.png"/></a>
-													<p><a href="https://www.linkedin.com/company/18041812/">Tests on LinkedIn</a></p>
+													<a href="http://www.homecook.me/homecookme" class="image image-full"><asset:image src="foodal-hoodie.png"/></a>
+													<p><a href="http://www.homecook.me/homecookme">Local food API and programming</a></p>
 												</section>
 											</div>
 											<div class="4u">
 												<section class="box">
-													<a href="https://angel.co/foodal" class="image image-full"><asset:image src="if-programming-2.png"/></a>
-													<p><a href="https://angel.co/foodal">Tests On AngelList</a></p>
+													<a href="http://www.mytweetmark.com" class="image image-full"><asset:image src="foodal-pen.png"/></a>
+													<p><a href="http://www.mytweetmark.com">Twitter marketing tool</a></p>
 												</section>
 											</div>
 										</div>
@@ -371,8 +360,8 @@
 										<h2>More about us</h2>
 									</header>
 									<ul class="divided">
-										<li><a href="https://angel.co/foodal">On AngelList</a></li>
-										<li><a href="https://www.facebook.com/foodalCo/">On Facebook</a></li>
+										<li><a href="http://www.homecook.me/images/survey.doc">Survey</a></li>
+										<li><a href="http://www.homecook.me/users/privacy">Privacy</a></li>
 									</ul>
 								</section>
 
@@ -383,8 +372,8 @@
 										<h2>And more...</h2>
 									</header>
 									<ul class="divided">
-										<li><a href="https://linkedin.com/in/bahmed73">On LinkedIn</a></li>
-										<li><a href="https://twitter.com/foodal_">On Twitter</a></li>
+										<li><a href="http://www.foundersspace.com/news-announcements/startup-splotlight-mytweetmark/">On FoundersSpace</a></li>
+										<li><a href="http://www.homecook.me/users/tos">Terms</a></li>
 										<!--li><a href="#">Sem feugiat sapien id suscipit magna felis nec</a></li>
 										<li><a href="#">Elit class aptent taciti sociosqu ad litora</a></li-->
 									</ul>

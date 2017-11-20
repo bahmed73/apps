@@ -283,7 +283,7 @@
 							<!-- Banner -->
 								<section id="banner">
 									<a href="http://foodal.co/product/seller">
-										<span class="image image-full" title="Start selling your local food and farmers markets products on foodal!"><asset:image src="stairs.png"/></span>
+										<span class="image image-full" title="Start selling your local food and farmers markets products on foodal!"><asset:image src="foodal-homepage.png"/></span>
 										<header>
 											<h2>Foodal</h2>
 											<!--span class="byline">welcome!</span-->
