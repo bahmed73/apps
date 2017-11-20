@@ -101,23 +101,41 @@
 													<!-- <a href="http://www.mytweetmark.com" class="image image-full"><asset:image src="foodal-homepage-16.png"/></a> -->
 													
 													<header>
-														<span style="font-size:35px;">Saguna Brahmani and Brahman - Begin Time(0)</span>
+													<span style="font-size:35px;">Saguna Brahmani and Brahman - Part II</span>
+														<span class="byline"><g:link controller="product" action="day1"><span style="color:#8a7e7e;">30 days, 10 vidyas - shukriya, raat (night), dinn (day) - gleam (stars in the eyes, universe, soul of allah). </span></g:link></span>
+														<span class="byline"><g:link controller="product" action="day1"><span style="color:#8a7e7e;">Shiva Trinity (vidya ratri, issa shankara sham subah, dua), Krishna Trinity (vidya ratri, subah sham, dua), Brahma Trinity (ratri, subah buddha, dua)</span></g:link></span> 
+														<span class="byline"><g:link controller="product" action="day1"><span style="color:#8a7e7e;">Durga Trinity (ratri subah ashram), Ma Trinity(ratri subah beta), Ba Trinity (ratri subah sham mohammad), Kalki Trinity (subah sham mu), Tara Vidya (dream), Goddess Vidya (dream), X Vidya (dream, ratri, subah)</span></g:link></span>
+														<span style="font-size:35px;">Nirguna / Saguna Brahmani & Brahman = God Almighty - Begin Time (0)</span>
 														<span class="byline"><g:link controller="product" action="day1"><span style="color:#8a7e7e;">Shiva Trinity - Day 1.</span></g:link></span>
 														<span class="byline"><g:link controller="product" action="day2"><span style="color:#8a7e7e;">Shiva Trinity - Day 2.</span></g:link></span>
 														<span class="byline"><g:link controller="product" action="day3"><span style="color:#8a7e7e;">Shiva Trinity - Day 3.</span></g:link></span>
-														<span class="byline"><g:link controller="product" action="day4"><span style="color:#8a7e7e;">Krishna Trinity - Day 1.</span></g:link></span>
-														<span class="byline"><g:link controller="product" action="day5"><span style="color:#8a7e7e;">Krishna Trinity - Day 2.</span></g:link></span>
-														<span class="byline"><g:link controller="product" action="day6"><span style="color:#8a7e7e;">Krishna Trinity - Day 3.</span></g:link></span>
-														<span class="byline"><g:link controller="product" action="day7"><span style="color:#8a7e7e;">Brahma Trinity - Day 1.</span></g:link></span>
-														<span class="byline"><g:link controller="product" action="day8"><span style="color:#8a7e7e;">Brahma Trinity - Day 2.</span></g:link></span>
-														<span class="byline"><g:link controller="product" action="day9"><span style="color:#8a7e7e;">Brahma Trinity - Day 3.</span></g:link></span>
-														<span class="byline"><g:link controller="product" action="day10"><span style="color:#8a7e7e;">Durga Trinity - Day 1.</span></g:link></span>
-														<span class="byline"><g:link controller="product" action="day11"><span style="color:#8a7e7e;">Durga Trinity - Day 2.</span></g:link></span>
-														<span class="byline"><g:link controller="product" action="day12"><span style="color:#8a7e7e;">Durga Trinity - Day 3.</span></g:link></span>
-														<span style="font-size:35px;">Saguna Brahmani and Brahman - Part II</span>
-														<span class="byline"><g:link controller="product" action="day12"><span style="color:#8a7e7e;">30 days, 10 vidyas - shukriya, raat (night), dinn (day) - gleam (stars in the eyes, universe, soul of allah). </span></g:link></span>
-														<span class="byline"><g:link controller="product" action="day12"><span style="color:#8a7e7e;">Shiva Trinity (vidya ratri, Issa Shankara sham subah, dua), Krishna Trinity (vidya ratri, subah sham X, dua), Brahma Trinity (ratri, subah X buddha, dua)</span></g:link></span> 
-														<span class="byline"><g:link controller="product" action="day12"><span style="color:#8a7e7e;">Durga Trinity (ratri subah ashram), Ma Trinity(ratri subah beta), Ba Trinity (ratri subah sham Mohammad), Krishna Vidya (dream), Tara Vidya (dream), Goddess Vidya (dream), X Vidya Trinity (dream, ratri, subah), start, #earth 0 explode, loop everyone, close all chakras, bring it down to a point, loop infiniti.</span></g:link></span>
+														<span class="byline"><g:link controller="product" action="day4"><span style="color:#8a7e7e;">Vishnu Trinity - Day 4.</span></g:link></span>
+														<span class="byline"><g:link controller="product" action="day5"><span style="color:#8a7e7e;">Vishnu Trinity - Day 5.</span></g:link></span>
+														<span class="byline"><g:link controller="product" action="day6"><span style="color:#8a7e7e;">Vishnu Trinity - Day 6.</span></g:link></span>
+														<span class="byline"><g:link controller="product" action="day7"><span style="color:#8a7e7e;">Brahma Trinity - Day 7.</span></g:link></span>
+														<span class="byline"><g:link controller="product" action="day8"><span style="color:#8a7e7e;">Brahma Trinity - Day 8.</span></g:link></span>
+														<span class="byline"><g:link controller="product" action="day9"><span style="color:#8a7e7e;">Brahma Trinity - Day 9.</span></g:link></span>
+														<span class="byline"><g:link controller="product" action="day10"><span style="color:#8a7e7e;">Durga Trinity - Day 10.</span></g:link></span>
+														<span class="byline"><g:link controller="product" action="day11"><span style="color:#8a7e7e;">Durga Trinity - Day 11.</span></g:link></span>
+														<span class="byline"><g:link controller="product" action="day12"><span style="color:#8a7e7e;">Durga Trinity - Day 12.</span></g:link></span>
+														<span class="byline"><g:link controller="product" action="day1"><span style="color:#8a7e7e;">Ma Trinity - Day 13.</span></g:link></span>
+														<span class="byline"><g:link controller="product" action="day1"><span style="color:#8a7e7e;">Ma Trinity - Day 14.</span></g:link></span>
+														<span class="byline"><g:link controller="product" action="day1"><span style="color:#8a7e7e;">Ma Trinity - Day 15.</span></g:link></span>
+														<span class="byline"><g:link controller="product" action="day1"><span style="color:#8a7e7e;">Ba Trinity - Day 16.</span></g:link></span>
+														<span class="byline"><g:link controller="product" action="day1"><span style="color:#8a7e7e;">Ba Trinity - Day 17.</span></g:link></span>
+														<span class="byline"><g:link controller="product" action="day1"><span style="color:#8a7e7e;">Ba Trinity - Day 18.</span></g:link></span>
+														<span class="byline"><g:link controller="product" action="day1"><span style="color:#8a7e7e;">Kalki Trinity - Day 19.</span></g:link></span>
+														<span class="byline"><g:link controller="product" action="day1"><span style="color:#8a7e7e;">Kalki Trinity - Day 20.</span></g:link></span>
+														<span class="byline"><g:link controller="product" action="day1"><span style="color:#8a7e7e;">Kalki Trinity - Day 21.</span></g:link></span>
+														<span class="byline"><g:link controller="product" action="day1"><span style="color:#8a7e7e;">Tara Trinity - Day 22.</span></g:link></span>
+														<span class="byline"><g:link controller="product" action="day1"><span style="color:#8a7e7e;">Tara Trinity - Day 23.</span></g:link></span>
+														<span class="byline"><g:link controller="product" action="day1"><span style="color:#8a7e7e;">Tara Trinity - Day 24.</span></g:link></span>
+														<span class="byline"><g:link controller="product" action="day1"><span style="color:#8a7e7e;">Three Goddess Trinity - Day 25.</span></g:link></span>
+														<span class="byline"><g:link controller="product" action="day1"><span style="color:#8a7e7e;">Three Goddess Trinity - Day 26.</span></g:link></span>
+														<span class="byline"><g:link controller="product" action="day1"><span style="color:#8a7e7e;">Three Goddess Trinity - Day 27.</span></g:link></span>
+														<span class="byline"><g:link controller="product" action="day1"><span style="color:#8a7e7e;">X Vidya - Day 28.</span></g:link></span>
+														<span class="byline"><g:link controller="product" action="day1"><span style="color:#8a7e7e;">X Vidya - Day 29.</span></g:link></span>
+														<span class="byline"><g:link controller="product" action="day1"><span style="color:#8a7e7e;">X Vidya - Day 30.</span></g:link></span>
 													</header>
 													
 													<header>
