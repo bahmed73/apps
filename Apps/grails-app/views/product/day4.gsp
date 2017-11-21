@@ -130,8 +130,9 @@
 										<div class="6u">
 													<section class="box">
 													<header>
-														<span style="font-size:35px;">Krishna Trinity - Day 4</span>
+														<span style="font-size:35px;">Vishnu Trinity - Day 4</span>
 														<span class="byline">General Ressurection (0), Begin #.</span>
+														<span class="byline">Thankful for Vishnudevananda.</span>
 														<span class="byline">Father Rose (0), ArchBishop Saint John Maximovich (0), Saint Herman (0), Begin #.</span>
 														<span class="byline">Send Clock (0), heart (0) to vedanta (0), Snoop Dogg, Diddy, as a gift.</span>
 														<span class="byline">Send Clock (0), heart (0) to Group A, B, C, D and E, as a gift.</span>

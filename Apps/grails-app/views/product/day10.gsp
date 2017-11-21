@@ -131,6 +131,7 @@
 													<section class="box">
 													<header>
 														<span style="font-size:35px;">Saguna Brahmani, Durga Trinity - Day 10</span>
+														<span class="byline">Thankful for Indra and Agni.</span>
 														<span class="byline">Re-enable all trinity mudras (0) explode, earth (0) explode.</span>
 														<span class="byline">Re-enable all trinity mudras (0), planets (0), astrology (0), palmistry (0) explode, earth (0) explode.</span>
 														<span class="byline">Reset guides (0) through trinity mudras (0) explode, earth (0) explode.</span>

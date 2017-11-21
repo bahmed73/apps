@@ -130,7 +130,7 @@
 										<div class="6u">
 													<section class="box">
 													<header>
-														<span style="font-size:35px;">Brahma Vidya Trinity - Day 9</span>
+														<span style="font-size:35px;">Brahma Trinity - Day 9</span>
 														<span class="byline">Add all numbers in the date of birth (0), to calculate life lesson number (0), reduce to 0-9, i.e. 17 = 8.</span>
 														<span class="byline">Sacrament (0), all human life lesson number (0), mind, body, heart, soul (0) point strong, time (0), saguna brahmani on earth (0) explode.</span>
 														<span class="byline">Close all chakras, earth (0) explode.</span>

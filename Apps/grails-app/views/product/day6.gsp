@@ -130,7 +130,8 @@
 										<div class="6u">
 													<section class="box">
 													<header>
-														<span style="font-size:35px;">Krishna Trinity - Day 6</span>
+														<span style="font-size:35px;">Vishnu Trinity - Day 6</span>
+														<span class="byline">Upgrade tree of life.</span>
 														<span class="byline">Upgrade celestial views.</span>
 														<span class="byline">Assign proper authorization and authentication to various realms, based on RACI matrix.</span>
 														<span class="byline">Sync human (0) to earth (0).</span>

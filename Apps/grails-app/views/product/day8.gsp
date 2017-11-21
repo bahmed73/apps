@@ -130,7 +130,7 @@
 										<div class="6u">
 													<section class="box">
 													<header>
-														<span style="font-size:35px;">Brahma Vidya Trinity - Day 8</span>
+														<span style="font-size:35px;">Brahma Trinity - Day 8</span>
 														<span class="byline">Point strong letters (0) and alphabets (0), a-z.</span>
 														<span class="byline">Add all vowels in the full name, to calculate soul (0) number (0), reduce to 0-9, i.e. ai = 19 = 10 = 1.</span>
 														<span class="byline">Sacrament (0), all human soul number (0), mind, body, heart, soul (0) point strong, time (0), saguna brahmani on earth (0) explode.</span>

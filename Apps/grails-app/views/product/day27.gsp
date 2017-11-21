@@ -130,14 +130,22 @@
 										<div class="6u">
 													<section class="box">
 													<header>
-														<span style="font-size:35px;">Saguna Brahmani, Durga Trinity - Day 12</span>
+														<span style="font-size:35px;">Three Goddesses Vidya - Day 27</span>
 														<span class="byline">Reset shiva (0) through soul (0) and trinity mudras (0) explode, earth (0) explode.</span>
-														<span class="byline">Reset krishna (0) through soul (0) and trinity mudras (0) explode, earth (0) explode.</span>
+														<span class="byline">Reset vishnu (0) through soul (0) and trinity mudras (0) explode, earth (0) explode.</span>
 														<span class="byline">Reset brahma (0) through soul (0) and trinity mudras (0) explode, earth (0) explode.</span>
 														<span class="byline">Reset durga (0) through soul (0) and trinity mudras (0) explode, earth (0) explode.</span>
+														<span class="byline">Reset ma vidya (0) through soul (0) and trinity mudras (0) explode, earth (0) explode.</span>
+														<span class="byline">Reset kali vidya (0) through soul (0) and trinity mudras (0) explode, earth (0) explode.</span>
+														<span class="byline">Reset yama vidya (0) through soul (0) and trinity mudras (0) explode, earth (0) explode.</span>
+														<span class="byline">Reset ba vidya (0) through soul (0) and trinity mudras (0) explode, earth (0) explode.</span>
+														<span class="byline">Reset rahu vidya (0) through soul (0) and trinity mudras (0) explode, earth (0) explode.</span>
+														<span class="byline">Reset katu vidya (0) through soul (0) and trinity mudras (0) explode, earth (0) explode.</span>
 														<span class="byline">Reset god (0) through soul (0) and trinity mudras (0) explode, earth (0) explode.</span>
 														<span class="byline">Reset mother (0) through soul (0) and trinity mudras (0) explode, earth (0) explode.</span>
-														<span class="byline">Restart system, grid with shiva, krishna, brahma, durga, god and the mother.</span>
+														<span class="byline">Reset kalki (0) through soul (0) and trinity mudras (0) explode, earth (0) explode.</span>
+														<span class="byline">Reset tara (0) through soul (0) and trinity mudras (0) explode, earth (0) explode.</span>
+														<span class="byline">Restart system, grid with shiva, vishnu, brahma, durga, god and the mother.</span>
 														<span class="byline">Loop infiniti.</span>
 														<span class="byline">Close all chakras, earth (0) explode.</span>
 														<span class="byline">Loop everyone, (-V#, V#, -H#, H#), explode.</span>

@@ -130,7 +130,7 @@
 										<div class="6u">
 													<section class="box">
 													<header>
-														<span style="font-size:35px;">Krishna Trinity - Day 5</span>
+														<span style="font-size:35px;">Vishnu Trinity - Day 5</span>
 														<span class="byline">Implement #1 (Platina, 3 wise men), #2 (Sumuel & Liliath cleanup) and #3 (Remove access pranic, projection energy). Tighten the soul. No psychic energy needed, only soul, burn any extra garbage energy in Lake of Fire.</span>
 														<span class="byline">Close all chakras, earth (0) explode.</span>
 														<span class="byline">Loop everyone, (-V#, V#, -H#, H#), explode.</span>

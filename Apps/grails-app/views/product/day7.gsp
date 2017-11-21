@@ -130,7 +130,8 @@
 										<div class="6u">
 													<section class="box">
 													<header>
-														<span style="font-size:35px;">Brahma Vidya Trinity - Day 7</span>
+														<span style="font-size:35px;">Brahma Trinity - Day 7</span>
+														<span class="byline">Thankful for, Brahmananda, Ganesha, Hanuman, Buddha and Kwan Yin, Tara and Padmesambhava.</span>
 														<span class="byline">Point strong numbers, 0-9.</span>
 														<span class="byline">Point strong double, triple digits, etc. 0 = God or wildcard.</span>
 														<span class="byline">1 = Male, begin, shiva, point, 2 = Female, compassion, durga, line, connection, 3 = creativity, pyramid, shiva, delta, 4 = form, square, double trinity (male/female), 5 = freedom, star of david, protection, 6 = love, buddha, 7 = God, 8 = karma, krishna, 9 = completion, knighthood.</span>
