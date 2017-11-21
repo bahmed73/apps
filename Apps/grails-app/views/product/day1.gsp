@@ -135,6 +135,8 @@
 														<span class="byline">End Time (#, -1), Nirguna Brahman and Nirguna Brahmani, explode.</span>
 														<span class="byline">System restart, all grids.</span>
 														<span class="byline">Thankful for Sivananda, Vishnudevananda, Satchidananda, Brahmananda, Rama Krishna, Ramana Maharishi, Saint Germain, Vivekananda, Yoginanda, Sai Baba and Baba ji, and all masters.</span>
+														<span class="byline">Thankful for Snoop Dogg, Diddy, Hillary Clinton, Dave McClure, CNN, nytimes and nypost.</span>
+														<span class="byline">Thankful for Nizamuddin Aliya and all the sufi saints.</span>
 														<span class="byline">Durga and brahma vidya (0), explode.</span>
 														<span class="byline">6 point trinity, Indra (0), Agni (0), God (0), Durga (0), Mother (0), Shiva (0), explode.</span>
 														<span class="byline">Balance (0), 50% male, 50% female, explode.</span>
