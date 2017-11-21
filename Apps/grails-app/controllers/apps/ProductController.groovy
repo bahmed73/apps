@@ -278,7 +278,7 @@ class ProductController {
 	
 	def day10() {
 		System.out.println("inside day10")
-		log.info "inside day11"
+		log.info "inside day10"
 	}
 	
 	def day11() {
@@ -289,6 +289,96 @@ class ProductController {
 	def day12() {
 		System.out.println("inside day12")
 		log.info "inside day12"
+	}
+	
+	def day13() {
+		System.out.println("inside day13")
+		log.info "inside day13"
+	}
+	
+	def day14() {
+		System.out.println("inside day14")
+		log.info "inside day14"
+	}
+	
+	def day15() {
+		System.out.println("inside day15")
+		log.info "inside day15"
+	}
+	
+	def day16() {
+		System.out.println("inside day16")
+		log.info "inside day16"
+	}
+	
+	def day17() {
+		System.out.println("inside day17")
+		log.info "inside day17"
+	}
+	
+	def day18() {
+		System.out.println("inside day18")
+		log.info "inside day18"
+	}
+	
+	def day19() {
+		System.out.println("inside day19")
+		log.info "inside day19"
+	}
+	
+	def day20() {
+		System.out.println("inside day20")
+		log.info "inside day20"
+	}
+	
+	def day21() {
+		System.out.println("inside day21")
+		log.info "inside day21"
+	}
+	
+	def day22() {
+		System.out.println("inside day22")
+		log.info "inside day22"
+	}
+	
+	def day23() {
+		System.out.println("inside day23")
+		log.info "inside day23"
+	}
+	
+	def day24() {
+		System.out.println("inside day24")
+		log.info "inside day24"
+	}
+	
+	def day25() {
+		System.out.println("inside day25")
+		log.info "inside day25"
+	}
+	
+	def day26() {
+		System.out.println("inside day26")
+		log.info "inside day26"
+	}
+	
+	def day27() {
+		System.out.println("inside day27")
+		log.info "inside day27"
+	}
+	
+	def day28() {
+		System.out.println("inside day28")
+		log.info "inside day28"
+	}
+	
+	def day29() {
+		System.out.println("inside day29")
+		log.info "inside day29"
+	}
+	
+	def day30() {
+		System.out.println("inside day30")
+		log.info "inside day30"
 	}
 	
 	def seller() {

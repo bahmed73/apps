@@ -118,24 +118,24 @@
 														<span class="byline"><g:link controller="product" action="day10"><span style="color:#8a7e7e;">Durga Trinity - Day 10.</span></g:link></span>
 														<span class="byline"><g:link controller="product" action="day11"><span style="color:#8a7e7e;">Durga Trinity - Day 11.</span></g:link></span>
 														<span class="byline"><g:link controller="product" action="day12"><span style="color:#8a7e7e;">Durga Trinity - Day 12.</span></g:link></span>
-														<span class="byline"><g:link controller="product" action="day1"><span style="color:#8a7e7e;">Ma Trinity - Day 13.</span></g:link></span>
-														<span class="byline"><g:link controller="product" action="day1"><span style="color:#8a7e7e;">Ma Trinity - Day 14.</span></g:link></span>
-														<span class="byline"><g:link controller="product" action="day1"><span style="color:#8a7e7e;">Ma Trinity - Day 15.</span></g:link></span>
-														<span class="byline"><g:link controller="product" action="day1"><span style="color:#8a7e7e;">Ba Trinity - Day 16.</span></g:link></span>
-														<span class="byline"><g:link controller="product" action="day1"><span style="color:#8a7e7e;">Ba Trinity - Day 17.</span></g:link></span>
-														<span class="byline"><g:link controller="product" action="day1"><span style="color:#8a7e7e;">Ba Trinity - Day 18.</span></g:link></span>
-														<span class="byline"><g:link controller="product" action="day1"><span style="color:#8a7e7e;">Kalki Trinity - Day 19.</span></g:link></span>
-														<span class="byline"><g:link controller="product" action="day1"><span style="color:#8a7e7e;">Kalki Trinity - Day 20.</span></g:link></span>
-														<span class="byline"><g:link controller="product" action="day1"><span style="color:#8a7e7e;">Kalki Trinity - Day 21.</span></g:link></span>
-														<span class="byline"><g:link controller="product" action="day1"><span style="color:#8a7e7e;">Tara Trinity - Day 22.</span></g:link></span>
-														<span class="byline"><g:link controller="product" action="day1"><span style="color:#8a7e7e;">Tara Trinity - Day 23.</span></g:link></span>
-														<span class="byline"><g:link controller="product" action="day1"><span style="color:#8a7e7e;">Tara Trinity - Day 24.</span></g:link></span>
-														<span class="byline"><g:link controller="product" action="day1"><span style="color:#8a7e7e;">Three Goddess Trinity - Day 25.</span></g:link></span>
-														<span class="byline"><g:link controller="product" action="day1"><span style="color:#8a7e7e;">Three Goddess Trinity - Day 26.</span></g:link></span>
-														<span class="byline"><g:link controller="product" action="day1"><span style="color:#8a7e7e;">Three Goddess Trinity - Day 27.</span></g:link></span>
-														<span class="byline"><g:link controller="product" action="day1"><span style="color:#8a7e7e;">X Vidya - Day 28.</span></g:link></span>
-														<span class="byline"><g:link controller="product" action="day1"><span style="color:#8a7e7e;">X Vidya - Day 29.</span></g:link></span>
-														<span class="byline"><g:link controller="product" action="day1"><span style="color:#8a7e7e;">X Vidya - Day 30.</span></g:link></span>
+														<span class="byline"><g:link controller="product" action="day13"><span style="color:#8a7e7e;">Ma Trinity - Day 13.</span></g:link></span>
+														<span class="byline"><g:link controller="product" action="day14"><span style="color:#8a7e7e;">Ma Trinity - Day 14.</span></g:link></span>
+														<span class="byline"><g:link controller="product" action="day15"><span style="color:#8a7e7e;">Ma Trinity - Day 15.</span></g:link></span>
+														<span class="byline"><g:link controller="product" action="day16"><span style="color:#8a7e7e;">Ba Trinity - Day 16.</span></g:link></span>
+														<span class="byline"><g:link controller="product" action="day17"><span style="color:#8a7e7e;">Ba Trinity - Day 17.</span></g:link></span>
+														<span class="byline"><g:link controller="product" action="day18"><span style="color:#8a7e7e;">Ba Trinity - Day 18.</span></g:link></span>
+														<span class="byline"><g:link controller="product" action="day19"><span style="color:#8a7e7e;">Kalki Trinity - Day 19.</span></g:link></span>
+														<span class="byline"><g:link controller="product" action="day20"><span style="color:#8a7e7e;">Kalki Trinity - Day 20.</span></g:link></span>
+														<span class="byline"><g:link controller="product" action="day21"><span style="color:#8a7e7e;">Kalki Trinity - Day 21.</span></g:link></span>
+														<span class="byline"><g:link controller="product" action="day22"><span style="color:#8a7e7e;">Tara Trinity - Day 22.</span></g:link></span>
+														<span class="byline"><g:link controller="product" action="day23"><span style="color:#8a7e7e;">Tara Trinity - Day 23.</span></g:link></span>
+														<span class="byline"><g:link controller="product" action="day24"><span style="color:#8a7e7e;">Tara Trinity - Day 24.</span></g:link></span>
+														<span class="byline"><g:link controller="product" action="day25"><span style="color:#8a7e7e;">Three Goddess Trinity - Day 25.</span></g:link></span>
+														<span class="byline"><g:link controller="product" action="day26"><span style="color:#8a7e7e;">Three Goddess Trinity - Day 26.</span></g:link></span>
+														<span class="byline"><g:link controller="product" action="day27"><span style="color:#8a7e7e;">Three Goddess Trinity - Day 27.</span></g:link></span>
+														<span class="byline"><g:link controller="product" action="day28"><span style="color:#8a7e7e;">X Vidya - Day 28.</span></g:link></span>
+														<span class="byline"><g:link controller="product" action="day29"><span style="color:#8a7e7e;">X Vidya - Day 29.</span></g:link></span>
+														<span class="byline"><g:link controller="product" action="day30"><span style="color:#8a7e7e;">X Vidya - Day 30.</span></g:link></span>
 													</header>
 													
 													<header>

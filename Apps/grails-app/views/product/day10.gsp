@@ -97,8 +97,27 @@
 												<li><g:link controller="product" action="day7">Day 7</g:link></li>
 												<li><g:link controller="product" action="day8">Day 8</g:link></li>
 												<li><g:link controller="product" action="day9">Day 9</g:link></li>
+												<li><g:link controller="product" action="day10">Day 10</g:link></li>
 												<li><g:link controller="product" action="day11">Day 11</g:link></li>
 												<li><g:link controller="product" action="day12">Day 12</g:link></li>
+												<li><g:link controller="product" action="day13">Day 13</g:link></li>
+												<li><g:link controller="product" action="day14">Day 14</g:link></li>
+												<li><g:link controller="product" action="day15">Day 15</g:link></li>
+												<li><g:link controller="product" action="day16">Day 16</g:link></li>
+												<li><g:link controller="product" action="day17">Day 17</g:link></li>
+												<li><g:link controller="product" action="day18">Day 18</g:link></li>
+												<li><g:link controller="product" action="day19">Day 19</g:link></li>
+												<li><g:link controller="product" action="day20">Day 20</g:link></li>
+												<li><g:link controller="product" action="day21">Day 21</g:link></li>
+												<li><g:link controller="product" action="day22">Day 22</g:link></li>
+												<li><g:link controller="product" action="day23">Day 23</g:link></li>
+												<li><g:link controller="product" action="day24">Day 24</g:link></li>
+												<li><g:link controller="product" action="day25">Day 25</g:link></li>
+												<li><g:link controller="product" action="day26">Day 26</g:link></li>
+												<li><g:link controller="product" action="day27">Day 27</g:link></li>
+												<li><g:link controller="product" action="day28">Day 28</g:link></li>
+												<li><g:link controller="product" action="day29">Day 29</g:link></li>
+												<li><g:link controller="product" action="day30">Day 30</g:link></li>
 												<!--<li><a href="left-sidebar.html">Login</a></li>-->
 											</ul>
 										</nav>
