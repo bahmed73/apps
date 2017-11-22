@@ -86,6 +86,8 @@
 												<li><g:link controller="product" action="levitation">Levitation</g:link></li>
 												<li><g:link controller="product" action="birth">Birth</g:link></li>
 												<li><g:link controller="product" action="magnet">Magnet</g:link></li>
+												<li><g:link controller="product" action="day1">Vidya</g:link></li>
+												<li><g:link controller="product" action="vedanta">Vedanta</g:link></li>
 												<!--<li><a href="left-sidebar.html">Login</a></li>-->
 											</ul>
 										</nav>
@@ -155,7 +157,7 @@
 													</header>
 													<div>
 													<span style="font-size:35px;">Vedanta and Energy</span>
-													<span class="byline"><a href="http://foodal.co/blog/show/36542"><span style="font-size:26px;color:#8a7e7e;">Read more ...</span></a></span>
+													<span class="byline"><g:link controller="product" action="vedanta"><span style="color:#8a7e7e;">Vedanta</span></g:link></span>
 													</div>
 													<br>
 													<footer class="actions">

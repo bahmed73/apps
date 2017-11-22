@@ -381,6 +381,11 @@ class ProductController {
 		log.info "inside day30"
 	}
 	
+	def vedanta() {
+		System.out.println("inside vedanta")
+		log.info "inside vedanta"
+	}
+	
 	def seller() {
 		log.info "inside seller"
 		

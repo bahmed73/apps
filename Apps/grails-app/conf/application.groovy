@@ -112,7 +112,8 @@ grails.plugin.springsecurity.controllerAnnotations.staticRules = [
 	[pattern: '/product/day27',access: ['permitAll']],
 	[pattern: '/product/day28',access: ['permitAll']],
 	[pattern: '/product/day29',access: ['permitAll']],
-	[pattern: '/product/day30',access: ['permitAll']]
+	[pattern: '/product/day30',access: ['permitAll']],
+	[pattern: '/product/vedanta',access: ['permitAll']]
 ]
 
 grails.plugin.springsecurity.filterChain.chainMap = [
@@ -238,7 +239,8 @@ grails.plugin.springsecurity.controllerAnnotations.staticRules = [
 	[pattern: '/product/day27',access: ['permitAll']],
 	[pattern: '/product/day28',access: ['permitAll']],
 	[pattern: '/product/day29',access: ['permitAll']],
-	[pattern: '/product/day30',access: ['permitAll']]
+	[pattern: '/product/day30',access: ['permitAll']],
+	[pattern: '/product/vedanta',access: ['permitAll']]
 ]
 
 grails.plugin.springsecurity.filterChain.chainMap = [
@@ -364,7 +366,8 @@ grails.plugin.springsecurity.controllerAnnotations.staticRules = [
 	[pattern: '/product/day27',access: ['permitAll']],
 	[pattern: '/product/day28',access: ['permitAll']],
 	[pattern: '/product/day29',access: ['permitAll']],
-	[pattern: '/product/day30',access: ['permitAll']]
+	[pattern: '/product/day30',access: ['permitAll']],
+	[pattern: '/product/vedanta',access: ['permitAll']]
 ]
 
 grails.plugin.springsecurity.filterChain.chainMap = [

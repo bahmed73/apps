@@ -88,36 +88,15 @@
 										<nav id="nav">
 											<ul>
 												<li><g:link url="/">Home</g:link></li>
-												<li><g:link controller="product" action="day1">Day 1</g:link></li>
-												<li><g:link controller="product" action="day2">Day 2</g:link></li>
-												<li><g:link controller="product" action="day3">Day 3</g:link></li>
-												<li><g:link controller="product" action="day4">Day 4</g:link></li>
-												<li><g:link controller="product" action="day5">Day 5</g:link></li>
-												<li><g:link controller="product" action="day6">Day 6</g:link></li>
-												<li><g:link controller="product" action="day7">Day 7</g:link></li>
-												<li><g:link controller="product" action="day8">Day 8</g:link></li>
-												<li><g:link controller="product" action="day9">Day 9</g:link></li>
-												<li><g:link controller="product" action="day10">Day 10</g:link></li>
-												<li><g:link controller="product" action="day11">Day 11</g:link></li>
-												<li><g:link controller="product" action="day12">Day 12</g:link></li>
-												<li><g:link controller="product" action="day13">Day 13</g:link></li>
-												<li><g:link controller="product" action="day14">Day 14</g:link></li>
-												<li><g:link controller="product" action="day15">Day 15</g:link></li>
-												<li><g:link controller="product" action="day16">Day 16</g:link></li>
-												<li><g:link controller="product" action="day17">Day 17</g:link></li>
-												<li><g:link controller="product" action="day18">Day 18</g:link></li>
-												<li><g:link controller="product" action="day19">Day 19</g:link></li>
-												<li><g:link controller="product" action="day20">Day 20</g:link></li>
-												<li><g:link controller="product" action="day21">Day 21</g:link></li>
-												<li><g:link controller="product" action="day22">Day 22</g:link></li>
-												<li><g:link controller="product" action="day23">Day 23</g:link></li>
-												<li><g:link controller="product" action="day24">Day 24</g:link></li>
-												<li><g:link controller="product" action="day25">Day 25</g:link></li>
-												<li><g:link controller="product" action="day26">Day 26</g:link></li>
-												<li><g:link controller="product" action="day27">Day 27</g:link></li>
-												<li><g:link controller="product" action="day28">Day 28</g:link></li>
-												<li><g:link controller="product" action="day29">Day 29</g:link></li>
-												<li><g:link controller="product" action="day30">Day 30</g:link></li>
+												<li><g:link controller="product" action="demo6">S, T</g:link></li>
+												<li><g:link controller="product" action="demo5">U, V</g:link></li>
+												<li><g:link controller="product" action="demo4">W</g:link></li>
+												<li><g:link controller="product" action="demo">X</g:link></li>
+												<li><g:link controller="product" action="demo2">Y</g:link></li>
+												<li><g:link controller="product" action="demo3">Z</g:link></li>
+												<li><g:link controller="product" action="software">Formula</g:link></li>
+												<li><g:link controller="product" action="demo7">Point</g:link></li>
+												<li><g:link controller="product" action="day1">Vidya</g:link></li>
 												<!--<li><a href="left-sidebar.html">Login</a></li>-->
 											</ul>
 										</nav>
@@ -130,23 +109,135 @@
 										<div class="6u">
 													<section class="box">
 													<header>
-														<span style="font-size:35px;">Shiva Trinity - Day 1</span>
-														<span class="byline">Begin Time (0), Saguna Brahman and Saguna Brahmani, explode.</span>
-														<span class="byline">End Time (#, -1), Nirguna Brahman and Nirguna Brahmani, explode.</span>
-														<span class="byline">Pray for all the vidyants (dreamers).</span>
-														<span class="byline">Om ra ka ba shwat, kali yama rahu ketu, archangel michael and gabriel, isis and osiris, zeus, wadd, dionysys, ea, hubal and god.</span>
-														<span class="byline">System restart, all grids.</span>
-														<span class="byline">Thankful for Sivananda, Vishnudevananda, Satchidananda, Brahmananda, Rama Krishna, Ramana Maharishi, Saint Germain, Vivekananda, Yoginanda, Sai Baba, Baba ji, Master Wang, Amma and all masters.</span>
-														<span class="byline">Thankful for Snoop Dogg, Diddy, Bill & Hillary Clinton, Dave McClure, Vladimir Putin, Margarita Simonyan, Xi Jinping, 500 startups, mytweetmark, CNN, nytimes, nypost, rt.com, xhnews and moscow times.</span>
-														<span class="byline">Thankful for Nizamuddin Aliya and all the sufi saints.</span>
-														<span class="byline">Durga and brahma vidya (0), explode.</span>
-														<span class="byline">6 point trinity, Indra (0), Agni (0), God (0), Durga (0), Mother (0), Shiva (0), explode.</span>
-														<span class="byline">Balance (0), 50% male, 50% female, explode.</span>
-														<span class="byline">Close all chakras, earth (0) explode.</span>
-														<span class="byline">Loop everyone, (-V#, V#, -H#, H#), explode.</span>
-														<span class="byline">Bring it to a point, point strong, earth (0), loop #.</span>
-														<span class="byline">Locked.</span>
-															
+														<span style="font-size:35px;">Vedanta Formula</span>
+														<span class="byline">Meditate on the point.</span>
+														<span class="byline">Run grails loops.</span>
+														<span class="byline">Work with red loop.</span>
+														<span class="byline">Work with white loop.</span>
+														<span class="byline">Work with kinetic energy loop x.</span>
+														<span class="byline">Work with potential energy loop y.</span>
+														<span class="byline">Work with titanic energy loop z.</span>
+														<span class="byline">Work with kinetic energy (female) loop u.</span>
+														<span class="byline">Work with potential energy (female) loop v.</span>
+														<span class="byline">Work with titanic energy (female) loop w.</span>
+														<span class="byline">Work with kinetic energy x.</span>
+														<span class="byline">software apply loop 1/14 x.</span>
+														<span class="byline">software apply loop 1/14 y.</span>
+														<span class="byline">software apply loop 1/14 z.</span>
+														<span class="byline">software apply loop 1/14 u.</span>
+														<span class="byline">software apply loop 1/14 v.</span>
+														<span class="byline">software apply loop 1/14 w.</span>
+														<span class="byline">software apply loop 2/14 x.</span>
+														<span class="byline">software apply loop 2/14 y.</span>
+														<span class="byline">software apply loop 2/14 z.</span>
+														<span class="byline">software apply loop 2/14 u.</span>
+														<span class="byline">software apply loop 2/14 v.</span>
+														<span class="byline">software apply loop 2/14 w.</span>
+														<span class="byline">Work with kinetic energy -x.</span>
+														<span class="byline">software apply loop -1/14 x.</span>
+														<span class="byline">software apply loop -1/14 y.</span>
+														<span class="byline">software apply loop -1/14 z.</span>
+														<span class="byline">software apply loop -1/14 u.</span>
+														<span class="byline">software apply loop -1/14 v.</span>
+														<span class="byline">software apply loop -1/14 w.</span>
+														<span class="byline">software apply loop -2/14 x.</span>
+														<span class="byline">software apply loop -2/14 y.</span>
+														<span class="byline">software apply loop -2/14 z.</span>
+														<span class="byline">software apply loop -2/14 u.</span>
+														<span class="byline">software apply loop -2/14 v.</span>
+														<span class="byline">software apply loop -2/14 w.</span>
+														<span class="byline">Software update, kinetic energy 0/x loop everyone, relax, mirror.</span>
+														<span class="byline">software update, #kinetic x.</span>
+														<span class="byline">software update, #potential y.</span>
+														<span class="byline">software update, #titantic z.</span>
+														<span class="byline">software update, #kinetic #potential #titantic, xyz, loop.</span>
+														<span class="byline">software update, #chemistry loop.</span>
+														<span class="byline">software update, #physics loop.</span>
+														<span class="byline">software update, #math loop.</span>
+														<span class="byline">software update, xyz, XYZ, loop.</span>
+														<span class="byline">software update, uvw, UVW, loop.</span>
+														<span class="byline">software update, language uvwxyz, loop.</span>
+														<span class="byline">software update, waves uvwxyz, loop.</span>
+														<span class="byline">software update, current uvwxyz, loop.</span>
+														<span class="byline">software update, gas uvwxyz, loop.</span>
+														<span class="byline">software update, dead earth particle uvwxyz, loop.</span>
+														<span class="byline">software update, dead earth core uvwxyz, loop.</span>
+														<span class="byline">software update, galaxy particle uvwxyz, loop.</span>
+														<span class="byline">software update, shiva particle uvwxyz, loop.</span>
+														<span class="byline">software update, indra particle uvwxyz, loop.</span>
+														<span class="byline">software update, nag/amber/maria particle uvwxyz, loop.</span>
+														<span class="byline">software update, ganesh particle uvwxyz, loop.</span>
+														<span class="byline">software update, hanuman particle uvwxyz, loop.</span>
+														<span class="byline">software update, sun/moon/saturn particle uvwxyz, loop.</span>
+														<span class="byline">software update, prithvi/varuna/mitra/vayu/nada particle uvwxyz, loop.</span>
+														<span class="byline">software update, prithvi/varuna/mitra/rose/ea (sumer) particle uvwxyz, loop.</span>
+														<span class="byline">software update, hardware, uvwxyz, loop.</span>
+														<span class="byline">software update, material uvwxyz, loop.</span>
+														<span class="byline">software update, lab data uvwxyz, loop.</span>
+														<span class="byline">software update, bardo uvwxyz, loop.</span>
+														<span class="byline">software update, tree of life uvwxyz, loop.</span>
+														<span class="byline">software update, gunas uvwxyz, loop.</span>
+														<span class="byline">software update, chakras uvwxyz, loop.</span>
+														<span class="byline">software update, koshas uvwxyz, loop.</span>
+														<span class="byline">software update, allah/allah mia (female), guru ji uvwxyz, loop.</span>
+														<span class="byline">software update, ishwar/ishwari/guru uvwxyz, loop.</span>
+														<span class="byline">software update, prajapate ye uvwxyz, loop.</span>
+														<span class="byline">software update, mantras uvwxyz, loop.</span>
+														<span class="byline">software update, miraj uvwxyz, loop.</span>
+														<span class="byline">software update, physics circuit uvwxyz, loop.</span>
+														<span class="byline">software update, chemistry compound uvwxyz, loop.</span>
+														<span class="byline">software update, chemistry compound, mix gold, silver, bronze and kala (earth germ) particle uvwxyz, loop.</span>
+														<span class="byline">software update, chemistry particle, single cell, uvwxyz, loop.</span>
+														<span class="byline">software update, physics particle, single cell, uvwxyz, loop.</span>
+														<span class="byline">software update, math particle, single cell, uvwxyz, loop.</span>
+														<span class="byline">software update, yoga particle uvwxyz, loop.</span>
+														<span class="byline">software update, food particle uvwxyz, loop.</span>
+														<span class="byline">software update, water particle uvwxyz, loop.</span>
+														<span class="byline">software update, work particle uvwxyz, loop.</span>
+														<span class="byline">software update, self-realization particle uvwxyz, loop.</span>
+														<span class="byline">software update, soul particle uvwxyz, loop.</span>
+														<span class="byline">software update, aham brahma asmi particle uvwxyz, loop.</span>
+														<span class="byline">software update, shiva particle uvwxyz, loop.</span>
+														<span class="byline">software update, brahma particle uvwxyz, loop.</span>
+														<span class="byline">software update, amitabha (2nd buddha) particle uvwxyz, loop.</span>
+														<span class="byline">software update, buddha particle uvwxyz, loop.</span>
+														<span class="byline">software update, sun particle, navagrahas particle uvwxyz, loop.</span>
+														<span class="byline">software update, moon particle, navagrahas particle uvwxyz, loop.</span>
+														<span class="byline">software update, saturn particle, navagrahas particle uvwxyz, loop.</span>
+														<span class="byline">software update, saturn particle, trident, snake, indra, galaxy, navagrahas particle uvwxyz, loop.</span>
+														<span class="byline">software update, sun, moon, saturn, uvwxyz, loop.</span>
+														<span class="byline">software update, 1st (Anu, 2nd Enlil/Ninlil, Antu, Ea, Ea/Ba) sun, moon, saturn, uvwxyz, sumer, loop.</span>
+														<span class="byline">software update, Ea/Ba lab/Allah/GuruJi, uvwxyz, loop.</span>
+														<span class="byline">software update, 3 labs, Ea/Ba lab/Allah/GuruJi, ghost ship * 2, 1 shiva ship, uvwxyz, loop.</span>
+														<span class="byline">software update, inner/outer, galaxy, big bang, bhagavad gita 1 & 2, uvwxyz, loop to infiniti.</span>
+														<span class="byline">software update, inner/outer, galaxy, big bang, bhagavad gita 1 & 2, final fantasy 7, uvwxyz, loop to infiniti.</span>
+														<span class="byline">software update, inner/outer, galaxy, big bang, bhagavad gita 1 & 2, uvwxyz, Mu, Atlantis, Arctic, Antarctica pyramids + saturn * 3, loop to infiniti.</span>
+														<span class="byline">software update, inner/outer, galaxy, big bang, bhagavad gita 1 & 2, mountain, river, cave, home, work, tantra yoga, tree, snake, allah, trident.</span>
+														<span class="byline">software update, inner/outer, galaxy, big bang, bhagavad gita 1 & 2, water crystal, sun rays, dot dot, internet, phone, computer, toilet, trash, car.</span>
+														<span class="byline">software update, inner/outer, galaxy, big bang, bhagavad gita 1 & 2, store, bills, credit, bank, money, indriyas, agni, kitchen, bed, carpet, music.</span>
+														<span class="byline">software update, inner/outer, galaxy, big bang, bhagavad gita 1 & 2, mirror, clothes, bathroom, living room, dining room, temple, bar, restaurant, friends, love, family, uvwxyz, loop to infiniti.</span>
+														<span class="byline">software update, dragon, demo to dream team, 18, 2 minutes, then loop everyone. go neo.</span>
+														<span class="byline">software update, hound of heaven, demo to dream team, 18, 2 minutes, then loop everyone. go neo.</span>
+														<span class="byline">software update, dream team of 18 (inner/outer) guards, dragon & hound of heaven, 2 minutes, then loop everyone. go neo.</span>
+														<span class="byline">software update, radha uvwxyz * 2, demo to dream team, 18, 2 minutes, then loop everyone. go neo.</span>
+														<span class="byline">software update, dream team of 18 (inner/outer/brahma) guards, dragon, hound of heaven and radha, 3 minutes, then loop everyone. go neo.</span>
+														<span class="byline">software update, dream team, nirguna + siguna brahman, radha, guru ji, dragon & hound of heaven, 2 minutes, then loop everyone. go neo.</span>
+														<span class="byline">software update, dream team, samuel + liliyath, radha, guru ji, dragon & hound of heaven, 2 minutes, draw (art), outline (kala shiva, kalki, black brahma & buddha snakes + 2nd buddha), then loop everyone. go neo.</span>
+														<span class="byline">software update, dream team, samuel + liliyath, radha, guru ji, dragon & hound of heaven, 2 minutes; inverse uvwxyz * 3, draw (art), outline (kali +1 or 2, durga +1 or 2, or single cell +1 or 2), then loop everyone. go neo.</span>
+														<span class="byline">software update brahmananda (Ishwar), loop.</span>
+														<span class="byline">software update Durga, (Iswari), loop.</span>
+														<span class="byline">software update Durga (noori) navagrahas, (Iswari), loop.</span>
+														<span class="byline">software update brahmananda (noor) navagrahas, (Ishwar), loop.</span>
+														<span class="byline">software update brahmananda (Ishwar), Durga (Ishwari), birth time, reset, memory (brain), loop.</span>
+														<span class="byline">software update brahmananda (Ishwar), Durga (Ishwari), birth time, reset, memory (heart), loop.</span>
+														<span class="byline">software update brahmananda (Ishwar), Durga (Ishwari), birth time, reset, memory (soul), loop.</span>
+														<span class="byline">software update brahmananda (Ishwar), Durga (Ishwari), birth time, reset, memory (bardo), loop.</span>
+														<span class="byline">software update brahmananda (Ishwar), Durga (Ishwari), birth time, reset, memory (matrix), loop.</span>
+														<span class="byline">software update brahmananda (Ishwar), Durga (Ishwari), birth time (neo/ea/ba), reset, loop.</span>
+														<span class="byline">software update brahmananda (Ishwar), Durga (Ishwari), birth time, (neo/ea/ba) reset, memory (neo/ea/ba infiniti), loop.</span>
+														<span class="byline">If you don't have a Twitter account, please view the daily archived loops.</span>
+														<span class="byline">If you have already paid, please bookmark this page.</span>
+														<span class="byline">Let's get started!</span>
 													</header>
 													<div>
 													<ul style="list-style-type:disc; margin:50px;font-size:20px;">
