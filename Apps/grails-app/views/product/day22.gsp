@@ -144,6 +144,12 @@
 														<span class="byline">Reset god (0) through soul (0) and trinity mudras (0) explode, earth (0) explode.</span>
 														<span class="byline">Reset mother (0) through soul (0) and trinity mudras (0) explode, earth (0) explode.</span>
 														<span class="byline">Reset kalki (0) through soul (0) and trinity mudras (0) explode, earth (0) explode.</span>
+														<span class="byline">Retire old vedanta energy, male and female.</span>
+														<span class="byline">Recreate new male and female with grids, pranas.</span>
+														<span class="byline">Female running on 8, male running on 4. Male running on 6, female on 12, aggregated to 18, 21, 24, 27 and 30.</span>
+														<span class="byline">viral / spiral male and female energy.</span>
+														<span class="byline">Create tara vortexes where required with kalki, 50/50.</span>
+														<span class="byline">Recreate the pyramid, male at the top, female at the bottom.</span>
 														<span class="byline">Restart system, grid with shiva, vishnu, brahma, durga, god and the mother.</span>
 														<span class="byline">Loop infiniti.</span>
 														<span class="byline">Close all chakras, earth (0) explode.</span>
