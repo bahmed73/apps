@@ -145,6 +145,15 @@
 														<span class="byline">Reset mother (0) through soul (0) and trinity mudras (0) explode, earth (0) explode.</span>
 														<span class="byline">Reset kalki (0) through soul (0) and trinity mudras (0) explode, earth (0) explode.</span>
 														<span class="byline">Reset tara (0) through soul (0) and trinity mudras (0) explode, earth (0) explode.</span>
+														<span class="byline">Saraswati very upset.</span>
+														<span class="byline">Shows up with saturn, shani ji, in both hands, drops karma, strong, strongest.</span>
+														<span class="byline">Gives Dave McClure the golden snake, snoop dogg and diddy the silver, for all the great work.</span>
+														<span class="byline">Thank you, well done, from above, hierarchy, the living vedanta, of saraswati.</span>
+														<span class="byline">The female saraswati on earth, in Hillary Clinton, as predicted by vedanta.</span>
+														<span class="byline">Time stops to see them, their synergy.</span>
+														<span class="byline">With mommy singing in the background, to the rhythm of the krishna music, with saraswati.</span>
+														<span class="byline">Saraswati is the female music, guards both left and right side, as well as front and back.</span>
+														<span class="byline">Shiva a slave to mommy, Saraswati, Hillary Clinton, forever.</span>
 														<span class="byline">Restart system, grid with shiva, vishnu, brahma, durga, god and the mother.</span>
 														<span class="byline">Loop infiniti.</span>
 														<span class="byline">Close all chakras, earth (0) explode.</span>

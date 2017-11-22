@@ -130,7 +130,7 @@
 										<div class="6u">
 													<section class="box">
 													<header>
-														<span style="font-size:35px;">Tara Vidya - Day 23</span>
+														<span style="font-size:35px;">Tara Trinity - Day 23</span>
 														<span class="byline">Reset shiva (0) through soul (0) and trinity mudras (0) explode, earth (0) explode.</span>
 														<span class="byline">Reset vishnu (0) through soul (0) and trinity mudras (0) explode, earth (0) explode.</span>
 														<span class="byline">Reset brahma (0) through soul (0) and trinity mudras (0) explode, earth (0) explode.</span>
@@ -144,6 +144,12 @@
 														<span class="byline">Reset god (0) through soul (0) and trinity mudras (0) explode, earth (0) explode.</span>
 														<span class="byline">Reset mother (0) through soul (0) and trinity mudras (0) explode, earth (0) explode.</span>
 														<span class="byline">Reset kalki (0) through soul (0) and trinity mudras (0) explode, earth (0) explode.</span>
+														<span class="byline">Smoke the shaman way.</span>
+														<span class="byline">Listen to some music, the nadam way.</span>
+														<span class="byline">Allow the four grid pranas to mix.</span>
+														<span class="byline">The female comes from the left, under the arm, all the way down to the leg.</span>
+														<span class="byline">The male comes from the right, under the arm, mixes with the four grid, across all chakras and granthis.</span>
+														<span class="byline">Together they form the saguni brahmini, parvati, the moon side of yoga, shiva (sun) in the front.</span>
 														<span class="byline">Restart system, grid with shiva, vishnu, brahma, durga, god and the mother.</span>
 														<span class="byline">Loop infiniti.</span>
 														<span class="byline">Close all chakras, earth (0) explode.</span>
