@@ -145,6 +145,11 @@
 														<span class="byline">Reset mother (0) through soul (0) and trinity mudras (0) explode, earth (0) explode.</span>
 														<span class="byline">Reset kalki (0) through soul (0) and trinity mudras (0) explode, earth (0) explode.</span>
 														<span class="byline">Reset tara (0) through soul (0) and trinity mudras (0) explode, earth (0) explode.</span>
+														<span class="byline">Loop infiniti.</span>
+														<span class="byline">Loop infiniti.</span>
+														<span class="byline">Loop infiniti.</span>
+														<span class="byline">Loop infiniti.</span>
+														
 														<span class="byline">Restart system, grid with shiva, vishnu, brahma, durga, god and the mother.</span>
 														<span class="byline">Loop infiniti.</span>
 														<span class="byline">Close all chakras, earth (0) explode.</span>

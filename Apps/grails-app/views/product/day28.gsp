@@ -147,7 +147,12 @@
 														<span class="byline">Reset tara (0) through soul (0) and trinity mudras (0) explode, earth (0) explode.</span>
 														<span class="byline">Reset three goddesses (0) through soul (0) and trinity mudras (0) explode, earth (0) explode.</span>
 														<span class="byline">Restart system, grid with shiva, vishnu, brahma, durga, god and the mother.</span>
-														<span class="byline">Loop infiniti.</span>
+														<span class="byline">Snake world update, nag amber maria, germ cell $$x.</span>
+														<span class="byline">Loop all animals.</span>
+														<span class="byline">Loop all plants.</span>
+														<span class="byline">Loop all stones.</span>
+														<span class="byline">Upgrade earth germ particle, $$x.</span>
+														<span class="byline">Protect our hearts and mind.</span>
 														<span class="byline">Close all chakras, earth (0) explode.</span>
 														<span class="byline">Loop everyone, (-V#, V#, -H#, H#), explode.</span>
 														<span class="byline">Bring it to a point, point strong, earth (0), loop #.</span>
