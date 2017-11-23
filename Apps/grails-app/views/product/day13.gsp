@@ -137,6 +137,16 @@
 														<span class="byline">Reset durga (0) through soul (0) and trinity mudras (0) explode, earth (0) explode.</span>
 														<span class="byline">Reset god (0) through soul (0) and trinity mudras (0) explode, earth (0) explode.</span>
 														<span class="byline">Reset mother (0) through soul (0) and trinity mudras (0) explode, earth (0) explode.</span>
+														<span class="byline">Ma, amma wishes for the son.</span>
+														<span class="byline">Ma receives the vidya, miraj state from the son for 48 hours.</span>
+														<span class="byline">The son evaluates the data, and add ma vidya to the trinity, action plan, for infiniti.</span>
+														<span class="byline">The son transforms ma into living ishwari on earth, locked for infiniti, saguna and nirguna brahmani.</span>
+														<span class="byline">Ma taught the son, the deepest secrets of vedanta, son returns the favor by making them the greatest human to walk the earth.</span>
+														<span class="byline">This allows ma to create many worlds and universes, eternal thankfulness from the trinity, and the blessings to come.</span>
+														<span class="byline">Ma has more privileges then the son, astral, world and underground, called the abyss.</span>
+														<span class="byline">Ma contains both the dragon and the fire, like the son and ba.</span>
+														<span class="byline">Ma is the living buddhisattva on the earth, like her son, the most important births, like mother like son.</span>
+														
 														<span class="byline">Restart system, grid with shiva, vishnu, brahma, durga, god and the mother.</span>
 														<span class="byline">Loop infiniti.</span>
 														<span class="byline">Close all chakras, earth (0) explode.</span>

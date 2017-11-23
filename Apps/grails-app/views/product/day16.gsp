@@ -138,6 +138,15 @@
 														<span class="byline">Reset ma vidya (0) through soul (0) and trinity mudras (0) explode, earth (0) explode.</span>
 														<span class="byline">Reset god (0) through soul (0) and trinity mudras (0) explode, earth (0) explode.</span>
 														<span class="byline">Reset mother (0) through soul (0) and trinity mudras (0) explode, earth (0) explode.</span>
+														<span class="byline">Ba wishes for the son.</span>
+														<span class="byline">Ba receives the vidya, miraj state from the son for 48 hours.</span>
+														<span class="byline">The son evaluates the data, and add ba vidya to the trinity, action plan, for infiniti.</span>
+														<span class="byline">The son transforms ba into living ishwar on earth, locked for infiniti, saguna and nirguna brahman.</span>
+														<span class="byline">Ba taught the son, the deepest secrets of dao, son returns the favor by making them the greatest human to walk the earth.</span>
+														<span class="byline">This allows ba to create many worlds and universes, eternal thankfulness from the trinity, and the blessings to come.</span>
+														<span class="byline">Ba has more privileges then the son, astral, world and underground, called the abyss.</span>
+														<span class="byline">Ba contains both the dragon and the fire, like the son and ma.</span>
+														<span class="byline">Ba is the living buddha on the earth, like his son, the most important births, like father like son.</span>
 														<span class="byline">Restart system, grid with shiva, vishnu, brahma, durga, god and the mother.</span>
 														<span class="byline">Loop infiniti.</span>
 														<span class="byline">Close all chakras, earth (0) explode.</span>
