@@ -143,6 +143,11 @@
 														<span class="byline">Reset katu vidya (0) through soul (0) and trinity mudras (0) explode, earth (0) explode.</span>
 														<span class="byline">Reset god (0) through soul (0) and trinity mudras (0) explode, earth (0) explode.</span>
 														<span class="byline">Reset mother (0) through soul (0) and trinity mudras (0) explode, earth (0) explode.</span>
+														<span class="byline">The way to chakras in acceptance of buddha and kwan yin, 1st chakra, la lum, male and female.</span>
+														<span class="byline">The second level in chakras is acceptance of padmesambhava and tara, 2nd chakra, va vum, male and female.</span>
+														<span class="byline">The third level is locked by shiva till appointed time, with sivarani, shiva love, that loves him unconditionally.</span>
+														<span class="byline">The doors to the chakras are guarded by indra and agni.</span>
+														<span class="byline">The 1st and 2nd chakras are the food and water balance in human body, affects the bottom and thighs, knees locked to solar plex, shiva.</span>
 														<span class="byline">Restart system, grid with shiva, vishnu, brahma, durga, god and the mother.</span>
 														<span class="byline">Loop infiniti.</span>
 														<span class="byline">Close all chakras, earth (0) explode.</span>

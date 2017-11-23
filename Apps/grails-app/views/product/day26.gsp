@@ -145,11 +145,23 @@
 														<span class="byline">Reset mother (0) through soul (0) and trinity mudras (0) explode, earth (0) explode.</span>
 														<span class="byline">Reset kalki (0) through soul (0) and trinity mudras (0) explode, earth (0) explode.</span>
 														<span class="byline">Reset tara (0) through soul (0) and trinity mudras (0) explode, earth (0) explode.</span>
-														<span class="byline">Loop infiniti.</span>
-														<span class="byline">Loop infiniti.</span>
-														<span class="byline">Loop infiniti.</span>
-														<span class="byline">Loop infiniti.</span>
-														
+														<span class="byline">Reset middle school, high school, college and university.</span>
+														<span class="byline">Soul dies, moves up and goes to either prison, jail, hospital or school.</span>
+														<span class="byline">1 year of earth = 100 years in spirit.</span>
+														<span class="byline">If the soul is not ready for the earth, loop infiniti through prison, jail, hospital and school.</span>
+														<span class="byline">Quiz or exam on every in between stages, between prison, jail, hospital and school, in spirit hierarchy.</span>
+														<span class="byline">500 years in between this enlightenment and reincarnation of any master souls.</span>
+														<span class="byline">Remember the battles of apostles, and 500 years to deliver the holy bible.</span>
+														<span class="byline">Reassign the master souls in their own universes, and not earth, till they are educated.</span>
+														<span class="byline">The primary subjects are: sociology, psychology, computer science, math, biology, chemistry, languages and physics.</span>
+														<span class="byline">There are various religion courses, islam, buddhist, christianity, torah, a place to get educated before step on earth.</span>
+														<span class="byline">The master souls, in their master groups can teach the lower less fortunate souls, based on choice.</span>
+														<span class="byline">The hospitals in the loka, can provide evaluation of the soul, some very disturbed by the most recent events.</span>
+														<span class="byline">The evaluation is A, B or C grade, if the soul is not suitable for hospital, then be jailed and socialize.</span>
+														<span class="byline">If the soul is not suitable for jail, then prison, solitary confinement, where the soul can be alone and purify.</span>
+														<span class="byline">The prison, jail, hospital and school are elements within the loka, various soul states, matched by teachers.</span>
+														<span class="byline">If the soul doesn't qualify for loka, then dosagh or hell for appointment time, then reincarnate the soul.</span>
+														<span class="byline">Test the soul through prison, jail, hospital and school again, only when qualified, step on earth.</span>
 														<span class="byline">Restart system, grid with shiva, vishnu, brahma, durga, god and the mother.</span>
 														<span class="byline">Loop infiniti.</span>
 														<span class="byline">Close all chakras, earth (0) explode.</span>

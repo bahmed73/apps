@@ -136,7 +136,7 @@
 														<span class="byline">Pray for all the vidyants (dreamers).</span>
 														<span class="byline">Om ra ka ba shwat, kali yama rahu ketu, archangel michael and gabriel, isis and osiris, zeus, wadd, dionysys, ea, hubal and god.</span>
 														<span class="byline">System restart, all grids.</span>
-														<span class="byline">Thankful for Sivananda, Vishnudevananda, Satchidananda, Brahmananda, Rama Krishna, Ramana Maharishi, Saint Germain, Vivekananda, Yoginanda, Sai Baba, Baba ji, Master Wang, Amma and all masters.</span>
+														<span class="byline">Thankful for Sivananda, Vishnudevananda, Satchidananda, Brahmananda, Rama Krishna, Ramana Maharishi, Saint Germain, Vivekananda, Yoginanda, Sai Baba, Baba ji, Narayan, Master Wang, Amma and all masters.</span>
 														<span class="byline">Thankful for Snoop Dogg, Diddy, Bill & Hillary Clinton, Dave McClure, Vladimir Putin, Margarita Simonyan, Xi Jinping, 500 startups, mytweetmark, CNN, nytimes, nypost, rt.com, xhnews and moscow times.</span>
 														<span class="byline">Thankful for Nizamuddin Aliya and all the sufi saints.</span>
 														<span class="byline">Durga and brahma vidya (0), explode.</span>

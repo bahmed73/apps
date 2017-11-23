@@ -146,6 +146,8 @@
 														<span class="byline">Reset kalki (0) through soul (0) and trinity mudras (0) explode, earth (0) explode.</span>
 														<span class="byline">Reset tara (0) through soul (0) and trinity mudras (0) explode, earth (0) explode.</span>
 														<span class="byline">Reset three goddesses (0) through soul (0) and trinity mudras (0) explode, earth (0) explode.</span>
+														<span class="byline">Happy thanksgiving 2017 to everyone, all creations, germ cells.</span>
+														<span class="byline">The interface, vidya is now complete, the abstract classes are in place, now the implementation begins...</span>
 														<span class="byline">Restart system, grid with shiva, vishnu, brahma, durga, god and the mother.</span>
 														<span class="byline">Loop infiniti.</span>
 														<span class="byline">Close all chakras, earth (0) explode.</span>

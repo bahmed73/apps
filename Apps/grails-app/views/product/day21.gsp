@@ -143,6 +143,17 @@
 														<span class="byline">Reset katu vidya (0) through soul (0) and trinity mudras (0) explode, earth (0) explode.</span>
 														<span class="byline">Reset god (0) through soul (0) and trinity mudras (0) explode, earth (0) explode.</span>
 														<span class="byline">Reset mother (0) through soul (0) and trinity mudras (0) explode, earth (0) explode.</span>
+														<span class="byline">Remember in 1996, when in your last semester, your brain froze taking operating system and compiler classes.</span>
+														<span class="byline">Remember the same year, how you struggled to code with the best from Novell, novell directory services, active directory.</span>
+														<span class="byline">Remember that in 1997, Lockheed Martin paid $10000 for your ticket to Pakistan, to get h-1b visa from Islamabad.</span>
+														<span class="byline">Remember that in 1999 you lead nasa, international space station, docdomain system and your brain froze again.</span>
+														<span class="byline">Remember that in 2000, you opened all your chakras, with the help of Allah, paid by lockheed martin.</span>
+														<span class="byline">Remember your trip to europe in 2001, visiting buddha and ganesh bar in amsterdam; you accepted them gracely.</span>
+														<span class="byline">Remember your christian wedding, being a muslim and spouse being a brahman hindu, creators of temples in India.</span>
+														<span class="byline">Remember your two beautiful children, little durga, and the two properties you owned for $1 million.</span>
+														<span class="byline">Remember the many millions your earned from salary over your career in america, and the startup projects, build from ground up.</span>
+														<span class="byline">Remember the billions of people you helped through internet, make their lives better in every way, through your energy and soul.</span>
+														<span class="byline">Remember the 10 books you wrote, to help trillions of people world wide, in yoga, food, water, startups, social influence and networks.</span>
 														<span class="byline">Restart system, grid with shiva, vishnu, brahma, durga, god and the mother.</span>
 														<span class="byline">Loop infiniti.</span>
 														<span class="byline">Close all chakras, earth (0) explode.</span>

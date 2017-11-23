@@ -145,6 +145,15 @@
 														<span class="byline">Reset mother (0) through soul (0) and trinity mudras (0) explode, earth (0) explode.</span>
 														<span class="byline">Reset kalki (0) through soul (0) and trinity mudras (0) explode, earth (0) explode.</span>
 														<span class="byline">Reset tara (0) through soul (0) and trinity mudras (0) explode, earth (0) explode.</span>
+														<span class="byline">The soul is converted to female: trinity; sita, radha and parvati.</span>
+														<span class="byline">Matched with the counterparts, rama, krishna and shiva.</span>
+														<span class="byline">The transition helps move the universe to a female vibration, on the core level, soul, including their energy.</span>
+														<span class="byline">The living vedanta and dao is within the soul, same as all the abrahamic religions.</span>
+														<span class="byline">The transition might be difficult for some, that live in the male dominant world.</span>
+														<span class="byline">The transition is necessary, this thanksgiving holiday 2017, while the old earth and energy burns down to nothing.</span>
+														<span class="byline">The transition will help create the new earth, new energies: earth blue print, parallel to human.</span>
+														<span class="byline">All the guidance of the earth, applies to the newly created humans, build with the best energy available, carefully chosen.</span>
+														<span class="byline">The four elements of dao: zen, shen, agni and agoni applies, karma is enforced strictly by saturn, shani ji and krishna loka (school of thought).</span>
 														<span class="byline">Restart system, grid with shiva, vishnu, brahma, durga, god and the mother.</span>
 														<span class="byline">Loop infiniti.</span>
 														<span class="byline">Close all chakras, earth (0) explode.</span>
