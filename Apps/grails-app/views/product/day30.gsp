@@ -150,9 +150,9 @@
 														<span class="byline">The interface, vidya is now complete, the abstract classes are in place, now the implementation begins...</span>
 														<span class="byline">Restart system, grid with shiva, vishnu, brahma, durga, god and the mother.</span>
 														<span class="byline">Loop infiniti.</span>
-														<span class="byline">Close all chakras, earth (0) explode.</span>
+														<span class="byline">Close all chakras, earth (0), kingdom (0) explode.</span>
 														<span class="byline">Loop everyone, (-V#, V#, -H#, H#), explode.</span>
-														<span class="byline">Bring it to a point, point strong, earth (0), loop #.</span>
+														<span class="byline">Bring it to a point, point strong, earth (0), kingdom (0), god (0), guru (0), student (0), soul-mate (0), loop #.</span>
 														<span class="byline">Locked.</span>
 													</header>
 													<div>

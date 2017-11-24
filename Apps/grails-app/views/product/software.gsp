@@ -58,7 +58,7 @@
 							<!-- Banner -->
 								<section id="banner">
 									<a href="http://foodal.co">
-										<span class="image image-full"><asset:image src="if-wallpaper-3.png"/></span>
+										<span class="image image-full"><asset:image src="doctor.png"/></span>
 										<header>
 											<h2>Foodal</h2>
 											<!--span class="byline">welcome!</span-->

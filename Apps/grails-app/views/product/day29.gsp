@@ -158,6 +158,12 @@
 														<span class="byline">They are immortal snakes, can heal any wound, the immortal Amber, in Nag (snake), maria (invisible).</span>
 														<span class="byline">The tale has all the world secrets, the formulas for existenc, written by A-Hameed, 1st teacher.</span>
 														<span class="byline">The living God, that passed on his knowledge in 500 books.</span>
+														<span class="byline">Drawing the nag kingdom (0) with sharpie marker, provided by Heather J. Tait, explode.</span>
+														<span class="byline">As Heather, composes the music for al-mightly with violins, and angels.</span>
+														<span class="byline">Re-drawing the amber and maria kingdoms, with help from the reflection of A-hameed, Her God.</span>
+														<span class="byline">As the kingdoms are created, by the visions, and thought forms, of ascendent souls.</span>
+														<span class="byline">The souls that constantly reach us, in various forms, as guides and helpers, all around the world.</span>
+														<span class="byline">Following the energy of the blessed souls, gaytri mantra, remains the same, and so does the cross.</span>
 														<span class="byline">Restart system, grid with shiva, vishnu, brahma, durga, god and the mother.</span>
 														<span class="byline">Close all chakras, earth (0) explode.</span>
 														<span class="byline">Loop everyone, (-V#, V#, -H#, H#), explode.</span>
