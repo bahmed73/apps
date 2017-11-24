@@ -138,6 +138,14 @@
 														<span class="byline">Reset ma vidya (0) through soul (0) and trinity mudras (0) explode, earth (0) explode.</span>
 														<span class="byline">Reset god (0) through soul (0) and trinity mudras (0) explode, earth (0) explode.</span>
 														<span class="byline">Reset mother (0) through soul (0) and trinity mudras (0) explode, earth (0) explode.</span>
+														<span class="byline">Remember the first time you met master wang in san francisco, california, in 2012, in his dao temple.</span>
+														<span class="byline">Then again you met him in 2014, when sivananda yoga ashram was shutting down, thirst for knowledge.</span>
+														<span class="byline">Remember you talking to him for hours, like eternity stopped, an eternal student and master connection re-established on earth.</span>
+														<span class="byline">The tale of the two living dragons, how he put his heart, mind and soul in you, to be like him.</span>
+														<span class="byline">Remember that you took him to harbin hot springs, where he served over 200 people with his immortal tea, and vegan food.</span>
+														<span class="byline">Remember when you told him that this is heaven, with all the naked girls and boys; he said heaven stinks of animal, being vegan.</span>
+														<span class="byline">Remember when you and him were validated by the native americans, medicine wheel at the harbin hot springs, with the two dragons in the water.</span>
+														<span class="byline">Remember before harbin hot springs burned down in 2015, you and master wang were blessed by the billions year old dragon water, and crescent (moon).</span>
 														<span class="byline">Restart system, grid with shiva, vishnu, brahma, durga, god and the mother.</span>
 														<span class="byline">Loop infiniti.</span>
 														<span class="byline">Close all chakras, earth (0) explode.</span>

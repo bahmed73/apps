@@ -137,6 +137,15 @@
 														<span class="byline">Reset durga (0) through soul (0) and trinity mudras (0) explode, earth (0) explode.</span>
 														<span class="byline">Reset god (0) through soul (0) and trinity mudras (0) explode, earth (0) explode.</span>
 														<span class="byline">Reset mother (0) through soul (0) and trinity mudras (0) explode, earth (0) explode.</span>
+														<span class="byline">Remember when you first saw amma, how happy she was to see the brahmananda ashram book, with gauri from sivananda ashram in 2013.</span>
+														<span class="byline">Remember how she blessed everyone in the brahmananda book, and saw her picture from 1987, written by her own disciples.</span>
+														<span class="byline">Remember her disciple was sister of your neighbor, in sivananda ashram in 2013, and she could feel the synergy amoung all the yogis.</span>
+														<span class="byline">Remember gauri yellow clothes brightened the whole stage, with you; amma gave a huge darshan, where her disciples told you that afterwards.</span>
+														<span class="byline">Remember the second time you saw amma in 2013, with caroline from brahmananda ashram, and you received the dattatreya mantra.</span>
+														<span class="byline">Remember after reciting the dattatreya mantra, coroline saw stars in your aura.</span>
+														<span class="byline">Remember the third time you saw amma in 2014, she put the vishnu symbol on your forehead, and people in her kitchen told you so.</span>
+														<span class="byline">Remember you were told there at the darshan that you need vishnu to tame the shiva snake.</span>
+														<span class="byline">Remember the uncountable times of healing, that you and amma have done together since, an immortal eshwari, with master wang as the immortal eshwar.</span>
 														<span class="byline">Restart system, grid with shiva, vishnu, brahma, durga, god and the mother.</span>
 														<span class="byline">Loop infiniti.</span>
 														<span class="byline">Close all chakras, earth (0) explode.</span>

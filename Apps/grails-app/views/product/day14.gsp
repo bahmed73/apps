@@ -137,6 +137,16 @@
 														<span class="byline">Reset durga (0) through soul (0) and trinity mudras (0) explode, earth (0) explode.</span>
 														<span class="byline">Reset god (0) through soul (0) and trinity mudras (0) explode, earth (0) explode.</span>
 														<span class="byline">Reset mother (0) through soul (0) and trinity mudras (0) explode, earth (0) explode.</span>
+														<span class="byline">Remember how the native american elders did not allow the red water from holy springs in the bath.</span>
+														<span class="byline">Remember the thanksgiving in 2010, and life threatening injury by the base of the two holy springs and shasta river.</span>
+														<span class="byline">Remember all the life threatening injuries, accidents, that allowed the yoga body to open for the gurus to work with.</span>
+														<span class="byline">Remember the uncountable prayer on top of mount shasta, on the panther meadows vortex and many others.</span>
+														<span class="byline">Remember the years of prayers with the elders and shamans at stewart mineral springs in weed, california, by the two holy springs and shasta river.</span>
+														<span class="byline">Remember the agni, the sacred fire obtained by brahmananda ashram, in san francisco, california, by constant devotion to the chakra, raja and astral guru.</span>
+														<span class="byline">Remember the dragon, obtained by master wang, food and water, through dedicated to a teacher, who was looking for a golden student.</span>
+														<span class="byline">Remember the astral dragons obtained by sivananda, vishnudevananda and satchidananda through japa, hatha, karma and bhakti yoga.</span>
+														<span class="byline">Remember all the gurus, astrology hierarchy, living vedanta teachers, mothers and amma, stories, chakra charts, books and music instruments by agni.</span>
+														<span class="byline">Remember that brahmananda saraswati blessed amma in 1987, and then blessed you in 2012, and then amma blessed you multiple times since 2013.</span>
 														<span class="byline">Restart system, grid with shiva, vishnu, brahma, durga, god and the mother.</span>
 														<span class="byline">Loop infiniti.</span>
 														<span class="byline">Close all chakras, earth (0) explode.</span>

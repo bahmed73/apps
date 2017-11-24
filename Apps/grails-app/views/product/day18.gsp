@@ -138,6 +138,12 @@
 														<span class="byline">Reset ma vidya (0) through soul (0) and trinity mudras (0) explode, earth (0) explode.</span>
 														<span class="byline">Reset god (0) through soul (0) and trinity mudras (0) explode, earth (0) explode.</span>
 														<span class="byline">Reset mother (0) through soul (0) and trinity mudras (0) explode, earth (0) explode.</span>
+														<span class="byline">Remember how master wang never set his eyes off of you, like a true living father, friend, brother, teacher, filling in every male role.</span>
+														<span class="byline">Remember the shaolin monks, falun dafa, kung fu, yoga, language, dao, tao, shit and piss stories.</span>
+														<span class="byline">Remember how the master could smell the animal from your shit, for example when AZ ate burger king fish sandwich and he ran after him around the house.</span>
+														<span class="byline">Remember batau, and i ching, that constructed the two water wells, in oakland, where the water tasted so sweet, because of the blessings.</span>
+														<span class="byline">Remember the master, wrapping himself with golden energy, and doing kung fu with it.</span>
+														<span class="byline">Remember the master, when he asked you where you hear the nada, sound of silence, the sound of his own soul, and he said kidney, and you said, head.</span>
 														<span class="byline">Restart system, grid with shiva, vishnu, brahma, durga, god and the mother.</span>
 														<span class="byline">Loop infiniti.</span>
 														<span class="byline">Close all chakras, earth (0) explode.</span>

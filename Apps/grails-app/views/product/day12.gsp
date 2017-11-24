@@ -137,6 +137,9 @@
 														<span class="byline">Reset durga (0) through soul (0) and trinity mudras (0) explode, earth (0) explode.</span>
 														<span class="byline">Reset god (0) through soul (0) and trinity mudras (0) explode, earth (0) explode.</span>
 														<span class="byline">Reset mother (0) through soul (0) and trinity mudras (0) explode, earth (0) explode.</span>
+														<span class="byline">Remember the 12 goddesses that taught the way of life.</span>
+														<span class="byline">Remember dajaal, coyote, billah and the unicorn, horse from nepture and mercury.</span>
+														<span class="byline">Remember the gleem spread across the park in mount shasta, at thanksgiving dinner.</span>
 														<span class="byline">Restart system, grid with shiva, krishna, brahma, durga, god and the mother.</span>
 														<span class="byline">Loop infiniti.</span>
 														<span class="byline">Close all chakras, earth (0) explode.</span>
