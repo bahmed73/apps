@@ -103,12 +103,12 @@
 													<!-- <a href="http://www.mytweetmark.com" class="image image-full"><asset:image src="foodal-homepage-16.png"/></a> -->
 													
 													<header>
-													<span style="font-size:35px;">Saguna Brahmani and Brahman - Part II</span>
+													<span style="font-size:35px;">Saguna Brahmani and Brahman = Creation - Begin Time (0)</span>
 														<span class="byline"><g:link controller="product" action="day1"><span style="color:#8a7e7e;">30 days, 10 vidyas - shukriya, raat (night), dinn (day) - gleam (stars in the eyes, universe, soul of allah). </span></g:link></span>
 														<span class="byline"><g:link controller="product" action="day1"><span style="color:#8a7e7e;">Shiva Trinity (vidya ratri, issa shankara sham subah, dua), Krishna Trinity (vidya ratri, subah sham, dua), Brahma Trinity (ratri, subah buddha, dua).</span></g:link></span> 
 														<span class="byline"><g:link controller="product" action="day10"><span style="color:#8a7e7e;">Durga Trinity (ratri subah ashram), Ma Trinity(ratri subah beta), Ba Trinity (ratri subah sham mohammad).</span></g:link></span>
 														<span class="byline"><g:link controller="product" action="day19"><span style="color:#8a7e7e;">Kalki Trinity (subah sham mu), Tara Vidya (dream), Goddess Vidya (dream), X Vidya (dream, ratri, subah).</span></g:link></span>
-														<span style="font-size:35px;">Nirguna / Saguna Brahmani & Brahman = God Almighty - Begin Time (0)</span>
+														<span style="font-size:35px;">Nirguna Brahmani & Brahman = God Almighty - Begin Time (0)</span>
 														<span class="byline"><g:link controller="product" action="day1"><span style="color:#8a7e7e;">Shiva Trinity - Day 1.</span></g:link></span>
 														<span class="byline"><g:link controller="product" action="day2"><span style="color:#8a7e7e;">Shiva Trinity - Day 2.</span></g:link></span>
 														<span class="byline"><g:link controller="product" action="day3"><span style="color:#8a7e7e;">Shiva Trinity - Day 3.</span></g:link></span>
@@ -158,7 +158,7 @@
 													</header>
 													<div>
 													<span style="font-size:35px;">Vedanta and Energy</span>
-													<span class="byline"><g:link controller="product" action="vedanta"><span style="color:#8a7e7e;">Vedanta</span></g:link></span>
+													<span class="byline"><g:link controller="product" action="vedanta"><span style="color:#8a7e7e;">Vedanta formula and locks.</span></g:link></span>
 													</div>
 													<br>
 													<footer class="actions">

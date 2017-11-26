@@ -152,16 +152,27 @@
 														<span class="byline">Startup kingdom (0) explode with Dave McClure and Darth.</span>
 														<span class="byline">Yoga kingdom (0) explode, with Narayan and Amma.</span>
 														<span class="byline">Dao kingdom (0) explode with shaolin monks, master wang, az, kelly and x.</span>
+														<span class="byline">Thankful for the fire and the rainbow teams.</span>
+														<span class="byline">Thankful for the neo (C), asathi (B) teams.</span>
+														<span class="byline">Thankful for the saints (A) and parents (D) of neo, asathi teams.</span>
+														<span class="byline">Thankful for all humanity, zeus A - Z, 0 - 12, sending love this christmas to all, point strong, earth (0).</span>
+														<span class="byline">Best wishes to all for 2018, 2017 went like a breeze, much progress has been made.</span>
+														<span class="byline">Stay safe in 2018, and think about security for loved ones and family.</span>
+														<span class="byline">If you see any weirdness on the street or home, better to walk away.</span>
 														<span class="byline">Loop all animals.</span>
 														<span class="byline">Loop all plants.</span>
 														<span class="byline">Loop all stones.</span>
 														<span class="byline">Upgrade earth germ particle, $$x.</span>
+														<span class="byline">Upgrade kingdom germ particle, $$x.</span>
+														<span class="byline">Upgrade underworld germ particle, $$x.</span>
+														<span class="byline">May kali and kala be the guide for kingdom, earth and underworld, $$x.</span>
 														<span class="byline">Protect our hearts and mind.</span>
 														<span class="byline">Close all chakras, earth (0) explode.</span>
 														<span class="byline">kingdom (0) explode.</span>
+														<span class="byline">underworld (0) explode.</span>
 														<span class="byline">Loop infiniti.</span>
 														<span class="byline">Loop everyone, (-V#, V#, -H#, H#), explode.</span>
-														<span class="byline">Bring it to a point, point strong, earth (0), loop #.</span>
+														<span class="byline">Bring it to a point, point strong, kingdom (0), earth (0), underworld (0), loop #.</span>
 														<span class="byline">Locked.</span>
 													</header>
 													<div>
