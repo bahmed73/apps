@@ -156,12 +156,11 @@
 														<span class="byline">Reset kalki (0) through soul (0) and trinity mudras (0) explode, earth (0) explode.</span>
 														<span class="byline">Reset tara (0) through soul (0) and trinity mudras (0) explode, earth (0) explode.</span>
 														<span class="byline">Reset three goddesses (0) through soul (0) and trinity mudras (0) explode, earth (0) explode.</span>
-														<span class="byline">Loop infiniti.</span>
-														<span class="byline">Loop infiniti.</span>
-														<span class="byline">Loop infiniti.</span>
-														<span class="byline">Loop infiniti.</span>
-														<span class="byline">Loop infiniti.</span>
-														
+														<span class="byline">Prayer to XYZ vidya for all student and teacher debts be removed, on earth (0), explode.</span>
+														<span class="byline">Prayer to XYZ vidya for each citizen to receive 10000 each, for all the human (0) mass genocide on earth (0) explode.</span>
+														<span class="byline">Prayer to XYZ vidya for all student (0) to have a brighter future and living conditions, without debt.</span>
+														<span class="byline">Prayer to XYZ vidya for always be under close of the gurus, god al-mighty, vedanta, buddhist tree of life, and abrahim.</span>
+														<span class="byline">Prayer to XYZ vidya to merge adam and noah lineages, mix with shiva with kali, teachers from china and india with america.</span>
 														<span class="byline">Restart system, grid with shiva, vishnu, brahma, durga, god and the mother.</span>
 														<span class="byline">Loop infiniti.</span>
 														<span class="byline">Close all chakras, earth (0), kingdom (0), underworld (0) explode.</span>
