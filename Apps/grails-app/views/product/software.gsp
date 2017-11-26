@@ -103,7 +103,10 @@
 													<!-- <a href="http://www.mytweetmark.com" class="image image-full"><asset:image src="foodal-homepage-16.png"/></a> -->
 													
 													<header>
-													<span style="font-size:35px;">Saguna Brahmani and Brahman = Creation - Begin Time (0)</span>
+														<span style="font-size:35px;">How to read time?</span>
+														<span class="byline"><g:link controller="product" action="time"><span style="color:#8a7e7e;">Chart reading with astrology and numerology, number system of 12, aligned with planets and palmistry. </span></g:link></span>
+													
+														<span style="font-size:35px;">Saguna Brahmani and Brahman = Creation - Begin Time (0)</span>
 														<span class="byline"><g:link controller="product" action="day1"><span style="color:#8a7e7e;">40 days, 14 vidyas - shukriya, raat (night), dinn (day) - gleam (stars in the eyes, universe, soul of allah). </span></g:link></span>
 														<span class="byline"><g:link controller="product" action="day1"><span style="color:#8a7e7e;">Shiva Trinity (vidya ratri, issa shankara sham subah, dua), Krishna Trinity (vidya ratri, subah sham, dua), Brahma Trinity (ratri, subah buddha, dua).</span></g:link></span> 
 														<span class="byline"><g:link controller="product" action="day10"><span style="color:#8a7e7e;">Durga Trinity (ratri subah ashram), Ma Trinity(ratri subah beta), Ba Trinity (ratri subah sham mohammad).</span></g:link></span>
