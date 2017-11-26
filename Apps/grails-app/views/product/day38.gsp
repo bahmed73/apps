@@ -140,7 +140,7 @@
 										<div class="6u">
 													<section class="box">
 													<header>
-														<span style="font-size:35px;">X Vidya - Day 30</span>
+														<span style="font-size:35px;">Kali Trinity - Day 38</span>
 														<span class="byline">Reset shiva (0) through soul (0) and trinity mudras (0) explode, earth (0) explode.</span>
 														<span class="byline">Reset vishnu (0) through soul (0) and trinity mudras (0) explode, earth (0) explode.</span>
 														<span class="byline">Reset brahma (0) through soul (0) and trinity mudras (0) explode, earth (0) explode.</span>

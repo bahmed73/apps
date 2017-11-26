@@ -140,7 +140,7 @@
 										<div class="6u">
 													<section class="box">
 													<header>
-														<span style="font-size:35px;">X Vidya - Day 30</span>
+														<span style="font-size:35px;">Y Vidya - Day 33</span>
 														<span class="byline">Reset shiva (0) through soul (0) and trinity mudras (0) explode, earth (0) explode.</span>
 														<span class="byline">Reset vishnu (0) through soul (0) and trinity mudras (0) explode, earth (0) explode.</span>
 														<span class="byline">Reset brahma (0) through soul (0) and trinity mudras (0) explode, earth (0) explode.</span>
@@ -156,21 +156,13 @@
 														<span class="byline">Reset kalki (0) through soul (0) and trinity mudras (0) explode, earth (0) explode.</span>
 														<span class="byline">Reset tara (0) through soul (0) and trinity mudras (0) explode, earth (0) explode.</span>
 														<span class="byline">Reset three goddesses (0) through soul (0) and trinity mudras (0) explode, earth (0) explode.</span>
-														<span class="byline">Remember Rehan, Agha, Mighty, Bhutto, Zahid Bhai, Najeeb Bhai, Father Todd, professors of chemistry and arabic.</span>
-														<span class="byline">Remember how they changed their form into angel, jinn and soul, for infiniti.</span>
-														<span class="byline">Remember Solomon and David, how they taught how to speak with animals, birds, crows, parrots and eagles.</span>
-														<span class="byline">Remember how Baba ji, took command of all the jinns on your behalf.</span>
-														<span class="byline">Remember thy love for your soul-mate, eshwari, Heather, and eshwar, Brahmananda, teacher, a god.</span>
-														<span class="byline">Remember thy love for al-mighty, and room 302, in oakland, california, the eternal vortex.</span>
-														<span class="byline">Remember all thy vortexes you created for the kingdom, earth and underworld, appropriate for each religion and deity.</span>
-														<span class="byline">Remember all the moksha souls, the liberated one, being able to change any form, where appropriate.</span>
-														<span class="byline">Remember all the gurus and teachers, that give you, your teachers, especially Heather and Brahmananda, Sivananda, Vishnudevananda and Satchidananda.</span>
-														<span class="byline">Remember the whole hierarchy, forgiven by your love, be the best you can be, making plans for the next generation, and next.</span>
-														<span class="byline">Remember there is no suffering in the kingdom and underworld, the only suffering that remains on earth, the fighting.</span>
-														<span class="byline">Remember to tell that, it is their world, they have to live in it, when you are gone, mind, heart, body and soul.</span>
-														<span class="byline">Remember the yoga body, with the soul-mate, Heather, guidance from Brahmananda, and the affect on all the creation, including space station and NASA.</span>
-														<span class="byline">Happy thanksgiving 2017 to everyone, all creations, germ cells.</span>
-														<span class="byline">The interface, vidya is now complete, the abstract classes are in place, now the implementation begins...</span>
+														<span class="byline">Prayer to utilize the egyptian creation hierarchy as the default creations, for nada cell, soul.</span>
+														<span class="byline">Prayer to apply room 302 for the highest creation hierarchy on planet XYZ, called earth (0).</span>
+														<span class="byline">Prayer to utilize the sivananda creation hierarchy for human (0), germ cell and nada cell, souls.</span>
+														<span class="byline">Prayer to utilize the dave mcclure creation hierarchy for human (0), germ cell and nada cell, souls.</span>
+														<span class="byline">Prayer to utilize the master wang creation hierarchy for human (0), golden students with living teacher guidance, germ cell and nada cell, souls.</span>
+														<span class="byline">Prayer to utilize the love of amma, as the guidance principle, where heart is missing, went astral to Heather, and Brahmananda.</span>
+														<span class="byline">Prayer to utilize the amma creation hierachy where there is ever need for kali, durga, saraswati, and her own kundalini energy he protects.</span>
 														<span class="byline">Restart system, grid with shiva, vishnu, brahma, durga, god and the mother.</span>
 														<span class="byline">Loop infiniti.</span>
 														<span class="byline">Close all chakras, earth (0), kingdom (0), underworld (0) explode.</span>
