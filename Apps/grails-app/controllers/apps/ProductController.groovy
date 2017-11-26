@@ -381,6 +381,56 @@ class ProductController {
 		log.info "inside day30"
 	}
 	
+	def day31() {
+		System.out.println("inside day31")
+		log.info "inside day31"
+	}
+	
+	def day32() {
+		System.out.println("inside day32")
+		log.info "inside day32"
+	}
+	
+	def day33() {
+		System.out.println("inside day33")
+		log.info "inside day33"
+	}
+	
+	def day34() {
+		System.out.println("inside day34")
+		log.info "inside day34"
+	}
+	
+	def day35() {
+		System.out.println("inside day35")
+		log.info "inside day35"
+	}
+	
+	def day36() {
+		System.out.println("inside day36")
+		log.info "inside day36"
+	}
+	
+	def day37() {
+		System.out.println("inside day37")
+		log.info "inside day37"
+	}
+	
+	def day38() {
+		System.out.println("inside day38")
+		log.info "inside day38"
+	}
+	
+	def day39() {
+		System.out.println("inside day39")
+		log.info "inside day39"
+	}
+	
+	def day40() {
+		System.out.println("inside day40")
+		log.info "inside day40"
+	}
+	
 	def vedanta() {
 		System.out.println("inside vedanta")
 		log.info "inside vedanta"

@@ -104,10 +104,11 @@
 													
 													<header>
 													<span style="font-size:35px;">Saguna Brahmani and Brahman = Creation - Begin Time (0)</span>
-														<span class="byline"><g:link controller="product" action="day1"><span style="color:#8a7e7e;">30 days, 10 vidyas - shukriya, raat (night), dinn (day) - gleam (stars in the eyes, universe, soul of allah). </span></g:link></span>
+														<span class="byline"><g:link controller="product" action="day1"><span style="color:#8a7e7e;">40 days, 14 vidyas - shukriya, raat (night), dinn (day) - gleam (stars in the eyes, universe, soul of allah). </span></g:link></span>
 														<span class="byline"><g:link controller="product" action="day1"><span style="color:#8a7e7e;">Shiva Trinity (vidya ratri, issa shankara sham subah, dua), Krishna Trinity (vidya ratri, subah sham, dua), Brahma Trinity (ratri, subah buddha, dua).</span></g:link></span> 
 														<span class="byline"><g:link controller="product" action="day10"><span style="color:#8a7e7e;">Durga Trinity (ratri subah ashram), Ma Trinity(ratri subah beta), Ba Trinity (ratri subah sham mohammad).</span></g:link></span>
 														<span class="byline"><g:link controller="product" action="day19"><span style="color:#8a7e7e;">Kalki Trinity (subah sham mu), Tara Vidya (dream), Goddess Vidya (dream), X Vidya (dream, ratri, subah).</span></g:link></span>
+														<span class="byline"><g:link controller="product" action="day19"><span style="color:#8a7e7e;">Kalkan Trinity (subah sham Her), Heather Trinity (action, radha, sita, parvati, tara, kwan yin, lakshmi, saraswati, sivarani), Brahmananda Trinity (action, swing the bama), Kali Trinity (action, ratri, subah), God Trinity / X Vidya with Gabriel and Michael (al-mighty), December 2017 - January 2018, Happy new year.</span></g:link></span>
 														<span style="font-size:35px;">Nirguna Brahmani & Brahman = God Almighty - Begin Time (0)</span>
 														<span class="byline"><g:link controller="product" action="day1"><span style="color:#8a7e7e;">Shiva Trinity - Day 1.</span></g:link></span>
 														<span class="byline"><g:link controller="product" action="day2"><span style="color:#8a7e7e;">Shiva Trinity - Day 2.</span></g:link></span>
@@ -139,6 +140,16 @@
 														<span class="byline"><g:link controller="product" action="day28"><span style="color:#8a7e7e;">X Vidya - Day 28.</span></g:link></span>
 														<span class="byline"><g:link controller="product" action="day29"><span style="color:#8a7e7e;">X Vidya - Day 29.</span></g:link></span>
 														<span class="byline"><g:link controller="product" action="day30"><span style="color:#8a7e7e;">X Vidya - Day 30.</span></g:link></span>
+														<span class="byline"><g:link controller="product" action="day31"><span style="color:#8a7e7e;">Kalkan Trinity - Day 31.</span></g:link></span>
+														<span class="byline"><g:link controller="product" action="day32"><span style="color:#8a7e7e;">Kalkan Trinity - Day 32.</span></g:link></span>
+														<span class="byline"><g:link controller="product" action="day33"><span style="color:#8a7e7e;">Kalkan Trinity - Day 33.</span></g:link></span>
+														<span class="byline"><g:link controller="product" action="day34"><span style="color:#8a7e7e;">Brahma Nanda Trinity - Day 34.</span></g:link></span>
+														<span class="byline"><g:link controller="product" action="day35"><span style="color:#8a7e7e;">Brahma Nanda Trinity - Day 35.</span></g:link></span>
+														<span class="byline"><g:link controller="product" action="day36"><span style="color:#8a7e7e;">Brahma Nanda Trinity - Day 36.</span></g:link></span>
+														<span class="byline"><g:link controller="product" action="day37"><span style="color:#8a7e7e;">Kali Trinity - Day 37.</span></g:link></span>
+														<span class="byline"><g:link controller="product" action="day38"><span style="color:#8a7e7e;">Kali Trinity - Day 38.</span></g:link></span>
+														<span class="byline"><g:link controller="product" action="day39"><span style="color:#8a7e7e;">Kali Trinity - Day 39.</span></g:link></span>
+														<span class="byline"><g:link controller="product" action="day40"><span style="color:#8a7e7e;">God Trinity / X Vidya - Day 40.</span></g:link></span>
 													</header>
 													
 													<header>
