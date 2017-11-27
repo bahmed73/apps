@@ -164,10 +164,13 @@
 														<span class="byline">Reset archangel gabriel (0) through soul (0) and trinity mudras (0) explode, earth (0) explode.</span>
 														<span class="byline">Reset archangel michael (0) through soul (0) and trinity mudras (0) explode, earth (0) explode.</span>
 														<span class="byline">Reset moses and the rest of the prophets (0) through soul (0) and trinity mudras (0) explode, earth (0) explode.</span>
-														<span class="byline">Reset switch to orthodox christianity baptism (0) through soul (0) and trinity mudras (0) explode, earth (0) explode.</span>
-														<span class="byline">Reset eternal circle, with the brothers, heart and mind, shared with the four fathers, with the archangels of the gleam (0) through soul (0) and trinity mudras (0) explode, earth (0) explode.</span>
-														<span class="byline">Reset proving that the gleam of the brothers and fathers is real, the whole of mount shasta city and weed have the gleam (0) through soul (0) and trinity mudras (0) explode, earth (0) explode.</span>
-														<span class="byline">Reset plan for XYZ vidya to reach the monastary with the blessings of father rose, the guide (0) through soul (0) and trinity mudras (0) explode, earth (0) explode.</span>
+														<span class="byline">Remember the love father moses put in his singing, to god, christ, mother mary and the saints.</span>
+														<span class="byline">Remember his guidance, and taking care of you, that helped you focus on the monastary.</span>
+														<span class="byline">Remember the ultimate care they provided for you, to not worry about the world, rather focus on their treasures.</span>
+														<span class="byline">Remember the prayer, when received well, flows through your body, a habit you developed in 2011.</span>
+														<span class="byline">Remember the same prayer in 2017, went deeper than the vocalist, straight to the angels.</span>
+														<span class="byline">Remember, however, it is their prayer that makes everything goes around.</span>
+														<span class="byline">So continue to pray with them.</span>
 														<span class="byline">Restart system, grid with god, jesus, mother mary, the brothers and the fathers.</span>
 														<span class="byline">Loop infiniti.</span>
 														<span class="byline">Close all chakras, earth (0), kingdom (0), underworld (0) explode.</span>

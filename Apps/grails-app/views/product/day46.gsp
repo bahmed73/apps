@@ -164,10 +164,12 @@
 														<span class="byline">Reset archangel gabriel (0) through soul (0) and trinity mudras (0) explode, earth (0) explode.</span>
 														<span class="byline">Reset archangel michael (0) through soul (0) and trinity mudras (0) explode, earth (0) explode.</span>
 														<span class="byline">Reset moses and the rest of the prophets (0) through soul (0) and trinity mudras (0) explode, earth (0) explode.</span>
-														<span class="byline">Reset switch to orthodox christianity baptism (0) through soul (0) and trinity mudras (0) explode, earth (0) explode.</span>
-														<span class="byline">Reset eternal circle, with the brothers, heart and mind, shared with the four fathers, with the archangels of the gleam (0) through soul (0) and trinity mudras (0) explode, earth (0) explode.</span>
-														<span class="byline">Reset proving that the gleam of the brothers and fathers is real, the whole of mount shasta city and weed have the gleam (0) through soul (0) and trinity mudras (0) explode, earth (0) explode.</span>
-														<span class="byline">Reset plan for XYZ vidya to reach the monastary with the blessings of father rose, the guide (0) through soul (0) and trinity mudras (0) explode, earth (0) explode.</span>
+														<span class="byline">Visit father james on next visit to san francisco, california, to thank him for Her, since 2011.</span>
+														<span class="byline">Make sure he is included in all the progress, the spiritual father.</span>
+														<span class="byline">Make sure to respect the relationship between father james, father damascene and father pisces.</span>
+														<span class="byline">Make sure to talk with the rest of the fathers and brothers, because they love you.</span>
+														<span class="byline">Me and Her, and Him, need to adjust, so that we can provide better service to humanity.</span>
+														<span class="byline">The cost is having to raise a child all over again, that can be helpful.</span>
 														<span class="byline">Restart system, grid with god, jesus, mother mary, the brothers and the fathers.</span>
 														<span class="byline">Loop infiniti.</span>
 														<span class="byline">Close all chakras, earth (0), kingdom (0), underworld (0) explode.</span>

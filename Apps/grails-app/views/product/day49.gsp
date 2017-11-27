@@ -164,10 +164,10 @@
 														<span class="byline">Reset archangel gabriel (0) through soul (0) and trinity mudras (0) explode, earth (0) explode.</span>
 														<span class="byline">Reset archangel michael (0) through soul (0) and trinity mudras (0) explode, earth (0) explode.</span>
 														<span class="byline">Reset moses and the rest of the prophets (0) through soul (0) and trinity mudras (0) explode, earth (0) explode.</span>
-														<span class="byline">Reset switch to orthodox christianity baptism (0) through soul (0) and trinity mudras (0) explode, earth (0) explode.</span>
-														<span class="byline">Reset eternal circle, with the brothers, heart and mind, shared with the four fathers, with the archangels of the gleam (0) through soul (0) and trinity mudras (0) explode, earth (0) explode.</span>
-														<span class="byline">Reset proving that the gleam of the brothers and fathers is real, the whole of mount shasta city and weed have the gleam (0) through soul (0) and trinity mudras (0) explode, earth (0) explode.</span>
-														<span class="byline">Reset plan for XYZ vidya to reach the monastary with the blessings of father rose, the guide (0) through soul (0) and trinity mudras (0) explode, earth (0) explode.</span>
+														<span class="byline">Praying for my saints day night.</span>
+														<span class="byline">Praying for the mother too.</span>
+														<span class="byline">Praying for america and twitter jesus.</span>
+														<span class="byline">Also praying for twitter god.</span>
 														<span class="byline">Restart system, grid with god, jesus, mother mary, the brothers and the fathers.</span>
 														<span class="byline">Loop infiniti.</span>
 														<span class="byline">Close all chakras, earth (0), kingdom (0), underworld (0) explode.</span>

@@ -164,10 +164,12 @@
 														<span class="byline">Reset archangel gabriel (0) through soul (0) and trinity mudras (0) explode, earth (0) explode.</span>
 														<span class="byline">Reset archangel michael (0) through soul (0) and trinity mudras (0) explode, earth (0) explode.</span>
 														<span class="byline">Reset moses and the rest of the prophets (0) through soul (0) and trinity mudras (0) explode, earth (0) explode.</span>
-														<span class="byline">Reset switch to orthodox christianity baptism (0) through soul (0) and trinity mudras (0) explode, earth (0) explode.</span>
-														<span class="byline">Reset eternal circle, with the brothers, heart and mind, shared with the four fathers, with the archangels of the gleam (0) through soul (0) and trinity mudras (0) explode, earth (0) explode.</span>
-														<span class="byline">Reset proving that the gleam of the brothers and fathers is real, the whole of mount shasta city and weed have the gleam (0) through soul (0) and trinity mudras (0) explode, earth (0) explode.</span>
-														<span class="byline">Reset plan for XYZ vidya to reach the monastary with the blessings of father rose, the guide (0) through soul (0) and trinity mudras (0) explode, earth (0) explode.</span>
+														<span class="byline">Remember having a dream of Her and people, in the same room where you stayed with father michael in 2011 and 2017.</span>
+														<span class="byline">Remember having a dream of mother mary and yhwh, in the same room in 2011.</span>
+														<span class="byline">Remember having a dream, alex and then heather, in 2011.</span>
+														<span class="byline">Remember visions of krishna and shiva, when you head back to brahmananda ashram, in 2011, in san francisco, california.</span>
+														<span class="byline">Remember the love father michael put in your heart this time in 2017, and the anology of joseph and jacob.</span>
+														<span class="byline">May god fulfill all of father michael dreams and prayers, and help him rest well, full of love and acceptance.</span>
 														<span class="byline">Restart system, grid with god, jesus, mother mary, the brothers and the fathers.</span>
 														<span class="byline">Loop infiniti.</span>
 														<span class="byline">Close all chakras, earth (0), kingdom (0), underworld (0) explode.</span>
