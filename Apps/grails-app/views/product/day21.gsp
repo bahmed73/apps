@@ -128,6 +128,16 @@
 												<li><g:link controller="product" action="day38">Day 38</g:link></li>
 												<li><g:link controller="product" action="day39">Day 39</g:link></li>
 												<li><g:link controller="product" action="day40">Day 40</g:link></li>
+												<li><g:link controller="product" action="day41">Day 41</g:link></li>
+												<li><g:link controller="product" action="day42">Day 42</g:link></li>
+												<li><g:link controller="product" action="day43">Day 43</g:link></li>
+												<li><g:link controller="product" action="day44">Day 44</g:link></li>
+												<li><g:link controller="product" action="day45">Day 45</g:link></li>
+												<li><g:link controller="product" action="day46">Day 46</g:link></li>
+												<li><g:link controller="product" action="day47">Day 47</g:link></li>
+												<li><g:link controller="product" action="day48">Day 48</g:link></li>
+												<li><g:link controller="product" action="day49">Day 49</g:link></li>
+												<li><g:link controller="product" action="day50">Day 50</g:link></li>
 												<!--<li><a href="left-sidebar.html">Login</a></li>-->
 											</ul>
 										</nav>
