@@ -174,6 +174,9 @@
 														<span class="byline">Do not miss any prayer time.</span>
 														<span class="byline">It is everything you wanted; there is nothing on ground for you, only Her and Him, as guides through out the journey.</span>
 														<span class="byline">Restart system, grid with god, jesus, mother mary, the brothers and the fathers.</span>
+														<span class="byline">Remember how father damascene did not allow you to come back to the monastary in november 2017.</span>
+														<span class="byline">Remember how you moved all the dark energies to the top of mount shasta, as a result.</span>
+														<span class="byline">Remember, how you made them see a naked man, if he uses his intuition for wrong purposes, against the brothers.</span>
 														<span class="byline">Loop infiniti.</span>
 														<span class="byline">Close all chakras, earth (0), kingdom (0), underworld (0) explode.</span>
 														<span class="byline">Loop everyone, (-V#, V#, -H#, H#), explode.</span>

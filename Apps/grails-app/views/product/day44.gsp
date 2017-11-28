@@ -172,6 +172,8 @@
 														<span class="byline">You have to be the son, father pisces dreamed of, in a proper way, meet his expectations.</span>
 														<span class="byline">Listen to him, do what is right, and remember how he showed you how to do cross in 2017, earlier in 2011, the trinity mudra.</span>
 														<span class="byline">Remember he was so excited to see you in 2017, catching up after a long time, everything you had to share.</span>
+														<span class="byline">Remember in november 2017, you were told by father pisces, that you are not coming back to the monastary this time.</span>
+														<span class="byline">08 49am, on 11 28 2017 = 00111224789 = ma ba, shiva, durga + invisible maria (0), heather (0), work, batullah, home of brahmanada (0), ashram (0, 1), sivananda (0, 1), as vishnudevananda (0...) as X.</span>
 														<span class="byline">Restart system, grid with god, jesus, mother mary, the brothers and the fathers.</span>
 														<span class="byline">Loop infiniti.</span>
 														<span class="byline">Close all chakras, earth (0), kingdom (0), underworld (0) explode.</span>
