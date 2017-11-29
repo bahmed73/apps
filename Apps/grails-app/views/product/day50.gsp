@@ -168,6 +168,10 @@
 														<span class="byline">And for Her saints, as she shows her visit me, in november 2017.</span>
 														<span class="byline">She is making my dream into reality.</span>
 														<span class="byline">The christmas and new years 2017 - 2018 is right around the corner, time to celebrate.</span>
+														<span class="byline">May ma, durga, krishna, shiva and the ancients around mount shasta city, bless 2018.</span>
+														<span class="byline">The brothers, fathers and sisters, that was the reason to be in the mount shasta city, in november - december 2017, 11 10 am.</span>
+														<span class="byline">11 11 11 28 2017 = 01111112278 (angels) as our guides, collective, new year of shiva (0), durga (0) and krishna (0), 2018, as heather (0) and brahmananda (0) fill in the blanks.</span>
+														<span class="byline">The numerology cycle is running of 1, 2 and 3, point strong on kingdom (0), underworld (0), earth (0), synergy (0) point on two points, and triangle, shiva trinity.</span>
 														<span class="byline">Restart system, grid with god, jesus, mother mary, the brothers and the fathers.</span>
 														<span class="byline">Loop infiniti.</span>
 														<span class="byline">Close all chakras, earth (0), kingdom (0), underworld (0) explode.</span>

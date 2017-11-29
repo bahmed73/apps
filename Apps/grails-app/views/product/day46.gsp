@@ -170,6 +170,14 @@
 														<span class="byline">Make sure to talk with the rest of the fathers and brothers, because they love you.</span>
 														<span class="byline">Me and Her, and Him, need to adjust, so that we can provide better service to humanity.</span>
 														<span class="byline">The cost is having to raise a child all over again, that can be helpful.</span>
+														<span class="byline">There is an opportunity for love, with heart and mind, so need help from brahmananda (0) and heather (0).</span>
+														<span class="byline">Talked to Father Pisces and James today, connection between mount shasta and platina, and san francisco, california. 1:59pm, 11-28-2017.</span>
+														<span class="byline">The numerology for 02 00 pm, 11-28-2017 = 000022211178, durga trinity with shiva, rebirth X ^ 2, and the greamlers.</span>
+														<span class="byline">Plan to meet father james in san francisco, california on a saturday at 4pm, then again at 9am on sunday, and utilize the perish in 2017.</span>
+														<span class="byline">Left a message for susan, in the vidya, as a real incarnation of durga, beside me through my whole journey, for the past 6 and more years.</span>
+														<span class="byline">We are now co-founding the startup, give her equity, redo the structure and have fun in 2018, social butterfly, meeting business, selling service.</span>
+														<span class="byline">Meanwhile continue interviewing, till finding a job, use the zen energy for interview purposes.</span>
+														<span class="byline">Work with brothers and everybody meeting, as a gleamer, and pray for everyone, heal everything.</span>
 														<span class="byline">Restart system, grid with god, jesus, mother mary, the brothers and the fathers.</span>
 														<span class="byline">Loop infiniti.</span>
 														<span class="byline">Close all chakras, earth (0), kingdom (0), underworld (0) explode.</span>

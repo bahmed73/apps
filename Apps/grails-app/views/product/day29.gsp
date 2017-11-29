@@ -188,6 +188,9 @@
 														<span class="byline">Remember your twin brother, narayan, like krishna and arjun, working through sivananda and vishnudevananda, X ^ 2 at 8:42 am.</span>
 														<span class="byline">The numerology, 11 28 2017 08 42 = 001112224788 = ma ba, shiva, durga, work, for god, narayan and X.</span>
 														<span class="byline">Restart system, grid with shiva, vishnu, brahma, durga, god and the mother.</span>
+														<span class="byline">At 3:33 pm 11-28-2017, restart general ressurrection (0).</span>
+														<span class="byline">Open all chakras, clean them, earth (0), kingdom (0), underworld (0) explode with X ^ 2, YZ, and durga.</span>
+														<span class="byline">At 3:35 pm 11-28-2017, the prayer to durga (0) and shiva (0) is strong, with tara (0).</span>
 														<span class="byline">Close all chakras, earth (0) explode.</span>
 														<span class="byline">Loop everyone, (-V#, V#, -H#, H#), explode.</span>
 														<span class="byline">Bring it to a point, point strong, earth (0), earth (0), get help from brahmananda (0) and heather (0), loop #.</span>

@@ -181,6 +181,9 @@
 														<span class="byline">Remember the yoga body, with the soul-mate, Heather, guidance from Brahmananda, and the affect on all the creation, including space station and NASA.</span>
 														<span class="byline">Happy thanksgiving 2017 to everyone, all creations, germ cells.</span>
 														<span class="byline">The interface, vidya is now complete, the abstract classes are in place, now the implementation begins...</span>
+														<span class="byline">09:09 am - 09:12 am - 11 - 29 - 2017 to 11:30 am - 11 - 30 - 2017 is the numerology lock for 30 days of brahma vidya.</span>
+														<span class="byline">000011112227999 for today, end of a cycle for the new cycle to begin, according to the trinity.</span>
+														<span class="byline">The 31st day vibration of the vidya is very strong, 000111112337, a male creative vibration, for the beginning, lands on female vidya day.</span>
 														<span class="byline">Restart system, grid with shiva, vishnu, brahma, durga, god and the mother.</span>
 														<span class="byline">Loop infiniti.</span>
 														<span class="byline">Close all chakras, earth (0), kingdom (0), underworld (0) explode.</span>

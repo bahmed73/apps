@@ -168,6 +168,17 @@
 														<span class="byline">Praying for the mother too.</span>
 														<span class="byline">Praying for america and twitter jesus.</span>
 														<span class="byline">Also praying for twitter god.</span>
+														<span class="byline">Praying to mother mary, to have Her Saints back, father damascene, pisces, moses and michael, 03 05 pm, 11-28-2017.</span>
+														<span class="byline">Continue praying for the world (0), from the kingdom (0), which automatically triggers underworld (0).</span>
+														<span class="byline">Asking for prayer and repentence from the fathers, and many brothers in mount shasta city receive the gleams and kingdoms.</span>
+														<span class="byline">The born saints, gleamers, the brothers all through mount shasta city, sharing everything, love, mind, body and soul.</span>
+														<span class="byline">Praying for mother mary acceptance in Her kingdom (0), in the future with the brothers and fathers of platina, california.</span>
+														<span class="byline">Praying for a solid connection with father james, as making my head way, back towards san francisco, california, for more work.</span>
+														<span class="byline">Praying for susan to be accommodating in the journey, praying to heather and brahmananda, lots to catch up on.</span>
+														<span class="byline">Praying for heather to be accomodating in the journey, praying to heather and brahmananda, for healthy relationship in mount shasta, california.</span>
+														<span class="byline">Saw the rage of durga in Her today, with the sky man, with the little krishna, immitating shiva, praying for lumerians to help and guide us.</span>
+														<span class="byline">Praying for a tent, and a bottle of wine, on my way to Her house, attending pot luck dinner with Her friends.</span>
+														<span class="byline">We have been chatting a lot about a things, and she has a really good picture, and now has to set some goals and boundries.</span>
 														<span class="byline">Restart system, grid with god, jesus, mother mary, the brothers and the fathers.</span>
 														<span class="byline">Loop infiniti.</span>
 														<span class="byline">Close all chakras, earth (0), kingdom (0), underworld (0) explode.</span>
