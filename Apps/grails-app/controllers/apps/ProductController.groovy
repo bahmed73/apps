@@ -481,6 +481,11 @@ class ProductController {
 		log.info "inside day50"
 	}
 	
+	def day51() {
+		System.out.println("inside day51")
+		log.info "inside day51"
+	}
+	
 	def vedanta() {
 		System.out.println("inside vedanta")
 		log.info "inside vedanta"

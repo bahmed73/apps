@@ -150,33 +150,27 @@
 										<div class="6u">
 													<section class="box">
 													<header>
-														<span style="font-size:35px;">Y Vidya - Day 32</span>
-														<span class="byline">Reset shiva (0) through soul (0) and trinity mudras (0) explode, earth (0) explode.</span>
-														<span class="byline">Reset vishnu (0) through soul (0) and trinity mudras (0) explode, earth (0) explode.</span>
-														<span class="byline">Reset brahma (0) through soul (0) and trinity mudras (0) explode, earth (0) explode.</span>
-														<span class="byline">Reset durga (0) through soul (0) and trinity mudras (0) explode, earth (0) explode.</span>
-														<span class="byline">Reset ma vidya (0) through soul (0) and trinity mudras (0) explode, earth (0) explode.</span>
-														<span class="byline">Reset kali vidya (0) through soul (0) and trinity mudras (0) explode, earth (0) explode.</span>
-														<span class="byline">Reset yama vidya (0) through soul (0) and trinity mudras (0) explode, earth (0) explode.</span>
-														<span class="byline">Reset ba vidya (0) through soul (0) and trinity mudras (0) explode, earth (0) explode.</span>
-														<span class="byline">Reset rahu vidya (0) through soul (0) and trinity mudras (0) explode, earth (0) explode.</span>
-														<span class="byline">Reset katu vidya (0) through soul (0) and trinity mudras (0) explode, earth (0) explode.</span>
+														<span style="font-size:35px;">Brahmananda ashram vidya - Day 51</span>
 														<span class="byline">Reset god (0) through soul (0) and trinity mudras (0) explode, earth (0) explode.</span>
-														<span class="byline">Reset mother (0) through soul (0) and trinity mudras (0) explode, earth (0) explode.</span>
-														<span class="byline">Reset kalki (0) through soul (0) and trinity mudras (0) explode, earth (0) explode.</span>
-														<span class="byline">Reset tara (0) through soul (0) and trinity mudras (0) explode, earth (0) explode.</span>
-														<span class="byline">Reset three goddesses (0) through soul (0) and trinity mudras (0) explode, earth (0) explode.</span>
-														<span class="byline">Prayer to Y vidya for aura work with Saint Germain, Indra and Agni.</span>
-														<span class="byline">Prayer to Z vidya to stay close in touch with Y vidya, fill in the blanks, get help from room 302.</span>
-														<span class="byline">Prayer, authorization and authentication assigned to Y and Z vidya, help room 302 as appropriate.</span>
-														<span class="byline">Prayer to S, T, U, V, W vidyas, stay close to the activity of X, Y and Z vidya.</span>
-														<span class="byline">Prayer to all vidyas, keep exploding X vidya and trinity, where applicable, utilize robots.</span>
-														<span class="byline">Prayer for proper urgency, to all creations, understanding time, which reflects appropriately to X vidya.</span>
-														<span class="byline">07 07 am on 12 01 2017 = 000011122777 = durga trinity with shiva, working heather with brahmananda ^ gurus.</span>
-														<span class="byline">07 10 am on 12 01 2017 = 000011112277 = durga and shiva trinity, working for female and goddess.</span>
-														<span class="byline">07 22am on 12 01 2017 = 000111222277 = durga, ma, god in female form, in the soul, restart in san francisco, california, gleamers everywhere.</span>
-														<span class="byline">Viral and spiral the gleamers every where, in the world, this december 2017.</span>
-														<span class="byline">Restart system, grid with shiva, vishnu, brahma, durga, god and the mother.</span>
+														<span class="byline">Reset jesus (0) through soul (0) and trinity mudras (0) explode, earth (0) explode.</span>
+														<span class="byline">Reset mother mary (0) through soul (0) and trinity mudras (0) explode, earth (0) explode.</span>
+														<span class="byline">Reset father damascene (0) through soul (0) and trinity mudras (0) explode, earth (0) explode.</span>
+														<span class="byline">Reset father pisces (0) through soul (0) and trinity mudras (0) explode, earth (0) explode.</span>
+														<span class="byline">Reset saint herman (0) through soul (0) and trinity mudras (0) explode, earth (0) explode.</span>
+														<span class="byline">Reset archbishop saint john (0) through soul (0) and trinity mudras (0) explode, earth (0) explode.</span>
+														<span class="byline">Reset father rose (0) through soul (0) and trinity mudras (0) explode, earth (0) explode.</span>
+														<span class="byline">Reset father moses (0) through soul (0) and trinity mudras (0) explode, earth (0) explode.</span>
+														<span class="byline">Reset father michael (0) through soul (0) and trinity mudras (0) explode, earth (0) explode.</span>
+														<span class="byline">Reset archangel gabriel (0) through soul (0) and trinity mudras (0) explode, earth (0) explode.</span>
+														<span class="byline">Reset archangel michael (0) through soul (0) and trinity mudras (0) explode, earth (0) explode.</span>
+														<span class="byline">Reset moses and the rest of the prophets (0) through soul (0) and trinity mudras (0) explode, earth (0) explode.</span>
+														<span class="byline">Karma balance, 10:14am 12-18-2017.</span>
+														<span class="byline">Today, 12-18-2017, reflection on 2018, loop everyone.</span>
+														<span class="byline">Open infinite chakras, clean them, close them, to 30.</span>
+														<span class="byline">Kundalini balance, shiva and durga print on everyone, buddha by birth, gleam in the eyes, nada in the soul.</span>
+														<span class="byline">Heal, every nada particle, both anahata and ahata nada, saguna and nirguna brahman.</span>
+														<span class="byline">Heal the self, heal the earth.</span>
+														<span class="byline">Restart system, grid with brahmananda, radha, krishna, bhagavad gita, room 302, teachers as a sample.</span>
 														<span class="byline">Loop infiniti.</span>
 														<span class="byline">Close all chakras, earth (0), kingdom (0), underworld (0) explode.</span>
 														<span class="byline">Loop everyone, (-V#, V#, -H#, H#), explode.</span>

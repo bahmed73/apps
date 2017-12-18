@@ -162,6 +162,10 @@
 														<span class="byline">Reset body (0), heart (0), mind (0) through trinity mudras (0) explode, earth (0) explode.</span>
 														<span class="byline">Reset life line (0), with life lesson through soul (0) and trinity mudras (0) explode, earth (0) explode.</span>
 														<span class="byline">Reset fate (0) through soul (0) and trinity mudras (0) explode, earth (0) explode.</span>
+														<span class="byline">Prayer to remove the suffering, from friends and loved ones in mount shasta city, california this november 2017.</span>
+														<span class="byline">The numerology, 01:20 pm 11 29 2017 = 000111122279, prayer going straight to god a-mighty, with His male and female.</span>
+														<span class="byline">The aspect of shiva, 4x ^ 2, to support, durga, created batyullah again, a place of prayer.</span>
+														<span class="byline">The buddha and bodhisattva prayers, for freedom of the soul, god of freedom flame, saint germain.</span>
 														<span class="byline">System restart all grids.</span>
 														<span class="byline">Close all chakras, earth (0) explode.</span>
 														<span class="byline">Loop everyone, (-V#, V#, -H#, H#), explode.</span>
