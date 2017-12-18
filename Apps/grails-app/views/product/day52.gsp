@@ -152,7 +152,7 @@
 										<div class="6u">
 													<section class="box">
 													<header>
-														<span style="font-size:35px;">Brahmananda ashram vidya - Day 51</span>
+														<span style="font-size:35px;">Brahmananda vidya - Day 52</span>
 														<span class="byline">Reset god (0) through soul (0) and trinity mudras (0) explode, earth (0) explode.</span>
 														<span class="byline">Reset jesus (0) through soul (0) and trinity mudras (0) explode, earth (0) explode.</span>
 														<span class="byline">Reset mother mary (0) through soul (0) and trinity mudras (0) explode, earth (0) explode.</span>
@@ -166,12 +166,26 @@
 														<span class="byline">Reset archangel gabriel (0) through soul (0) and trinity mudras (0) explode, earth (0) explode.</span>
 														<span class="byline">Reset archangel michael (0) through soul (0) and trinity mudras (0) explode, earth (0) explode.</span>
 														<span class="byline">Reset moses and the rest of the prophets (0) through soul (0) and trinity mudras (0) explode, earth (0) explode.</span>
-														<span class="byline">Karma balance, 10:14am 12-18-2017.</span>
 														<span class="byline">Today, 12-18-2017, reflection on 2018, loop everyone.</span>
 														<span class="byline">Open infinite chakras, clean them, close them, to 30.</span>
 														<span class="byline">Kundalini balance, shiva and durga print on everyone, buddha by birth, gleam in the eyes, nada in the soul.</span>
 														<span class="byline">Heal, every nada particle, both anahata and ahata nada, saguna and nirguna brahman.</span>
 														<span class="byline">Heal the self, heal the earth.</span>
+														<span class="byline">Guru is God, God Infinite.</span>
+														<span class="byline">Me and My Father are One.</span>
+														<span class="byline">As guru, brahmananda, and baba ji, the master of masters.</span>
+														<span class="byline">As the guru, seeker of krishna and radhu.</span>
+														<span class="byline">As Sivananda, the guru, the grid guru, shared economy, everyone is a guru.</span>
+														<span class="byline">As the nada particle, both visible and invisible, guru brahmananda, saguna and nirguna.</span>
+														<span class="byline">As the lover of radha, as Sivananda describes, more beautiful than himalayan snow flake.</span>
+														<span class="byline">As Vishnudevananda, the guru god, he is the preserver of the body, create Amber, the egyptian immortal God.</span>
+														<span class="byline">As Satchidananda, the door keeper of the sacred mantras, and sat chid, the discoverer of the nadam application.</span>
+														<span class="byline">As Saint Germain, He is the protector of the sacred aura, giver of the purple necklace, for mount shasta.</span>
+														<span class="byline">As Brahmananda, he wants to open everything, study everything, as a doctor, shared with Sivananda, a doctor himself.</span>
+														<span class="byline">As teachers, teaching the living side of humanity, with A group, the immortals and mortals.</span>
+														<span class="byline">The B group, the kids of kalki, to what is to come, a future investment, a bow and arrow, give more to the younger ones.</span>
+														<span class="byline">The C group, the dream team and the modified additions.</span>
+														<span class="byline">The D group, the familes of the B group, taken care of, to show love, heart and mind to humanity, with gleam in the eyes and nadam in the soul.</span>
 														<span class="byline">Restart system, grid with brahmananda, radha, krishna, bhagavad gita, room 302, teachers as a sample.</span>
 														<span class="byline">Loop infiniti.</span>
 														<span class="byline">Close all chakras, earth (0), kingdom (0), underworld (0) explode.</span>
