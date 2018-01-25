@@ -501,6 +501,11 @@ class ProductController {
 		log.info "inside time"
 	}
 	
+	def school() {
+		System.out.println("inside school")
+		log.info "inside school"
+	}
+	
 	def seller() {
 		log.info "inside seller"
 		
