@@ -1,12 +1,12 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<meta name="description" content="foodal" />
-<meta name="keywords" content="foodal, local, local food, food, local business, farmers, farmers market, farmer market, farmers markets, market, markets, farm, farm market, business, farm business, organic, health, nutrient,california local markets,california markets,local farmers market,local farmers markets,local farmer markets,local market,local markets,local farmers, farmers,local california,california,local, local business, chef, food chef, featured chef, food, home cook, cook, home, recipe, home recipe, food recipe, cook recipe, spiritual, spirit, blogger, socialmedia, socialmedia blogger, social media blogger, facebook, facebook feed, twitter, twitter update, twitter, twitter hash, twitter hashtag, hash, hashtag,viral,mytweetmark,mytweetmark.com,myhash, brand,share posts,post information,organize bookmarks,share bookmarks,share knowledge,organize bookmarks,categorize bookmarks,email bookmarks, share bookmarks and posts, share posts and bookmarks, share with friends,tweet,twitter" />
+		<meta name="description" content="mauget" />
+<meta name="keywords" content="mauget local, local tree, trees, local business, injection, insects, fertilizer, farm, farm market, business, farm business, organic, health, nutrient, california, blogger, socialmedia, socialmedia blogger, social media blogger, facebook, facebook feed, twitter, twitter update, twitter" />
 <meta http-equiv="window-target" content="_top" />
 <META HTTP-EQUIV="CACHE-CONTROL" CONTENT="PUBLIC">
 	<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
-	<title>Foodal - Promote your local food business and farmers markets.</title>
+	<title>Mauget - The right way to treat a tree.</title>
 	<asset:stylesheet src="skel-noscript.css"/>
 	<asset:stylesheet src="style.css"/>
 	<asset:stylesheet src="style-desktop.css"/>
@@ -45,10 +45,10 @@
 
 							<!-- Banner -->
 								<section id="banner">
-									<a href="http://foodal.co/product/software">
-										<span class="image image-full"><asset:image src="foodal-homepage.png"/></span>
+									<a href="https://mauget.com/">
+										<span class="image image-full"><asset:image src="mauget.png"/></span>
 										<header>
-											<h2>Foodal</h2>
+											<!--  <h2>Foodal</h2>-->
 											<!--span class="byline">welcome!</span-->
 										</header>
 									</a>
@@ -139,22 +139,22 @@
 										<div class="row">
 											<div class="4u" >
 												<section class="box">
-													<a href="http://www.homecook.me/farmerMarket/all" class="image image-full"><asset:image src="foodal-hat.png"/></a>
+													<a href="https://mauget.com/distributor-locator/" class="image image-full"><asset:image src="mauget-home-1.png"/></a>
 												
-													<p><a href="http://www.homecook.me/farmerMarket/all">Alphabetical customer listing</a></p>
+													<p><a href="https://mauget.com/distributor-locator/">Locate a distributor</a></p>
 												
 												</section>
 											</div>
 											<div class="4u">
 												<section class="box">
-													<a href="http://www.homecook.me/homecookme" class="image image-full"><asset:image src="foodal-hoodie.png"/></a>
-													<p><a href="http://www.homecook.me/homecookme">Local food API and programming</a></p>
+													<a href="https://mauget.com/shop/" class="image image-full"><asset:image src="mauget-home-2.png"/></a>
+													<p><a href="https://mauget.com/shop/">Shop Online</a></p>
 												</section>
 											</div>
 											<div class="4u">
 												<section class="box">
-													<a href="http://www.mytweetmark.com" class="image image-full"><asset:image src="foodal-pen.png"/></a>
-													<p><a href="http://www.mytweetmark.com">Twitter marketing tool</a></p>
+													<a href="https://mauget.com/" class="image image-full"><asset:image src="mauget-home-3.png"/></a>
+													<p><a href="https://mauget.com/">Visit Us</a></p>
 												</section>
 											</div>
 										</div>
@@ -286,13 +286,13 @@
 										<li>
 											<h3>Address</h3>
 											<p>
-												Oakland<br />
+												San Francisco<br />
 																							California
 											</p>
 										</li>
 										<li>
 											<h3>Mail</h3>
-											<p><a href="mailto:bilal@mytweetmark.com">bilal@mytweetmark.com</a></p>
+											<p><a href="webmaster@mauget.com">webmaster@mauget.com</a></p>
 										</li>
 										<!--li>
 											<h3>Phone</h3>
@@ -310,8 +310,8 @@
 										<h2>More about us</h2>
 									</header>
 									<ul class="divided">
-										<li><a href="http://www.homecook.me/images/survey.doc">Survey</a></li>
-										<li><a href="http://www.homecook.me/users/privacy">Privacy</a></li>
+										<li><a href="https://mauget.com/about-mauget/">About Us</a></li>
+										<li><a href="https://www.facebook.com/Mauget-464784170389171/">On Facebook</a></li>
 									</ul>
 								</section>
 
@@ -322,8 +322,8 @@
 										<h2>And more...</h2>
 									</header>
 									<ul class="divided">
-										<li><a href="http://www.foundersspace.com/news-announcements/startup-splotlight-mytweetmark/">On FoundersSpace</a></li>
-										<li><a href="http://www.homecook.me/users/tos">Terms</a></li>
+										<li><a href="https://www.youtube.com/user/maugetcompany">On YouTube</a></li>
+										<li><a href="https://twitter.com/jjmauget">On Twitter</a></li>
 										<!--li><a href="#">Sem feugiat sapien id suscipit magna felis nec</a></li>
 										<li><a href="#">Elit class aptent taciti sociosqu ad litora</a></li-->
 									</ul>
@@ -338,7 +338,7 @@
 								<!-- Copyright -->
 									<div id="copyright">
 										<ul class="links">
-											<li>&copy; 2017 foodal.co 	</li>
+											<li>&copy; 2018 Mauget 	</li>
 											<!--li>Images: <a href="http://facebook.com/homecookme">Homecookme</a></li>
 											<li>Design: <a href="http://dalliusdesign.com">Dallius</a></li-->
 										</ul>

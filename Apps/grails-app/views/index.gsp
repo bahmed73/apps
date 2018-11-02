@@ -1,12 +1,12 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<meta name="description" content="foodal" />
-<meta name="keywords" content="foodal, local, local food, food, local business, farmers, farmers market, farmer market, farmers markets, market, markets, farm, farm market, business, farm business, organic, health, nutrient,california local markets,california markets,local farmers market,local farmers markets,local farmer markets,local market,local markets,local farmers, farmers,local california,california,local, local business, chef, food chef, featured chef, food, home cook, cook, home, recipe, home recipe, food recipe, cook recipe, spiritual, spirit, blogger, socialmedia, socialmedia blogger, social media blogger, facebook, facebook feed, twitter, twitter update, twitter, twitter hash, twitter hashtag, hash, hashtag,viral,mytweetmark,mytweetmark.com,myhash, brand,share posts,post information,organize bookmarks,share bookmarks,share knowledge,organize bookmarks,categorize bookmarks,email bookmarks, share bookmarks and posts, share posts and bookmarks, share with friends,tweet,twitter" />
+		<meta name="description" content="mauget" />
+<meta name="keywords" content="mauget local, local tree, trees, local business, injection, insects, fertilizer, farm, farm market, business, farm business, organic, health, nutrient, california, blogger, socialmedia, socialmedia blogger, social media blogger, facebook, facebook feed, twitter, twitter update, twitter" />
 <meta http-equiv="window-target" content="_top" />
 <META HTTP-EQUIV="CACHE-CONTROL" CONTENT="PUBLIC">
 	<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
-	<title>Foodal - Promote your local food business and farmers markets.</title>
+	<title>Mauget - The right way to treat a tree.</title>
 	<asset:stylesheet src="skel-noscript.css"/>
 	<asset:stylesheet src="style.css"/>
 	<asset:stylesheet src="style-desktop.css"/>
@@ -282,10 +282,10 @@
 
 							<!-- Banner -->
 								<section id="banner">
-									<a href="http://foodal.co/product/seller">
-										<span class="image image-full" title="Start selling your local food and farmers markets products on foodal!"><asset:image src="doctor.png"/></span>
+									<a href="https://mauget.com/">
+										<span class="image image-full" title="Mauget - The right way to treat a tree."><asset:image src="mauget.png"/></span>
 										<header>
-											<h2>Foodal</h2>
+											<!--  <h2>Mauget</h2> -->
 											<!--span class="byline">welcome!</span-->
 										</header>
 									</a>
@@ -297,14 +297,14 @@
 								<div>	
 								<!-- Nav -->
 										<nav id="nav">
-										<button id="button3" class="ui-state-default ui-corner-all" title="Try #if? programming tests for healing and energy.">#if?</button>
-										<button id="button2" class="ui-state-default ui-corner-all" title="For local food and farmers markets business, please sign up for $50/month.">Farmers Markets</button>
-										<button id="button4" class="ui-state-default ui-corner-all" title="See our real-time news from all major news sources.">News</button>
-										<button id="button" class="ui-state-default ui-corner-all" title="Please feel free to email, call (415)699-1762.">Contact Us</button>
+										<button id="button3" class="ui-state-default ui-corner-all" title="Liquid Loadable Products.">Liquid</button>
+										<button id="button2" class="ui-state-default ui-corner-all" title="Pest Solutions.">Pests</button>
+										<button id="button4" class="ui-state-default ui-corner-all" title="Certification and training.">Training</button>
+										<button id="button" class="ui-state-default ui-corner-all" title="Please feel free to email us.">Contact Us</button>
 											<ul>
-												<li><g:link controller="product" action="software">#if? Programming</g:link></li>
+												<!--  <li><g:link controller="product" action="software">#if? Programming</g:link></li>
 												<li><g:link controller="product" action="premium">Premium News</g:link></li>
-												<li><g:link controller="product" action="seller">Seller Shelf</g:link></li>
+												<li><g:link controller="product" action="seller">Seller Shelf</g:link></li>-->
 												<li><g:link controller="product" action="shelf">Login</g:link></li>
 												<!--<li><a href="left-sidebar.html">Login</a></li>-->
 											</ul>
@@ -321,25 +321,23 @@
 													<section class="box">
 													<!-- <a href="http://www.mytweetmark.com" class="image image-full"><asset:image src="foodal-homepage-16.png"/></a> -->
 													<header>
-														<span style="font-size:35px;">Welcome to Foodal!</span>
+														<span style="font-size:35px;">Welcome to Mauget!</span>
 													</header>
 													
 													<div id="effect2" class="ui-widget-content ui-corner-all">
 													<div id="resizable6" class="ui-widget-content">
   													<span style="font-size:25px;">
   													<ul>
-													<li>Farmers Markets:</li>
-													<li>Upload products.</p></li>
-													<li>Analytics.</li>
-													<li>Monthly subscription is $50.</li> 
-													<li><g:link controller="product" action="seller">Let's get started!</g:link></li>
+													<li>Pest Solutions:</li>
+													<br>
+													<li><a href="https://mauget.com/solutions/">Lookup by disease, insect or nutrient deficiency!</a></li>
 													</ul>
 													</span>
 													</div>
 													</div>
 													
 													<header>
-														<span style="font-size:35px;">#if? Programming:</span>
+														<span style="font-size:35px;">Liquid Loadable Products:</span>
 													</header>
 													
 													<div id="effect3" class="ui-widget-content ui-corner-all">
@@ -347,11 +345,9 @@
   													
   														<span style="font-size:25px;">
 	  													<ul>
-														<li>#if? Programming Tests:</li>
-														<li><g:link controller="product" action="demo">X Point</g:link></li>
-														<li><g:link controller="product" action="demo2">Y Point</g:link></li>
-														<li><g:link controller="product" action="demo3">Z Point</g:link></li>
-														<li>Hit Spin Button.</li>
+														<li>Mauget is not just a capsule:</li>
+														<br>
+														<li><a href="https://mauget.com/liquid-loadable-products/">New Products!</a></li>
 														<!--<li><a href="left-sidebar.html">Login</a></li>-->
 														</ul>
 														</span>
@@ -363,7 +359,7 @@
 											<div class="6u">
 												<section class="box">
 												<header>
-														<span style="font-size:35px;">News:</span>
+														<span style="font-size:35px;">Certification and Training:</span>
 													</header>
 													
 												
@@ -371,12 +367,9 @@
   													<div id="resizable5" class="ui-widget-content">
   													<span style="font-size:25px;">
   													<ul>
-													<li>Real-time News:</li>
-													<li>CNN, nytimes, nypost, foxnews.</p></li>
-													<li>G20, BRICS, and more.</li>
-													<li>Start now with $5.</li> 
-													<li><g:link controller="product" action="premium">See News.</g:link></li>
-													</ul>
+													<br>
+														<li><a href="https://mauget.com/mauget-training-and-certification/">Become an approved distributor!</a></li>
+														</ul>
 													</span>
 													</div>
 													</div>
@@ -393,7 +386,7 @@
 													<p style="font-size:20px;">Questions? Email us today and get started.</p>
 													<br>
 													<footer class="actions">
-														<a href="mailto:bilal@mytweetmark.com" class="button fa fa-file-text">Email us today!</a>
+														<a href="mailto:webmaster@mauget.com" class="button fa fa-file-text">Email us today!</a>
 														<br><br>
 														
 													</footer>
@@ -424,22 +417,22 @@
 										<div class="row">
 											<div class="4u"  id="resizable" class="ui-widget-content">
 												<section class="box">
-													<a href="http://www.homecook.me/farmerMarket/all" class="image image-full"><asset:image src="farmersmarket.png"/></a>
+													<a href="https://mauget.com/distributor-locator/" class="image image-full"><asset:image src="mauget-home-1.png"/></a>
 												
-													<p><a href="http://www.homecook.me/farmerMarket/all">Alphabetical customer listing</a></p>
+													<p><a href="https://mauget.com/distributor-locator/">Locate a distributor</a></p>
 												
 												</section>
 											</div>
 											<div class="4u"  id="resizable2" class="ui-widget-content">
 												<section class="box">
-													<a href="https://github.com/bahmed73/apps" class="image image-full"><asset:image src="coding.png"/></a>
-													<p><a href="https://github.com/bahmed73/apps">On GitHub</a></p>
+													<a href="https://mauget.com/shop/" class="image image-full"><asset:image src="mauget-home-2.png"/></a>
+													<p><a href="https://mauget.com/shop/">Shop Online</a></p>
 												</section>
 											</div>
 											<div class="4u"  id="resizable3" class="ui-widget-content">
 												<section class="box">
-													<a href="http://www.mytweetmark.com" class="image image-full"><asset:image src="marketing.png"/></a>
-													<p><a href="http://www.mytweetmark.com">Twitter marketing tool</a></p>
+													<a href="https://mauget.com/" class="image image-full"><asset:image src="mauget-home-3.png"/></a>
+													<p><a href="https://mauget.com/">Visit Us</a></p>
 												</section>
 											</div>
 										</div>
@@ -571,13 +564,13 @@
 										<li>
 											<h3>Address</h3>
 											<p>
-												Oakland<br />
+												San Francisco<br />
 																							California
 											</p>
 										</li>
 										<li>
 											<h3>Mail</h3>
-											<p><a href="mailto:bilal@mytweetmark.com">bilal@mytweetmark.com</a></p>
+											<p><a href="mailto:webmaster@mauget.com">webmaster@mauget.com</a></p>
 										</li>
 										<!--li>
 											<h3>Phone</h3>
@@ -595,8 +588,8 @@
 										<h2>More about us</h2>
 									</header>
 									<ul class="divided">
-										<li><a href="https://angel.co/foodal">On AngelList</a></li>
-										<li><a href="https://www.facebook.com/foodalCo/">On Facebook</a></li>
+										<li><a href="https://mauget.com/about-mauget/">About Us</a></li>
+										<li><a href="https://www.facebook.com/Mauget-464784170389171/">On Facebook</a></li>
 									</ul>
 								</section>
 
@@ -607,8 +600,8 @@
 										<h2>And more...</h2>
 									</header>
 									<ul class="divided">
-										<li><a href="https://linkedin.com/in/bahmed73">On LinkedIn</a></li>
-										<li><a href="https://twitter.com/foodal_">On Twitter</a></li>
+										<li><a href="https://www.youtube.com/user/maugetcompany">On YouTube</a></li>
+										<li><a href="https://twitter.com/jjmauget">On Twitter</a></li>
 										<!--li><a href="#">Sem feugiat sapien id suscipit magna felis nec</a></li>
 										<li><a href="#">Elit class aptent taciti sociosqu ad litora</a></li-->
 									</ul>
@@ -623,7 +616,7 @@
 								<!-- Copyright -->
 									<div id="copyright">
 										<ul class="links">
-											<li>&copy; 2017 foodal.co 	</li>
+											<li>&copy; 2018 Mauget 	</li>
 											<!--li>Images: <a href="http://facebook.com/homecookme">Homecookme</a></li>
 											<li>Design: <a href="http://dalliusdesign.com">Dallius</a></li-->
 										</ul>
