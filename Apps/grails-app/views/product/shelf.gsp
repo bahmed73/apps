@@ -78,6 +78,9 @@
 											<ul>
 												<li><g:link url="/">Home</g:link></li>
 												<li><g:link class="list" action="index" controller="products"><span>Products</span></g:link></li>
+												<li><g:link class="list" action="index" controller="disease"><span>Diseases</span></g:link></li>
+												<li><g:link class="list" action="index" controller="insect"><span>Insects</span></g:link></li>
+												<li><g:link class="list" action="index" controller="distributor"><span>Distributors</span></g:link></li>
 												<!-- <li><g:link controller="product" action="analytics">View Analytics</g:link></li>-->
 												<!--<li><a href="left-sidebar.html">Login</a></li>-->
 											</ul>
@@ -104,13 +107,13 @@
 													
 													<ul id="menu">
 													<li><div><g:link class="list" action="index" controller="products"><span style="color:#8a7e7e;">Products</span></g:link></div></li>
-													<!--  <li>-</li>
-													<li><div><g:link action="index" controller="productCheckout"><span style="color:#8a7e7e;">Checkouts</span></g:link></div></li>
 													<li>-</li>
-													<li><div><g:link action="index" controller="blog"><span style="color:#8a7e7e;">Blogs</span></g:link></div></li>
+													<li><div><g:link action="index" controller="disease"><span style="color:#8a7e7e;">Diseases</span></g:link></div></li>
 													<li>-</li>
-													<li><div><g:link action="analytics" controller="product"><span style="color:#8a7e7e;">Analytics</span></g:link></div></li>
+													<li><div><g:link action="index" controller="insect"><span style="color:#8a7e7e;">Insects</span></g:link></div></li>
 													<li>-</li>
+													<li><div><g:link action="analytics" controller="distributor"><span style="color:#8a7e7e;">Distributors</span></g:link></div></li>
+													<!-- <li>-</li>
 													<li><div><g:link controller="product" action="help"><span style="color:#8a7e7e;">Help</span></g:link></div></li>-->
 													</ul>
 													</div>

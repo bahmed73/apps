@@ -297,9 +297,9 @@
 								<div>	
 								<!-- Nav -->
 										<nav id="nav">
-										<button id="button3" class="ui-state-default ui-corner-all" title="Liquid Loadable Products.">Liquid</button>
-										<button id="button2" class="ui-state-default ui-corner-all" title="Pest Solutions.">Pests</button>
-										<button id="button4" class="ui-state-default ui-corner-all" title="Certification and training.">Training</button>
+										<button id="button3" class="ui-state-default ui-corner-all" title="Liquid Loadable Products.">Pests</button>
+										<button id="button2" class="ui-state-default ui-corner-all" title="Products.">Products</button>
+										<button id="button4" class="ui-state-default ui-corner-all" title="Certification and training.">Tree Diseases</button>
 										<button id="button" class="ui-state-default ui-corner-all" title="Please feel free to email us.">Contact Us</button>
 											<ul>
 												<!--  <li><g:link controller="product" action="software">#if? Programming</g:link></li>
@@ -321,23 +321,23 @@
 													<section class="box">
 													<!-- <a href="http://www.mytweetmark.com" class="image image-full"><asset:image src="foodal-homepage-16.png"/></a> -->
 													<header>
-														<span style="font-size:35px;">Welcome to Mauget!</span>
+														<span style="font-size:35px;">Products</span>
 													</header>
 													
 													<div id="effect2" class="ui-widget-content ui-corner-all">
 													<div id="resizable6" class="ui-widget-content">
   													<span style="font-size:25px;">
   													<ul>
-													<li>Pest Solutions:</li>
+													<li>Our Products:</li>
 													<br>
-													<li><a href="https://mauget.com/solutions/">Lookup by disease, insect or nutrient deficiency!</a></li>
+													<li><a href="https://mauget.com/solutions/">For various tree diseases and insects!</a></li>
 													</ul>
 													</span>
 													</div>
 													</div>
 													
 													<header>
-														<span style="font-size:35px;">Liquid Loadable Products:</span>
+														<span style="font-size:35px;">Pests:</span>
 													</header>
 													
 													<div id="effect3" class="ui-widget-content ui-corner-all">
@@ -345,9 +345,9 @@
   													
   														<span style="font-size:25px;">
 	  													<ul>
-														<li>Mauget is not just a capsule:</li>
+														<li>View insects:</li>
 														<br>
-														<li><a href="https://mauget.com/liquid-loadable-products/">New Products!</a></li>
+														<li><a href="https://mauget.com/liquid-loadable-products/">View all pests and insects we cure!</a></li>
 														<!--<li><a href="left-sidebar.html">Login</a></li>-->
 														</ul>
 														</span>
@@ -359,7 +359,7 @@
 											<div class="6u">
 												<section class="box">
 												<header>
-														<span style="font-size:35px;">Certification and Training:</span>
+														<span style="font-size:35px;">Tree Diseases:</span>
 													</header>
 													
 												
@@ -368,7 +368,7 @@
   													<span style="font-size:25px;">
   													<ul>
 													<br>
-														<li><a href="https://mauget.com/mauget-training-and-certification/">Become an approved distributor!</a></li>
+														<li><a href="https://mauget.com/mauget-training-and-certification/">Lookup the tree diseases!</a></li>
 														</ul>
 													</span>
 													</div>
