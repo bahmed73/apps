@@ -80,37 +80,19 @@
 														<span style="font-size:35px;"><f:display bean="products" property="name"/></span>
 													</header>
 													<br><br>
-													<p style="font-size:24px;color:#8a7e7e;">Price: $<f:display bean="products" property="price"/></p>
+													<p style="font-size:24px;color:#8a7e7e;">Usage: <f:display bean="products" property="usage"/></p>
 													<br><br>
 													<p style="font-size:16px;color:#8a7e7e;">Views: ${productViews}</p>
 													<br><br>
 													<p style="font-size:18px;">Description: <f:display bean="products" property="description"/></p>
 													<br><br>
-													<p style="font-size:18px;">Size: <f:display bean="products" property="productSize"/></p>
+													<p style="font-size:18px;">Other Relevant Info: <f:display bean="products" property="other"/></p>
 													<br><br>
-													<p style="font-size:18px;">Color: <f:display bean="products" property="productColor"/></p>
+													<p style="font-size:18px;">Packaging: <f:display bean="products" property="packaging"/></p>
 													<br><br>
-													<p style="font-size:18px;">ShippingInfo: <f:display bean="products" property="shippingInfo"/></p>
+													<p style="font-size:18px;">Scientific Name: <f:display bean="products" property="scientificName"/></p>
 													<br><br>
-													<p style="font-size:18px;">Return Policy: <f:display bean="products" property="returnPolicy"/></p>
-													<br><br>
-													  
-													<form action="productCheckout" controller="checkout" method="POST">
-													<script
-										  			src="https://checkout.stripe.com/checkout.js" class="stripe-button"
-										  			data-key="pk_live_XG5V3QMNoSvnijnOBH1SRO2I"
-										  			data-amount="${products.price}00"
-										  			data-name="foodal Subscription"
-										  			data-description="Monthly Subscription"
-										  			data-zip-code="true"
-										  			data-shipping-address="true"
-										  			data-billing-address="true"
-										  			
-										  			
-										  			data-image="https://stripe.com/img/documentation/checkout/marketplace.png"
-										  			data-locale="auto">
-													</script>
-													</form>
+													
 													
 												</section>
 											</div>

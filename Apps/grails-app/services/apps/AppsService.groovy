@@ -176,5 +176,70 @@ class AppsService {
 		}
 		
 	}
+	
+	def uploadInsectPhoto(File file, Insect insect) {
+		log.info "inside uploadInsectPhoto"
+		
+		String fileName = file.getAbsolutePath()
+		
+		log.info "fileName = " + fileName
+		
+		ImagePlus image = imagingService.openImagePlus(fileName);
+		try {
+			def output = imagingService.generate100x100(image, fileName, true);
+			
+			def files = new File(output)
+			insect.imageOne = files.bytes
+			
+			output = imagingService.generate50x50(image, fileName, true);
+			
+			files = new File(output)
+			insect.imageTwo = files.bytes
+			
+			output = imagingService.generate400x400(image, fileName);
+			
+			files = new File(output)
+			insect.imageThree = files.bytes
+			
+		} catch (Exception e) {
+			
+			log.info"uploadInsectPhoto: error generating images"
+			e.printStackTrace()
+			
+		}
+		
+	}
 
+	def uploadDiseasePhoto(File file, Disease disease) {
+		log.info "inside uploadBlogPhoto"
+		
+		String fileName = file.getAbsolutePath()
+		
+		log.info "fileName = " + fileName
+		
+		ImagePlus image = imagingService.openImagePlus(fileName);
+		try {
+			def output = imagingService.generate100x100(image, fileName, true);
+			
+			def files = new File(output)
+			disease.imageOne = files.bytes
+			
+			output = imagingService.generate50x50(image, fileName, true);
+			
+			files = new File(output)
+			disease.imageTwo = files.bytes
+			
+			output = imagingService.generate400x400(image, fileName);
+			
+			files = new File(output)
+			disease.imageThree = files.bytes
+			
+		} catch (Exception e) {
+			
+			log.info"uploadDiseasePhoto: error generating images"
+			e.printStackTrace()
+			
+		}
+		
+	}
 }

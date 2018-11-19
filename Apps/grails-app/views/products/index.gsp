@@ -62,7 +62,7 @@
 										<nav id="nav">
 											<ul>
 												<li><g:link url="/">Home</g:link></li>
-												<li><g:link controller="product" action="shelf">Create a Shelf</g:link></li>
+												<li><g:link controller="product" action="shelf">Dashboard</g:link></li>
 												<li><g:link controller="products" action="create">Create a Product</g:link></li>
 												<!--<li><a href="left-sidebar.html">Login</a></li>-->
 											</ul>
@@ -82,9 +82,11 @@
 														<span style="font-size:35px;">${productsInstance.name}</span>
 														</header>
 														<br><br>
-														<p style="font-size:24px;color:#8a7e7e;">Price: ${productsInstance.price} dollars</p>
+														<p style="font-size:24px;color:#8a7e7e;">Usage: ${productsInstance.usage}</p>
 														<br><br>
-														<p style="font-size:18px;">Description: ${productsInstance.description}</p>
+														<p style="font-size:18px;">Other Relevant Info: ${productsInstance.other}</p>
+														<br><br>
+														<p style="font-size:18px;">Packaging: ${productsInstance.packaging}</p>
 														<br><br>
 														<p style="font-size:18px;"><g:link controller="products" action="show" id="${productsInstance.id}"><span style="color:#8a7e7e;">Read more...</span></g:link></p>
 														</section>

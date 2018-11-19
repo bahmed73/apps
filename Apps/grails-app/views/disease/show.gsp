@@ -19,7 +19,14 @@
             <g:if test="${flash.message}">
             <div class="message" role="status">${flash.message}</div>
             </g:if>
-            <f:display bean="disease" />
+            <p style="font-size:24px;color:#8a7e7e;">Name: <f:display bean="disease" property="name"/></p>
+													<br><br>
+													<p style="font-size:18px;">Description: <f:display bean="disease" property="description"/></p>
+													<br><br>
+													<p style="font-size:18px;"><img src="data:image/png;base64,${disease.imageThree?.encodeBase64()}"/></p>
+													<br><br>
+            
+            
             <g:form resource="${this.disease}" method="DELETE">
                 <fieldset class="buttons">
                     <g:link class="edit" action="edit" resource="${this.disease}"><g:message code="default.button.edit.label" default="Edit" /></g:link>

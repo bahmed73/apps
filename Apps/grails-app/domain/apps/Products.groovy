@@ -7,11 +7,10 @@ class Products {
         String name
         String description
         Date updateTime
-        String productSize
-		String productColor
-		String price
-		String shippingInfo
-		String returnPolicy
+        String scientificName
+		String usage
+		String other
+		String packaging
 		User user
 		byte[] imageOne
 		byte[] imageTwo
@@ -23,11 +22,10 @@ class Products {
                 name(nullable:false, maxSize:500)
                 description(nullable:true, maxSize:50000)
                 updateTime(nullable:false)
-                productSize(nullable:true)
-				productColor(nullable:true)
-				price(nullable:false)
-				shippingInfo(nullable:true)
-				returnPolicy(nullable:true)
+                scientificName(nullable:true)
+				usage(nullable:true)
+				other(nullable:true)
+				packaging(nullable:true)
 				user(nullable:false)
 				imageOne(nullable:true, maxSize: 1024 * 1024 * 2)
 				imageTwo(nullable:true, maxSize: 1024 * 1024 * 2)
