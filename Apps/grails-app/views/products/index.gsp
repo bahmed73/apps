@@ -82,7 +82,7 @@
 														<span style="font-size:35px;">${productsInstance.name}</span>
 														</header>
 														<br><br>
-														<p style="font-size:24px;color:#8a7e7e;">Usage: ${productsInstance.usage}</p>
+														<p style="font-size:20px;color:#8a7e7e;">Usage: ${productsInstance.usage}</p>
 														<br><br>
 														<p style="font-size:18px;">Other Relevant Info: ${productsInstance.other}</p>
 														<br><br>

@@ -96,7 +96,7 @@
 													<section class="box">
 													<!-- <a href="http://www.mytweetmark.com" class="image image-full"><asset:image src="foodal-homepage-16.png"/></a> -->
 													<header>
-														<span style="font-size:35px;">Shelf</span>
+														<span style="font-size:35px;">Dashboard</span>
 													</header>
 													<g:form controller="logout">                        
     													<g:submitButton name="logout" value="Logout" />

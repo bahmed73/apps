@@ -80,15 +80,15 @@
 														<span style="font-size:35px;"><f:display bean="products" property="name"/></span>
 													</header>
 													<br><br>
-													<p style="font-size:24px;color:#8a7e7e;">Usage: <f:display bean="products" property="usage"/></p>
+													<p style="font-size:18px;color:#8a7e7e;">Usage: <f:display bean="products" property="usage"/></p>
 													<br><br>
 													<p style="font-size:16px;color:#8a7e7e;">Views: ${productViews}</p>
 													<br><br>
 													<p style="font-size:18px;">Description: <f:display bean="products" property="description"/></p>
 													<br><br>
-													<p style="font-size:18px;">Other Relevant Info: <f:display bean="products" property="other"/></p>
+													<p style="font-size:18px;color:#8a7e7e;">Other Relevant Info: <f:display bean="products" property="other"/></p>
 													<br><br>
-													<p style="font-size:18px;">Packaging: <f:display bean="products" property="packaging"/></p>
+													<p style="font-size:18px;color:#8a7e7e;">Packaging: <f:display bean="products" property="packaging"/></p>
 													<br><br>
 													<p style="font-size:18px;">Scientific Name: <f:display bean="products" property="scientificName"/></p>
 													<br><br>
