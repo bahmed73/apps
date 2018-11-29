@@ -211,7 +211,7 @@ class AppsService {
 	}
 
 	def uploadDiseasePhoto(File file, Disease disease) {
-		log.info "inside uploadBlogPhoto"
+		log.info "inside uploadDiseasePhoto"
 		
 		String fileName = file.getAbsolutePath()
 		
@@ -237,6 +237,39 @@ class AppsService {
 		} catch (Exception e) {
 			
 			log.info"uploadDiseasePhoto: error generating images"
+			e.printStackTrace()
+			
+		}
+		
+	}
+	
+	def uploadCouponPhoto(File file, Coupon coupon) {
+		log.info "inside uploadCouponPhoto"
+		
+		String fileName = file.getAbsolutePath()
+		
+		log.info "fileName = " + fileName
+		
+		ImagePlus image = imagingService.openImagePlus(fileName);
+		try {
+			def output = imagingService.generate100x100(image, fileName, true);
+			
+			def files = new File(output)
+			coupon.imageOne = files.bytes
+			
+			output = imagingService.generate50x50(image, fileName, true);
+			
+			files = new File(output)
+			coupon.imageTwo = files.bytes
+			
+			output = imagingService.generate400x400(image, fileName);
+			
+			files = new File(output)
+			coupon.imageThree = files.bytes
+			
+		} catch (Exception e) {
+			
+			log.info"uploadCouponPhoto: error generating images"
 			e.printStackTrace()
 			
 		}

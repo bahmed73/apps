@@ -81,7 +81,7 @@
 												<li><g:link class="list" action="index" controller="disease"><span>Diseases</span></g:link></li>
 												<li><g:link class="list" action="index" controller="insect"><span>Insects</span></g:link></li>
 												<li><g:link class="list" action="index" controller="distributor"><span>Distributors</span></g:link></li>
-												<!-- <li><g:link controller="product" action="analytics">View Analytics</g:link></li>-->
+												<li><g:link controller="coupon" action="index">Coupon</g:link></li>
 												<!--<li><a href="left-sidebar.html">Login</a></li>-->
 											</ul>
 										</nav>
@@ -112,9 +112,9 @@
 													<li>-</li>
 													<li><div><g:link action="index" controller="insect"><span style="color:#8a7e7e;">Insects</span></g:link></div></li>
 													<li>-</li>
-													<li><div><g:link action="analytics" controller="distributor"><span style="color:#8a7e7e;">Distributors</span></g:link></div></li>
-													<!-- <li>-</li>
-													<li><div><g:link controller="product" action="help"><span style="color:#8a7e7e;">Help</span></g:link></div></li>-->
+													<div><g:link action="index" controller="distributor"><span style="color:#8a7e7e;">Distributors</span></g:link></div></li>
+													<li>-</li>
+													<li><div><g:link controller="coupon" action="index"><span style="color:#8a7e7e;">Coupon</span></g:link></div></li>
 													</ul>
 													</div>
 													<br>
