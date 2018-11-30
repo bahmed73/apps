@@ -142,7 +142,7 @@
 										<div class="row">
 											<div class="4u" >
 												<section class="box">
-													<a href="https://mauget.com/distributor-locator/" class="image image-full"><asset:image src="mauget-home-1.png"/></a>
+													<!-- <a href="https://mauget.com/distributor-locator/" class="image image-full"><asset:image src="mauget-home-1.png"/></a> -->
 												
 													<p><a href="https://mauget.com/distributor-locator/">Locate a distributor</a></p>
 												
@@ -150,13 +150,13 @@
 											</div>
 											<div class="4u">
 												<section class="box">
-													<a href="https://mauget.com/shop/" class="image image-full"><asset:image src="mauget-home-2.png"/></a>
+													<!-- <a href="https://mauget.com/shop/" class="image image-full"><asset:image src="mauget-home-2.png"/></a> -->
 													<p><a href="https://mauget.com/shop/">Shop Online</a></p>
 												</section>
 											</div>
 											<div class="4u">
 												<section class="box">
-													<a href="https://mauget.com/" class="image image-full"><asset:image src="mauget-home-3.png"/></a>
+													<!-- <a href="https://mauget.com/" class="image image-full"><asset:image src="mauget-home-3.png"/></a> -->
 													<p><a href="https://mauget.com/">Visit Us</a></p>
 												</section>
 											</div>

@@ -20,7 +20,7 @@ class ProductsController {
 	
     static allowedMethods = [save: "POST", update: "PUT", delete: "DELETE"]
 
-	static fProd = "/root/tomcat/apache-tomcat-9.0.0.M21/webapps/ROOT/assets/images"
+	static fProd = "/opt/tomcat/apache-tomcat-9.0.13/webapps/ROOT/assets/images"
 	static fTest = "C:\\development\\workspace\\Apps\\grails-app\\assets\\images"
 	
     def index(Integer max) {

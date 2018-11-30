@@ -19,13 +19,14 @@
             <g:if test="${flash.message}">
             <div class="message" role="status">${flash.message}</div>
             </g:if>
+            <div style="margin:50px">
             <p style="font-size:24px;color:#8a7e7e;">Name: <f:display bean="insect" property="name"/></p>
 													<br><br>
 													<p style="font-size:18px;">Description: <f:display bean="insect" property="description"/></p>
 													<br><br>
 													<p style="font-size:18px;"><img src="data:image/png;base64,${insect.imageThree?.encodeBase64()}"/></p>
 													<br><br>
-            
+            </div>
             <g:form resource="${this.insect}" method="DELETE">
                 <fieldset class="buttons">
                     <g:link class="edit" action="edit" resource="${this.insect}"><g:message code="default.button.edit.label" default="Edit" /></g:link>

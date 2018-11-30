@@ -50,14 +50,14 @@
   <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
   <link rel="stylesheet" href="/resources/demos/style.css">
   <style>
-    .toggler { width: 400px; height: 200px; position: relative; }
-    #effect { width: 400px; height: 170px; padding: 0.4em; position: relative; }
+    .toggler { width: 300px; height: 200px; position: relative; }
+    #effect { width: 300px; height: 170px; padding: 0.4em; position: relative; }
     #effect h3 { margin: 0; padding: 0.4em; text-align: center; }
-    #effect2 { width: 400px; height: 170px; padding: 0.4em; position: relative; }
+    #effect2 { width: 300px; height: 170px; padding: 0.4em; position: relative; }
     #effect2 h3 { margin: 0; padding: 0.4em; text-align: center; }
-    #effect3 { width: 400px; height: 170px; padding: 0.4em; position: relative; }
+    #effect3 { width: 300px; height: 170px; padding: 0.4em; position: relative; }
     #effect3 h3 { margin: 0; padding: 0.4em; text-align: center; }
-    #effect4 { width: 400px; height: 170px; padding: 0.4em; position: relative; }
+    #effect4 { width: 300px; height: 170px; padding: 0.4em; position: relative; }
     #effect4 h3 { margin: 0; padding: 0.4em; text-align: center; }
     .ui-effects-transfer { border: 2px dotted gray; }
     label {
@@ -321,23 +321,21 @@
 													<section class="box">
 													<!-- <a href="http://www.mytweetmark.com" class="image image-full"><asset:image src="foodal-homepage-16.png"/></a> -->
 													<header>
-														<span style="font-size:35px;">Products: <g:img dir="images" file="productss.png" width="100" height="100"/></span>
+														<span style="font-size:35px;">Products</span>
 													</header>
 													
 													<div id="effect2" class="ui-widget-content ui-corner-all">
 													<div id="resizable6" class="ui-widget-content">
   													<span style="font-size:25px;">
   													<ul>
-													<li>Our Products:</li>
-													<br>
-													<li><a href="https://mauget.com/solutions/">For various tree diseases and insects!</a></li>
+													<li><g:img dir="images" file="productss.png" width="100" height="100"/></li>
 													</ul>
 													</span>
 													</div>
 													</div>
 													
 													<header>
-														<span style="font-size:35px;">Pests: <g:img dir="images" file="pests.png" width="100" height="100"/></span>
+														<span style="font-size:35px;">Pests</span>
 													</header>
 													
 													<div id="effect3" class="ui-widget-content ui-corner-all">
@@ -345,10 +343,7 @@
   													
   														<span style="font-size:25px;">
 	  													<ul>
-														<li>View insects:</li>
-														<br>
-														<li><a href="https://mauget.com/liquid-loadable-products/">View all pests and insects we cure!</a></li>
-														<!--<li><a href="left-sidebar.html">Login</a></li>-->
+														<li><g:img dir="images" file="pests.png" width="100" height="100"/> </li>
 														</ul>
 														</span>
   													</div>
@@ -359,7 +354,7 @@
 											<div class="6u">
 												<section class="box">
 												<header>
-														<span style="font-size:35px;">Tree Diseases: <g:img dir="images" file="diseases.png" width="100" height="100"/></span>
+														<span style="font-size:35px;">Tree Diseases</span>
 													</header>
 													
 												
@@ -367,23 +362,22 @@
   													<div id="resizable5" class="ui-widget-content">
   													<span style="font-size:25px;">
   													<ul>
-													<br>
-														<li><a href="https://mauget.com/mauget-training-and-certification/">Lookup the tree diseases!</a></li>
+														<li><g:img dir="images" file="diseases.png" width="100" height="100"/> </li>
 														</ul>
 													</span>
 													</div>
 													</div>
 													
 													<header>
-														<span style="font-size:35px;">Contact Us: <g:img dir="images" file="contactus.png" width="100" height="100"/></span>
+														<span style="font-size:35px;">Contact Us</span>
 													</header>
 													
 													<div id="effect" class="ui-widget-content ui-corner-all">
 													<div id="resizable4" class="ui-widget-content">
   													<span style="font-size:25px;">
   													
-  													<br>
-													<p style="font-size:20px;">Questions? Email us today and get started.</p>
+  													<p style="font-size:20px;">Questions? Email us today and get started.</p>
+  													
 													<br>
 													<footer class="actions">
 														<a href="mailto:webmaster@mauget.com" class="button fa fa-file-text">Email us today!</a>
