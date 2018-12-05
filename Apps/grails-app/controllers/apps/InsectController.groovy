@@ -12,9 +12,11 @@ class InsectController {
 	
     static allowedMethods = [save: "POST", update: "PUT", delete: "DELETE"]
 	
-	static fProd = "/opt/tomcat/apache-tomcat-9.0.13/webapps/ROOT/assets/images"
-	static fTest = "C:\\development\\workspace\\Apps\\grails-app\\assets\\images"
-
+	static fProd = "/opt/tomcat/webapps/ROOT/assets/images"
+	
+	//static fTest = "C:\\development\\workspace\\Apps\\grails-app\\assets\\images"
+	static fTest = "/opt/tomcat/webapps/ROOT/assets/images"
+	
     def index(Integer max) {
         params.max = Math.min(max ?: 10, 100)
         respond Insect.list(params), model:[insectCount: Insect.count()]
@@ -50,7 +52,7 @@ class InsectController {
 
 				switch (grails.util.Environment.current) {
 				case grails.util.Environment.DEVELOPMENT:
-						fileName = fTest + "\\INSECT_"+insect.id
+						fileName = fTest + "/INSECT_"+insect.id
 						System.out.println("fileName = " + fileName)
 						File file = new File(fileName)
 						transferFile.transferTo( file )
@@ -119,7 +121,7 @@ class InsectController {
 
 				switch (grails.util.Environment.current) {
 				case grails.util.Environment.DEVELOPMENT:
-						fileName = fTest + "\\INSECT_"+insect.id
+						fileName = fTest + "/INSECT_"+insect.id
 						System.out.println("fileName = " + fileName)
 						File file = new File(fileName)
 						transferFile.transferTo( file )
