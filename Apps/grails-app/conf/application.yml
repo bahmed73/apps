@@ -85,8 +85,8 @@ grails:
     mail:
         host: 'smtp.gmail.com'
         port: 465
-        username: "foodalco@gmail.com"
-        password: "Brahmananda1"
+        username: "bahmed73@gmail.com"
+        password: "Sivananda1"
         props:
             mail:
                 smtp:
@@ -116,7 +116,7 @@ dataSource:
     //driverClassName: org.h2.Driver
     driverClassName: org.postgresql.Driver
     username: "postgres"
-    password: "Brahmananda1"
+    //password: "Brahmananda1"
     url: jdbc:postgresql://localhost:5432/postgres
     dbCreate: create-drop
 

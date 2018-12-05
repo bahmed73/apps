@@ -321,7 +321,7 @@
 													<section class="box">
 													<!-- <a href="http://www.mytweetmark.com" class="image image-full"><asset:image src="foodal-homepage-16.png"/></a> -->
 													<header>
-														<span style="font-size:35px;">Products</span>
+														<span style="font-size:35px;color:#878282">Products</span>
 													</header>
 													
 													<div id="effect2" class="ui-widget-content ui-corner-all">
@@ -335,7 +335,7 @@
 													</div>
 													
 													<header>
-														<span style="font-size:35px;">Pests</span>
+														<span style="font-size:35px;color:#878282">Pests</span>
 													</header>
 													
 													<div id="effect3" class="ui-widget-content ui-corner-all">
@@ -354,7 +354,7 @@
 											<div class="6u">
 												<section class="box">
 												<header>
-														<span style="font-size:35px;">Tree Diseases</span>
+														<span style="font-size:35px;color:#878282">Tree Diseases</span>
 													</header>
 													
 												
@@ -369,7 +369,7 @@
 													</div>
 													
 													<header>
-														<span style="font-size:35px;">Contact Us</span>
+														<span style="font-size:35px;color:#878282">Contact Us</span>
 													</header>
 													
 													<div id="effect" class="ui-widget-content ui-corner-all">
@@ -380,8 +380,7 @@
   													
 													<br>
 													<footer class="actions">
-														<a href="mailto:webmaster@mauget.com" class="button fa fa-file-text">Email us today!</a>
-														<br><br>
+														<a href="mailto:webmaster@mauget.com" class="fa fa-flag fa-2x pull-left">Email!</a>
 														
 													</footer>
 													</span>
@@ -405,34 +404,8 @@
 							
 							<!-- Portfolio -->
 								<section>
-								<span style="font-size:40px;color:white">Also visit:</span>
 									
-									<div>
-										<div class="row">
-											<div class="4u"  id="resizable" class="ui-widget-content">
-												<section class="box">
-													<!--  <a href="https://mauget.com/distributor-locator/" class="image image-full"><asset:image src="mauget-home-1.png"/></a>-->
-												
-													<p><a href="https://mauget.com/distributor-locator/">Locate a distributor</a></p>
-												
-												</section>
-											</div>
-											<div class="4u"  id="resizable2" class="ui-widget-content">
-												<section class="box">
-													<!-- <a href="https://mauget.com/shop/" class="image image-full"><asset:image src="mauget-home-2.png"/></a> -->
-													<p><a href="https://mauget.com/shop/">Shop Online</a></p>
-												</section>
-											</div>
-											<div class="4u"  id="resizable3" class="ui-widget-content">
-												<section class="box">
-													<!--  <a href="https://mauget.com/" class="image image-full"><asset:image src="mauget-home-3.png"/></a> -->
-													<p><a href="https://mauget.com/">Visit Us</a></p>
-												</section>
-											</div>
-										</div>
-										
-											
-					</div>
+									
 					<div class="row">
 						<div class="12u">
 

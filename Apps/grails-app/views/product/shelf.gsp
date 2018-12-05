@@ -79,9 +79,9 @@
 												<li><g:link url="/">Home</g:link></li>
 												<li><g:link class="list" action="index" controller="products"><span>Products</span></g:link></li>
 												<li><g:link class="list" action="index" controller="disease"><span>Diseases</span></g:link></li>
-												<li><g:link class="list" action="index" controller="insect"><span>Insects</span></g:link></li>
+												<li><g:link class="list" action="index" controller="insect"><span>Pests</span></g:link></li>
 												<li><g:link class="list" action="index" controller="distributor"><span>Distributors</span></g:link></li>
-												<li><g:link controller="coupon" action="index">Coupon</g:link></li>
+												<li><g:link controller="coupon" action="index">Coupons</g:link></li>
 												<!--<li><a href="left-sidebar.html">Login</a></li>-->
 											</ul>
 										</nav>
@@ -96,7 +96,7 @@
 													<section class="box">
 													<!-- <a href="http://www.mytweetmark.com" class="image image-full"><asset:image src="foodal-homepage-16.png"/></a> -->
 													<header>
-														<span style="font-size:35px;">Dashboard</span>
+														<span style="font-size:35px;color:#878282">Dashboard</span>
 													</header>
 													<g:form controller="logout">                        
     													<g:submitButton name="logout" value="Logout" />
@@ -106,15 +106,15 @@
 													<div>
 													
 													<ul id="menu">
-													<li><div><g:link class="list" action="index" controller="products"><span style="color:#8a7e7e;">Products</span></g:link></div></li>
+													<li><div><g:link class="list" action="index" controller="products"><span style="color:#8a7e7e;font-size:20px"><asset:image src="productss.png" width="50" height="50"/> Products</span></g:link></div></li>
 													<li>-</li>
-													<li><div><g:link action="index" controller="disease"><span style="color:#8a7e7e;">Diseases</span></g:link></div></li>
+													<li><div><g:link action="index" controller="disease"><span style="color:#8a7e7e;font-size:20px"><asset:image src="diseases.png" width="50" height="50"/> Diseases</span></g:link></div></li>
 													<li>-</li>
-													<li><div><g:link action="index" controller="insect"><span style="color:#8a7e7e;">Insects</span></g:link></div></li>
+													<li><div><g:link action="index" controller="insect"><span style="color:#8a7e7e;font-size:20px"><asset:image src="pests.png" width="50" height="50"/> Pests</span></g:link></div></li>
 													<li>-</li>
-													<div><g:link action="index" controller="distributor"><span style="color:#8a7e7e;">Distributors</span></g:link></div></li>
+													<div><g:link action="index" controller="distributor"><span style="color:#8a7e7e;font-size:20px"><asset:image src="distributors.png" width="50" height="50"/> Distributors</span></g:link></div></li>
 													<li>-</li>
-													<li><div><g:link controller="coupon" action="index"><span style="color:#8a7e7e;">Coupon</span></g:link></div></li>
+													<li><div><g:link controller="coupon" action="index"><span style="color:#8a7e7e;font-size:20px"><asset:image src="coupons.png" width="50" height="50"/> Coupons</span></g:link></div></li>
 													</ul>
 													</div>
 													<br>
@@ -122,16 +122,12 @@
 													<g:form controller="logout">                        
     													<g:submitButton name="logout" value="Logout" />
 													</g:form>
-													<br><br>
-													<footer class="actions">
-														<a href="mailto:bilal@mytweetmark.com" class="button fa fa-file-text">Email us today!</a>
-														<br><br>
-													</footer>
+													
 												</section>
 											</div>
 										<div class="6u">
 												<section class="box">
-													<a href="http://foodal.co/product/software" class="image image-full"><asset:image src="mauget-home-1.png"/></a>
+													<asset:image src="ChemJet.jpg" width="500" height="500"/>
 													<!--header>
 														<h3>Aptent veroeros et aliquam</h3>
 														<span class="byline">Posted 45 minutes ago</span>
@@ -161,34 +157,7 @@
 							
 							<!-- Portfolio -->
 								<section>
-									<span style="font-size:40px;color:white">Also visit:</span>
 									
-									<div>
-										<div class="row">
-											<div class="4u" >
-												<section class="box">
-													<!-- <a href="https://mauget.com/distributor-locator/" class="image image-full"><asset:image src="mauget-home-1.png"/></a> -->
-												
-													<p><a href="https://mauget.com/distributor-locator/">Locate a distributor</a></p>
-												
-												</section>
-											</div>
-											<div class="4u">
-												<section class="box">
-													<!-- <a href="https://mauget.com/shop/" class="image image-full"><asset:image src="mauget-home-2.png"/></a> -->
-													<p><a href="https://mauget.com/shop/">Shop Online</a></p>
-												</section>
-											</div>
-											<div class="4u">
-												<section class="box">
-													<!-- <a href="https://mauget.com/" class="image image-full"><asset:image src="mauget-home-3.png"/></a> -->
-													<p><a href="https://mauget.com/">Visit Us</a></p>
-												</section>
-											</div>
-										</div>
-										
-											
-					</div>
 					<div class="row">
 						<div class="12u">
 
