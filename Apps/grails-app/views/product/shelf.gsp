@@ -81,7 +81,7 @@
 												<li><g:link class="list" action="index" controller="disease"><span>Diseases</span></g:link></li>
 												<li><g:link class="list" action="index" controller="insect"><span>Pests</span></g:link></li>
 												<li><g:link class="list" action="index" controller="distributor"><span>Distributors</span></g:link></li>
-												<li><g:link controller="coupon" action="index">Coupons</g:link></li>
+												<li><g:link controller="coupon" action="index">Marketing</g:link></li>
 												<!--<li><a href="left-sidebar.html">Login</a></li>-->
 											</ul>
 										</nav>
@@ -114,7 +114,7 @@
 													<li>-</li>
 													<div><g:link action="index" controller="distributor"><span style="color:#8a7e7e;font-size:20px"><asset:image src="distributors.png" width="50" height="50"/> Distributors</span></g:link></div></li>
 													<li>-</li>
-													<li><div><g:link controller="coupon" action="index"><span style="color:#8a7e7e;font-size:20px"><asset:image src="coupons.png" width="50" height="50"/> Coupons</span></g:link></div></li>
+													<li><div><g:link controller="coupon" action="index"><span style="color:#8a7e7e;font-size:20px"><asset:image src="coupons.png" width="50" height="50"/> Marketing</span></g:link></div></li>
 													</ul>
 													</div>
 													<br>
@@ -127,7 +127,7 @@
 											</div>
 										<div class="6u">
 												<section class="box">
-													<asset:image src="ChemJet.jpg" width="500" height="500"/>
+													<asset:image src="ChemJet.jpg" width="400" height="400"/>
 													<!--header>
 														<h3>Aptent veroeros et aliquam</h3>
 														<span class="byline">Posted 45 minutes ago</span>
