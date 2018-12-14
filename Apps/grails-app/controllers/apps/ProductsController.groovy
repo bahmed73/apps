@@ -20,10 +20,8 @@ class ProductsController {
 	
     static allowedMethods = [save: "POST", update: "PUT", delete: "DELETE"]
 
-	static fProd = "/opt/tomcat/webapps/ROOT/assets/images"
-	
-	//static fTest = "C:\\development\\workspace\\Apps\\grails-app\\assets\\images"
-	static fTest = "/opt/tomcat/webapps/ROOT/assets/images"
+	static fProd = "/opt/tomcat/apache-tomcat-9.0.13/webapps/ROOT/assets/images"
+	static fTest = "C:\\development\\workspace\\Apps\\grails-app\\assets\\images"
 	
     def index(Integer max) {
         params.max = Math.min(max ?: 10, 100)
@@ -122,7 +120,7 @@ class ProductsController {
 
 				switch (grails.util.Environment.current) {
 				case grails.util.Environment.DEVELOPMENT:
-						fileName = fTest + "/PRODUCTS_"+products.id
+						fileName = fTest + "\\PRODUCTS_"+products.id
 						System.out.println("fileName = " + fileName)
 						File file = new File(fileName)
 						transferFile.transferTo( file )
@@ -220,7 +218,7 @@ class ProductsController {
 
 				switch (grails.util.Environment.current) {
 				case grails.util.Environment.DEVELOPMENT:
-						fileName = fTest + "/PRODUCTS_"+products.id
+						fileName = fTest + "\\PRODUCTS_"+products.id
 						System.out.println("fileName = " + fileName)
 						File file = new File(fileName)
 						transferFile.transferTo( file )
