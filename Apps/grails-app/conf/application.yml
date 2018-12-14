@@ -102,6 +102,14 @@ grails:
           maxFileSize: 26214400
           maxRequestSize: 26214400
 ---
+grails:
+    mongodb:
+        host: "localhost"
+        port: 27017
+        username: ""
+        password: ""
+        databaseName: "test"
+---        
 hibernate:
     cache:
         queries: false
@@ -134,7 +142,8 @@ environments:
     production:
         dataSource:
             dbCreate: create-drop
-            //url: jdbc:h2:./prodDb;MVCC=TRUE;LOCK_TIMEOUT=10000;DB_CLOSE_ON_EXIT=FALSE
+            driverClassName: org.h2.Driver
+            url: jdbc:h2:./prodDb;MVCC=TRUE;LOCK_TIMEOUT=10000;DB_CLOSE_ON_EXIT=FALSE
             properties:
                 jmxEnabled: true
                 initialSize: 5
