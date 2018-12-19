@@ -3,10 +3,17 @@ package apps
 import static org.springframework.http.HttpStatus.*
 import grails.transaction.Transactional
 
-@Transactional(readOnly = true)
+import grails.plugin.springsecurity.annotation.Secured
+
+@Secured('ROLE_ADMIN')
 class CategoryController {
 
+    def appsService
+	
     static allowedMethods = [save: "POST", update: "PUT", delete: "DELETE"]
+	
+	static fProd = "/opt/tomcat/apache-tomcat-9.0.13/webapps/ROOT/assets/images"
+	static fTest = "C:\\development\\workspace\\Apps\\grails-app\\assets\\images"
 
     def index(Integer max) {
         params.max = Math.min(max ?: 10, 100)
@@ -35,6 +42,46 @@ class CategoryController {
             return
         }
 
+		try {
+			def transferFile = request.getFile('myFile')
+			if(transferFile != null && !transferFile.empty) {
+				log.info "file is not empty, transferring"
+				String fileName
+
+				switch (grails.util.Environment.current) {
+				case grails.util.Environment.DEVELOPMENT:
+						fileName = fTest + "\\CATEGORY_"+category.id
+						System.out.println("fileName = " + fileName)
+						File file = new File(fileName)
+						transferFile.transferTo( file )
+						appsService.uploadCategoryPhoto(file, category)
+						break
+				case grails.util.Environment.TEST:
+						fileName = fProd + "/CATEGORY_"+category.id
+						System.out.println("fileName = " + fileName)
+						File file = new File(fileName)
+						transferFile.transferTo( file )
+						appsService.uploadCategoryPhoto(file, category)
+						break
+				case grails.util.Environment.PRODUCTION:
+						fileName = fProd + "/CATEGORY_"+category.id
+						log.info "fileName = " + fileName
+						File file = new File(fileName)
+						transferFile.transferTo( file )
+						appsService.uploadCategoryPhoto(file, category)
+						break
+				}
+
+			}
+			else {
+			   log.info "file is empty"
+			}
+		} catch (Exception e) {
+				e.printStackTrace( )
+				log.info "caught exception: " + e.getMessage()
+				log.info "caught exception: " + e
+		}
+		
         category.save flush:true
 
         request.withFormat {
@@ -64,6 +111,46 @@ class CategoryController {
             return
         }
 
+		try {
+			def transferFile = request.getFile('myFile')
+			if(transferFile != null && !transferFile.empty) {
+				log.info "file is not empty, transferring"
+				String fileName
+
+				switch (grails.util.Environment.current) {
+				case grails.util.Environment.DEVELOPMENT:
+						fileName = fTest + "\\CATEGORY_"+category.id
+						System.out.println("fileName = " + fileName)
+						File file = new File(fileName)
+						transferFile.transferTo( file )
+						appsService.uploadCategoryPhoto(file, category)
+						break
+				case grails.util.Environment.TEST:
+						fileName = fProd + "/CATEGORY_"+category.id
+						System.out.println("fileName = " + fileName)
+						File file = new File(fileName)
+						transferFile.transferTo( file )
+						appsService.uploadCategoryPhoto(file, category)
+						break
+				case grails.util.Environment.PRODUCTION:
+						fileName = fProd + "/CATEGORY_"+category.id
+						log.info "fileName = " + fileName
+						File file = new File(fileName)
+						transferFile.transferTo( file )
+						appsService.uploadCategoryPhoto(file, category)
+						break
+				}
+
+			}
+			else {
+			   log.info "file is empty"
+			}
+		} catch (Exception e) {
+				e.printStackTrace( )
+				log.info "caught exception: " + e.getMessage()
+				log.info "caught exception: " + e
+		}
+		
         category.save flush:true
 
         request.withFormat {

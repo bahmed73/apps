@@ -275,4 +275,70 @@ class AppsService {
 		}
 		
 	}
+	
+	def uploadCategoryPhoto(File file, Category category) {
+		log.info "inside uploadCategoryPhoto"
+		
+		String fileName = file.getAbsolutePath()
+		
+		log.info "fileName = " + fileName
+		
+		ImagePlus image = imagingService.openImagePlus(fileName);
+		try {
+			def output = imagingService.generate100x100(image, fileName, true);
+			
+			def files = new File(output)
+			category.imageOne = files.bytes
+			
+			output = imagingService.generate50x50(image, fileName, true);
+			
+			files = new File(output)
+			category.imageTwo = files.bytes
+			
+			output = imagingService.generate400x400(image, fileName);
+			
+			files = new File(output)
+			category.imageThree = files.bytes
+			
+		} catch (Exception e) {
+			
+			log.info"uploadCategoryPhoto: error generating images"
+			e.printStackTrace()
+			
+		}
+		
+	}
+	
+	def uploadTreeWellnessPhoto(File file, TreeWellness treeWellness) {
+		log.info "inside uploadTreeWellnessPhoto"
+		
+		String fileName = file.getAbsolutePath()
+		
+		log.info "fileName = " + fileName
+		
+		ImagePlus image = imagingService.openImagePlus(fileName);
+		try {
+			def output = imagingService.generate100x100(image, fileName, true);
+			
+			def files = new File(output)
+			treeWellness.imageOne = files.bytes
+			
+			output = imagingService.generate50x50(image, fileName, true);
+			
+			files = new File(output)
+			treeWellness.imageTwo = files.bytes
+			
+			output = imagingService.generate400x400(image, fileName);
+			
+			files = new File(output)
+			treeWellness.imageThree = files.bytes
+			
+		} catch (Exception e) {
+			
+			log.info"uploadTreeWellnessPhoto: error generating images"
+			e.printStackTrace()
+			
+		}
+		
+	}
 }

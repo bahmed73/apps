@@ -26,10 +26,17 @@
                 </g:eachError>
             </ul>
             </g:hasErrors>
-            <g:form resource="${this.treeWellness}" method="PUT">
+            <g:form resource="${this.treeWellness}" method="POST" enctype="multipart/form-data">
                 <g:hiddenField name="version" value="${this.treeWellness?.version}" />
                 <fieldset class="form">
-                    <f:all bean="treeWellness"/>
+                    <f:all bean="treeWellness" except="imageOne, imageTwo, imageThree"/>
+                </fieldset>
+                <fieldset>
+                	<div style="float:left;width:50" class="post"><h4>Upload Tree Wellness Image (JPG):</h4></div>
+              				Please be patient while the file uploads.<br>
+              		<div>
+                  <input type="file" name="myFile" />
+              </div>	
                 </fieldset>
                 <fieldset class="buttons">
                     <input class="save" type="submit" value="${message(code: 'default.button.update.label', default: 'Update')}" />

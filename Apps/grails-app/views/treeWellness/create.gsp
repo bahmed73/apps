@@ -25,9 +25,16 @@
                 </g:eachError>
             </ul>
             </g:hasErrors>
-            <g:form action="save">
+            <g:form action="save" method="post" enctype="multipart/form-data">
                 <fieldset class="form">
-                    <f:all bean="treeWellness"/>
+                    <f:all bean="treeWellness" except="imageOne, imageTwo, imageThree"/>
+                </fieldset>
+                <fieldset>
+                	<div style="float:left;width:50" class="post"><h4>Upload Tree Wellness Image (JPG):</h4></div>
+              				Please be patient while the file uploads.<br>
+              		<div>
+                  <input type="file" name="myFile" />
+              </div>	
                 </fieldset>
                 <fieldset class="buttons">
                     <g:submitButton name="create" class="save" value="${message(code: 'default.button.create.label', default: 'Create')}" />

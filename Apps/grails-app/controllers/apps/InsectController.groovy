@@ -57,14 +57,14 @@ class InsectController {
 						appsService.uploadInsectPhoto(file, insect)
 						break
 				case grails.util.Environment.TEST:
-						fileName = fProd + "/INSECT_"+disease.id
+						fileName = fProd + "/INSECT_"+insect.id
 						System.out.println("fileName = " + fileName)
 						File file = new File(fileName)
 						transferFile.transferTo( file )
 						appsService.uploadInsectPhoto(file, insect)
 						break
 				case grails.util.Environment.PRODUCTION:
-						fileName = fProd + "/INSECT_"+disease.id
+						fileName = fProd + "/INSECT_"+insect.id
 						log.info "fileName = " + fileName
 						File file = new File(fileName)
 						transferFile.transferTo( file )
@@ -126,14 +126,14 @@ class InsectController {
 						appsService.uploadInsectPhoto(file, insect)
 						break
 				case grails.util.Environment.TEST:
-						fileName = fProd + "/INSECT_"+disease.id
+						fileName = fProd + "/INSECT_"+insect.id
 						System.out.println("fileName = " + fileName)
 						File file = new File(fileName)
 						transferFile.transferTo( file )
 						appsService.uploadInsectPhoto(file, insect)
 						break
 				case grails.util.Environment.PRODUCTION:
-						fileName = fProd + "/INSECT_"+disease.id
+						fileName = fProd + "/INSECT_"+insect.id
 						log.info "fileName = " + fileName
 						File file = new File(fileName)
 						transferFile.transferTo( file )
