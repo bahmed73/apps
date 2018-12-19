@@ -1,21 +1,16 @@
 package apps
 
-class Products {
+class TreeWellness {
 
     //Long id
         Date createTime
         String name
         String description
         Date updateTime
-        String scientificName
-		String usage
-		String other
-		String packaging
-		User user
+        Products products
 		byte[] imageOne
 		byte[] imageTwo
 		byte[] imageThree
-		Category category
 
     static constraints = {
                 //id(nullable:true)
@@ -23,15 +18,10 @@ class Products {
                 name(nullable:false, maxSize:500)
                 description(nullable:true, maxSize:50000)
                 updateTime(nullable:false)
-                scientificName(nullable:true, maxSize:500)
-				usage(nullable:true, maxSize:5000)
-				other(nullable:true, maxSize:5000)
-				packaging(nullable:true, maxSize:500)
-				user(nullable:false)
-				imageOne(nullable:true, maxSize: 1024 * 1024 * 2)
+				products(nullable:false)
+                imageOne(nullable:true, maxSize: 1024 * 1024 * 2)
 				imageTwo(nullable:true, maxSize: 1024 * 1024 * 2)
 				imageThree(nullable:true, maxSize: 1024 * 1024 * 2)
-				category(nullable:true)
     }
 
         static mapping = {

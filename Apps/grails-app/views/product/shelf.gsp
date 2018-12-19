@@ -82,6 +82,9 @@
 												<li><g:link class="list" action="index" controller="insect"><span>Pests</span></g:link></li>
 												<li><g:link class="list" action="index" controller="distributor"><span>Distributors</span></g:link></li>
 												<li><g:link controller="coupon" action="index">Marketing</g:link></li>
+												<li><g:link controller="treeWellness" action="index">Tree Wellness</g:link></li>
+												<li><g:link controller="category" action="index">Category</g:link></li>
+												<li><g:link controller="applicator" action="index">Applicators</g:link></li>
 												<!--<li><a href="left-sidebar.html">Login</a></li>-->
 											</ul>
 										</nav>
@@ -112,9 +115,16 @@
 													<li>-</li>
 													<li><div><g:link action="index" controller="insect"><span style="color:#8a7e7e;font-size:20px"><asset:image src="pests.png" width="50" height="50"/> Pests</span></g:link></div></li>
 													<li>-</li>
-													<div><g:link action="index" controller="distributor"><span style="color:#8a7e7e;font-size:20px"><asset:image src="distributors.png" width="50" height="50"/> Distributors</span></g:link></div></li>
+													<li><div><g:link action="index" controller="distributor"><span style="color:#8a7e7e;font-size:20px"><asset:image src="distributors.png" width="50" height="50"/> Distributors</span></g:link></div></li>
 													<li>-</li>
 													<li><div><g:link controller="coupon" action="index"><span style="color:#8a7e7e;font-size:20px"><asset:image src="coupons.png" width="50" height="50"/> Marketing</span></g:link></div></li>
+													<li>-</li>
+													<li><div><g:link controller="treeWellness" action="index"><span style="color:#8a7e7e;font-size:20px"><asset:image src="favicon.png" width="50" height="50"/> Tree Wellness</span></g:link></div></li>
+													<li>-</li>
+													<li><div><g:link controller="category" action="index"><span style="color:#8a7e7e;font-size:20px"><asset:image src="mauget-home-2.png" width="50" height="50"/> Category</span></g:link></div></li>
+													<li>-</li>
+													<li><div><g:link controller="applicator" action="index"><span style="color:#8a7e7e;font-size:20px"><asset:image src="mauget-home-3.png" width="50" height="50"/> Applicators</span></g:link></div></li>
+													
 													</ul>
 													</div>
 													<br>
