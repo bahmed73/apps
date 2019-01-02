@@ -136,18 +136,35 @@
 												</section>
 											</div>
 										<div class="6u">
+										<br><br><br>
+										<div style="border: 2px solid #878282;
+											border-radius: 15px;
+											-moz-border-radius: 15px;height:500px;color:#878282">
 												<section class="box">
-													<asset:image src="ChemJet.jpg" width="400" height="400"/>
-													<!--header>
-														<h3>Aptent veroeros et aliquam</h3>
-														<span class="byline">Posted 45 minutes ago</span>
+												<header>
+														<span style="font-size:35px;">Distributor Near me.</span>
+														<br><br>
+														<span style="font-size:30px;" class="byline">Enter your zip code.</span>
 													</header>
-													<p>Lorem ipsum dolor sit amet sit veroeros sed et blandit consequat sed veroeros lorem et blandit  adipiscing feugiat phasellus tempus hendrerit, tortor vitae mattis tempor, sapien sem feugiat sapien, id suscipit magna felis nec elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos lorem ipsum dolor sit amet.</p>
+													<br><br>
+													<span style="font-size:28px;" class="byline">Note: Please contact a distributor to buy our product.</span>
+													<br><br><br><br>
 													<footer class="actions">
-														<a href="#" class="button fa fa-file-text">Continue Reading</a>
-														<a href="#" class="button alt fa fa-comment">33 comments</a>
-													</footer-->
+														<g:form action="index" controller="distributor" method="post">
+										                <fieldset>
+										                	
+										                  <g:field type="text" name="zipcode" value="Enter your zip code here."/>
+										              		</div>	
+										                </fieldset>
+										                <fieldset class="buttons">
+										                    <g:submitButton name="search" value="search" />
+										                </fieldset>
+										            </g:form>
+													</footer>
+													
+													
 												</section>
+												</div>
 											</div>
 											
 										</div>
