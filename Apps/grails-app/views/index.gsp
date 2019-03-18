@@ -1,12 +1,12 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<meta name="description" content="mauget" />
-<meta name="keywords" content="mauget local, local tree, trees, local business, injection, insects, fertilizer, farm, farm market, business, farm business, organic, health, nutrient, california, blogger, socialmedia, socialmedia blogger, social media blogger, facebook, facebook feed, twitter, twitter update, twitter" />
+		<meta name="description" content="Tea Bed and Breakfast" />
+<meta name="keywords" content="Tea B&B, Tea, way of life, bed and breakfast, live to the tea, live, tea, organic, health, nutrient, california, blogger, socialmedia, socialmedia blogger, social media blogger, facebook, facebook feed, twitter, twitter update, twitter" />
 <meta http-equiv="window-target" content="_top" />
 <META HTTP-EQUIV="CACHE-CONTROL" CONTENT="PUBLIC">
 	<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
-	<title>Mauget - The right way to treat a tree.</title>
+	<title>Tea B&B - Tea is the way of life, and so is bed and breakfast, combine so we can live to the tea.</title>
 	<asset:stylesheet src="skel-noscript.css"/>
 	<asset:stylesheet src="style.css"/>
 	<asset:stylesheet src="style-desktop.css"/>
@@ -282,13 +282,13 @@
 
 							<!-- Banner -->
 								<section id="banner">
-									<a href="https://mauget.com/">
-										<span class="image image-full" title="Mauget - The right way to treat a tree."><asset:image src="mauget.png"/></span>
+									
+										<span class="image image-full" title="Mauget - The right way to treat a tree."><asset:image src="buddha.png"/></span>
 										<header>
 											<!--  <h2>Mauget</h2> -->
 											<!--span class="byline">welcome!</span-->
 										</header>
-									</a>
+									
 									
 								</section>
 								
@@ -297,15 +297,16 @@
 								<div>	
 								<!-- Nav -->
 										<nav id="nav">
-										<button id="button3" class="ui-state-default ui-corner-all" title="Pests and Insects.">Pests</button>
-										<button id="button2" class="ui-state-default ui-corner-all" title="Products.">Products</button>
-										<button id="button4" class="ui-state-default ui-corner-all" title="Tree Diseases.">Tree Diseases</button>
+										<button id="button3" class="ui-state-default ui-corner-all" title="Buy Tea.">Tea</button>
+										<button id="button2" class="ui-state-default ui-corner-all" title="Tea Retreat.">Bed and Breakfast</button>
+										<button id="button4" class="ui-state-default ui-corner-all" title="Residence Program.">Residence</button>
 										<button id="button" class="ui-state-default ui-corner-all" title="Please feel free to email us.">Contact Us</button>
 											<ul>
 												<!--  <li><g:link controller="product" action="software">#if? Programming</g:link></li>
 												<li><g:link controller="product" action="premium">Premium News</g:link></li>
 												<li><g:link controller="product" action="seller">Seller Shelf</g:link></li>-->
 												<li><g:link controller="product" action="shelf">Login</g:link></li>
+												<li><g:link controller="register">Sign up</g:link></li>
 												<!--<li><a href="left-sidebar.html">Login</a></li>-->
 											</ul>
 											
@@ -321,29 +322,31 @@
 													<section class="box">
 													<!-- <a href="http://www.mytweetmark.com" class="image image-full"><asset:image src="foodal-homepage-16.png"/></a> -->
 													<header>
-														<span style="font-size:35px;color:#878282">Products</span>
+														<span style="font-size:35px;color:#878282">Bed and Breakfast</span>
 													</header>
 													
 													<div id="effect2" class="ui-widget-content ui-corner-all">
 													<div id="resizable6" class="ui-widget-content">
   													<span style="font-size:25px;">
+  													<p style="font-size:20px;">Rent a room for the night and enjoy our tea.</p>
   													<ul>
-													<li><g:img dir="images" file="productss.png" width="100" height="100"/></li>
+													<li><g:img dir="images" file="kettle.png" width="100" height="100"/></li>
 													</ul>
 													</span>
 													</div>
 													</div>
 													
 													<header>
-														<span style="font-size:35px;color:#878282">Pests</span>
+														<span style="font-size:35px;color:#878282">Buy Tea</span>
 													</header>
 													
 													<div id="effect3" class="ui-widget-content ui-corner-all">
 													<div id="resizable7" class="ui-widget-content">
   													
   														<span style="font-size:25px;">
+  														<p style="font-size:20px;">Buy tea with five elements, earth, water, fire, wood and metal.</p>
 	  													<ul>
-														<li><g:img dir="images" file="pests.png" width="100" height="100"/> </li>
+														<li><g:img dir="images" file="batao.png" width="100" height="100"/> </li>
 														</ul>
 														</span>
   													</div>
@@ -354,15 +357,16 @@
 											<div class="6u">
 												<section class="box">
 												<header>
-														<span style="font-size:35px;color:#878282">Tree Diseases</span>
+														<span style="font-size:35px;color:#878282">Residence program</span>
 													</header>
 													
 												
   													<div id="effect4" class="ui-widget-content ui-corner-all">
   													<div id="resizable5" class="ui-widget-content">
   													<span style="font-size:25px;">
+  													<p style="font-size:20px;">Come live with the master and learn dao teachings.</p>
   													<ul>
-														<li><g:img dir="images" file="diseases.png" width="100" height="100"/> </li>
+														<li><g:img dir="images" file="flame.png" width="100" height="100"/> </li>
 														</ul>
 													</span>
 													</div>
@@ -519,25 +523,26 @@
 							<div class="4u">
 <section>
 									<header>
-										<h2>Connect with us</h2>
+										<h2>Master Wang and Jessica Simpson</h2>
 									</header>
-									<!--  <ul class="social">-->
+									<ul class="social">
+									<li><a class="fa fa-twitter solo" href="https://twitter.com/search?q=master%20wang%20jessica%20simpson"><span>Twitter</span></a></li>
+										
 										<!--  <li><a class="fa fa-facebook solo" href="https://www.facebook.com/foodalCo/"><span>Facebook</span></a></li>
-										<li><a class="fa fa-twitter solo" href="https://twitter.com/foodal_"><span>Twitter</span></a></li>
 										<li><a class="fa fa-linkedin solo" href="https://www.linkedin.com/company-beta/18041812/"><span>LinkedIn</span></a></li>-->
 										<!--li><a class="fa fa-google-plus solo" href="#"><span>Google+</span></a></li-->
-									<!--  </ul> -->
+									</ul>
 									<ul class="contact">
 										<li>
 											<h3>Address</h3>
 											<p>
-												San Francisco<br />
+												Oakland<br />
 																							California
 											</p>
 										</li>
 										<li>
 											<h3>Mail</h3>
-											<p><a href="mailto:webmaster@mauget.com">webmaster@mauget.com</a></p>
+											<p><a href="mailto:lotsofwater@gmail.com">lotsofwater@gmail.com</a></p>
 										</li>
 										<!--li>
 											<h3>Phone</h3>
@@ -548,6 +553,7 @@
 								
 
 							</div>
+							<!-- 
 							<div class="4u">
 
 								<section>
@@ -561,15 +567,16 @@
 								</section>
 
 							</div>
+							 -->
 							<div class="4u">
 							<section>
 									<header>
 										<h2>And more...</h2>
 									</header>
 									<ul class="divided">
-										<li><a href="https://www.youtube.com/user/maugetcompany">On YouTube</a></li>
-										<li><a href="https://twitter.com/jjmauget">On Twitter</a></li>
-										<!--li><a href="#">Sem feugiat sapien id suscipit magna felis nec</a></li>
+										<li><a href="https://www.youtube.com/watch?v=4X0K5BVKzFw">On YouTube</a></li>
+										<!--<li><a href="https://twitter.com/jjmauget">On Twitter</a></li>
+										<li><a href="#">Sem feugiat sapien id suscipit magna felis nec</a></li>
 										<li><a href="#">Elit class aptent taciti sociosqu ad litora</a></li-->
 									</ul>
 								</section>
@@ -583,7 +590,7 @@
 								<!-- Copyright -->
 									<div id="copyright">
 										<ul class="links">
-											<li>&copy; 2018 Mauget 	</li>
+											<li>&copy; 2019 Tea Bed and Breakfast 	</li>
 											<!--li>Images: <a href="http://facebook.com/homecookme">Homecookme</a></li>
 											<li>Design: <a href="http://dalliusdesign.com">Dallius</a></li-->
 										</ul>

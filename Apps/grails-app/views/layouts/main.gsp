@@ -43,10 +43,10 @@
 
     <div class="footer" role="contentinfo">
     				<h1>				
-    				<a href="http://foodal.co"><asset:image src="favicon.png" width="50px" height="50px"/></a>	
+    				<asset:image src="favicon.png" width="50px" height="50px"/>
 									<ul>
-										<li><a href="https://www.facebook.com/Mauget-464784170389171/" target="_blank"><span>Find us on Facebook!</span></a></li><br>
-										<li><a href="https://twitter.com/jjmauget" target="_blank"><span>See Mauget on Twitter!</span></a></li>
+										<li><a href="https://www.youtube.com/watch?v=4X0K5BVKzFw" target="_blank"><span>Find us on YouTube!</span></a></li><br>
+										<li><a href="https://twitter.com/search?q=master%20wang%20jessica%20simpson" target="_blank"><span>See Us on Twitter!</span></a></li>
 										<!--li><a class="fa fa-google-plus solo" href="#"><span>Google+</span></a></li-->
 									</ul>
 									</h1>

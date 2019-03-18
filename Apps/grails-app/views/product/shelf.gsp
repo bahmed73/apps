@@ -61,7 +61,7 @@
 							<!-- Banner -->
 								<section id="banner">
 									<a href="https://mauget.com/">
-										<span class="image image-full"><asset:image src="mauget.png"/></span>
+										<span class="image image-full"><asset:image src="buddha.png"/></span>
 										<header>
 											<!--  <h2>Foodal</h2> -->
 											<!--span class="byline">welcome!</span-->
@@ -78,13 +78,8 @@
 											<ul>
 												<li><g:link url="/">Home</g:link></li>
 												<li><g:link class="list" action="index" controller="products"><span>Products</span></g:link></li>
-												<li><g:link class="list" action="index" controller="disease"><span>Diseases</span></g:link></li>
-												<li><g:link class="list" action="index" controller="insect"><span>Pests</span></g:link></li>
-												<li><g:link class="list" action="index" controller="distributor"><span>Distributors</span></g:link></li>
 												<li><g:link controller="coupon" action="index">Marketing</g:link></li>
-												<li><g:link controller="treeWellness" action="index">Tree Wellness</g:link></li>
-												<li><g:link controller="category" action="index">Category</g:link></li>
-												<li><g:link controller="applicator" action="index">Applicators</g:link></li>
+												<li><g:link controller="product" action="analytics">Analytics</g:link></li>
 												<!--<li><a href="left-sidebar.html">Login</a></li>-->
 											</ul>
 										</nav>
@@ -109,21 +104,11 @@
 													<div>
 													
 													<ul id="menu">
-													<li><div><g:link class="list" action="index" controller="products"><span style="color:#8a7e7e;font-size:20px"><asset:image src="productss.png" width="50" height="50"/> Products</span></g:link></div></li>
+													<li><div><g:link class="list" action="index" controller="products"><span style="color:#8a7e7e;font-size:20px"><asset:image src="kettle.png" width="50" height="50"/> Products</span></g:link></div></li>
 													<li>-</li>
-													<li><div><g:link action="index" controller="disease"><span style="color:#8a7e7e;font-size:20px"><asset:image src="diseases.png" width="50" height="50"/> Diseases</span></g:link></div></li>
+													<li><div><g:link controller="coupon" action="index"><span style="color:#8a7e7e;font-size:20px"><asset:image src="flame.png" width="50" height="50"/> Marketing</span></g:link></div></li>
 													<li>-</li>
-													<li><div><g:link action="index" controller="insect"><span style="color:#8a7e7e;font-size:20px"><asset:image src="pests.png" width="50" height="50"/> Pests</span></g:link></div></li>
-													<li>-</li>
-													<li><div><g:link action="index" controller="distributor"><span style="color:#8a7e7e;font-size:20px"><asset:image src="distributors.png" width="50" height="50"/> Distributors</span></g:link></div></li>
-													<li>-</li>
-													<li><div><g:link controller="coupon" action="index"><span style="color:#8a7e7e;font-size:20px"><asset:image src="coupons.png" width="50" height="50"/> Marketing</span></g:link></div></li>
-													<li>-</li>
-													<li><div><g:link controller="treeWellness" action="index"><span style="color:#8a7e7e;font-size:20px"><asset:image src="favicon.png" width="50" height="50"/> Tree Wellness</span></g:link></div></li>
-													<li>-</li>
-													<li><div><g:link controller="category" action="index"><span style="color:#8a7e7e;font-size:20px"><asset:image src="mauget-home-2.png" width="50" height="50"/> Category</span></g:link></div></li>
-													<li>-</li>
-													<li><div><g:link controller="applicator" action="index"><span style="color:#8a7e7e;font-size:20px"><asset:image src="mauget-home-3.png" width="50" height="50"/> Applicators</span></g:link></div></li>
+													<li><div><g:link controller="product" action="analytics"><span style="color:#8a7e7e;font-size:20px"><asset:image src="batao.png" width="50" height="50"/> Analytics</span></g:link></div></li>
 													
 													</ul>
 													</div>
@@ -137,32 +122,17 @@
 											</div>
 										<div class="6u">
 										<br><br><br>
-										<div style="border: 2px solid #878282;
-											border-radius: 15px;
-											-moz-border-radius: 15px;height:500px;color:#878282">
+										<div>
 												<section class="box">
-												<header>
-														<span style="font-size:35px;">Distributor Near me.</span>
-														<br><br>
-														<span style="font-size:30px;" class="byline">Enter your zip code.</span>
-													</header>
-													<br><br>
-													<span style="font-size:28px;" class="byline">Note: Please contact a distributor to buy our product.</span>
-													<br><br><br><br>
+													
+													<asset:image src="hourglass.png" width="400" height="400"/>
+													<!-- 
 													<footer class="actions">
-														<g:form action="index" controller="distributor" method="post">
-										                <fieldset>
-										                	
-										                  <g:field type="text" name="zipcode" value="Enter your zip code here."/>
-										              		</div>	
-										                </fieldset>
-										                <fieldset class="buttons">
-										                    <g:submitButton name="search" value="search" />
-										                </fieldset>
-										            </g:form>
+														<g:link controller="product" action="analytics" class="button fa fa-file-text">Please view our analytics.</g:link>
+														<br><br>
+														<g:link class="list" action="index" controller="products" class="button alt fa fa-comment">Please view our products.</g:link>
 													</footer>
-													
-													
+													 -->
 												</section>
 												</div>
 											</div>
@@ -310,13 +280,13 @@
 										<li>
 											<h3>Address</h3>
 											<p>
-												San Francisco<br />
+												Oakland<br />
 																							California
 											</p>
 										</li>
 										<li>
 											<h3>Mail</h3>
-											<p><a href="mailto:webmaster@mauget.com">webmaster@mauget.com</a></p>
+											<p><a href="lotsofwater@gmail.com">lotsofwater@gmail.com</a></p>
 										</li>
 										<!--li>
 											<h3>Phone</h3>
@@ -327,6 +297,7 @@
 								
 
 							</div>
+							<!-- 
 							<div class="4u">
 
 								<section>
@@ -334,20 +305,21 @@
 										<h2>More about us</h2>
 									</header>
 									<ul class="divided">
-										<li><a href="https://mauget.com/about-mauget/">About Us</a></li>
-										<li><a href="https://www.facebook.com/Mauget-464784170389171/">On Facebook</a></li>
+										<li><a href="https://mauget.com/about-mauget/">On YouTube</a></li>
+										<li><a href="https://www.facebook.com/Mauget-464784170389171/">On Twitter</a></li>
 									</ul>
 								</section>
-
+				
 							</div>
+							 -->
 							<div class="4u">
 							<section>
 									<header>
 										<h2>And more...</h2>
 									</header>
 									<ul class="divided">
-										<li><a href="https://www.youtube.com/user/maugetcompany">On YouTube</a></li>
-										<li><a href="https://twitter.com/jjmauget">On Twitter</a></li>
+										<li><a href="https://www.youtube.com/watch?v=4X0K5BVKzFw">On YouTube</a></li>
+										<li><a href="https://twitter.com/search?q=master%20wang%20jessica%20simpson">On Twitter</a></li>
 										<!--li><a href="#">Sem feugiat sapien id suscipit magna felis nec</a></li>
 										<li><a href="#">Elit class aptent taciti sociosqu ad litora</a></li-->
 									</ul>
@@ -362,7 +334,7 @@
 								<!-- Copyright -->
 									<div id="copyright">
 										<ul class="links">
-											<li>&copy; 2018 Mauget 	</li>
+											<li>&copy; 2019 Tea Bed and Breakfast 	</li>
 											<!--li>Images: <a href="http://facebook.com/homecookme">Homecookme</a></li>
 											<li>Design: <a href="http://dalliusdesign.com">Dallius</a></li-->
 										</ul>

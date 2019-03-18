@@ -46,7 +46,7 @@
 							<!-- Banner -->
 								<section id="banner">
 									<a href="https://mauget.com/">
-										<span class="image image-full"><asset:image src="mauget.png"/></span>
+										<span class="image image-full"><asset:image src="buddha.png"/></span>
 										<header>
 											<!--  <h2>Foodal</h2>-->
 											<!--span class="byline">welcome!</span-->
@@ -106,7 +106,7 @@
 													<p style="font-size:14px;">Questions? Email us today for 24/7 support.</p>
 													<br>
 													<footer class="actions">
-														<a href="mailto:webmaster@mauget.com" class="button fa fa-file-text">Email us today!</a>
+														<a href="mailto:lotsofwater@gmail.com" class="button fa fa-file-text">Email us today!</a>
 														<br><br>
 													</footer>	
 													<!--header>
@@ -262,13 +262,13 @@
 										<li>
 											<h3>Address</h3>
 											<p>
-												San Francisco<br />
+												Oakland<br />
 																							California
 											</p>
 										</li>
 										<li>
 											<h3>Mail</h3>
-											<p><a href="mailto:webmaster@mauget.com">webmaster@mauget.com</a></p>
+											<p><a href="mailto:lotsofwater@gmail.com">lotsofwater@gmail.com</a></p>
 										</li>
 										<!--li>
 											<h3>Phone</h3>
@@ -279,6 +279,7 @@
 								
 
 							</div>
+							<!-- 
 							<div class="4u">
 
 								<section>
@@ -292,14 +293,15 @@
 								</section>
 
 							</div>
+							 -->
 							<div class="4u">
 							<section>
 									<header>
 										<h2>And more...</h2>
 									</header>
 									<ul class="divided">
-										<li><a href="https://www.youtube.com/user/maugetcompany">On YouTube</a></li>
-										<li><a href="https://twitter.com/jjmauget">On Twitter</a></li>
+										<li><a href="https://www.youtube.com/watch?v=4X0K5BVKzFw">On YouTube</a></li>
+										<li><a href="https://twitter.com/search?q=master%20wang%20jessica%20simpson">On Twitter</a></li>
 										<!--li><a href="#">Sem feugiat sapien id suscipit magna felis nec</a></li>
 										<li><a href="#">Elit class aptent taciti sociosqu ad litora</a></li-->
 									</ul>
@@ -314,7 +316,7 @@
 								<!-- Copyright -->
 									<div id="copyright">
 										<ul class="links">
-											<li>&copy; 2018 Mauget  	</li>
+											<li>&copy; 2019 Tea Bed and Breakfast  	</li>
 											<!--li>Images: <a href="http://facebook.com/homecookme">Homecookme</a></li>
 											<li>Design: <a href="http://dalliusdesign.com">Dallius</a></li-->
 										</ul>

@@ -61,13 +61,12 @@
 
 							<!-- Banner -->
 								<section id="banner">
-									<a href="http://foodal.co/product/premium">
-										<span class="image image-full"><asset:image src="news-3.png"/></span>
+									
+										<span class="image image-full"><asset:image src="buddha.png"/></span>
 										<header>
-											<h2>Foodal</h2>
+											<h2>Analytics</h2>
 											<!--span class="byline">welcome!</span-->
 										</header>
-									</a>
 									
 								</section>
 								
@@ -93,7 +92,7 @@
 													<section class="box">
 													<!-- <a href="http://www.mytweetmark.com" class="image image-full"><asset:image src="foodal-homepage-16.png"/></a> -->
 													<header>
-														<span style="font-size:35px;">Analytics</span>
+														<span style="font-size:35px;color:#878282">Analytics</span>
 														<g:form controller="logout">                        
     													<g:submitButton name="logout" value="Logout" />
 													</g:form>
@@ -109,7 +108,7 @@
 													<li><div><g:link class="list" action="index" controller="productReferer"><span style="color:#8a7e7e;">Product Referers</span></g:link></div></li>
 													<li>-</li>
 													<li><div><g:link class="list" action="export" controller="productReferer"><span style="color:#8a7e7e;">Download Report: Product Referers</span></g:link></div></li>
-													<li>-</li>
+													<!-- <li>-</li>
 													<li><div><g:link class="list" action="index" controller="blogView"><span style="color:#8a7e7e;">Blog Views</span></g:link></div></li>
 													<li>-</li>
 													<li><div><g:link class="list" action="export" controller="blogView"><span style="color:#8a7e7e;">Download Report: Blog Views</span></g:link></div></li>
@@ -117,6 +116,7 @@
 													<li><div><g:link class="list" action="index" controller="blogReferer"><span style="color:#8a7e7e;">Blog Referer</span></g:link></div></li>
 													<li>-</li>
 													<li><div><g:link class="list" action="export" controller="blogReferer"><span style="color:#8a7e7e;">Download Report: Blog Referers</span></g:link></div></li>
+													 -->
 													</ul>
 													
 													</div>
@@ -128,14 +128,14 @@
 													<p style="font-size:20px;"></p>
 													<br><br>
 													<footer class="actions">
-														<a href="mailto:bilal@mytweetmark.com" class="button fa fa-file-text">Email us today!</a>
+														<a href="mailto:lotsofwater@gmail.com" class="button fa fa-file-text">Email us today!</a>
 														<br><br>
 													</footer>
 												</section>
 											</div>
 											<div class="6u">
 												<section class="box">
-													<a href="http://foodal.co/product/premium" class="image image-full"><asset:image src="client-profile.png"/></a>
+													<asset:image src="hourglass.png" width="400" height="400"/>
 													<!--header>
 														<h3>Aptent veroeros et aliquam</h3>
 														<span class="byline">Posted 45 minutes ago</span>
@@ -165,7 +165,7 @@
 							<!-- Portfolio -->
 								<section>
 									<span style="font-size:40px;color:white">Also visit:</span>
-									
+									<!-- 
 									<div>
 										<div class="row">
 											<div class="4u" >
@@ -192,6 +192,7 @@
 										
 											
 					</div>
+					 -->
 					<div class="row">
 						<div class="12u">
 
@@ -323,7 +324,7 @@
 										</li>
 										<li>
 											<h3>Mail</h3>
-											<p><a href="mailto:bilal@mytweetmark.com">bilal@mytweetmark.com</a></p>
+											<p><a href="mailto:lotsofwater@gmail.com">lotsofwater@gmail.com</a></p>
 										</li>
 										<!--li>
 											<h3>Phone</h3>
@@ -334,6 +335,7 @@
 								
 
 							</div>
+							<!-- 
 							<div class="4u">
 
 								<section>
@@ -347,14 +349,15 @@
 								</section>
 
 							</div>
+							 -->
 							<div class="4u">
 							<section>
 									<header>
 										<h2>And more...</h2>
 									</header>
 									<ul class="divided">
-										<li><a href="http://www.foundersspace.com/news-announcements/startup-splotlight-mytweetmark/">On FoundersSpace</a></li>
-										<li><a href="http://www.homecook.me/users/tos">Terms</a></li>
+										<li><a href="https://www.youtube.com/watch?v=4X0K5BVKzFw">On YouTube</a></li>
+										<li><a href="https://twitter.com/search?q=master%20wang%20jessica%20simpson">On Twitter</a></li>
 										<!--li><a href="#">Sem feugiat sapien id suscipit magna felis nec</a></li>
 										<li><a href="#">Elit class aptent taciti sociosqu ad litora</a></li-->
 									</ul>
@@ -369,7 +372,7 @@
 								<!-- Copyright -->
 									<div id="copyright">
 										<ul class="links">
-											<li>&copy; 2017 foodal.co 	</li>
+											<li>&copy; 2019 Tea Bed and Breakfast 	</li>
 											<!--li>Images: <a href="http://facebook.com/homecookme">Homecookme</a></li>
 											<li>Design: <a href="http://dalliusdesign.com">Dallius</a></li-->
 										</ul>
