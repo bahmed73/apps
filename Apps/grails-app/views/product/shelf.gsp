@@ -1,12 +1,12 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<meta name="description" content="mauget" />
-<meta name="keywords" content="mauget local, local tree, trees, local business, injection, insects, fertilizer, farm, farm market, business, farm business, organic, health, nutrient, california, blogger, socialmedia, socialmedia blogger, social media blogger, facebook, facebook feed, twitter, twitter update, twitter" />
+		<meta name="description" content="Shop - Bring your store business online." />
+<meta name="keywords" content="shop, buy, sell, organic, health, nutrient, california, blogger, socialmedia, socialmedia blogger, social media blogger, facebook, facebook feed, twitter, twitter update, twitter" />
 <meta http-equiv="window-target" content="_top" />
 <META HTTP-EQUIV="CACHE-CONTROL" CONTENT="PUBLIC">
 	<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
-	<title>Mauget - The right way to treat a tree.</title>
+	<title>Shop - Bring your store business online.</title>
 	<asset:stylesheet src="skel-noscript.css"/>
 	<asset:stylesheet src="style.css"/>
 	<asset:stylesheet src="style-desktop.css"/>
@@ -60,13 +60,13 @@
 
 							<!-- Banner -->
 								<section id="banner">
-									<a href="https://mauget.com/">
-										<span class="image image-full"><asset:image src="buddha.png"/></span>
+									
+										<span class="image image-full"><asset:image src="shop-10.png"/></span>
 										<header>
-											<!--  <h2>Foodal</h2> -->
-											<!--span class="byline">welcome!</span-->
+											<h2>Shop</h2> 
+											<span class="byline">Bring your store business online.</span>
 										</header>
-									</a>
+									
 									
 								</section>
 								
@@ -80,6 +80,7 @@
 												<li><g:link class="list" action="index" controller="products"><span>Products</span></g:link></li>
 												<li><g:link controller="coupon" action="index">Marketing</g:link></li>
 												<li><g:link controller="product" action="analytics">Analytics</g:link></li>
+												<li><g:link controller="blog" action="index">Blog</g:link></li>
 												<!--<li><a href="left-sidebar.html">Login</a></li>-->
 											</ul>
 										</nav>
@@ -104,11 +105,13 @@
 													<div>
 													
 													<ul id="menu">
-													<li><div><g:link class="list" action="index" controller="products"><span style="color:#8a7e7e;font-size:20px"><asset:image src="kettle.png" width="50" height="50"/> Products</span></g:link></div></li>
+													<li><div><g:link class="list" action="index" controller="products"><span style="color:#8a7e7e;font-size:20px"><asset:image src="homecookme-9.png" width="50" height="50"/> Products</span></g:link></div></li>
 													<li>-</li>
-													<li><div><g:link controller="coupon" action="index"><span style="color:#8a7e7e;font-size:20px"><asset:image src="flame.png" width="50" height="50"/> Marketing</span></g:link></div></li>
+													<li><div><g:link controller="coupon" action="index"><span style="color:#8a7e7e;font-size:20px"><asset:image src="homecookme-10.png" width="50" height="50"/> Marketing</span></g:link></div></li>
 													<li>-</li>
-													<li><div><g:link controller="product" action="analytics"><span style="color:#8a7e7e;font-size:20px"><asset:image src="batao.png" width="50" height="50"/> Analytics</span></g:link></div></li>
+													<li><div><g:link controller="product" action="analytics"><span style="color:#8a7e7e;font-size:20px"><asset:image src="homecookme-11.png" width="50" height="50"/> Analytics</span></g:link></div></li>
+													<li>-</li>
+													<li><div><g:link controller="blog" action="index"><span style="color:#8a7e7e;font-size:20px"><asset:image src="shop-7.png" width="50" height="50"/> Blog</span></g:link></div></li>
 													
 													</ul>
 													</div>
@@ -125,7 +128,7 @@
 										<div>
 												<section class="box">
 													
-													<asset:image src="hourglass.png" width="400" height="400"/>
+													<asset:image src="shop-4.png" width="400" height="400"/>
 													<!-- 
 													<footer class="actions">
 														<g:link controller="product" action="analytics" class="button fa fa-file-text">Please view our analytics.</g:link>
@@ -266,7 +269,7 @@
 						</div-->
 						<div class="row">
 							<div class="4u">
-<section>
+								<section>
 									<header>
 										<h2>Connect with us</h2>
 									</header>
@@ -286,7 +289,7 @@
 										</li>
 										<li>
 											<h3>Mail</h3>
-											<p><a href="lotsofwater@gmail.com">lotsofwater@gmail.com</a></p>
+											<p><a href="bilal@mytweetmark.com">bilal@mytweetmark.com</a></p>
 										</li>
 										<!--li>
 											<h3>Phone</h3>
@@ -318,8 +321,8 @@
 										<h2>And more...</h2>
 									</header>
 									<ul class="divided">
-										<li><a href="https://www.youtube.com/watch?v=4X0K5BVKzFw">On YouTube</a></li>
-										<li><a href="https://twitter.com/search?q=master%20wang%20jessica%20simpson">On Twitter</a></li>
+										<li><a href="https://www.youtube.com/user/bahmed73">On YouTube</a></li>
+										<li><a href="https://twitter.com/mytweetmark">On Twitter</a></li>
 										<!--li><a href="#">Sem feugiat sapien id suscipit magna felis nec</a></li>
 										<li><a href="#">Elit class aptent taciti sociosqu ad litora</a></li-->
 									</ul>
@@ -334,7 +337,7 @@
 								<!-- Copyright -->
 									<div id="copyright">
 										<ul class="links">
-											<li>&copy; 2019 Tea Bed and Breakfast 	</li>
+											<li>&copy; 2019 Shop 	</li>
 											<!--li>Images: <a href="http://facebook.com/homecookme">Homecookme</a></li>
 											<li>Design: <a href="http://dalliusdesign.com">Dallius</a></li-->
 										</ul>

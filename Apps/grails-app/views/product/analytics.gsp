@@ -62,10 +62,10 @@
 							<!-- Banner -->
 								<section id="banner">
 									
-										<span class="image image-full"><asset:image src="buddha.png"/></span>
+										<span class="image image-full"><asset:image src="shop-10.png"/></span>
 										<header>
-											<h2>Analytics</h2>
-											<!--span class="byline">welcome!</span-->
+											<h2>Shop</h2> 
+											<span class="byline">Bring your store business online.</span>
 										</header>
 									
 								</section>
@@ -108,7 +108,7 @@
 													<li><div><g:link class="list" action="index" controller="productReferer"><span style="color:#8a7e7e;">Product Referers</span></g:link></div></li>
 													<li>-</li>
 													<li><div><g:link class="list" action="export" controller="productReferer"><span style="color:#8a7e7e;">Download Report: Product Referers</span></g:link></div></li>
-													<!-- <li>-</li>
+													<li>-</li>
 													<li><div><g:link class="list" action="index" controller="blogView"><span style="color:#8a7e7e;">Blog Views</span></g:link></div></li>
 													<li>-</li>
 													<li><div><g:link class="list" action="export" controller="blogView"><span style="color:#8a7e7e;">Download Report: Blog Views</span></g:link></div></li>
@@ -116,7 +116,6 @@
 													<li><div><g:link class="list" action="index" controller="blogReferer"><span style="color:#8a7e7e;">Blog Referer</span></g:link></div></li>
 													<li>-</li>
 													<li><div><g:link class="list" action="export" controller="blogReferer"><span style="color:#8a7e7e;">Download Report: Blog Referers</span></g:link></div></li>
-													 -->
 													</ul>
 													
 													</div>
@@ -128,14 +127,14 @@
 													<p style="font-size:20px;"></p>
 													<br><br>
 													<footer class="actions">
-														<a href="mailto:lotsofwater@gmail.com" class="button fa fa-file-text">Email us today!</a>
+														<a href="mailto:bilal@mytweetmark.com" class="button fa fa-file-text">Email us today!</a>
 														<br><br>
 													</footer>
 												</section>
 											</div>
 											<div class="6u">
 												<section class="box">
-													<asset:image src="hourglass.png" width="400" height="400"/>
+													<asset:image src="shop-5.png" width="400" height="400"/>
 													<!--header>
 														<h3>Aptent veroeros et aliquam</h3>
 														<span class="byline">Posted 45 minutes ago</span>
@@ -324,7 +323,7 @@
 										</li>
 										<li>
 											<h3>Mail</h3>
-											<p><a href="mailto:lotsofwater@gmail.com">lotsofwater@gmail.com</a></p>
+											<p><a href="mailto:bilal@mytweetmark.com">bilal@mytweetmark.com</a></p>
 										</li>
 										<!--li>
 											<h3>Phone</h3>
@@ -356,8 +355,8 @@
 										<h2>And more...</h2>
 									</header>
 									<ul class="divided">
-										<li><a href="https://www.youtube.com/watch?v=4X0K5BVKzFw">On YouTube</a></li>
-										<li><a href="https://twitter.com/search?q=master%20wang%20jessica%20simpson">On Twitter</a></li>
+										<li><a href="https://www.youtube.com/user/bahmed73">On YouTube</a></li>
+										<li><a href="https://twitter.com/mytweetmark">On Twitter</a></li>
 										<!--li><a href="#">Sem feugiat sapien id suscipit magna felis nec</a></li>
 										<li><a href="#">Elit class aptent taciti sociosqu ad litora</a></li-->
 									</ul>
@@ -372,7 +371,7 @@
 								<!-- Copyright -->
 									<div id="copyright">
 										<ul class="links">
-											<li>&copy; 2019 Tea Bed and Breakfast 	</li>
+											<li>&copy; 2019 Shop 	</li>
 											<!--li>Images: <a href="http://facebook.com/homecookme">Homecookme</a></li>
 											<li>Design: <a href="http://dalliusdesign.com">Dallius</a></li-->
 										</ul>

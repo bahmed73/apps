@@ -1,12 +1,12 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<meta name="description" content="Tea Bed and Breakfast" />
-<meta name="keywords" content="Tea B&B, Tea, way of life, bed and breakfast, live to the tea, live, tea, organic, health, nutrient, california, blogger, socialmedia, socialmedia blogger, social media blogger, facebook, facebook feed, twitter, twitter update, twitter" />
+		<meta name="description" content="Shop - Bring your store business online." />
+<meta name="keywords" content="shop, buy, sell, organic, health, nutrient, california, blogger, socialmedia, socialmedia blogger, social media blogger, facebook, facebook feed, twitter, twitter update, twitter" />
 <meta http-equiv="window-target" content="_top" />
 <META HTTP-EQUIV="CACHE-CONTROL" CONTENT="PUBLIC">
 	<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
-	<title>Tea B&B - Tea is the way of life, and so is bed and breakfast, combine so we can live to the tea.</title>
+	<title>Shop - Bring your store business online.</title>
 	<asset:stylesheet src="skel-noscript.css"/>
 	<asset:stylesheet src="style.css"/>
 	<asset:stylesheet src="style-desktop.css"/>
@@ -283,10 +283,10 @@
 							<!-- Banner -->
 								<section id="banner">
 									
-										<span class="image image-full" title="Mauget - The right way to treat a tree."><asset:image src="buddha.png"/></span>
+										<span class="image image-full" title="Shop - Bring your store business online."><asset:image src="shop-11.png"/></span>
 										<header>
-											<!--  <h2>Mauget</h2> -->
-											<!--span class="byline">welcome!</span-->
+											<h2>Shop</h2> 
+											<span class="byline">Bring your store business online.</span>
 										</header>
 									
 									
@@ -297,10 +297,12 @@
 								<div>	
 								<!-- Nav -->
 										<nav id="nav">
+										<!-- 
 										<button id="button3" class="ui-state-default ui-corner-all" title="Buy Tea.">Tea</button>
 										<button id="button2" class="ui-state-default ui-corner-all" title="Tea Retreat.">Bed and Breakfast</button>
 										<button id="button4" class="ui-state-default ui-corner-all" title="Residence Program.">Residence</button>
 										<button id="button" class="ui-state-default ui-corner-all" title="Please feel free to email us.">Contact Us</button>
+										 -->
 											<ul>
 												<!--  <li><g:link controller="product" action="software">#if? Programming</g:link></li>
 												<li><g:link controller="product" action="premium">Premium News</g:link></li>
@@ -318,9 +320,30 @@
 								<section>
 									<div>
 										<div class="row">
+										<div class="6u">
+													<section class="box">
+													<asset:image src="shop-2.png"/>
+													<header>
+														<span style="font-size:35px;color:#878282">Understand your inventory</span>
+													</header>
+													</section>
+													</div>
 											<div class="6u">
 													<section class="box">
+													<asset:image src="shop-3.png"/>
+													<header>
+														<span style="font-size:35px;color:#878282">Select products to put on shelf</span>
+													</header>
+													</section>
+													</div>
+											<div class="6u">
+													<section class="box">
+													<asset:image src="shop-4.png"/>
+													<header>
+														<span style="font-size:35px;color:#878282">Run marketing campaigns</span>
+													</header>
 													<!-- <a href="http://www.mytweetmark.com" class="image image-full"><asset:image src="foodal-homepage-16.png"/></a> -->
+													<!-- 
 													<header>
 														<span style="font-size:35px;color:#878282">Bed and Breakfast</span>
 													</header>
@@ -351,11 +374,16 @@
 														</span>
   													</div>
 													</div>
-													
+												 -->	
 												</section>
 											</div>
 											<div class="6u">
 												<section class="box">
+												<asset:image src="shop-5.png"/>
+												<header>
+														<span style="font-size:35px;color:#878282">View buying conversion on analytics</span>
+													</header>
+												<!-- 
 												<header>
 														<span style="font-size:35px;color:#878282">Residence program</span>
 													</header>
@@ -393,6 +421,7 @@
 											</div>
 										</div>
 									</div>
+									 -->
 								</section>
 
 						</div>
@@ -521,17 +550,17 @@
 						</div-->
 						<div class="row">
 							<div class="4u">
-<section>
+								<section>
+								<div style="margin:20px">
 									<header>
-										<h2>Master Wang and Jessica Simpson</h2>
+										<h2>Connect with us</h2>
 									</header>
-									<ul class="social">
-									<li><a class="fa fa-twitter solo" href="https://twitter.com/search?q=master%20wang%20jessica%20simpson"><span>Twitter</span></a></li>
-										
+									<!--  <ul class="social">-->
 										<!--  <li><a class="fa fa-facebook solo" href="https://www.facebook.com/foodalCo/"><span>Facebook</span></a></li>
+										<li><a class="fa fa-twitter solo" href="https://twitter.com/foodal_"><span>Twitter</span></a></li>
 										<li><a class="fa fa-linkedin solo" href="https://www.linkedin.com/company-beta/18041812/"><span>LinkedIn</span></a></li>-->
 										<!--li><a class="fa fa-google-plus solo" href="#"><span>Google+</span></a></li-->
-									</ul>
+									<!--  </ul>-->
 									<ul class="contact">
 										<li>
 											<h3>Address</h3>
@@ -542,16 +571,17 @@
 										</li>
 										<li>
 											<h3>Mail</h3>
-											<p><a href="mailto:lotsofwater@gmail.com">lotsofwater@gmail.com</a></p>
+											<p><a href="bilal@mytweetmark.com">bilal@mytweetmark.com</a></p>
 										</li>
 										<!--li>
 											<h3>Phone</h3>
 											<p>(800) 000-0000</p>
 										</li-->
 									</ul>
+									</div>
+									
 								</section>
 								
-
 							</div>
 							<!-- 
 							<div class="4u">
@@ -561,24 +591,26 @@
 										<h2>More about us</h2>
 									</header>
 									<ul class="divided">
-										<li><a href="https://mauget.com/about-mauget/">About Us</a></li>
-										<li><a href="https://www.facebook.com/Mauget-464784170389171/">On Facebook</a></li>
+										<li><a href="https://mauget.com/about-mauget/">On YouTube</a></li>
+										<li><a href="https://www.facebook.com/Mauget-464784170389171/">On Twitter</a></li>
 									</ul>
 								</section>
-
+				
 							</div>
 							 -->
 							<div class="4u">
 							<section>
+							<div style="margin:20px">
 									<header>
 										<h2>And more...</h2>
 									</header>
 									<ul class="divided">
-										<li><a href="https://www.youtube.com/watch?v=4X0K5BVKzFw">On YouTube</a></li>
-										<!--<li><a href="https://twitter.com/jjmauget">On Twitter</a></li>
-										<li><a href="#">Sem feugiat sapien id suscipit magna felis nec</a></li>
+										<li><a href="https://www.youtube.com/user/bahmed73">On YouTube</a></li>
+										<li><a href="https://twitter.com/mytweetmark">On Twitter</a></li>
+										<!--li><a href="#">Sem feugiat sapien id suscipit magna felis nec</a></li>
 										<li><a href="#">Elit class aptent taciti sociosqu ad litora</a></li-->
 									</ul>
+									</div>
 								</section>
 								
 							
@@ -590,7 +622,7 @@
 								<!-- Copyright -->
 									<div id="copyright">
 										<ul class="links">
-											<li>&copy; 2019 Tea Bed and Breakfast 	</li>
+											<li>&copy; 2019 Shop 	</li>
 											<!--li>Images: <a href="http://facebook.com/homecookme">Homecookme</a></li>
 											<li>Design: <a href="http://dalliusdesign.com">Dallius</a></li-->
 										</ul>

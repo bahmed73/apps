@@ -1,12 +1,12 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<meta name="description" content="foodal" />
-<meta name="keywords" content="foodal, local, local food, food, local business, farmers, farmers market, farmer market, farmers markets, market, markets, farm, farm market, business, farm business, organic, health, nutrient,california local markets,california markets,local farmers market,local farmers markets,local farmer markets,local market,local markets,local farmers, farmers,local california,california,local, local business, chef, food chef, featured chef, food, home cook, cook, home, recipe, home recipe, food recipe, cook recipe, spiritual, spirit, blogger, socialmedia, socialmedia blogger, social media blogger, facebook, facebook feed, twitter, twitter update, twitter, twitter hash, twitter hashtag, hash, hashtag,viral,mytweetmark,mytweetmark.com,myhash, brand,share posts,post information,organize bookmarks,share bookmarks,share knowledge,organize bookmarks,categorize bookmarks,email bookmarks, share bookmarks and posts, share posts and bookmarks, share with friends,tweet,twitter" />
+		<meta name="description" content="mauget" />
+<meta name="keywords" content="mauget local, local tree, trees, local business, injection, insects, fertilizer, farm, farm market, business, farm business, organic, health, nutrient, california, blogger, socialmedia, socialmedia blogger, social media blogger, facebook, facebook feed, twitter, twitter update, twitter" />
 <meta http-equiv="window-target" content="_top" />
 <META HTTP-EQUIV="CACHE-CONTROL" CONTENT="PUBLIC">
 	<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
-	<title>Foodal - Promote your local food business and farmers markets.</title>
+	<title>Mauget - The right way to treat a tree.</title>
 	<asset:stylesheet src="skel-noscript.css"/>
 	<asset:stylesheet src="style.css"/>
 	<asset:stylesheet src="style-desktop.css"/>
@@ -45,11 +45,11 @@
 
 							<!-- Banner -->
 								<section id="banner">
-									<a href="http://foodal.co/product/premium">
-										<span class="image image-full"><asset:image src="news-3.png"/></span>
+									<a href="https://mauget.com/">
+										<span class="image image-full"><asset:image src="shop-10.png"/></span>
 										<header>
-											<h2>Foodal</h2>
-											<!--span class="byline">welcome!</span-->
+											<h2>Shop</h2> 
+											<span class="byline">Bring your store business online.</span>
 										</header>
 									</a>
 									
@@ -62,7 +62,7 @@
 										<nav id="nav">
 											<ul>
 												<li><g:link url="/">Home</g:link></li>
-												<li><g:link controller="product" action="shelf">Create a Shelf</g:link></li>
+												<li><g:link controller="product" action="shelf">Dashboard</g:link></li>
 												<li><g:link controller="blog" action="create">Create a Blog</g:link></li>
 												<!--<li><a href="left-sidebar.html">Login</a></li>-->
 											</ul>
@@ -81,6 +81,8 @@
 														<header>
 														<span style="font-size:35px;">${blogInstance.name}</span>
 														</header>
+														<br><br>
+														<p style="font-size:20px;color:#8a7e7e;">Description: ${blogInstance.description}</p>
 														<br><br>
 														<p style="font-size:18px;"><g:link controller="blog" action="show" id="${blogInstance.id}"><span style="color:#8a7e7e;">Read more...</span></g:link></p>
 														</section>
@@ -115,7 +117,7 @@
 									</div>
 									</section>
 								</div>
-							</diSv>
+							</div>
 							</g:else>
 				        	</div>
 				        	</div>				
@@ -129,34 +131,7 @@
 							
 							<!-- Portfolio -->
 								<section>
-								<span style="font-size:40px;color:white">Also visit:</span>
-									
-									<div>
-										<div class="row">
-											<div class="4u" >
-												<section class="box">
-													<a href="http://www.homecook.me/farmerMarket/all" class="image image-full"><asset:image src="foodal-hat.png"/></a>
-												
-													<p><a href="http://www.homecook.me/farmerMarket/all">Alphabetical customer listing</a></p>
-												
-												</section>
-											</div>
-											<div class="4u">
-												<section class="box">
-													<a href="http://www.homecook.me/homecookme" class="image image-full"><asset:image src="foodal-hoodie.png"/></a>
-													<p><a href="http://www.homecook.me/homecookme">Local food API and programming</a></p>
-												</section>
-											</div>
-											<div class="4u">
-												<section class="box">
-													<a href="http://www.mytweetmark.com" class="image image-full"><asset:image src="foodal-pen.png"/></a>
-													<p><a href="http://www.mytweetmark.com">Twitter marketing tool</a></p>
-												</section>
-											</div>
-										</div>
-										
-											
-					</div>
+								
 					<div class="row">
 						<div class="12u">
 
@@ -288,7 +263,7 @@
 										</li>
 										<li>
 											<h3>Mail</h3>
-											<p><a href="mailto:bilal@mytweetmark.com">bilal@mytweetmark.com</a></p>
+											<p><a href="bilal@mytweetmark.com">bilal@mytweetmark.com</a></p>
 										</li>
 										<!--li>
 											<h3>Phone</h3>
@@ -299,6 +274,7 @@
 								
 
 							</div>
+							<!-- 
 							<div class="4u">
 
 								<section>
@@ -306,20 +282,21 @@
 										<h2>More about us</h2>
 									</header>
 									<ul class="divided">
-										<li><a href="http://www.homecook.me/images/survey.doc">Survey</a></li>
-										<li><a href="http://www.homecook.me/users/privacy">Privacy</a></li>
+										<li><a href="https://mauget.com/about-mauget/">About Us</a></li>
+										<li><a href="https://www.facebook.com/Mauget-464784170389171/">On Facebook</a></li>
 									</ul>
 								</section>
 
 							</div>
+							 -->
 							<div class="4u">
 							<section>
 									<header>
 										<h2>And more...</h2>
 									</header>
 									<ul class="divided">
-										<li><a href="http://www.foundersspace.com/news-announcements/startup-splotlight-mytweetmark/">On FoundersSpace</a></li>
-										<li><a href="http://www.homecook.me/users/tos">Terms</a></li>
+										<li><a href="https://www.youtube.com/user/bahmed73">On YouTube</a></li>
+										<li><a href="https://twitter.com/mytweetmark">On Twitter</a></li>
 										<!--li><a href="#">Sem feugiat sapien id suscipit magna felis nec</a></li>
 										<li><a href="#">Elit class aptent taciti sociosqu ad litora</a></li-->
 									</ul>
@@ -334,7 +311,7 @@
 								<!-- Copyright -->
 									<div id="copyright">
 										<ul class="links">
-											<li>&copy; 2017 foodal.co 	</li>
+											<li>&copy; 2019 Shop 	</li>
 											<!--li>Images: <a href="http://facebook.com/homecookme">Homecookme</a></li>
 											<li>Design: <a href="http://dalliusdesign.com">Dallius</a></li-->
 										</ul>
