@@ -34,242 +34,20 @@
 		</noscript>-->
 		<!--[if lte IE 8]><asset:javascript src="html5shiv.js"/><asset:stylesheet src="ie8.css"/><![endif]-->
 		
-		<!-- Global Site Tag (gtag.js) - Google Analytics -->
-		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-106312202-1"></script>
-		<script>
-		  window.dataLayer = window.dataLayer || [];
-		  function gtag(){dataLayer.push(arguments)};
-		  gtag('js', new Date());
-		
-		  gtag('config', 'UA-106312202-1');
-		</script>
-		
 		<meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>jQuery UI Effects - Effect demo</title>
-  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
-  <link rel="stylesheet" href="/resources/demos/style.css">
-  <style>
-    .toggler { width: 300px; height: 200px; position: relative; }
-    #effect { width: 300px; height: 170px; padding: 0.4em; position: relative; }
-    #effect h3 { margin: 0; padding: 0.4em; text-align: center; }
-    #effect2 { width: 300px; height: 170px; padding: 0.4em; position: relative; }
-    #effect2 h3 { margin: 0; padding: 0.4em; text-align: center; }
-    #effect3 { width: 300px; height: 170px; padding: 0.4em; position: relative; }
-    #effect3 h3 { margin: 0; padding: 0.4em; text-align: center; }
-    #effect4 { width: 300px; height: 170px; padding: 0.4em; position: relative; }
-    #effect4 h3 { margin: 0; padding: 0.4em; text-align: center; }
-    .ui-effects-transfer { border: 2px dotted gray; }
-    label {
-    display: inline-block;
-    width: 5em;
-  }
-  </style>
-  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-  <script>
-  $( function() {
-
-	  $( document ).tooltip();
-	  
-    // run the currently selected effect
-    function runEffect3() {
-      // get effect type from
-      var selectedEffect = "shake";
- 
-      // Most effect types need no options passed by default
-      var options = {};
-      // some effects have required parameters
-      if ( selectedEffect === "scale" ) {
-        options = { percent: 50 };
-      } else if ( selectedEffect === "transfer" ) {
-        options = { to: "#button3", className: "ui-effects-transfer" };
-      } else if ( selectedEffect === "size" ) {
-        options = { to: { width: 300, height: 150 } };
-      }
- 
-      // Run the effect
-      $( "#effect3" ).effect( selectedEffect, options, 500, callback );
-    };
- 
-    // Callback function to bring a hidden box back
-    function callback() {
-      setTimeout(function() {
-        $( "#effect3" ).removeAttr( "style" ).hide().fadeIn();
-      }, 1000 );
-    };
-
- // run the currently selected effect
-    function runEffect2() {
-      // get effect type from
-      var selectedEffect = "bounce";
- 
-      // Most effect types need no options passed by default
-      var options = {};
-      // some effects have required parameters
-      if ( selectedEffect === "bounce" ) {
-        options = { percent: 50, to: { width: 300, height: 150 } };
-      } else if ( selectedEffect === "transfer" ) {
-        options = { to: "#button2", className: "ui-effects-transfer" };
-      } else if ( selectedEffect === "size" ) {
-        options = { to: { width: 300, height: 150 } };
-      }
- 
-      // Run the effect
-      $( "#effect2" ).effect( selectedEffect, options, 500, callback );
-    };
- 
-    // Callback function to bring a hidden box back
-    function callback() {
-      setTimeout(function() {
-        $( "#effect2" ).removeAttr( "style" ).hide().fadeIn();
-      }, 1000 );
-    };
-    
-    // Set effect from select menu value
-    $( "#button3" ).on( "click", function() {
-      runEffect3();
-      return false;
-    });
-
- // Set effect from select menu value
-    $( "#button2" ).on( "click", function() {
-      runEffect2();
-      return false;
-    });
-
-    // run the currently selected effect
-    function runEffect4() {
-      // get effect type from
-      var selectedEffect = "pulsate";
- 
-      // Most effect types need no options passed by default
-      var options = {};
-      // some effects have required parameters
-      if ( selectedEffect === "scale" ) {
-        options = { percent: 50, to: { width: 300, height: 150 } };
-      } else if ( selectedEffect === "transfer" ) {
-        options = { to: "#button4", className: "ui-effects-transfer" };
-      } else if ( selectedEffect === "size" ) {
-        options = { to: { width: 300, height: 150 } };
-      }
- 
-      // Run the effect
-      $( "#effect4" ).effect( selectedEffect, options, 500, callback );
-    };
- 
-    // Callback function to bring a hidden box back
-    function callback() {
-      setTimeout(function() {
-        $( "#effect4" ).removeAttr( "style" ).hide().fadeIn();
-      }, 1000 );
-    };
-
- // Set effect from select menu value
-    $( "#button4" ).on( "click", function() {
-      runEffect4();
-      return false;
-    });
-
-    $( "#button" ).on( "click", function() {
-        runEffect();
-        return false;
-      });
-
- // run the currently selected effect
-    function runEffect() {
-      // get effect type from
-      var selectedEffect = "pulsate";
- 
-      // Most effect types need no options passed by default
-      var options = {};
-      // some effects have required parameters
-      if ( selectedEffect === "scale" ) {
-        options = { percent: 50, to: { width: 300, height: 150 } };
-      } else if ( selectedEffect === "transfer" ) {
-        options = { to: "#button", className: "ui-effects-transfer" };
-      } else if ( selectedEffect === "size" ) {
-        options = { to: { width: 300, height: 150 } };
-      }
- 
-      // Run the effect
-      $( "#effect" ).effect( selectedEffect, options, 500, callback );
-    };
- 
-    // Callback function to bring a hidden box back
-    function callback() {
-      setTimeout(function() {
-        $( "#effect4" ).removeAttr( "style" ).hide().fadeIn();
-      }, 1000 );
-    };
-      
-    $( "#resizable4" ).resizable({
-    	  ghost: true,
-    	  animate: true
-    });
-    $( "#resizable5" ).resizable({
-    	  ghost: true,
-    	  animate: true
-    });
-    $( "#resizable6" ).resizable({
-    	  ghost: true,
-    	  animate: true
-    });
-    $( "#resizable7" ).resizable({
-    	  ghost: true,
-    	  animate: true
-    });
-    $( "#resizable" ).resizable({
-    	  ghost: true,
-    	  animate: true
-    });
-    $( "#resizable2" ).resizable({
-    	  ghost: true,
-    	  animate: true
-    });
-    $( "#resizable3" ).resizable({
-    	  ghost: true,
-    	  animate: true
-    });
-
-    var ghost = $( "resizable" ).resizable( "option", "ghost" );
-    
- 	// Setter
- 	$( "resizable" ).resizable( "option", "ghost", true );
-
-	var ghost2 = $( "resizable2" ).resizable( "option", "ghost" );
-    
- 	// Setter
- 	$( "resizable2" ).resizable( "option", "ghost", true );
-
-	var ghost3 = $( "resizable3" ).resizable( "option", "ghost" );
-    
- 	// Setter
- 	$( "resizable3" ).resizable( "option", "ghost", true );
-
-	var ghost4 = $( "resizable4" ).resizable( "option", "ghost" );
-    
- 	// Setter
- 	$( "resizable4" ).resizable( "option", "ghost", true );
-
-	var ghost5 = $( "resizable5" ).resizable( "option", "ghost" );
-    
- 	// Setter
- 	$( "resizable5" ).resizable( "option", "ghost", true );
-
-	var ghost6 = $( "resizable6" ).resizable( "option", "ghost" );
-    
- 	// Setter
- 	$( "resizable6" ).resizable( "option", "ghost", true );
-
-	var ghost7 = $( "resizable7" ).resizable( "option", "ghost" );
-    
- 	// Setter
- 	$( "resizable7" ).resizable( "option", "ghost", true );
-
-  } );
-  </script>
-		
+		  <meta name="viewport" content="width=device-width, initial-scale=1">
+		  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+		  <link rel="stylesheet" href="/resources/demos/style.css">
+		  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+		  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+		  <script>
+		  $( function() {
+		    $( "#menu" ).menu();
+		  } );
+		  </script>
+		  <style>
+		  .ui-menu { width: 400px; }
+		  </style>
 	</head>
 	<body class="homepage">
 	<a href="/#"><asset:image src="favicon.png" class="grails-logo"/></a>
@@ -283,7 +61,7 @@
 							<!-- Banner -->
 								<section id="banner">
 									
-										<span class="image image-full" title="Shop - Bring your store business online."><asset:image src="shop-11.png"/></span>
+										<span class="image image-full"><asset:image src="shop-10.png"/></span>
 										<header>
 											<h2>Shop</h2> 
 											<span class="byline">Bring your store business online.</span>
@@ -294,134 +72,72 @@
 								
 						</div>
 					</div>
-								<div>	
+					
 								<!-- Nav -->
 										<nav id="nav">
-										<!-- 
-										<button id="button3" class="ui-state-default ui-corner-all" title="Buy Tea.">Tea</button>
-										<button id="button2" class="ui-state-default ui-corner-all" title="Tea Retreat.">Bed and Breakfast</button>
-										<button id="button4" class="ui-state-default ui-corner-all" title="Residence Program.">Residence</button>
-										<button id="button" class="ui-state-default ui-corner-all" title="Please feel free to email us.">Contact Us</button>
-										 -->
 											<ul>
-												<!--  <li><g:link controller="product" action="software">#if? Programming</g:link></li>
-												<li><g:link controller="product" action="premium">Premium News</g:link></li>
-												<li><g:link controller="product" action="seller">Seller Shelf</g:link></li>-->
-												<li><g:link controller="product" action="shelf">Login</g:link></li>
-												<li><g:link controller="register">Sign up</g:link></li>
+												<li><g:link class="list" action="shelf" controller="product"><span>Dashboard</span></g:link></li>
+												<li><g:link class="list" action="index" controller="products"><span>Products</span></g:link></li>
+												<li><g:link controller="coupon" action="index">Marketing</g:link></li>
+												<li><g:link controller="product" action="analytics">Analytics</g:link></li>
+												<li><g:link controller="blog" action="index">Blog</g:link></li>
 												<!--<li><a href="left-sidebar.html">Login</a></li>-->
 											</ul>
-											
 										</nav>
-										</div>
 							<!-- Intro -->
 							<div class="row">
 						<div class="12u">
 								<section>
 									<div>
 										<div class="row">
+										
 										<div class="6u">
 													<section class="box">
-													<asset:image src="shop-2.png"/>
-													<header>
-														<span style="font-size:35px;color:#878282">Understand your inventory</span>
-													</header>
-													</section>
-													</div>
-											<div class="6u">
-													<section class="box">
-													<asset:image src="shop-3.png"/>
-													<header>
-														<span style="font-size:35px;color:#878282">Select products to put on shelf</span>
-													</header>
-													</section>
-													</div>
-											<div class="6u">
-													<section class="box">
-													<asset:image src="shop-4.png"/>
-													<header>
-														<span style="font-size:35px;color:#878282">Run marketing campaigns</span>
-													</header>
 													<!-- <a href="http://www.mytweetmark.com" class="image image-full"><asset:image src="foodal-homepage-16.png"/></a> -->
-													<!-- 
 													<header>
-														<span style="font-size:35px;color:#878282">Bed and Breakfast</span>
+														<span style="font-size:35px;color:#878282">Get Started today!</span>
 													</header>
 													
-													<div id="effect2" class="ui-widget-content ui-corner-all">
-													<div id="resizable6" class="ui-widget-content">
-  													<span style="font-size:25px;">
-  													<p style="font-size:20px;">Rent a room for the night and enjoy our tea.</p>
-  													<ul>
-													<li><g:img dir="images" file="kettle.png" width="100" height="100"/></li>
+													<br><br>
+													<div>
+													
+													<ul id="menu">
+													<li><div><g:link class="list" action="shelf" controller="product"><span style="color:#8a7e7e;font-size:20px"><asset:image src="foodal-1.png" width="50" height="50"/> Dashboard</span></g:link></div></li>
+													<li>-</li>
+													<li><div><g:link class="list" action="index" controller="products"><span style="color:#8a7e7e;font-size:20px"><asset:image src="homecookme-9.png" width="50" height="50"/> Products</span></g:link></div></li>
+													<li>-</li>
+													<li><div><g:link controller="coupon" action="index"><span style="color:#8a7e7e;font-size:20px"><asset:image src="homecookme-10.png" width="50" height="50"/> Marketing</span></g:link></div></li>
+													<li>-</li>
+													<li><div><g:link controller="product" action="analytics"><span style="color:#8a7e7e;font-size:20px"><asset:image src="homecookme-11.png" width="50" height="50"/> Analytics</span></g:link></div></li>
+													<li>-</li>
+													<li><div><g:link controller="blog" action="index"><span style="color:#8a7e7e;font-size:20px"><asset:image src="shop-7.png" width="50" height="50"/> Blog</span></g:link></div></li>
+													
 													</ul>
-													</span>
 													</div>
-													</div>
+													<br>
+													<br>
 													
-													<header>
-														<span style="font-size:35px;color:#878282">Buy Tea</span>
-													</header>
-													
-													<div id="effect3" class="ui-widget-content ui-corner-all">
-													<div id="resizable7" class="ui-widget-content">
-  													
-  														<span style="font-size:25px;">
-  														<p style="font-size:20px;">Buy tea with five elements, earth, water, fire, wood and metal.</p>
-	  													<ul>
-														<li><g:img dir="images" file="batao.png" width="100" height="100"/> </li>
-														</ul>
-														</span>
-  													</div>
-													</div>
-												 -->	
 												</section>
 											</div>
-											<div class="6u">
+										<div class="6u">
+										<br><br><br>
+										<div>
 												<section class="box">
-												<asset:image src="shop-5.png"/>
-												<header>
-														<span style="font-size:35px;color:#878282">View buying conversion on analytics</span>
-													</header>
-												<!-- 
-												<header>
-														<span style="font-size:35px;color:#878282">Residence program</span>
-													</header>
 													
-												
-  													<div id="effect4" class="ui-widget-content ui-corner-all">
-  													<div id="resizable5" class="ui-widget-content">
-  													<span style="font-size:25px;">
-  													<p style="font-size:20px;">Come live with the master and learn dao teachings.</p>
-  													<ul>
-														<li><g:img dir="images" file="flame.png" width="100" height="100"/> </li>
-														</ul>
-													</span>
-													</div>
-													</div>
-													
-													<header>
-														<span style="font-size:35px;color:#878282">Contact Us</span>
-													</header>
-													
-													<div id="effect" class="ui-widget-content ui-corner-all">
-													<div id="resizable4" class="ui-widget-content">
-  													<span style="font-size:25px;">
-  													
-  													<p style="font-size:20px;">Questions? Email us today and get started.</p>
-  													
-													<br>
+													<asset:image src="shop-4.png" width="400" height="400"/>
+													<!-- 
 													<footer class="actions">
-														<a href="mailto:webmaster@mauget.com" class="fa fa-flag fa-2x pull-left">Email!</a>
-														
+														<g:link controller="product" action="analytics" class="button fa fa-file-text">Please view our analytics.</g:link>
+														<br><br>
+														<g:link class="list" action="index" controller="products" class="button alt fa fa-comment">Please view our products.</g:link>
 													</footer>
-													</span>
-													</div>
-													</div>
+													 -->
+												</section>
+												</div>
 											</div>
+											
 										</div>
 									</div>
-									 -->
 								</section>
 
 						</div>
@@ -437,7 +153,6 @@
 							
 							<!-- Portfolio -->
 								<section>
-									
 									
 					<div class="row">
 						<div class="12u">
@@ -551,7 +266,6 @@
 						<div class="row">
 							<div class="4u">
 								<section>
-								<div style="margin:20px">
 									<header>
 										<h2>Connect with us</h2>
 									</header>
@@ -578,10 +292,9 @@
 											<p>(800) 000-0000</p>
 										</li-->
 									</ul>
-									</div>
-									
 								</section>
 								
+
 							</div>
 							<!-- 
 							<div class="4u">
@@ -600,7 +313,6 @@
 							 -->
 							<div class="4u">
 							<section>
-							<div style="margin:20px">
 									<header>
 										<h2>And more...</h2>
 									</header>
@@ -610,7 +322,6 @@
 										<!--li><a href="#">Sem feugiat sapien id suscipit magna felis nec</a></li>
 										<li><a href="#">Elit class aptent taciti sociosqu ad litora</a></li-->
 									</ul>
-									</div>
 								</section>
 								
 							

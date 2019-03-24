@@ -606,6 +606,15 @@ class ProductController {
 		}
 	}
 	
+	def sales() {
+		System.out.println("inside sales")
+		App app = App.findByName("foodal")
+		
+		if (app != null) {
+			addView(app, request.getRemoteAddr())
+		}
+	}
+	
 	def checkout() {
 		log.info "inside checkout"
 		App app = App.findByName("foodal")

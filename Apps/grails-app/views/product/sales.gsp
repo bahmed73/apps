@@ -78,6 +78,11 @@
 											<ul>
 												<li><g:link url="/">Home</g:link></li>
 												<li><g:link controller="product" action="shelf">Dashboard</g:link></li>
+												<li><g:link controller="inventory" action="index">Inventory</g:link></li>
+												<li><g:link controller="seasonCatalog" action="index">Season Catalog</g:link></li>
+												<li><g:link controller="allocationForecast" action="index">Allocation Forecast</g:link></li>
+												<li><g:link controller="goalSeek" action="index">Goal Seek</g:link></li>
+												<li><g:link controller="targetInventory" action="index">Target Inventory</g:link></li>
 												<!--<li><a href="left-sidebar.html">Login</a></li>-->
 											</ul>
 										</nav>
@@ -91,7 +96,7 @@
 													<section class="box">
 													<!-- <a href="http://www.mytweetmark.com" class="image image-full"><asset:image src="foodal-homepage-16.png"/></a> -->
 													<header>
-														<span style="font-size:35px;color:#878282">Analytics</span>
+														<span style="font-size:35px;color:#878282">Sales</span>
 														<g:form controller="logout">                        
     													<g:submitButton name="logout" value="Logout" />
 													</g:form>
@@ -100,21 +105,15 @@
 													<br><br>
 													<div>
 													<ul id="menu">
-													<li><div><g:link class="list" action="index" controller="productView"><span style="color:#8a7e7e;">Product Views</span></g:link></div></li>
+													<li><div><g:link class="list" action="index" controller="inventory"><span style="color:#8a7e7e;">Inventory</span></g:link></div></li>
 													<li>-</li>
-													<li><div><g:link class="list" action="export" controller="productView"><span style="color:#8a7e7e;">Download Report: Product Views</span></g:link></div></li>
+													<li><div><g:link class="list" action="index" controller="seasonCatalog"><span style="color:#8a7e7e;">Season Catalog</span></g:link></div></li>
 													<li>-</li>
-													<li><div><g:link class="list" action="index" controller="productReferer"><span style="color:#8a7e7e;">Product Referers</span></g:link></div></li>
+													<li><div><g:link class="list" action="index" controller="allocationForecast"><span style="color:#8a7e7e;">Allocation Forecast</span></g:link></div></li>
 													<li>-</li>
-													<li><div><g:link class="list" action="export" controller="productReferer"><span style="color:#8a7e7e;">Download Report: Product Referers</span></g:link></div></li>
+													<li><div><g:link class="list" action="index" controller="goalSeek"><span style="color:#8a7e7e;">Goal Seek</span></g:link></div></li>
 													<li>-</li>
-													<li><div><g:link class="list" action="index" controller="blogView"><span style="color:#8a7e7e;">Blog Views</span></g:link></div></li>
-													<li>-</li>
-													<li><div><g:link class="list" action="export" controller="blogView"><span style="color:#8a7e7e;">Download Report: Blog Views</span></g:link></div></li>
-													<li>-</li>
-													<li><div><g:link class="list" action="index" controller="blogReferer"><span style="color:#8a7e7e;">Blog Referer</span></g:link></div></li>
-													<li>-</li>
-													<li><div><g:link class="list" action="export" controller="blogReferer"><span style="color:#8a7e7e;">Download Report: Blog Referers</span></g:link></div></li>
+													<li><div><g:link class="list" action="index" controller="targetInventory"><span style="color:#8a7e7e;">Target Inventory</span></g:link></div></li>
 													</ul>
 													
 													</div>

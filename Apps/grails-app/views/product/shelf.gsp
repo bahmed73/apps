@@ -81,6 +81,7 @@
 												<li><g:link controller="coupon" action="index">Marketing</g:link></li>
 												<li><g:link controller="product" action="analytics">Analytics</g:link></li>
 												<li><g:link controller="blog" action="index">Blog</g:link></li>
+												<li><g:link controller="product" action="sales">Sales</g:link></li>
 												<!--<li><a href="left-sidebar.html">Login</a></li>-->
 											</ul>
 										</nav>
@@ -112,6 +113,8 @@
 													<li><div><g:link controller="product" action="analytics"><span style="color:#8a7e7e;font-size:20px"><asset:image src="homecookme-11.png" width="50" height="50"/> Analytics</span></g:link></div></li>
 													<li>-</li>
 													<li><div><g:link controller="blog" action="index"><span style="color:#8a7e7e;font-size:20px"><asset:image src="shop-7.png" width="50" height="50"/> Blog</span></g:link></div></li>
+													<li>-</li>
+													<li><div><g:link controller="product" action="sales"><span style="color:#8a7e7e;font-size:20px"><asset:image src="foodal-hat.png" width="50" height="50"/> Sales</span></g:link></div></li>
 													
 													</ul>
 													</div>
