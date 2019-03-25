@@ -83,6 +83,8 @@
 												<li><g:link controller="allocationForecast" action="index">Allocation Forecast</g:link></li>
 												<li><g:link controller="goalSeek" action="index">Goal Seek</g:link></li>
 												<li><g:link controller="targetInventory" action="index">Target Inventory</g:link></li>
+												<li><g:link controller="customers" action="index">Customers</g:link></li>
+												<li><g:link controller="vendors" action="index">Vendors</g:link></li>
 												<!--<li><a href="left-sidebar.html">Login</a></li>-->
 											</ul>
 										</nav>
@@ -114,6 +116,11 @@
 													<li><div><g:link class="list" action="index" controller="goalSeek"><span style="color:#8a7e7e;">Goal Seek</span></g:link></div></li>
 													<li>-</li>
 													<li><div><g:link class="list" action="index" controller="targetInventory"><span style="color:#8a7e7e;">Target Inventory</span></g:link></div></li>
+													<li>-</li>
+													<li><div><g:link class="list" action="index" controller="customers"><span style="color:#8a7e7e;">Customers</span></g:link></div></li>
+													<li>-</li>
+													<li><div><g:link class="list" action="index" controller="vendors"><span style="color:#8a7e7e;">Vendors</span></g:link></div></li>
+													
 													</ul>
 													
 													</div>
