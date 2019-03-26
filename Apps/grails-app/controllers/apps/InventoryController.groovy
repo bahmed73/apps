@@ -35,8 +35,8 @@ class InventoryController {
 						row(inventoryList.get(i).name, inventoryList.get(i).products.name, inventoryList.get(i).quantity, inventoryList.get(i).price, inventoryList.get(i).description)
 					}
 				} else {
-					row("china", "india", 5, "\$5", "description")
-					row("russia", "pakistan", 5, "\$5", "description")
+					row("china", "india", 5, "5", "description")
+					row("russia", "pakistan", 5, "5", "description")
 				}
 			}
 		}

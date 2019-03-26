@@ -14,7 +14,7 @@ class Inventory {
     static constraints = {
 		createTime(nullable:false)
 		name(nullable:false, maxSize:500)
-		description(nullable:true, maxSize:50000)
+		description(nullable:false, maxSize:50000)
 		updateTime(nullable:false)
 		quantity(nullable:false)
 		price(nullable:false, maxSize:50)
