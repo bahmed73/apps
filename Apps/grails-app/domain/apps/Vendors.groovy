@@ -15,6 +15,7 @@ class Vendors {
 		Long endQuantity
 		String beginPrice
 		String endPrice
+		User user
 
 
     static constraints = {
@@ -31,6 +32,7 @@ class Vendors {
 				endQuantity(nullable:false)
 				beginPrice(nullable:false, maxSize:50)
 				endPrice(nullable:false, maxSize:50)
+				user(nullable:false)
     }
 
         static mapping = {

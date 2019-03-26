@@ -4,10 +4,13 @@ import static org.springframework.http.HttpStatus.*
 import grails.transaction.Transactional
 
 import grails.plugin.springsecurity.annotation.Secured
+import com.jameskleeh.excel.ExcelBuilder
 
 @Secured('ROLE_ADMIN')
 class AllocationForecastController {
 
+	def springSecurityService
+	
     static allowedMethods = [save: "POST", update: "PUT", delete: "DELETE"]
 
     def index(Integer max) {
@@ -15,6 +18,37 @@ class AllocationForecastController {
         respond AllocationForecast.list(params), model:[allocationForecastCount: AllocationForecast.count()]
     }
 
+	def export() {
+		System.out.println("inside export")
+		def filename = "C:\\development\\workspace\\Apps\\grails-app\\assets\\images\\test.xlsx"
+		File file = new File(filename)
+		
+		def user = springSecurityService.currentUser
+		System.out.println("username = " + user.username)
+		
+		def allocationForecastList = AllocationForecast.findAllByUser(user)
+		
+		ExcelBuilder.output(new FileOutputStream(file)) {
+			sheet {
+				if (allocationForecastList!=null && !allocationForecastList.isEmpty()) {
+					for (int i=0; i<allocationForecastList.size(); i++) {
+						row(allocationForecastList.get(i).name, allocationForecastList.get(i).beginTime.toString(), allocationForecastList.get(i).endTime.toString(), allocationForecastList.get(i).beginQuantity, allocationForecastList.get(i).endQuantity, allocationForecastList.get(i).beginPrice, allocationForecastList.get(i).endPrice)
+					}
+				} else {
+					row("china", "beginTime", "endTime", 5, 6, "\$5", "\$5")
+					row("china", "beginTime", "endTime", 5, 6, "\$5", "\$5")
+				}
+			}
+		}
+		
+		//render (file: new File(result), fileName: "TemplateSQL.met", contentType: "text/met")
+		
+		response.setContentType("application/octet-stream")
+		response.setHeader("Content-disposition", "attachment; filename=\"" + filename + "\"")
+		response.outputStream << file.newInputStream()
+		return
+	}
+	
     def show(AllocationForecast allocationForecast) {
         respond allocationForecast
     }

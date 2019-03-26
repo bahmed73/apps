@@ -4,10 +4,13 @@ import static org.springframework.http.HttpStatus.*
 import grails.transaction.Transactional
 
 import grails.plugin.springsecurity.annotation.Secured
+import com.jameskleeh.excel.ExcelBuilder
 
 @Secured('ROLE_ADMIN')
 class CustomersController {
 
+	def springSecurityService
+	
     static allowedMethods = [save: "POST", update: "PUT", delete: "DELETE"]
 
     def index(Integer max) {
@@ -15,6 +18,37 @@ class CustomersController {
         respond Customers.list(params), model:[customersCount: Customers.count()]
     }
 
+	def export() {
+		System.out.println("inside export")
+		def filename = "C:\\development\\workspace\\Apps\\grails-app\\assets\\images\\test.xlsx"
+		File file = new File(filename)
+		
+		def user = springSecurityService.currentUser
+		System.out.println("username = " + user.username)
+		
+		def customersList = Customers.findAllByUser(user)
+		
+		ExcelBuilder.output(new FileOutputStream(file)) {
+			sheet {
+				if (customersList!=null && !customersList.isEmpty()) {
+					for (int i=0; i<customersList.size(); i++) {
+						row(customersList.get(i).name, customersList.get(i).address, customersList.get(i).phone, customersList.get(i).beginTime.toString(), customersList.get(i).endTime.toString(), customersList.get(i).beginQuantity, customersList.get(i).endQuantity, customersList.get(i).beginPrice, customersList.get(i).endPrice)
+					}
+				} else {
+					row("china", "address", "phone", "beginTime", "endTime", 5, 6, "\$5", "\$5")
+					row("china", "address", "phone", "beginTime", "endTime", 5, 6, "\$5", "\$5")
+				}
+			}
+		}
+		
+		//render (file: new File(result), fileName: "TemplateSQL.met", contentType: "text/met")
+		
+		response.setContentType("application/octet-stream")
+		response.setHeader("Content-disposition", "attachment; filename=\"" + filename + "\"")
+		response.outputStream << file.newInputStream()
+		return
+	}
+	
     def show(Customers customers) {
         respond customers
     }

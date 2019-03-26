@@ -109,18 +109,31 @@
 													<ul id="menu">
 													<li><div><g:link class="list" action="index" controller="inventory"><span style="color:#8a7e7e;">Inventory</span></g:link></div></li>
 													<li>-</li>
+													<li><div><g:link class="list" action="export" controller="inventory"><span style="color:#8a7e7e;">Download Report: Inventory</span></g:link></div></li>
+													<li>-</li>
 													<li><div><g:link class="list" action="index" controller="seasonCatalog"><span style="color:#8a7e7e;">Season Catalog</span></g:link></div></li>
+													<li>-</li>
+													<li><div><g:link class="list" action="export" controller="seasonCatalog"><span style="color:#8a7e7e;">Download Report: Season Catalog</span></g:link></div></li>
 													<li>-</li>
 													<li><div><g:link class="list" action="index" controller="allocationForecast"><span style="color:#8a7e7e;">Allocation Forecast</span></g:link></div></li>
 													<li>-</li>
+													<li><div><g:link class="list" action="export" controller="allocationForecast"><span style="color:#8a7e7e;">Download Report: Allocation Forecast</span></g:link></div></li>
+													<li>-</li>
 													<li><div><g:link class="list" action="index" controller="goalSeek"><span style="color:#8a7e7e;">Goal Seek</span></g:link></div></li>
+													<li>-</li>
+													<li><div><g:link class="list" action="export" controller="goalSeek"><span style="color:#8a7e7e;">Download Report: Goal Seek</span></g:link></div></li>
 													<li>-</li>
 													<li><div><g:link class="list" action="index" controller="targetInventory"><span style="color:#8a7e7e;">Target Inventory</span></g:link></div></li>
 													<li>-</li>
+													<li><div><g:link class="list" action="export" controller="targetInventory"><span style="color:#8a7e7e;">Download Report: Target Inventory</span></g:link></div></li>
+													<li>-</li>
 													<li><div><g:link class="list" action="index" controller="customers"><span style="color:#8a7e7e;">Customers</span></g:link></div></li>
 													<li>-</li>
+													<li><div><g:link class="list" action="export" controller="customers"><span style="color:#8a7e7e;">Download Report: Customers</span></g:link></div></li>
+													<li>-</li>
 													<li><div><g:link class="list" action="index" controller="vendors"><span style="color:#8a7e7e;">Vendors</span></g:link></div></li>
-													
+													<li>-</li>
+													<li><div><g:link class="list" action="export" controller="vendors"><span style="color:#8a7e7e;">Download Report: Vendors</span></g:link></div></li>
 													</ul>
 													
 													</div>

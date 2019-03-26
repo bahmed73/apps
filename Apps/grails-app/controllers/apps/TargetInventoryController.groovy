@@ -4,16 +4,50 @@ import static org.springframework.http.HttpStatus.*
 import grails.transaction.Transactional
 
 import grails.plugin.springsecurity.annotation.Secured
+import com.jameskleeh.excel.ExcelBuilder
 
 @Secured('ROLE_ADMIN')
 class TargetInventoryController {
 
+	def springSecurityService
+	
     static allowedMethods = [save: "POST", update: "PUT", delete: "DELETE"]
 
     def index(Integer max) {
         params.max = Math.min(max ?: 10, 100)
         respond TargetInventory.list(params), model:[targetInventoryCount: TargetInventory.count()]
     }
+	
+	def export() {
+		System.out.println("inside export")
+		def filename = "C:\\development\\workspace\\Apps\\grails-app\\assets\\images\\test.xlsx"
+		File file = new File(filename)
+		
+		def user = springSecurityService.currentUser
+		System.out.println("username = " + user.username)
+		
+		def targetInventoryList = TargetInventory.findAllByUser(user)
+		
+		ExcelBuilder.output(new FileOutputStream(file)) {
+			sheet {
+				if (targetInventoryList!=null && !targetInventoryList.isEmpty()) {
+					for (int i=0; i<targetInventoryList.size(); i++) {
+						row(targetInventoryList.get(i).name, targetInventoryList.get(i).beginTime.toString(), targetInventoryList.get(i).endTime.toString(), targetInventoryList.get(i).quantity, targetInventoryList.get(i).price)
+					}
+				} else {
+					row("china", "beginTime", "endTime", 5, "\$5")
+					row("china", "beginTime", "endTime", 5, "\$5")
+				}
+			}
+		}
+		
+		//render (file: new File(result), fileName: "TemplateSQL.met", contentType: "text/met")
+		
+		response.setContentType("application/octet-stream")
+		response.setHeader("Content-disposition", "attachment; filename=\"" + filename + "\"")
+		response.outputStream << file.newInputStream()
+		return
+	}
 
     def show(TargetInventory targetInventory) {
         respond targetInventory
