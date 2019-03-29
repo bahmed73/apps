@@ -135,8 +135,8 @@
 													<div>
 													
 													<ul id="menu">
-													<li><div><g:link class="list" action="shelf" controller="product"><span style="color:#8a7e7e;font-size:20px"><asset:image src="foodal-1.png" width="50" height="50"/> Dashboard</span></g:link></div></li>
-													<li>-</li>
+													<li><div><g:link class="list" action="shelf" controller="product"><span style="color:#8a7e7e;font-size:20px"><asset:image src="foodal-1.png" width="50" height="50"/> Dashboard</span></g:link></div>
+													<ul>
 													<li><div><g:link class="list" action="index" controller="products"><span style="color:#8a7e7e;font-size:20px"><asset:image src="homecookme-9.png" width="50" height="50"/> Products</span></g:link></div></li>
 													<li>-</li>
 													<li><div><g:link controller="coupon" action="index"><span style="color:#8a7e7e;font-size:20px"><asset:image src="homecookme-10.png" width="50" height="50"/> Marketing</span></g:link></div></li>
@@ -146,6 +146,67 @@
 													<li><div><g:link controller="blog" action="index"><span style="color:#8a7e7e;font-size:20px"><asset:image src="shop-7.png" width="50" height="50"/> Blog</span></g:link></div></li>
 													<li>-</li>
 													<li><div><g:link controller="product" action="sales"><span style="color:#8a7e7e;font-size:20px"><asset:image src="foodal-hat.png" width="50" height="50"/> Sales</span></g:link></div></li>
+													
+													</ul>
+													</li>
+													<li>-</li>
+													<li><div><g:link class="list" action="index" controller="products"><span style="color:#8a7e7e;font-size:20px"><asset:image src="homecookme-9.png" width="50" height="50"/> Products</span></g:link></div></li>
+													<li>-</li>
+													<li><div><g:link controller="coupon" action="index"><span style="color:#8a7e7e;font-size:20px"><asset:image src="homecookme-10.png" width="50" height="50"/> Marketing</span></g:link></div></li>
+													<li>-</li>
+													<li><div><g:link controller="product" action="analytics"><span style="color:#8a7e7e;font-size:20px"><asset:image src="homecookme-11.png" width="50" height="50"/> Analytics</span></g:link></div>
+													<ul>
+													<li><div><g:link class="list" action="index" controller="productView"><span style="color:#8a7e7e;">Product Views</span></g:link></div></li>
+													<li>-</li>
+													<li><div><g:link class="list" action="export" controller="productView"><span style="color:#8a7e7e;">Download Report: Product Views</span></g:link></div></li>
+													<li>-</li>
+													<li><div><g:link class="list" action="index" controller="productReferer"><span style="color:#8a7e7e;">Product Referers</span></g:link></div></li>
+													<li>-</li>
+													<li><div><g:link class="list" action="export" controller="productReferer"><span style="color:#8a7e7e;">Download Report: Product Referers</span></g:link></div></li>
+													<li>-</li>
+													<li><div><g:link class="list" action="index" controller="blogView"><span style="color:#8a7e7e;">Blog Views</span></g:link></div></li>
+													<li>-</li>
+													<li><div><g:link class="list" action="export" controller="blogView"><span style="color:#8a7e7e;">Download Report: Blog Views</span></g:link></div></li>
+													<li>-</li>
+													<li><div><g:link class="list" action="index" controller="blogReferer"><span style="color:#8a7e7e;">Blog Referer</span></g:link></div></li>
+													<li>-</li>
+													<li><div><g:link class="list" action="export" controller="blogReferer"><span style="color:#8a7e7e;">Download Report: Blog Referers</span></g:link></div></li>
+													</ul>
+													</li>
+													<li>-</li>
+													<li><div><g:link controller="blog" action="index"><span style="color:#8a7e7e;font-size:20px"><asset:image src="shop-7.png" width="50" height="50"/> Blog</span></g:link></div></li>
+													<li>-</li>
+													<li><div><g:link controller="product" action="sales"><span style="color:#8a7e7e;font-size:20px"><asset:image src="foodal-hat.png" width="50" height="50"/> Sales</span></g:link></div>
+													<ul>
+													<li><div><g:link class="list" action="index" controller="inventory"><span style="color:#8a7e7e;">Inventory</span></g:link></div></li>
+													<li>-</li>
+													<li><div><g:link class="list" action="export" controller="inventory"><span style="color:#8a7e7e;">Download Report: Inventory</span></g:link></div></li>
+													<li>-</li>
+													<li><div><g:link class="list" action="index" controller="seasonCatalog"><span style="color:#8a7e7e;">Season Catalog</span></g:link></div></li>
+													<li>-</li>
+													<li><div><g:link class="list" action="export" controller="seasonCatalog"><span style="color:#8a7e7e;">Download Report: Season Catalog</span></g:link></div></li>
+													<li>-</li>
+													<li><div><g:link class="list" action="index" controller="allocationForecast"><span style="color:#8a7e7e;">Allocation Forecast</span></g:link></div></li>
+													<li>-</li>
+													<li><div><g:link class="list" action="export" controller="allocationForecast"><span style="color:#8a7e7e;">Download Report: Allocation Forecast</span></g:link></div></li>
+													<li>-</li>
+													<li><div><g:link class="list" action="index" controller="goalSeek"><span style="color:#8a7e7e;">Goal Seek</span></g:link></div></li>
+													<li>-</li>
+													<li><div><g:link class="list" action="export" controller="goalSeek"><span style="color:#8a7e7e;">Download Report: Goal Seek</span></g:link></div></li>
+													<li>-</li>
+													<li><div><g:link class="list" action="index" controller="targetInventory"><span style="color:#8a7e7e;">Target Inventory</span></g:link></div></li>
+													<li>-</li>
+													<li><div><g:link class="list" action="export" controller="targetInventory"><span style="color:#8a7e7e;">Download Report: Target Inventory</span></g:link></div></li>
+													<li>-</li>
+													<li><div><g:link class="list" action="index" controller="customers"><span style="color:#8a7e7e;">Customers</span></g:link></div></li>
+													<li>-</li>
+													<li><div><g:link class="list" action="export" controller="customers"><span style="color:#8a7e7e;">Download Report: Customers</span></g:link></div></li>
+													<li>-</li>
+													<li><div><g:link class="list" action="index" controller="vendors"><span style="color:#8a7e7e;">Vendors</span></g:link></div></li>
+													<li>-</li>
+													<li><div><g:link class="list" action="export" controller="vendors"><span style="color:#8a7e7e;">Download Report: Vendors</span></g:link></div></li>
+													</ul>
+													</li>
 													
 													</ul>
 													</div>
