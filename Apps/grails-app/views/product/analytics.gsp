@@ -78,6 +78,10 @@
 											<ul>
 												<li><g:link url="/">Home</g:link></li>
 												<li><g:link controller="product" action="shelf">Dashboard</g:link></li>
+												<li><g:link controller="productView" action="index">Product Views</g:link></li>
+												<li><g:link controller="productReferer" action="index">Product Referers</g:link></li>
+												<li><g:link controller="blogView" action="index">Blog Views</g:link></li>
+												<li><g:link controller="blogReferer" action="index">Blog Referers</g:link></li>
 												<!--<li><a href="left-sidebar.html">Login</a></li>-->
 											</ul>
 										</nav>
