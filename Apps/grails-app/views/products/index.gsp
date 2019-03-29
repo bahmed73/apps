@@ -46,7 +46,7 @@
 							<!-- Banner -->
 								<section id="banner">
 									<a href="https://mauget.com/">
-										<span class="image image-full"><asset:image src="shop-22.png"/></span>
+										<span class="image image-full"><asset:image src="shop-32.png"/></span>
 										<header>
 											<h2>Shop</h2> 
 											<span class="byline">Bring your store business online.</span>

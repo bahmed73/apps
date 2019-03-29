@@ -62,7 +62,7 @@
 							<!-- Banner -->
 								<section id="banner">
 									
-										<span class="image image-full"><asset:image src="shop-24.png"/></span>
+										<span class="image image-full"><asset:image src="shop-34.png"/></span>
 										<header>
 											<h2>Shop</h2> 
 											<span class="byline">Bring your store business online.</span>

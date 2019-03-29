@@ -71,23 +71,23 @@
   <!-- Wrapper for slides -->
   <div class="carousel-inner">
     <div class="item active">
-      <asset:image src="shop-20.png"/>
+      <asset:image src="shop-30.png"/>
     </div>
 
     <div class="item">
-      <asset:image src="shop-21.png"/>
+      <asset:image src="shop-31.png"/>
     </div>
 
     <div class="item">
-      <asset:image src="shop-22.png"/>
+      <asset:image src="shop-32.png"/>
     </div>
     
     <div class="item">
-      <asset:image src="shop-23.png"/>
+      <asset:image src="shop-33.png"/>
     </div>
     
     <div class="item">
-      <asset:image src="shop-24.png"/>
+      <asset:image src="shop-34.png"/>
     </div>
   </div>
 
