@@ -75,7 +75,7 @@
 								<div class="12u">
 									<section>
 										<div>
-											<div class="row">
+											<div class="row" style="border-style:solid; border-color:grey; border-width:1px;">
 												<div class="6u">
 														<section class="box">
 														<header>

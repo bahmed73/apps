@@ -46,7 +46,7 @@
 							<!-- Banner -->
 								<section id="banner">
 									<a href="https://mauget.com/">
-										<span class="image image-full"><asset:image src="shop-10.png"/></span>
+										<span class="image image-full"><asset:image src="shop-32.png"/></span>
 										<header>
 											<!--  <h2>Foodal</h2>-->
 											<!--span class="byline">welcome!</span-->
@@ -72,7 +72,7 @@
 						<div class="12u">
 								<section>
 									<div>
-										<div class="row">
+										<div class="row" style="border-style:solid; border-color:grey; border-width:1px;">
 											<div class="6u">
 													<section class="box">
 													<!-- <a href="http://www.mytweetmark.com" class="image image-full"><asset:image src="foodal-homepage-16.png"/></a> -->

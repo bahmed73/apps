@@ -25,6 +25,11 @@
 		<asset:javascript src="config.js"/>
 		<asset:javascript src="skel.min.js"/>
 		<asset:javascript src="skel-panels.min.js"/>
+		<script>
+		  $( function() {
+		    $( "#dialog" ).dialog();
+		  } );
+		  </script>
 		
 		<!--<noscript>
 			<asset:stylesheet src="skel-noscript.css"/>
@@ -72,7 +77,7 @@
 						<div class="12u">
 								<section>
 									<div>
-										<div class="row">
+										<div class="row" style="border-style:solid; border-color:grey; border-width:1px;">
 											<div class="6u">
 													<section class="box">
 													<!-- <a href="http://www.mytweetmark.com" class="image image-full"><asset:image src="foodal-homepage-16.png"/></a> -->

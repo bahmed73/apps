@@ -137,15 +137,15 @@
 													<ul id="menu">
 													<li><div><g:link class="list" action="shelf" controller="product"><span style="color:#8a7e7e;font-size:20px"><asset:image src="foodal-1.png" width="50" height="50"/> Dashboard</span></g:link></div>
 													<ul>
-													<li><div><g:link class="list" action="index" controller="products"><span style="color:#8a7e7e;font-size:20px"><asset:image src="homecookme-9.png" width="50" height="50"/> Products</span></g:link></div></li>
+													<li><div><g:link class="list" action="index" controller="products"><span style="color:#8a7e7e;">Products</span></g:link></div></li>
 													<li>-</li>
-													<li><div><g:link controller="coupon" action="index"><span style="color:#8a7e7e;font-size:20px"><asset:image src="homecookme-10.png" width="50" height="50"/> Marketing</span></g:link></div></li>
+													<li><div><g:link controller="coupon" action="index"><span style="color:#8a7e7e;">Marketing</span></g:link></div></li>
 													<li>-</li>
-													<li><div><g:link controller="product" action="analytics"><span style="color:#8a7e7e;font-size:20px"><asset:image src="homecookme-11.png" width="50" height="50"/> Analytics</span></g:link></div></li>
+													<li><div><g:link controller="product" action="analytics"><span style="color:#8a7e7e;">Analytics</span></g:link></div></li>
 													<li>-</li>
-													<li><div><g:link controller="blog" action="index"><span style="color:#8a7e7e;font-size:20px"><asset:image src="shop-7.png" width="50" height="50"/> Blog</span></g:link></div></li>
+													<li><div><g:link controller="blog" action="index"><span style="color:#8a7e7e;">Blog</span></g:link></div></li>
 													<li>-</li>
-													<li><div><g:link controller="product" action="sales"><span style="color:#8a7e7e;font-size:20px"><asset:image src="foodal-hat.png" width="50" height="50"/> Sales</span></g:link></div></li>
+													<li><div><g:link controller="product" action="sales"><span style="color:#8a7e7e;">Sales</span></g:link></div></li>
 													
 													</ul>
 													</li>
