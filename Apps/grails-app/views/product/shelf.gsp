@@ -63,8 +63,10 @@
 									
 										<span class="image image-full"><asset:image src="shop-31.png"/></span>
 										<header>
+										<!-- 
 											<h2>Shop</h2> 
 											<span class="byline">Bring your store business online.</span>
+											 -->
 										</header>
 									
 									
@@ -179,7 +181,20 @@
 										<div>
 												<section class="box">
 													
-													<asset:image src="shop-4.png" width="400" height="400"/>
+													<div style="border-style:solid; border-color:grey; border-width:1px;margin:1px;font-size:20px;color:#000000">
+													<br>
+													<div style="margin:20px">
+													1. Create a product you are ready to sell. 
+													<br><br>
+													2. Create a blog for marketing.
+													<br><br>
+													3. Go to Sales -> Inventory and start managing your store.
+													</div>
+													<br>
+														<div style="margin-left:93px">
+														<asset:image src="shop-4.png" width="300" height="300"/>
+														</div>
+													</div>
 													<!-- 
 													<footer class="actions">
 														<g:link controller="product" action="analytics" class="button fa fa-file-text">Please view our analytics.</g:link>

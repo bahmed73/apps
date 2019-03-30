@@ -48,8 +48,10 @@
 									<a href="https://mauget.com/">
 										<span class="image image-full"><asset:image src="shop-30.png"/></span>
 										<header>
+										<!-- 
 											<h2>Shop</h2> 
 											<span class="byline">Bring your store business online.</span>
+											 -->
 										</header>
 									</a>
 									

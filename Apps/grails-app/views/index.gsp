@@ -220,7 +220,20 @@
 										<div>
 												<section class="box">
 													
-													<asset:image src="shop-4.png" width="400" height="400"/>
+													<div style="border-style:solid; border-color:grey; border-width:1px;margin:1px;font-size:20px">
+													<br>
+													<div style="margin:20px">
+													1. Simplify your shop by online tools. 
+													<br><br>
+													2. Syncronize your audience with social media.
+													<br><br>
+													3. Save your inventory for business to business analytics.
+													</div>
+													<br>
+														<div style="margin-left:93px">
+														<asset:image src="shop-4.png" width="300" height="300"/>
+														</div>
+													</div>
 													<!-- 
 													<footer class="actions">
 														<g:link controller="product" action="analytics" class="button fa fa-file-text">Please view our analytics.</g:link>

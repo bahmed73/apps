@@ -63,9 +63,11 @@
 								<section id="banner">
 									
 										<span class="image image-full"><asset:image src="shop-31.png"/></span>
+										<!-- 
 										<header>
 											<h2>Shop</h2> 
 											<span class="byline">Bring your store business online.</span>
+											 -->
 										</header>
 									
 								</section>
@@ -152,7 +154,20 @@
 											</div>
 											<div class="6u">
 												<section class="box">
-													<asset:image src="shop-5.png" width="400" height="400"/>
+												<div style="border-style:solid; border-color:grey; border-width:1px;margin:1px;font-size:20px;color:#000000">
+													<br>
+													<div style="margin:20px">
+													1. Create inventory of your products you are selling. 
+													<br><br>
+													2. Track your vendors and customers.
+													<br><br>
+													3. Measure your season catalog, allocation forecast, target inventory and goal seek.
+													</div>
+													<br>
+														<div style="margin-left:93px">
+														<asset:image src="shop-5.png" width="300" height="300"/>
+														</div>
+													</div>
 													<!--header>
 														<h3>Aptent veroeros et aliquam</h3>
 														<span class="byline">Posted 45 minutes ago</span>
