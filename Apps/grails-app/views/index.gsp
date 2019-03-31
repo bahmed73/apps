@@ -71,24 +71,18 @@
   <!-- Wrapper for slides -->
   <div class="carousel-inner">
     <div class="item active">
-      <asset:image src="shop-30.png"/>
+      <asset:image src="shop-44.png"/>
     </div>
 
     <div class="item">
-      <asset:image src="shop-31.png"/>
+      <asset:image src="shop-45.png"/>
     </div>
 
     <div class="item">
-      <asset:image src="shop-32.png"/>
+      <asset:image src="shop-46.png"/>
     </div>
     
-    <div class="item">
-      <asset:image src="shop-33.png"/>
-    </div>
     
-    <div class="item">
-      <asset:image src="shop-34.png"/>
-    </div>
   </div>
 
   <!-- Left and right controls -->
@@ -109,10 +103,7 @@
 										<nav id="nav">
 											<ul>
 												<li><g:link class="list" action="shelf" controller="product"><span>Dashboard</span></g:link></li>
-												<li><g:link class="list" action="index" controller="products"><span>Products</span></g:link></li>
-												<li><g:link controller="coupon" action="index">Marketing</g:link></li>
 												<li><g:link controller="product" action="analytics">Analytics</g:link></li>
-												<li><g:link controller="blog" action="index">Blog</g:link></li>
 												<li><g:link controller="product" action="sales">Sales</g:link></li>
 												<!--<li><a href="left-sidebar.html">Login</a></li>-->
 											</ul>
@@ -150,10 +141,6 @@
 													</ul>
 													</li>
 													<li>-</li>
-													<li><div><g:link class="list" action="index" controller="products"><span style="color:#8a7e7e;font-size:20px"><asset:image src="homecookme-9.png" width="50" height="50"/> Products</span></g:link></div></li>
-													<li>-</li>
-													<li><div><g:link controller="coupon" action="index"><span style="color:#8a7e7e;font-size:20px"><asset:image src="homecookme-10.png" width="50" height="50"/> Marketing</span></g:link></div></li>
-													<li>-</li>
 													<li><div><g:link controller="product" action="analytics"><span style="color:#8a7e7e;font-size:20px"><asset:image src="homecookme-11.png" width="50" height="50"/> Analytics</span></g:link></div>
 													<ul>
 													<li><div><g:link class="list" action="index" controller="productView"><span style="color:#8a7e7e;">Product Views</span></g:link></div></li>
@@ -173,8 +160,6 @@
 													<li><div><g:link class="list" action="export" controller="blogReferer"><span style="color:#8a7e7e;">Download Report: Blog Referers</span></g:link></div></li>
 													</ul>
 													</li>
-													<li>-</li>
-													<li><div><g:link controller="blog" action="index"><span style="color:#8a7e7e;font-size:20px"><asset:image src="shop-7.png" width="50" height="50"/> Blog</span></g:link></div></li>
 													<li>-</li>
 													<li><div><g:link controller="product" action="sales"><span style="color:#8a7e7e;font-size:20px"><asset:image src="foodal-hat.png" width="50" height="50"/> Sales</span></g:link></div>
 													<ul>
@@ -230,9 +215,7 @@
 													3. Save your inventory for business to business analytics.
 													</div>
 													<br>
-														<div style="margin-left:93px">
-														<asset:image src="shop-4.png" width="300" height="300"/>
-														</div>
+														
 													</div>
 													<!-- 
 													<footer class="actions">

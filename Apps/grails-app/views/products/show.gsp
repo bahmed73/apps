@@ -40,6 +40,8 @@
 		<!--[if lte IE 8]><asset:javascript src="html5shiv.js"/><asset:stylesheet src="ie8.css"/><![endif]-->
 	</head>
 	<body class="homepage">
+	<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2&appId=261449270414&autoLogAppEvents=1"></script>
 	<a href="/#"><asset:image src="favicon.png" class="grails-logo"/></a>
 		<!-- Header Wrapper -->
 			<div id="header-wrapper">
@@ -51,7 +53,7 @@
 							<!-- Banner -->
 								<section id="banner">
 									<a href="https://mauget.com/">
-										<span class="image image-full"><asset:image src="shop-30.png"/></span>
+										<span class="image image-full"><asset:image src="shop-46.png"/></span>
 										<header>
 											<!--  <h2>Foodal</h2>-->
 											<!--span class="byline">welcome!</span-->
@@ -97,7 +99,7 @@
 													<br><br>
 													<p style="font-size:18px;">Scientific Name: <f:display bean="products" property="scientificName"/></p>
 													<br><br>
-													
+													<div class="fb-share-button" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button" data-size="small"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
 													
 												</section>
 											</div>
@@ -108,7 +110,7 @@
 													<img src="data:image/png;base64,${products.imageThree?.encodeBase64()}"/>
 												</header>
 													<br><br>
-													<p style="font-size:14px;">Questions? Email us today for 24/7 support.</p>
+													<p style="font-size:14px;">Copy and paste the browser link above for your social media marketing, e.g. paste as facebook post.</p>
 													<br>
 													<footer class="actions">
 														<a href="mailto:bilal@mytweetmark.com" class="button fa fa-file-text">Email us today!</a>
