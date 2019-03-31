@@ -48,6 +48,11 @@
 		  <style>
 		  .ui-menu { width: 400px; }
 		  </style>
+		  <script>
+  $( function() {
+    $( "#draggable" ).draggable();
+  } );
+  </script>
 	</head>
 	<body class="homepage">
 	<a href="/#"><asset:image src="favicon.png" class="grails-logo"/></a>
@@ -61,7 +66,7 @@
 							<!-- Banner -->
 								<section id="banner">
 									
-										<span class="image image-full"><asset:image src="shop-47.png"/></span>
+										<span class="image image-full"><asset:image src="shop-51.png"/></span>
 										<header>
 										<!-- 
 											<h2>Shop</h2> 
@@ -192,8 +197,12 @@
 													</div>
 													<br>
 														<div style="margin-left:93px">
+														<div id="draggable" class="ui-widget-content">
+														  <p>"Drag me around"</p>
+
 														<asset:image src="shop-4.png" width="300" height="300"/>
 														</div>
+													</div>
 													</div>
 													<!-- 
 													<footer class="actions">

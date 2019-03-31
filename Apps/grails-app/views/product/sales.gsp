@@ -49,6 +49,11 @@
 		  <style>
 		  .ui-menu { width: 400px; }
 		  </style>
+		  <script>
+  $( function() {
+    $( "#draggable" ).draggable();
+  } );
+  </script>
 	</head>
 	<body class="homepage">
 	<a href="/#"><asset:image src="favicon.png" class="grails-logo"/></a>
@@ -62,7 +67,7 @@
 							<!-- Banner -->
 								<section id="banner">
 									
-										<span class="image image-full"><asset:image src="shop-49.png"/></span>
+										<span class="image image-full"><asset:image src="shop-50.png"/></span>
 										<!-- 
 										<header>
 											<h2>Shop</h2> 
@@ -164,9 +169,12 @@
 													3. Measure your season catalog, allocation forecast, target inventory and goal seek.
 													</div>
 													<br>
+													<div id="draggable" class="ui-widget-content">
 														<div style="margin-left:93px">
+														<p>"Drag me around"</p>
 														<asset:image src="shop-5.png" width="300" height="300"/>
 														</div>
+													</div>
 													</div>
 													<!--header>
 														<h3>Aptent veroeros et aliquam</h3>

@@ -53,7 +53,7 @@
 							<!-- Banner -->
 								<section id="banner">
 									<a href="https://mauget.com/">
-										<span class="image image-full"><asset:image src="shop-46.png"/></span>
+										<span class="image image-full"><asset:image src="shop-52.png"/></span>
 										<header>
 											<!--  <h2>Foodal</h2>-->
 											<!--span class="byline">welcome!</span-->

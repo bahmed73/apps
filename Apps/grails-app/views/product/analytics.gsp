@@ -10,10 +10,19 @@
 	<asset:stylesheet src="skel-noscript.css"/>
 	<asset:stylesheet src="style.css"/>
 	<asset:stylesheet src="style-desktop.css"/>
+	<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+		  <link rel="stylesheet" href="/resources/demos/style.css">
+		  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+		  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 	
 <LINK REL="SHORTCUT ICON"
        HREF="${createLinkTo(dir:'images', file:'favicon.ico')}">
 <link rel="icon" href="${createLinkTo(dir:'images', file:'favicon.ico')}"/>
+<script>
+  $( function() {
+    $( "#draggable" ).draggable();
+  } );
+  </script>
 <g:javascript library="scriptaculous" />    
   </head>
   
@@ -62,7 +71,7 @@
 							<!-- Banner -->
 								<section id="banner">
 									
-										<span class="image image-full"><asset:image src="shop-48.png"/></span>
+										<span class="image image-full"><asset:image src="shop-52.png"/></span>
 										<header>
 										<!-- 
 											<h2>Shop</h2> 
@@ -150,7 +159,10 @@
 													</div>
 													<br>
 														<div style="margin-left:93px">
+														<div id="draggable" class="ui-widget-content">
+														  <p>"Drag me around"</p>
 														<asset:image src="shop-5.png" width="300" height="300"/>
+														</div>
 														</div>
 													</div>
 													<!--header>
