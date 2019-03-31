@@ -71,15 +71,15 @@
   <!-- Wrapper for slides -->
   <div class="carousel-inner">
     <div class="item active">
-      <asset:image src="shop-44.png"/>
+      <g:link class="list" action="shelf" controller="product"><asset:image src="shop-44.png"/></g:link>
     </div>
 
     <div class="item">
-      <asset:image src="shop-45.png"/>
+      <g:link controller="product" action="analytics"><asset:image src="shop-45.png"/></g:link>
     </div>
 
     <div class="item">
-      <asset:image src="shop-46.png"/>
+      <g:link controller="product" action="sales"><asset:image src="shop-46.png"/></g:link>
     </div>
     
     
