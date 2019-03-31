@@ -1,12 +1,12 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<meta name="description" content="foodal" />
-<meta name="keywords" content="foodal, local, local food, food, local business, farmers, farmers market, farmer market, farmers markets, market, markets, farm, farm market, business, farm business, organic, health, nutrient,california local markets,california markets,local farmers market,local farmers markets,local farmer markets,local market,local markets,local farmers, farmers,local california,california,local, local business, chef, food chef, featured chef, food, home cook, cook, home, recipe, home recipe, food recipe, cook recipe, spiritual, spirit, blogger, socialmedia, socialmedia blogger, social media blogger, facebook, facebook feed, twitter, twitter update, twitter, twitter hash, twitter hashtag, hash, hashtag,viral,mytweetmark,mytweetmark.com,myhash, brand,share posts,post information,organize bookmarks,share bookmarks,share knowledge,organize bookmarks,categorize bookmarks,email bookmarks, share bookmarks and posts, share posts and bookmarks, share with friends,tweet,twitter" />
+		<meta name="description" content="Shop - Bring your store business online." />
+<meta name="keywords" content="shop, buy, sell, organic, health, foodal, local, local food, food, local business, farmers, farmers market, farmer market, farmers markets, market, markets, farm, farm market, business, farm business, organic, health, nutrient,california local markets,california markets,local farmers market,local farmers markets,local farmer markets,local market,local markets,local farmers, farmers,local california,california,local, local business, chef, food chef, featured chef, food, home cook, cook, home, recipe, home recipe, food recipe, cook recipe, spiritual, spirit, blogger, socialmedia, socialmedia blogger, social media blogger, facebook, facebook feed, twitter, twitter update, twitter, twitter hash, twitter hashtag, hash, hashtag,viral,mytweetmark,mytweetmark.com,myhash, brand,share posts,post information,organize bookmarks,share bookmarks,share knowledge,organize bookmarks,categorize bookmarks,email bookmarks, share bookmarks and posts, share posts and bookmarks, share with friends,tweet,twitter" />
 <meta http-equiv="window-target" content="_top" />
 <META HTTP-EQUIV="CACHE-CONTROL" CONTENT="PUBLIC">
 	<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
-	<title>Foodal - Promote your local food business and farmers markets.</title>
+	<title>Shop - Bring your store business online.</title>
 	<asset:stylesheet src="skel-noscript.css"/>
 	<asset:stylesheet src="style.css"/>
 	<asset:stylesheet src="style-desktop.css"/>
@@ -85,13 +85,7 @@
 											<ul>
 												<li><g:link url="/">Home</g:link></li>
 												<li><g:link controller="product" action="shelf">Dashboard</g:link></li>
-												<li><g:link controller="inventory" action="index">Inventory</g:link></li>
-												<li><g:link controller="seasonCatalog" action="index">Season Catalog</g:link></li>
-												<li><g:link controller="allocationForecast" action="index">Allocation Forecast</g:link></li>
-												<li><g:link controller="goalSeek" action="index">Goal Seek</g:link></li>
-												<li><g:link controller="targetInventory" action="index">Target Inventory</g:link></li>
-												<li><g:link controller="customers" action="index">Customers</g:link></li>
-												<li><g:link controller="vendors" action="index">Vendors</g:link></li>
+												<li><g:link controller="product" action="analytics">Analytics</g:link></li>
 												<!--<li><a href="left-sidebar.html">Login</a></li>-->
 											</ul>
 										</nav>
@@ -172,7 +166,7 @@
 													<div id="draggable" class="ui-widget-content">
 														<div style="margin-left:93px">
 														<p>"Drag me around"</p>
-														<asset:image src="shop-5.png" width="300" height="300"/>
+														<asset:image src="advertising.png" width="300" height="300"/>
 														</div>
 													</div>
 													</div>

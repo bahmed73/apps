@@ -84,10 +84,7 @@
 										<nav id="nav">
 											<ul>
 												<li><g:link url="/">Home</g:link></li>
-												<li><g:link class="list" action="index" controller="products"><span>Products</span></g:link></li>
-												<li><g:link controller="coupon" action="index">Marketing</g:link></li>
 												<li><g:link controller="product" action="analytics">Analytics</g:link></li>
-												<li><g:link controller="blog" action="index">Blog</g:link></li>
 												<li><g:link controller="product" action="sales">Sales</g:link></li>
 												<!--<li><a href="left-sidebar.html">Login</a></li>-->
 											</ul>
@@ -189,20 +186,19 @@
 													<div style="border-style:solid; border-color:grey; border-width:1px;margin:1px;font-size:20px;color:#000000">
 													<br>
 													<div style="margin:20px">
-													1. Create a product you are ready to sell. 
+													1. Create products you are ready to sell. 
 													<br><br>
 													2. Create a blog for marketing.
 													<br><br>
 													3. Go to Sales -> Inventory and start managing your store.
+													<br><br>
+													4. Setup Marketing -> coupons, for example, discount percentage off.
+													<br><br>
+													5. View Anaytics -> page referrers and page views.
+													<br><br>
+													6. Manage customers and vendors from Sales -> goal seek, target inventory and Season Catalog.
 													</div>
 													<br>
-														<div style="margin-left:93px">
-														<div id="draggable" class="ui-widget-content">
-														  <p>"Drag me around"</p>
-
-														<asset:image src="shop-4.png" width="300" height="300"/>
-														</div>
-													</div>
 													</div>
 													<!-- 
 													<footer class="actions">

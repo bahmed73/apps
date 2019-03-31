@@ -1,12 +1,12 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<meta name="description" content="foodal" />
-<meta name="keywords" content="foodal, local, local food, food, local business, farmers, farmers market, farmer market, farmers markets, market, markets, farm, farm market, business, farm business, organic, health, nutrient,california local markets,california markets,local farmers market,local farmers markets,local farmer markets,local market,local markets,local farmers, farmers,local california,california,local, local business, chef, food chef, featured chef, food, home cook, cook, home, recipe, home recipe, food recipe, cook recipe, spiritual, spirit, blogger, socialmedia, socialmedia blogger, social media blogger, facebook, facebook feed, twitter, twitter update, twitter, twitter hash, twitter hashtag, hash, hashtag,viral,mytweetmark,mytweetmark.com,myhash, brand,share posts,post information,organize bookmarks,share bookmarks,share knowledge,organize bookmarks,categorize bookmarks,email bookmarks, share bookmarks and posts, share posts and bookmarks, share with friends,tweet,twitter" />
+		<meta name="description" content="Shop - Bring your store business online." />
+<meta name="keywords" content="shop, buy, sell, organic, health, foodal, local, local food, food, local business, farmers, farmers market, farmer market, farmers markets, market, markets, farm, farm market, business, farm business, organic, health, nutrient,california local markets,california markets,local farmers market,local farmers markets,local farmer markets,local market,local markets,local farmers, farmers,local california,california,local, local business, chef, food chef, featured chef, food, home cook, cook, home, recipe, home recipe, food recipe, cook recipe, spiritual, spirit, blogger, socialmedia, socialmedia blogger, social media blogger, facebook, facebook feed, twitter, twitter update, twitter, twitter hash, twitter hashtag, hash, hashtag,viral,mytweetmark,mytweetmark.com,myhash, brand,share posts,post information,organize bookmarks,share bookmarks,share knowledge,organize bookmarks,categorize bookmarks,email bookmarks, share bookmarks and posts, share posts and bookmarks, share with friends,tweet,twitter" />
 <meta http-equiv="window-target" content="_top" />
 <META HTTP-EQUIV="CACHE-CONTROL" CONTENT="PUBLIC">
 	<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
-	<title>Foodal - Promote your local food business and farmers markets.</title>
+	<title>Shop - Bring your store business online.</title>
 	<asset:stylesheet src="skel-noscript.css"/>
 	<asset:stylesheet src="style.css"/>
 	<asset:stylesheet src="style-desktop.css"/>
@@ -89,10 +89,7 @@
 											<ul>
 												<li><g:link url="/">Home</g:link></li>
 												<li><g:link controller="product" action="shelf">Dashboard</g:link></li>
-												<li><g:link controller="productView" action="index">Product Views</g:link></li>
-												<li><g:link controller="productReferer" action="index">Product Referers</g:link></li>
-												<li><g:link controller="blogView" action="index">Blog Views</g:link></li>
-												<li><g:link controller="blogReferer" action="index">Blog Referers</g:link></li>
+												<li><g:link controller="product" action="sales">Sales</g:link></li>
 												<!--<li><a href="left-sidebar.html">Login</a></li>-->
 											</ul>
 										</nav>
@@ -156,14 +153,15 @@
 													2. Track your blog views and referers here.
 													<br><br>
 													3. Measure your online traffic with our tools.
+													<br><br>
+													4. Download the online traffic, in spread sheet, for future projections of visitors.
+													<br><br>
+													5. Create and market your blogs.
+													<br><br>
+													6. Referers also allows to see in depth, where the traffic is coming from.
 													</div>
 													<br>
-														<div style="margin-left:93px">
-														<div id="draggable" class="ui-widget-content">
-														  <p>"Drag me around"</p>
-														<asset:image src="shop-5.png" width="300" height="300"/>
-														</div>
-														</div>
+													
 													</div>
 													<!--header>
 														<h3>Aptent veroeros et aliquam</h3>

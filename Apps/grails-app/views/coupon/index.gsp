@@ -1,12 +1,12 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<meta name="description" content="mauget" />
-<meta name="keywords" content="mauget local, local tree, trees, local business, injection, insects, fertilizer, farm, farm market, business, farm business, organic, health, nutrient, california, blogger, socialmedia, socialmedia blogger, social media blogger, facebook, facebook feed, twitter, twitter update, twitter" />
+		<meta name="description" content="Shop - Bring your store business online." />
+<meta name="keywords" content="shop local, store business, store, shop, local, local tree, trees, local business, injection, insects, fertilizer, farm, farm market, business, farm business, organic, health, nutrient, california, blogger, socialmedia, socialmedia blogger, social media blogger, facebook, facebook feed, twitter, twitter update, twitter" />
 <meta http-equiv="window-target" content="_top" />
 <META HTTP-EQUIV="CACHE-CONTROL" CONTENT="PUBLIC">
 	<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
-	<title>Mauget - The right way to treat a tree.</title>
+	<title>Shop - Bring your store business online.</title>
 	<asset:stylesheet src="skel-noscript.css"/>
 	<asset:stylesheet src="style.css"/>
 	<asset:stylesheet src="style-desktop.css"/>
