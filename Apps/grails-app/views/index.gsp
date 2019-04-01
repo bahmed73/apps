@@ -52,7 +52,24 @@
 		  .ui-menu { width: 400px; }
 		  </style>
 	</head>
-	<body class="homepage">
+	<body class="homepage" onload="testEffect()">
+	<script type="text/javascript">
+	function testEffect() {
+		$( "#block1" )
+	    .animate({
+	      width: "90%"
+	    }, {
+	      queue: false,
+	      duration: 3000
+	    })
+	    .animate({ fontSize: "24px" }, 1500 )
+	    .animate({ borderRightWidth: "15px" }, 1500 );
+		$( "#block2" )
+	    .animate({ width: "90%" }, 1000 )
+	    .animate({ fontSize: "24px" }, 1000 )
+	    .animate({ borderLeftWidth: "15px" }, 1000 );
+		}
+	</script>
 	<a href="/#"><asset:image src="favicon.png" class="grails-logo"/></a>
 		<!-- Header Wrapper -->
 			<div id="header-wrapper">
@@ -123,7 +140,7 @@
 													</header>
 													
 													<br><br>
-													<div>
+													<div id="block2">
 													
 													<ul id="menu">
 													<li><div><g:link class="list" action="shelf" controller="product"><span style="color:#8a7e7e;font-size:20px"><asset:image src="foodal-1.png" width="50" height="50"/> Dashboard</span></g:link></div>
@@ -205,7 +222,7 @@
 										<div>
 												<section class="box">
 													
-													<div style="border-style:solid; border-color:grey; border-width:1px;margin:1px;font-size:20px">
+													<div id="block1" style="border-style:solid; border-color:grey; border-width:1px;margin:1px;font-size:20px">
 													<br>
 													<div style="margin:20px">
 													1. Simplify your shop by online tools. 

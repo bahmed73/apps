@@ -54,7 +54,24 @@
   } );
   </script>
 	</head>
-	<body class="homepage">
+	<body class="homepage" onload="testEffect()">
+	<script type="text/javascript">
+	function testEffect() {
+		$( "#block1" )
+	    .animate({
+	      width: "90%"
+	    }, {
+	      queue: false,
+	      duration: 3000
+	    })
+	    .animate({ fontSize: "24px" }, 1500 )
+	    .animate({ borderRightWidth: "15px" }, 1500 );
+		$( "#block2" )
+	    .animate({ width: "90%" }, 1000 )
+	    .animate({ fontSize: "24px" }, 1000 )
+	    .animate({ borderLeftWidth: "15px" }, 1000 );
+		}
+	</script>
 	<a href="/#"><asset:image src="favicon.png" class="grails-logo"/></a>
 		<!-- Header Wrapper -->
 			<div id="header-wrapper">
@@ -107,7 +124,7 @@
 													</g:form>
 													
 													<br><br>
-													<div>
+													<div id="block2">
 													
 													<ul id="menu">
 													<li><div><g:link class="list" action="index" controller="products"><span style="color:#8a7e7e;font-size:20px"><asset:image src="homecookme-9.png" width="50" height="50"/> Products</span></g:link></div></li>
@@ -183,7 +200,7 @@
 										<div>
 												<section class="box">
 													
-													<div style="border-style:solid; border-color:grey; border-width:1px;margin:1px;font-size:20px;color:#000000">
+													<div id="block1" style="border-style:solid; border-color:grey; border-width:1px;margin:1px;font-size:20px;color:#000000">
 													<br>
 													<div style="margin:20px">
 													1. Create products you are ready to sell. 
