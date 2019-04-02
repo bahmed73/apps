@@ -46,7 +46,7 @@
 							<!-- Banner -->
 								<section id="banner">
 									
-										<span class="image image-full"><asset:image src="shop-53.png"/></span>
+										<span class="image image-full"><asset:image src="shop-57.png"/></span>
 										<header>
 										<!-- 
 											<h2>Shop</h2> 
