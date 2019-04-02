@@ -46,7 +46,7 @@
 							<!-- Banner -->
 								<section id="banner">
 									
-										<span class="image image-full"><asset:image src="shop-52.png"/></span>
+										<span class="image image-full"><asset:image src="shop-55.png"/></span>
 										<header>
 										<!-- 
 											<h2>Shop</h2> 
@@ -276,7 +276,6 @@
 								
 
 							</div>
-							<!-- 
 							<div class="4u">
 
 								<section>
@@ -284,13 +283,12 @@
 										<h2>More about us</h2>
 									</header>
 									<ul class="divided">
-										<li><a href="https://mauget.com/about-mauget/">About Us</a></li>
-										<li><a href="https://www.facebook.com/Mauget-464784170389171/">On Facebook</a></li>
+										<li><a href="https://facebook.com/mytweetmark/">On Facebook</a></li>
+										<li><a href="http://bilalahmed.org">Our Website</a></li>
 									</ul>
 								</section>
-
+				
 							</div>
-							 -->
 							<div class="4u">
 							<section>
 									<header>

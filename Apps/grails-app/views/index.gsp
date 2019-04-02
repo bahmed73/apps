@@ -88,15 +88,15 @@
   <!-- Wrapper for slides -->
   <div class="carousel-inner">
     <div class="item active">
-      <g:link class="list" action="shelf" controller="product"><asset:image src="shop-50.png"/></g:link>
+      <g:link class="list" action="shelf" controller="product"><asset:image src="shop-53.png"/></g:link>
     </div>
 
     <div class="item">
-      <g:link controller="product" action="analytics"><asset:image src="shop-51.png"/></g:link>
+      <g:link controller="product" action="analytics"><asset:image src="shop-54.png"/></g:link>
     </div>
 
     <div class="item">
-      <g:link controller="product" action="sales"><asset:image src="shop-52.png"/></g:link>
+      <g:link controller="product" action="sales"><asset:image src="shop-55.png"/></g:link>
     </div>
     
     
@@ -405,7 +405,7 @@
 								
 
 							</div>
-							<!-- 
+							
 							<div class="4u">
 
 								<section>
@@ -413,13 +413,13 @@
 										<h2>More about us</h2>
 									</header>
 									<ul class="divided">
-										<li><a href="https://mauget.com/about-mauget/">On YouTube</a></li>
-										<li><a href="https://www.facebook.com/Mauget-464784170389171/">On Twitter</a></li>
+										<li><a href="https://facebook.com/mytweetmark/">On Facebook</a></li>
+										<li><a href="http://bilalahmed.org">Our Website</a></li>
 									</ul>
 								</section>
 				
 							</div>
-							 -->
+							 
 							<div class="4u">
 							<section>
 									<header>
