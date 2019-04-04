@@ -88,15 +88,15 @@
   <!-- Wrapper for slides -->
   <div class="carousel-inner">
     <div class="item active">
-      <g:link class="list" action="shelf" controller="product"><asset:image src="shop-56.png"/></g:link>
+      <g:link class="list" action="shelf" controller="product"><asset:image src="taim_banner_1.png"/></g:link>
     </div>
 
     <div class="item">
-      <g:link controller="product" action="analytics"><asset:image src="shop-57.png"/></g:link>
+      <g:link controller="product" action="analytics"><asset:image src="taim_banner_2.png"/></g:link>
     </div>
 
     <div class="item">
-      <g:link controller="product" action="sales"><asset:image src="shop-58.png"/></g:link>
+      <g:link controller="product" action="sales"><asset:image src="taim_banner_3.png"/></g:link>
     </div>
     
     
