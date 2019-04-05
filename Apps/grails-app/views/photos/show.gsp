@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta name="description" content="Shop - Bring your store business online." />
-<meta name="keywords" content="shop local, store business, store, shop, local, local tree, trees, local business, injection, insects, fertilizer, farm, farm market, business, farm business, organic, health, nutrient, california, blogger, socialmedia, socialmedia blogger, social media blogger, facebook, facebook feed, twitter, twitter update, twitter" />
+<meta name="keywords" content="shop, buy, sell, organic, health, nutrient, california, blogger, socialmedia, socialmedia blogger, social media blogger, facebook, facebook feed, twitter, twitter update, twitter" />
 <meta http-equiv="window-target" content="_top" />
 <META HTTP-EQUIV="CACHE-CONTROL" CONTENT="PUBLIC">
 	<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
@@ -45,15 +45,13 @@
 
 							<!-- Banner -->
 								<section id="banner">
-									
+									<a href="https://mauget.com/">
 										<span class="image image-full"><asset:image src="taim_banner_3.png"/></span>
 										<header>
-										<!-- 
-											<h2>Shop</h2> 
-											<span class="byline">Bring your store business online.</span>
-											 -->
+											<!--  <h2>Foodal</h2>-->
+											<!--span class="byline">welcome!</span-->
 										</header>
-									
+									</a>
 									
 								</section>
 								
@@ -64,67 +62,60 @@
 										<nav id="nav">
 											<ul>
 												<li><g:link url="/">Home</g:link></li>
-												<li><g:link controller="product" action="shelf">Dashboard</g:link></li>
-												<li><g:link controller="coupon" action="create">Create a Coupon</g:link></li>
+												<li><g:link controller="photos" action="edit" id="${photos.id}">Edit Photo</g:link></li>
+												<li><g:link controller="photos" action="index">Show Photos</g:link></li>
 												<!--<li><a href="left-sidebar.html">Login</a></li>-->
 											</ul>
 										</nav>
 							<!-- Intro -->
-							
-							<g:if test="${couponList}">
-							<g:each in="${couponList}" status="i" var="couponInstance">
-								<div class="row">
-								<div class="12u">
-									<section>
-										<div>
-											<div class="row">
-												<div class="6u">
-														<section class="box">
-														<header>
-														<span style="font-size:35px;">${couponInstance.name}</span>
-														</header>
-														<br><br>
-														<p style="font-size:20px;color:#8a7e7e;">Description: ${couponInstance.description}</p>
-														<br><br>
-														<p style="font-size:18px;"><g:link controller="coupon" action="show" id="${couponInstance.id}"><span style="color:#8a7e7e;">Read more...</span></g:link></p>
-														</section>
-												</div>
-												<div class="6u">
-														<section class="box">
-														<img src="data:image/png;base64,${couponInstance.imageOne?.encodeBase64()}"/>
-														</section>
-												</div>
-											</div>
-										</div>
-									</section>
-								</div>
-								</div>
-							</g:each>
-							</g:if>
-							<g:else>
-							<div class="row">
-								<div class="12u">
-									<section>
+														<div class="row">
+						<div class="12u">
+								<section>
 									<div>
 										<div class="row">
-										
-										<div class="6u">
+											<div class="6u">
 													<section class="box">
 													<!-- <a href="http://www.mytweetmark.com" class="image image-full"><asset:image src="foodal-homepage-16.png"/></a> -->
 													<header>
-													<g:link controller="coupon" action="create"><span style="font-size:28px;color:#8a7e7e;">Please create a coupon.</span></g:link>
+														<span style="font-size:35px;"><f:display bean="photos" property="name"/></span>
 													</header>
-													</section>
+													<br><br>
+													<p style="font-size:18px;color:#8a7e7e;">Description: <f:display bean="photos" property="description"/></p>
+													<br><br>
+													
+												</section>
+											</div>
+											<div class="6u">
+												<section class="box">
+												<header>
+													<img src="data:image/png;base64,${photos.imageThree?.encodeBase64()}"/>
+												</header>
+													<br><br>
+													<p style="font-size:14px;">Questions? Email us today for 24/7 support.</p>
+													<br>
+													<footer class="actions">
+														<a href="mailto:bilal@mytweetmark.com" class="button fa fa-file-text">Email us today!</a>
+														<br><br>
+													</footer>	
+													<!--header>
+														<h3>Aptent veroeros et aliquam</h3>
+														<span class="byline">Posted 45 minutes ago</span>
+													</header>
+													<p>Lorem ipsum dolor sit amet sit veroeros sed et blandit consequat sed veroeros lorem et blandit  adipiscing feugiat phasellus tempus hendrerit, tortor vitae mattis tempor, sapien sem feugiat sapien, id suscipit magna felis nec elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos lorem ipsum dolor sit amet.</p>
+													<footer class="actions">
+														<a href="#" class="button fa fa-file-text">Continue Reading</a>
+														<a href="#" class="button alt fa fa-comment">33 comments</a>
+													</footer-->
+												</section>
+											</div>
 										</div>
 									</div>
-									</section>
-								</div>
-							</div>
-							</g:else>
-				        	</div>
-				        	</div>				
-							
-									
+								</section>
+
+						</div>
+					</div>
+				</div>
+			</div>		
 		<!-- Main Wrapper -->
 			<div id="main-wrapper">
 				<div class="container">
@@ -265,7 +256,7 @@
 										</li>
 										<li>
 											<h3>Mail</h3>
-											<p><a href="bilal@mytweetmark.com">bilal@mytweetmark.com</a></p>
+											<p><a href="mailto:bilal@mytweetmark.com">bilal@mytweetmark.com</a></p>
 										</li>
 										<!--li>
 											<h3>Phone</h3>
@@ -311,7 +302,7 @@
 								<!-- Copyright -->
 									<div id="copyright">
 										<ul class="links">
-											<li>&copy; 2019 Shop 	</li>
+											<li>&copy; 2019 Shop  	</li>
 											<!--li>Images: <a href="http://facebook.com/homecookme">Homecookme</a></li>
 											<li>Design: <a href="http://dalliusdesign.com">Dallius</a></li-->
 										</ul>

@@ -65,14 +65,14 @@
 											<ul>
 												<li><g:link url="/">Home</g:link></li>
 												<li><g:link controller="product" action="shelf">Dashboard</g:link></li>
-												<li><g:link controller="coupon" action="create">Create a Coupon</g:link></li>
+												<li><g:link controller="photos" action="create">Create a Photo</g:link></li>
 												<!--<li><a href="left-sidebar.html">Login</a></li>-->
 											</ul>
 										</nav>
 							<!-- Intro -->
 							
-							<g:if test="${couponList}">
-							<g:each in="${couponList}" status="i" var="couponInstance">
+							<g:if test="${photosList}">
+							<g:each in="${photosList}" status="i" var="photosInstance">
 								<div class="row">
 								<div class="12u">
 									<section>
@@ -81,17 +81,17 @@
 												<div class="6u">
 														<section class="box">
 														<header>
-														<span style="font-size:35px;">${couponInstance.name}</span>
+														<span style="font-size:35px;">${photosInstance.name}</span>
 														</header>
 														<br><br>
-														<p style="font-size:20px;color:#8a7e7e;">Description: ${couponInstance.description}</p>
+														<p style="font-size:20px;color:#8a7e7e;">Description: ${photosInstance.description}</p>
 														<br><br>
-														<p style="font-size:18px;"><g:link controller="coupon" action="show" id="${couponInstance.id}"><span style="color:#8a7e7e;">Read more...</span></g:link></p>
+														<p style="font-size:18px;"><g:link controller="photos" action="show" id="${photosInstance.id}"><span style="color:#8a7e7e;">Read more...</span></g:link></p>
 														</section>
 												</div>
 												<div class="6u">
 														<section class="box">
-														<img src="data:image/png;base64,${couponInstance.imageOne?.encodeBase64()}"/>
+														<img src="data:image/png;base64,${photosInstance.imageOne?.encodeBase64()}"/>
 														</section>
 												</div>
 											</div>
@@ -112,7 +112,7 @@
 													<section class="box">
 													<!-- <a href="http://www.mytweetmark.com" class="image image-full"><asset:image src="foodal-homepage-16.png"/></a> -->
 													<header>
-													<g:link controller="coupon" action="create"><span style="font-size:28px;color:#8a7e7e;">Please create a coupon.</span></g:link>
+													<g:link controller="photos" action="create"><span style="font-size:28px;color:#8a7e7e;">Please create a photo.</span></g:link>
 													</header>
 													</section>
 										</div>

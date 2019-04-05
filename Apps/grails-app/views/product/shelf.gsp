@@ -127,6 +127,8 @@
 													<div id="block2">
 													
 													<ul id="menu">
+													<li><div><g:link class="list" action="index" controller="photos"><span style="color:#8a7e7e;font-size:20px"><asset:image src="photos.png" width="50" height="50"/> Photos</span></g:link></div></li>
+													<li>-</li>
 													<li><div><g:link class="list" action="index" controller="products"><span style="color:#8a7e7e;font-size:20px"><asset:image src="homecookme-9.png" width="50" height="50"/> Products</span></g:link></div></li>
 													<li>-</li>
 													<li><div><g:link controller="coupon" action="index"><span style="color:#8a7e7e;font-size:20px"><asset:image src="homecookme-10.png" width="50" height="50"/> Marketing</span></g:link></div></li>

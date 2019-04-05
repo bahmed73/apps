@@ -341,4 +341,56 @@ class AppsService {
 		}
 		
 	}
+	
+	def uploadPhotosPhoto(File file, Photos photos) {
+		log.info "inside uploadPhotosPhoto"
+		
+		String fileName = file.getAbsolutePath()
+		
+		log.info "fileName = " + fileName
+		
+		ImagePlus image = imagingService.openImagePlus(fileName);
+		try {
+			def output = imagingService.generate100x100(image, fileName, true);
+			
+			def files = new File(output)
+			photos.imageOne = files.bytes
+			
+			output = imagingService.generate50x50(image, fileName, true);
+			
+			files = new File(output)
+			photos.imageTwo = files.bytes
+			
+			output = imagingService.generate400x400(image, fileName);
+			
+			files = new File(output)
+			photos.imageThree = files.bytes
+			
+		} catch (Exception e) {
+			
+			log.info"uploadTreeWellnessPhoto: error generating images"
+			e.printStackTrace()
+			
+		}
+		
+	}
+	
+	def uploadVideosVideo(File file, Videos videos) {
+		log.info "inside uploadVideosVideo"
+		
+		String fileName = file.getAbsolutePath()
+		
+		log.info "fileName = " + fileName
+		
+		try {
+			videos.imageOne = file.bytes
+			
+		} catch (Exception e) {
+			
+			log.info"uploadTreeWellnessPhoto: error generating images"
+			e.printStackTrace()
+			
+		}
+		
+	}
 }
