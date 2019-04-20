@@ -232,6 +232,8 @@
 													3. Save your inventory for business to business analytics.
 													<br><br>
 													4. Check our <g:link action="show" controller="blog" id="33">blog on Cultivation.</g:link>
+													<br><br>
+													5. Checkout our <g:link action="show" controller="blog" id="65">Vegan Hot Girl.</g:link>
 													</div>
 													<br>
 														

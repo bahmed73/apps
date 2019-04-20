@@ -33,8 +33,27 @@
 	
 		</noscript>-->
 		<!--[if lte IE 8]><asset:javascript src="html5shiv.js"/><asset:stylesheet src="ie8.css"/><![endif]-->
+		<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+		  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 	</head>
-	<body class="homepage">
+	<body class="homepage" onload="testEffect()">
+	<script type="text/javascript">
+	function testEffect() {
+		$( "#block1" )
+	    .animate({
+	      width: "90%"
+	    }, {
+	      queue: false,
+	      duration: 3000
+	    })
+	    .animate({ fontSize: "24px" }, 1500 )
+	    .animate({ borderRightWidth: "15px" }, 1500 );
+		$( "#block2" )
+	    .animate({ width: "90%" }, 1000 )
+	    .animate({ fontSize: "24px" }, 1000 )
+	    .animate({ borderLeftWidth: "15px" }, 1000 );
+		}
+	</script>
 	<a href="/#"><asset:image src="favicon.png" class="grails-logo"/></a>
 		<!-- Header Wrapper -->
 			<div id="header-wrapper">
@@ -78,18 +97,18 @@
 									<section>
 										<div>
 											<div class="row" style="border-style:solid; border-color:grey; border-width:1px;">
-												<div class="6u">
+												<div id="block1" class="6u">
 														<section class="box">
 														<header>
 														<span style="font-size:35px;">${blogInstance.name}</span>
 														</header>
 														<br><br>
-														<p style="font-size:20px;color:#8a7e7e;">${blogInstance.description}</p>
+														<p style="font-size:20px;color:#8a7e7e;">${blogInstance.description.substring(0,200)}...</p>
 														<br><br>
 														<p style="font-size:18px;"><g:link controller="blog" action="show" id="${blogInstance.id}"><span style="color:#8a7e7e;">Read more...</span></g:link></p>
 														</section>
 												</div>
-												<div class="6u">
+												<div id="block2" class="6u">
 														<section class="box">
 														<img src="data:image/png;base64,${blogInstance.imageOne?.encodeBase64()}"/>
 														</section>
