@@ -33,8 +33,27 @@
 	
 		</noscript>-->
 		<!--[if lte IE 8]><asset:javascript src="html5shiv.js"/><asset:stylesheet src="ie8.css"/><![endif]-->
+		<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+		  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 	</head>
-	<body class="homepage">
+	<body class="homepage" onload="testEffect()">
+	<script type="text/javascript">
+	function testEffect() {
+		$( "#block1" )
+	    .animate({
+	      width: "90%"
+	    }, {
+	      queue: false,
+	      duration: 3000
+	    })
+	    .animate({ fontSize: "24px" }, 1500 )
+	    .animate({ borderRightWidth: "15px" }, 1500 );
+		$( "#block2" )
+	    .animate({ width: "90%" }, 1000 )
+	    .animate({ fontSize: "24px" }, 1000 )
+	    .animate({ borderLeftWidth: "15px" }, 1000 );
+		}
+	</script>
 	<div id="fb-root"></div>
 <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2&appId=261449270414&autoLogAppEvents=1"></script>
 	<a href="/#"><asset:image src="favicon.png" class="grails-logo"/></a>
@@ -75,14 +94,14 @@
 								<section>
 									<div>
 										<div class="row" style="border-style:solid; border-color:grey; border-width:1px;">
-											<div class="6u">
+											<div id="block2" class="6u">
 													<section class="box">
 													<!-- <a href="http://www.mytweetmark.com" class="image image-full"><asset:image src="foodal-homepage-16.png"/></a> -->
 													<header>
-														<span style="font-size:35px;"><f:display bean="blog" property="name"/></span>
+														<span style="font-size:40px;"><f:display bean="blog" property="name"/></span>
 													</header>
 													<br><br>
-													<p style="font-size:20px;color:#8a7e7e;font-family:'Palatino';"><f:display bean="blog" property="description"/></p>
+													<p style="font-size:26px;color:#8a7e7e;font-family:'Palatino';"><f:display bean="blog" property="description"/></p>
 													<br><br>
 													<a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 													<div class="fb-share-button" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button" data-size="small"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
@@ -90,9 +109,9 @@
 											</div>
 											<div class="6u">
 												<section class="box">
-												<header>
+												<div id="block1" style="border-style:solid; border-color:grey; border-width:1px;margin:1px;font-size:20px">
 													<img src="data:image/png;base64,${blog.imageThree?.encodeBase64()}"/>
-												</header>
+												</div>
 													<br><br>
 													<p style="font-size:14px;">Copy and paste the browser link above for your social media marketing, e.g. paste as facebook post.</p>
 													<br>

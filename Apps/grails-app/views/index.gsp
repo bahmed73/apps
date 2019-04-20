@@ -230,6 +230,8 @@
 													2. Syncronize your audience with social media.
 													<br><br>
 													3. Save your inventory for business to business analytics.
+													<br><br>
+													4. Check our <g:link action="show" controller="blog" id="33">blog on Cultivation.</g:link>
 													</div>
 													<br>
 														
