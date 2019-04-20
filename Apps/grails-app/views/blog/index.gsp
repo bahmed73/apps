@@ -84,7 +84,7 @@
 														<span style="font-size:35px;">${blogInstance.name}</span>
 														</header>
 														<br><br>
-														<p style="font-size:20px;color:#8a7e7e;">Description: ${blogInstance.description}</p>
+														<p style="font-size:20px;color:#8a7e7e;">${blogInstance.description}</p>
 														<br><br>
 														<p style="font-size:18px;"><g:link controller="blog" action="show" id="${blogInstance.id}"><span style="color:#8a7e7e;">Read more...</span></g:link></p>
 														</section>
