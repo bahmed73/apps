@@ -145,6 +145,8 @@
 													<ul id="menu">
 													<li><div><g:link class="list" action="shelf" controller="product"><span style="color:#8a7e7e;font-size:20px"><asset:image src="foodal-1.png" width="50" height="50"/> Dashboard</span></g:link></div>
 													<ul>
+													<li><div><g:link class="list" action="index" controller="photos"><span style="color:#8a7e7e;font-size:20px">Photos</span></g:link></div></li>
+													<li>-</li>
 													<li><div><g:link class="list" action="index" controller="products"><span style="color:#8a7e7e;">Products</span></g:link></div></li>
 													<li>-</li>
 													<li><div><g:link controller="coupon" action="index"><span style="color:#8a7e7e;">Marketing</span></g:link></div></li>

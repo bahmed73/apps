@@ -33,6 +33,14 @@
 	
 		</noscript>-->
 		<!--[if lte IE 8]><asset:javascript src="html5shiv.js"/><asset:stylesheet src="ie8.css"/><![endif]-->
+		<style>
+		p {
+		  border: 20px dotted #e5e1e1;
+		  background-color: #e1f3f9;
+		  border-radius: 10px;
+		  border-width: 5px;
+		}
+		</style>
 	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
 		  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 	</head>
@@ -277,14 +285,14 @@
 									<ul class="contact">
 										<li>
 											<h3>Address</h3>
-											<p>
+											
 												Oakland<br />
 																							California
-											</p>
+											
 										</li>
 										<li>
 											<h3>Mail</h3>
-											<p><a href="bilal@mytweetmark.com">bilal@mytweetmark.com</a></p>
+											<a href="bilal@mytweetmark.com">bilal@mytweetmark.com</a>
 										</li>
 										<!--li>
 											<h3>Phone</h3>
