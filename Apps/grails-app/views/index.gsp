@@ -145,7 +145,7 @@
 													<ul id="menu">
 													<li><div><g:link class="list" action="shelf" controller="product"><span style="color:#8a7e7e;font-size:20px"><asset:image src="foodal-1.png" width="50" height="50"/> Dashboard</span></g:link></div>
 													<ul>
-													<li><div><g:link class="list" action="index" controller="photos"><span style="color:#8a7e7e;font-size:20px">Photos</span></g:link></div></li>
+													<li><div><g:link class="list" action="index" controller="photos"><span style="color:#8a7e7e;">Photos</span></g:link></div></li>
 													<li>-</li>
 													<li><div><g:link class="list" action="index" controller="products"><span style="color:#8a7e7e;">Products</span></g:link></div></li>
 													<li>-</li>
@@ -227,11 +227,9 @@
 													<div id="block1" style="border-style:solid; border-color:grey; border-width:1px;margin:1px;font-size:20px">
 													<br>
 													<div style="margin:20px">
-													1. Simplify your shop by online tools. 
+													1. Create products. Share the links on social media channels for marketing. Measure with analytics.
 													<br><br>
-													2. Syncronize your audience with social media.
-													<br><br>
-													3. Save your inventory for business to business analytics.
+													2. Create supply chain. Build sales inventory, forecasts, catalogs, work with customers and vendors.
 													<br><br>
 													4. Check our <g:link action="show" controller="blog" id="33">blog on Cultivation.</g:link>
 													<br><br>

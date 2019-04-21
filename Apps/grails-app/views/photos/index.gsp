@@ -35,8 +35,8 @@
 		<!--[if lte IE 8]><asset:javascript src="html5shiv.js"/><asset:stylesheet src="ie8.css"/><![endif]-->
 		<style>
 		p {
-		  border: 100px dotted #e5e1e1;
-		  background-color: #e1f3f9;
+		  border: 1px dotted #e5e1e1;
+		  background-color: #f7fafb;
 		  border-radius: 1px;
 		}
 		</style>
@@ -110,17 +110,16 @@
 														<span style="font-size:35px;">${photosInstance.name}</span>
 														</header>
 														<br><br>
-														<p style="font-size:20px;color:#8a7e7e;">Description: ${photosInstance.description}</p>
+														<p style="font-size:20px;color:#8a7e7e;">${photosInstance.description}</p>
 														<br><br>
 														<p style="font-size:18px;"><g:link controller="photos" action="show" id="${photosInstance.id}"><span style="color:#8a7e7e;">View bigger photo...</span></g:link></p>
 														</section>
 												</div>
 												<div id="block2" class="6u">
-														<p>
 														<section class="box">
 														<img src="data:image/png;base64,${photosInstance.imageOne?.encodeBase64()}"/>
 														</section>
-														</p>
+														
 												</div>
 											</div>
 										</div>

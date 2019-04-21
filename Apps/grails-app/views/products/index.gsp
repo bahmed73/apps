@@ -35,8 +35,8 @@
 		<!--[if lte IE 8]><asset:javascript src="html5shiv.js"/><asset:stylesheet src="ie8.css"/><![endif]-->
 		<style>
 		p {
-		  border-style: solid #e5e1e1;
-		  background-color: #e1f3f9;
+		  border-style: 5px dotted #e5e1e1;
+		  background-color: #f7fafb;
 		  border-radius: 1px;
 		}
 		</style>
@@ -103,7 +103,7 @@
 								<div class="12u">
 									<section>
 										<div>
-											<div class="row" style="border-style:solid; border-color:grey; border-width:1px;">
+											<div class="row">
 												<div id="block1" class="6u">
 														<section class="box">
 														<header>
@@ -116,7 +116,7 @@
 														<br><br>
 														<p style="font-size:18px;">Packaging: ${productsInstance.packaging}</p>
 														<br><br>
-														<p style="font-size:18px;"><g:link controller="products" action="show" id="${productsInstance.id}"><span style="color:#8a7e7e;">Read more...</span></g:link></p>
+														<g:link controller="products" action="show" id="${productsInstance.id}"><span style="color:#8a7e7e;">See checkout page...</span></g:link>
 														</section>
 												</div>
 												<div id="block2" class="6u">

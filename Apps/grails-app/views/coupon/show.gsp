@@ -118,7 +118,7 @@
 													<img src="data:image/png;base64,${coupon.imageThree?.encodeBase64()}"/>
 												</header>
 													<br><br>
-													<p style="font-size:14px;">Questions? Email us today for 24/7 support.</p>
+													<p style="font-size:14px;">Download and print the image.</p>
 													<br>
 													<footer class="actions">
 														<a href="mailto:bilal@mytweetmark.com" class="button fa fa-file-text">Email us today!</a>

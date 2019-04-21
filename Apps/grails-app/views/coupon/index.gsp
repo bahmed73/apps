@@ -113,7 +113,7 @@
 														<br><br>
 														<p style="font-size:20px;color:#8a7e7e;">Description: ${couponInstance.description}</p>
 														<br><br>
-														<p style="font-size:18px;"><g:link controller="coupon" action="show" id="${couponInstance.id}"><span style="color:#8a7e7e;">Read more...</span></g:link></p>
+														<g:link controller="coupon" action="show" id="${couponInstance.id}"><span style="color:#8a7e7e;">Download full version...</span></g:link>
 														</section>
 												</div>
 												<div id="block2" class="6u">

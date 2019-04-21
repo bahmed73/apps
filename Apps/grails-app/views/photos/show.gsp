@@ -35,8 +35,8 @@
 		<!--[if lte IE 8]><asset:javascript src="html5shiv.js"/><asset:stylesheet src="ie8.css"/><![endif]-->
 		<style>
 		p {
-		  border: 200px dotted #e5e1e1;
-		  background-color: #e1f3f9;
+		  border: 1px dotted #e5e1e1;
+		  background-color: #f7fafb;
 		  border-radius: 1px;
 		}
 		</style>
@@ -106,7 +106,7 @@
 														<span style="font-size:35px;"><f:display bean="photos" property="name"/></span>
 													</header>
 													<br><br>
-													<p style="font-size:18px;color:#8a7e7e;">Description: <f:display bean="photos" property="description"/></p>
+													<p style="font-size:18px;color:#8a7e7e;"><f:display bean="photos" property="description"/></p>
 													<br><br>
 													
 												</section>
@@ -117,7 +117,7 @@
 													<img src="data:image/png;base64,${photos.imageThree?.encodeBase64()}"/>
 												</header>
 													<br><br>
-													<p style="font-size:14px;">Questions? Email us today for 24/7 support.</p>
+													<p style="font-size:14px;">Upload your photos.</p>
 													<br>
 													<footer class="actions">
 														<a href="mailto:bilal@mytweetmark.com" class="button fa fa-file-text">Email us today!</a>

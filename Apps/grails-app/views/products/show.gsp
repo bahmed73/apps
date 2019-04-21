@@ -41,7 +41,7 @@
 		<style>
 		p {
 		  border-style: solid #e5e1e1;
-		  background-color: #e1f3f9;
+		  background-color: #f7fafb;
 		  border-radius: 1px;
 		}
 		</style>
@@ -105,7 +105,7 @@
 						<div class="12u">
 								<section>
 									<div>
-										<div class="row" style="border-style:solid; border-color:grey; border-width:1px;">
+										<div class="row">
 											<div id="block1" class="6u">
 													<section class="box">
 													<!-- <a href="http://www.mytweetmark.com" class="image image-full"><asset:image src="foodal-homepage-16.png"/></a> -->
