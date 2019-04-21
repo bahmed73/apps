@@ -110,7 +110,7 @@
 												</div>
 												<div id="block2" class="6u">
 														<section class="box">
-														<img src="data:image/png;base64,${blogInstance.imageOne?.encodeBase64()}"/>
+														<img src="data:image/png;base64,${blogInstance.imageThree?.encodeBase64()}"/>
 														</section>
 												</div>
 											</div>

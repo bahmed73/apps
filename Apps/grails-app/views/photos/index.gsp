@@ -33,8 +33,27 @@
 	
 		</noscript>-->
 		<!--[if lte IE 8]><asset:javascript src="html5shiv.js"/><asset:stylesheet src="ie8.css"/><![endif]-->
+	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+		  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 	</head>
-	<body class="homepage">
+	<body class="homepage" onload="testEffect()">
+	<script type="text/javascript">
+	function testEffect() {
+	      // Most effect types need no options passed by default
+	      var options = {};
+	           // Run the effect
+	      $( "#block1" ).effect( "pulsate", options, 500, callback );
+	      $( "#block2" ).effect( "shake", options, 500, callback );
+	    };
+	 
+	    // Callback function to bring a hidden box back
+	    function callback() {
+	      setTimeout(function() {
+	        $( "#block1" ).removeAttr( "style" ).hide().fadeIn();
+	        $( "#block2" ).removeAttr( "style" ).hide().fadeIn();
+	      }, 1000 );
+	    };
+	</script>
 	<a href="/#"><asset:image src="favicon.png" class="grails-logo"/></a>
 		<!-- Header Wrapper -->
 			<div id="header-wrapper">
@@ -78,7 +97,7 @@
 									<section>
 										<div>
 											<div class="row">
-												<div class="6u">
+												<div id="block1" class="6u">
 														<section class="box">
 														<header>
 														<span style="font-size:35px;">${photosInstance.name}</span>
@@ -89,7 +108,7 @@
 														<p style="font-size:18px;"><g:link controller="photos" action="show" id="${photosInstance.id}"><span style="color:#8a7e7e;">Read more...</span></g:link></p>
 														</section>
 												</div>
-												<div class="6u">
+												<div id="block2" class="6u">
 														<section class="box">
 														<img src="data:image/png;base64,${photosInstance.imageOne?.encodeBase64()}"/>
 														</section>
