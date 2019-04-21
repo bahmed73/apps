@@ -33,6 +33,13 @@
 	
 		</noscript>-->
 		<!--[if lte IE 8]><asset:javascript src="html5shiv.js"/><asset:stylesheet src="ie8.css"/><![endif]-->
+		<style>
+		p {
+		  border: 100px dotted #e5e1e1;
+		  background-color: #e1f3f9;
+		  border-radius: 1px;
+		}
+		</style>
 	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
 		  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 	</head>
@@ -105,13 +112,15 @@
 														<br><br>
 														<p style="font-size:20px;color:#8a7e7e;">Description: ${photosInstance.description}</p>
 														<br><br>
-														<p style="font-size:18px;"><g:link controller="photos" action="show" id="${photosInstance.id}"><span style="color:#8a7e7e;">Read more...</span></g:link></p>
+														<p style="font-size:18px;"><g:link controller="photos" action="show" id="${photosInstance.id}"><span style="color:#8a7e7e;">View bigger photo...</span></g:link></p>
 														</section>
 												</div>
 												<div id="block2" class="6u">
+														<p>
 														<section class="box">
 														<img src="data:image/png;base64,${photosInstance.imageOne?.encodeBase64()}"/>
 														</section>
+														</p>
 												</div>
 											</div>
 										</div>
@@ -277,14 +286,14 @@
 									<ul class="contact">
 										<li>
 											<h3>Address</h3>
-											<p>
+											
 												Oakland<br />
 																							California
-											</p>
+											
 										</li>
 										<li>
 											<h3>Mail</h3>
-											<p><a href="bilal@mytweetmark.com">bilal@mytweetmark.com</a></p>
+											<a href="bilal@mytweetmark.com">bilal@mytweetmark.com</a>
 										</li>
 										<!--li>
 											<h3>Phone</h3>
