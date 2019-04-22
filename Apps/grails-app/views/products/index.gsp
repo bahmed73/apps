@@ -35,9 +35,10 @@
 		<!--[if lte IE 8]><asset:javascript src="html5shiv.js"/><asset:stylesheet src="ie8.css"/><![endif]-->
 		<style>
 		p {
-		  border-style: 5px dotted #e5e1e1;
-		  background-color: #f7fafb;
-		  border-radius: 1px;
+		  border: 20px dotted #e5e1e1;
+		  background-color: #e1f3f9;
+		  border-radius: 10px;
+		  border-width: 5px;
 		}
 		</style>
 	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>

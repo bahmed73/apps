@@ -35,9 +35,10 @@
 		<!--[if lte IE 8]><asset:javascript src="html5shiv.js"/><asset:stylesheet src="ie8.css"/><![endif]-->
 		<style>
 		p {
-		  border: 1px dotted #e5e1e1;
-		  background-color: #f7fafb;
-		  border-radius: 1px;
+		  border: 20px dotted #e5e1e1;
+		  background-color: #e1f3f9;
+		  border-radius: 10px;
+		  border-width: 5px;
 		}
 		</style>
 	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
@@ -112,7 +113,7 @@
 														<br><br>
 														<p style="font-size:20px;color:#8a7e7e;">${photosInstance.description}</p>
 														<br><br>
-														<p style="font-size:18px;"><g:link controller="photos" action="show" id="${photosInstance.id}"><span style="color:#8a7e7e;">View bigger photo...</span></g:link></p>
+														<g:link controller="photos" action="show" id="${photosInstance.id}"><span style="color:#8a7e7e;">View bigger photo...</span></g:link>
 														</section>
 												</div>
 												<div id="block2" class="6u">

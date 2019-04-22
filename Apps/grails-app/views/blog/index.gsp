@@ -35,10 +35,10 @@
 		<!--[if lte IE 8]><asset:javascript src="html5shiv.js"/><asset:stylesheet src="ie8.css"/><![endif]-->
 		<style>
 		p {
-		  border: 1px inset #e5e1e1;
+		  border: 20px dotted #e5e1e1;
 		  background-color: #e1f3f9;
-		  border-radius: 1px;
-		  border-width: 1px;
+		  border-radius: 10px;
+		  border-width: 5px;
 		}
 		</style>
 		
@@ -114,7 +114,7 @@
 														<br><br>
 														<p style="font-size:20px;color:#8a7e7e;">${blogInstance.description.substring(0,200)}...</p>
 														<br><br>
-														<p style="font-size:18px;"><g:link controller="blog" action="show" id="${blogInstance.id}"><span style="color:#8a7e7e;">Read more...</span></g:link></p>
+														<g:link controller="blog" action="show" id="${blogInstance.id}"><span style="color:#8a7e7e;">Read more...</span></g:link>
 														</section>
 												</div>
 												<div id="block2" class="6u">
