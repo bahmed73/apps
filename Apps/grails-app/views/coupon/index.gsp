@@ -116,9 +116,11 @@
 														<g:link controller="coupon" action="show" id="${couponInstance.id}"><span style="color:#8a7e7e;">Download full version...</span></g:link>
 														</section>
 												</div>
-												<div id="block2" class="6u">
+												<div id="block2">
 														<section class="box">
+														<div style="border: 20px dotted #e1f3f9;">
 														<img src="data:image/png;base64,${couponInstance.imageThree?.encodeBase64()}"/>
+														</div>
 														</section>
 												</div>
 											</div>

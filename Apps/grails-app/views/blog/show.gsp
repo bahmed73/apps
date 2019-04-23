@@ -118,7 +118,9 @@
 											<div class="6u">
 												<section class="box">
 												<div id="block1" style="border-style:solid; border-color:grey; border-width:1px;margin:1px;font-size:20px">
+													<div style="border: 20px dotted #e1f3f9;">
 													<img src="data:image/png;base64,${blog.imageThree?.encodeBase64()}"/>
+													</div>
 												</div>
 													<br><br>
 													<p style="font-size:14px;">Copy and paste the browser link above for your social media marketing, e.g. paste as facebook post.</p>

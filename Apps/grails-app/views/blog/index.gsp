@@ -117,9 +117,11 @@
 														<g:link controller="blog" action="show" id="${blogInstance.id}"><span style="color:#8a7e7e;">Read more...</span></g:link>
 														</section>
 												</div>
-												<div id="block2" class="6u">
+												<div id="block2">
 														<section class="box">
+														<div style="border: 20px dotted #e1f3f9;">
 														<img src="data:image/png;base64,${blogInstance.imageThree?.encodeBase64()}"/>
+														</div>
 														</section>
 												</div>
 											</div>

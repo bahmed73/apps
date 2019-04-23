@@ -112,10 +112,12 @@
 													
 												</section>
 											</div>
-											<div id="block2" class="6u">
+											<div id="block2">
 												<section class="box">
 												<header>
+													<div style="border: 20px dotted #e1f3f9;">
 													<img src="data:image/png;base64,${coupon.imageThree?.encodeBase64()}"/>
+													</div>
 												</header>
 													<br><br>
 													<p style="font-size:14px;">Download and print the image.</p>
