@@ -75,7 +75,7 @@
     .animate({ borderLeftWidth: "15px" }, 1000 );
 	}
 	</script>
-	<a href="/#"><asset:image src="favicon.png" class="grails-logo"/></a>
+	
 		<!-- Header Wrapper -->
 			<div id="header-wrapper">
 				<div class="container">

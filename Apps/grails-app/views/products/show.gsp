@@ -69,7 +69,7 @@
 	</script>
 	<div id="fb-root"></div>
 <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2&appId=261449270414&autoLogAppEvents=1"></script>
-	<a href="/#"><asset:image src="favicon.png" class="grails-logo"/></a>
+	
 		<!-- Header Wrapper -->
 			<div id="header-wrapper">
 				<div class="container">
