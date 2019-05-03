@@ -33,8 +33,35 @@
 	
 		</noscript>-->
 		<!--[if lte IE 8]><asset:javascript src="html5shiv.js"/><asset:stylesheet src="ie8.css"/><![endif]-->
+	<style>
+		p {
+		  border: 20px dotted #e5e1e1;
+		  background-color: #e1f3f9;
+		  border-radius: 10px;
+		  border-width: 5px;
+		}
+		</style>
+	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+		  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 	</head>
-	<body class="homepage">
+	<body class="homepage" onload="testEffect()">
+	<script type="text/javascript">
+	function testEffect() {
+	      // Most effect types need no options passed by default
+	      var options = {};
+	           // Run the effect
+	      $( "#block1" ).effect( "pulsate", options, 500, callback );
+	      $( "#block2" ).effect( "shake", options, 500, callback );
+	    };
+	 
+	    // Callback function to bring a hidden box back
+	    function callback() {
+	      setTimeout(function() {
+	        $( "#block1" ).removeAttr( "style" ).hide().fadeIn();
+	        $( "#block2" ).removeAttr( "style" ).hide().fadeIn();
+	      }, 1000 );
+	    };
+	</script>
 	
 		<!-- Header Wrapper -->
 			<div id="header-wrapper">
@@ -45,13 +72,13 @@
 
 							<!-- Banner -->
 								<section id="banner">
-									<a href="https://mauget.com/">
+									
 										<span class="image image-full"><asset:image src="taim_banner_3.png"/></span>
 										<header>
 											<!--  <h2>Foodal</h2>-->
 											<!--span class="byline">welcome!</span-->
 										</header>
-									</a>
+									
 									
 								</section>
 								
@@ -73,7 +100,7 @@
 								<section>
 									<div>
 										<div class="row">
-											<div class="6u">
+											<div id="block1" class="6u">
 													<section class="box">
 													<!-- <a href="http://www.mytweetmark.com" class="image image-full"><asset:image src="foodal-homepage-16.png"/></a> -->
 													<header>
@@ -85,10 +112,10 @@
 													
 												</section>
 											</div>
-											<div class="6u">
+											<div id="block2" class="6u">
 												<section class="box">
 												<header>
-													<img src="data:video/mp4;base64,${videos.imageOne?.encodeBase64()}"/>
+													<iframe width="420" height="315" src="https://www.youtube.com/embed/${videos.videoUrl}" frameborder="0" allowfullscreen></iframe>
 												</header>
 													<br><br>
 													<p style="font-size:14px;">Questions? Email us today for 24/7 support.</p>
@@ -249,14 +276,14 @@
 									<ul class="contact">
 										<li>
 											<h3>Address</h3>
-											<p>
+											
 												Oakland<br />
 																							California
-											</p>
+											
 										</li>
 										<li>
 											<h3>Mail</h3>
-											<p><a href="mailto:bilal@mytweetmark.com">bilal@mytweetmark.com</a></p>
+											<a href="mailto:bilal@mytweetmark.com">bilal@mytweetmark.com</a>
 										</li>
 										<!--li>
 											<h3>Phone</h3>

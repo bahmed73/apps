@@ -33,8 +33,35 @@
 	
 		</noscript>-->
 		<!--[if lte IE 8]><asset:javascript src="html5shiv.js"/><asset:stylesheet src="ie8.css"/><![endif]-->
+	<style>
+		p {
+		  border: 20px dotted #e5e1e1;
+		  background-color: #e1f3f9;
+		  border-radius: 10px;
+		  border-width: 5px;
+		}
+		</style>
+	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+		  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 	</head>
-	<body class="homepage">
+	<body class="homepage" onload="testEffect()">
+	<script type="text/javascript">
+	function testEffect() {
+	      // Most effect types need no options passed by default
+	      var options = {};
+	           // Run the effect
+	      $( "#block1" ).effect( "pulsate", options, 500, callback );
+	      $( "#block2" ).effect( "shake", options, 500, callback );
+	    };
+	 
+	    // Callback function to bring a hidden box back
+	    function callback() {
+	      setTimeout(function() {
+	        $( "#block1" ).removeAttr( "style" ).hide().fadeIn();
+	        $( "#block2" ).removeAttr( "style" ).hide().fadeIn();
+	      }, 1000 );
+	    };
+	</script>
 	
 		<!-- Header Wrapper -->
 			<div id="header-wrapper">
@@ -78,7 +105,7 @@
 									<section>
 										<div>
 											<div class="row">
-												<div class="6u">
+												<div id="block1" class="6u">
 														<section class="box">
 														<header>
 														<span style="font-size:35px;">${videosInstance.name}</span>
@@ -86,12 +113,12 @@
 														<br><br>
 														<p style="font-size:20px;color:#8a7e7e;">Description: ${videosInstance.description}</p>
 														<br><br>
-														<p style="font-size:18px;"><g:link controller="videos" action="show" id="${videosInstance.id}"><span style="color:#8a7e7e;">Read more...</span></g:link></p>
+														<p style="font-size:18px;"><g:link controller="videos" action="show" id="${videosInstance.id}"><span style="color:#8a7e7e;">Watch the video...</span></g:link></p>
 														</section>
 												</div>
-												<div class="6u">
+												<div id="block2" class="6u">
 														<section class="box">
-														Watch the video by reading more.
+														Watch our videos. To upload a youtube video, just copy and paste the link in the video url.
 														</section>
 												</div>
 											</div>
@@ -258,14 +285,14 @@
 									<ul class="contact">
 										<li>
 											<h3>Address</h3>
-											<p>
+											
 												Oakland<br />
 																							California
-											</p>
+											
 										</li>
 										<li>
 											<h3>Mail</h3>
-											<p><a href="bilal@mytweetmark.com">bilal@mytweetmark.com</a></p>
+											<a href="bilal@mytweetmark.com">bilal@mytweetmark.com</a>
 										</li>
 										<!--li>
 											<h3>Phone</h3>

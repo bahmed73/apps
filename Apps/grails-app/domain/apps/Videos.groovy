@@ -8,9 +8,7 @@ class Videos {
         String description
         Date updateTime
         User user
-		byte[] imageOne
-		byte[] imageTwo
-		byte[] imageThree
+		String videoUrl
 
     static constraints = {
                 //id(nullable:true)
@@ -19,9 +17,7 @@ class Videos {
                 description(nullable:true, maxSize:50000)
                 updateTime(nullable:false)
                 user(nullable:false)
-				imageOne(nullable:true, maxSize: 1024 * 1024 * 2)
-				imageTwo(nullable:true, maxSize: 1024 * 1024 * 2)
-				imageThree(nullable:true, maxSize: 1024 * 1024 * 2)
+				videoUrl(nullable:true)
     }
 
         static mapping = {

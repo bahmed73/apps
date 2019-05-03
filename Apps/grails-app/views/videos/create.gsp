@@ -25,16 +25,9 @@
                 </g:eachError>
             </ul>
             </g:hasErrors>
-            <g:form action="save" method="post" enctype="multipart/form-data">
+            <g:form action="save" method="post">
                 <fieldset class="form">
-                    <f:all bean="videos" except="imageOne, imageTwo, imageThree"/>
-                </fieldset>
-                <fieldset>
-                	<div style="float:left;width:50" class="post"><h4>Upload Video:</h4></div>
-              				Please be patient while the file uploads.<br>
-              		<div>
-                  <input type="file" name="myFile" />
-              </div>	
+                    <f:all bean="videos"/>
                 </fieldset>
                 <fieldset class="buttons">
                     <g:submitButton name="create" class="save" value="${message(code: 'default.button.create.label', default: 'Create')}" />

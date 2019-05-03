@@ -26,18 +26,12 @@
                 </g:eachError>
             </ul>
             </g:hasErrors>
-            <g:form resource="${this.videos}" method="POST" enctype="multipart/form-data">
+            <g:form resource="${this.videos}" method="POST">
                 <g:hiddenField name="version" value="${this.videos?.version}" />
                 <fieldset class="form">
-                    <f:all bean="videos" except="imageOne, imageTwo, imageThree"/>
+                    <f:all bean="videos"/>
                 </fieldset>
-                <fieldset>
-                	<div style="float:left;width:50" class="post"><h4>Upload Video:</h4></div>
-              				Please be patient while the file uploads.<br>
-              		<div>
-                  <input type="file" name="myFile" />
-              </div>	
-                </fieldset>
+                
                 <fieldset class="buttons">
                     <input class="save" type="submit" value="${message(code: 'default.button.update.label', default: 'Update')}" />
                 </fieldset>

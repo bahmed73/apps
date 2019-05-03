@@ -129,6 +129,8 @@
 													<ul id="menu">
 													<li><div><g:link class="list" action="index" controller="photos"><span style="color:#8a7e7e;font-size:20px">Photos</span></g:link></div></li>
 													<li>-</li>
+													<li><div><g:link class="list" action="index" controller="videos"><span style="color:#8a7e7e;font-size:20px">Videos</span></g:link></div></li>
+													<li>-</li>
 													<li><div><g:link class="list" action="index" controller="products"><span style="color:#8a7e7e;font-size:20px">Products</span></g:link></div></li>
 													<li>-</li>
 													<li><div><g:link controller="coupon" action="index"><span style="color:#8a7e7e;font-size:20px">Marketing</span></g:link></div></li>

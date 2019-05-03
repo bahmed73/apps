@@ -41,46 +41,6 @@ class VideosController {
             respond videos.errors, view:'create'
             return
         }
-
-		try {
-			def transferFile = request.getFile('myFile')
-			if(transferFile != null && !transferFile.empty) {
-				log.info "file is not empty, transferring"
-				String fileName
-
-				switch (grails.util.Environment.current) {
-				case grails.util.Environment.DEVELOPMENT:
-						fileName = fTest + "\\VIDEOS_"+videos.id
-						System.out.println("fileName = " + fileName)
-						File file = new File(fileName)
-						transferFile.transferTo( file )
-						appsService.uploadVideosVideo(file, videos)
-						break
-				case grails.util.Environment.TEST:
-						fileName = fProd + "/VIDEOS_"+videos.id
-						System.out.println("fileName = " + videos)
-						File file = new File(fileName)
-						transferFile.transferTo( file )
-						appsService.uploadVideosVideo(file, videos)
-						break
-				case grails.util.Environment.PRODUCTION:
-						fileName = fProd + "/VIDEOS_"+videos.id
-						log.info "fileName = " + fileName
-						File file = new File(fileName)
-						transferFile.transferTo( file )
-						appsService.uploadVideosVideo(file, videos)
-						break
-				}
-
-			}
-			else {
-			   log.info "file is empty"
-			}
-		} catch (Exception e) {
-				e.printStackTrace( )
-				log.info "caught exception: " + e.getMessage()
-				log.info "caught exception: " + e
-		}
 		
         videos.save flush:true
 
@@ -110,48 +70,7 @@ class VideosController {
             respond videos.errors, view:'edit'
             return
         }
-
-		try {
-			def transferFile = request.getFile('myFile')
-			if(transferFile != null && !transferFile.empty) {
-				log.info "file is not empty, transferring"
-				String fileName
-
-				switch (grails.util.Environment.current) {
-				case grails.util.Environment.DEVELOPMENT:
-						fileName = fTest + "\\VIDEOS_"+videos.id
-						System.out.println("fileName = " + fileName)
-						File file = new File(fileName)
-						transferFile.transferTo( file )
-						appsService.uploadVideosVideo(file, videos)
-						break
-				case grails.util.Environment.TEST:
-						fileName = fProd + "/VIDEOS_"+videos.id
-						System.out.println("fileName = " + videos)
-						File file = new File(fileName)
-						transferFile.transferTo( file )
-						appsService.uploadVideosVideo(file, videos)
-						break
-				case grails.util.Environment.PRODUCTION:
-						fileName = fProd + "/VIDEOS_"+videos.id
-						log.info "fileName = " + fileName
-						File file = new File(fileName)
-						transferFile.transferTo( file )
-						appsService.uploadVideosVideo(file, videos)
-						break
-				}
-
-			}
-			else {
-			   log.info "file is empty"
-			}
-		} catch (Exception e) {
-				e.printStackTrace( )
-				log.info "caught exception: " + e.getMessage()
-				log.info "caught exception: " + e
-		}
-
-		
+				
         videos.save flush:true
 
         request.withFormat {
