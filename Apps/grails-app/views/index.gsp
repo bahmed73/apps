@@ -220,13 +220,21 @@
 													<div id="block1" style="border-style:solid; border-color:grey; border-width:1px;margin:1px;font-size:20px">
 													<br>
 													<div style="margin:20px">
-													1. Create products. Share the links on social media channels for marketing. Measure with analytics.
+													<header>
+														<span style="font-size:35px;color:#878282">Product Stream:</span>
+													</header>
 													<br><br>
-													2. Create supply chain. Build sales inventory, forecasts, catalogs, work with customers and vendors.
+													Checkout our blog, <g:link action="show" controller="blog" id="98">Yellow Empress.</g:link>
 													<br><br>
-													4. Check our <g:link action="show" controller="blog" id="33">blog on Cultivation.</g:link>
+													Check out video, <g:link action="show" controller="videos" id="78">latest from Burial and Four tet.</g:link>
 													<br><br>
-													5. Checkout our <g:link action="show" controller="blog" id="65">Vegan Hot Girl.</g:link>
+													Check out <g:link action="show" controller="videos" id="66">video of Nipsey Hussle and Eminem.</g:link>
+													<br><br>
+													Check our <g:link action="show" controller="blog" id="33">blog on Cultivation.</g:link>
+													<br><br>
+													Checkout our blog, <g:link action="show" controller="blog" id="65">Vegan Hot Girl.</g:link>
+													<br><br>
+													Checkout our blog, <g:link action="show" controller="blog" id="97">Diamond Sutras.</g:link>
 													</div>
 													<br>
 														

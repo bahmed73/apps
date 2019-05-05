@@ -20,6 +20,7 @@ class VideosController {
         respond Videos.list(params), model:[videosCount: Videos.count()]
     }
 
+	@Secured(['ROLE_ADMIN', 'ROLE_ANONYMOUS'])
     def show(Videos videos) {
         respond videos
     }
