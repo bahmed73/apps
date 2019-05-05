@@ -16,7 +16,7 @@ class VideosController {
 	static fTest = "C:\\development\\workspace\\Apps\\grails-app\\assets\\images"
 
     def index(Integer max) {
-        params.max = Math.min(max ?: 10, 100)
+        params.max = Math.min(max ?: 50, 100)
         respond Videos.list(params), model:[videosCount: Videos.count()]
     }
 

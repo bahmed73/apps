@@ -118,7 +118,7 @@
 												</div>
 												<div id="block2" class="6u">
 														<section class="box">
-														Watch our videos. To upload a youtube video, just copy and paste the link in the video url.
+														<iframe width="210" height="162" src="https://www.youtube.com/embed/${videosInstance.videoUrl}" frameborder="0" allowfullscreen></iframe>
 														</section>
 												</div>
 											</div>
