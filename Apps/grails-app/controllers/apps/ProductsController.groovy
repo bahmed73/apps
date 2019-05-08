@@ -23,14 +23,21 @@ class ProductsController {
 	static fProd = "/opt/tomcat/apache-tomcat-9.0.13/webapps/ROOT/assets/images"
 	static fTest = "C:\\development\\workspace\\Apps\\grails-app\\assets\\images"
 	
+	@Secured(['ROLE_ADMIN', 'ROLE_ANONYMOUS'])
     def index(Integer max) {
         params.max = Math.min(max ?: 10, 100)
 		
 		def user = springSecurityService.currentUser
-		System.out.println("username = " + user.username)
 		
-		def productsList = Products.findAllByUser(user)
-        respond productsList
+		if (user != null) {
+			System.out.println("username = " + user.username)
+		
+			def productsList = Products.findAllByUser(user)
+			respond productsList
+		} else {
+			def productsList = Products.findAll()
+			respond productsList
+		}
     }
 	
 	def twitterUserData() {

@@ -8,6 +8,7 @@ import grails.plugin.springsecurity.annotation.Secured
 @Secured('ROLE_ADMIN')
 class VideosController {
 
+	def springSecurityService
 	def appsService
 	
     static allowedMethods = [save: "POST", update: "PUT", delete: "DELETE"]
@@ -15,8 +16,20 @@ class VideosController {
 	static fProd = "/opt/tomcat/apache-tomcat-9.0.13/webapps/ROOT/assets/images"
 	static fTest = "C:\\development\\workspace\\Apps\\grails-app\\assets\\images"
 
+	@Secured(['ROLE_ADMIN', 'ROLE_ANONYMOUS'])
     def index(Integer max) {
         params.max = Math.min(max ?: 50, 100)
+		
+		def user = springSecurityService.currentUser
+		
+		if (user != null) {
+			def videoList = Videos.findAllByUser(user)
+			respond videoList
+		} else {
+			def videoList = Videos.findAll()
+			respond videoList
+		}
+		
         respond Videos.list(params), model:[videosCount: Videos.count()]
     }
 

@@ -52,14 +52,14 @@
 	      width: "90%"
 	    }, {
 	      queue: false,
-	      duration: 3000
+	      duration: 9000
 	    })
-	    .animate({ fontSize: "24px" }, 1500 )
-	    .animate({ borderRightWidth: "15px" }, 1500 );
+	    .animate({ fontSize: "24px" }, 3500 )
+	    .animate({ borderRightWidth: "15px" }, 3500 );
 		$( "#block2" )
-	    .animate({ width: "90%" }, 1000 )
-	    .animate({ fontSize: "24px" }, 1000 )
-	    .animate({ borderLeftWidth: "15px" }, 1000 );
+	    .animate({ width: "90%" }, 3000 )
+	    .animate({ fontSize: "24px" }, 3000 )
+	    .animate({ borderLeftWidth: "15px" }, 3000 );
 		}
 	</script>
 	<div id="fb-root"></div>
@@ -117,7 +117,7 @@
 											</div>
 											<div class="6u">
 												<section class="box">
-												<div id="block1" style="border-style:solid; border-color:grey; border-width:1px;margin:1px;font-size:20px">
+												<div id="block1" style="border-style:solid; border-color:grey; border-width:1px;margin:1px;font-size:2px">
 													<div style="border: 20px dotted #e1f3f9;">
 													<img src="data:image/png;base64,${blog.imageThree?.encodeBase64()}"/>
 													</div>

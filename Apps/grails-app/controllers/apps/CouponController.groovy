@@ -8,6 +8,7 @@ import grails.plugin.springsecurity.annotation.Secured
 @Secured('ROLE_ADMIN')
 class CouponController {
 
+	def springSecurityService
     def appsService
 	
     static allowedMethods = [save: "POST", update: "PUT", delete: "DELETE"]
@@ -15,12 +16,24 @@ class CouponController {
 	static fProd = "/opt/tomcat/apache-tomcat-9.0.13/webapps/ROOT/assets/images"
 	static fTest = "C:\\development\\workspace\\Apps\\grails-app\\assets\\images"
 	
-	
+	@Secured(['ROLE_ADMIN', 'ROLE_ANONYMOUS'])
     def index(Integer max) {
         params.max = Math.min(max ?: 10, 100)
+		
+		def user = springSecurityService.currentUser
+		
+		if (user != null) {
+			def couponList = Coupon.findAllByUser(user)
+			respond couponList
+		} else {
+			def couponList = Coupon.findAll()
+			respond couponList
+		}
+		
         respond Coupon.list(params), model:[couponCount: Coupon.count()]
     }
 
+	@Secured(['ROLE_ADMIN', 'ROLE_ANONYMOUS'])
     def show(Coupon coupon) {
         respond coupon
     }

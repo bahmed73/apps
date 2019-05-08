@@ -60,14 +60,14 @@
 	      width: "90%"
 	    }, {
 	      queue: false,
-	      duration: 3000
+	      duration: 12000
 	    })
-	    .animate({ fontSize: "24px" }, 1500 )
-	    .animate({ borderRightWidth: "15px" }, 1500 );
+	    .animate({ fontSize: "24px" }, 4500 )
+	    .animate({ borderRightWidth: "15px" }, 4500 );
 		$( "#block2" )
-	    .animate({ width: "90%" }, 1000 )
-	    .animate({ fontSize: "24px" }, 1000 )
-	    .animate({ borderLeftWidth: "15px" }, 1000 );
+	    .animate({ width: "90%" }, 4000 )
+	    .animate({ fontSize: "24px" }, 4000 )
+	    .animate({ borderLeftWidth: "15px" }, 4000 );
 		}
 	</script>
 	
@@ -149,7 +149,7 @@
 													<li>-</li>
 													<li><div><g:link class="list" action="index" controller="products"><span style="color:#8a7e7e;font-size:20px">Products</span></g:link></div></li>
 													<li>-</li>
-													<li><div><g:link controller="coupon" action="index"><span style="color:#8a7e7e;font-size:20px">Marketing</span></g:link></div></li>
+													<li><div><g:link controller="coupon" action="index"><span style="color:#8a7e7e;font-size:20px">Coupons</span></g:link></div></li>
 													<li>-</li>
 													<li><div><g:link controller="product" action="analytics"><span style="color:#8a7e7e;font-size:20px">Analytics</span></g:link></div>
 													<ul>
@@ -206,6 +206,16 @@
 													</li>
 													
 													</ul>
+													<br>
+													<br>
+													<br>
+													Watch our product feed on the right hand side. Please upload videos, add blogs and photos to showcase products.
+													<br>
+													<br>
+													<br>
+													<div style="margin:75px">
+													<asset:image src="human.png"/>
+													</div>
 													</div>
 													<br>
 													<br>
@@ -223,6 +233,12 @@
 													<header>
 														<span style="font-size:35px;color:#878282">Product Stream:</span>
 													</header>
+													<br><br>
+													Check out video, <g:link action="show" controller="videos" id="129">Boogie.</g:link>
+													<br><br>
+													Checkout our blog, <g:link action="show" controller="blog" id="194">Epitome Poems.</g:link>
+													<br><br>
+													Checkout our blog, <g:link action="show" controller="blog" id="193">Microcosmic Epitome II.</g:link>
 													<br><br>
 													Checkout our blog, <g:link action="show" controller="blog" id="163">Microcosmic Epitome.</g:link>
 													<br><br>

@@ -16,15 +16,19 @@ class BlogController {
 	static fProd = "/opt/tomcat/apache-tomcat-9.0.13/webapps/ROOT/assets/images"
 	static fTest = "C:\\development\\workspace\\Apps\\grails-app\\assets\\images"
 	
+	@Secured(['ROLE_ADMIN', 'ROLE_ANONYMOUS'])
     def index(Integer max) {
-		params.max = Math.min(max ?: 10, 100)
-		
+		params.max = Math.min(max ?: 50, 100)
+		 
 		def user = springSecurityService.currentUser
-		System.out.println("username = " + user.username)
 		
-		def blogList = Blog.findAllByUser(user)
-		respond blogList
-		
+		if (user != null) {
+			def blogList = Blog.findAllByUser(user)
+			respond blogList
+		} else {
+			def blogList = Blog.findAll()
+			respond blogList
+		}
 		/*params.max = Math.min(max ?: 10, 100)
         respond Blog.list(params), model:[blogCount: Blog.count()]*/
     }
