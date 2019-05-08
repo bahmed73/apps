@@ -68,6 +68,15 @@
 	    .animate({ width: "90%" }, 4000 )
 	    .animate({ fontSize: "24px" }, 4000 )
 	    .animate({ borderLeftWidth: "15px" }, 4000 );
+		$( "#block3" )
+	    .animate({
+	      width: "90%"
+	    }, {
+	      queue: false,
+	      duration: 16000
+	    })
+	    .animate({ fontSize: "24px" }, 5500 )
+	    .animate({ borderRightWidth: "15px" }, 5500 );
 		}
 	</script>
 	
@@ -88,18 +97,24 @@
   <!-- Wrapper for slides -->
   <div class="carousel-inner">
     <div class="item active">
-      <g:link class="list" action="shelf" controller="product"><asset:image src="taim_banner_3.png"/></g:link>
+      <g:link class="list" action="shelf" controller="product"><asset:image src="taim_banner_1.png"/></g:link>
+    </div>
+
+	<div class="item">
+      <g:link controller="product" action="sales"><asset:image src="taim_banner_2.png"/></g:link>
+    </div>
+    
+    <div class="item">
+      <g:link controller="product" action="analytics"><asset:image src="taim_banner_3.png"/></g:link>
     </div>
 
     <div class="item">
-      <g:link controller="product" action="analytics"><asset:image src="taim_banner_2.png"/></g:link>
+      <g:link controller="product" action="sales"><asset:image src="taim_banner_4.png"/></g:link>
     </div>
-
+    
     <div class="item">
-      <g:link controller="product" action="sales"><asset:image src="taim_banner_1.png"/></g:link>
+      <g:link controller="product" action="sales"><asset:image src="taim_banner_5.png"/></g:link>
     </div>
-    
-    
   </div>
 
   <!-- Left and right controls -->
@@ -209,12 +224,14 @@
 													<br>
 													<br>
 													<br>
+													<div id="block3">
 													Watch our product feed on the right hand side. Please upload videos, add blogs and photos to showcase products.
 													<br>
 													<br>
 													<br>
 													<div style="margin:75px">
 													<asset:image src="human.png"/>
+													</div>
 													</div>
 													</div>
 													<br>
