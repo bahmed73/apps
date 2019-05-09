@@ -251,6 +251,12 @@
 														<span style="font-size:35px;color:#878282">Product Stream:</span>
 													</header>
 													<br><br>
+													Check out video, <g:link action="show" controller="videos" id="165">Kaya Project, Vijaya.</g:link>
+													<br><br>
+													Check out video, <g:link action="show" controller="videos" id="162">Thievery Corporation, take my Soul.</g:link>
+													<br><br>
+													Check out video, <g:link action="show" controller="videos" id="161">Nova, from Burial and Four tet.</g:link>
+													<br><br>
 													Check out video, <g:link action="show" controller="videos" id="129">Boogie.</g:link>
 													<br><br>
 													Checkout our blog, <g:link action="show" controller="blog" id="194">Epitome Poems.</g:link>
