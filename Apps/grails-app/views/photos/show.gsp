@@ -52,6 +52,7 @@
 	           // Run the effect
 	      $( "#block1" ).effect( "pulsate", options, 500, callback );
 	      $( "#block2" ).effect( "explode", options, 500, callback );
+	      $( "#block3" ).effect( "bounce", options, 500, callback );
 	    };
 	 
 	    // Callback function to bring a hidden box back
@@ -59,6 +60,7 @@
 	      setTimeout(function() {
 	        $( "#block1" ).removeAttr( "style" ).hide().fadeIn();
 	        $( "#block2" ).removeAttr( "style" ).hide().fadeIn();
+	        $( "#block3" ).removeAttr( "style" ).hide().fadeIn();
 	      }, 1000 );
 	    };
 	</script>
@@ -68,12 +70,12 @@
 				<div class="container">
 					
 					<div class="row">
-						<div class="12u">
+						<div id="block3" class="12u">
 
 							<!-- Banner -->
 								<section id="banner">
 									<a href="https://mauget.com/">
-										<span class="image image-full"><asset:image src="taim_banner_3.png"/></span>
+										<span class="image image-full"><asset:image src="taim_banner_4.png"/></span>
 										<header>
 											<!--  <h2>Foodal</h2>-->
 											<!--span class="byline">welcome!</span-->

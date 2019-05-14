@@ -57,6 +57,7 @@
 	           // Run the effect
 	      $( "#block1" ).effect( "bounce", options, 500, callback );
 	      $( "#block2" ).effect( "pulsate", options, 500, callback );
+	      $( "#block3" ).effect( "shake", options, 500, callback );
 	    };
 	 
 	    // Callback function to bring a hidden box back
@@ -64,6 +65,7 @@
 	      setTimeout(function() {
 	        $( "#block1" ).removeAttr( "style" ).hide().fadeIn();
 	        $( "#block2" ).removeAttr( "style" ).hide().fadeIn();
+	        $( "#block3" ).removeAttr( "style" ).hide().fadeIn();
 	      }, 1000 );
 	    };
 	</script>
@@ -75,7 +77,7 @@
 				<div class="container">
 					
 					<div class="row">
-						<div class="12u">
+						<div id="block3" class="12u">
 
 							<!-- Banner -->
 								<section id="banner">

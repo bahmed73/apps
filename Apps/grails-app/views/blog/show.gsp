@@ -47,6 +47,10 @@
 	<body class="homepage" onload="testEffect()">
 	<script type="text/javascript">
 	function testEffect() {
+		var options = {};
+        // Run the effect
+   		$( "#block3" ).effect( "pulsate", options, 500, callback );
+   
 		$( "#block1" )
 	    .animate({
 	      width: "90%"
@@ -61,6 +65,12 @@
 	    .animate({ fontSize: "24px" }, 3000 )
 	    .animate({ borderLeftWidth: "15px" }, 3000 );
 		}
+
+	function callback() {
+	      setTimeout(function() {
+	        $( "#block3" ).removeAttr( "style" ).hide().fadeIn();
+	      }, 1000 );
+	    };
 	</script>
 	<div id="fb-root"></div>
 <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2&appId=261449270414&autoLogAppEvents=1"></script>
@@ -70,7 +80,7 @@
 				<div class="container">
 					
 					<div class="row">
-						<div class="12u">
+						<div id="block3" class="12u">
 
 							<!-- Banner -->
 								<section id="banner">

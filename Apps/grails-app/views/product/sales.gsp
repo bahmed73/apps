@@ -58,6 +58,9 @@
 	<body class="homepage" onload="testEffect()">
 	<script type="text/javascript">
 	function testEffect() {
+		var options = {};
+        // Run the effect
+   		$( "#block3" ).effect( "bounce", options, 1000, callback );
 		$( "#block1" )
 	    .animate({
 	      width: "90%"
@@ -74,6 +77,12 @@
     .animate({ fontSize: "24px" }, 1000 )
     .animate({ borderLeftWidth: "15px" }, 1000 );
 	}
+
+	function callback() {
+	      setTimeout(function() {
+	        $( "#block3" ).removeAttr( "style" ).hide().fadeIn();
+	      }, 1000 );
+	    };
 	</script>
 	
 		<!-- Header Wrapper -->
@@ -81,12 +90,12 @@
 				<div class="container">
 					
 					<div class="row">
-						<div class="12u">
+						<div id="block3" class="12u">
 
 							<!-- Banner -->
 								<section id="banner">
 									
-										<span class="image image-full"><asset:image src="taim_banner_3.png"/></span>
+										<span class="image image-full"><asset:image src="taim_banner_2.png"/></span>
 										<!-- 
 										<header>
 											<h2>Shop</h2> 

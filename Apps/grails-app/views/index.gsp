@@ -55,6 +55,10 @@
 	<body class="homepage" onload="testEffect()">
 	<script type="text/javascript">
 	function testEffect() {
+		var options = {};
+        // Run the effect
+   		$( "#block3" ).effect( "pulsate", options, 1000, callback );
+   
 		$( "#block1" )
 	    .animate({
 	      width: "90%"
@@ -78,6 +82,12 @@
 	    .animate({ fontSize: "24px" }, 5500 )
 	    .animate({ borderRightWidth: "15px" }, 5500 );
 		}
+
+	function callback() {
+	      setTimeout(function() {
+	        $( "#block3" ).removeAttr( "style" ).hide().fadeIn();
+	      }, 1000 );
+	    };
 	</script>
 	
 		<!-- Header Wrapper -->

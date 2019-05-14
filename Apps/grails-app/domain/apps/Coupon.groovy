@@ -10,6 +10,7 @@ class Coupon {
         byte[] imageOne
 		byte[] imageTwo
 		byte[] imageThree
+		User user
 
     static constraints = {
                 //id(nullable:true)
@@ -20,6 +21,8 @@ class Coupon {
 				imageOne(nullable:true, maxSize: 1024 * 1024 * 2)
 				imageTwo(nullable:true, maxSize: 1024 * 1024 * 2)
 				imageThree(nullable:true, maxSize: 1024 * 1024 * 2)
+				user(nullable:true)
+				
     }
 
         static mapping = {
