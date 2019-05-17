@@ -106,7 +106,7 @@
 													<section class="box">
 													<!-- <a href="http://www.mytweetmark.com" class="image image-full"><asset:image src="foodal-homepage-16.png"/></a> -->
 													<header>
-														<span style="font-size:35px;"><f:display bean="videos" property="name"/></span>
+														<span style="font-size:35px;color:#9b9ea9"><f:display bean="videos" property="name"/></span>
 													</header>
 													<br><br>
 													<p style="font-size:18px;color:#8a7e7e;">Description: <f:display bean="videos" property="description"/></p>

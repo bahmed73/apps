@@ -110,7 +110,7 @@
 												<div id="block1" class="6u">
 														<section class="box">
 														<header>
-														<span style="font-size:35px;">${productsInstance.name}</span>
+														<span style="font-size:35px;color:#9b9ea9">${productsInstance.name}</span>
 														</header>
 														<br><br>
 														<p style="font-size:20px;color:#8a7e7e;">Usage: ${productsInstance.usage}</p>

@@ -75,7 +75,7 @@
 							<!-- Banner -->
 								<section id="banner">
 									<a href="https://mauget.com/">
-										<span class="image image-full"><asset:image src="taim_banner_4.png"/></span>
+										<span class="image image-full"><asset:image src="taim_banner_2.png"/></span>
 										<header>
 											<!--  <h2>Foodal</h2>-->
 											<!--span class="byline">welcome!</span-->
@@ -106,7 +106,7 @@
 													<section class="box">
 													<!-- <a href="http://www.mytweetmark.com" class="image image-full"><asset:image src="foodal-homepage-16.png"/></a> -->
 													<header>
-														<span style="font-size:35px;"><f:display bean="photos" property="name"/></span>
+														<span style="font-size:35px;color:#9b9ea9"><f:display bean="photos" property="name"/></span>
 													</header>
 													<br><br>
 													<p style="font-size:18px;color:#8a7e7e;"><f:display bean="photos" property="description"/></p>
