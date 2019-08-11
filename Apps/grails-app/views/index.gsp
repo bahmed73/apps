@@ -257,9 +257,17 @@
 													<div id="block1" style="border-style:solid; border-color:grey; border-width:1px;margin:1px;font-size:20px">
 													<br>
 													<div style="margin:20px">
-													<header>
-														<span style="font-size:35px;color:#878282">Product Stream:</span>
-													</header>
+													Checkout our blog, <g:link action="show" controller="blog" id="385">Christ The Eternal Tao - The Way - Part I.</g:link>
+													<br><br>
+													Checkout our blog, <g:link action="show" controller="blog" id="386">Christ The Eternal Tao - The Way - Part II.</g:link>
+													<br><br>
+													Checkout our blog, <g:link action="show" controller="blog" id="417">Christ The Eternal Tao - The Way - Part III.</g:link>
+													<br><br>
+													Checkout our blog, <g:link action="show" controller="blog" id="289">The forth Way - Samadhi and Turiya.</g:link>
+													<br><br>
+													Checkout our blog, <g:link action="show" controller="blog" id="257">Ja Jum - Syllabul.</g:link>
+													<br><br>
+													Checkout our blog, <g:link action="show" controller="blog" id="225">Surah Yasin.</g:link>
 													<br><br>
 													Check out video, <g:link action="show" controller="videos" id="165">Kaya Project, Vijaya.</g:link>
 													<br><br>

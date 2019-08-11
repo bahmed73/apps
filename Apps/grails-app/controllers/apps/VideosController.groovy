@@ -18,7 +18,7 @@ class VideosController {
 
 	@Secured(['ROLE_ADMIN', 'ROLE_ANONYMOUS'])
     def index(Integer max) {
-        params.max = Math.min(max ?: 50, 100)
+        params.max = Math.min(max ?: 90, 100)
 		
 		def user = springSecurityService.currentUser
 		
