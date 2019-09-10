@@ -263,6 +263,12 @@
 													<br><br>
 													Checkout our blog, <g:link action="show" controller="blog" id="417">Christ The Eternal Tao - The Way - Part III.</g:link>
 													<br><br>
+													Checkout our blog, <g:link action="show" controller="blog" id="449">Christ The Eternal Tao - The Way - Part IV.</g:link>
+													<br><br>
+													Checkout our blog, <g:link action="show" controller="blog" id="450">Christ The Eternal Tao - The Way - Part V.</g:link>
+													<br><br>
+													Checkout our blog, <g:link action="show" controller="blog" id="481">Christ The Eternal Tao - The Way - Part VI.</g:link>
+													<br><br>
 													Checkout our blog, <g:link action="show" controller="blog" id="289">The forth Way - Samadhi and Turiya.</g:link>
 													<br><br>
 													Checkout our blog, <g:link action="show" controller="blog" id="257">Ja Jum - Syllabul.</g:link>
