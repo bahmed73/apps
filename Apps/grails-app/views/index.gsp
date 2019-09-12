@@ -102,6 +102,12 @@
     <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
     <li data-target="#myCarousel" data-slide-to="1"></li>
     <li data-target="#myCarousel" data-slide-to="2"></li>
+    <li data-target="#myCarousel" data-slide-to="3"></li>
+    <li data-target="#myCarousel" data-slide-to="4"></li>
+    <li data-target="#myCarousel" data-slide-to="5"></li>
+    <li data-target="#myCarousel" data-slide-to="6"></li>
+    <li data-target="#myCarousel" data-slide-to="7"></li>
+    <li data-target="#myCarousel" data-slide-to="8"></li>
   </ol>
 
   <!-- Wrapper for slides -->
@@ -136,6 +142,10 @@
     
     <div class="item">
       <g:link controller="notes" action="index"><asset:image src="taim_banner_8.png"/></g:link>
+    </div>
+    
+    <div class="item">
+      <g:link controller="projects" action="index"><asset:image src="taim_banner_9.png"/></g:link>
     </div>
   </div>
 

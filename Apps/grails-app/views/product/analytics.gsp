@@ -98,7 +98,7 @@
 							<!-- Banner -->
 								<section id="banner">
 									
-										<span class="image image-full"><asset:image src="taim_banner_5.png"/></span>
+										<span class="image image-full"><asset:image src="taim_banner_3.png"/></span>
 										<header>
 										<!-- 
 											<h2>Shop</h2> 
