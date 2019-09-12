@@ -92,7 +92,7 @@
 							<!-- Banner -->
 								<section id="banner">
 									
-										<span class="image image-full"><asset:image src="taim_banner_4.png"/></span>
+										<span class="image image-full"><asset:image src="taim_banner_6.png"/></span>
 										<header>
 										<!-- 
 											<h2>Shop</h2> 
@@ -136,6 +136,12 @@
 													<div id="block2">
 													
 													<ul id="menu">
+													<li><div><g:link class="list" action="index" controller="projects"><span style="color:#8a7e7e;font-size:20px">Projects (beta)</span></g:link></div></li>
+													<li>-</li>
+													<li><div><g:link class="list" action="index" controller="tasks"><span style="color:#8a7e7e;font-size:20px">Tasks (beta)</span></g:link></div></li>
+													<li>-</li>
+													<li><div><g:link class="list" action="index" controller="notes"><span style="color:#8a7e7e;font-size:20px">Notes (beta)</span></g:link></div></li>
+													<li>-</li>
 													<li><div><g:link class="list" action="index" controller="photos"><span style="color:#8a7e7e;font-size:20px">Photos</span></g:link></div></li>
 													<li>-</li>
 													<li><div><g:link class="list" action="index" controller="videos"><span style="color:#8a7e7e;font-size:20px">Videos</span></g:link></div></li>

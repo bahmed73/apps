@@ -393,4 +393,103 @@ class AppsService {
 		}
 		
 	}
+	
+	def uploadProjectsPhoto(File file, Projects projects) {
+		log.info "inside uploadProjectsPhoto"
+		
+		String fileName = file.getAbsolutePath()
+		
+		log.info "fileName = " + fileName
+		
+		ImagePlus image = imagingService.openImagePlus(fileName);
+		try {
+			def output = imagingService.generate100x100(image, fileName, true);
+			
+			def files = new File(output)
+			projects.imageOne = files.bytes
+			
+			output = imagingService.generate50x50(image, fileName, true);
+			
+			files = new File(output)
+			projects.imageTwo = files.bytes
+			
+			output = imagingService.generate400x400(image, fileName);
+			
+			files = new File(output)
+			projects.imageThree = files.bytes
+			
+		} catch (Exception e) {
+			
+			log.info"uploadProjectsPhoto: error generating images"
+			e.printStackTrace()
+			
+		}
+		
+	}
+	
+	def uploadTasksPhoto(File file, Tasks tasks) {
+		log.info "inside uploadTasksPhoto"
+		
+		String fileName = file.getAbsolutePath()
+		
+		log.info "fileName = " + fileName
+		
+		ImagePlus image = imagingService.openImagePlus(fileName);
+		try {
+			def output = imagingService.generate100x100(image, fileName, true);
+			
+			def files = new File(output)
+			tasks.imageOne = files.bytes
+			
+			output = imagingService.generate50x50(image, fileName, true);
+			
+			files = new File(output)
+			tasks.imageTwo = files.bytes
+			
+			output = imagingService.generate400x400(image, fileName);
+			
+			files = new File(output)
+			tasks.imageThree = files.bytes
+			
+		} catch (Exception e) {
+			
+			log.info"uploadTasksPhoto: error generating images"
+			e.printStackTrace()
+			
+		}
+		
+	}
+	
+	def uploadNotesPhoto(File file, Notes notes) {
+		log.info "inside uploadNotesPhoto"
+		
+		String fileName = file.getAbsolutePath()
+		
+		log.info "fileName = " + fileName
+		
+		ImagePlus image = imagingService.openImagePlus(fileName);
+		try {
+			def output = imagingService.generate100x100(image, fileName, true);
+			
+			def files = new File(output)
+			notes.imageOne = files.bytes
+			
+			output = imagingService.generate50x50(image, fileName, true);
+			
+			files = new File(output)
+			notes.imageTwo = files.bytes
+			
+			output = imagingService.generate400x400(image, fileName);
+			
+			files = new File(output)
+			notes.imageThree = files.bytes
+			
+		} catch (Exception e) {
+			
+			log.info"uploadNotesPhoto: error generating images"
+			e.printStackTrace()
+			
+		}
+		
+	}
 }

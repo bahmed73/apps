@@ -119,11 +119,23 @@
     </div>
 
     <div class="item">
-      <g:link controller="product" action="sales"><asset:image src="taim_banner_4.png"/></g:link>
+      <g:link controller="videos" action="index"><asset:image src="taim_banner_4.png"/></g:link>
     </div>
     
     <div class="item">
-      <g:link controller="product" action="sales"><asset:image src="taim_banner_5.png"/></g:link>
+      <g:link controller="blog" action="index"><asset:image src="taim_banner_5.png"/></g:link>
+    </div>
+    
+    <div class="item">
+      <g:link controller="projects" action="index"><asset:image src="taim_banner_6.png"/></g:link>
+    </div>
+    
+    <div class="item">
+      <g:link controller="tasks" action="index"><asset:image src="taim_banner_7.png"/></g:link>
+    </div>
+    
+    <div class="item">
+      <g:link controller="notes" action="index"><asset:image src="taim_banner_8.png"/></g:link>
     </div>
   </div>
 
@@ -168,6 +180,12 @@
 													<div id="block2">
 													
 													<ul id="menu">
+													<li><div><g:link class="list" action="index" controller="projects"><span style="color:#8a7e7e;font-size:20px">Projects -> Create Tasks (beta) </span></g:link></div></li>
+													<li>-</li>
+													<li><div><g:link class="list" action="index" controller="tasks"><span style="color:#8a7e7e;font-size:20px">Tasks -> Create Notes (beta)</span></g:link></div></li>
+													<li>-</li>
+													<li><div><g:link class="list" action="index" controller="notes"><span style="color:#8a7e7e;font-size:20px">Notes (beta)</span></g:link></div></li>
+													<li>-</li>
 													<li><div><g:link class="list" action="index" controller="photos"><span style="color:#8a7e7e;font-size:20px">Photos</span></g:link></div></li>
 													<li>-</li>
 													<li><div><g:link class="list" action="index" controller="videos"><span style="color:#8a7e7e;font-size:20px">Videos</span></g:link></div></li>
