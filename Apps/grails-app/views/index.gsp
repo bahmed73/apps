@@ -113,9 +113,21 @@
   <!-- Wrapper for slides -->
   <div class="carousel-inner">
     <div class="item active">
-      <g:link class="list" action="shelf" controller="product"><asset:image src="taim_banner_1.png"/></g:link>
+      <g:link class="list" action="shelf" controller="product"><asset:image src="taim_banner_9.png"/></g:link>
     </div>
 
+	<div class="item">
+      <g:link controller="projects" action="index"><asset:image src="taim_banner_6.png"/></g:link>
+    </div>
+    
+    <div class="item">
+      <g:link controller="tasks" action="index"><asset:image src="taim_banner_7.png"/></g:link>
+    </div>
+    
+    <div class="item">
+      <g:link controller="notes" action="index"><asset:image src="taim_banner_8.png"/></g:link>
+    </div>
+    
 	<div class="item">
       <g:link controller="product" action="sales"><asset:image src="taim_banner_2.png"/></g:link>
     </div>
@@ -130,22 +142,10 @@
     
     <div class="item">
       <g:link controller="blog" action="index"><asset:image src="taim_banner_5.png"/></g:link>
-    </div>
+    </div>   
     
     <div class="item">
-      <g:link controller="projects" action="index"><asset:image src="taim_banner_6.png"/></g:link>
-    </div>
-    
-    <div class="item">
-      <g:link controller="tasks" action="index"><asset:image src="taim_banner_7.png"/></g:link>
-    </div>
-    
-    <div class="item">
-      <g:link controller="notes" action="index"><asset:image src="taim_banner_8.png"/></g:link>
-    </div>
-    
-    <div class="item">
-      <g:link controller="projects" action="index"><asset:image src="taim_banner_9.png"/></g:link>
+      <g:link controller="projects" action="index"><asset:image src="taim_banner_1.png"/></g:link>
     </div>
   </div>
 

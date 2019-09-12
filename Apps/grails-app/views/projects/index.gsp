@@ -115,7 +115,7 @@
 														<br><br>
 														<p style="font-size:20px;color:#8a7e7e;">Description: ${projectsInstance.description}</p>
 														<br><br>
-														<g:link controller="projects" action="show" id="${projectsInstance.id}"><span style="color:#8a7e7e;">Download full version...</span></g:link>
+														<g:link controller="projects" action="show" id="${projectsInstance.id}"><span style="color:#8a7e7e;">Show full version...</span></g:link>
 														</section>
 												</div>
 												<div id="block2">

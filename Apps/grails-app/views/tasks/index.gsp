@@ -117,7 +117,7 @@
 														<br><br>
 														<p style="font-size:20px;color:#8a7e7e;">Projects: ${tasksInstance.project.name}</p>
 														<br><br>
-														<g:link controller="tasks" action="show" id="${tasksInstance.id}"><span style="color:#8a7e7e;">Download full version...</span></g:link>
+														<g:link controller="tasks" action="show" id="${tasksInstance.id}"><span style="color:#8a7e7e;">Show full tasks...</span></g:link>
 														</section>
 												</div>
 												<div id="block2">

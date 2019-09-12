@@ -22,8 +22,8 @@ class Notes {
 				imageOne(nullable:true, maxSize: 1024 * 1024 * 2)
 				imageTwo(nullable:true, maxSize: 1024 * 1024 * 2)
 				imageThree(nullable:true, maxSize: 1024 * 1024 * 2)
-				user(nullable:true)
-				task(nullable:true)
+				user(nullable:false)
+				task(nullable:false)
 				
     }
 }

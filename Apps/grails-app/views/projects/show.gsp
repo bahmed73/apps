@@ -92,7 +92,7 @@
 											<ul>
 												<li><g:link url="/">Home</g:link></li>
 												<li><g:link controller="projects" action="edit" id="${projects.id}">Edit Projects</g:link></li>
-												<li><g:link controller="projects" action="index">Show Projectss</g:link></li>
+												<li><g:link controller="projects" action="index">Show Projects</g:link></li>
 												<!--<li><a href="left-sidebar.html">Login</a></li>-->
 											</ul>
 										</nav>

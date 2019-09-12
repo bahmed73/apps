@@ -22,8 +22,8 @@ class Tasks {
 				imageOne(nullable:true, maxSize: 1024 * 1024 * 2)
 				imageTwo(nullable:true, maxSize: 1024 * 1024 * 2)
 				imageThree(nullable:true, maxSize: 1024 * 1024 * 2)
-				user(nullable:true)
-				project(nullable:true)
+				user(nullable:false)
+				project(nullable:false)
 				
     }
 }
