@@ -205,7 +205,7 @@
 													<li>-</li>
 													<li><div><g:link class="list" action="index" controller="products"><span style="color:#8a7e7e;font-size:20px">Products</span></g:link></div></li>
 													<li>-</li>
-													<li><div><g:link controller="coupon" action="index"><span style="color:#8a7e7e;font-size:20px">Coupons</span></g:link></div></li>
+													<li><div><g:link class="list" controller="coupon" action="index"><span style="color:#8a7e7e;font-size:20px">Coupons</span></g:link></div></li>
 													<li>-</li>
 													<li><div><g:link class="list" controller="blog" action="index"><span style="color:#8a7e7e;font-size:20px">Blog</span></g:link></div></li>
 													<li>-</li>
@@ -337,7 +337,7 @@
 													<li>-</li>
 													<li><div><g:link class="list" action="index" controller="videos"><span style="color:#8a7e7e;font-size:20px">Videos</span></g:link></div></li>
 													<li>-</li>
-													<li><div><g:link controller="blog" action="index"><span style="color:#8a7e7e;font-size:20px">Blog</span></g:link></div></li>
+													<li><div><g:link class="list" controller="blog" action="index"><span style="color:#8a7e7e;font-size:20px">Blog</span></g:link></div></li>
 													</ul>
 													</li>
 													<li>-</li>
@@ -345,7 +345,7 @@
 													<ul>
 													<li><div><g:link class="list" action="index" controller="videos"><span style="color:#8a7e7e;font-size:20px">Videos</span></g:link></div></li>
 													<li>-</li>
-													<li><div><g:link controller="blog" action="index"><span style="color:#8a7e7e;font-size:20px">Blog</span></g:link></div></li>
+													<li><div><g:link class="list" controller="blog" action="index"><span style="color:#8a7e7e;font-size:20px">Blog</span></g:link></div></li>
 													</ul>
 													</li>
 													<li>-</li>
@@ -353,7 +353,7 @@
 													<ul>
 													<li><div><g:link class="list" action="index" controller="videos"><span style="color:#8a7e7e;font-size:20px">Videos</span></g:link></div></li>
 													<li>-</li>
-													<li><div><g:link controller="blog" action="index"><span style="color:#8a7e7e;font-size:20px">Blog</span></g:link></div></li>
+													<li><div><g:link class="list" controller="blog" action="index"><span style="color:#8a7e7e;font-size:20px">Blog</span></g:link></div></li>
 													</ul>
 													</li>
 													<li>-</li>
