@@ -110,14 +110,18 @@
     <li data-target="#myCarousel" data-slide-to="7"></li>
     <li data-target="#myCarousel" data-slide-to="8"></li>
     <li data-target="#myCarousel" data-slide-to="9"></li>
+    <li data-target="#myCarousel" data-slide-to="10"></li>
   </ol>
 
   <!-- Wrapper for slides -->
   <div class="carousel-inner">
     <div class="item active">
-      <g:link class="list" action="shelf" controller="product"><asset:image src="goaled.png"/></g:link>
+      <g:link class="list" action="shelf" controller="product"><asset:image src="launch.png"/></g:link>
     </div>
     
+    <div class="item">
+      <g:link class="list" action="shelf" controller="product"><asset:image src="goaled.png"/></g:link>
+    </div>
     
     <div class="item">
       <g:link class="list" action="shelf" controller="product"><asset:image src="taim_banner_9.png"/></g:link>
