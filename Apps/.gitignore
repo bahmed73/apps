@@ -20,3 +20,5 @@ target-eclipse
 /grails-app/assets/images/BLOG*
 /grails-app/assets/PRODUCTS*
 logs/
+.asscache
+
