@@ -111,11 +111,16 @@
     <li data-target="#myCarousel" data-slide-to="8"></li>
     <li data-target="#myCarousel" data-slide-to="9"></li>
     <li data-target="#myCarousel" data-slide-to="10"></li>
+    <li data-target="#myCarousel" data-slide-to="11"></li>
   </ol>
 
   <!-- Wrapper for slides -->
   <div class="carousel-inner">
     <div class="item active">
+      <g:link class="list" action="shelf" controller="product"><asset:image src="facebook.png"/></g:link>
+    </div>
+    
+    <div class="item">
       <g:link class="list" action="shelf" controller="product"><asset:image src="launch.png"/></g:link>
     </div>
     
