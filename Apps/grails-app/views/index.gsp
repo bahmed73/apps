@@ -112,6 +112,8 @@
     <li data-target="#myCarousel" data-slide-to="9"></li>
     <li data-target="#myCarousel" data-slide-to="10"></li>
     <li data-target="#myCarousel" data-slide-to="11"></li>
+    <li data-target="#myCarousel" data-slide-to="12"></li>
+    
   </ol>
 
   <!-- Wrapper for slides -->
@@ -162,6 +164,10 @@
     
     <div class="item">
       <g:link controller="projects" action="index"><asset:image src="taim_banner_1.png"/></g:link>
+    </div>
+    
+    <div class="item">
+      <g:link controller="projects" action="index"><asset:image src="master-wang-4.png"/></g:link>
     </div>
   </div>
 
@@ -400,6 +406,8 @@
 													Checkout our blog, <g:link action="show" controller="blog" id="450">Christ The Eternal Tao - The Way - Part V.</g:link>
 													<br><br>
 													Checkout our blog, <g:link action="show" controller="blog" id="481">Christ The Eternal Tao - The Way - Part VI.</g:link>
+													<br><br>
+													Checkout our blog, <g:link action="show" controller="blog" id="545">Christ The Eternal Tao - The Way - Part VII.</g:link>
 													<br><br>
 													Checkout our blog, <g:link action="show" controller="blog" id="289">The forth Way - Samadhi and Turiya.</g:link>
 													<br><br>
