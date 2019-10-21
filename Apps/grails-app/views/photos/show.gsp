@@ -74,7 +74,7 @@
 
 							<!-- Banner -->
 								<section id="banner">
-									<a href="https://mauget.com/">
+									<a href="https://taote.shop/">
 										<span class="image image-full"><asset:image src="wall-paper.png"/></span>
 										<header>
 											<!--  <h2>Foodal</h2>-->
