@@ -114,13 +114,18 @@
     <li data-target="#myCarousel" data-slide-to="11"></li>
     <li data-target="#myCarousel" data-slide-to="12"></li>
     <li data-target="#myCarousel" data-slide-to="13"></li>
+    <li data-target="#myCarousel" data-slide-to="14"></li>
     
   </ol>
 
   <!-- Wrapper for slides -->
   <div class="carousel-inner">
     <div class="item active">
-      <g:link class="list" action="shelf" controller="product"><asset:image src="master-wang-4.png"/></g:link>
+      <g:link class="list" action="index" controller="photos"><asset:image src="master-wang-4.png"/></g:link>
+    </div>
+    
+    <div class="item">
+      <g:link class="list" action="index" controller="videos"><asset:image src="wall-paper.png"/></g:link>
     </div>
     
     <div class="item">
