@@ -400,9 +400,9 @@
 													<div id="block1" style="border-style:solid; border-color:grey; border-width:1px;margin:1px;font-size:20px">
 													<br>
 													<div style="margin:20px">
-													Checkout videos of Master Wang party, enternal tao and te, as in tao te ching, <g:link action="index" controller="videos">October 20, 2019.</g:link>
+													Checkout photos of Master Wang party, enternal tao and te, as in tao te ching, <g:link action="index" controller="photos">October 20, 2019, Oakland, California.</g:link>
 													<br><br>
-													Checkout photos of Master Wang party, <g:link action="index" controller="photos" id="386">Oakland, California.</g:link>
+													Videos of Master Wang party available soon! <g:link action="index" controller="videos" id="386">Come back here to see the videos.</g:link>
 													<br><br>
 													Checkout our blog, <g:link action="show" controller="blog" id="385">Christ The Eternal Tao - The Way - Part I.</g:link>
 													<br><br>
