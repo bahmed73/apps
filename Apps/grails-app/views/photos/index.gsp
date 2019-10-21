@@ -79,6 +79,8 @@
   <ol class="carousel-indicators">
     <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
     <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+    <li data-target="#myCarousel" data-slide-to="3"></li>
     
   </ol>
 
@@ -90,6 +92,14 @@
     
     <div class="item">
       <g:link class="list" action="index" controller="videos"><asset:image src="wall-paper-2.png"/></g:link>
+    </div>
+    
+    <div class="item">
+      <g:link class="list" action="index" controller="videos"><asset:image src="wall-paper-3.png"/></g:link>
+    </div>
+    
+    <div class="item">
+      <g:link class="list" action="index" controller="videos"><asset:image src="wall-paper-4.png"/></g:link>
     </div>
     
       </div>
