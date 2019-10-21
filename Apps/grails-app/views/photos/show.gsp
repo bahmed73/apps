@@ -75,7 +75,7 @@
 							<!-- Banner -->
 								<section id="banner">
 									<a href="https://mauget.com/">
-										<span class="image image-full"><asset:image src="taim_banner_2.png"/></span>
+										<span class="image image-full"><asset:image src="master-wang-4.png"/></span>
 										<header>
 											<!--  <h2>Foodal</h2>-->
 											<!--span class="byline">welcome!</span-->
@@ -93,6 +93,13 @@
 												<li><g:link url="/">Home</g:link></li>
 												<li><g:link controller="photos" action="edit" id="${photos.id}">Edit Photo</g:link></li>
 												<li><g:link controller="photos" action="index">Show Photos</g:link></li>
+												<li><g:form resource="${this.photos}" method="DELETE" controller="photos" action="delete">
+												    <fieldset class="buttons">
+									                	<input class="delete" type="submit" value="${message(code: 'default.button.delete.label', default: 'Delete')}" onclick="return confirm('${message(code: 'default.button.delete.confirm.message', default: 'Are you sure?')}');" />
+									                </fieldset>
+									                
+									            </g:form>
+									            </li>
 												<!--<li><a href="left-sidebar.html">Login</a></li>-->
 											</ul>
 										</nav>

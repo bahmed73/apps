@@ -113,12 +113,17 @@
     <li data-target="#myCarousel" data-slide-to="10"></li>
     <li data-target="#myCarousel" data-slide-to="11"></li>
     <li data-target="#myCarousel" data-slide-to="12"></li>
+    <li data-target="#myCarousel" data-slide-to="13"></li>
     
   </ol>
 
   <!-- Wrapper for slides -->
   <div class="carousel-inner">
     <div class="item active">
+      <g:link class="list" action="shelf" controller="product"><asset:image src="master-wang-4.png"/></g:link>
+    </div>
+    
+    <div class="item">
       <g:link class="list" action="shelf" controller="product"><asset:image src="facebook.png"/></g:link>
     </div>
     
@@ -395,6 +400,10 @@
 													<div id="block1" style="border-style:solid; border-color:grey; border-width:1px;margin:1px;font-size:20px">
 													<br>
 													<div style="margin:20px">
+													Checkout videos of Master Wang party, enternal tao and te, as in tao te ching, <g:link action="index" controller="videos">October 20, 2019.</g:link>
+													<br><br>
+													Checkout photos of Master Wang party, <g:link action="index" controller="photos" id="386">Oakland, California.</g:link>
+													<br><br>
 													Checkout our blog, <g:link action="show" controller="blog" id="385">Christ The Eternal Tao - The Way - Part I.</g:link>
 													<br><br>
 													Checkout our blog, <g:link action="show" controller="blog" id="386">Christ The Eternal Tao - The Way - Part II.</g:link>
@@ -415,14 +424,6 @@
 													<br><br>
 													Checkout our blog, <g:link action="show" controller="blog" id="225">Surah Yasin.</g:link>
 													<br><br>
-													Check out video, <g:link action="show" controller="videos" id="165">Kaya Project, Vijaya.</g:link>
-													<br><br>
-													Check out video, <g:link action="show" controller="videos" id="162">Thievery Corporation, take my Soul.</g:link>
-													<br><br>
-													Check out video, <g:link action="show" controller="videos" id="161">Nova, from Burial and Four tet.</g:link>
-													<br><br>
-													Check out video, <g:link action="show" controller="videos" id="129">Boogie.</g:link>
-													<br><br>
 													Checkout our blog, <g:link action="show" controller="blog" id="194">Epitome Poems.</g:link>
 													<br><br>
 													Checkout our blog, <g:link action="show" controller="blog" id="193">Microcosmic Epitome II.</g:link>
@@ -436,10 +437,6 @@
 													Checkout our blog, <g:link action="show" controller="blog" id="129">12 Meridians.</g:link>
 													<br><br>
 													Checkout our blog, <g:link action="show" controller="blog" id="98">Yellow Empress.</g:link>
-													<br><br>
-													Check out video, <g:link action="show" controller="videos" id="78">latest from Burial and Four tet.</g:link>
-													<br><br>
-													Check out <g:link action="show" controller="videos" id="66">video of Nipsey Hussle and Eminem.</g:link>
 													<br><br>
 													Check our <g:link action="show" controller="blog" id="33">blog on Cultivation.</g:link>
 													<br><br>
