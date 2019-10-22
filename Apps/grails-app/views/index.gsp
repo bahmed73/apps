@@ -177,7 +177,7 @@
     </div>
     
     <div class="item">
-      <g:link controller="projects" action="index"><asset:image src="master-wang-4.png"/></g:link>
+      <g:link controller="projects" action="index"><asset:image src="wall-paper-5.png"/></g:link>
     </div>
   </div>
 

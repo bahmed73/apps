@@ -75,7 +75,7 @@
 							<!-- Banner -->
 								<section id="banner">
 									
-										<span class="image image-full"><asset:image src="master-wang-4.png"/></span>
+										<span class="image image-full"><asset:image src="wall-paper-5.png"/></span>
 										<header>
 											<!--  <h2>Foodal</h2>-->
 											<!--span class="byline">welcome!</span-->
