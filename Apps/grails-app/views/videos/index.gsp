@@ -10,6 +10,9 @@
 	<asset:stylesheet src="skel-noscript.css"/>
 	<asset:stylesheet src="style.css"/>
 	<asset:stylesheet src="style-desktop.css"/>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 	
 <LINK REL="SHORTCUT ICON"
        HREF="${createLinkTo(dir:'images', file:'favicon.ico')}">
@@ -65,30 +68,65 @@
 	    };
 	</script>
 	
-		<!-- Header Wrapper -->
+				<!-- Header Wrapper -->
 			<div id="header-wrapper">
 				<div class="container">
 					
 					<div class="row">
-						<div id="block3" class="12u">
+						<div class="12u">
+						<div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+    <li data-target="#myCarousel" data-slide-to="3"></li>
+    <li data-target="#myCarousel" data-slide-to="4"></li>
+    <li data-target="#myCarousel" data-slide-to="5"></li>
+    
+  </ol>
 
-							<!-- Banner -->
-								<section id="banner">
-									
-										<span class="image image-full"><asset:image src="master-wang-4.png"/></span>
-										<header>
-										<!-- 
-											<h2>Shop</h2> 
-											<span class="byline">Bring your store business online.</span>
-											 -->
-										</header>
-									
-									
-								</section>
-								
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <div class="item active">
+      <g:link class="list" action="index" controller="photos"><asset:image src="master-wang-4.png"/></g:link>
+    </div>
+    
+    <div class="item">
+      <g:link class="list" action="index" controller="photos"><asset:image src="wall-paper.png"/></g:link>
+    </div>
+    
+    <div class="item">
+      <g:link class="list" action="index" controller="photos"><asset:image src="wall-paper-2.png"/></g:link>
+    </div>
+    
+    <div class="item">
+      <g:link class="list" action="index" controller="photos"><asset:image src="wall-paper-3.png"/></g:link>
+    </div>
+    
+    <div class="item">
+      <g:link class="list" action="index" controller="photos"><asset:image src="wall-paper-4.png"/></g:link>
+    </div>
+    
+    <div class="item">
+      <g:link class="list" action="index" controller="photos"><asset:image src="wall-paper-5.png"/></g:link>
+    </div>
+    
+      </div>
+
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+						
 						</div>
-					</div>
-					
+					</div>					
 								<!-- Nav -->
 										<nav id="nav">
 											<ul>
