@@ -107,25 +107,13 @@
     <li data-target="#myCarousel" data-slide-to="4"></li>
     <li data-target="#myCarousel" data-slide-to="5"></li>
     <li data-target="#myCarousel" data-slide-to="6"></li>
-    <li data-target="#myCarousel" data-slide-to="7"></li>
-    <li data-target="#myCarousel" data-slide-to="8"></li>
-    <li data-target="#myCarousel" data-slide-to="9"></li>
-    <li data-target="#myCarousel" data-slide-to="10"></li>
-    <li data-target="#myCarousel" data-slide-to="11"></li>
-    <li data-target="#myCarousel" data-slide-to="12"></li>
-    <li data-target="#myCarousel" data-slide-to="13"></li>
-    <li data-target="#myCarousel" data-slide-to="14"></li>
     
   </ol>
 
   <!-- Wrapper for slides -->
   <div class="carousel-inner">
     <div class="item active">
-      <g:link class="list" action="index" controller="photos"><asset:image src="master-wang-4.png"/></g:link>
-    </div>
-    
-    <div class="item">
-      <g:link class="list" action="index" controller="videos"><asset:image src="wall-paper.png"/></g:link>
+      <g:link class="list" action="index" controller="photos"><asset:image src="project-management.png"/></g:link>
     </div>
     
     <div class="item">
@@ -134,10 +122,6 @@
     
     <div class="item">
       <g:link class="list" action="shelf" controller="product"><asset:image src="launch.png"/></g:link>
-    </div>
-    
-    <div class="item">
-      <g:link class="list" action="shelf" controller="product"><asset:image src="goaled.png"/></g:link>
     </div>
     
     <div class="item">
@@ -155,30 +139,7 @@
     <div class="item">
       <g:link controller="notes" action="index"><asset:image src="taim_banner_8.png"/></g:link>
     </div>
-    
-	<div class="item">
-      <g:link controller="product" action="sales"><asset:image src="taim_banner_2.png"/></g:link>
-    </div>
-    
-    <div class="item">
-      <g:link controller="product" action="analytics"><asset:image src="taim_banner_3.png"/></g:link>
-    </div>
 
-    <div class="item">
-      <g:link controller="videos" action="index"><asset:image src="taim_banner_4.png"/></g:link>
-    </div>
-    
-    <div class="item">
-      <g:link controller="blog" action="index"><asset:image src="taim_banner_5.png"/></g:link>
-    </div>   
-    
-    <div class="item">
-      <g:link controller="projects" action="index"><asset:image src="taim_banner_1.png"/></g:link>
-    </div>
-    
-    <div class="item">
-      <g:link controller="projects" action="index"><asset:image src="wall-paper-5.png"/></g:link>
-    </div>
   </div>
 
   <!-- Left and right controls -->
@@ -199,8 +160,8 @@
 										<nav id="nav">
 											<ul>
 												<li><g:link class="list" action="shelf" controller="product"><span>Dashboard</span></g:link></li>
-												<li><g:link controller="product" action="analytics">Analytics</g:link></li>
-												<li><g:link controller="product" action="sales">Sales</g:link></li>
+												<!--  <li><g:link controller="product" action="analytics">Analytics</g:link></li>
+												<li><g:link controller="product" action="sales">Sales</g:link></li>-->
 												<!--<li><a href="left-sidebar.html">Login</a></li>-->
 											</ul>
 										</nav>
@@ -216,177 +177,17 @@
 													<!-- <a href="http://www.mytweetmark.com" class="image image-full"><asset:image src="foodal-homepage-16.png"/></a> -->
 													<div id="block2">
 													<header>
-														<span style="font-size:35px;color:#878282">What is your Goal?</span>
+														<span style="font-size:35px;color:#878282">Create projects, tasks and notes.</span>
 													</header>
 													<br><br>
 													<ul id="menu2">
-													<li><div><span style="color:#8a7e7e;font-size:20px"><asset:image src="goal-1.png"/> Entrepreneurship</span></div>
+													<li><div><span style="font-size:20px"><asset:image src="goal-1.png"/> Start Here -></span></div>
 													<ul>
 													<li><div><g:link class="list" action="index" controller="projects"><span style="color:#8a7e7e;font-size:20px">Projects</span></g:link></div></li>
 													<li>-</li>
 													<li><div><g:link class="list" action="index" controller="tasks"><span style="color:#8a7e7e;font-size:20px">Tasks</span></g:link></div></li>
 													<li>-</li>
 													<li><div><g:link class="list" action="index" controller="notes"><span style="color:#8a7e7e;font-size:20px">Notes</span></g:link></div></li>
-													<li>-</li>
-													<li><div><g:link class="list" action="index" controller="products"><span style="color:#8a7e7e;font-size:20px">Products</span></g:link></div></li>
-													<li>-</li>
-													<li><div><g:link class="list" controller="coupon" action="index"><span style="color:#8a7e7e;font-size:20px">Coupons</span></g:link></div></li>
-													<li>-</li>
-													<li><div><g:link class="list" controller="blog" action="index"><span style="color:#8a7e7e;font-size:20px">Blog</span></g:link></div></li>
-													<li>-</li>
-													<li><div><g:link class="list" controller="product" action="analytics"><span style="color:#8a7e7e;font-size:20px">Analytics</span></g:link></div>
-													<ul>
-													<li><div><g:link class="list" action="index" controller="productView"><span style="color:#8a7e7e;">Product Views</span></g:link></div></li>
-													<li>-</li>
-													<li><div><g:link class="list" action="export" controller="productView"><span style="color:#8a7e7e;">Download Report: Product Views</span></g:link></div></li>
-													<li>-</li>
-													<li><div><g:link class="list" action="index" controller="productReferer"><span style="color:#8a7e7e;">Product Referers</span></g:link></div></li>
-													<li>-</li>
-													<li><div><g:link class="list" action="export" controller="productReferer"><span style="color:#8a7e7e;">Download Report: Product Referers</span></g:link></div></li>
-													<li>-</li>
-													<li><div><g:link class="list" action="index" controller="blogView"><span style="color:#8a7e7e;">Blog Views</span></g:link></div></li>
-													<li>-</li>
-													<li><div><g:link class="list" action="export" controller="blogView"><span style="color:#8a7e7e;">Download Report: Blog Views</span></g:link></div></li>
-													<li>-</li>
-													<li><div><g:link class="list" action="index" controller="blogReferer"><span style="color:#8a7e7e;">Blog Referer</span></g:link></div></li>
-													<li>-</li>
-													<li><div><g:link class="list" action="export" controller="blogReferer"><span style="color:#8a7e7e;">Download Report: Blog Referers</span></g:link></div></li>
-													</ul>
-													</li>
-													<li>-</li>
-													<li><div><g:link controller="product" action="sales"><span style="color:#8a7e7e;font-size:20px">Sales</span></g:link></div>
-													<ul>
-													<li><div><g:link class="list" action="index" controller="inventory"><span style="color:#8a7e7e;">Inventory</span></g:link></div></li>
-													<li>-</li>
-													<li><div><g:link class="list" action="export" controller="inventory"><span style="color:#8a7e7e;">Download Report: Inventory</span></g:link></div></li>
-													<li>-</li>
-													<li><div><g:link class="list" action="index" controller="seasonCatalog"><span style="color:#8a7e7e;">Season Catalog</span></g:link></div></li>
-													<li>-</li>
-													<li><div><g:link class="list" action="export" controller="seasonCatalog"><span style="color:#8a7e7e;">Download Report: Season Catalog</span></g:link></div></li>
-													<li>-</li>
-													<li><div><g:link class="list" action="index" controller="allocationForecast"><span style="color:#8a7e7e;">Allocation Forecast</span></g:link></div></li>
-													<li>-</li>
-													<li><div><g:link class="list" action="export" controller="allocationForecast"><span style="color:#8a7e7e;">Download Report: Allocation Forecast</span></g:link></div></li>
-													<li>-</li>
-													<li><div><g:link class="list" action="index" controller="goalSeek"><span style="color:#8a7e7e;">Goal Seek</span></g:link></div></li>
-													<li>-</li>
-													<li><div><g:link class="list" action="export" controller="goalSeek"><span style="color:#8a7e7e;">Download Report: Goal Seek</span></g:link></div></li>
-													<li>-</li>
-													<li><div><g:link class="list" action="index" controller="targetInventory"><span style="color:#8a7e7e;">Target Inventory</span></g:link></div></li>
-													<li>-</li>
-													<li><div><g:link class="list" action="export" controller="targetInventory"><span style="color:#8a7e7e;">Download Report: Target Inventory</span></g:link></div></li>
-													<li>-</li>
-													<li><div><g:link class="list" action="index" controller="customers"><span style="color:#8a7e7e;">Customers</span></g:link></div></li>
-													<li>-</li>
-													<li><div><g:link class="list" action="export" controller="customers"><span style="color:#8a7e7e;">Download Report: Customers</span></g:link></div></li>
-													<li>-</li>
-													<li><div><g:link class="list" action="index" controller="vendors"><span style="color:#8a7e7e;">Vendors</span></g:link></div></li>
-													<li>-</li>
-													<li><div><g:link class="list" action="export" controller="vendors"><span style="color:#8a7e7e;">Download Report: Vendors</span></g:link></div></li>
-													</ul>
-													</li>
-													</ul>
-													</li>
-													<li>-</li>
-													<li><div><span style="color:#8a7e7e;font-size:20px"><asset:image src="goal-2.png"/> Make Money</span></div>
-													<ul>
-													<li><div><g:link class="list" action="index" controller="projects"><span style="color:#8a7e7e;font-size:20px">Projects</span></g:link></div></li>
-													<li>-</li>
-													<li><div><g:link class="list" action="index" controller="tasks"><span style="color:#8a7e7e;font-size:20px">Tasks</span></g:link></div></li>
-													<li>-</li>
-													<li><div><g:link class="list" action="index" controller="notes"><span style="color:#8a7e7e;font-size:20px">Notes</span></g:link></div></li>
-													<li>-</li>
-													<li><div><g:link class="list" action="index" controller="products"><span style="color:#8a7e7e;font-size:20px">Products</span></g:link></div></li>
-													<li>-</li>
-													<li><div><g:link class="list" controller="coupon" action="index"><span style="color:#8a7e7e;font-size:20px">Coupons</span></g:link></div></li>
-													<li>-</li>
-													<li><div><g:link class="list" controller="blog" action="index"><span style="color:#8a7e7e;font-size:20px">Blog</span></g:link></div></li>
-													<li>-</li>
-													<li><div><g:link class="list" controller="product" action="analytics"><span style="color:#8a7e7e;font-size:20px">Analytics</span></g:link></div>
-													<ul>
-													<li><div><g:link class="list" action="index" controller="productView"><span style="color:#8a7e7e;">Product Views</span></g:link></div></li>
-													<li>-</li>
-													<li><div><g:link class="list" action="export" controller="productView"><span style="color:#8a7e7e;">Download Report: Product Views</span></g:link></div></li>
-													<li>-</li>
-													<li><div><g:link class="list" action="index" controller="productReferer"><span style="color:#8a7e7e;">Product Referers</span></g:link></div></li>
-													<li>-</li>
-													<li><div><g:link class="list" action="export" controller="productReferer"><span style="color:#8a7e7e;">Download Report: Product Referers</span></g:link></div></li>
-													<li>-</li>
-													<li><div><g:link class="list" action="index" controller="blogView"><span style="color:#8a7e7e;">Blog Views</span></g:link></div></li>
-													<li>-</li>
-													<li><div><g:link class="list" action="export" controller="blogView"><span style="color:#8a7e7e;">Download Report: Blog Views</span></g:link></div></li>
-													<li>-</li>
-													<li><div><g:link class="list" action="index" controller="blogReferer"><span style="color:#8a7e7e;">Blog Referer</span></g:link></div></li>
-													<li>-</li>
-													<li><div><g:link class="list" action="export" controller="blogReferer"><span style="color:#8a7e7e;">Download Report: Blog Referers</span></g:link></div></li>
-													</ul>
-													</li>
-													<li>-</li>
-													<li><div><g:link controller="product" action="sales"><span style="color:#8a7e7e;font-size:20px">Sales</span></g:link></div>
-													<ul>
-													<li><div><g:link class="list" action="index" controller="inventory"><span style="color:#8a7e7e;">Inventory</span></g:link></div></li>
-													<li>-</li>
-													<li><div><g:link class="list" action="export" controller="inventory"><span style="color:#8a7e7e;">Download Report: Inventory</span></g:link></div></li>
-													<li>-</li>
-													<li><div><g:link class="list" action="index" controller="seasonCatalog"><span style="color:#8a7e7e;">Season Catalog</span></g:link></div></li>
-													<li>-</li>
-													<li><div><g:link class="list" action="export" controller="seasonCatalog"><span style="color:#8a7e7e;">Download Report: Season Catalog</span></g:link></div></li>
-													<li>-</li>
-													<li><div><g:link class="list" action="index" controller="allocationForecast"><span style="color:#8a7e7e;">Allocation Forecast</span></g:link></div></li>
-													<li>-</li>
-													<li><div><g:link class="list" action="export" controller="allocationForecast"><span style="color:#8a7e7e;">Download Report: Allocation Forecast</span></g:link></div></li>
-													<li>-</li>
-													<li><div><g:link class="list" action="index" controller="goalSeek"><span style="color:#8a7e7e;">Goal Seek</span></g:link></div></li>
-													<li>-</li>
-													<li><div><g:link class="list" action="export" controller="goalSeek"><span style="color:#8a7e7e;">Download Report: Goal Seek</span></g:link></div></li>
-													<li>-</li>
-													<li><div><g:link class="list" action="index" controller="targetInventory"><span style="color:#8a7e7e;">Target Inventory</span></g:link></div></li>
-													<li>-</li>
-													<li><div><g:link class="list" action="export" controller="targetInventory"><span style="color:#8a7e7e;">Download Report: Target Inventory</span></g:link></div></li>
-													<li>-</li>
-													<li><div><g:link class="list" action="index" controller="customers"><span style="color:#8a7e7e;">Customers</span></g:link></div></li>
-													<li>-</li>
-													<li><div><g:link class="list" action="export" controller="customers"><span style="color:#8a7e7e;">Download Report: Customers</span></g:link></div></li>
-													<li>-</li>
-													<li><div><g:link class="list" action="index" controller="vendors"><span style="color:#8a7e7e;">Vendors</span></g:link></div></li>
-													<li>-</li>
-													<li><div><g:link class="list" action="export" controller="vendors"><span style="color:#8a7e7e;">Download Report: Vendors</span></g:link></div></li>
-													</ul>
-													</li>
-													</ul>
-													</li>
-													<li>-</li>
-													<li><div><span style="color:#8a7e7e;font-size:20px"><asset:image src="goal-3.png"/> Be Happy</span></div>
-													<ul>
-													<li><div><g:link class="list" action="index" controller="photos"><span style="color:#8a7e7e;font-size:20px">Photos</span></g:link></div></li>
-													<li>-</li>
-													<li><div><g:link class="list" action="index" controller="videos"><span style="color:#8a7e7e;font-size:20px">Videos</span></g:link></div></li>
-													<li>-</li>
-													<li><div><g:link class="list" controller="blog" action="index"><span style="color:#8a7e7e;font-size:20px">Blog</span></g:link></div></li>
-													</ul>
-													</li>
-													<li>-</li>
-													<li><div><span style="color:#8a7e7e;font-size:20px"><asset:image src="goal-4.png"/> Help Others</span></div>
-													<ul>
-													<li><div><g:link class="list" action="index" controller="videos"><span style="color:#8a7e7e;font-size:20px">Videos</span></g:link></div></li>
-													<li>-</li>
-													<li><div><g:link class="list" controller="blog" action="index"><span style="color:#8a7e7e;font-size:20px">Blog</span></g:link></div></li>
-													</ul>
-													</li>
-													<li>-</li>
-													<li><div><span style="color:#8a7e7e;font-size:20px"><asset:image src="goal-5.png"/> Self Realization</span></div>
-													<ul>
-													<li><div><g:link class="list" action="index" controller="videos"><span style="color:#8a7e7e;font-size:20px">Videos</span></g:link></div></li>
-													<li>-</li>
-													<li><div><g:link class="list" controller="blog" action="index"><span style="color:#8a7e7e;font-size:20px">Blog</span></g:link></div></li>
-													</ul>
-													</li>
-													<li>-</li>
-													<li><div><span style="color:#8a7e7e;font-size:20px"><asset:image src="goal-6.png"/> Health</span></div>
-													<ul>
-													<li><div><g:link class="list" action="index" controller="videos"><span style="color:#8a7e7e;font-size:20px">Videos</span></g:link></div></li>
-													<li>-</li>
-													<li><div><g:link class="list" action="index" controller="products"><span style="color:#8a7e7e;font-size:20px">Products</span></g:link></div></li>
 													</ul>
 													</li>
 													</ul>
@@ -404,50 +205,10 @@
 													
 													<div id="block1" style="border-style:solid; border-color:grey; border-width:1px;margin:1px;font-size:20px">
 													<br>
+													<div><span style="color:#8a7e7e;font-size:20px"><asset:image src="goal-2.png"/></span></div>
+													<br>
 													<div style="margin:20px">
-													Checkout photos of Master Wang party, enternal tao and te, as in tao te ching, <g:link action="index" controller="photos">October 20, 2019, Oakland, California.</g:link>
-													<br><br>
-													Videos of Master Wang party available soon! <g:link action="index" controller="videos" id="386">Come back here to see the videos.</g:link>
-													<br><br>
-													Checkout our blog, <g:link action="show" controller="blog" id="385">Christ The Eternal Tao - The Way - Part I.</g:link>
-													<br><br>
-													Checkout our blog, <g:link action="show" controller="blog" id="386">Christ The Eternal Tao - The Way - Part II.</g:link>
-													<br><br>
-													Checkout our blog, <g:link action="show" controller="blog" id="417">Christ The Eternal Tao - The Way - Part III.</g:link>
-													<br><br>
-													Checkout our blog, <g:link action="show" controller="blog" id="449">Christ The Eternal Tao - The Way - Part IV.</g:link>
-													<br><br>
-													Checkout our blog, <g:link action="show" controller="blog" id="450">Christ The Eternal Tao - The Way - Part V.</g:link>
-													<br><br>
-													Checkout our blog, <g:link action="show" controller="blog" id="481">Christ The Eternal Tao - The Way - Part VI.</g:link>
-													<br><br>
-													Checkout our blog, <g:link action="show" controller="blog" id="545">Christ The Eternal Tao - The Way - Part VII.</g:link>
-													<br><br>
-													Checkout our blog, <g:link action="show" controller="blog" id="289">The forth Way - Samadhi and Turiya.</g:link>
-													<br><br>
-													Checkout our blog, <g:link action="show" controller="blog" id="257">Ja Jum - Syllabul.</g:link>
-													<br><br>
-													Checkout our blog, <g:link action="show" controller="blog" id="225">Surah Yasin.</g:link>
-													<br><br>
-													Checkout our blog, <g:link action="show" controller="blog" id="194">Epitome Poems.</g:link>
-													<br><br>
-													Checkout our blog, <g:link action="show" controller="blog" id="193">Microcosmic Epitome II.</g:link>
-													<br><br>
-													Checkout our blog, <g:link action="show" controller="blog" id="163">Microcosmic Epitome.</g:link>
-													<br><br>
-													Checkout our blog, <g:link action="show" controller="blog" id="162">Microcosmic Diet.</g:link>
-													<br><br>
-													Checkout our blog, <g:link action="show" controller="blog" id="161">Bird Diet.</g:link>
-													<br><br>
-													Checkout our blog, <g:link action="show" controller="blog" id="129">12 Meridians.</g:link>
-													<br><br>
-													Checkout our blog, <g:link action="show" controller="blog" id="98">Yellow Empress.</g:link>
-													<br><br>
-													Check our <g:link action="show" controller="blog" id="33">blog on Cultivation.</g:link>
-													<br><br>
-													Checkout our blog, <g:link action="show" controller="blog" id="65">Vegan Hot Girl.</g:link>
-													<br><br>
-													Checkout our blog, <g:link action="show" controller="blog" id="97">Diamond Sutras.</g:link>
+													Contact Us! We would love to hear from you.
 													</div>
 													<br>
 														

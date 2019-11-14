@@ -92,7 +92,7 @@
 							<!-- Banner -->
 								<section id="banner">
 									
-										<span class="image image-full"><asset:image src="taim_banner_9.png"/></span>
+										<span class="image image-full"><asset:image src="project-management.png"/></span>
 										<header>
 										<!-- 
 											<h2>Shop</h2> 
@@ -110,7 +110,7 @@
 										<nav id="nav">
 											<ul>
 												<li><g:link url="/">Home</g:link></li>
-												<li><g:link controller="product" action="analytics">Analytics</g:link></li>
+												<!--<li><g:link controller="product" action="analytics">Analytics</g:link></li>
 												<li><g:link controller="product" action="sales">Sales</g:link></li>
 												<!--<li><a href="left-sidebar.html">Login</a></li>-->
 											</ul>
@@ -137,11 +137,11 @@
 													
 													<ul id="menu">
 													<li><div><g:link class="list" action="index" controller="projects"><span style="color:#8a7e7e;font-size:20px">Projects (beta)</span></g:link></div></li>
-													<li>-</li>
 													<li><div><g:link class="list" action="index" controller="tasks"><span style="color:#8a7e7e;font-size:20px">Tasks (beta)</span></g:link></div></li>
-													<li>-</li>
 													<li><div><g:link class="list" action="index" controller="notes"><span style="color:#8a7e7e;font-size:20px">Notes (beta)</span></g:link></div></li>
+													<!-- 
 													<li>-</li>
+													
 													<li><div><g:link class="list" action="index" controller="photos"><span style="color:#8a7e7e;font-size:20px">Photos</span></g:link></div></li>
 													<li>-</li>
 													<li><div><g:link class="list" action="index" controller="videos"><span style="color:#8a7e7e;font-size:20px">Videos</span></g:link></div></li>
@@ -203,7 +203,7 @@
 													<li><div><g:link class="list" action="export" controller="vendors"><span style="color:#8a7e7e;">Download Report: Vendors</span></g:link></div></li>
 													</ul>
 													</li>
-													
+													 -->
 													</ul>
 													</div>
 													<br>
@@ -222,17 +222,12 @@
 													<div id="block1" style="border-style:solid; border-color:grey; border-width:1px;margin:1px;font-size:20px;color:#000000">
 													<br>
 													<div style="margin:20px">
-													1. Create products you are ready to sell. 
+													1. Create projects. 
 													<br><br>
-													2. Create a blog for marketing.
+													2. Create tasks within the project.
 													<br><br>
-													3. Go to Sales -> Inventory and start managing your store.
+													3. Write notes on the tasks for your team.
 													<br><br>
-													4. Setup Marketing -> coupons, for example, discount percentage off.
-													<br><br>
-													5. View Anaytics -> page referrers and page views.
-													<br><br>
-													6. Manage customers and vendors from Sales -> goal seek, target inventory and Season Catalog.
 													</div>
 													<br>
 													</div>
