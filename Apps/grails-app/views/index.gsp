@@ -107,6 +107,9 @@
     <li data-target="#myCarousel" data-slide-to="4"></li>
     <li data-target="#myCarousel" data-slide-to="5"></li>
     <li data-target="#myCarousel" data-slide-to="6"></li>
+    <li data-target="#myCarousel" data-slide-to="7"></li>
+    <li data-target="#myCarousel" data-slide-to="8"></li>
+    <li data-target="#myCarousel" data-slide-to="9"></li>
     
   </ol>
 
@@ -116,6 +119,19 @@
       <g:link class="list" action="index" controller="photos"><asset:image src="project-management.png"/></g:link>
     </div>
     
+    <div class="item">
+      <g:link class="list" action="shelf" controller="product"><asset:image src="project-management-2.png"/></g:link>
+    </div>
+    
+    <div class="item">
+      <g:link class="list" action="shelf" controller="product"><asset:image src="project-management-3.png"/></g:link>
+    </div>
+    
+    <div class="item">
+      <g:link class="list" action="shelf" controller="product"><asset:image src="project-management-4.png"/></g:link>
+    </div>
+    
+   
     <div class="item">
       <g:link class="list" action="shelf" controller="product"><asset:image src="facebook.png"/></g:link>
     </div>
@@ -208,7 +224,7 @@
 													<div><span style="color:#8a7e7e;font-size:20px"><asset:image src="goal-2.png"/></span></div>
 													<br>
 													<div style="margin:20px">
-													Contact Us! We would love to hear from you.
+													For casual users, we offer tracking projects, tasks and notes. For advanced users, weekly sprint planning, business requirements document and product roadmap tools for the team.
 													</div>
 													<br>
 														
