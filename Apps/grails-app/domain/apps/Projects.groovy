@@ -11,6 +11,8 @@ class Projects {
 		byte[] imageTwo
 		byte[] imageThree
 		User user
+		Date dueDate
+		String status
 
     static constraints = {
                 //id(nullable:true)
@@ -22,6 +24,9 @@ class Projects {
 				imageTwo(nullable:true, maxSize: 1024 * 1024 * 2)
 				imageThree(nullable:true, maxSize: 1024 * 1024 * 2)
 				user(nullable:false)
+				dueDate(nullable:true)
+				status(nullable:true, maxSize:500)
+				
 				
     }
 }
