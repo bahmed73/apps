@@ -75,7 +75,7 @@
 							<!-- Banner -->
 								<section id="banner">
 									<a href="https://mauget.com/">
-										<span class="image image-full"><asset:image src="project-management-4.png"/></span>
+										<span class="image image-full"><asset:image src="taim_banner_6.png"/></span>
 										<header>
 											<!--  <h2>Foodal</h2>-->
 											<!--span class="byline">welcome!</span-->
