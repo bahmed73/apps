@@ -111,7 +111,15 @@
 													<br><br>
 													<p style="font-size:18px;color:#8a7e7e;">Description: <f:display bean="projects" property="description"/></p>
 													<br><br>
-													
+													<g:if test="${tasks}">
+													<header>
+														<span style="font-size:25px;color:#9b9ea9">Tasks:</span>
+													</header>
+													<br>
+													<g:each in="${tasks}" status="i" var="tasksInstance">
+													<g:link action="show" controller="tasks" id="${tasksInstance.id}"><span style="font-size:15px;color:#9b9ea9">${tasksInstance.name}</span></g:link>
+													</g:each>
+													</g:if>
 												</section>
 											</div>
 											<div id="block2">

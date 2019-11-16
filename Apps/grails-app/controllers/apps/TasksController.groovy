@@ -35,7 +35,10 @@ class TasksController {
 
 	@Secured(['ROLE_ADMIN', 'ROLE_ANONYMOUS'])
     def show(Tasks tasks) {
-        respond tasks
+		def notes = Notes.findAllByTask(tasks)
+		[tasks:tasks, notes:notes]
+		//respond projects
+        //respond tasks
     }
 
     def create() {

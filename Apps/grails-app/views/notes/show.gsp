@@ -111,9 +111,9 @@
 													<br><br>
 													<p style="font-size:18px;color:#8a7e7e;">Note: <f:display bean="notes" property="description"/></p>
 													<br><br>
-													<p style="font-size:18px;color:#8a7e7e;">Tasks: <f:display bean="notes" property="task.name"/></p>
+													<p style="font-size:18px;color:#8a7e7e;">Tasks: <g:link action="show" controller="tasks" id="${notes.task.id}"><span style="font-size:15px;color:#9b9ea9">${notes.task.name}</span></g:link></p>
 													<br><br>
-													<p style="font-size:18px;color:#8a7e7e;">Projects: <f:display bean="notes" property="task.project.name"/></p>
+													<p style="font-size:18px;color:#8a7e7e;">Projects: <g:link action="show" controller="projects" id="${notes.task.project.id}"><span style="font-size:15px;color:#9b9ea9">${notes.task.project.name}</span></g:link></p>
 													<br><br>
 													<p style="font-size:18px;color:#8a7e7e;">User: <f:display bean="notes" property="user.username"/></p>
 													<br><br>
