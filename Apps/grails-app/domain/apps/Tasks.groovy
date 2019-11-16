@@ -12,6 +12,8 @@ class Tasks {
 		byte[] imageThree
 		User user
 		Projects project
+		String duration
+		String priority
 
     static constraints = {
                 //id(nullable:true)
@@ -24,6 +26,8 @@ class Tasks {
 				imageThree(nullable:true, maxSize: 1024 * 1024 * 2)
 				user(nullable:false)
 				project(nullable:false)
+				duration(nullable:true)
+				priority(nullable:true)
 				
     }
 }

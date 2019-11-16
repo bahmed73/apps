@@ -115,6 +115,10 @@
 														<br><br>
 														<p style="font-size:20px;color:#8a7e7e;">Description: ${tasksInstance.description}</p>
 														<br><br>
+														<p style="font-size:20px;color:#8a7e7e;">Duration: ${tasksInstance.duration}</p>
+														<br><br>
+														<p style="font-size:20px;color:#8a7e7e;">Priority: ${tasksInstance.priority}</p>
+														<br><br>
 														<p style="font-size:20px;color:#8a7e7e;">Projects: ${tasksInstance.project.name}</p>
 														<br><br>
 														<g:link controller="tasks" action="show" id="${tasksInstance.id}"><span style="color:#8a7e7e;">Show full tasks...</span></g:link>
