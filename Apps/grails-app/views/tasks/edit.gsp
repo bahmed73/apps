@@ -29,7 +29,10 @@
             <g:form resource="${this.tasks}" method="POST" enctype="multipart/form-data">
                 <g:hiddenField name="version" value="${this.tasks?.version}" />
                 <fieldset class="form">
-                    <f:all bean="tasks" except="imageOne, imageTwo, imageThree"/>
+                    <f:all bean="tasks" except="imageOne, imageTwo, imageThree, project"/>
+                </fieldset>
+                <fieldset>
+                <f:field bean="tasks" property="project" widget-optionValue="name"/>
                 </fieldset>
                 <fieldset>
                 	<div style="float:left;width:50" class="post"><h4>Upload Tasks Image (JPG):</h4></div>

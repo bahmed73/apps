@@ -27,7 +27,10 @@
             </g:hasErrors>
             <g:form action="save" method="post" enctype="multipart/form-data">
                 <fieldset class="form">
-                    <f:all bean="notes" except="imageOne, imageTwo, imageThree"/>
+                    <f:all bean="notes" except="imageOne, imageTwo, imageThree, task"/>
+                </fieldset>
+                <fieldset>
+                <f:field bean="notes" property="task" widget-optionValue="name"/>
                 </fieldset>
                 <fieldset>
                 	<div style="float:left;width:50" class="post"><h4>Upload Notes Image (JPG):</h4></div>
