@@ -20,6 +20,7 @@ class ProjectsController {
     def index(Integer max) {
         params.max = Math.min(max ?: 10, 100)
 		
+		/*
 		def user = springSecurityService.currentUser
 		
 		if (user != null) {
@@ -28,7 +29,8 @@ class ProjectsController {
 		} else {
 			def projectsList = Projects.findAll()
 			respond projectsList
-		}
+		}*/
+		
         respond Projects.list(params), model:[projectsCount: Projects.count()]
     }
 

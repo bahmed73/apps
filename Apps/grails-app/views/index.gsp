@@ -1,8 +1,8 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<meta name="description" content="Shop - Bring your store business online." />
-<meta name="keywords" content="shop, buy, sell, organic, health, nutrient, california, blogger, socialmedia, socialmedia blogger, social media blogger, facebook, facebook feed, twitter, twitter update, twitter" />
+		<meta name="description" content="Shop - Bring your store business online. Start with our project management tools." />
+<meta name="keywords" content="agile development, sprint planning, lean startup, customer development, product development, product roadmap, project management, product backlog" />
 <meta http-equiv="window-target" content="_top" />
 <META HTTP-EQUIV="CACHE-CONTROL" CONTENT="PUBLIC">
 	<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
@@ -197,15 +197,11 @@
 													</header>
 													<br><br>
 													<ul id="menu2">
-													<li><div><span style="font-size:20px"><asset:image src="goal-1.png"/> Start Here -></span></div>
-													<ul>
-													<li><div><g:link class="list" action="index" controller="projects"><span style="color:#8a7e7e;font-size:20px">Projects</span></g:link></div></li>
+													<li><div><g:link class="list" action="index" controller="projects"><span style="color:#8a7e7e;font-size:20px"><asset:image src="goal-1.png"/>Projects</span></g:link></div></li>
 													<li>-</li>
-													<li><div><g:link class="list" action="index" controller="tasks"><span style="color:#8a7e7e;font-size:20px">Tasks</span></g:link></div></li>
+													<li><div><g:link class="list" action="index" controller="tasks"><span style="color:#8a7e7e;font-size:20px"><asset:image src="goal-4.png"/>Tasks</span></g:link></div></li>
 													<li>-</li>
-													<li><div><g:link class="list" action="index" controller="notes"><span style="color:#8a7e7e;font-size:20px">Notes</span></g:link></div></li>
-													</ul>
-													</li>
+													<li><div><g:link class="list" action="index" controller="notes"><span style="color:#8a7e7e;font-size:20px"><asset:image src="goal-3.png"/>Notes</span></g:link></div></li>
 													</ul>
 													</div>
 													
@@ -221,10 +217,18 @@
 													
 													<div id="block1" style="border-style:solid; border-color:grey; border-width:1px;margin:1px;font-size:20px">
 													<br>
-													<div><span style="color:#8a7e7e;font-size:20px"><asset:image src="goal-2.png"/></span></div>
+													<div><g:link class="list" action="index" controller="projects"><span style="color:#8a7e7e;font-size:20px"><asset:image src="goal-2.png"/></span></g:link></div>
 													<br>
 													<div style="margin:20px">
-													For casual users, we offer tracking projects, tasks and notes. For advanced users, weekly sprint planning, business requirements document and product roadmap tools for the team.
+													For casual users, we offer tracking projects, tasks and notes. For advanced users, weekly agile development sprint planning, business requirements document and product roadmap tools for the team.
+													</div>
+													
+													<div style="margin:20px">
+													You can also download your product backlog in pdf format. We love agile development however hope to provide you with simpler project management experience.
+													</div>
+													
+													<div style="margin:20px">
+													Please contact us if you love Lean Startup, Customer Development - We would love your feedback and add you to our user group testing team.
 													</div>
 													<br>
 														
