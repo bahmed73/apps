@@ -197,11 +197,17 @@
 													</header>
 													<br><br>
 													<ul id="menu2">
-													<li><div><g:link class="list" action="index" controller="projects"><span style="color:#8a7e7e;font-size:20px"><asset:image src="goal-1.png"/>Projects</span></g:link></div></li>
+													<li><div><g:link class="list" action="index" controller="projects"><span style="color:#8a7e7e;font-size:20px"><asset:image src="goal-1.png" width="125"/> Projects</span></g:link></div></li>
 													<li>-</li>
-													<li><div><g:link class="list" action="index" controller="tasks"><span style="color:#8a7e7e;font-size:20px"><asset:image src="goal-4.png"/>Tasks</span></g:link></div></li>
+													<li><div><g:link class="list" action="index" controller="tasks"><span style="color:#8a7e7e;font-size:20px"><asset:image src="goal-2.png" width="125"/> Tasks</span></g:link></div></li>
 													<li>-</li>
-													<li><div><g:link class="list" action="index" controller="notes"><span style="color:#8a7e7e;font-size:20px"><asset:image src="goal-3.png"/>Notes</span></g:link></div></li>
+													<li><div><g:link class="list" action="index" controller="notes"><span style="color:#8a7e7e;font-size:20px"><asset:image src="goal-3.png" width="125"/> Task Notes</span></g:link></div></li>
+													<li>-</li>
+													<li><div><g:link class="list" action="index" controller="sprint"><span style="color:#8a7e7e;font-size:20px"><asset:image src="goal-4.png" width="125"/> Sprint Planning</span></g:link></div></li>
+													<li>-</li>
+													<li><div><g:link class="list" action="index" controller="meeting"><span style="color:#8a7e7e;font-size:20px"><asset:image src="goal-5.png" width="125"/> Meeting Notes</span></g:link></div></li>
+													<li>-</li>
+													<li><div><g:link class="list" action="index" controller="backlog"><span style="color:#8a7e7e;font-size:20px"><asset:image src="goal-6.png" width="125"/> Agile Backlog</span></g:link></div></li>
 													</ul>
 													</div>
 													
@@ -217,14 +223,16 @@
 													
 													<div id="block1" style="border-style:solid; border-color:grey; border-width:1px;margin:1px;font-size:20px">
 													<br>
-													<div><g:link class="list" action="index" controller="projects"><span style="color:#8a7e7e;font-size:20px"><asset:image src="goal-2.png"/></span></g:link></div>
-													<br>
 													<div style="margin:20px">
 													For casual users, we offer tracking projects, tasks and notes. For advanced users, weekly agile development sprint planning, business requirements document and product roadmap tools for the team.
 													</div>
 													
 													<div style="margin:20px">
 													You can also download your product backlog in pdf format. We love agile development however hope to provide you with simpler project management experience.
+													</div>
+													
+													<div style="margin:20px">
+													You can also track your Agile Development Sprint Planning, Meeting Notes and Agile Backlog with us.
 													</div>
 													
 													<div style="margin:20px">
