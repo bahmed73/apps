@@ -111,9 +111,9 @@
 													<br><br>
 													<p style="font-size:18px;color:#8a7e7e;">Description: <f:display bean="projects" property="description"/></p>
 													<br><br>
-													<p style="font-size:18px;color:#8a7e7e;">Status: <f:display bean="projects" property="status"/></p>
+													<p style="font-size:18px;color:#782727;">Status: <f:display bean="projects" property="status"/></p>
 													<br><br>
-													<p style="font-size:18px;color:#8a7e7e;">Due Date: <g:formatDate format="MM-dd-yyyy" date="${projects.dueDate}"/></p>
+													<p style="font-size:18px;color:#782727;">Due Date: <g:formatDate format="MM-dd-yyyy" date="${projects.dueDate}"/></p>
 													<br><br
 													<g:if test="${tasks}">
 													<header>

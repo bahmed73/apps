@@ -111,9 +111,9 @@
 													<br><br>
 													<p style="font-size:18px;color:#8a7e7e;">Description: <f:display bean="tasks" property="description"/></p>
 													<br><br>
-													<p style="font-size:18px;color:#8a7e7e;">Duration: <f:display bean="tasks" property="duration"/></p>
+													<p style="font-size:18px;color:#782727;">Duration: <f:display bean="tasks" property="duration"/></p>
 													<br><br>
-													<p style="font-size:18px;color:#8a7e7e;">Priority: <f:display bean="tasks" property="priority"/></p>
+													<p style="font-size:18px;color:#782727;">Priority: <f:display bean="tasks" property="priority"/></p>
 													<br><br>
 													<p style="font-size:18px;color:#8a7e7e;">Project: <g:link action="show" controller="projects" id="${tasks.project.id}"><span style="font-size:15px;color:#9b9ea9">${tasks.project.name}</span></g:link></p>
 													<br><br>

@@ -115,9 +115,9 @@
 														<br><br>
 														<p style="font-size:20px;color:#8a7e7e;">Description: ${tasksInstance.description}</p>
 														<br><br>
-														<p style="font-size:20px;color:#8a7e7e;">Duration: ${tasksInstance.duration}</p>
+														<p style="font-size:20px;color:#782727;">Duration: ${tasksInstance.duration}</p>
 														<br><br>
-														<p style="font-size:20px;color:#8a7e7e;">Priority: ${tasksInstance.priority}</p>
+														<p style="font-size:20px;color:#782727;">Priority: ${tasksInstance.priority}</p>
 														<br><br>
 														<p style="font-size:20px;color:#8a7e7e;">Projects: ${tasksInstance.project.name}</p>
 														<br><br>
