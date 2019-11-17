@@ -111,12 +111,13 @@
     <li data-target="#myCarousel" data-slide-to="8"></li>
     <li data-target="#myCarousel" data-slide-to="9"></li>
     
+    
   </ol>
 
   <!-- Wrapper for slides -->
   <div class="carousel-inner">
     <div class="item active">
-      <g:link class="list" action="index" controller="photos"><asset:image src="project-management.png"/></g:link>
+      <g:link class="list" action="index" controller="projects"><asset:image src="project-management.png"/></g:link>
     </div>
     
     <div class="item">
@@ -131,20 +132,7 @@
       <g:link class="list" action="shelf" controller="product"><asset:image src="project-management-4.png"/></g:link>
     </div>
     
-   
     <div class="item">
-      <g:link class="list" action="shelf" controller="product"><asset:image src="facebook.png"/></g:link>
-    </div>
-    
-    <div class="item">
-      <g:link class="list" action="shelf" controller="product"><asset:image src="launch.png"/></g:link>
-    </div>
-    
-    <div class="item">
-      <g:link class="list" action="shelf" controller="product"><asset:image src="taim_banner_9.png"/></g:link>
-    </div>
-
-	<div class="item">
       <g:link controller="projects" action="index"><asset:image src="taim_banner_6.png"/></g:link>
     </div>
     
@@ -156,6 +144,17 @@
       <g:link controller="notes" action="index"><asset:image src="taim_banner_8.png"/></g:link>
     </div>
 
+	<div class="item">
+      <g:link controller="sprint" action="index"><asset:image src="project-management-5.png"/></g:link>
+    </div>
+    
+    <div class="item">
+      <g:link controller="meeting" action="index"><asset:image src="project-management-6.png"/></g:link>
+    </div>
+    
+    <div class="item">
+      <g:link controller="backlog" action="index"><asset:image src="project-management-7.png"/></g:link>
+    </div>
   </div>
 
   <!-- Left and right controls -->
