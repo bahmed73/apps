@@ -117,6 +117,15 @@
 													<br><br>
 													<p style="font-size:18px;color:#8a7e7e;">Project: <g:link action="show" controller="projects" id="${tasks.project.id}"><span style="font-size:15px;color:#9b9ea9">${tasks.project.name}</span></g:link></p>
 													<br><br>
+													<g:if test="${tasks.sprint}">
+													<p style="font-size:18px;color:#8a7e7e;">Sprint: <g:link action="show" controller="sprint" id="${tasks.sprint.id}"><span style="font-size:15px;color:#9b9ea9">${tasks.sprint.name}</span></g:link></p>
+													<br><br>
+													</g:if>
+													<g:if test="${tasks.backlog}">
+													<p style="font-size:18px;color:#8a7e7e;">Backlog: <g:link action="show" controller="backlog" id="${tasks.backlog.id}"><span style="font-size:15px;color:#9b9ea9">${tasks.backlog.name}</span></g:link></p>
+													<br><br>
+													</g:if>
+													
 													<g:if test="${notes}">
 													<header>
 														<span style="font-size:25px;color:#9b9ea9">Notes:</span>

@@ -18,8 +18,9 @@ class TasksController {
 	
 	@Secured(['ROLE_ADMIN', 'ROLE_ANONYMOUS'])
     def index(Integer max) {
-        params.max = Math.min(max ?: 10, 100)
+        params.max = Math.min(max ?: 100, 200)
 		
+		/*
 		def user = springSecurityService.currentUser
 		
 		if (user != null) {
@@ -29,7 +30,7 @@ class TasksController {
 			def tasksList = Tasks.findAll()
 			respond tasksList
 		}
-		
+		*/
         respond Tasks.list(params), model:[tasksCount: Tasks.count()]
     }
 

@@ -12,7 +12,7 @@ class MeetingController {
 
 	@Secured(['ROLE_ADMIN', 'ROLE_ANONYMOUS'])
     def index(Integer max) {
-        params.max = Math.min(max ?: 10, 100)
+        params.max = Math.min(max ?: 100, 200)
         respond Meeting.list(params), model:[meetingCount: Meeting.count()]
     }
 

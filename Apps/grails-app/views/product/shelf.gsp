@@ -137,10 +137,10 @@
 													
 													<ul id="menu">
 													<li><div><g:link class="list" action="index" controller="projects"><span style="color:#8a7e7e;font-size:20px"><asset:image src="goal-1.png" width="125"/> Projects</span></g:link></div></li>
-													<li><div><g:link class="list" action="index" controller="tasks"><span style="color:#8a7e7e;font-size:20px"><asset:image src="goal-2.png" width="125"/> Task Notes</span></g:link></div></li>
+													<li><div><g:link class="list" action="index" controller="tasks"><span style="color:#8a7e7e;font-size:20px"><asset:image src="goal-2.png" width="125"/> Tasks</span></g:link></div></li>
 													<li><div><g:link class="list" action="index" controller="notes"><span style="color:#8a7e7e;font-size:20px"><asset:image src="goal-3.png" width="125"/> Notes</span></g:link></div></li>
 													<li><div><g:link class="list" action="index" controller="sprint"><span style="color:#8a7e7e;font-size:20px"><asset:image src="goal-4.png" width="125"/> Agile Sprint Planning</span></g:link></div></li>
-													<li><div><g:link class="list" action="index" controller="meeting"><span style="color:#8a7e7e;font-size:20px"><asset:image src="goal-5.png" width="125"/> Meeting Notes</span></g:link></div></li>
+													<li><div><g:link class="list" action="index" controller="meeting"><span style="color:#8a7e7e;font-size:20px"><asset:image src="goal-5.png" width="125"/> Meetings</span></g:link></div></li>
 													<li><div><g:link class="list" action="index" controller="backlog"><span style="color:#8a7e7e;font-size:20px"><asset:image src="goal-6.png" width="125"/> Backlog</span></g:link></div></li>
 													
 													<!-- 

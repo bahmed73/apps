@@ -119,8 +119,16 @@
 														<br><br>
 														<p style="font-size:20px;color:#782727;">Priority: ${tasksInstance.priority}</p>
 														<br><br>
-														<p style="font-size:20px;color:#8a7e7e;">Projects: ${tasksInstance.project.name}</p>
+														<p style="font-size:20px;color:#8a7e7e;"><g:link action="show" controller="projects" id="${tasksInstance.project.id}"><span style="font-size:15px;color:#9b9ea9">Projects: ${tasksInstance.project.name}</span></g:link></p>
 														<br><br>
+														<g:if test="${tasksInstance.sprint}">
+														<p style="font-size:20px;color:#8a7e7e;"><g:link action="show" controller="sprint" id="${tasksInstance.sprint.id}"><span style="font-size:15px;color:#9b9ea9">Sprint: ${tasksInstance.sprint.name}</span></g:link></p>
+														<br><br>
+														</g:if>
+														<g:if test="${tasksInstance.backlog}">
+														<p style="font-size:20px;color:#8a7e7e;"><g:link action="show" controller="backlog" id="${tasksInstance.backlog.id}"><span style="font-size:15px;color:#9b9ea9">Backlog: ${tasksInstance.backlog.name}</span></g:link></p>
+														<br><br>
+														</g:if>
 														<g:link controller="tasks" action="show" id="${tasksInstance.id}"><span style="color:#8a7e7e;">Show full tasks...</span></g:link>
 														</section>
 												</div>
