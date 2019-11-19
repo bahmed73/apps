@@ -221,13 +221,17 @@
 												<section class="box">
 													
 													<div id="block1" style="border-style:solid; border-color:grey; border-width:1px;margin:1px;font-size:20px">
+													<div style="margin:20px; font-size:35px;color:#878282">
+													Leader in Agile Development, Lean Startup methodologies and tools!
+													</div>
+													
 													<br>
 													<div style="margin:20px">
 													For casual users, we offer tracking projects, tasks and notes. For advanced users, weekly agile development sprint planning, business requirements document and product roadmap tools for the team.
 													</div>
 													
 													<div style="margin:20px">
-													You can also download your product backlog in pdf format. We love agile development however hope to provide you with simpler project management experience.
+													You can also download your product backlog in pdf format. We love agile development yet hope to provide you with simpler project management experience.
 													</div>
 													
 													<div style="margin:20px">
@@ -235,7 +239,7 @@
 													</div>
 													
 													<div style="margin:20px">
-													Please contact us if you love Lean Startup, Customer Development - We would love your feedback and add you to our user group testing team.
+													Please contact us if you love Agile Development and Lean Startup - We would love your feedback and add you to our product development, user group testing team.
 													</div>
 													<br>
 														

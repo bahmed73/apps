@@ -122,13 +122,15 @@
 											<div id="block2">
 												<section class="box">
 												<header>
+												<g:if test="${notes.imageThree}">
 													<div style="border: 20px dotted #e1f3f9;">
 													<img src="data:image/png;base64,${notes.imageThree?.encodeBase64()}"/>
-													</div>
-												</header>
 													<br><br>
 													<p style="font-size:14px;">Download and print the image.</p>
 													<br>
+													</div>
+												</g:if>
+												</header>
 													<footer class="actions">
 														<a href="mailto:bilal@mytweetmark.com" class="button fa fa-file-text">Email us today!</a>
 														<br><br>

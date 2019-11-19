@@ -107,7 +107,7 @@
 									<section>
 										<div>
 											<div class="row">
-												<div id="block1" class="6u">
+												<div id="block1" class="12u">
 														<section class="box">
 														<header>
 														<span style="font-size:35px;color:#9b9ea9">${tasksInstance.name}</span>
@@ -130,13 +130,6 @@
 														<br><br>
 														</g:if>
 														<g:link controller="tasks" action="show" id="${tasksInstance.id}"><span style="color:#8a7e7e;">Show full tasks...</span></g:link>
-														</section>
-												</div>
-												<div id="block2">
-														<section class="box">
-														<div style="border: 20px dotted #e1f3f9;">
-														<img src="data:image/png;base64,${tasksInstance.imageThree?.encodeBase64()}"/>
-														</div>
 														</section>
 												</div>
 											</div>

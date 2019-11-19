@@ -107,7 +107,7 @@
 									<section>
 										<div>
 											<div class="row">
-												<div id="block1" class="6u">
+												<div id="block1" class="12u">
 														<section class="box">
 														<header>
 														<span style="font-size:35px;color:#9b9ea9">${projectsInstance.name}</span>
@@ -120,13 +120,6 @@
 														<p style="font-size:20px;color:#782727;">Due Date: <g:formatDate format="MM-dd-yyyy" date="${projectsInstance.dueDate}"/></p>
 														<br><br>
 														<g:link controller="projects" action="show" id="${projectsInstance.id}"><span style="color:#8a7e7e;">Show full version...</span></g:link>
-														</section>
-												</div>
-												<div id="block2">
-														<section class="box">
-														<div style="border: 20px dotted #e1f3f9;">
-														<img src="data:image/png;base64,${projectsInstance.imageThree?.encodeBase64()}"/>
-														</div>
 														</section>
 												</div>
 											</div>
