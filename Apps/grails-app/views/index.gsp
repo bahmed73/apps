@@ -227,7 +227,7 @@
 													
 													<div id="block2">
 													<header>
-														<span style="font-size:35px;color:#878282">Lean Startup - Create Customer Development, add customers, vendors, repond back with feedback.</span>
+														<span style="font-size:35px;color:#878282">Lean Startup - Create Customer Development - Lean Startup, add customers, then respond back with feedback.</span>
 													</header>
 													<br><br>
 													<ul id="menu2">
