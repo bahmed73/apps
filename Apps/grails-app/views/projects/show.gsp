@@ -121,8 +121,8 @@
 													</header>
 													<br>
 													<g:each in="${tasks}" status="i" var="tasksInstance">
-													<div style="border: 50px; color:#782727;">
-													<g:link action="show" controller="tasks" id="${tasksInstance.id}"><span style="font-size:15px;color:#9b9ea9">${tasksInstance.name}</span></g:link>
+													<div>
+													<g:link action="show" controller="tasks" id="${tasksInstance.id}"><span style="font-size:15px;color:#9b9ea9"><b>${tasksInstance.name}</b></span></g:link>
 													<br><br>
 													</div>
 													</g:each>
@@ -137,7 +137,7 @@
 													<img src="data:image/png;base64,${projects.imageThree?.encodeBase64()}"/>
 													</div>
 													<br><br>
-													<p style="font-size:14px;">Download and print the image.</p>
+													<p style="font-size:14px;">Upload screen shots of the project.</p>
 													<br>
 												</header>
 												</g:if>

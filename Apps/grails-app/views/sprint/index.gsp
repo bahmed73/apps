@@ -110,16 +110,14 @@
 												<div id="block1" class="12u">
 														<section class="box">
 														<header>
-														<span style="font-size:35px;color:#9b9ea9">${sprintInstance.name}</span>
+														<span style="font-size:35px;color:#9b9ea9"><b>${sprintInstance.name}</b></span>
 														</header>
 														<br><br>
 														<p style="font-size:20px;color:#8a7e7e;">Description: ${sprintInstance.description}</p>
-														<br><br>
 														<p style="font-size:18px;">Create Date: <g:formatDate format="yyyy-MM-dd" date="${sprintInstance.createTime}"/></p>
-														<br><br>
 														<p style="font-size:18px;">Update Date: <g:formatDate format="yyyy-MM-dd" date="${sprintInstance.updateTime}"/></p>
 														<br><br>
-														<g:link controller="sprint" action="show" id="${sprintInstance.id}"><span style="color:#8a7e7e;">See full sprint page...</span></g:link>
+														<g:link controller="sprint" action="show" id="${sprintInstance.id}"><span style="color:#8a7e7e;font-size:24px;">See full sprint page...</span></g:link>
 														</section>
 												</div>
 											</div>

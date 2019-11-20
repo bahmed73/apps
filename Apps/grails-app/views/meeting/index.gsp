@@ -110,16 +110,14 @@
 												<div id="block1" class="12u">
 														<section class="box">
 														<header>
-														<span style="font-size:35px;color:#9b9ea9">${meetingInstance.name}</span>
+														<span style="font-size:35px;color:#9b9ea9"><b>${meetingInstance.name}</b></span>
 														</header>
 														<br><br>
 														<p style="font-size:20px;color:#8a7e7e;">Description: ${meetingInstance.description}</p>
-														<br><br>
 														<p style="font-size:18px;">Create Date: <g:formatDate format="yyyy-MM-dd" date="${meetingInstance.createTime}"/></p>
-														<br><br>
 														<p style="font-size:18px;">Update Date: <g:formatDate format="yyyy-MM-dd" date="${meetingInstance.updateTime}"/></p>
 														<br><br>
-														<g:link controller="meeting" action="show" id="${meetingInstance.id}"><span style="color:#8a7e7e;">See full sprint page...</span></g:link>
+														<g:link controller="meeting" action="show" id="${meetingInstance.id}"><span style="color:#8a7e7e;font-size:18px;">See full meeting page...</span></g:link>
 														</section>
 												</div>
 											</div>

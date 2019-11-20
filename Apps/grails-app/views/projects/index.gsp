@@ -110,16 +110,14 @@
 												<div id="block1" class="12u">
 														<section class="box">
 														<header>
-														<span style="font-size:35px;color:#9b9ea9">${projectsInstance.name}</span>
+														<span style="font-size:35px;color:#9b9ea9"><b>${projectsInstance.name}</b></span>
+														<br><br>
 														</header>
-														<br><br>
 														<p style="font-size:20px;color:#8a7e7e;">Description: ${projectsInstance.description}</p>
-														<br><br>
 														<p style="font-size:20px;color:#782727;">Status: ${projectsInstance.status}</p>
-														<br><br>
 														<p style="font-size:20px;color:#782727;">Due Date: <g:formatDate format="MM-dd-yyyy" date="${projectsInstance.dueDate}"/></p>
 														<br><br>
-														<g:link controller="projects" action="show" id="${projectsInstance.id}"><span style="color:#8a7e7e;">Show full version...</span></g:link>
+														<g:link controller="projects" action="show" id="${projectsInstance.id}"><span style="color:#8a7e7e;font-size:24px;">Show Details...</span></g:link>
 														</section>
 												</div>
 											</div>

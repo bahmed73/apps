@@ -115,14 +115,14 @@
 													<br><br>
 													<p style="font-size:18px;color:#782727;">Priority: <f:display bean="tasks" property="priority"/></p>
 													<br><br>
-													<p style="font-size:18px;color:#8a7e7e;">Project: <g:link action="show" controller="projects" id="${tasks.project.id}"><span style="font-size:15px;color:#9b9ea9">${tasks.project.name}</span></g:link></p>
+													<p style="font-size:18px;color:#8a7e7e;">Project: <g:link action="show" controller="projects" id="${tasks.project.id}"><span style="font-size:15px;color:#9b9ea9"><b>${tasks.project.name}</b></span></g:link></p>
 													<br><br>
 													<g:if test="${tasks.sprint}">
-													<p style="font-size:18px;color:#8a7e7e;">Sprint: <g:link action="show" controller="sprint" id="${tasks.sprint.id}"><span style="font-size:15px;color:#9b9ea9">${tasks.sprint.name}</span></g:link></p>
+													<p style="font-size:18px;color:#8a7e7e;">Sprint: <g:link action="show" controller="sprint" id="${tasks.sprint.id}"><span style="font-size:15px;color:#9b9ea9"><b>${tasks.sprint.name}</b></span></g:link></p>
 													<br><br>
 													</g:if>
 													<g:if test="${tasks.backlog}">
-													<p style="font-size:18px;color:#8a7e7e;">Backlog: <g:link action="show" controller="backlog" id="${tasks.backlog.id}"><span style="font-size:15px;color:#9b9ea9">${tasks.backlog.name}</span></g:link></p>
+													<p style="font-size:18px;color:#8a7e7e;">Backlog: <g:link action="show" controller="backlog" id="${tasks.backlog.id}"><span style="font-size:15px;color:#9b9ea9"><b>${tasks.backlog.name}</b></span></g:link></p>
 													<br><br>
 													</g:if>
 													
@@ -132,7 +132,7 @@
 													</header>
 													<br>
 													<g:each in="${notes}" status="i" var="notesInstance">
-													<g:link action="show" controller="notes" id="${notesInstance.id}"><span style="font-size:15px;color:#9b9ea9">${notesInstance.name}</span></g:link>
+													<g:link action="show" controller="notes" id="${notesInstance.id}"><span style="font-size:15px;color:#9b9ea9"><b>${notesInstance.name}</b></span></g:link>
 													</g:each>
 													</g:if>
 												</section>
@@ -145,7 +145,7 @@
 													<img src="data:image/png;base64,${tasks.imageThree?.encodeBase64()}"/>
 													</div>
 													<br><br>
-													<p style="font-size:14px;">Download and print the image.</p>
+													<p style="font-size:14px;">Upload task screenshot.</p>
 													<br>
 													</g:if>
 												</header>

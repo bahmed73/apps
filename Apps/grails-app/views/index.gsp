@@ -202,7 +202,7 @@
 													<!-- <a href="http://www.mytweetmark.com" class="image image-full"><asset:image src="foodal-homepage-16.png"/></a> -->
 													<div id="block1">
 													<header>
-														<span style="font-size:35px;color:#878282">Agile Development - Create projects, tasks, notes, agile development sprint planning, meetings and backlog.</span>
+														<span style="font-size:35px;color:#878282"><b>Agile Development:</b> Create projects, tasks, notes, Agile Development sprint planning, meetings and backlog.</span>
 													</header>
 													<br><br>
 													<ul id="menu1">
@@ -227,7 +227,7 @@
 													
 													<div id="block2">
 													<header>
-														<span style="font-size:35px;color:#878282">Lean Startup - Create Customer Development - Lean Startup, add customers, then respond back with feedback.</span>
+														<span style="font-size:35px;color:#878282"><b>Lean Startup:</b> Create Customer Development - Lean Startup flow, add customers, then respond back with feedback.</span>
 													</header>
 													<br><br>
 													<ul id="menu2">

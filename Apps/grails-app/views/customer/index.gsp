@@ -110,7 +110,7 @@
 												<div id="block1" class="12u">
 														<section class="box">
 														<header>
-														<span style="font-size:35px;color:#9b9ea9">${customerInstance.name}</span>
+														<span style="font-size:35px;color:#9b9ea9"><b>${customerInstance.name}</b></span>
 														</header>
 														<br><br>
 														<p style="font-size:20px;color:#8a7e7e;">Address: ${customerInstance.address}</p>
@@ -120,10 +120,10 @@
 														<p style="font-size:20px;color:#782727;">Website: ${customerInstance.website}</p>
 														<br><br>
 														<g:if test="${customerInstance.customerDevelopment}">
-														<p style="font-size:20px;color:#8a7e7e;"><g:link action="show" controller="customerDevelopment" id="${customerInstance.customerDevelopment.id}"><span style="font-size:15px;color:#9b9ea9">Customer Development: ${customerInstance.customerDevelopment.name}</span></g:link></p>
+														<p style="font-size:20px;color:#8a7e7e;"><g:link action="show" controller="customerDevelopment" id="${customerInstance.customerDevelopment.id}"><span style="font-size:15px;color:#9b9ea9">Customer Development: <b>${customerInstance.customerDevelopment.name}</b></span></g:link></p>
 														<br><br>
 														</g:if>
-														<g:link controller="customer" action="show" id="${customerInstance.id}"><span style="color:#8a7e7e;">Show full Customer...</span></g:link>
+														<g:link controller="customer" action="show" id="${customerInstance.id}"><span style="color:#8a7e7e;font-size:24px;">Show full Customer Details...</span></g:link>
 														</section>
 												</div>
 											</div>

@@ -111,9 +111,9 @@
 													<br><br>
 													<p style="font-size:18px;color:#8a7e7e;">Note: <f:display bean="notes" property="description"/></p>
 													<br><br>
-													<p style="font-size:18px;color:#8a7e7e;">Tasks: <g:link action="show" controller="tasks" id="${notes.task.id}"><span style="font-size:15px;color:#9b9ea9">${notes.task.name}</span></g:link></p>
+													<p style="font-size:24px;color:#8a7e7e;">Tasks: <g:link action="show" controller="tasks" id="${notes.task.id}"><span style="font-size:24px;color:#9b9ea9">${notes.task.name}</span></g:link></p>
 													<br><br>
-													<p style="font-size:18px;color:#8a7e7e;">Projects: <g:link action="show" controller="projects" id="${notes.task.project.id}"><span style="font-size:15px;color:#9b9ea9">${notes.task.project.name}</span></g:link></p>
+													<p style="font-size:24px;color:#8a7e7e;">Projects: <g:link action="show" controller="projects" id="${notes.task.project.id}"><span style="font-size:24px;color:#9b9ea9">${notes.task.project.name}</span></g:link></p>
 													<br><br>
 													<p style="font-size:18px;color:#8a7e7e;">User: <f:display bean="notes" property="user.username"/></p>
 													<br><br>
@@ -126,7 +126,7 @@
 													<div style="border: 20px dotted #e1f3f9;">
 													<img src="data:image/png;base64,${notes.imageThree?.encodeBase64()}"/>
 													<br><br>
-													<p style="font-size:14px;">Download and print the image.</p>
+													<p style="font-size:14px;">Upload images with the note.</p>
 													<br>
 													</div>
 												</g:if>

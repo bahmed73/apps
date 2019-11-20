@@ -110,7 +110,7 @@
 												<div id="block1" class="12u">
 														<section class="box">
 														<header>
-														<span style="font-size:35px;color:#9b9ea9">${customerDevelopmentInstance.name}</span>
+														<span style="font-size:35px;color:#9b9ea9"><b>${customerDevelopmentInstance.name}</b></span>
 														</header>
 														<br><br>
 														<p style="font-size:20px;color:#8a7e7e;">Description: ${customerDevelopmentInstance.description}</p>
@@ -121,17 +121,17 @@
 														<br><br>
 														<p style="font-size:20px;color:#782727;">Priority: ${customerDevelopmentInstance.priority}</p>
 														<br><br>
-														<p style="font-size:20px;color:#8a7e7e;"><g:link action="show" controller="projects" id="${customerDevelopmentInstance.project.id}"><span style="font-size:15px;color:#9b9ea9">Projects: ${customerDevelopmentInstance.project.name}</span></g:link></p>
+														<p style="font-size:20px;color:#8a7e7e;"><g:link action="show" controller="projects" id="${customerDevelopmentInstance.project.id}"><span style="font-size:15px;color:#9b9ea9">Projects: <b>${customerDevelopmentInstance.project.name}</b></span></g:link></p>
 														<br><br>
 														<g:if test="${customerDevelopmentInstance.sprint}">
-														<p style="font-size:20px;color:#8a7e7e;"><g:link action="show" controller="sprint" id="${customerDevelopmentInstance.sprint.id}"><span style="font-size:15px;color:#9b9ea9">Sprint: ${customerDevelopmentInstance.sprint.name}</span></g:link></p>
+														<p style="font-size:20px;color:#8a7e7e;"><g:link action="show" controller="sprint" id="${customerDevelopmentInstance.sprint.id}"><span style="font-size:15px;color:#9b9ea9">Sprint: <b>${customerDevelopmentInstance.sprint.name}</b></span></g:link></p>
 														<br><br>
 														</g:if>
 														<g:if test="${customerDevelopmentInstance.backlog}">
-														<p style="font-size:20px;color:#8a7e7e;"><g:link action="show" controller="backlog" id="${customerDevelopmentInstance.backlog.id}"><span style="font-size:15px;color:#9b9ea9">Backlog: ${customerDevelopmentInstance.backlog.name}</span></g:link></p>
+														<p style="font-size:20px;color:#8a7e7e;"><g:link action="show" controller="backlog" id="${customerDevelopmentInstance.backlog.id}"><span style="font-size:15px;color:#9b9ea9">Backlog: <b>${customerDevelopmentInstance.backlog.name}</b></span></g:link></p>
 														<br><br>
 														</g:if>
-														<g:link controller="customerDevelopment" action="show" id="${customerDevelopmentInstance.id}"><span style="color:#8a7e7e;">Show full Customer Development...</span></g:link>
+														<g:link controller="customerDevelopment" action="show" id="${customerDevelopmentInstance.id}"><span style="color:#8a7e7e;font-size:24px;">Show full Customer Development...</span></g:link>
 														</section>
 												</div>
 											</div>

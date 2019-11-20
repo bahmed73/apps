@@ -110,12 +110,12 @@
 												<div id="block1" class="6u">
 														<section class="box">
 														<header>
-														<span style="font-size:35px;color:#9b9ea9">${notesInstance.name}</span>
+														<span style="font-size:35px;color:#9b9ea9"><b>${notesInstance.name}</b></span>
 														</header>
 														<br><br>
 														<p style="font-size:20px;color:#8a7e7e;">Description: ${notesInstance.description}</p>
 														<br><br>
-														<g:link controller="notes" action="show" id="${notesInstance.id}"><span style="color:#8a7e7e;">View full Notes...</span></g:link>
+														<g:link controller="notes" action="show" id="${notesInstance.id}"><span style="color:#8a7e7e;font-size:24px">View full Note...</span></g:link>
 														</section>
 												</div>
 												<div id="block2">

@@ -110,26 +110,22 @@
 												<div id="block1" class="12u">
 														<section class="box">
 														<header>
-														<span style="font-size:35px;color:#9b9ea9">${tasksInstance.name}</span>
+														<span style="font-size:35px;color:#9b9ea9"><b>${tasksInstance.name}</b></span>
 														</header>
 														<br><br>
 														<p style="font-size:20px;color:#8a7e7e;">Description: ${tasksInstance.description}</p>
-														<br><br>
 														<p style="font-size:20px;color:#782727;">Duration: ${tasksInstance.duration}</p>
-														<br><br>
 														<p style="font-size:20px;color:#782727;">Priority: ${tasksInstance.priority}</p>
-														<br><br>
-														<p style="font-size:20px;color:#8a7e7e;"><g:link action="show" controller="projects" id="${tasksInstance.project.id}"><span style="font-size:15px;color:#9b9ea9">Projects: ${tasksInstance.project.name}</span></g:link></p>
-														<br><br>
+														<p style="font-size:24px;color:#8a7e7e;"><g:link action="show" controller="projects" id="${tasksInstance.project.id}"><span style="font-size:24px;color:#9b9ea9">Project: ${tasksInstance.project.name}</span></g:link></p>
 														<g:if test="${tasksInstance.sprint}">
-														<p style="font-size:20px;color:#8a7e7e;"><g:link action="show" controller="sprint" id="${tasksInstance.sprint.id}"><span style="font-size:15px;color:#9b9ea9">Sprint: ${tasksInstance.sprint.name}</span></g:link></p>
-														<br><br>
+														<p style="font-size:24px;color:#8a7e7e;"><g:link action="show" controller="sprint" id="${tasksInstance.sprint.id}"><span style="font-size:24px;color:#9b9ea9">Sprint: ${tasksInstance.sprint.name}</span></g:link></p>
 														</g:if>
 														<g:if test="${tasksInstance.backlog}">
-														<p style="font-size:20px;color:#8a7e7e;"><g:link action="show" controller="backlog" id="${tasksInstance.backlog.id}"><span style="font-size:15px;color:#9b9ea9">Backlog: ${tasksInstance.backlog.name}</span></g:link></p>
+														<p style="font-size:24px;color:#8a7e7e;"><g:link action="show" controller="backlog" id="${tasksInstance.backlog.id}"><span style="font-size:24px;color:#9b9ea9">Backlog: ${tasksInstance.backlog.name}</span></g:link></p>
 														<br><br>
 														</g:if>
-														<g:link controller="tasks" action="show" id="${tasksInstance.id}"><span style="color:#8a7e7e;">Show full tasks...</span></g:link>
+														<br>
+														<g:link controller="tasks" action="show" id="${tasksInstance.id}"><span style="color:#8a7e7e;font-size:24px">Show full task...</span></g:link>
 														</section>
 												</div>
 											</div>
