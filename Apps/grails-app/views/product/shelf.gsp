@@ -229,8 +229,7 @@
 													</header>
 													<div id="block1" style="border-style:solid; border-color:grey; border-width:1px;margin:1px;font-size:20px;color:#000000">
 													<ul id="menu2">
-													<li><div><g:link class="list" action="index" controller="vendors"><span style="color:#8a7e7e;font-size:20px"><asset:image src="goal-7.png" width="125"/> Vendors</span></g:link></div></li>
-													<li><div><g:link class="list" action="index" controller="customers"><span style="color:#8a7e7e;font-size:20px"><asset:image src="goal-8.png" width="125"/> Customers</span></g:link></div></li>
+													<li><div><g:link class="list" action="index" controller="customerDevelopment"><span style="color:#8a7e7e;font-size:20px"><asset:image src="goal-9.png" width="125"/> Customer Development</span></g:link></div></li>
 													
 													</div>
 													<!-- 
