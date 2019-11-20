@@ -1,8 +1,8 @@
 package apps
 
-class Vendors {
+class Customer {
 
-    //Long id
+     //Long id
         Date createTime
         String name
         String address
@@ -10,6 +10,7 @@ class Vendors {
 		String website
         Date updateTime
 		User user
+		CustomerDevelopment customerDevelopment
 
 
     static constraints = {
@@ -21,11 +22,12 @@ class Vendors {
 				website(nullable:true, maxSize:1000)
                 updateTime(nullable:false)
 				user(nullable:false)
+				customerDevelopment(nullable:true)
     }
 
         static mapping = {
                 version false
-				table 'vendor'
+				//table 'question'
                 //id generator:'sequence', params:[sequence:'question_seq']
         }
 }
