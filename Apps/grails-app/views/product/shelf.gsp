@@ -44,6 +44,7 @@
 		  $( function() {
 		    $( "#menu" ).menu();
 		    $( "#menu2" ).menu();
+		    $( "#menu3" ).menu();
 		  } );
 		  </script>
 		  <style>
@@ -231,6 +232,17 @@
 													<ul id="menu2">
 													<li><div><g:link class="list" action="index" controller="customerDevelopment"><span style="color:#8a7e7e;font-size:20px"><asset:image src="goal-9.png" width="125"/> Customer Development</span></g:link></div></li>
 													<li><div><g:link class="list" action="index" controller="customer"><span style="color:#8a7e7e;font-size:20px"><asset:image src="goal-8.png" width="125"/> Customers</span></g:link></div></li>
+													
+													</div>
+													<br><br>
+													
+													<header>
+														<span style="font-size:35px;color:#878282">Documentation</span>
+													</header>
+													<br><br>
+													<div id="block3">
+													<ul id="menu3">
+													<li><div><g:link class="list" action="index" controller="documentation"><span style="color:#8a7e7e;font-size:20px"><asset:image src="goal-10.png" width="125"/> Product Documentation</span></g:link></div></li>
 													
 													</div>
 													<!-- 

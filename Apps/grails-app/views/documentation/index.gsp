@@ -1,8 +1,8 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<meta name="description" content="Shop - Bring your store business online. Start with our project management tools." />
-<meta name="keywords" content="agile development, sprint planning, lean startup, customer development, product development, product roadmap, project management, product backlog" />
+		<meta name="description" content="Shop - Bring your store business online." />
+<meta name="keywords" content="shop, store, store business, local tree, trees, local business, injection, insects, fertilizer, farm, farm market, business, farm business, organic, health, nutrient, california, blogger, socialmedia, socialmedia blogger, social media blogger, facebook, facebook feed, twitter, twitter update, twitter" />
 <meta http-equiv="window-target" content="_top" />
 <META HTTP-EQUIV="CACHE-CONTROL" CONTENT="PUBLIC">
 	<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
@@ -10,9 +10,6 @@
 	<asset:stylesheet src="skel-noscript.css"/>
 	<asset:stylesheet src="style.css"/>
 	<asset:stylesheet src="style-desktop.css"/>
-	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 	
 <LINK REL="SHORTCUT ICON"
        HREF="${createLinkTo(dir:'images', file:'favicon.ico')}">
@@ -36,56 +33,33 @@
 	
 		</noscript>-->
 		<!--[if lte IE 8]><asset:javascript src="html5shiv.js"/><asset:stylesheet src="ie8.css"/><![endif]-->
-		
-		<meta charset="utf-8">
-		  <meta name="viewport" content="width=device-width, initial-scale=1">
-		  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
-		  <link rel="stylesheet" href="/resources/demos/style.css">
-		  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+		<style>
+		p {
+		  border: 20px dotted #e5e1e1;
+		  background-color: #e1f3f9;
+		  border-radius: 10px;
+		  border-width: 5px;
+		}
+		</style>
+	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
 		  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-		  <script>
-		  $( function() {
-		    $( "#menu" ).menu();
-		    $( "#menu2" ).menu();
-		  } );
-		  </script>
-		  <style>
-		  .ui-menu { width: 400px; }
-		  </style>
 	</head>
 	<body class="homepage" onload="testEffect()">
 	<script type="text/javascript">
 	function testEffect() {
-		var options = {};
-        // Run the effect
-   		$( "#block3" ).effect( "pulsate", options, 1000, callback );
-   
-		$( "#block1" )
-	    .animate({
-	      width: "90%"
-	    }, {
-	      queue: false,
-	      duration: 6000
-	    })
-	    .animate({ fontSize: "24px" }, 4500 )
-	    .animate({ borderRightWidth: "15px" }, 4500 );
-		$( "#block2" )
-	    .animate({ width: "90%" }, 4000 )
-	    .animate({ fontSize: "24px" }, 4000 )
-	    .animate({ borderLeftWidth: "15px" }, 4000 );
-		$( "#block3" )
-	    .animate({
-	      width: "90%"
-	    }, {
-	      queue: false,
-	      duration: 6000
-	    })
-	    .animate({ fontSize: "24px" }, 5500 )
-	    .animate({ borderRightWidth: "15px" }, 5500 );
-		}
-
-	function callback() {
+	      // Most effect types need no options passed by default
+	      var options = {};
+	           // Run the effect
+	      $( "#block1" ).effect( "bounce", options, 500, callback );
+	      $( "#block2" ).effect( "pulsate", options, 500, callback );
+	      $( "#block3" ).effect( "shake", options, 500, callback );
+	    };
+	 
+	    // Callback function to bring a hidden box back
+	    function callback() {
 	      setTimeout(function() {
+	        $( "#block1" ).removeAttr( "style" ).hide().fadeIn();
+	        $( "#block2" ).removeAttr( "style" ).hide().fadeIn();
 	        $( "#block3" ).removeAttr( "style" ).hide().fadeIn();
 	      }, 1000 );
 	    };
@@ -96,186 +70,87 @@
 				<div class="container">
 					
 					<div class="row">
-						<div class="12u">
-						<div id="myCarousel" class="carousel slide" data-ride="carousel">
-  <!-- Indicators -->
-  <ol class="carousel-indicators">
-    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-    <li data-target="#myCarousel" data-slide-to="1"></li>
-    <li data-target="#myCarousel" data-slide-to="2"></li>
-    <li data-target="#myCarousel" data-slide-to="3"></li>
-    <li data-target="#myCarousel" data-slide-to="4"></li>
-    <li data-target="#myCarousel" data-slide-to="5"></li>
-    <li data-target="#myCarousel" data-slide-to="6"></li>
-    <li data-target="#myCarousel" data-slide-to="7"></li>
-    <li data-target="#myCarousel" data-slide-to="8"></li>
-    <li data-target="#myCarousel" data-slide-to="9"></li>
-    <li data-target="#myCarousel" data-slide-to="10"></li>
-    <li data-target="#myCarousel" data-slide-to="11"></li>
-   	<li data-target="#myCarousel" data-slide-to="11"></li> 
-    
-  </ol>
+						<div id="block3" class="12u">
 
-  <!-- Wrapper for slides -->
-  <div class="carousel-inner">
-    <div class="item active">
-      <g:link class="list" action="index" controller="projects"><asset:image src="leanstartup.png"/></g:link>
-    </div>
-    
-    <div class="item">
-      <g:link class="list" action="shelf" controller="product"><asset:image src="project-management.png"/></g:link>
-    </div>
-    
-    <div class="item">
-      <g:link class="list" action="shelf" controller="product"><asset:image src="project-management-2.png"/></g:link>
-    </div>
-    
-    <div class="item">
-      <g:link class="list" action="shelf" controller="product"><asset:image src="project-management-3.png"/></g:link>
-    </div>
-    
-    <div class="item">
-      <g:link class="list" action="shelf" controller="product"><asset:image src="project-management-4.png"/></g:link>
-    </div>
-    
-    <div class="item">
-      <g:link controller="projects" action="index"><asset:image src="taim_banner_6.png"/></g:link>
-    </div>
-    
-    <div class="item">
-      <g:link controller="tasks" action="index"><asset:image src="taim_banner_7.png"/></g:link>
-    </div>
-    
-    <div class="item">
-      <g:link controller="notes" action="index"><asset:image src="taim_banner_8.png"/></g:link>
-    </div>
-
-	<div class="item">
-      <g:link controller="sprint" action="index"><asset:image src="project-management-5.png"/></g:link>
-    </div>
-    
-    <div class="item">
-      <g:link controller="meeting" action="index"><asset:image src="project-management-6.png"/></g:link>
-    </div>
-    
-    <div class="item">
-      <g:link controller="backlog" action="index"><asset:image src="project-management-7.png"/></g:link>
-    </div>
-    
-    <div class="item">
-      <g:link controller="backlog" action="index"><asset:image src="facebook.png"/></g:link>
-    </div>
-    
-    <div class="item">
-      <g:link controller="documentation" action="index"><asset:image src="documentation.png"/></g:link>
-    </div>
-  </div>
-
-  <!-- Left and right controls -->
-  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="right carousel-control" href="#myCarousel" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
-						
+							<!-- Banner -->
+								<section id="banner">
+									
+										<span class="image image-full"><asset:image src="documentation.png"/></span>
+										<header>
+										<!-- 
+											<h2>Shop</h2> 
+											<span class="byline">Bring your store business online.</span>
+											 -->
+										</header>
+									
+									
+								</section>
+								
 						</div>
 					</div>
 					
 								<!-- Nav -->
 										<nav id="nav">
 											<ul>
-												<li><g:link class="list" action="shelf" controller="product"><span>Dashboard</span></g:link></li>
-												<!--  <li><g:link controller="product" action="analytics">Analytics</g:link></li>
-												<li><g:link controller="product" action="sales">Sales</g:link></li>-->
+												<li><g:link url="/">Home</g:link></li>
+												<li><g:link controller="product" action="shelf">Dashboard</g:link></li>
+												<li><g:link controller="documentation" action="create">Create a Document</g:link></li>
 												<!--<li><a href="left-sidebar.html">Login</a></li>-->
 											</ul>
 										</nav>
 							<!-- Intro -->
+							
+							<g:if test="${documentationList}">
+							<g:each in="${documentationList}" status="i" var="documentationInstance">
+								<div class="row">
+								<div class="12u">
+									<section>
+										<div>
+											<div class="row">
+												<div id="block1" class="12u">
+														<section class="box">
+														<header>
+														<span style="font-size:35px;color:#9b9ea9"><b>${documentationInstance.name}</b></span>
+														</header>
+														<br><br>
+														<p style="font-size:20px;color:#8a7e7e;">Description: ${documentationInstance.description}</p>
+														<p style="font-size:18px;">Create Date: <g:formatDate format="yyyy-MM-dd" date="${documentationInstance.createTime}"/></p>
+														<p style="font-size:18px;">Update Date: <g:formatDate format="yyyy-MM-dd" date="${documentationInstance.updateTime}"/></p>
+														<br><br>
+														<g:link controller="documentation" action="show" id="${documentationInstance.id}"><span style="color:#8a7e7e;font-size:24px;">See full document...</span></g:link>
+														</section>
+												</div>
+											</div>
+										</div>
+									</section>
+								</div>
+								</div>
+							</g:each>
+							</g:if>
+							<g:else>
 							<div class="row">
-						<div class="12u">
-								<section>
+								<div class="12u">
+									<section>
 									<div>
 										<div class="row">
 										
 										<div class="6u">
 													<section class="box">
 													<!-- <a href="http://www.mytweetmark.com" class="image image-full"><asset:image src="foodal-homepage-16.png"/></a> -->
-													<div id="block1" style="border-style:solid; border-color:grey; border-width:1px;margin:1px;font-size:20px;color:#000000">
 													<header>
-														<span style="font-size:35px;color:#878282"><b>Agile Development:</b> Create projects, tasks, notes, Agile Development sprint planning, meetings and backlog.</span>
+													<g:link controller="documentation" action="create"><span style="font-size:28px;color:#8a7e7e;">Please create a document.</span></g:link>
 													</header>
-													<br><br>
-													<ul id="menu1">
-													<li><div><g:link class="list" action="index" controller="projects"><span style="color:#8a7e7e;font-size:20px"><asset:image src="goal-1.png" width="125"/> Projects</span></g:link></div></li>
-													<li>-</li>
-													<li><div><g:link class="list" action="index" controller="tasks"><span style="color:#8a7e7e;font-size:20px"><asset:image src="goal-2.png" width="125"/> Tasks</span></g:link></div></li>
-													<li>-</li>
-													<li><div><g:link class="list" action="index" controller="notes"><span style="color:#8a7e7e;font-size:20px"><asset:image src="goal-3.png" width="125"/> Notes</span></g:link></div></li>
-													<li>-</li>
-													<li><div><g:link class="list" action="index" controller="sprint"><span style="color:#8a7e7e;font-size:20px"><asset:image src="goal-4.png" width="125"/> Sprint Planning</span></g:link></div></li>
-													<li>-</li>
-													<li><div><g:link class="list" action="index" controller="meeting"><span style="color:#8a7e7e;font-size:20px"><asset:image src="goal-5.png" width="125"/> Meetings</span></g:link></div></li>
-													<li>-</li>
-													<li><div><g:link class="list" action="index" controller="backlog"><span style="color:#8a7e7e;font-size:20px"><asset:image src="goal-6.png" width="125"/> Agile Backlog</span></g:link></div></li>
-													</ul>
-													</div>
-												</section>
-											</div>
-										<div class="6u">
-										<div>
-												<section class="box">
-													
-													<div id="block2">
-													<header>
-														<span style="font-size:35px;color:#878282"><b>Lean Startup:</b> Create Customer Development - Lean Startup flow, add customers, then respond back with feedback.</span>
-													</header>
-													<br><br>
-													<ul id="menu2">
-													<li><div><g:link class="list" action="index" controller="customerDevelopment"><span style="color:#8a7e7e;font-size:20px"><asset:image src="goal-9.png" width="125"/> Customer Development</span></g:link></div></li>
-													<li>-</li>
-													<li><div><g:link class="list" action="index" controller="customer"><span style="color:#8a7e7e;font-size:20px"><asset:image src="goal-8.png" width="125"/> Customers</span></g:link></div></li>
-													</ul>
-													<br>
-														
-													</div>
-													
-													<br><br>
-													
-													<div id="block3" style="border-style:solid; border-color:grey; border-width:1px;margin:1px;font-size:20px;color:#000000">
-													<header>
-														<span style="font-size:35px;color:#878282">Documentation</span>
-													</header>
-													<br><br>
-													<ul id="menu2">
-													<li><div><g:link class="list" action="index" controller="documentation"><span style="color:#8a7e7e;font-size:20px"><asset:image src="goal-10.png" width="125"/> Product Documentation</span></g:link></div></li>
-													</ul>
-													<br>
-														
-													</div>
-													<!-- 
-													<footer class="actions">
-														<g:link controller="product" action="analytics" class="button fa fa-file-text">Please view our analytics.</g:link>
-														<br><br>
-														<g:link class="list" action="index" controller="products" class="button alt fa fa-comment">Please view our products.</g:link>
-													</footer>
-													 -->
-												</section>
-												</div>
-											</div>
-											
+													</section>
 										</div>
 									</div>
-								</section>
-
-						</div>
-					</div>
-				</div>
-			</div>
-		
+									</section>
+								</div>
+							</div>
+							</g:else>
+				        	</div>
+				        	</div>				
+							
+									
 		<!-- Main Wrapper -->
 			<div id="main-wrapper">
 				<div class="container">
@@ -284,7 +159,7 @@
 							
 							<!-- Portfolio -->
 								<section>
-									
+								
 					<div class="row">
 						<div class="12u">
 
@@ -396,7 +271,7 @@
 						</div-->
 						<div class="row">
 							<div class="4u">
-								<section>
+<section>
 									<header>
 										<h2>Connect with us</h2>
 									</header>
@@ -405,18 +280,18 @@
 										<li><a class="fa fa-twitter solo" href="https://twitter.com/foodal_"><span>Twitter</span></a></li>
 										<li><a class="fa fa-linkedin solo" href="https://www.linkedin.com/company-beta/18041812/"><span>LinkedIn</span></a></li>-->
 										<!--li><a class="fa fa-google-plus solo" href="#"><span>Google+</span></a></li-->
-									<!--  </ul>-->
+									<!--  </ul> -->
 									<ul class="contact">
 										<li>
 											<h3>Address</h3>
-											<p>
+											
 												Oakland<br />
 																							California
-											</p>
+											
 										</li>
 										<li>
 											<h3>Mail</h3>
-											<p><a href="bilal@mytweetmark.com">bilal@mytweetmark.com</a></p>
+											<a href="bilal@mytweetmark.com">bilal@mytweetmark.com</a>
 										</li>
 										<!--li>
 											<h3>Phone</h3>
@@ -427,7 +302,6 @@
 								
 
 							</div>
-							
 							<div class="4u">
 
 								<section>
@@ -441,7 +315,6 @@
 								</section>
 				
 							</div>
-							 
 							<div class="4u">
 							<section>
 									<header>
