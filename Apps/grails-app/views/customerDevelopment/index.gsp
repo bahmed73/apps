@@ -152,7 +152,7 @@
 													<section class="box">
 													<!-- <a href="http://www.mytweetmark.com" class="image image-full"><asset:image src="foodal-homepage-16.png"/></a> -->
 													<header>
-													<g:link controller="tasks" action="create"><span style="font-size:28px;color:#8a7e7e;">Please create a Tasks.</span></g:link>
+													<g:link controller="customerDevelopment" action="create"><span style="font-size:28px;color:#8a7e7e;">Please create a Customer Development.</span></g:link>
 													</header>
 													</section>
 										</div>
