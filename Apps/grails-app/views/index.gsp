@@ -190,12 +190,12 @@
 										<div class="6u">
 													<section class="box">
 													<!-- <a href="http://www.mytweetmark.com" class="image image-full"><asset:image src="foodal-homepage-16.png"/></a> -->
-													<div id="block2">
+													<div id="block1">
 													<header>
-														<span style="font-size:35px;color:#878282">Create projects, tasks, notes, agile development sprint planning, meetings and backlog.</span>
+														<span style="font-size:35px;color:#878282">Agile Development - Create projects, tasks, notes, agile development sprint planning, meetings and backlog.</span>
 													</header>
 													<br><br>
-													<ul id="menu2">
+													<ul id="menu1">
 													<li><div><g:link class="list" action="index" controller="projects"><span style="color:#8a7e7e;font-size:20px"><asset:image src="goal-1.png" width="125"/> Projects</span></g:link></div></li>
 													<li>-</li>
 													<li><div><g:link class="list" action="index" controller="tasks"><span style="color:#8a7e7e;font-size:20px"><asset:image src="goal-2.png" width="125"/> Tasks</span></g:link></div></li>
@@ -209,38 +209,22 @@
 													<li><div><g:link class="list" action="index" controller="backlog"><span style="color:#8a7e7e;font-size:20px"><asset:image src="goal-6.png" width="125"/> Agile Backlog</span></g:link></div></li>
 													</ul>
 													</div>
-													
-													<br>
-													<br>
-													
 												</section>
 											</div>
 										<div class="6u">
-										<br><br><br>
 										<div>
 												<section class="box">
 													
-													<div id="block1" style="border-style:solid; border-color:grey; border-width:1px;margin:1px;font-size:20px">
-													<div style="margin:20px; font-size:35px;color:#878282">
-													Leader in Agile Development, Lean Startup methodologies and tools!
-													</div>
-													
-													<br>
-													<div style="margin:20px">
-													For casual users, we offer tracking projects, tasks and notes. For advanced users, weekly agile development sprint planning, business requirements document and product roadmap tools for the team.
-													</div>
-													
-													<div style="margin:20px">
-													You can also download your product backlog in pdf format. We love agile development yet hope to provide you with simpler project management experience.
-													</div>
-													
-													<div style="margin:20px">
-													You can also track your Agile Development Sprint Planning, Meeting Notes and Agile Backlog with us.
-													</div>
-													
-													<div style="margin:20px">
-													Please contact us if you love Agile Development and Lean Startup - We would love your feedback and add you to our product development, user group testing team.
-													</div>
+													<div id="block2">
+													<header>
+														<span style="font-size:35px;color:#878282">Lean Startup - Create Customer Development, add customers, vendors, repond back with feedback.</span>
+													</header>
+													<br><br>
+													<ul id="menu2">
+													<li><div><g:link class="list" action="index" controller="vendors"><span style="color:#8a7e7e;font-size:20px"><asset:image src="goal-7.png" width="125"/> Vendors</span></g:link></div></li>
+													<li>-</li>
+													<li><div><g:link class="list" action="index" controller="customers"><span style="color:#8a7e7e;font-size:20px"><asset:image src="goal-8.png" width="125"/> Customers</span></g:link></div></li>
+													</ul>
 													<br>
 														
 													</div>

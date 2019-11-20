@@ -43,6 +43,7 @@
 		  <script>
 		  $( function() {
 		    $( "#menu" ).menu();
+		    $( "#menu2" ).menu();
 		  } );
 		  </script>
 		  <style>
@@ -125,14 +126,15 @@
 										<div class="6u">
 													<section class="box">
 													<!-- <a href="http://www.mytweetmark.com" class="image image-full"><asset:image src="foodal-homepage-16.png"/></a> -->
-													<header>
-														<span style="font-size:35px;color:#878282">Dashboard</span>
-													</header>
 													<g:form controller="logout">                        
     													<g:submitButton name="logout" value="Logout" />
 													</g:form>
 													
 													<br><br>
+													
+													<header>
+														<span style="font-size:35px;color:#878282">Agile Development</span>
+													</header>
 													<div id="block2">
 													
 													<ul id="menu">
@@ -222,24 +224,14 @@
 										<br><br><br>
 										<div>
 												<section class="box">
-													
+													<header>
+														<span style="font-size:35px;color:#878282">Lean Startup</span>
+													</header>
 													<div id="block1" style="border-style:solid; border-color:grey; border-width:1px;margin:1px;font-size:20px;color:#000000">
-													<br>
-													<div style="margin:20px">
-													1. Create projects. 
-													<br><br>
-													2. Create tasks within the project.
-													<br><br>
-													3. Write notes on the tasks for your team.
-													<br><br>
-													4. Build an agile development, sprint. Select tasks to go to the sprint.
-													<br><br>
-													5. Create meeting notes for tracking team progress.
-													<br><br>
-													6. Build an agile development backlog, for product roadmap, tracked by project managers.
-													<br><br>
-													</div>
-													<br>
+													<ul id="menu2">
+													<li><div><g:link class="list" action="index" controller="vendors"><span style="color:#8a7e7e;font-size:20px"><asset:image src="goal-7.png" width="125"/> Vendors</span></g:link></div></li>
+													<li><div><g:link class="list" action="index" controller="customers"><span style="color:#8a7e7e;font-size:20px"><asset:image src="goal-8.png" width="125"/> Customers</span></g:link></div></li>
+													
 													</div>
 													<!-- 
 													<footer class="actions">

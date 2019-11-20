@@ -13,6 +13,7 @@ class VendorsController {
 	
     static allowedMethods = [save: "POST", update: "PUT", delete: "DELETE"]
 
+	@Secured(['ROLE_ADMIN', 'ROLE_ANONYMOUS'])
     def index(Integer max) {
         params.max = Math.min(max ?: 10, 100)
         respond Vendors.list(params), model:[vendorsCount: Vendors.count()]
@@ -32,11 +33,11 @@ class VendorsController {
 			sheet {
 				if (vendorsList!=null && !vendorsList.isEmpty()) {
 					for (int i=0; i<vendorsList.size(); i++) {
-						row(vendorsList.get(i).name, vendorsList.get(i).address, vendorsList.get(i).phone, vendorsList.get(i).beginTime.toString(), vendorsList.get(i).endTime.toString(), vendorsList.get(i).beginQuantity, vendorsList.get(i).endQuantity, vendorsList.get(i).beginPrice, vendorsList.get(i).endPrice)
+						row(vendorsList.get(i).name, vendorsList.get(i).address, vendorsList.get(i).phone)
 					}
 				} else {
-					row("china", "address", "phone", "beginTime", "endTime", 5, 6, "\$5", "\$5")
-					row("china", "address", "phone", "beginTime", "endTime", 5, 6, "\$5", "\$5")
+					row("china", "address", "phone")
+					row("china", "address", "phone")
 				}
 			}
 		}
@@ -49,6 +50,7 @@ class VendorsController {
 		return
 	}
 	
+	@Secured(['ROLE_ADMIN', 'ROLE_ANONYMOUS'])
     def show(Vendors vendors) {
         respond vendors
     }

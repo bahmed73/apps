@@ -13,6 +13,7 @@ class CustomersController {
 	
     static allowedMethods = [save: "POST", update: "PUT", delete: "DELETE"]
 
+	@Secured(['ROLE_ADMIN', 'ROLE_ANONYMOUS'])
     def index(Integer max) {
         params.max = Math.min(max ?: 10, 100)
         respond Customers.list(params), model:[customersCount: Customers.count()]
@@ -32,11 +33,11 @@ class CustomersController {
 			sheet {
 				if (customersList!=null && !customersList.isEmpty()) {
 					for (int i=0; i<customersList.size(); i++) {
-						row(customersList.get(i).name, customersList.get(i).address, customersList.get(i).phone, customersList.get(i).beginTime.toString(), customersList.get(i).endTime.toString(), customersList.get(i).beginQuantity, customersList.get(i).endQuantity, customersList.get(i).beginPrice, customersList.get(i).endPrice)
+						row(customersList.get(i).name, customersList.get(i).address, customersList.get(i).phone)
 					}
 				} else {
-					row("china", "address", "phone", "beginTime", "endTime", 5, 6, "\$5", "\$5")
-					row("china", "address", "phone", "beginTime", "endTime", 5, 6, "\$5", "\$5")
+					row("china", "address", "phone")
+					row("china", "address", "phone")
 				}
 			}
 		}
@@ -49,6 +50,7 @@ class CustomersController {
 		return
 	}
 	
+	@Secured(['ROLE_ADMIN', 'ROLE_ANONYMOUS'])
     def show(Customers customers) {
         respond customers
     }
