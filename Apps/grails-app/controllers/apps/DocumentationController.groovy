@@ -69,6 +69,7 @@ class DocumentationController {
         }
     }
 
+	@Secured(['ROLE_ADMIN', 'ROLE_ANONYMOUS'])
 	def download(long id) {
 		Documentation documentInstance = Documentation.get(id)
 		if ( documentInstance == null) {
