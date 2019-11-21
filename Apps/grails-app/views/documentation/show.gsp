@@ -19,13 +19,20 @@
             <g:if test="${flash.message}">
             <div class="message" role="status">${flash.message}</div>
             </g:if>
-            <f:display bean="documentation" />
+            <div style="margin:20px">
+            <b>Name:</b> <f:display bean="documentation" property="name"/>
+            <br><br>
+            <b>Description:</b> <f:display bean="documentation" property="description"/>
+            <br><br>
+            <g:link controller="documentation" action="download" id="${documentation.id}"><span style="color:#8a7e7e;font-size:20px;">Download</span></g:link>
+			 <br><br>											
             <g:form resource="${this.documentation}" method="DELETE">
                 <fieldset class="buttons">
                     <g:link class="edit" action="edit" resource="${this.documentation}"><g:message code="default.button.edit.label" default="Edit" /></g:link>
                     <input class="delete" type="submit" value="${message(code: 'default.button.delete.label', default: 'Delete')}" onclick="return confirm('${message(code: 'default.button.delete.confirm.message', default: 'Are you sure?')}');" />
                 </fieldset>
             </g:form>
+            </div>
         </div>
     </body>
 </html>

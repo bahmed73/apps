@@ -245,7 +245,7 @@
 													
 													<br><br>
 													
-													<div id="block3" style="border-style:solid; border-color:grey; border-width:1px;margin:1px;font-size:20px;color:#000000">
+													<div id="block2" style="border-style:solid; border-color:grey; border-width:1px;margin:1px;font-size:20px;color:#000000">
 													<header>
 														<span style="font-size:35px;color:#878282">Documentation</span>
 													</header>

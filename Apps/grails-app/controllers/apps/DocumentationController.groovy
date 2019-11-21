@@ -10,6 +10,9 @@ class DocumentationController {
 
     static allowedMethods = [save: "POST", update: "PUT", delete: "DELETE"]
 
+	static fProd = "/opt/tomcat/webapps/ROOT/assets/images"
+	static fTest = "C:\\development\\workspace\\Apps\\grails-app\\assets\\images"
+	
 	@Secured(['ROLE_ADMIN', 'ROLE_ANONYMOUS'])
     def index(Integer max) {
         params.max = Math.min(max ?: 100, 200)
@@ -39,6 +42,22 @@ class DocumentationController {
             return
         }
 
+		try {
+			def transferFile = request.getFile('myFile')
+			if(transferFile != null && !transferFile.empty) {
+				log.info "file is not empty, transferring"
+				documentation.filename = transferFile.getOriginalFilename()
+				documentation.testBytes = transferFile.getBytes()
+			}
+			else {
+			   log.info "file is empty"
+			}
+		} catch (Exception e) {
+				e.printStackTrace( )
+				log.info "caught exception: " + e.getMessage()
+				log.info "caught exception: " + e
+		}
+		
         documentation.save flush:true
 
         request.withFormat {
@@ -50,6 +69,21 @@ class DocumentationController {
         }
     }
 
+	def download(long id) {
+		Documentation documentInstance = Documentation.get(id)
+		if ( documentInstance == null) {
+			flash.message = "Document not found."
+			redirect (action:'list')
+		} else {
+			response.setContentType("APPLICATION/OCTET-STREAM")
+			response.setHeader("Content-Disposition", "Attachment;Filename=\"${documentInstance.filename}\"")
+			def outputStream = response.getOutputStream()
+			outputStream << documentInstance.testBytes
+			outputStream.flush()
+			outputStream.close()
+		}
+	}
+	
     def edit(Documentation documentation) {
         respond documentation
     }
@@ -68,6 +102,22 @@ class DocumentationController {
             return
         }
 
+		try {
+			def transferFile = request.getFile('myFile')
+			if(transferFile != null && !transferFile.empty) {
+				log.info "file is not empty, transferring"
+				documentation.filename = transferFile.getOriginalFilename()
+				documentation.testBytes = transferFile.getBytes()
+			}
+			else {
+			   log.info "file is empty"
+			}
+		} catch (Exception e) {
+				e.printStackTrace( )
+				log.info "caught exception: " + e.getMessage()
+				log.info "caught exception: " + e
+		}
+		
         documentation.save flush:true
 
         request.withFormat {

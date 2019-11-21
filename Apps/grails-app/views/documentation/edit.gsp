@@ -26,10 +26,17 @@
                 </g:eachError>
             </ul>
             </g:hasErrors>
-            <g:form resource="${this.documentation}" method="PUT">
+            <g:form resource="${this.documentation}" method="POST" enctype="multipart/form-data">
                 <g:hiddenField name="version" value="${this.documentation?.version}" />
                 <fieldset class="form">
-                    <f:all bean="documentation"/>
+                    <f:all bean="documentation" except="fileBytes, testBytes, filename"/>
+                </fieldset>
+                <fieldset>
+                	<div style="float:left;width:50" class="post"><h4>Upload Document:</h4></div>
+              				Please upload a pdf.<br>
+              		<div>
+                  <input type="file" name="myFile" />
+              </div>	
                 </fieldset>
                 <fieldset class="buttons">
                     <input class="save" type="submit" value="${message(code: 'default.button.update.label', default: 'Update')}" />
