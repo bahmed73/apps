@@ -229,11 +229,11 @@
 										<div>
 												<section class="box">
 													
-													<div id="block2">
+													<div id="block2" style="border-style:solid; border-color:grey; border-width:1px;margin:1px;font-size:20px;color:#000000">
 													<header>
 														<span style="font-size:35px;color:#878282"><b>Lean Startup:</b> Create Customer Development - Lean Startup flow, add customers, then respond back with feedback.</span>
 													</header>
-													<br><br>
+													<br>
 													<ul id="menu2">
 													<li><div><g:link class="list" action="index" controller="customerDevelopment"><span style="color:#8a7e7e;font-size:20px"><asset:image src="goal-9.png" width="125"/> Customer Development</span></g:link></div></li>
 													<li>-</li>
@@ -249,9 +249,21 @@
 													<header>
 														<span style="font-size:35px;color:#878282">Documentation</span>
 													</header>
-													<br><br>
+													<br>
 													<ul id="menu2">
-													<li><div><g:link class="list" action="index" controller="documentation"><span style="color:#8a7e7e;font-size:20px"><asset:image src="goal-10.png" width="125"/> Product Documentation</span></g:link></div></li>
+													<li><div><g:link class="list" action="index" controller="documentation"><span style="color:#8a7e7e;font-size:20px"><asset:image src="goal-10.png" width="125"/><br><br> Product Documentation</span></g:link></div></li>
+													</ul>
+													<br>
+														
+													</div>
+													<br><br>
+													<div id="block2" style="border-style:solid; border-color:grey; border-width:1px;margin:1px;font-size:20px;color:#000000">
+													<header>
+														<span style="font-size:35px;color:#878282">Our Agile Development and Lean Startup Class!</span>
+													</header>
+													<br>
+													<ul id="menu2">
+													<li><div><span style="color:#8a7e7e;font-size:20px"><asset:image src="class.png" width="125"/><br><br> We are now offering a class on Agile Development and Lean Startup! Contact us and sign up.</span></div></li>
 													</ul>
 													<br>
 														
