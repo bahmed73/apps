@@ -73,7 +73,7 @@
 	    .animate({ width: "90%" }, 4000 )
 	    .animate({ fontSize: "24px" }, 4000 )
 	    .animate({ borderLeftWidth: "15px" }, 4000 );
-		$( "#block3" )
+		$( "#block4" )
 	    .animate({
 	      width: "90%"
 	    }, {
@@ -206,44 +206,52 @@
 								<section>
 									<div>
 										<div class="row">
-										
-										<div class="6u">
-													<section class="box">
-													<!-- <a href="http://www.mytweetmark.com" class="image image-full"><asset:image src="foodal-homepage-16.png"/></a> -->
-													<div id="block1" style="border-style:solid; border-color:grey; border-width:1px;margin:1px;font-size:20px;color:#000000">
+										<section class="box">
+										<div id="block3" class="12u" style="border-style:solid; border-color:grey; border-width:100px;margin:1px;font-size:20px;color:#000000">
 													<header>
-														<span style="font-size:35px;color:#878282"><b>Agile Development:</b> Create projects, tasks, notes, Agile Development sprint planning, meetings and backlog.</span>
+														<span style="font-size:35px;color:#878282">For $15 / month per user, <b>Agile Development + Lean Startup</b>, enterprise license and training for your company.  Start using our tools to be invested by venture capitalists and incubators. The cost of the class is $100 / hour. Sign up today!</span>
+													</header>
+													</div>
+													</section>
+													
+										<div id="block2" class="6u">
+													<!-- <a href="http://www.mytweetmark.com" class="image image-full"><asset:image src="foodal-homepage-16.png"/></a> -->
+													<div id="block1" style="border-style:solid; border-color:grey; border-width:2px;margin:30px;font-size:20px;color:#000000">
+													<header>
+														<span style="font-size:35px;color:#878282"><b>Agile Development:</b> Create projects, tasks, notes, agile development sprint planning, meetings and backlog.</span>
 													</header>
 													<br><br>
-													<ul id="menu1">
-													<li><div><g:link class="list" action="index" controller="projects"><span style="color:#8a7e7e;font-size:20px"><asset:image src="goal-1.png" width="125"/> Projects</span></g:link></div></li>
+													<ul>
+													<li><div><g:link class="list" action="index" controller="projects"><span style="color:#8a7e7e;font-size:28px"><asset:image src="goal-1.png" width="125"/> Projects</span></g:link> - Start creating an Agile Development project, so your tasks can be grouped together.</div></li>
 													<li>-</li>
-													<li><div><g:link class="list" action="index" controller="tasks"><span style="color:#8a7e7e;font-size:20px"><asset:image src="goal-2.png" width="125"/> Tasks</span></g:link></div></li>
+													<li><div><g:link class="list" action="index" controller="tasks"><span style="color:#8a7e7e;font-size:28px"><asset:image src="goal-2.png" width="125"/> Tasks</span></g:link> - Create tasks, to manage the project, within agile development backlog and sprints.</div></li>
 													<li>-</li>
-													<li><div><g:link class="list" action="index" controller="notes"><span style="color:#8a7e7e;font-size:20px"><asset:image src="goal-3.png" width="125"/> Notes</span></g:link></div></li>
+													<li><div><g:link class="list" action="index" controller="notes"><span style="color:#8a7e7e;font-size:28px"><asset:image src="goal-3.png" width="125"/> Notes</span></g:link> - Write notes for your team, on the tasks, step by step instructions to finish the project.</div></li>
 													<li>-</li>
-													<li><div><g:link class="list" action="index" controller="sprint"><span style="color:#8a7e7e;font-size:20px"><asset:image src="goal-4.png" width="125"/> Sprint Planning</span></g:link></div></li>
+													<li><div><g:link class="list" action="index" controller="sprint"><span style="color:#8a7e7e;font-size:28px"><asset:image src="goal-4.png" width="125"/> Sprint Planning</span></g:link> - Start creating sprints, a groups of tasks, that can be accomplished within a week or two.</div></li>
 													<li>-</li>
-													<li><div><g:link class="list" action="index" controller="meeting"><span style="color:#8a7e7e;font-size:20px"><asset:image src="goal-5.png" width="125"/> Meetings</span></g:link></div></li>
+													<li><div><g:link class="list" action="index" controller="meeting"><span style="color:#8a7e7e;font-size:28px"><asset:image src="goal-5.png" width="125"/> Meetings</span></g:link> - Setup Agile Development, Sprint Planning meetings, so the project and tasks can be measured. Setup Retrospective meetings, that are post agile development sprint.</div></li>
 													<li>-</li>
-													<li><div><g:link class="list" action="index" controller="backlog"><span style="color:#8a7e7e;font-size:20px"><asset:image src="goal-6.png" width="125"/> Agile Backlog</span></g:link></div></li>
+													<li><div><g:link class="list" action="index" controller="backlog"><span style="color:#8a7e7e;font-size:28px"><asset:image src="goal-6.png" width="125"/> Agile Backlog</span></g:link> - Setup a backlog of ideas, tasks that will be done in the future. Create a backlog for a month, and allow the team to build agile sprints through the tasks.</div></li>
 													</ul>
 													</div>
-												</section>
+												
 											</div>
-										<div class="6u">
+											<br><br>
+											<br><br>
+										<div id="block4" class="6u" style="margin:100px;border-style:solid; border-color:grey; border-width:2px;margin:1px;font-size:20px;color:#000000">
 										<div>
-												<section class="box">
+												
 													
-													<div id="block2" style="border-style:solid; border-color:grey; border-width:1px;margin:1px;font-size:20px;color:#000000">
+													<div id="block3">
 													<header>
 														<span style="font-size:35px;color:#878282"><b>Lean Startup:</b> Create Customer Development - Lean Startup flow, add customers, then respond back with feedback.</span>
 													</header>
 													<br>
-													<ul id="menu2">
-													<li><div><g:link class="list" action="index" controller="customerDevelopment"><span style="color:#8a7e7e;font-size:20px"><asset:image src="goal-9.png" width="125"/> Customer Development</span></g:link></div></li>
+													<ul>
+													<li><div><g:link class="list" action="index" controller="customerDevelopment"><span style="color:#8a7e7e;font-size:28px"><asset:image src="goal-9.png" width="125"/> Customer Development</span></g:link> - Build Customer Development flows, that will require customer feedback. Ask a list of questions, attach to the project. Talk to the customers and then share the feedback with the team. Create Agile Development backlog tasks so project management can build product roadmap from the ideas.</div></li>
 													<li>-</li>
-													<li><div><g:link class="list" action="index" controller="customer"><span style="color:#8a7e7e;font-size:20px"><asset:image src="goal-8.png" width="125"/> Customers</span></g:link></div></li>
+													<li><div><g:link class="list" action="index" controller="customer"><span style="color:#8a7e7e;font-size:28px"><asset:image src="goal-8.png" width="125"/> Customers</span></g:link> - Share all your Lean Startup, Customer Development, customers with the team.</div></li>
 													</ul>
 													<br>
 														
@@ -251,24 +259,24 @@
 													
 													<br><br>
 													
-													<div id="block2" style="border-style:solid; border-color:grey; border-width:1px;margin:1px;font-size:20px;color:#000000">
+													<div id="block3" style="border-style:solid; border-color:grey; margin:1px;font-size:20px;color:#000000">
 													<header>
 														<span style="font-size:35px;color:#878282">Documentation</span>
 													</header>
 													<br>
-													<ul id="menu2">
-													<li><div><g:link class="list" action="index" controller="documentation"><span style="color:#8a7e7e;font-size:20px"><asset:image src="goal-10.png" width="125"/><br><br> Product Documentation</span></g:link></div></li>
+													<ul>
+													<li><div><g:link class="list" action="index" controller="documentation"><span style="color:#8a7e7e;font-size:28px"><asset:image src="goal-10.png" width="125"/><br><br> Product Documentation</span></g:link> - Find all our business slide deck, requirement documents, agile sprint planning and lean startup material here.</div></li>
 													</ul>
 													<br>
 														
 													</div>
 													<br><br>
-													<div id="block2" style="border-style:solid; border-color:grey; border-width:1px;margin:1px;font-size:20px;color:#000000">
+													<div id="block3" style="border-style:solid; border-color:grey; margin:1px;font-size:20px;color:#000000">
 													<header>
 														<span style="font-size:35px;color:#878282">Our Agile Development and Lean Startup Class!</span>
 													</header>
 													<br>
-													<ul id="menu2">
+													<ul>
 													<li><div><span style="color:#8a7e7e;font-size:20px"><asset:image src="class.png" width="125"/><br><br> We are now offering a class on Agile Development and Lean Startup! Contact us and sign up.</span></div></li>
 													</ul>
 													<br>
@@ -281,7 +289,6 @@
 														<g:link class="list" action="index" controller="products" class="button alt fa fa-comment">Please view our products.</g:link>
 													</footer>
 													 -->
-												</section>
 												</div>
 											</div>
 											
