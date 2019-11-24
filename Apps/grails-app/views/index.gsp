@@ -164,18 +164,20 @@
 													</header>
 													<br><br>
 													<ul>
-													<li><div><g:link class="list" action="index" controller="projects"><span style="color:#8a7e7e;font-size:28px"><asset:image src="goal-1-1.png" width="125"/> Projects</span></g:link> - Start creating agile development projects, so your tasks can be tracked.</div></li>
+													<li><div><g:link class="list" action="index" controller="projects"><span style="color:#8a7e7e;font-size:28px"><asset:image src="goal-1-1.png" width="65"/> Projects</span></g:link> - Start creating agile development projects, so your tasks can be tracked.</div></li>
 													<li>-</li>
-													<li><div><g:link class="list" action="index" controller="tasks"><span style="color:#8a7e7e;font-size:28px"><asset:image src="goal-2-1.png" width="125"/> Tasks</span></g:link> - Create tasks, to manage the project, within agile development backlog and sprints.</div></li>
+													<li><div><g:link class="list" action="index" controller="tasks"><span style="color:#8a7e7e;font-size:28px"><asset:image src="goal-2-1.png" width="65"/> Tasks</span></g:link> - Create tasks, to manage the project, within agile development backlog and sprints.</div></li>
 													<li>-</li>
-													<li><div><g:link class="list" action="index" controller="notes"><span style="color:#8a7e7e;font-size:28px"><asset:image src="goal-3-1.png" width="125"/> Notes</span></g:link> - Write notes for your team, on the tasks, step by step instructions to finish the project.</div></li>
+													<li><div><g:link class="list" action="index" controller="notes"><span style="color:#8a7e7e;font-size:28px"><asset:image src="goal-3-1.png" width="65"/> Notes</span></g:link> - Write notes for your team, on the tasks, step by step instructions to finish the project.</div></li>
 													<li>-</li>
-													<li><div><g:link class="list" action="index" controller="sprint"><span style="color:#8a7e7e;font-size:28px"><asset:image src="goal-4-1.png" width="125"/> Sprint Planning</span></g:link> - Start creating sprints, a groups of tasks, that can be accomplished within a week.</div></li>
+													<li><div><g:link class="list" action="index" controller="sprint"><span style="color:#8a7e7e;font-size:28px"><asset:image src="goal-4-1.png" width="65"/> Sprint Planning</span></g:link> - Start creating sprints, a groups of tasks, that can be accomplished within a week.</div></li>
 													<li>-</li>
-													<li><div><g:link class="list" action="index" controller="meeting"><span style="color:#8a7e7e;font-size:28px"><asset:image src="goal-5-1.png" width="125"/> Meetings</span></g:link> - Setup sprint planning meetings and retrospectives post agile development sprints.</div></li>
+													<li><div><g:link class="list" action="index" controller="meeting"><span style="color:#8a7e7e;font-size:28px"><asset:image src="goal-5-1.png" width="65"/> Meetings</span></g:link> - Setup sprint planning meetings and retrospectives post agile development sprints.</div></li>
 													<li>-</li>
-													<li><div><g:link class="list" action="index" controller="backlog"><span style="color:#8a7e7e;font-size:28px"><asset:image src="goal-6-1.png" width="125"/> Agile Backlog</span></g:link> - Setup a backlog of ideas, tasks that will be done in the future.</div></li>
+													<li><div><g:link class="list" action="index" controller="backlog"><span style="color:#8a7e7e;font-size:28px"><asset:image src="goal-6-1.png" width="65"/> Agile Backlog</span></g:link> - Setup a backlog of ideas, tasks that will be done in the future.</div></li>
 													</ul>
+													<br><br>
+													<br><br>
 													</div>
 												
 											</div>
@@ -191,9 +193,9 @@
 													</header>
 													<br>
 													<ul>
-													<li><div><g:link class="list" action="index" controller="customerDevelopment"><span style="color:#8a7e7e;font-size:28px"><asset:image src="goal-7-1.png" width="125"/> Customer Development</span></g:link> - Build Customer Development flows, attach to the project sprint tasks.</div></li>
+													<li><div><g:link class="list" action="index" controller="customerDevelopment"><span style="color:#8a7e7e;font-size:28px"><asset:image src="goal-7-1.png" width="65"/> Customer Development</span></g:link> - Build Customer Development flows, attach to the project sprint tasks.</div></li>
 													<li>-</li>
-													<li><div><g:link class="list" action="index" controller="customer"><span style="color:#8a7e7e;font-size:28px"><asset:image src="goal-8-1.png" width="125"/> Customers</span></g:link> - Share all your Lean Startup, Customer Development, customers with the team.</div></li>
+													<li><div><g:link class="list" action="index" controller="customer"><span style="color:#8a7e7e;font-size:28px"><asset:image src="goal-8-1.png" width="65"/> Customers</span></g:link> - Share all your Lean Startup, Customer Development, customers with the team.</div></li>
 													</ul>
 													<br>
 														
@@ -207,7 +209,7 @@
 													</header>
 													<br>
 													<ul>
-													<li><div><g:link class="list" action="index" controller="documentation"><span style="color:#8a7e7e;font-size:28px"><asset:image src="goal-9-1.png" width="125"/><br><br> Product Documentation</span></g:link> - Business slide deck, requirement documents, agile sprint planning and customer development.</div></li>
+													<li><div><g:link class="list" action="index" controller="documentation"><span style="color:#8a7e7e;font-size:28px"><asset:image src="goal-9-1.png" width="65"/><br><br> Product Docs</span></g:link> - Business slide deck, requirement documents, agile sprint planning and customer development.</div></li>
 													</ul>
 													<br>
 														
@@ -219,7 +221,7 @@
 													</header>
 													<br>
 													<ul>
-													<li><div><span style="color:#8a7e7e;font-size:20px"><asset:image src="goal-10-1.png" width="125"/><br><br> We are now offering a class on Agile Development and Lean Startup! Contact us and sign up.</span></div></li>
+													<li><div><span style="color:#878282;font-size:20px"><asset:image src="goal-10-1.png" width="65"/><br><br><b> We are now offering a class on Agile Development and Lean Startup! Contact us and sign up.</b></span></div></li>
 													</ul>
 													<br>
 														
