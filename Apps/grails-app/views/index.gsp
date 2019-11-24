@@ -59,7 +59,8 @@
 		var options = {};
         // Run the effect
    		$( "#block3" ).effect( "pulsate", options, 1000, callback );
-   
+   		$( "#block5" ).effect( "pulsate", options, 1000, callback );
+   		
 		$( "#block1" )
 	    .animate({
 	      width: "90%"
@@ -75,7 +76,7 @@
 	    .animate({ borderLeftWidth: "15px" }, 4000 );
 		$( "#block4" )
 	    .animate({
-	      width: "90%"
+	      width: "94%"
 	    }, {
 	      queue: false,
 	      duration: 6000
@@ -102,79 +103,20 @@
   <ol class="carousel-indicators">
     <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
     <li data-target="#myCarousel" data-slide-to="1"></li>
-    <li data-target="#myCarousel" data-slide-to="2"></li>
-    <li data-target="#myCarousel" data-slide-to="3"></li>
-    <li data-target="#myCarousel" data-slide-to="4"></li>
-    <li data-target="#myCarousel" data-slide-to="5"></li>
-    <li data-target="#myCarousel" data-slide-to="6"></li>
-    <li data-target="#myCarousel" data-slide-to="7"></li>
-    <li data-target="#myCarousel" data-slide-to="8"></li>
-    <li data-target="#myCarousel" data-slide-to="9"></li>
-    <li data-target="#myCarousel" data-slide-to="10"></li>
-    <li data-target="#myCarousel" data-slide-to="11"></li>
-   	<li data-target="#myCarousel" data-slide-to="11"></li> 
-   	<li data-target="#myCarousel" data-slide-to="12"></li> 
-   	
+    
     
   </ol>
 
   <!-- Wrapper for slides -->
   <div class="carousel-inner">
     <div class="item active">
-      <g:link class="list" action="index" controller="projects"><asset:image src="teaching.png"/></g:link>
+      <g:link class="list" action="index" controller="sprint"><asset:image src="agiledevelopment-wall-paper.png"/></g:link>
     </div>
     
     <div class="item">
-      <g:link class="list" action="shelf" controller="product"><asset:image src="leanstartup.png"/></g:link>
+      <g:link class="list" action="index" controller="customerDevelopment"><asset:image src="leanstartup-wall-paper.png"/></g:link>
     </div>
     
-    <div class="item">
-      <g:link class="list" action="shelf" controller="product"><asset:image src="project-management.png"/></g:link>
-    </div>
-    
-    <div class="item">
-      <g:link class="list" action="shelf" controller="product"><asset:image src="project-management-2.png"/></g:link>
-    </div>
-    
-    <div class="item">
-      <g:link class="list" action="shelf" controller="product"><asset:image src="project-management-3.png"/></g:link>
-    </div>
-    
-    <div class="item">
-      <g:link class="list" action="shelf" controller="product"><asset:image src="project-management-4.png"/></g:link>
-    </div>
-    
-    <div class="item">
-      <g:link controller="projects" action="index"><asset:image src="taim_banner_6.png"/></g:link>
-    </div>
-    
-    <div class="item">
-      <g:link controller="tasks" action="index"><asset:image src="taim_banner_7.png"/></g:link>
-    </div>
-    
-    <div class="item">
-      <g:link controller="notes" action="index"><asset:image src="taim_banner_8.png"/></g:link>
-    </div>
-
-	<div class="item">
-      <g:link controller="sprint" action="index"><asset:image src="project-management-5.png"/></g:link>
-    </div>
-    
-    <div class="item">
-      <g:link controller="meeting" action="index"><asset:image src="project-management-6.png"/></g:link>
-    </div>
-    
-    <div class="item">
-      <g:link controller="backlog" action="index"><asset:image src="project-management-7.png"/></g:link>
-    </div>
-    
-    <div class="item">
-      <g:link controller="backlog" action="index"><asset:image src="facebook.png"/></g:link>
-    </div>
-    
-    <div class="item">
-      <g:link controller="documentation" action="index"><asset:image src="documentation.png"/></g:link>
-    </div>
   </div>
 
   <!-- Left and right controls -->
@@ -195,8 +137,8 @@
 										<nav id="nav">
 											<ul>
 												<li><g:link class="list" action="shelf" controller="product"><span>Dashboard</span></g:link></li>
-												<!--  <li><g:link controller="product" action="analytics">Analytics</g:link></li>
-												<li><g:link controller="product" action="sales">Sales</g:link></li>-->
+												<li><g:link controller="sprint" action="index">Agile Development</g:link></li>
+												<li><g:link controller="customerDevelopment" action="index">Lean Startup</g:link></li>
 												<!--<li><a href="left-sidebar.html">Login</a></li>-->
 											</ul>
 										</nav>
@@ -216,23 +158,23 @@
 													
 										<div id="block2" class="6u">
 													<!-- <a href="http://www.mytweetmark.com" class="image image-full"><asset:image src="foodal-homepage-16.png"/></a> -->
-													<div id="block1" style="border-style:solid; border-color:grey; border-width:2px;margin:30px;font-size:20px;color:#000000">
+													<div id="block5" style="border-style:solid; border-color:grey; border-width:2px;margin:30px;font-size:20px;color:#000000">
 													<header>
 														<span style="font-size:35px;color:#878282"><b>Agile Development:</b> Create projects, tasks, notes, agile development sprint planning, meetings and backlog.</span>
 													</header>
 													<br><br>
 													<ul>
-													<li><div><g:link class="list" action="index" controller="projects"><span style="color:#8a7e7e;font-size:28px"><asset:image src="goal-1.png" width="125"/> Projects</span></g:link> - Start creating an Agile Development project, so your tasks can be grouped together.</div></li>
+													<li><div><g:link class="list" action="index" controller="projects"><span style="color:#8a7e7e;font-size:28px"><asset:image src="goal-1-1.png" width="125"/> Projects</span></g:link> - Start creating agile development projects, so your tasks can be tracked.</div></li>
 													<li>-</li>
-													<li><div><g:link class="list" action="index" controller="tasks"><span style="color:#8a7e7e;font-size:28px"><asset:image src="goal-2.png" width="125"/> Tasks</span></g:link> - Create tasks, to manage the project, within agile development backlog and sprints.</div></li>
+													<li><div><g:link class="list" action="index" controller="tasks"><span style="color:#8a7e7e;font-size:28px"><asset:image src="goal-2-1.png" width="125"/> Tasks</span></g:link> - Create tasks, to manage the project, within agile development backlog and sprints.</div></li>
 													<li>-</li>
-													<li><div><g:link class="list" action="index" controller="notes"><span style="color:#8a7e7e;font-size:28px"><asset:image src="goal-3.png" width="125"/> Notes</span></g:link> - Write notes for your team, on the tasks, step by step instructions to finish the project.</div></li>
+													<li><div><g:link class="list" action="index" controller="notes"><span style="color:#8a7e7e;font-size:28px"><asset:image src="goal-3-1.png" width="125"/> Notes</span></g:link> - Write notes for your team, on the tasks, step by step instructions to finish the project.</div></li>
 													<li>-</li>
-													<li><div><g:link class="list" action="index" controller="sprint"><span style="color:#8a7e7e;font-size:28px"><asset:image src="goal-4.png" width="125"/> Sprint Planning</span></g:link> - Start creating sprints, a groups of tasks, that can be accomplished within a week or two.</div></li>
+													<li><div><g:link class="list" action="index" controller="sprint"><span style="color:#8a7e7e;font-size:28px"><asset:image src="goal-4-1.png" width="125"/> Sprint Planning</span></g:link> - Start creating sprints, a groups of tasks, that can be accomplished within a week.</div></li>
 													<li>-</li>
-													<li><div><g:link class="list" action="index" controller="meeting"><span style="color:#8a7e7e;font-size:28px"><asset:image src="goal-5.png" width="125"/> Meetings</span></g:link> - Setup Agile Development, Sprint Planning meetings, so the project and tasks can be measured. Setup Retrospective meetings, that are post agile development sprint.</div></li>
+													<li><div><g:link class="list" action="index" controller="meeting"><span style="color:#8a7e7e;font-size:28px"><asset:image src="goal-5-1.png" width="125"/> Meetings</span></g:link> - Setup sprint planning meetings and retrospectives post agile development sprints.</div></li>
 													<li>-</li>
-													<li><div><g:link class="list" action="index" controller="backlog"><span style="color:#8a7e7e;font-size:28px"><asset:image src="goal-6.png" width="125"/> Agile Backlog</span></g:link> - Setup a backlog of ideas, tasks that will be done in the future. Create a backlog for a month, and allow the team to build agile sprints through the tasks.</div></li>
+													<li><div><g:link class="list" action="index" controller="backlog"><span style="color:#8a7e7e;font-size:28px"><asset:image src="goal-6-1.png" width="125"/> Agile Backlog</span></g:link> - Setup a backlog of ideas, tasks that will be done in the future.</div></li>
 													</ul>
 													</div>
 												
@@ -249,9 +191,9 @@
 													</header>
 													<br>
 													<ul>
-													<li><div><g:link class="list" action="index" controller="customerDevelopment"><span style="color:#8a7e7e;font-size:28px"><asset:image src="goal-9.png" width="125"/> Customer Development</span></g:link> - Build Customer Development flows, that will require customer feedback. Ask a list of questions, attach to the project. Talk to the customers and then share the feedback with the team. Create Agile Development backlog tasks so project management can build product roadmap from the ideas.</div></li>
+													<li><div><g:link class="list" action="index" controller="customerDevelopment"><span style="color:#8a7e7e;font-size:28px"><asset:image src="goal-7-1.png" width="125"/> Customer Development</span></g:link> - Build Customer Development flows, attach to the project sprint tasks.</div></li>
 													<li>-</li>
-													<li><div><g:link class="list" action="index" controller="customer"><span style="color:#8a7e7e;font-size:28px"><asset:image src="goal-8.png" width="125"/> Customers</span></g:link> - Share all your Lean Startup, Customer Development, customers with the team.</div></li>
+													<li><div><g:link class="list" action="index" controller="customer"><span style="color:#8a7e7e;font-size:28px"><asset:image src="goal-8-1.png" width="125"/> Customers</span></g:link> - Share all your Lean Startup, Customer Development, customers with the team.</div></li>
 													</ul>
 													<br>
 														
@@ -265,7 +207,7 @@
 													</header>
 													<br>
 													<ul>
-													<li><div><g:link class="list" action="index" controller="documentation"><span style="color:#8a7e7e;font-size:28px"><asset:image src="goal-10.png" width="125"/><br><br> Product Documentation</span></g:link> - Find all our business slide deck, requirement documents, agile sprint planning and lean startup material here.</div></li>
+													<li><div><g:link class="list" action="index" controller="documentation"><span style="color:#8a7e7e;font-size:28px"><asset:image src="goal-9-1.png" width="125"/><br><br> Product Documentation</span></g:link> - Business slide deck, requirement documents, agile sprint planning and customer development.</div></li>
 													</ul>
 													<br>
 														
@@ -277,7 +219,7 @@
 													</header>
 													<br>
 													<ul>
-													<li><div><span style="color:#8a7e7e;font-size:20px"><asset:image src="class.png" width="125"/><br><br> We are now offering a class on Agile Development and Lean Startup! Contact us and sign up.</span></div></li>
+													<li><div><span style="color:#8a7e7e;font-size:20px"><asset:image src="goal-10-1.png" width="125"/><br><br> We are now offering a class on Agile Development and Lean Startup! Contact us and sign up.</span></div></li>
 													</ul>
 													<br>
 														
