@@ -73,13 +73,13 @@
 
 							<!-- Banner -->
 								<section id="banner">
-									<a href="https://mauget.com/">
+									
 										<span class="image image-full"><asset:image src="taim_banner_8.png"/></span>
 										<header>
 											<!--  <h2>Foodal</h2>-->
 											<!--span class="byline">welcome!</span-->
 										</header>
-									</a>
+									
 									
 								</section>
 								
