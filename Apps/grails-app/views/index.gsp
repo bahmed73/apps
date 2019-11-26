@@ -41,9 +41,31 @@
 		  <meta name="viewport" content="width=device-width, initial-scale=1">
 		  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
 		  <link rel="stylesheet" href="/resources/demos/style.css">
+				  <style>
+		  #accordion-resizer {
+		  	margin-left: 80px;
+		    margin-right: 80px;
+		    padding: 50px;
+		    width: 1100px;
+		    height: 500px;
+		  }
+		  </style>
 		  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
 		  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 		  <script>
+		  $( function() {
+			    $( "#accordion" ).accordion({
+			      heightStyle: "fill"
+			    });
+			 
+			    $( "#accordion-resizer" ).resizable({
+			      minHeight: 800,
+			      minWidth: 800,
+			      resize: function() {
+			        $( "#accordion" ).accordion( "refresh" );
+			      }
+			    });
+			  } );
 		  $( function() {
 		    $( "#menu" ).menu();
 		    $( "#menu2" ).menu();
@@ -156,13 +178,12 @@
 													</div>
 													</section>
 													
-										<div id="block2" class="6u">
-													<!-- <a href="http://www.mytweetmark.com" class="image image-full"><asset:image src="foodal-homepage-16.png"/></a> -->
-													<div id="block5" style="border-style:solid; border-color:grey; border-width:2px;margin:30px;font-size:20px;color:#000000">
-													<header>
-														<span style="font-size:35px;color:#878282"><b>Agile Development:</b> Create projects, tasks, notes, agile development sprint planning, meetings and backlog.</span>
-													</header>
-													<br><br>
+													
+													<div id="accordion-resizer" class="ui-widget-content">
+													  <div id="accordion">
+													    <h3>Agile Development</h3>
+													    <div>
+													      
 													<ul>
 													<li><div><g:link class="list" action="index" controller="projects"><span style="color:#8a7e7e;font-size:28px"><asset:image src="goal-1-1.png" width="65"/> Projects</span></g:link> - Start creating agile development projects, so your tasks can be tracked.</div></li>
 													<li>-</li>
@@ -176,65 +197,32 @@
 													<li>-</li>
 													<li><div><g:link class="list" action="index" controller="backlog"><span style="color:#8a7e7e;font-size:28px"><asset:image src="goal-6-1.png" width="65"/> Agile Backlog</span></g:link> - Setup a backlog of ideas, tasks that will be done in the future.</div></li>
 													</ul>
-													<br><br>
-													<br><br>
-													</div>
-												
-											</div>
-											<br><br>
-											<br><br>
-										<div id="block4" class="6u" style="margin:100px;border-style:solid; border-color:grey; border-width:2px;margin:1px;font-size:20px;color:#000000">
-										<div>
-												
-													
-													<div id="block3">
-													<header>
-														<span style="font-size:35px;color:#878282"><b>Lean Startup:</b> Create Customer Development - Lean Startup flow, add customers, then respond back with feedback.</span>
-													</header>
-													<br>
-													<ul>
+													    </div>
+													    <h3>Lean Startup</h3>
+													    <div>
+													      <ul>
 													<li><div><g:link class="list" action="index" controller="customerDevelopment"><span style="color:#8a7e7e;font-size:28px"><asset:image src="goal-7-1.png" width="65"/> Customer Development</span></g:link> - Build Customer Development flows, attach to the project sprint tasks.</div></li>
 													<li>-</li>
 													<li><div><g:link class="list" action="index" controller="customer"><span style="color:#8a7e7e;font-size:28px"><asset:image src="goal-8-1.png" width="65"/> Customers</span></g:link> - Share all your Lean Startup, Customer Development, customers with the team.</div></li>
 													</ul>
-													<br>
-														
+													
+													    </div>
+													    <h3>Documentation</h3>
+													    <div>
+													      <ul>
+														<li><div><g:link class="list" action="index" controller="documentation"><span style="color:#8a7e7e;font-size:28px"><asset:image src="goal-9-1.png" width="65"/><br><br> Product Docs</span></g:link> - Business slide deck, requirement documents, agile sprint planning and customer development.</div></li>
+														</ul>
+													    </div>
+													    <h3>Training</h3>
+													    <div>
+													      <ul>
+														<li><div><span style="color:#878282;font-size:20px"><asset:image src="goal-10-1.png" width="65"/><br><br><b> We are now offering a class on Agile Development and Lean Startup! Contact us and sign up.</b></span></div></li>
+														</ul>
+													
+													    </div>
+													  </div>
 													</div>
 													
-													<br><br>
-													
-													<div id="block3" style="border-style:solid; border-color:grey; margin:1px;font-size:20px;color:#000000">
-													<header>
-														<span style="font-size:35px;color:#878282">Documentation</span>
-													</header>
-													<br>
-													<ul>
-													<li><div><g:link class="list" action="index" controller="documentation"><span style="color:#8a7e7e;font-size:28px"><asset:image src="goal-9-1.png" width="65"/><br><br> Product Docs</span></g:link> - Business slide deck, requirement documents, agile sprint planning and customer development.</div></li>
-													</ul>
-													<br>
-														
-													</div>
-													<br><br>
-													<div id="block3" style="border-style:solid; border-color:grey; margin:1px;font-size:20px;color:#000000">
-													<header>
-														<span style="font-size:35px;color:#878282">Our Agile Development and Lean Startup Class!</span>
-													</header>
-													<br>
-													<ul>
-													<li><div><span style="color:#878282;font-size:20px"><asset:image src="goal-10-1.png" width="65"/><br><br><b> We are now offering a class on Agile Development and Lean Startup! Contact us and sign up.</b></span></div></li>
-													</ul>
-													<br>
-														
-													</div>
-													<!-- 
-													<footer class="actions">
-														<g:link controller="product" action="analytics" class="button fa fa-file-text">Please view our analytics.</g:link>
-														<br><br>
-														<g:link class="list" action="index" controller="products" class="button alt fa fa-comment">Please view our products.</g:link>
-													</footer>
-													 -->
-												</div>
-											</div>
 											
 										</div>
 									</div>
