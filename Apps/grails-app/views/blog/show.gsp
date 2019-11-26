@@ -35,45 +35,34 @@
 		<!--[if lte IE 8]><asset:javascript src="html5shiv.js"/><asset:stylesheet src="ie8.css"/><![endif]-->
 		<style>
 		p {
-		  border: 20px dotted #e5e1e1;
+		  border: 2px solid #e5e1e1;
 		  background-color: #e1f3f9;
-		  border-radius: 10px;
-		  border-width: 5px;
+		  border-width: 2px;
 		}
 		</style>
-		<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
 		  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 	</head>
 	<body class="homepage" onload="testEffect()">
 	<script type="text/javascript">
 	function testEffect() {
-		var options = {};
-        // Run the effect
-   		$( "#block3" ).effect( "pulsate", options, 500, callback );
-   
-		$( "#block1" )
-	    .animate({
-	      width: "90%"
-	    }, {
-	      queue: false,
-	      duration: 9000
-	    })
-	    .animate({ fontSize: "24px" }, 3500 )
-	    .animate({ borderRightWidth: "15px" }, 3500 );
-		$( "#block2" )
-	    .animate({ width: "90%" }, 3000 )
-	    .animate({ fontSize: "24px" }, 3000 )
-	    .animate({ borderLeftWidth: "15px" }, 3000 );
-		}
-
-	function callback() {
+	      // Most effect types need no options passed by default
+	      var options = {};
+	           // Run the effect
+	      $( "#block1" ).effect( "bounce", options, 500, callback );
+	      $( "#block2" ).effect( "explode", options, 500, callback );
+	      $( "#block3" ).effect( "pulsate", options, 500, callback );
+	    };
+	 
+	    // Callback function to bring a hidden box back
+	    function callback() {
 	      setTimeout(function() {
+	        $( "#block1" ).removeAttr( "style" ).hide().fadeIn();
+	        $( "#block2" ).removeAttr( "style" ).hide().fadeIn();
 	        $( "#block3" ).removeAttr( "style" ).hide().fadeIn();
 	      }, 1000 );
 	    };
 	</script>
-	<div id="fb-root"></div>
-<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2&appId=261449270414&autoLogAppEvents=1"></script>
 	
 		<!-- Header Wrapper -->
 			<div id="header-wrapper">
@@ -85,7 +74,7 @@
 							<!-- Banner -->
 								<section id="banner">
 									
-										<span class="image image-full"><asset:image src="taim_banner_5.png"/></span>
+										<span class="image image-full"><asset:image src="blogging.png"/></span>
 										<header>
 											<!--  <h2>Foodal</h2>-->
 											<!--span class="byline">welcome!</span-->
@@ -111,30 +100,30 @@
 						<div class="12u">
 								<section>
 									<div>
-										<div class="row" style="border-style:solid; border-color:grey; border-width:1px;">
-											<div id="block2" class="6u">
+										<div class="row">
+											<div id="block1" class="6u">
 													<section class="box">
 													<!-- <a href="http://www.mytweetmark.com" class="image image-full"><asset:image src="foodal-homepage-16.png"/></a> -->
 													<header>
-														<span style="font-size:40px;color:#9b9ea9"><f:display bean="blog" property="name"/></span>
+														<span style="font-size:35px;color:#9b9ea9"><f:display bean="blog" property="name"/></span>
 													</header>
 													<br><br>
-													<p style="font-size:26px;color:#8a7e7e;font-family:'Palatino';"><f:display bean="blog" property="description"/></p>
+													<p style="font-size:20px;color:#8a7e7e;">Blog: <f:display bean="blog" property="description"/></p>
 													<br><br>
-													<a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-													<div class="fb-share-button" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button" data-size="small"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
 												</section>
 											</div>
-											<div class="6u">
+											<div id="block2">
 												<section class="box">
-												<div id="block1" style="border-style:solid; border-color:grey; border-width:1px;margin:1px;font-size:2px">
-													<div style="border: 20px dotted #e1f3f9;">
+												<header>
+												<g:if test="${blog.imageThree}">
+													<div style="border: 2px solid #e1f3f9;margin:50px;">
 													<img src="data:image/png;base64,${blog.imageThree?.encodeBase64()}"/>
-													</div>
-												</div>
 													<br><br>
-													<p style="font-size:14px;">Copy and paste the browser link above for your social media marketing, e.g. paste as facebook post.</p>
+													<p style="font-size:14px;">Upload images with the blog.</p>
 													<br>
+													</div>
+												</g:if>
+												</header>
 													<footer class="actions">
 														<a href="mailto:bilal@mytweetmark.com" class="button fa fa-file-text">Email us today!</a>
 														<br><br>

@@ -106,7 +106,7 @@
 									<section>
 										<div>
 											<div class="row">
-												<div id="block1" class="6u">
+												<div id="block1" class="12u">
 														<section class="box">
 														<header>
 														<span style="font-size:35px;color:#9b9ea9"><b>${notesInstance.name}</b></span>
@@ -117,15 +117,7 @@
 														<p><g:link controller="notes" action="show" id="${notesInstance.id}"><span style="color:#8a7e7e;font-size:20px">View full Note...</span></g:link></p>
 														</section>
 												</div>
-												<div id="block2">
-														<section class="box">
-														<g:if test="${notesInstance.imageThree}">
-														<div style="border: 20px dotted #e1f3f9;">
-														<img height="100px" width="100px" src="data:image/png;base64,${notesInstance.imageThree?.encodeBase64()}"/>
-														</div>
-														</g:if>
-														</section>
-												</div>
+												
 											</div>
 										</div>
 									</section>

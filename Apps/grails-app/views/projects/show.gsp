@@ -132,7 +132,7 @@
 												<section class="box">
 												<g:if test="${projects.imageThree}">
 												<header>
-													<div style="border: 20px dotted #e1f3f9;">
+													<div style="border: 2px solid #e1f3f9;margin:50px;">
 													<img src="data:image/png;base64,${projects.imageThree?.encodeBase64()}"/>
 													</div>
 													<br><br>

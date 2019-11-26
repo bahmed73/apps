@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta name="description" content="Shop - Bring your store business online." />
-<meta name="keywords" content="store, store business, shop, local, local tree, trees, local business, injection, insects, fertilizer, farm, farm market, business, farm business, organic, health, nutrient, california, blogger, socialmedia, socialmedia blogger, social media blogger, facebook, facebook feed, twitter, twitter update, twitter" />
+<meta name="keywords" content="shop local, store business, store, shop, local, local tree, trees, local business, injection, insects, fertilizer, farm, farm market, business, farm business, organic, health, nutrient, california, blogger, socialmedia, socialmedia blogger, social media blogger, facebook, facebook feed, twitter, twitter update, twitter" />
 <meta http-equiv="window-target" content="_top" />
 <META HTTP-EQUIV="CACHE-CONTROL" CONTENT="PUBLIC">
 	<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
@@ -35,40 +35,30 @@
 		<!--[if lte IE 8]><asset:javascript src="html5shiv.js"/><asset:stylesheet src="ie8.css"/><![endif]-->
 		<style>
 		p {
-		  border: 20px dotted #e5e1e1;
+		  border: 2px solid #e5e1e1;
 		  background-color: #e1f3f9;
-		  border-radius: 10px;
-		  border-width: 5px;
+		  border-width: 2px;
 		}
 		</style>
-		
-		<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
 		  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 	</head>
 	<body class="homepage" onload="testEffect()">
 	<script type="text/javascript">
 	function testEffect() {
-		var options = {};
-        // Run the effect
-   		$( "#block3" ).effect( "pulsate", options, 1000, callback );
-   		
-		$( "#block1" )
-	    .animate({
-	      width: "90%"
-	    }, {
-	      queue: false,
-	      duration: 3000
-	    })
-	    .animate({ fontSize: "24px" }, 1500 )
-	    .animate({ borderRightWidth: "15px" }, 1500 );
-		$( "#block2" )
-	    .animate({ width: "90%" }, 1000 )
-	    .animate({ fontSize: "24px" }, 1000 )
-	    .animate({ borderLeftWidth: "15px" }, 1000 );
-		}
-
-	function callback() {
+	      // Most effect types need no options passed by default
+	      var options = {};
+	           // Run the effect
+	      $( "#block1" ).effect( "bounce", options, 500, callback );
+	      $( "#block2" ).effect( "pulsate", options, 500, callback );
+	      $( "#block3" ).effect( "puff", options, 500, callback );
+	    };
+	 
+	    // Callback function to bring a hidden box back
+	    function callback() {
 	      setTimeout(function() {
+	        $( "#block1" ).removeAttr( "style" ).hide().fadeIn();
+	        $( "#block2" ).removeAttr( "style" ).hide().fadeIn();
 	        $( "#block3" ).removeAttr( "style" ).hide().fadeIn();
 	      }, 1000 );
 	    };
@@ -84,7 +74,7 @@
 							<!-- Banner -->
 								<section id="banner">
 									
-										<span class="image image-full"><asset:image src="master-wang-4.png"/></span>
+										<span class="image image-full"><asset:image src="blogging.png"/></span>
 										<header>
 										<!-- 
 											<h2>Shop</h2> 
@@ -115,25 +105,19 @@
 								<div class="12u">
 									<section>
 										<div>
-											<div class="row" style="border-style:solid; border-color:grey; border-width:1px;">
-												<div id="block1" class="6u">
+											<div class="row">
+												<div id="block1" class="12u">
 														<section class="box">
 														<header>
-														<span style="font-size:35px;color:#9b9ea9">${blogInstance.name}</span>
+														<span style="font-size:35px;color:#9b9ea9"><b>${blogInstance.name}</b></span>
 														</header>
 														<br><br>
-														<p style="font-size:20px;color:#8a7e7e;">${blogInstance.description}...</p>
-														<br><br>
-														<g:link controller="blog" action="show" id="${blogInstance.id}"><span style="color:#8a7e7e;">Read more...</span></g:link>
+														<p style="font-size:20px;color:#8a7e7e;">Description: ${blogInstance.description}</p>
+														<br>
+														<p><g:link controller="blog" action="show" id="${blogInstance.id}"><span style="color:#8a7e7e;font-size:20px">View full Blog...</span></g:link></p>
 														</section>
 												</div>
-												<div id="block2">
-														<section class="box">
-														<div style="border: 20px dotted #e1f3f9;">
-														<img src="data:image/png;base64,${blogInstance.imageThree?.encodeBase64()}"/>
-														</div>
-														</section>
-												</div>
+												
 											</div>
 										</div>
 									</section>
@@ -152,7 +136,7 @@
 													<section class="box">
 													<!-- <a href="http://www.mytweetmark.com" class="image image-full"><asset:image src="foodal-homepage-16.png"/></a> -->
 													<header>
-													<g:link controller="blog" action="create"><span style="font-size:28px;color:#8a7e7e;">Please create a blog.</span></g:link>
+													<g:link controller="blog" action="create"><span style="font-size:28px;color:#8a7e7e;">Please create a Blog.</span></g:link>
 													</header>
 													</section>
 										</div>

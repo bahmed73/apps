@@ -47,7 +47,7 @@
 		    margin-right: 80px;
 		    padding: 50px;
 		    width: 1100px;
-		    height: 400px;
+		    height: 600px;
 		  }
 		  </style>
 		  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
@@ -211,6 +211,13 @@
 													    <div>
 													      <ul>
 														<li><div><span style="color:#878282;font-size:20px"><asset:image src="goal-10-1.png" width="65"/><br><br><b> We are now offering a class on Agile Development and Lean Startup! Contact us and sign up.</b></span></div></li>
+														</ul>
+													
+													    </div>
+													    <h3>Blogs</h3>
+													    <div>
+													      <ul>
+														<li><div><g:link class="list" action="index" controller="blog"><span style="color:#878282;font-size:20px"><asset:image src="goal-11-1.png" width="65"/><br><br><b> Read our blogs on Agile Development and Lean Startup.</b></span></g:link></div></li>
 														</ul>
 													
 													    </div>
