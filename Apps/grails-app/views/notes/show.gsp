@@ -35,10 +35,9 @@
 		<!--[if lte IE 8]><asset:javascript src="html5shiv.js"/><asset:stylesheet src="ie8.css"/><![endif]-->
 		<style>
 		p {
-		  border: 20px dotted #e5e1e1;
+		  border: 2px solid #e5e1e1;
 		  background-color: #e1f3f9;
-		  border-radius: 10px;
-		  border-width: 5px;
+		  border-width: 2px;
 		}
 		</style>
 	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
@@ -109,13 +108,13 @@
 														<span style="font-size:35px;color:#9b9ea9"><f:display bean="notes" property="name"/></span>
 													</header>
 													<br><br>
-													<p style="font-size:18px;color:#8a7e7e;">Note: <f:display bean="notes" property="description"/></p>
-													<br><br>
-													<p style="font-size:24px;color:#8a7e7e;">Tasks: <g:link action="show" controller="tasks" id="${notes.task.id}"><span style="font-size:24px;color:#9b9ea9">${notes.task.name}</span></g:link></p>
-													<br><br>
-													<p style="font-size:24px;color:#8a7e7e;">Projects: <g:link action="show" controller="projects" id="${notes.task.project.id}"><span style="font-size:24px;color:#9b9ea9">${notes.task.project.name}</span></g:link></p>
-													<br><br>
-													<p style="font-size:18px;color:#8a7e7e;">User: <f:display bean="notes" property="user.username"/></p>
+													<p style="font-size:20px;color:#8a7e7e;">Note: <f:display bean="notes" property="description"/></p>
+													<br>
+													<p style="font-size:20px;color:#8a7e7e;">Tasks: <g:link action="show" controller="tasks" id="${notes.task.id}"><span style="font-size:20px;color:#9b9ea9">${notes.task.name}</span></g:link></p>
+													<br>
+													<p style="font-size:20px;color:#8a7e7e;">Projects: <g:link action="show" controller="projects" id="${notes.task.project.id}"><span style="font-size:20px;color:#9b9ea9">${notes.task.project.name}</span></g:link></p>
+													<br>
+													<p style="font-size:20px;color:#8a7e7e;">User: <f:display bean="notes" property="user.username"/></p>
 													<br><br>
 												</section>
 											</div>

@@ -35,10 +35,9 @@
 		<!--[if lte IE 8]><asset:javascript src="html5shiv.js"/><asset:stylesheet src="ie8.css"/><![endif]-->
 		<style>
 		p {
-		  border: 20px dotted #e5e1e1;
+		  border: 2px solid #e5e1e1;
 		  background-color: #e1f3f9;
-		  border-radius: 10px;
-		  border-width: 5px;
+		  border-width: 2px;
 		}
 		</style>
 	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
@@ -109,12 +108,12 @@
 														<span style="font-size:35px;color:#9b9ea9"><f:display bean="projects" property="name"/></span>
 													</header>
 													<br><br>
-													<p style="font-size:18px;color:#8a7e7e;">Description: <f:display bean="projects" property="description"/></p>
-													<br><br>
-													<p style="font-size:18px;color:#782727;">Status: <f:display bean="projects" property="status"/></p>
-													<br><br>
-													<p style="font-size:18px;color:#782727;">Due Date: <g:formatDate format="MM-dd-yyyy" date="${projects.dueDate}"/></p>
-													<br><br>
+													<p style="font-size:20px;color:#8a7e7e;">Description: <f:display bean="projects" property="description"/></p>
+													<br>
+													<p style="font-size:20px;color:#782727;">Status: <f:display bean="projects" property="status"/></p>
+													<br>
+													<p style="font-size:20px;color:#782727;">Due Date: <g:formatDate format="MM-dd-yyyy" date="${projects.dueDate}"/></p>
+													<br>
 													<g:if test="${tasks}">
 													<header>
 														<span style="font-size:25px;color:#9b9ea9">Tasks:</span>
@@ -122,7 +121,7 @@
 													<br>
 													<g:each in="${tasks}" status="i" var="tasksInstance">
 													<div>
-													<g:link action="show" controller="tasks" id="${tasksInstance.id}"><span style="font-size:15px;color:#9b9ea9"><b>${tasksInstance.name}</b></span></g:link>
+													<p><g:link action="show" controller="tasks" id="${tasksInstance.id}"><span style="font-size:20px;color:#9b9ea9"><b>${tasksInstance.name}</b></span></g:link></p>
 													<br><br>
 													</div>
 													</g:each>

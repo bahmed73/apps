@@ -47,7 +47,7 @@
 		    margin-right: 80px;
 		    padding: 50px;
 		    width: 1100px;
-		    height: 500px;
+		    height: 400px;
 		  }
 		  </style>
 		  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
@@ -186,15 +186,10 @@
 													      
 													<ul>
 													<li><div><g:link class="list" action="index" controller="projects"><span style="color:#8a7e7e;font-size:28px"><asset:image src="goal-1-1.png" width="65"/> Projects</span></g:link> - Start creating agile development projects, so your tasks can be tracked.</div></li>
-													<li>-</li>
 													<li><div><g:link class="list" action="index" controller="tasks"><span style="color:#8a7e7e;font-size:28px"><asset:image src="goal-2-1.png" width="65"/> Tasks</span></g:link> - Create tasks, to manage the project, within agile development backlog and sprints.</div></li>
-													<li>-</li>
 													<li><div><g:link class="list" action="index" controller="notes"><span style="color:#8a7e7e;font-size:28px"><asset:image src="goal-3-1.png" width="65"/> Notes</span></g:link> - Write notes for your team, on the tasks, step by step instructions to finish the project.</div></li>
-													<li>-</li>
 													<li><div><g:link class="list" action="index" controller="sprint"><span style="color:#8a7e7e;font-size:28px"><asset:image src="goal-4-1.png" width="65"/> Sprint Planning</span></g:link> - Start creating sprints, a groups of tasks, that can be accomplished within a week.</div></li>
-													<li>-</li>
 													<li><div><g:link class="list" action="index" controller="meeting"><span style="color:#8a7e7e;font-size:28px"><asset:image src="goal-5-1.png" width="65"/> Meetings</span></g:link> - Setup sprint planning meetings and retrospectives post agile development sprints.</div></li>
-													<li>-</li>
 													<li><div><g:link class="list" action="index" controller="backlog"><span style="color:#8a7e7e;font-size:28px"><asset:image src="goal-6-1.png" width="65"/> Agile Backlog</span></g:link> - Setup a backlog of ideas, tasks that will be done in the future.</div></li>
 													</ul>
 													    </div>
@@ -202,7 +197,6 @@
 													    <div>
 													      <ul>
 													<li><div><g:link class="list" action="index" controller="customerDevelopment"><span style="color:#8a7e7e;font-size:28px"><asset:image src="goal-7-1.png" width="65"/> Customer Development</span></g:link> - Build Customer Development flows, attach to the project sprint tasks.</div></li>
-													<li>-</li>
 													<li><div><g:link class="list" action="index" controller="customer"><span style="color:#8a7e7e;font-size:28px"><asset:image src="goal-8-1.png" width="65"/> Customers</span></g:link> - Share all your Lean Startup, Customer Development, customers with the team.</div></li>
 													</ul>
 													

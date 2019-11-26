@@ -35,10 +35,9 @@
 		<!--[if lte IE 8]><asset:javascript src="html5shiv.js"/><asset:stylesheet src="ie8.css"/><![endif]-->
 		<style>
 		p {
-		  border: 20px dotted #e5e1e1;
+		  border: 2px solid #e5e1e1;
 		  background-color: #e1f3f9;
-		  border-radius: 10px;
-		  border-width: 5px;
+		  border-width: 2px;
 		}
 		</style>
 	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
@@ -114,10 +113,12 @@
 														</header>
 														<br><br>
 														<p style="font-size:20px;color:#8a7e7e;">Description: ${meetingInstance.description}</p>
-														<p style="font-size:18px;">Create Date: <g:formatDate format="yyyy-MM-dd" date="${meetingInstance.createTime}"/></p>
-														<p style="font-size:18px;">Update Date: <g:formatDate format="yyyy-MM-dd" date="${meetingInstance.updateTime}"/></p>
-														<br><br>
-														<g:link controller="meeting" action="show" id="${meetingInstance.id}"><span style="color:#8a7e7e;font-size:18px;">See full meeting page...</span></g:link>
+														<br>
+														<p style="font-size:20px;">Create Date: <g:formatDate format="yyyy-MM-dd" date="${meetingInstance.createTime}"/></p>
+														<br>
+														<p style="font-size:20px;">Update Date: <g:formatDate format="yyyy-MM-dd" date="${meetingInstance.updateTime}"/></p>
+														<br>
+														<p><g:link controller="meeting" action="show" id="${meetingInstance.id}"><span style="color:#8a7e7e;font-size:20px;">See full meeting page...</span></g:link></p>
 														</section>
 												</div>
 											</div>

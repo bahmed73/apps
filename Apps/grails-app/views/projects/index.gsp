@@ -35,10 +35,9 @@
 		<!--[if lte IE 8]><asset:javascript src="html5shiv.js"/><asset:stylesheet src="ie8.css"/><![endif]-->
 		<style>
 		p {
-		  border: 20px dotted #e5e1e1;
+		  border: 2px solid #e5e1e1;
 		  background-color: #e1f3f9;
-		  border-radius: 10px;
-		  border-width: 5px;
+		  border-width: 2px;
 		}
 		</style>
 	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
@@ -114,10 +113,12 @@
 														<br><br>
 														</header>
 														<p style="font-size:20px;color:#8a7e7e;">Description: ${projectsInstance.description}</p>
+														<br>
 														<p style="font-size:20px;color:#782727;">Status: ${projectsInstance.status}</p>
+														<br>
 														<p style="font-size:20px;color:#782727;">Due Date: <g:formatDate format="MM-dd-yyyy" date="${projectsInstance.dueDate}"/></p>
-														<br><br>
-														<g:link controller="projects" action="show" id="${projectsInstance.id}"><span style="color:#8a7e7e;font-size:24px;">Show Details...</span></g:link>
+														<br>
+														<p><g:link controller="projects" action="show" id="${projectsInstance.id}"><span style="color:#8a7e7e;font-size:20px;">Show Details...</span></g:link></p>
 														</section>
 												</div>
 											</div>

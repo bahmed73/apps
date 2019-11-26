@@ -35,10 +35,9 @@
 		<!--[if lte IE 8]><asset:javascript src="html5shiv.js"/><asset:stylesheet src="ie8.css"/><![endif]-->
 		<style>
 		p {
-		  border: 20px dotted #e5e1e1;
+		  border: 2px solid #e5e1e1;
 		  background-color: #e1f3f9;
-		  border-radius: 10px;
-		  border-width: 5px;
+		  border-width: 2px;
 		}
 		</style>
 	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
@@ -114,16 +113,16 @@
 														</header>
 														<br><br>
 														<p style="font-size:20px;color:#8a7e7e;">Address: ${customerInstance.address}</p>
-														<br><br>
+														<br>
 														<p style="font-size:20px;color:#8a7e7e;">Phone: ${customerInstance.phone}</p>
-														<br><br>
+														<br>
 														<p style="font-size:20px;color:#782727;">Website: ${customerInstance.website}</p>
-														<br><br>
+														<br>
 														<g:if test="${customerInstance.customerDevelopment}">
-														<p style="font-size:20px;color:#8a7e7e;"><g:link action="show" controller="customerDevelopment" id="${customerInstance.customerDevelopment.id}"><span style="font-size:15px;color:#9b9ea9">Customer Development: <b>${customerInstance.customerDevelopment.name}</b></span></g:link></p>
-														<br><br>
+														<p style="font-size:20px;color:#8a7e7e;"><g:link action="show" controller="customerDevelopment" id="${customerInstance.customerDevelopment.id}"><span style="font-size:20px;color:#9b9ea9">Customer Development: <b>${customerInstance.customerDevelopment.name}</b></span></g:link></p>
+														<br>
 														</g:if>
-														<g:link controller="customer" action="show" id="${customerInstance.id}"><span style="color:#8a7e7e;font-size:24px;">Show full Customer Details...</span></g:link>
+														<p><g:link controller="customer" action="show" id="${customerInstance.id}"><span style="color:#8a7e7e;font-size:20px;">Show full Customer Details...</span></g:link></p>
 														</section>
 												</div>
 											</div>

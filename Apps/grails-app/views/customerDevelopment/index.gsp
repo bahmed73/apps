@@ -35,10 +35,9 @@
 		<!--[if lte IE 8]><asset:javascript src="html5shiv.js"/><asset:stylesheet src="ie8.css"/><![endif]-->
 		<style>
 		p {
-		  border: 20px dotted #e5e1e1;
+		  border: 2px solid #e5e1e1;
 		  background-color: #e1f3f9;
-		  border-radius: 10px;
-		  border-width: 5px;
+		  border-width: 2px;
 		}
 		</style>
 	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
@@ -114,24 +113,24 @@
 														</header>
 														<br><br>
 														<p style="font-size:20px;color:#8a7e7e;">Description: ${customerDevelopmentInstance.description}</p>
-														<br><br>
+														<br>
 														<p style="font-size:20px;color:#8a7e7e;">Feedback: ${customerDevelopmentInstance.feedback}</p>
-														<br><br>
+														<br>
 														<p style="font-size:20px;color:#782727;">Duration: ${customerDevelopmentInstance.duration}</p>
-														<br><br>
+														<br>
 														<p style="font-size:20px;color:#782727;">Priority: ${customerDevelopmentInstance.priority}</p>
-														<br><br>
-														<p style="font-size:20px;color:#8a7e7e;"><g:link action="show" controller="projects" id="${customerDevelopmentInstance.project.id}"><span style="font-size:15px;color:#9b9ea9">Projects: <b>${customerDevelopmentInstance.project.name}</b></span></g:link></p>
-														<br><br>
+														<br>
+														<p style="font-size:20px;color:#8a7e7e;"><g:link action="show" controller="projects" id="${customerDevelopmentInstance.project.id}"><span style="font-size:20px;color:#9b9ea9">Projects: <b>${customerDevelopmentInstance.project.name}</b></span></g:link></p>
+														<br>
 														<g:if test="${customerDevelopmentInstance.sprint}">
-														<p style="font-size:20px;color:#8a7e7e;"><g:link action="show" controller="sprint" id="${customerDevelopmentInstance.sprint.id}"><span style="font-size:15px;color:#9b9ea9">Sprint: <b>${customerDevelopmentInstance.sprint.name}</b></span></g:link></p>
-														<br><br>
+														<p style="font-size:20px;color:#8a7e7e;"><g:link action="show" controller="sprint" id="${customerDevelopmentInstance.sprint.id}"><span style="font-size:20px;color:#9b9ea9">Sprint: <b>${customerDevelopmentInstance.sprint.name}</b></span></g:link></p>
+														<br>
 														</g:if>
 														<g:if test="${customerDevelopmentInstance.backlog}">
-														<p style="font-size:20px;color:#8a7e7e;"><g:link action="show" controller="backlog" id="${customerDevelopmentInstance.backlog.id}"><span style="font-size:15px;color:#9b9ea9">Backlog: <b>${customerDevelopmentInstance.backlog.name}</b></span></g:link></p>
-														<br><br>
+														<p style="font-size:20px;color:#8a7e7e;"><g:link action="show" controller="backlog" id="${customerDevelopmentInstance.backlog.id}"><span style="font-size:20px;color:#9b9ea9">Backlog: <b>${customerDevelopmentInstance.backlog.name}</b></span></g:link></p>
+														<br>
 														</g:if>
-														<g:link controller="customerDevelopment" action="show" id="${customerDevelopmentInstance.id}"><span style="color:#8a7e7e;font-size:24px;">Show full Customer Development...</span></g:link>
+														<p><g:link controller="customerDevelopment" action="show" id="${customerDevelopmentInstance.id}"><span style="color:#8a7e7e;font-size:20px;">Show full Customer Development...</span></g:link></p>
 														</section>
 												</div>
 											</div>
