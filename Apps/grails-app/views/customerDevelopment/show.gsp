@@ -74,7 +74,7 @@
 							<!-- Banner -->
 								<section id="banner">
 									
-										<span class="image image-full"><asset:image src="leanstartup.png"/></span>
+										<span class="image image-full"><asset:image src="leanstartup-2.png"/></span>
 										<header>
 											<!--  <h2>Foodal</h2>-->
 											<!--span class="byline">welcome!</span-->

@@ -74,7 +74,7 @@
 							<!-- Banner -->
 								<section id="banner">
 									
-										<span class="image image-full"><asset:image src="project-management-6.png"/></span>
+										<span class="image image-full"><asset:image src="agiledevelopment-1.png"/></span>
 										<header>
 										<!-- 
 											<h2>Shop</h2> 

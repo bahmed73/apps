@@ -126,17 +126,16 @@
     <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
     <li data-target="#myCarousel" data-slide-to="1"></li>
     
-    
   </ol>
 
   <!-- Wrapper for slides -->
   <div class="carousel-inner">
     <div class="item active">
-      <g:link class="list" action="index" controller="sprint"><asset:image src="agiledevelopment-wall-paper.png"/></g:link>
+      <g:link class="list" action="index" controller="sprint"><asset:image src="agiledevelopment-1.png"/></g:link>
     </div>
     
     <div class="item">
-      <g:link class="list" action="index" controller="customerDevelopment"><asset:image src="leanstartup-wall-paper.png"/></g:link>
+      <g:link class="list" action="index" controller="customerDevelopment"><asset:image src="leanstartup-2.png"/></g:link>
     </div>
     
   </div>

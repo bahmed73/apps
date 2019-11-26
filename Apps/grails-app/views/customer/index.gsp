@@ -74,7 +74,7 @@
 							<!-- Banner -->
 								<section id="banner">
 									
-										<span class="image image-full"><asset:image src="facebook.png"/></span>
+										<span class="image image-full"><asset:image src="leanstartup-2.png"/></span>
 										<header>
 										<!-- 
 											<h2>Shop</h2> 
