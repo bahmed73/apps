@@ -94,7 +94,7 @@
 							<!-- Banner -->
 								<section id="banner">
 									
-										<span class="image image-full"><asset:image src="wallpaper.png"/></span>
+										<span class="image image-full"><asset:image src="guru.png"/></span>
 										<header>
 										<!-- 
 											<h2>Shop</h2> 
@@ -139,12 +139,12 @@
 													<div id="block2">
 													
 													<ul id="menu">
-													<li><div><g:link class="list" action="index" controller="projects"><span style="color:#8a7e7e;font-size:20px"><asset:image src="goal-1-1.png" width="65"/> Projects</span></g:link></div></li>
-													<li><div><g:link class="list" action="index" controller="tasks"><span style="color:#8a7e7e;font-size:20px"><asset:image src="goal-2-1.png" width="65"/> Tasks</span></g:link></div></li>
-													<li><div><g:link class="list" action="index" controller="notes"><span style="color:#8a7e7e;font-size:20px"><asset:image src="goal-3-1.png" width="65"/> Notes</span></g:link></div></li>
-													<li><div><g:link class="list" action="index" controller="sprint"><span style="color:#8a7e7e;font-size:20px"><asset:image src="goal-4-1.png" width="65"/> Sprints</span></g:link></div></li>
-													<li><div><g:link class="list" action="index" controller="meeting"><span style="color:#8a7e7e;font-size:20px"><asset:image src="goal-5-1.png" width="65"/> Meetings</span></g:link></div></li>
-													<li><div><g:link class="list" action="index" controller="backlog"><span style="color:#8a7e7e;font-size:20px"><asset:image src="goal-6-1.png" width="65"/> Backlog</span></g:link></div></li>
+													<li><div><g:link class="list" action="index" controller="projects"><span style="color:#8a7e7e;font-size:20px"><asset:image src="goal-1-1.png" width="35"/> Projects</span></g:link></div></li>
+													<li><div><g:link class="list" action="index" controller="tasks"><span style="color:#8a7e7e;font-size:20px"><asset:image src="goal-2-1.png" width="35"/> Tasks</span></g:link></div></li>
+													<li><div><g:link class="list" action="index" controller="notes"><span style="color:#8a7e7e;font-size:20px"><asset:image src="goal-3-1.png" width="35"/> Notes</span></g:link></div></li>
+													<li><div><g:link class="list" action="index" controller="sprint"><span style="color:#8a7e7e;font-size:20px"><asset:image src="goal-4-1.png" width="35"/> Sprints</span></g:link></div></li>
+													<li><div><g:link class="list" action="index" controller="meeting"><span style="color:#8a7e7e;font-size:20px"><asset:image src="goal-5-1.png" width="35"/> Meetings</span></g:link></div></li>
+													<li><div><g:link class="list" action="index" controller="backlog"><span style="color:#8a7e7e;font-size:20px"><asset:image src="goal-6-1.png" width="35"/> Backlog</span></g:link></div></li>
 													
 													<!-- 
 													<li>-</li>
@@ -230,8 +230,8 @@
 													</header>
 													<div id="block1" style="border-style:solid; border-color:grey; border-width:1px;margin:1px;font-size:20px;color:#000000">
 													<ul id="menu2">
-													<li><div><g:link class="list" action="index" controller="customerDevelopment"><span style="color:#8a7e7e;font-size:20px"><asset:image src="goal-7-1.png" width="65"/> Customer Development</span></g:link></div></li>
-													<li><div><g:link class="list" action="index" controller="customer"><span style="color:#8a7e7e;font-size:20px"><asset:image src="goal-8-1.png" width="65"/> Customers</span></g:link></div></li>
+													<li><div><g:link class="list" action="index" controller="customerDevelopment"><span style="color:#8a7e7e;font-size:20px"><asset:image src="goal-7-1.png" width="35"/> Customer Development</span></g:link></div></li>
+													<li><div><g:link class="list" action="index" controller="customer"><span style="color:#8a7e7e;font-size:20px"><asset:image src="goal-8-1.png" width="35"/> Customers</span></g:link></div></li>
 													
 													</div>
 													<br><br>
@@ -242,7 +242,8 @@
 													<br><br>
 													<div id="block3">
 													<ul id="menu3">
-													<li><div><g:link class="list" action="index" controller="documentation"><span style="color:#8a7e7e;font-size:20px"><asset:image src="goal-9-1.png" width="65"/> Product Documentation</span></g:link></div></li>
+													<li><div><g:link class="list" action="index" controller="documentation"><span style="color:#8a7e7e;font-size:20px"><asset:image src="goal-9-1.png" width="35"/> Product Documentation</span></g:link></div></li>
+													<li><div><g:link class="list" action="index" controller="blog"><span style="color:#8a7e7e;font-size:20px"><asset:image src="goal-11-1.png" width="35"/> Blogs</span></g:link></div></li>
 													
 													</div>
 													<!-- 

@@ -110,9 +110,9 @@
 													<br><br>
 													<p style="font-size:20px;color:#8a7e7e;">Description: <f:display bean="projects" property="description"/></p>
 													<br>
-													<p style="font-size:20px;color:#782727;">Status: <f:display bean="projects" property="status"/></p>
+													<p style="font-size:20px;color:#8a7e7e;">Status: <f:display bean="projects" property="status"/></p>
 													<br>
-													<p style="font-size:20px;color:#782727;">Due Date: <g:formatDate format="MM-dd-yyyy" date="${projects.dueDate}"/></p>
+													<p style="font-size:20px;color:#8a7e7e;">Due Date: <g:formatDate format="MM-dd-yyyy" date="${projects.dueDate}"/></p>
 													<br>
 													<g:if test="${tasks}">
 													<header>
@@ -121,7 +121,7 @@
 													<br>
 													<g:each in="${tasks}" status="i" var="tasksInstance">
 													<div>
-													<p><g:link action="show" controller="tasks" id="${tasksInstance.id}"><span style="font-size:20px;color:#9b9ea9"><b>${tasksInstance.name}</b></span></g:link></p>
+													<p><g:link action="show" controller="tasks" id="${tasksInstance.id}"><span style="font-size:20px;color:#8a7e7e">${tasksInstance.name}</span></g:link></p>
 													<br><br>
 													</div>
 													</g:each>

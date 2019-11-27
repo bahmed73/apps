@@ -114,9 +114,9 @@
 														<br><br>
 														<p style="font-size:20px;color:#8a7e7e;">Description: ${tasksInstance.description}</p>
 														<br>
-														<p style="font-size:20px;color:#782727;">Duration: ${tasksInstance.duration}</p>
+														<p style="font-size:20px;color:#8a7e7e;">Duration: ${tasksInstance.duration}</p>
 														<br>
-														<p style="font-size:20px;color:#782727;">Priority: ${tasksInstance.priority}</p>
+														<p style="font-size:20px;color:#8a7e7e;">Priority: ${tasksInstance.priority}</p>
 														<br>
 														<p style="font-size:20px;color:#8a7e7e;"><g:link action="show" controller="projects" id="${tasksInstance.project.id}"><span style="font-size:20px;color:#9b9ea9">Project: ${tasksInstance.project.name}</span></g:link></p>
 														<g:if test="${tasksInstance.sprint}">

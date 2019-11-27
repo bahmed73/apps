@@ -114,9 +114,9 @@
 														</header>
 														<p style="font-size:20px;color:#8a7e7e;">Description: ${projectsInstance.description}</p>
 														<br>
-														<p style="font-size:20px;color:#782727;">Status: ${projectsInstance.status}</p>
+														<p style="font-size:20px;color:#8a7e7e;">Status: ${projectsInstance.status}</p>
 														<br>
-														<p style="font-size:20px;color:#782727;">Due Date: <g:formatDate format="MM-dd-yyyy" date="${projectsInstance.dueDate}"/></p>
+														<p style="font-size:20px;color:#8a7e7e;">Due Date: <g:formatDate format="MM-dd-yyyy" date="${projectsInstance.dueDate}"/></p>
 														<br>
 														<p><g:link controller="projects" action="show" id="${projectsInstance.id}"><span style="color:#8a7e7e;font-size:20px;">Show Details...</span></g:link></p>
 														</section>

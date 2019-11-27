@@ -110,18 +110,18 @@
 													<br><br>
 													<p style="font-size:20px;color:#8a7e7e;">Description: <f:display bean="tasks" property="description"/></p>
 													<br>
-													<p style="font-size:20px;color:#782727;">Duration: <f:display bean="tasks" property="duration"/></p>
+													<p style="font-size:20px;color:#8a7e7e;">Duration: <f:display bean="tasks" property="duration"/></p>
 													<br>
-													<p style="font-size:20px;color:#782727;">Priority: <f:display bean="tasks" property="priority"/></p>
+													<p style="font-size:20px;color:#8a7e7e;">Priority: <f:display bean="tasks" property="priority"/></p>
 													<br>
-													<p style="font-size:20px;color:#8a7e7e;">Project: <g:link action="show" controller="projects" id="${tasks.project.id}"><span style="font-size:20px;color:#9b9ea9"><b>${tasks.project.name}</b></span></g:link></p>
+													<p style="font-size:20px;color:#8a7e7e;">Project: <g:link action="show" controller="projects" id="${tasks.project.id}"><span style="font-size:20px;color:#8a7e7e">${tasks.project.name}</span></g:link></p>
 													<br>
 													<g:if test="${tasks.sprint}">
-													<p style="font-size:20px;color:#8a7e7e;">Sprint: <g:link action="show" controller="sprint" id="${tasks.sprint.id}"><span style="font-size:20px;color:#9b9ea9"><b>${tasks.sprint.name}</b></span></g:link></p>
+													<p style="font-size:20px;color:#8a7e7e;">Sprint: <g:link action="show" controller="sprint" id="${tasks.sprint.id}"><span style="font-size:20px;color:#8a7e7e">${tasks.sprint.name}</span></g:link></p>
 													<br>
 													</g:if>
 													<g:if test="${tasks.backlog}">
-													<p style="font-size:20px;color:#8a7e7e;">Backlog: <g:link action="show" controller="backlog" id="${tasks.backlog.id}"><span style="font-size:20px;color:#9b9ea9"><b>${tasks.backlog.name}</b></span></g:link></p>
+													<p style="font-size:20px;color:#8a7e7e;">Backlog: <g:link action="show" controller="backlog" id="${tasks.backlog.id}"><span style="font-size:20px;color:#8a7e7e">${tasks.backlog.name}</span></g:link></p>
 													<br>
 													</g:if>
 													

@@ -114,9 +114,9 @@
 														<br><br>
 														<p style="font-size:20px;color:#8a7e7e;">Description: ${backlogInstance.description}</p>
 														<br>
-														<p style="font-size:20px;">Create Date: <g:formatDate format="yyyy-MM-dd" date="${backlogInstance.createTime}"/></p>
+														<p style="font-size:20px;color:#8a7e7e;">Create Date: <g:formatDate format="yyyy-MM-dd" date="${backlogInstance.createTime}"/></p>
 														<br>
-														<p style="font-size:20px;">Update Date: <g:formatDate format="yyyy-MM-dd" date="${backlogInstance.updateTime}"/></p>
+														<p style="font-size:20px;color:#8a7e7e;">Update Date: <g:formatDate format="yyyy-MM-dd" date="${backlogInstance.updateTime}"/></p>
 														<br>
 														<p><g:link controller="backlog" action="show" id="${backlogInstance.id}"><span style="color:#8a7e7e;font-size:20px;">See full backlog page...</span></g:link></p>
 														</section>

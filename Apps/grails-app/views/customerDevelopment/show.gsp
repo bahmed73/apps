@@ -110,18 +110,18 @@
 													<br><br>
 													<p style="font-size:20px;color:#8a7e7e;">Description: <f:display bean="customerDevelopment" property="description"/></p>
 													<br>
-													<p style="font-size:20px;color:#782727;">Duration: <f:display bean="customerDevelopment" property="duration"/></p>
+													<p style="font-size:20px;color:#8a7e7e;">Duration: <f:display bean="customerDevelopment" property="duration"/></p>
 													<br>
-													<p style="font-size:20px;color:#782727;">Priority: <f:display bean="customerDevelopment" property="priority"/></p>
+													<p style="font-size:20px;color:#8a7e7e;">Priority: <f:display bean="customerDevelopment" property="priority"/></p>
 													<br>
-													<p style="font-size:20px;color:#8a7e7e;">Project: <g:link action="show" controller="customerDevelopment" id="${customerDevelopment.project.id}"><span style="font-size:20px;color:#9b9ea9"><b>${customerDevelopment.project.name}</b></span></g:link></p>
+													<p style="font-size:20px;color:#8a7e7e;">Project: <g:link action="show" controller="customerDevelopment" id="${customerDevelopment.project.id}"><span style="font-size:20px;color:#8a7e7e">${customerDevelopment.project.name}</span></g:link></p>
 													<br>
 													<g:if test="${customerDevelopment.sprint}">
-													<p style="font-size:20px;color:#8a7e7e;">Sprint: <g:link action="show" controller="sprint" id="${customerDevelopment.sprint.id}"><span style="font-size:20px;color:#9b9ea9"><b>${customerDevelopment.sprint.name}</b></span></g:link></p>
+													<p style="font-size:20px;color:#8a7e7e;">Sprint: <g:link action="show" controller="sprint" id="${customerDevelopment.sprint.id}"><span style="font-size:20px;color:#8a7e7e">${customerDevelopment.sprint.name}</span></g:link></p>
 													<br>
 													</g:if>
 													<g:if test="${customerDevelopment.backlog}">
-													<p style="font-size:20px;color:#8a7e7e;">Backlog: <g:link action="show" controller="backlog" id="${customerDevelopment.backlog.id}"><span style="font-size:20px;color:#9b9ea9"><b>${customerDevelopment.backlog.name}</b></span></g:link></p>
+													<p style="font-size:20px;color:#8a7e7e;">Backlog: <g:link action="show" controller="backlog" id="${customerDevelopment.backlog.id}"><span style="font-size:20px;color:#8a7e7e">${customerDevelopment.backlog.name}</span></g:link></p>
 													<br>
 													</g:if>
 													<p style="font-size:20px;color:#8a7e7e;">Feedback: <f:display bean="customerDevelopment" property="feedback"/></p>

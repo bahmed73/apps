@@ -120,39 +120,41 @@
 					
 					<div class="row">
 						<div class="12u">
+						<section id="banner">
 						<div id="myCarousel" class="carousel slide" data-ride="carousel">
-  <!-- Indicators -->
-  <ol class="carousel-indicators">
-    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-    <li data-target="#myCarousel" data-slide-to="1"></li>
-    
-  </ol>
+						  <!-- Indicators -->
+						  <ol class="carousel-indicators">
+						    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+						    <li data-target="#myCarousel" data-slide-to="1"></li>
+						    
+						  </ol>
 
-  <!-- Wrapper for slides -->
-  <div class="carousel-inner">
-    <div class="item active">
-      <g:link class="list" action="index" controller="sprint"><asset:image src="agiledevelopment-1.png"/></g:link>
-    </div>
-    
-    <div class="item">
-      <g:link class="list" action="index" controller="customerDevelopment"><asset:image src="leanstartup-2.png"/></g:link>
-    </div>
-    
-  </div>
+						  <!-- Wrapper for slides -->
+						  <div class="carousel-inner">
+						    <div class="item active">
+						      <g:link class="list" action="index" controller="sprint"><asset:image src="agiledevelopment-1.png"/></g:link>
+						    </div>
+						    
+						    <div class="item">
+						      <g:link class="list" action="index" controller="customerDevelopment"><asset:image src="leanstartup-2.png"/></g:link>
+						    </div>
+						    
+						  </div>
 
-  <!-- Left and right controls -->
-  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="right carousel-control" href="#myCarousel" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
-						
+						  <!-- Left and right controls -->
+						  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+						    <span class="glyphicon glyphicon-chevron-left"></span>
+						    <span class="sr-only">Previous</span>
+						  </a>
+						  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+						    <span class="glyphicon glyphicon-chevron-right"></span>
+						    <span class="sr-only">Next</span>
+						  </a>
+						</div>
+						</section>
 						</div>
 					</div>
+					
 					
 								<!-- Nav -->
 										<nav id="nav">
@@ -195,30 +197,22 @@
 													    <h3>Lean Startup</h3>
 													    <div>
 													      <ul>
-													<li><div><g:link class="list" action="index" controller="customerDevelopment"><span style="color:#8a7e7e;font-size:28px"><asset:image src="goal-7-1.png" width="65"/> Customer Development</span></g:link> - Build Customer Development flows, attach to the project sprint tasks.</div></li>
-													<li><div><g:link class="list" action="index" controller="customer"><span style="color:#8a7e7e;font-size:28px"><asset:image src="goal-8-1.png" width="65"/> Customers</span></g:link> - Share all your Lean Startup, Customer Development, customers with the team.</div></li>
-													</ul>
-													
-													    </div>
-													    <h3>Documentation</h3>
-													    <div>
-													      <ul>
-														<li><div><g:link class="list" action="index" controller="documentation"><span style="color:#8a7e7e;font-size:28px"><asset:image src="goal-9-1.png" width="65"/><br><br> Product Docs</span></g:link> - Business slide deck, requirement documents, agile sprint planning and customer development.</div></li>
-														</ul>
+															<li><div><g:link class="list" action="index" controller="customerDevelopment"><span style="color:#8a7e7e;font-size:28px"><asset:image src="goal-7-1.png" width="65"/> Customer Development</span></g:link> - Build Customer Development flows, attach to the project sprint tasks.</div></li>
+															<li><div><g:link class="list" action="index" controller="customer"><span style="color:#8a7e7e;font-size:28px"><asset:image src="goal-8-1.png" width="65"/> Customers</span></g:link> - Share all your Lean Startup, Customer Development, customers with the team.</div></li>
+															</ul>
+														<br><br>
+															
+														<span style="color:#8a7e7e;font-size:28px">Passionate about Lean Startup - Customer Development? Contact us, and we might show you a few ropes.</span>
 													    </div>
 													    <h3>Training</h3>
 													    <div>
 													      <ul>
-														<li><div><span style="color:#878282;font-size:20px"><asset:image src="goal-10-1.png" width="65"/><br><br><b> We are now offering a class on Agile Development and Lean Startup! Contact us and sign up.</b></span></div></li>
+														<li><div><g:link class="list" action="index" controller="documentation"><span style="color:#8a7e7e;font-size:28px"><asset:image src="goal-9-1.png" width="65"/> Product Docs</span></g:link> - Business slide deck, requirement documents, etc.</div></li>
+														<li><div><g:link class="list" action="index" controller="blog"><span style="color:#8a7e7e;font-size:28px"><asset:image src="goal-11-1.png" width="65"/> Blogs</span></g:link> - Read our blogs on Agile Development and Lean Startup.</div></li>
 														</ul>
-													
-													    </div>
-													    <h3>Blogs</h3>
-													    <div>
-													      <ul>
-														<li><div><g:link class="list" action="index" controller="blog"><span style="color:#878282;font-size:20px"><asset:image src="goal-11-1.png" width="65"/><br><br><b> Read our blogs on Agile Development and Lean Startup.</b></span></g:link></div></li>
-														</ul>
-													
+														<br><br>
+														<span style="color:#8a7e7e;font-size:28px">We are now offering a class on Agile Development and Lean Startup! Contact us and sign up.</span>
+														
 													    </div>
 													  </div>
 													</div>

@@ -116,10 +116,10 @@
 														<br>
 														<p style="font-size:20px;color:#8a7e7e;">Phone: ${customerInstance.phone}</p>
 														<br>
-														<p style="font-size:20px;color:#782727;">Website: ${customerInstance.website}</p>
+														<p style="font-size:20px;color:#8a7e7e;">Website: ${customerInstance.website}</p>
 														<br>
 														<g:if test="${customerInstance.customerDevelopment}">
-														<p style="font-size:20px;color:#8a7e7e;"><g:link action="show" controller="customerDevelopment" id="${customerInstance.customerDevelopment.id}"><span style="font-size:20px;color:#9b9ea9">Customer Development: <b>${customerInstance.customerDevelopment.name}</b></span></g:link></p>
+														<p style="font-size:20px;color:#8a7e7e;"><g:link action="show" controller="customerDevelopment" id="${customerInstance.customerDevelopment.id}"><span style="font-size:20px;color:#8a7e7e">Customer Development: ${customerInstance.customerDevelopment.name}</span></g:link></p>
 														<br>
 														</g:if>
 														<p><g:link controller="customer" action="show" id="${customerInstance.id}"><span style="color:#8a7e7e;font-size:20px;">Show full Customer Details...</span></g:link></p>

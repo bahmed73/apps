@@ -110,9 +110,9 @@
 													<br><br>
 													<p style="font-size:20px;color:#8a7e7e;">Note: <f:display bean="notes" property="description"/></p>
 													<br>
-													<p style="font-size:20px;color:#8a7e7e;">Tasks: <g:link action="show" controller="tasks" id="${notes.task.id}"><span style="font-size:20px;color:#9b9ea9">${notes.task.name}</span></g:link></p>
+													<p style="font-size:20px;color:#8a7e7e;">Tasks: <g:link action="show" controller="tasks" id="${notes.task.id}"><span style="font-size:20px;color:#8a7e7e">${notes.task.name}</span></g:link></p>
 													<br>
-													<p style="font-size:20px;color:#8a7e7e;">Projects: <g:link action="show" controller="projects" id="${notes.task.project.id}"><span style="font-size:20px;color:#9b9ea9">${notes.task.project.name}</span></g:link></p>
+													<p style="font-size:20px;color:#8a7e7e;">Projects: <g:link action="show" controller="projects" id="${notes.task.project.id}"><span style="font-size:20px;color:#8a7e7e">${notes.task.project.name}</span></g:link></p>
 													<br>
 													<p style="font-size:20px;color:#8a7e7e;">User: <f:display bean="notes" property="user.username"/></p>
 													<br><br>

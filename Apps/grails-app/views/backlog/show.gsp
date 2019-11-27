@@ -110,9 +110,9 @@
 													<br><br>
 													<p style="font-size:20px;color:#8a7e7e;">Description: <f:display bean="backlog" property="description"/></p>
 													<br>
-													<p style="font-size:20px;color:#782727;">Create Time: <g:formatDate format="MM-dd-yyyy" date="${backlog.createTime}"/></p>
+													<p style="font-size:20px;color:#8a7e7e;">Create Time: <g:formatDate format="MM-dd-yyyy" date="${backlog.createTime}"/></p>
 													<br>
-													<p style="font-size:20px;color:#782727;">Update Time: <g:formatDate format="MM-dd-yyyy" date="${backlog.updateTime}"/></p>
+													<p style="font-size:20px;color:#8a7e7e;">Update Time: <g:formatDate format="MM-dd-yyyy" date="${backlog.updateTime}"/></p>
 													<br>
 													
 												</section>

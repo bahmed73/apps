@@ -114,13 +114,13 @@
 													<br>
 													<p style="font-size:20px;color:#8a7e7e;">Website: <f:display bean="customer" property="website"/></p>
 													<br>
-													<p style="font-size:20px;color:#782727;">Create Time: <g:formatDate format="MM-dd-yyyy" date="${customer.createTime}"/></p>
+													<p style="font-size:20px;color:#8a7e7e;">Create Time: <g:formatDate format="MM-dd-yyyy" date="${customer.createTime}"/></p>
 													<br>
-													<p style="font-size:20px;color:#782727;">Update Time: <g:formatDate format="MM-dd-yyyy" date="${customer.updateTime}"/></p>
+													<p style="font-size:20px;color:#8a7e7e;">Update Time: <g:formatDate format="MM-dd-yyyy" date="${customer.updateTime}"/></p>
 													<br>
 													
 													<g:if test="${customer.customerDevelopment}">
-													<p style="font-size:20px;color:#8a7e7e;">Customer Development: <g:link action="show" controller="customerDevelopment" id="${customer.customerDevelopment.id}"><span style="font-size:20px;color:#9b9ea9">${customer.customerDevelopment.name}</span></g:link></p>
+													<p style="font-size:20px;color:#8a7e7e;">Customer Development: <g:link action="show" controller="customerDevelopment" id="${customer.customerDevelopment.id}"><span style="font-size:20px;color:#8a7e7e">${customer.customerDevelopment.name}</span></g:link></p>
 													<br>
 													</g:if>
 												</section>
