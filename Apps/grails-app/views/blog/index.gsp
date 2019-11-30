@@ -38,6 +38,8 @@
 		  border: 2px solid #e5e1e1;
 		  background-color: #e1f3f9;
 		  border-width: 2px;
+		  margin: 5px;
+		  padding: 20px;
 		}
 		</style>
 	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
@@ -112,7 +114,7 @@
 														<span style="font-size:35px;color:#9b9ea9"><b>${blogInstance.name}</b></span>
 														</header>
 														<br><br>
-														<p style="font-size:20px;color:#8a7e7e;">Description: ${blogInstance.description}</p>
+														<p style="font-size:20px;color:#8a7e7e;">${blogInstance.description}</p>
 														<br>
 														<p><g:link controller="blog" action="show" id="${blogInstance.id}"><span style="color:#8a7e7e;font-size:20px">View full Blog...</span></g:link></p>
 														</section>

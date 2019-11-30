@@ -38,6 +38,8 @@
 		  border: 2px solid #e5e1e1;
 		  background-color: #e1f3f9;
 		  border-width: 2px;
+		  margin: 5px;
+		  padding: 20px;
 		}
 		</style>
 	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
@@ -108,7 +110,7 @@
 														<span style="font-size:35px;color:#9b9ea9"><f:display bean="blog" property="name"/></span>
 													</header>
 													<br><br>
-													<p style="font-size:20px;color:#8a7e7e;">Blog: <f:display bean="blog" property="description"/></p>
+													<p style="font-size:20px;color:#8a7e7e;"><f:display bean="blog" property="description"/></p>
 													<br><br>
 												</section>
 											</div>

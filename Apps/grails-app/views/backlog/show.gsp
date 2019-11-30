@@ -38,6 +38,8 @@
 		  border: 2px solid #e5e1e1;
 		  background-color: #e1f3f9;
 		  border-width: 2px;
+		  margin: 5px;
+		  padding: 5px;
 		}
 		</style>
 	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>

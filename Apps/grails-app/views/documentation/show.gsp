@@ -38,6 +38,8 @@
 		  border: 2px solid #e5e1e1;
 		  background-color: #e1f3f9;
 		  border-width: 2px;
+		  margin: 5px;
+		  padding: 5px;
 		}
 		</style>
 	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
@@ -114,7 +116,7 @@
 													<br>
 													<p style="font-size:20px;color:#8a7e7e;">Update Time: <g:formatDate format="MM-dd-yyyy" date="${documentation.updateTime}"/></p>
 													<br>
-													<p><g:link controller="documentation" action="download" id="${documentation.id}"><span style="color:#8a7e7e;font-size:20px;"><b>Download</b></span></g:link></p>
+													<p><g:link controller="documentation" action="download" id="${documentation.id}"><span style="color:#8a7e7e;font-size:20px;"><< Download >></span></g:link></p>
 												</section>
 											</div>
 											
