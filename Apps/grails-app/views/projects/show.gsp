@@ -124,7 +124,7 @@
 													<g:each in="${tasks}" status="i" var="tasksInstance">
 													<div>
 													<p><g:link action="show" controller="tasks" id="${tasksInstance.id}"><span style="font-size:20px;color:#8a7e7e">${tasksInstance.name}</span></g:link></p>
-													<br><br>
+													<br>
 													</div>
 													</g:each>
 													</g:if>

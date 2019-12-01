@@ -181,7 +181,7 @@
 										<section class="box">
 										<div id="block3" class="12u" style="border-style:solid; border-color:grey; border-width:100px;margin:1px;font-size:20px;color:#000000">
 													<header>
-														<span style="font-size:35px;color:#878282">For $15 / month per user, <b>Agile Development + Lean Startup</b>, enterprise license and training for your company.  Start using our tools to be invested by venture capitalists and incubators. The cost of the class is $100 / hour. Sign up today!</span>
+														<p><span style="font-size:35px;color:#878282">For $15 / month per user, <b>Agile Development + Lean Startup</b>, enterprise license and training for your company.  Start using our tools to be invested by venture capitalists and incubators.</span></p>
 													</header>
 													</div>
 													</section>
@@ -219,7 +219,6 @@
 													    <div>
 													      <ul>
 														<li><div><p><g:link class="list" action="index" controller="documentation"><span style="color:#8a7e7e;font-size:28px"><asset:image src="goal-9-1.png" width="30"/> <b>Product Docs</b> - Business documentation.</span></g:link></p></div></li>
-														<p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="documentation" id="34"><asset:image src="goal-9-1.png" width="20"/> Shop - Product Slide Deck</g:link></span></p>
 														<li><div><p><g:link class="list" action="index" controller="blog"><span style="color:#8a7e7e;font-size:28px"><asset:image src="goal-11-1.png" width="30"/> <b>Blogs</b> - Agile Development and Lean Startup.</span></g:link></p></div></li>
 														</ul>
 														<p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="33"><asset:image src="goal-9-1.png" width="20"/> What is sizing in Agile Development?</g:link></span></p>

@@ -133,7 +133,8 @@
 													</header>
 													<br>
 													<g:each in="${notes}" status="i" var="notesInstance">
-													<p><g:link action="show" controller="notes" id="${notesInstance.id}"><span style="font-size:20px;color:#9b9ea9"><b>${notesInstance.name}</b></span></g:link></p>
+													<p><g:link action="show" controller="notes" id="${notesInstance.id}"><span style="font-size:20px;color:#9b9ea9">${notesInstance.name}</span></g:link></p>
+													<br>
 													</g:each>
 													</g:if>
 												</section>
