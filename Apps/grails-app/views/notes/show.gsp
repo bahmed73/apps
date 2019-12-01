@@ -36,10 +36,32 @@
 		<style>
 		p {
 		  border: 2px solid #e5e1e1;
-		  background-color: #e1f3f9;
+		  background-color: #d5e5e1;
 		  border-width: 2px;
 		  margin: 5px;
-		  padding: 5px;
+		  padding: 10px;
+		}
+		.button {
+		  display: inline-block;
+		  padding: 15px 25px;
+		  font-size: 20px;
+		  cursor: pointer;
+		  text-align: center;
+		  text-decoration: none;
+		  outline: none;
+		  color: #fff;
+		  background-color: #bbc4bb;
+		  border: none;
+		  border-radius: 15px;
+		  box-shadow: 0 9px #999;
+		}
+
+		.button:hover {background-color: #515751}
+		
+		.button:active {
+		  background-color: #3e8e41;
+		  box-shadow: 0 5px #666;
+		  transform: translateY(4px);
 		}
 		</style>
 	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
@@ -127,7 +149,7 @@
 													<div style="border: 2px solid #e1f3f9;margin:50px;">
 													<img src="data:image/png;base64,${notes.imageThree?.encodeBase64()}"/>
 													<br><br>
-													<p style="font-size:14px;">Upload images with the note.</p>
+													<p style="font-size:24px;color:#9b9ea9;">Upload images with the note.</p>
 													<br>
 													</div>
 												</g:if>

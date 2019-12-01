@@ -36,10 +36,32 @@
 		<style>
 		p {
 		  border: 2px solid #e5e1e1;
-		  background-color: #e1f3f9;
+		  background-color: #d5e5e1;
 		  border-width: 2px;
 		  margin: 5px;
-		  padding: 20px;
+		  padding: 10px;
+		}
+		.button {
+		  display: inline-block;
+		  padding: 15px 25px;
+		  font-size: 20px;
+		  cursor: pointer;
+		  text-align: center;
+		  text-decoration: none;
+		  outline: none;
+		  color: #fff;
+		  background-color: #bbc4bb;
+		  border: none;
+		  border-radius: 15px;
+		  box-shadow: 0 9px #999;
+		}
+
+		.button:hover {background-color: #515751}
+		
+		.button:active {
+		  background-color: #3e8e41;
+		  box-shadow: 0 5px #666;
+		  transform: translateY(4px);
 		}
 		</style>
 	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
@@ -111,12 +133,12 @@
 												<div id="block1" class="12u">
 														<section class="box">
 														<header>
-														<span style="font-size:35px;color:#9b9ea9"><b>${blogInstance.name}</b></span>
+														<span style="font-size:35px;color:#9b9ea9">${blogInstance.name}</span>
 														</header>
 														<br><br>
 														<p style="font-size:20px;color:#8a7e7e;">${blogInstance.description}</p>
 														<br>
-														<p><g:link controller="blog" action="show" id="${blogInstance.id}"><span style="color:#8a7e7e;font-size:20px">View full Blog...</span></g:link></p>
+														<button class="button"><g:link controller="blog" action="show" id="${blogInstance.id}">View Full Blog</g:link></button>
 														</section>
 												</div>
 												

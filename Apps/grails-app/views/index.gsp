@@ -51,11 +51,33 @@
 		  }
 		  p {
 		  border: 2px solid #e5e1e1;
-		  background-color: #e1f3f9;
+		  background-color: #d5e5e1;
 		  border-width: 2px;
 		  margin: 5px;
-		  padding: 5px;
+		  padding: 10px;
 		}
+		.button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
 		  </style>
 		  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
 		  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
@@ -193,39 +215,39 @@
 													    <div>
 													      
 													<ul>
-													<li><div><p><g:link class="list" action="index" controller="projects"><span style="color:#8a7e7e;font-size:28px"><asset:image src="goal-1-1.png" width="30"/> <b>Projects</b> - Start creating agile development projects.</span></g:link></p></div></li>
-													<li><div><p><g:link class="list" action="index" controller="tasks"><span style="color:#8a7e7e;font-size:28px"><asset:image src="goal-2-1.png" width="30"/> <b>Tasks</b> - Create tasks, to manage the project.</span></g:link></p></div></li>
-													<li><div><p><g:link class="list" action="index" controller="notes"><span style="color:#8a7e7e;font-size:28px"><asset:image src="goal-3-1.png" width="30"/> <b>Notes</b> - Write notes for your team, on the tasks.</span></g:link></p></div></li>
-													<li><div><p><g:link class="list" action="index" controller="sprint"><span style="color:#8a7e7e;font-size:28px"><asset:image src="goal-4-1.png" width="30"/> <b>Sprint Planning</b> - Start creating sprints, a groups of tasks.</span></g:link></p></div></li>
-													<li><div><p><g:link class="list" action="index" controller="meeting"><span style="color:#8a7e7e;font-size:28px"><asset:image src="goal-5-1.png" width="30"/> <b>Meetings</b> - Setup sprint planning meetings and retrospectives.</span></g:link></p></div></li>
-													<li><div><p><g:link class="list" action="index" controller="backlog"><span style="color:#8a7e7e;font-size:28px"><asset:image src="goal-6-1.png" width="30"/> <b>Agile Backlog</b> - Setup a backlog of future ideas and tasks.</span></g:link></p></div></li>
+													<li><div><p><g:link class="list" action="index" controller="projects"><span style="color:#8a7e7e;font-size:28px"><asset:image src="goal-1-1.png" width="30"/> Projects - Start creating agile development projects.</span></g:link></p></div></li>
+													<li><div><p><g:link class="list" action="index" controller="tasks"><span style="color:#8a7e7e;font-size:28px"><asset:image src="goal-2-1.png" width="30"/> Tasks - Create tasks, to manage the project.</span></g:link></p></div></li>
+													<li><div><p><g:link class="list" action="index" controller="notes"><span style="color:#8a7e7e;font-size:28px"><asset:image src="goal-3-1.png" width="30"/> Notes - Write notes for your team, on the tasks.</span></g:link></p></div></li>
+													<li><div><p><g:link class="list" action="index" controller="sprint"><span style="color:#8a7e7e;font-size:28px"><asset:image src="goal-4-1.png" width="30"/> Sprint Planning - Start creating sprints, a groups of tasks.</span></g:link></p></div></li>
+													<li><div><p><g:link class="list" action="index" controller="meeting"><span style="color:#8a7e7e;font-size:28px"><asset:image src="goal-5-1.png" width="30"/> Meetings - Setup sprint planning meetings and retrospectives.</span></g:link></p></div></li>
+													<li><div><p><g:link class="list" action="index" controller="backlog"><span style="color:#8a7e7e;font-size:28px"><asset:image src="goal-6-1.png" width="30"/> Agile Backlog - Setup a backlog of future ideas and tasks.</span></g:link></p></div></li>
 													</ul>
 													    </div>
 													    <h3>Lean Startup</h3>
 													    <div>
 													      <ul>
-															<li><div><p><g:link class="list" action="index" controller="customerDevelopment"><span style="color:#8a7e7e;font-size:28px"><asset:image src="goal-7-1.png" width="30"/> <b>Customer Development</b> - Build Customer Development flows.</span></g:link></p></div></li>
-															<li><div><p><g:link class="list" action="index" controller="customer"><span style="color:#8a7e7e;font-size:28px"><asset:image src="goal-8-1.png" width="30"/> <b>Customers</b> - Pivot on customers with the team.</span></g:link></p></div></li>
+															<li><div><p><g:link class="list" action="index" controller="customerDevelopment"><span style="color:#8a7e7e;font-size:28px"><asset:image src="goal-7-1.png" width="30"/> Customer Development - Build Customer Development flows.</span></g:link></p></div></li>
+															<li><div><p><g:link class="list" action="index" controller="customer"><span style="color:#8a7e7e;font-size:28px"><asset:image src="goal-8-1.png" width="30"/> Customers - Pivot on customers with the team.</span></g:link></p></div></li>
 															</ul>
-														<p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="641"><asset:image src="goal-9-1.png" width="20"/> Introduction to Startup School.</g:link></span></p>
-														<p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="642"><asset:image src="goal-9-1.png" width="20"/> Incubator Meetings.</g:link></span></p>
-														<p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="643"><asset:image src="goal-9-1.png" width="20"/> Incubator - Brand Expert Feedback.</g:link></span></p>
-														<p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="644"><asset:image src="goal-9-1.png" width="20"/> Incubator Homework - Name Focus Group.</g:link></span></p>
-														<p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="645"><asset:image src="goal-9-1.png" width="20"/> Incubator Homework - Paying Customer Feedback.</g:link></span></p>
+														<p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="641"><asset:image src="goal-9-1.png" width="20"/><span style="color:#8a7e7e;"> Introduction to Startup School.</span></g:link></span></p>
+														<p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="642"><asset:image src="goal-9-1.png" width="20"/><span style="color:#8a7e7e;"> Incubator Meetings.</span></g:link></span></p>
+														<p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="643"><asset:image src="goal-9-1.png" width="20"/><span style="color:#8a7e7e;"> Incubator - Brand Expert Feedback.</span></g:link></span></p>
+														<p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="644"><asset:image src="goal-9-1.png" width="20"/><span style="color:#8a7e7e;"> Incubator Homework - Name Focus Group.</span></g:link></span></p>
+														<p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="645"><asset:image src="goal-9-1.png" width="20"/><span style="color:#8a7e7e;"> Incubator Homework - Paying Customer Feedback.</span></g:link></span></p>
 														<br><br>
 														
 														</div>
 													    <h3>Training</h3>
 													    <div>
 													      <ul>
-														<li><div><p><g:link class="list" action="index" controller="documentation"><span style="color:#8a7e7e;font-size:28px"><asset:image src="goal-9-1.png" width="30"/> <b>Product Docs</b> - Business documentation.</span></g:link></p></div></li>
-														<li><div><p><g:link class="list" action="index" controller="blog"><span style="color:#8a7e7e;font-size:28px"><asset:image src="goal-11-1.png" width="30"/> <b>Blogs</b> - Agile Development and Lean Startup.</span></g:link></p></div></li>
+														<li><div><p><g:link class="list" action="index" controller="documentation"><span style="color:#8a7e7e;font-size:28px"><asset:image src="goal-9-1.png" width="30"/> Product Docs - Business documentation.</span></g:link></p></div></li>
+														<li><div><p><g:link class="list" action="index" controller="blog"><span style="color:#8a7e7e;font-size:28px"><asset:image src="goal-11-1.png" width="30"/> Blogs - Agile Development and Lean Startup.</span></g:link></p></div></li>
 														</ul>
-														<p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="33"><asset:image src="goal-9-1.png" width="20"/> What is sizing in Agile Development?</g:link></span></p>
-														<p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="353"><asset:image src="goal-9-1.png" width="20"/> What is an incremental hiring pattern in startups?</g:link></span></p>
-														<p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="385"><asset:image src="goal-9-1.png" width="20"/> How should a hiring manager conduct a technical interview?</g:link></span></p>
-														<p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="386"><asset:image src="goal-9-1.png" width="20"/> What is a full stack project manager?</g:link></span></p>
-														<p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="646"><asset:image src="goal-9-1.png" width="20"/> Startup Pivot.</g:link></span></p>
+														<p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="33"><asset:image src="goal-9-1.png" width="20"/><span style="color:#8a7e7e;"> What is sizing in Agile Development?</span></g:link></span></p>
+														<p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="353"><asset:image src="goal-9-1.png" width="20"/><span style="color:#8a7e7e;"> What is an incremental hiring pattern in startups?</span></g:link></span></p>
+														<p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="385"><asset:image src="goal-9-1.png" width="20"/><span style="color:#8a7e7e;"> How should a hiring manager conduct a technical interview?</span></g:link></span></p>
+														<p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="386"><asset:image src="goal-9-1.png" width="20"/><span style="color:#8a7e7e;"> What is a full stack project manager?</span></g:link></span></p>
+														<p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="646"><asset:image src="goal-9-1.png" width="20"/><span style="color:#8a7e7e;"> Startup Pivot.</span></g:link></span></p>
 														<br><br>
 													
 														</div>
