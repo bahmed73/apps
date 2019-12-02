@@ -113,9 +113,9 @@
 								<!-- Nav -->
 										<nav id="nav">
 											<ul>
-												<li><g:link url="/">Home</g:link></li>
-												<li><g:link controller="meeting" action="edit" id="${meeting.id}">Edit Meeting</g:link></li>
-												<li><g:link controller="meeting" action="index">Show Meetings</g:link></li>
+												<li><button class="button"><g:link url="/">Home</g:link></button></li>
+												<li><button class="button"><g:link controller="meeting" action="edit" id="${meeting.id}">Edit Meeting</g:link></button></li>
+												<li><button class="button"><g:link controller="meeting" action="index">Show Meetings</g:link></button></li>
 												<!--<li><a href="left-sidebar.html">Login</a></li>-->
 											</ul>
 										</nav>

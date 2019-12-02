@@ -56,7 +56,7 @@
 		  box-shadow: 0 9px #999;
 		}
 
-		.button:hover {background-color: #515751}
+		.button:hover {background-color: #a3a6a3}
 		
 		.button:active {
 		  background-color: #3e8e41;
@@ -113,9 +113,9 @@
 								<!-- Nav -->
 										<nav id="nav">
 											<ul>
-												<li><g:link url="/">Home</g:link></li>
-												<li><g:link controller="sprint" action="edit" id="${sprint.id}">Edit Sprint</g:link></li>
-												<li><g:link controller="sprint" action="index">Show Sprints</g:link></li>
+												<li><button class="button"><g:link url="/">Home</g:link></button></li>
+												<li><button class="button"><g:link controller="sprint" action="edit" id="${sprint.id}">Edit Sprint</g:link></button></li>
+												<li><button class="button"><g:link controller="sprint" action="index">Show Sprints</g:link></button></li>
 												<!--<li><a href="left-sidebar.html">Login</a></li>-->
 											</ul>
 										</nav>

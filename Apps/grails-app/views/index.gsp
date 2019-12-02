@@ -57,27 +57,27 @@
 		  padding: 10px;
 		}
 		.button {
-  display: inline-block;
-  padding: 15px 25px;
-  font-size: 24px;
-  cursor: pointer;
-  text-align: center;
-  text-decoration: none;
-  outline: none;
-  color: #fff;
-  background-color: #4CAF50;
-  border: none;
-  border-radius: 15px;
-  box-shadow: 0 9px #999;
-}
+		  display: inline-block;
+		  padding: 15px 25px;
+		  font-size: 20px;
+		  cursor: pointer;
+		  text-align: center;
+		  text-decoration: none;
+		  outline: none;
+		  color: #fff;
+		  background-color: #bbc4bb;
+		  border: none;
+		  border-radius: 15px;
+		  box-shadow: 0 9px #999;
+		}
 
-.button:hover {background-color: #3e8e41}
-
-.button:active {
-  background-color: #3e8e41;
-  box-shadow: 0 5px #666;
-  transform: translateY(4px);
-}
+		.button:hover {background-color: #a3a6a3}
+		
+		.button:active {
+		  background-color: #3e8e41;
+		  box-shadow: 0 5px #666;
+		  transform: translateY(4px);
+		}
 		  </style>
 		  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
 		  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
@@ -188,9 +188,9 @@
 								<!-- Nav -->
 										<nav id="nav">
 											<ul>
-												<li><g:link class="list" action="shelf" controller="product"><span>Dashboard</span></g:link></li>
-												<li><g:link controller="sprint" action="index">Agile Development</g:link></li>
-												<li><g:link controller="customerDevelopment" action="index">Lean Startup</g:link></li>
+												<li><button class="button"><g:link class="list" action="shelf" controller="product">Dashboard</g:link></button></li>
+												<li><button class="button"><g:link controller="sprint" action="index">Agile Development</g:link></button></li>
+												<li><button class="button"><g:link controller="customerDevelopment" action="index">Lean Startup</g:link></button></li>
 												<!--<li><a href="left-sidebar.html">Login</a></li>-->
 											</ul>
 										</nav>

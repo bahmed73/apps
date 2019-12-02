@@ -34,6 +34,44 @@
 		</noscript>-->
 		<!--[if lte IE 8]><asset:javascript src="html5shiv.js"/><asset:stylesheet src="ie8.css"/><![endif]-->
 		
+		<style>
+		  #accordion-resizer {
+		  	margin-left: 80px;
+		    margin-right: 80px;
+		    padding: 50px;
+		    width: 1100px;
+		    height: 550px;
+		  }
+		  p {
+		  border: 2px solid #e5e1e1;
+		  background-color: #d5e5e1;
+		  border-width: 2px;
+		  margin: 5px;
+		  padding: 10px;
+		}
+		.button {
+		  display: inline-block;
+		  padding: 15px 25px;
+		  font-size: 20px;
+		  cursor: pointer;
+		  text-align: center;
+		  text-decoration: none;
+		  outline: none;
+		  color: #fff;
+		  background-color: #bbc4bb;
+		  border: none;
+		  border-radius: 15px;
+		  box-shadow: 0 9px #999;
+		}
+
+		.button:hover {background-color: #a3a6a3}
+		
+		.button:active {
+		  background-color: #3e8e41;
+		  box-shadow: 0 5px #666;
+		  transform: translateY(4px);
+		}
+		  </style>
 		<meta charset="utf-8">
 		  <meta name="viewport" content="width=device-width, initial-scale=1">
 		  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
@@ -111,7 +149,9 @@
 								<!-- Nav -->
 										<nav id="nav">
 											<ul>
-												<li><g:link url="/">Home</g:link></li>
+												<li><button class="button"><g:link url="/">Home</g:link></button></li>
+												<li><button class="button"><g:link controller="sprint" action="index">Agile Development</g:link></button></li>
+												<li><button class="button"><g:link controller="customerDevelopment" action="index">Lean Startup</g:link></button></li>
 												<!--<li><g:link controller="product" action="analytics">Analytics</g:link></li>
 												<li><g:link controller="product" action="sales">Sales</g:link></li>
 												<!--<li><a href="left-sidebar.html">Login</a></li>-->
@@ -128,7 +168,7 @@
 													<section class="box">
 													<!-- <a href="http://www.mytweetmark.com" class="image image-full"><asset:image src="foodal-homepage-16.png"/></a> -->
 													<g:form controller="logout">                        
-    													<g:submitButton name="logout" value="Logout" />
+    													<button class="button"><g:submitButton name="logout" value="Logout" /></button>
 													</g:form>
 													
 													<br><br>
@@ -216,7 +256,7 @@
 													<br>
 													<br>
 													<g:form controller="logout">                        
-    													<g:submitButton name="logout" value="Logout" />
+    													<button class="button"><g:submitButton name="logout" value="Logout" /></button>
 													</g:form>
 													
 												</section>

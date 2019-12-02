@@ -113,9 +113,9 @@
 								<!-- Nav -->
 										<nav id="nav">
 											<ul>
-												<li><g:link url="/">Home</g:link></li>
-												<li><g:link controller="notes" action="edit" id="${notes.id}">Edit Notes</g:link></li>
-												<li><g:link controller="notes" action="index">Show Notes</g:link></li>
+												<li><button class="button"><g:link url="/">Home</g:link></button></li>
+												<li><button class="button"><g:link controller="notes" action="edit" id="${notes.id}">Edit Notes</g:link></button></li>
+												<li><button class="button"><g:link controller="notes" action="index">Show Notes</g:link></button></li>
 												<!--<li><a href="left-sidebar.html">Login</a></li>-->
 											</ul>
 										</nav>
