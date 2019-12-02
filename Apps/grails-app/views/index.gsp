@@ -230,7 +230,7 @@
 															</ul>
 														<p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="641"><asset:image src="goal-9-1.png" width="20"/><span style="color:#8a7e7e;"> Introduction to startup school.</span></g:link></span></p>
 														<p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="642"><asset:image src="goal-9-1.png" width="20"/><span style="color:#8a7e7e;"> Incubator meetings.</span></g:link></span></p>
-														<p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="643"><asset:image src="goal-9-1.png" width="20"/><span style="color:#8a7e7e;"> Incubator - Brand expert Feedback.</span></g:link></span></p>
+														<p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="643"><asset:image src="goal-9-1.png" width="20"/><span style="color:#8a7e7e;"> Incubator - Brand expert feedback.</span></g:link></span></p>
 														<p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="644"><asset:image src="goal-9-1.png" width="20"/><span style="color:#8a7e7e;"> Incubator homework - Name focus group.</span></g:link></span></p>
 														<p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="645"><asset:image src="goal-9-1.png" width="20"/><span style="color:#8a7e7e;"> Incubator homework - Paying customer feedback.</span></g:link></span></p>
 														<br><br>
