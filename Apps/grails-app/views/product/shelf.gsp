@@ -439,14 +439,14 @@
 									<ul class="contact">
 										<li>
 											<h3>Address</h3>
-											<p>
+											
 												Oakland<br />
 																							California
-											</p>
+											
 										</li>
 										<li>
 											<h3>Mail</h3>
-											<p><a href="bilal@mytweetmark.com">bilal@mytweetmark.com</a></p>
+											<a href="bilal@mytweetmark.com">bilal@mytweetmark.com</a>
 										</li>
 										<!--li>
 											<h3>Phone</h3>
