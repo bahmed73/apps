@@ -135,12 +135,6 @@
 														<span style="font-size:35px;color:#000000">${customerInstance.name}</span>
 														</header>
 														<br><br>
-														<p style="font-size:20px;color:#000000;">Address: ${customerInstance.address}</p>
-														<br>
-														<p style="font-size:20px;color:#000000;">Phone: ${customerInstance.phone}</p>
-														<br>
-														<p style="font-size:20px;color:#000000;">Website: ${customerInstance.website}</p>
-														<br>
 														<g:if test="${customerInstance.customerDevelopment}">
 														<p style="font-size:20px;color:#000000;"><g:link action="show" controller="customerDevelopment" id="${customerInstance.customerDevelopment.id}"><span style="font-size:20px;color:#000000">Customer Development: ${customerInstance.customerDevelopment.name}</span></g:link></p>
 														<br>
