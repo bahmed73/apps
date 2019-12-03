@@ -130,21 +130,35 @@
 									<section>
 										<div>
 											<div class="row">
-												<div id="block1" class="12u" style="border: 2px solid #e1f3f9;">
+												<div id="block1" class="6u">
 														<section class="box" >
-														<header>
-														<g:if test="${blogInstance.imageOne}">
-														<div>
-														<img src="data:image/png;base64,${blogInstance.imageOne?.encodeBase64()}"/>
-														</div>
-														<br><br>
-														</g:if>
+																				<header>
 														<span style="font-size:35px;color:#9b9ea9">${blogInstance.name}</span>
+														<br><br>
+														<span style="font-size:20px;color:#9b9ea9">Create Time: <g:formatDate format="MM-dd-yyyy" date="${blogInstance.createTime}"/></span> 
+								
+														<br><br>
 														<br><br>
 														
 														</header>
+														<br><br>
 														
 														<button class="button"><g:link controller="blog" action="show" id="${blogInstance.id}">View Full Blog</g:link></button>
+														</section>
+												</div>
+												<div id="block2" class="6u">
+														<section class="box" >
+																				<header>
+														<g:if test="${blogInstance.imageThree}">
+														<div>
+														<img src="data:image/png;base64,${blogInstance.imageThree?.encodeBase64()}"/>
+														</div>
+														<br><br>
+														</g:if>
+														
+														</header>
+														<br><br>
+														
 														</section>
 												</div>
 											</div>
