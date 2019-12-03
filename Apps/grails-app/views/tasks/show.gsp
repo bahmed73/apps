@@ -36,7 +36,6 @@
 		<style>
 		p {
 		  border: 2px solid #e5e1e1;
-		  background-color: #d5e5e1;
 		  border-width: 2px;
 		  margin: 5px;
 		  padding: 10px;
@@ -168,7 +167,6 @@
 													<div style="border: 2px solid #e5e1e1;margin:50px;">
 													<img src="data:image/png;base64,${tasks.imageThree?.encodeBase64()}"/>
 													</div>
-													<br><br>
 													<p style="font-size:24px;color:#000000">Upload task screenshot.</p>
 													<br>
 													</g:if>

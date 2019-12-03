@@ -36,7 +36,6 @@
 		<style>
 		p {
 		  border: 2px solid #e5e1e1;
-		  background-color: #d5e5e1;
 		  border-width: 2px;
 		  margin: 5px;
 		  padding: 10px;

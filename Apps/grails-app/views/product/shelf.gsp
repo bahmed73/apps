@@ -71,6 +71,29 @@
 		  box-shadow: 0 5px #666;
 		  transform: translateY(4px);
 		}
+		
+		.button2 {
+		  display: inline-block;
+		  padding: 15px 25px;
+		  font-size: 20px;
+		  cursor: pointer;
+		  text-align: center;
+		  text-decoration: none;
+		  outline: none;
+		  color: #fff;
+		  background-color: #c1c3cb;
+		  border: none;
+		  border-radius: 15px;
+		  box-shadow: 0 9px #999;
+		}
+
+		.button:hover {background-color: #a3a6a3}
+		
+		.button:active {
+		  background-color: #3e8e41;
+		  box-shadow: 0 5px #666;
+		  transform: translateY(4px);
+		}
 		  </style>
 		<meta charset="utf-8">
 		  <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -152,6 +175,10 @@
 												<li><button class="button"><g:link url="/">Home</g:link></button></li>
 												<li><button class="button"><g:link controller="sprint" action="index">Agile Development</g:link></button></li>
 												<li><button class="button"><g:link controller="customerDevelopment" action="index">Lean Startup</g:link></button></li>
+												<li><button class="button"><g:form controller="logout">                        
+    													<g:submitButton name="logout" value="Logout" />
+													</g:form></button></li>
+												
 												<!--<li><g:link controller="product" action="analytics">Analytics</g:link></li>
 												<li><g:link controller="product" action="sales">Sales</g:link></li>
 												<!--<li><a href="left-sidebar.html">Login</a></li>-->
@@ -167,12 +194,6 @@
 										<div class="6u">
 													<section class="box">
 													<!-- <a href="http://www.mytweetmark.com" class="image image-full"><asset:image src="foodal-homepage-16.png"/></a> -->
-													<g:form controller="logout">                        
-    													<button class="button"><g:submitButton name="logout" value="Logout" /></button>
-													</g:form>
-													
-													<br><br>
-													
 													<header>
 														<span style="font-size:35px;color:#000000">Agile Development</span>
 													</header>
@@ -253,16 +274,10 @@
 													 -->
 													</ul>
 													</div>
-													<br>
-													<br>
-													<g:form controller="logout">                        
-    													<button class="button"><g:submitButton name="logout" value="Logout" /></button>
-													</g:form>
 													
 												</section>
 											</div>
 										<div class="6u">
-										<br><br><br>
 										<div>
 												<section class="box">
 													<header>
