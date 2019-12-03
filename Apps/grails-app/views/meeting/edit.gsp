@@ -29,7 +29,15 @@
             <g:form resource="${this.meeting}" method="PUT">
                 <g:hiddenField name="version" value="${this.meeting?.version}" />
                 <fieldset class="form">
-                    <f:all bean="meeting"/>
+                    <f:all bean="meeting" except="description"/>
+                </fieldset>
+                <fieldset style="margin-left:340px;">
+                	<div style="float:left;width:50" class="post"><h4>Description:</h4></div>
+                	<br>
+              				Write your blog here and use html tags for styling.<br>
+              		<div>
+                  <g:textArea name="description" value="${meeting.description}" rows="10" cols="40"/>
+              </div>	
                 </fieldset>
                 <fieldset class="buttons">
                     <input class="save" type="submit" value="${message(code: 'default.button.update.label', default: 'Update')}" />

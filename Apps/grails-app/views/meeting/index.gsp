@@ -135,8 +135,6 @@
 														<span style="font-size:35px;color:#000000">${meetingInstance.name}</span>
 														</header>
 														<br><br>
-														<p style="font-size:20px;color:#000000;">Description: ${meetingInstance.description}</p>
-														<br>
 														<p style="font-size:20px;color:#000000;">Create Date: <g:formatDate format="yyyy-MM-dd" date="${meetingInstance.createTime}"/></p>
 														<br>
 														<p style="font-size:20px;color:#000000;">Update Date: <g:formatDate format="yyyy-MM-dd" date="${meetingInstance.updateTime}"/></p>

@@ -29,7 +29,23 @@
             <g:form resource="${this.customerDevelopment}" method="PUT">
                 <g:hiddenField name="version" value="${this.customerDevelopment?.version}" />
                 <fieldset class="form">
-                    <f:all bean="customerDevelopment" except="project, sprint, backlog"/>
+                    <f:all bean="customerDevelopment" except="project, sprint, backlog, description, feedback"/>
+                </fieldset>
+                <fieldset style="margin-left:340px;">
+                	<div style="float:left;width:50" class="post"><h4>Description:</h4></div>
+                	<br>
+              				Write your customer development description here and use html tags for styling.<br>
+              		<div>
+                  <g:textArea name="description" value="${customerDevelopment.description}" rows="10" cols="40"/>
+              </div>	
+                </fieldset>
+                <fieldset style="margin-left:340px;">
+                	<div style="float:left;width:50" class="post"><h4>Feedback:</h4></div>
+                	<br>
+              				Write your customer development feedback here and use html tags for styling.<br>
+              		<div>
+                  <g:textArea name="feedback" value="${customerDevelopment.feedback}" rows="10" cols="40"/>
+              </div>	
                 </fieldset>
                 <fieldset>
                 <f:field bean="customerDevelopment" property="project" widget-optionValue="name"/>

@@ -29,10 +29,19 @@
             <g:form resource="${this.blog}" method="POST" enctype="multipart/form-data">
                 <g:hiddenField name="version" value="${this.blog?.version}" />
                 <fieldset class="form">
-                    <f:all bean="blog" except="imageOne, imageTwo, imageThree"/>
+                    <f:all bean="blog" except="imageOne, imageTwo, imageThree, description"/>
                 </fieldset>
-                <fieldset>
+                <fieldset style="margin-left:340px;">
+                	<div style="float:left;width:50" class="post"><h4>Description:</h4></div>
+                	<br>
+              				Write your blog here and use html tags for styling.<br>
+              		<div>
+                  <g:textArea name="description" value="${blog.description}" rows="10" cols="40"/>
+              </div>	
+                </fieldset>
+                <fieldset style="margin-left:340px;">
                 	<div style="float:left;width:50" class="post"><h4>Upload Blog Image (JPG):</h4></div>
+                	<br>
               				Please be patient while the file uploads.<br>
               		<div>
                   <input type="file" name="myFile" />

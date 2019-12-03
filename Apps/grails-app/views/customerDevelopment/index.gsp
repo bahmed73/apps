@@ -135,10 +135,6 @@
 														<span style="font-size:35px;color:#000000">${customerDevelopmentInstance.name}</span>
 														</header>
 														<br><br>
-														<p style="font-size:20px;color:#000000;">Description: ${customerDevelopmentInstance.description}</p>
-														<br>
-														<p style="font-size:20px;color:#000000;">Feedback: ${customerDevelopmentInstance.feedback}</p>
-														<br>
 														<p style="font-size:20px;color:#000000;">Duration: ${customerDevelopmentInstance.duration}</p>
 														<br>
 														<p style="font-size:20px;color:#000000;">Priority: ${customerDevelopmentInstance.priority}</p>
