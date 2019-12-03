@@ -113,7 +113,7 @@
 										<nav id="nav">
 											<ul>
 												<li><button class="button"><g:link url="/">Home</g:link></button></li>
-												<li><button class="button"><g:link controller="tasks" action="edit" id="${tasks.id}">Edit Tasks</g:link></button></li>
+												<li><button class="button"><g:link controller="tasks" action="edit" id="${tasks.id}">Edit Task</g:link></button></li>
 												<li><button class="button"><g:link controller="tasks" action="index">Show Tasks</g:link></button></li>
 												<!--<li><a href="left-sidebar.html">Login</a></li>-->
 											</ul>

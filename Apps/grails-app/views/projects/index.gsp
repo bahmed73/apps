@@ -116,7 +116,7 @@
 											<ul>
 												<li><button class="button"><g:link url="/">Home</g:link></button></li>
 												<li><button class="button"><g:link controller="product" action="shelf">Dashboard</g:link></button></li>
-												<li><button class="button"><g:link controller="projects" action="create">Create a Projects</g:link></button></li>
+												<li><button class="button"><g:link controller="projects" action="create">Create a Project</g:link></button></li>
 												<!--<li><a href="left-sidebar.html">Login</a></li>-->
 											</ul>
 										</nav>

@@ -29,8 +29,9 @@
                 <fieldset class="form">
                     <f:all bean="documentation" except="fileBytes, testBytes, filename"/>
                 </fieldset>
-                <fieldset>
+                <fieldset style="margin-left:340px;">
                 	<div style="float:left;width:50" class="post"><h4>Upload Document:</h4></div>
+                	<br>
               				Please upload a pdf.<br>
               		<div>
                   <input type="file" name="myFile" />

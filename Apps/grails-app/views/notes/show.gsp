@@ -113,7 +113,7 @@
 										<nav id="nav">
 											<ul>
 												<li><button class="button"><g:link url="/">Home</g:link></button></li>
-												<li><button class="button"><g:link controller="notes" action="edit" id="${notes.id}">Edit Notes</g:link></button></li>
+												<li><button class="button"><g:link controller="notes" action="edit" id="${notes.id}">Edit Note</g:link></button></li>
 												<li><button class="button"><g:link controller="notes" action="index">Show Notes</g:link></button></li>
 												<!--<li><a href="left-sidebar.html">Login</a></li>-->
 											</ul>
@@ -131,7 +131,7 @@
 														<span style="font-size:35px;color:#000000"><f:display bean="notes" property="name"/></span>
 													</header>
 													<br><br>
-													<p style="font-size:20px;color:#000000;">Note: <f:display bean="notes" property="description"/></p>
+													<p style="font-size:20px;color:#000000;">Description: <f:display bean="notes" property="description"/></p>
 													<br>
 													<p style="font-size:20px;color:#000000;">Tasks: <g:link action="show" controller="tasks" id="${notes.task.id}"><span style="font-size:20px;color:#000000">${notes.task.name}</span></g:link></p>
 													<br>

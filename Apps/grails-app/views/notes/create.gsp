@@ -32,8 +32,9 @@
                 <fieldset>
                 <f:field bean="notes" property="task" widget-optionValue="name"/>
                 </fieldset>
-                <fieldset>
-                	<div style="float:left;width:50" class="post"><h4>Upload Notes Image (JPG):</h4></div>
+                <fieldset style="margin-left:340px;">
+                	<div class="post"><h4>Upload Notes Image (JPG):</h4></div>
+                	<br>
               				Please be patient while the file uploads.<br>
               		<div>
                   <input type="file" name="myFile" />
