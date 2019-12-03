@@ -50,7 +50,7 @@
 		  text-decoration: none;
 		  outline: none;
 		  color: #fff;
-		  background-color: #bbc4bb;
+		  background-color: #000000;
 		  border: none;
 		  border-radius: 15px;
 		  box-shadow: 0 9px #999;
@@ -129,33 +129,33 @@
 													<section class="box">
 													<!-- <a href="http://www.mytweetmark.com" class="image image-full"><asset:image src="foodal-homepage-16.png"/></a> -->
 													<header>
-														<span style="font-size:35px;color:#9b9ea9"><f:display bean="tasks" property="name"/></span>
+														<span style="font-size:35px;color:#000000"><f:display bean="tasks" property="name"/></span>
 													</header>
 													<br><br>
-													<p style="font-size:20px;color:#8a7e7e;">Description: <f:display bean="tasks" property="description"/></p>
+													<p style="font-size:20px;color:#000000;">Description: <f:display bean="tasks" property="description"/></p>
 													<br>
-													<p style="font-size:20px;color:#8a7e7e;">Duration: <f:display bean="tasks" property="duration"/></p>
+													<p style="font-size:20px;color:#000000;">Duration: <f:display bean="tasks" property="duration"/></p>
 													<br>
-													<p style="font-size:20px;color:#8a7e7e;">Priority: <f:display bean="tasks" property="priority"/></p>
+													<p style="font-size:20px;color:#000000;">Priority: <f:display bean="tasks" property="priority"/></p>
 													<br>
-													<p style="font-size:20px;color:#8a7e7e;">Project: <g:link action="show" controller="projects" id="${tasks.project.id}"><span style="font-size:20px;color:#8a7e7e">${tasks.project.name}</span></g:link></p>
+													<p style="font-size:20px;color:#000000;">Project: <g:link action="show" controller="projects" id="${tasks.project.id}"><span style="font-size:20px;color:#000000">${tasks.project.name}</span></g:link></p>
 													<br>
 													<g:if test="${tasks.sprint}">
-													<p style="font-size:20px;color:#8a7e7e;">Sprint: <g:link action="show" controller="sprint" id="${tasks.sprint.id}"><span style="font-size:20px;color:#8a7e7e">${tasks.sprint.name}</span></g:link></p>
+													<p style="font-size:20px;color:#000000;">Sprint: <g:link action="show" controller="sprint" id="${tasks.sprint.id}"><span style="font-size:20px;color:#000000">${tasks.sprint.name}</span></g:link></p>
 													<br>
 													</g:if>
 													<g:if test="${tasks.backlog}">
-													<p style="font-size:20px;color:#8a7e7e;">Backlog: <g:link action="show" controller="backlog" id="${tasks.backlog.id}"><span style="font-size:20px;color:#8a7e7e">${tasks.backlog.name}</span></g:link></p>
+													<p style="font-size:20px;color:#000000;">Backlog: <g:link action="show" controller="backlog" id="${tasks.backlog.id}"><span style="font-size:20px;color:#000000">${tasks.backlog.name}</span></g:link></p>
 													<br>
 													</g:if>
 													
 													<g:if test="${notes}">
 													<header>
-														<span style="font-size:28px;color:#9b9ea9">Notes:</span>
+														<span style="font-size:28px;color:#000000">Notes:</span>
 													</header>
 													<br>
 													<g:each in="${notes}" status="i" var="notesInstance">
-													<p><g:link action="show" controller="notes" id="${notesInstance.id}"><span style="font-size:20px;color:#9b9ea9">${notesInstance.name}</span></g:link></p>
+													<p><g:link action="show" controller="notes" id="${notesInstance.id}"><span style="font-size:20px;color:#000000">${notesInstance.name}</span></g:link></p>
 													<br>
 													</g:each>
 													</g:if>
@@ -169,7 +169,7 @@
 													<img src="data:image/png;base64,${tasks.imageThree?.encodeBase64()}"/>
 													</div>
 													<br><br>
-													<p style="font-size:24px;color:#9b9ea9">Upload task screenshot.</p>
+													<p style="font-size:24px;color:#000000">Upload task screenshot.</p>
 													<br>
 													</g:if>
 												</header>

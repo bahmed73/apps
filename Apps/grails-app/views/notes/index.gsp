@@ -50,7 +50,7 @@
 		  text-decoration: none;
 		  outline: none;
 		  color: #fff;
-		  background-color: #bbc4bb;
+		  background-color: #000000;
 		  border: none;
 		  border-radius: 15px;
 		  box-shadow: 0 9px #999;
@@ -133,10 +133,10 @@
 												<div id="block1" class="12u">
 														<section class="box">
 														<header>
-														<span style="font-size:35px;color:#9b9ea9">${notesInstance.name}</span>
+														<span style="font-size:35px;color:#000000">${notesInstance.name}</span>
 														</header>
 														<br><br>
-														<p style="font-size:20px;color:#8a7e7e;">Description: ${notesInstance.description}</p>
+														<p style="font-size:20px;color:#000000;">Description: ${notesInstance.description}</p>
 														<br>
 														<button class="button"><g:link controller="notes" action="show" id="${notesInstance.id}">View Full Note</g:link></button>
 														</section>
@@ -160,7 +160,7 @@
 													<section class="box">
 													<!-- <a href="http://www.mytweetmark.com" class="image image-full"><asset:image src="foodal-homepage-16.png"/></a> -->
 													<header>
-													<g:link controller="notes" action="create"><span style="font-size:28px;color:#8a7e7e;">Please create a Notes.</span></g:link>
+													<g:link controller="notes" action="create"><span style="font-size:28px;color:#000000;">Please create a Note.</span></g:link>
 													</header>
 													</section>
 										</div>

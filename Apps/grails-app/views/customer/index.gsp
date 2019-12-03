@@ -50,7 +50,7 @@
 		  text-decoration: none;
 		  outline: none;
 		  color: #fff;
-		  background-color: #bbc4bb;
+		  background-color: #000000;
 		  border: none;
 		  border-radius: 15px;
 		  box-shadow: 0 9px #999;
@@ -133,17 +133,17 @@
 												<div id="block1" class="12u">
 														<section class="box">
 														<header>
-														<span style="font-size:35px;color:#9b9ea9">${customerInstance.name}</span>
+														<span style="font-size:35px;color:#000000">${customerInstance.name}</span>
 														</header>
 														<br><br>
-														<p style="font-size:20px;color:#8a7e7e;">Address: ${customerInstance.address}</p>
+														<p style="font-size:20px;color:#000000;">Address: ${customerInstance.address}</p>
 														<br>
-														<p style="font-size:20px;color:#8a7e7e;">Phone: ${customerInstance.phone}</p>
+														<p style="font-size:20px;color:#000000;">Phone: ${customerInstance.phone}</p>
 														<br>
-														<p style="font-size:20px;color:#8a7e7e;">Website: ${customerInstance.website}</p>
+														<p style="font-size:20px;color:#000000;">Website: ${customerInstance.website}</p>
 														<br>
 														<g:if test="${customerInstance.customerDevelopment}">
-														<p style="font-size:20px;color:#8a7e7e;"><g:link action="show" controller="customerDevelopment" id="${customerInstance.customerDevelopment.id}"><span style="font-size:20px;color:#8a7e7e">Customer Development: ${customerInstance.customerDevelopment.name}</span></g:link></p>
+														<p style="font-size:20px;color:#000000;"><g:link action="show" controller="customerDevelopment" id="${customerInstance.customerDevelopment.id}"><span style="font-size:20px;color:#000000">Customer Development: ${customerInstance.customerDevelopment.name}</span></g:link></p>
 														<br>
 														</g:if>
 														<button class="button"><g:link controller="customer" action="show" id="${customerInstance.id}">Show Full Customer Details</g:link></button>
@@ -167,7 +167,7 @@
 													<section class="box">
 													<!-- <a href="http://www.mytweetmark.com" class="image image-full"><asset:image src="foodal-homepage-16.png"/></a> -->
 													<header>
-													<g:link controller="customer" action="create"><span style="font-size:28px;color:#8a7e7e;">Please create a Customer.</span></g:link>
+													<g:link controller="customer" action="create"><span style="font-size:28px;color:#000000;">Please create a Customer.</span></g:link>
 													</header>
 													</section>
 										</div>

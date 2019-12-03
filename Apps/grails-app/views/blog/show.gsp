@@ -49,7 +49,7 @@
 		  text-decoration: none;
 		  outline: none;
 		  color: #fff;
-		  background-color: #bbc4bb;
+		  background-color: #000000;
 		  border: none;
 		  border-radius: 15px;
 		  box-shadow: 0 9px #999;
@@ -128,10 +128,10 @@
 													<section class="box">
 													<!-- <a href="http://www.mytweetmark.com" class="image image-full"><asset:image src="foodal-homepage-16.png"/></a> -->
 													<header>
-														<span style="font-size:35px;color:#9b9ea9"><f:display bean="blog" property="name"/></span>
+														<span style="font-size:35px;color:#000000"><f:display bean="blog" property="name"/></span>
 													</header>
 													<br><br>
-													<p style="font-size:20px;color:#8a7e7e;"><f:display bean="blog" property="description"/></p>
+													<p style="font-size:20px;color:#000000;"><f:display bean="blog" property="description"/></p>
 													<br><br>
 												</section>
 											</div>
@@ -142,7 +142,7 @@
 													<div style="border: 2px solid #e5e1e1;margin:50px;">
 													<img src="data:image/png;base64,${blog.imageThree?.encodeBase64()}"/>
 													<br><br>
-													<p style="font-size:24px;color:#9b9ea9">Upload images with the blog.</p>
+													<p style="font-size:24px;color:#000000">Upload images with the blog.</p>
 													<br>
 													</div>
 												</g:if>

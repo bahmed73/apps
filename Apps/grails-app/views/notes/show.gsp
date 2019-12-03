@@ -50,7 +50,7 @@
 		  text-decoration: none;
 		  outline: none;
 		  color: #fff;
-		  background-color: #bbc4bb;
+		  background-color: #000000;
 		  border: none;
 		  border-radius: 15px;
 		  box-shadow: 0 9px #999;
@@ -129,16 +129,16 @@
 													<section class="box">
 													<!-- <a href="http://www.mytweetmark.com" class="image image-full"><asset:image src="foodal-homepage-16.png"/></a> -->
 													<header>
-														<span style="font-size:35px;color:#9b9ea9"><f:display bean="notes" property="name"/></span>
+														<span style="font-size:35px;color:#000000"><f:display bean="notes" property="name"/></span>
 													</header>
 													<br><br>
-													<p style="font-size:20px;color:#8a7e7e;">Note: <f:display bean="notes" property="description"/></p>
+													<p style="font-size:20px;color:#000000;">Note: <f:display bean="notes" property="description"/></p>
 													<br>
-													<p style="font-size:20px;color:#8a7e7e;">Tasks: <g:link action="show" controller="tasks" id="${notes.task.id}"><span style="font-size:20px;color:#8a7e7e">${notes.task.name}</span></g:link></p>
+													<p style="font-size:20px;color:#000000;">Tasks: <g:link action="show" controller="tasks" id="${notes.task.id}"><span style="font-size:20px;color:#000000">${notes.task.name}</span></g:link></p>
 													<br>
-													<p style="font-size:20px;color:#8a7e7e;">Projects: <g:link action="show" controller="projects" id="${notes.task.project.id}"><span style="font-size:20px;color:#8a7e7e">${notes.task.project.name}</span></g:link></p>
+													<p style="font-size:20px;color:#000000;">Projects: <g:link action="show" controller="projects" id="${notes.task.project.id}"><span style="font-size:20px;color:#000000">${notes.task.project.name}</span></g:link></p>
 													<br>
-													<p style="font-size:20px;color:#8a7e7e;">User: <f:display bean="notes" property="user.username"/></p>
+													<p style="font-size:20px;color:#000000;">User: <f:display bean="notes" property="user.username"/></p>
 													<br><br>
 												</section>
 											</div>
@@ -149,7 +149,7 @@
 													<div style="border: 2px solid #e5e1e1;margin:50px;">
 													<img src="data:image/png;base64,${notes.imageThree?.encodeBase64()}"/>
 													<br><br>
-													<p style="font-size:24px;color:#9b9ea9;">Upload images with the note.</p>
+													<p style="font-size:24px;color:#000000;">Upload images with the note.</p>
 													<br>
 													</div>
 												</g:if>

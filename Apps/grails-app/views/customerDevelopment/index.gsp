@@ -49,7 +49,7 @@
 		  text-decoration: none;
 		  outline: none;
 		  color: #fff;
-		  background-color: #bbc4bb;
+		  background-color: #000000;
 		  border: none;
 		  border-radius: 15px;
 		  box-shadow: 0 9px #999;
@@ -132,25 +132,25 @@
 												<div id="block1" class="12u">
 														<section class="box">
 														<header>
-														<span style="font-size:35px;color:#9b9ea9">${customerDevelopmentInstance.name}</span>
+														<span style="font-size:35px;color:#000000">${customerDevelopmentInstance.name}</span>
 														</header>
 														<br><br>
-														<p style="font-size:20px;color:#8a7e7e;">Description: ${customerDevelopmentInstance.description}</p>
+														<p style="font-size:20px;color:#000000;">Description: ${customerDevelopmentInstance.description}</p>
 														<br>
-														<p style="font-size:20px;color:#8a7e7e;">Feedback: ${customerDevelopmentInstance.feedback}</p>
+														<p style="font-size:20px;color:#000000;">Feedback: ${customerDevelopmentInstance.feedback}</p>
 														<br>
-														<p style="font-size:20px;color:#8a7e7e;">Duration: ${customerDevelopmentInstance.duration}</p>
+														<p style="font-size:20px;color:#000000;">Duration: ${customerDevelopmentInstance.duration}</p>
 														<br>
-														<p style="font-size:20px;color:#8a7e7e;">Priority: ${customerDevelopmentInstance.priority}</p>
+														<p style="font-size:20px;color:#000000;">Priority: ${customerDevelopmentInstance.priority}</p>
 														<br>
-														<p style="font-size:20px;color:#8a7e7e;"><g:link action="show" controller="projects" id="${customerDevelopmentInstance.project.id}"><span style="font-size:20px;color:#8a7e7e">Projects: ${customerDevelopmentInstance.project.name}</span></g:link></p>
+														<p style="font-size:20px;color:#000000;"><g:link action="show" controller="projects" id="${customerDevelopmentInstance.project.id}"><span style="font-size:20px;color:#000000">Projects: ${customerDevelopmentInstance.project.name}</span></g:link></p>
 														<br>
 														<g:if test="${customerDevelopmentInstance.sprint}">
-														<p style="font-size:20px;color:#8a7e7e;"><g:link action="show" controller="sprint" id="${customerDevelopmentInstance.sprint.id}"><span style="font-size:20px;color:#8a7e7e">Sprint: ${customerDevelopmentInstance.sprint.name}</span></g:link></p>
+														<p style="font-size:20px;color:#000000;"><g:link action="show" controller="sprint" id="${customerDevelopmentInstance.sprint.id}"><span style="font-size:20px;color:#000000">Sprint: ${customerDevelopmentInstance.sprint.name}</span></g:link></p>
 														<br>
 														</g:if>
 														<g:if test="${customerDevelopmentInstance.backlog}">
-														<p style="font-size:20px;color:#8a7e7e;"><g:link action="show" controller="backlog" id="${customerDevelopmentInstance.backlog.id}"><span style="font-size:20px;color:#8a7e7e">Backlog: ${customerDevelopmentInstance.backlog.name}</span></g:link></p>
+														<p style="font-size:20px;color:#000000;"><g:link action="show" controller="backlog" id="${customerDevelopmentInstance.backlog.id}"><span style="font-size:20px;color:#000000">Backlog: ${customerDevelopmentInstance.backlog.name}</span></g:link></p>
 														<br>
 														</g:if>
 														<button class="button"><g:link controller="customerDevelopment" action="show" id="${customerDevelopmentInstance.id}">Show Full Customer Development</g:link></button>
@@ -174,7 +174,7 @@
 													<section class="box">
 													<!-- <a href="http://www.mytweetmark.com" class="image image-full"><asset:image src="foodal-homepage-16.png"/></a> -->
 													<header>
-													<g:link controller="customerDevelopment" action="create"><span style="font-size:28px;color:#8a7e7e;">Please create a Customer Development.</span></g:link>
+													<g:link controller="customerDevelopment" action="create"><span style="font-size:28px;color:#000000;">Please create a Customer Development.</span></g:link>
 													</header>
 													</section>
 										</div>

@@ -50,7 +50,7 @@
 		  text-decoration: none;
 		  outline: none;
 		  color: #fff;
-		  background-color: #bbc4bb;
+		  background-color: #000000;
 		  border: none;
 		  border-radius: 15px;
 		  box-shadow: 0 9px #999;
@@ -129,14 +129,14 @@
 													<section class="box">
 													<!-- <a href="http://www.mytweetmark.com" class="image image-full"><asset:image src="foodal-homepage-16.png"/></a> -->
 													<header>
-														<span style="font-size:35px;color:#9b9ea9"><f:display bean="backlog" property="name"/></span>
+														<span style="font-size:35px;color:#000000"><f:display bean="backlog" property="name"/></span>
 													</header>
 													<br><br>
-													<p style="font-size:20px;color:#8a7e7e;">Description: <f:display bean="backlog" property="description"/></p>
+													<p style="font-size:20px;color:#000000;">Description: <f:display bean="backlog" property="description"/></p>
 													<br>
-													<p style="font-size:20px;color:#8a7e7e;">Create Time: <g:formatDate format="MM-dd-yyyy" date="${backlog.createTime}"/></p>
+													<p style="font-size:20px;color:#000000;">Create Time: <g:formatDate format="MM-dd-yyyy" date="${backlog.createTime}"/></p>
 													<br>
-													<p style="font-size:20px;color:#8a7e7e;">Update Time: <g:formatDate format="MM-dd-yyyy" date="${backlog.updateTime}"/></p>
+													<p style="font-size:20px;color:#000000;">Update Time: <g:formatDate format="MM-dd-yyyy" date="${backlog.updateTime}"/></p>
 													<br>
 													
 												</section>

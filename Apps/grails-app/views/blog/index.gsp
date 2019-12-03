@@ -50,7 +50,7 @@
 		  text-decoration: none;
 		  outline: none;
 		  color: #fff;
-		  background-color: #bbc4bb;
+		  background-color: #000000;
 		  border: none;
 		  border-radius: 15px;
 		  box-shadow: 0 9px #999;
@@ -133,9 +133,9 @@
 												<div id="block1" class="6u">
 														<section class="box" >
 																				<header>
-														<span style="font-size:35px;color:#9b9ea9">${blogInstance.name}</span>
+														<span style="font-size:35px;color:#000000">${blogInstance.name}</span>
 														<br><br>
-														<span style="font-size:20px;color:#9b9ea9">Create Time: <g:formatDate format="MM-dd-yyyy" date="${blogInstance.createTime}"/></span> 
+														<span style="font-size:20px;color:#000000">Create Time: <g:formatDate format="MM-dd-yyyy" date="${blogInstance.createTime}"/></span> 
 								
 														<br><br>
 														<br><br>
@@ -179,7 +179,7 @@
 													<section class="box">
 													<!-- <a href="http://www.mytweetmark.com" class="image image-full"><asset:image src="foodal-homepage-16.png"/></a> -->
 													<header>
-													<g:link controller="blog" action="create"><span style="font-size:28px;color:#8a7e7e;">Please create a Blog.</span></g:link>
+													<g:link controller="blog" action="create"><span style="font-size:28px;color:#000000;">Please create a Blog.</span></g:link>
 													</header>
 													</section>
 										</div>

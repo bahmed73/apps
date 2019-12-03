@@ -50,7 +50,7 @@
 		  text-decoration: none;
 		  outline: none;
 		  color: #fff;
-		  background-color: #bbc4bb;
+		  background-color: #000000;
 		  border: none;
 		  border-radius: 15px;
 		  box-shadow: 0 9px #999;
@@ -133,14 +133,14 @@
 												<div id="block1" class="12u">
 														<section class="box">
 														<header>
-														<span style="font-size:35px;color:#9b9ea9">${projectsInstance.name}</span>
+														<span style="font-size:35px;color:#000000">${projectsInstance.name}</span>
 														<br><br>
 														</header>
-														<p style="font-size:20px;color:#8a7e7e;">Description: ${projectsInstance.description}</p>
+														<p style="font-size:20px;color:#000000;">Description: ${projectsInstance.description}</p>
 														<br>
-														<p style="font-size:20px;color:#8a7e7e;">Status: ${projectsInstance.status}</p>
+														<p style="font-size:20px;color:#000000;">Status: ${projectsInstance.status}</p>
 														<br>
-														<p style="font-size:20px;color:#8a7e7e;">Due Date: <g:formatDate format="MM-dd-yyyy" date="${projectsInstance.dueDate}"/></p>
+														<p style="font-size:20px;color:#000000;">Due Date: <g:formatDate format="MM-dd-yyyy" date="${projectsInstance.dueDate}"/></p>
 														<br>
 														<button class="button"><g:link controller="projects" action="show" id="${projectsInstance.id}">Show Details</g:link></button>
 														</section>

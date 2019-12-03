@@ -49,7 +49,7 @@
 		  text-decoration: none;
 		  outline: none;
 		  color: #fff;
-		  background-color: #bbc4bb;
+		  background-color: #000000;
 		  border: none;
 		  border-radius: 15px;
 		  box-shadow: 0 9px #999;
@@ -128,26 +128,26 @@
 													<section class="box">
 													<!-- <a href="http://www.mytweetmark.com" class="image image-full"><asset:image src="foodal-homepage-16.png"/></a> -->
 													<header>
-														<span style="font-size:35px;color:#9b9ea9"><f:display bean="customerDevelopment" property="name"/></span>
+														<span style="font-size:35px;color:#000000"><f:display bean="customerDevelopment" property="name"/></span>
 													</header>
 													<br><br>
-													<p style="font-size:20px;color:#8a7e7e;">Description: <f:display bean="customerDevelopment" property="description"/></p>
+													<p style="font-size:20px;color:#000000;">Description: <f:display bean="customerDevelopment" property="description"/></p>
 													<br>
-													<p style="font-size:20px;color:#8a7e7e;">Duration: <f:display bean="customerDevelopment" property="duration"/></p>
+													<p style="font-size:20px;color:#000000;">Duration: <f:display bean="customerDevelopment" property="duration"/></p>
 													<br>
-													<p style="font-size:20px;color:#8a7e7e;">Priority: <f:display bean="customerDevelopment" property="priority"/></p>
+													<p style="font-size:20px;color:#000000;">Priority: <f:display bean="customerDevelopment" property="priority"/></p>
 													<br>
-													<p style="font-size:20px;color:#8a7e7e;">Project: <g:link action="show" controller="customerDevelopment" id="${customerDevelopment.project.id}"><span style="font-size:20px;color:#8a7e7e">${customerDevelopment.project.name}</span></g:link></p>
+													<p style="font-size:20px;color:#000000;">Project: <g:link action="show" controller="customerDevelopment" id="${customerDevelopment.project.id}"><span style="font-size:20px;color:#000000">${customerDevelopment.project.name}</span></g:link></p>
 													<br>
 													<g:if test="${customerDevelopment.sprint}">
-													<p style="font-size:20px;color:#8a7e7e;">Sprint: <g:link action="show" controller="sprint" id="${customerDevelopment.sprint.id}"><span style="font-size:20px;color:#8a7e7e">${customerDevelopment.sprint.name}</span></g:link></p>
+													<p style="font-size:20px;color:#000000;">Sprint: <g:link action="show" controller="sprint" id="${customerDevelopment.sprint.id}"><span style="font-size:20px;color:#000000">${customerDevelopment.sprint.name}</span></g:link></p>
 													<br>
 													</g:if>
 													<g:if test="${customerDevelopment.backlog}">
-													<p style="font-size:20px;color:#8a7e7e;">Backlog: <g:link action="show" controller="backlog" id="${customerDevelopment.backlog.id}"><span style="font-size:20px;color:#8a7e7e">${customerDevelopment.backlog.name}</span></g:link></p>
+													<p style="font-size:20px;color:#000000;">Backlog: <g:link action="show" controller="backlog" id="${customerDevelopment.backlog.id}"><span style="font-size:20px;color:#000000">${customerDevelopment.backlog.name}</span></g:link></p>
 													<br>
 													</g:if>
-													<p style="font-size:20px;color:#8a7e7e;">Feedback: <f:display bean="customerDevelopment" property="feedback"/></p>
+													<p style="font-size:20px;color:#000000;">Feedback: <f:display bean="customerDevelopment" property="feedback"/></p>
 													<br>
 													
 													

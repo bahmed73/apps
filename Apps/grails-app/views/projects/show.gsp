@@ -50,7 +50,7 @@
 		  text-decoration: none;
 		  outline: none;
 		  color: #fff;
-		  background-color: #bbc4bb;
+		  background-color: #000000;
 		  border: none;
 		  border-radius: 15px;
 		  box-shadow: 0 9px #999;
@@ -129,23 +129,23 @@
 													<section class="box">
 													<!-- <a href="http://www.mytweetmark.com" class="image image-full"><asset:image src="foodal-homepage-16.png"/></a> -->
 													<header>
-														<span style="font-size:35px;color:#9b9ea9"><f:display bean="projects" property="name"/></span>
+														<span style="font-size:35px;color:#000000"><f:display bean="projects" property="name"/></span>
 													</header>
 													<br><br>
-													<p style="font-size:20px;color:#8a7e7e;">Description: <f:display bean="projects" property="description"/></p>
+													<p style="font-size:20px;color:#000000;">Description: <f:display bean="projects" property="description"/></p>
 													<br>
-													<p style="font-size:20px;color:#8a7e7e;">Status: <f:display bean="projects" property="status"/></p>
+													<p style="font-size:20px;color:#000000;">Status: <f:display bean="projects" property="status"/></p>
 													<br>
-													<p style="font-size:20px;color:#8a7e7e;">Due Date: <g:formatDate format="MM-dd-yyyy" date="${projects.dueDate}"/></p>
+													<p style="font-size:20px;color:#000000;">Due Date: <g:formatDate format="MM-dd-yyyy" date="${projects.dueDate}"/></p>
 													<br>
 													<g:if test="${tasks}">
 													<header>
-														<span style="font-size:28px;color:#9b9ea9">Tasks:</span>
+														<span style="font-size:28px;color:#000000">Tasks:</span>
 													</header>
 													<br>
 													<g:each in="${tasks}" status="i" var="tasksInstance">
 													<div>
-													<p><g:link action="show" controller="tasks" id="${tasksInstance.id}"><span style="font-size:20px;color:#8a7e7e">${tasksInstance.name}</span></g:link></p>
+													<p><g:link action="show" controller="tasks" id="${tasksInstance.id}"><span style="font-size:20px;color:#000000">${tasksInstance.name}</span></g:link></p>
 													<br>
 													</div>
 													</g:each>
@@ -160,7 +160,7 @@
 													<img src="data:image/png;base64,${projects.imageThree?.encodeBase64()}"/>
 													</div>
 													<br><br>
-													<p style="font-size:24px;color:#9b9ea9">Upload screen shots of the project.</p>
+													<p style="font-size:24px;color:#000000">Upload screen shots of the project.</p>
 													<br>
 												</header>
 												</g:if>

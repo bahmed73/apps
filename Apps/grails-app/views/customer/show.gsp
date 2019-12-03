@@ -50,7 +50,7 @@
 		  text-decoration: none;
 		  outline: none;
 		  color: #fff;
-		  background-color: #bbc4bb;
+		  background-color: #000000;
 		  border: none;
 		  border-radius: 15px;
 		  box-shadow: 0 9px #999;
@@ -129,22 +129,22 @@
 													<section class="box">
 													<!-- <a href="http://www.mytweetmark.com" class="image image-full"><asset:image src="foodal-homepage-16.png"/></a> -->
 													<header>
-														<span style="font-size:35px;color:#9b9ea9"><f:display bean="customer" property="name"/></span>
+														<span style="font-size:35px;color:#000000"><f:display bean="customer" property="name"/></span>
 													</header>
 													<br><br>
-													<p style="font-size:20px;color:#8a7e7e;">Address: <f:display bean="customer" property="address"/></p>
+													<p style="font-size:20px;color:#000000;">Address: <f:display bean="customer" property="address"/></p>
 													<br>
-													<p style="font-size:20px;color:#8a7e7e;">Phone: <f:display bean="customer" property="phone"/></p>
+													<p style="font-size:20px;color:#000000;">Phone: <f:display bean="customer" property="phone"/></p>
 													<br>
-													<p style="font-size:20px;color:#8a7e7e;">Website: <f:display bean="customer" property="website"/></p>
+													<p style="font-size:20px;color:#000000;">Website: <f:display bean="customer" property="website"/></p>
 													<br>
-													<p style="font-size:20px;color:#8a7e7e;">Create Time: <g:formatDate format="MM-dd-yyyy" date="${customer.createTime}"/></p>
+													<p style="font-size:20px;color:#000000;">Create Time: <g:formatDate format="MM-dd-yyyy" date="${customer.createTime}"/></p>
 													<br>
-													<p style="font-size:20px;color:#8a7e7e;">Update Time: <g:formatDate format="MM-dd-yyyy" date="${customer.updateTime}"/></p>
+													<p style="font-size:20px;color:#000000;">Update Time: <g:formatDate format="MM-dd-yyyy" date="${customer.updateTime}"/></p>
 													<br>
 													
 													<g:if test="${customer.customerDevelopment}">
-													<p style="font-size:20px;color:#8a7e7e;">Customer Development: <g:link action="show" controller="customerDevelopment" id="${customer.customerDevelopment.id}"><span style="font-size:20px;color:#8a7e7e">${customer.customerDevelopment.name}</span></g:link></p>
+													<p style="font-size:20px;color:#000000;">Customer Development: <g:link action="show" controller="customerDevelopment" id="${customer.customerDevelopment.id}"><span style="font-size:20px;color:#000000">${customer.customerDevelopment.name}</span></g:link></p>
 													<br>
 													</g:if>
 												</section>
