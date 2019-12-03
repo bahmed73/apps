@@ -36,7 +36,6 @@
 		<style>
 		p {
 		  border: 2px solid #e5e1e1;
-		  background-color: #d5e5e1;
 		  border-width: 2px;
 		  margin: 5px;
 		  padding: 10px;
@@ -140,7 +139,7 @@
 												<section class="box">
 												<header>
 												<g:if test="${blog.imageThree}">
-													<div style="border: 2px solid #e1f3f9;margin:50px;">
+													<div style="border: 2px solid #e5e1e1;margin:50px;">
 													<img src="data:image/png;base64,${blog.imageThree?.encodeBase64()}"/>
 													<br><br>
 													<p style="font-size:24px;color:#9b9ea9">Upload images with the blog.</p>

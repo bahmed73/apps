@@ -130,18 +130,23 @@
 									<section>
 										<div>
 											<div class="row">
-												<div id="block1" class="12u">
-														<section class="box">
+												<div id="block1" class="12u" style="border: 2px solid #e1f3f9;">
+														<section class="box" >
 														<header>
-														<span style="font-size:35px;color:#9b9ea9">${blogInstance.name}</span>
-														</header>
+														<g:if test="${blogInstance.imageOne}">
+														<div>
+														<img src="data:image/png;base64,${blogInstance.imageOne?.encodeBase64()}"/>
+														</div>
 														<br><br>
-														<p style="font-size:20px;color:#8a7e7e;">${blogInstance.description}</p>
-														<br>
+														</g:if>
+														<span style="font-size:35px;color:#9b9ea9">${blogInstance.name}</span>
+														<br><br>
+														
+														</header>
+														
 														<button class="button"><g:link controller="blog" action="show" id="${blogInstance.id}">View Full Blog</g:link></button>
 														</section>
 												</div>
-												
 											</div>
 										</div>
 									</section>

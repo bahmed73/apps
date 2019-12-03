@@ -165,7 +165,7 @@
 												<section class="box">
 												<header>
 													<g:if test="${tasks.imageThree}">
-													<div style="border: 2px solid #e1f3f9;margin:50px;">
+													<div style="border: 2px solid #e5e1e1;margin:50px;">
 													<img src="data:image/png;base64,${tasks.imageThree?.encodeBase64()}"/>
 													</div>
 													<br><br>

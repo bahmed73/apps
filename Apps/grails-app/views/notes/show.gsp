@@ -146,7 +146,7 @@
 												<section class="box">
 												<header>
 												<g:if test="${notes.imageThree}">
-													<div style="border: 2px solid #e1f3f9;margin:50px;">
+													<div style="border: 2px solid #e5e1e1;margin:50px;">
 													<img src="data:image/png;base64,${notes.imageThree?.encodeBase64()}"/>
 													<br><br>
 													<p style="font-size:24px;color:#9b9ea9;">Upload images with the note.</p>

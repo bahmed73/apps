@@ -138,7 +138,7 @@
 													<br>
 													<p style="font-size:20px;color:#8a7e7e;">Update Time: <g:formatDate format="MM-dd-yyyy" date="${documentation.updateTime}"/></p>
 													<br>
-													<button class="button"><g:link controller="documentation" action="download" id="${documentation.id}"><span style="color:#8a7e7e;font-size:20px;">Download</span></g:link></button>
+													<button class="button"><g:link controller="documentation" action="download" id="${documentation.id}"><span style="color:#ffffff;font-size:20px;">Download</span></g:link></button>
 												</section>
 											</div>
 											
