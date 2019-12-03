@@ -135,7 +135,7 @@
 													<br>
 													<p style="font-size:20px;color:#000000;">Phone: <f:display bean="customer" property="phone"/></p>
 													<br>
-													<p style="font-size:20px;color:#000000;">Website: <a href="${customer.website}"><span style="font-size:20px;color:#000000">${customer.website}</span></a></p>
+													<p style="font-size:20px;color:#000000;">Website: <f:display bean="customer" property="website"/></p>
 													<br>
 													<p style="font-size:20px;color:#000000;">Create Time: <g:formatDate format="MM-dd-yyyy" date="${customer.createTime}"/></p>
 													<br>
