@@ -135,25 +135,25 @@
 													<br>
 													<p style="font-size:20px;color:#000000;">Description: <f:display bean="customerFeedback" property="description"/></p>
 													<br>
-													<span style="font-size:16px;margin-left:50px">Question / Metrics: How would you feel if you no longer used our product?</span>
+													<p><span style="font-size:20px;margin-left:5px;color:#4a9de5">Question / Metrics: How would you feel if you no longer used our product?</span></p>
 													<p style="font-size:20px;color:#000000;">Answer: <f:display bean="customerFeedback" property="question1"/></p>
 													<br>
-													<span style="font-size:16px;margin-left:50px">Question / Recommendation: Have you recommended our product to anyone?</span>
+													<p><span style="font-size:20px;margin-left:5px;color:#4a9de5">Question / Recommendation: Have you recommended our product to anyone?</span></p>
 													<p style="font-size:20px;color:#000000;">Answer: <f:display bean="customerFeedback" property="question2"/></p>
 													<br>
-													<span style="font-size:16px;margin-left:50px">Question / Referrer: How did you discover our product?</span>
+													<p><span style="font-size:20px;margin-left:5px;color:#4a9de5">Question / Referrer: How did you discover our product?</span></p>
 													<p style="font-size:20px;color:#000000;">Answer: <f:display bean="customerFeedback" property="question3"/></p>
 													<br>
-													<span style="font-size:16px;margin-left:50px">Question / Alternatives: What product would you use, if ours is not available?</span>
+													<p><span style="font-size:20px;margin-left:5px;color:#4a9de5">Question / Alternatives: What product would you use, if ours is not available?</span></p>
 													<p style="font-size:20px;color:#000000;">Answer: <f:display bean="customerFeedback" property="question4"/></p>
 													<br>
-													<span style="font-size:16px;margin-left:50px">Question / Benefits: What are the primary benefits, using our product?</span>
+													<p><span style="font-size:20px;margin-left:5px;color:#4a9de5">Question / Benefits: What are the primary benefits, using our product?</span></p>
 													<p style="font-size:20px;color:#000000;">Answer: <f:display bean="customerFeedback" property="question5"/></p>
 													<br>
-													<span style="font-size:16px;margin-left:50px">Question / Audience: What type of person would be using our product?</span>
+													<p><span style="font-size:20px;margin-left:5px;color:#4a9de5">Question / Audience: What type of person would be using our product?</span></p>
 													<p style="font-size:20px;color:#000000;">Answer: <f:display bean="customerFeedback" property="question6"/></p>
 													<br>
-													<span style="font-size:16px;margin-left:50px">Question / Improvement: How can we improve our product to meet your needs?</span>
+													<p><span style="font-size:20px;margin-left:5px;color:#4a9de5">Question / Improvement: How can we improve our product to meet your needs?</span></p>
 													<p style="font-size:20px;color:#000000;">Answer: <f:display bean="customerFeedback" property="question7"/></p>
 													<br>
 														
@@ -162,7 +162,7 @@
 													<br>
 													<p style="font-size:20px;color:#000000;">Customer: <g:link action="show" controller="customer" id="${customerFeedback.customer.id}"><span style="font-size:20px;color:#000000">${customerFeedback.customer.name}</span></g:link></p>
 													<br>
-													<p style="font-size:20px;color:#000000;">CustomerDevelopment: <g:link action="show" controller="customerDevelopment" id="${customerFeedback.customerDevelopment.id}"><span style="font-size:20px;color:#000000">${customerFeedback.customerDevelopment.name}</span></g:link></p>
+													<p style="font-size:20px;color:#000000;">Customer Development: <g:link action="show" controller="customerDevelopment" id="${customerFeedback.customerDevelopment.id}"><span style="font-size:20px;color:#000000">${customerFeedback.customerDevelopment.name}</span></g:link></p>
 													<br>
 													<p style="font-size:20px;color:#000000;">User: <span style="font-size:20px;color:#000000">${customerFeedback.user.username}</span></p>
 													<br>

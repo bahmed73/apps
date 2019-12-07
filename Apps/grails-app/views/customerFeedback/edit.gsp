@@ -36,7 +36,7 @@
                 	<br>
               				Write your answer here and use html tags for styling.<br>
               		<div>
-                  <g:textArea name="description" value="" rows="10" cols="80"/>
+                  <g:textArea name="description" value="${customerFeedback.description}" rows="10" cols="80"/>
               	</div>	
                 </fieldset>
                 <fieldset style="margin-left:340px;">

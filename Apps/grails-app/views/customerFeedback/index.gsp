@@ -135,8 +135,6 @@
 														<span style="font-size:35px;color:#000000">${customerFeedbackInstance.name}</span>
 														<br><br>
 														</header>
-														<p style="font-size:20px;color:#000000;">Description: ${customerFeedbackInstance.description}</p>
-														<br>
 														<p style="font-size:20px;color:#000000;">Create Time: <g:formatDate format="MM-dd-yyyy" date="${customerFeedbackInstance.createTime}"/></p>
 														<br>
 														<button class="button"><g:link controller="customerFeedback" action="show" id="${customerFeedbackInstance.id}">Show Details</g:link></button>
