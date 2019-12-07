@@ -97,7 +97,7 @@
 							<!-- Banner -->
 								<section id="banner">
 									
-										<span class="image image-full"><asset:image src="agiledevelopment-1.png"/></span>
+										<span class="image image-full"><asset:image src="leanstartup-2.png"/></span>
 										<header>
 										<!-- 
 											<h2>Shop</h2> 
@@ -116,14 +116,14 @@
 											<ul>
 												<li><button class="button"><g:link url="/">Home</g:link></button></li>
 												<li><button class="button"><g:link controller="product" action="shelf">Dashboard</g:link></button></li>
-												<li><button class="button"><g:link controller="projects" action="create">Create a Project</g:link></button></li>
+												<li><button class="button"><g:link controller="customerFeedback" action="create">Create a Customer Feedback</g:link></button></li>
 												<!--<li><a href="left-sidebar.html">Login</a></li>-->
 											</ul>
 										</nav>
 							<!-- Intro -->
 							
-							<g:if test="${projectsList}">
-							<g:each in="${projectsList}" status="i" var="projectsInstance">
+							<g:if test="${customerFeedbackList}">
+							<g:each in="${customerFeedbackList}" status="i" var="customerFeedbackInstance">
 								<div class="row">
 								<div class="12u">
 									<section>
@@ -132,16 +132,14 @@
 												<div id="block1" class="12u">
 														<section class="box">
 														<header>
-														<span style="font-size:35px;color:#000000">${projectsInstance.name}</span>
+														<span style="font-size:35px;color:#000000">${customerFeedbackInstance.name}</span>
 														<br><br>
 														</header>
-														<p style="font-size:20px;color:#000000;">Description: ${projectsInstance.description}</p>
+														<p style="font-size:20px;color:#000000;">Description: ${customerFeedbackInstance.description}</p>
 														<br>
-														<p style="font-size:20px;color:#000000;">Status: ${projectsInstance.status}</p>
+														<p style="font-size:20px;color:#000000;">Create Time: <g:formatDate format="MM-dd-yyyy" date="${customerFeedbackInstance.createTime}"/></p>
 														<br>
-														<p style="font-size:20px;color:#000000;">Due Date: <g:formatDate format="MM-dd-yyyy" date="${projectsInstance.dueDate}"/></p>
-														<br>
-														<button class="button"><g:link controller="projects" action="show" id="${projectsInstance.id}">Show Details</g:link></button>
+														<button class="button"><g:link controller="customerFeedback" action="show" id="${customerFeedbackInstance.id}">Show Details</g:link></button>
 														</section>
 												</div>
 											</div>
@@ -162,7 +160,7 @@
 													<section class="box">
 													<!-- <a href="http://www.mytweetmark.com" class="image image-full"><asset:image src="foodal-homepage-16.png"/></a> -->
 													<header>
-													<g:link controller="projects" action="create"><span style="font-size:28px;color:#8a7e7e;">Please create a project.</span></g:link>
+													<g:link controller="customerFeedback" action="create"><span style="font-size:28px;color:#8a7e7e;">Please create a customer feedback.</span></g:link>
 													</header>
 													</section>
 										</div>

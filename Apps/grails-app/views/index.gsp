@@ -228,6 +228,7 @@
 													      <ul id="menu2">
 															<li><div><p><g:link class="list" action="index" controller="customerDevelopment"><span style="color:#000000;font-size:28px"><asset:image src="goal-7-1.png" width="30"/> Customer Development - Build feedback flows.</span></g:link></p></div></li>
 															<li><div><p><g:link class="list" action="index" controller="customer"><span style="color:#000000;font-size:28px"><asset:image src="goal-8-1.png" width="30"/> Customers - Pivot on customers with the team.</span></g:link></p></div></li>
+															<li><div><p><g:link class="list" action="index" controller="customerFeedback"><span style="color:#000000;font-size:28px"><asset:image src="goal-8-1.png" width="30"/> Customers Feedback Survey - Talk to a customer.</span></g:link></p></div></li>
 															
 														<li><div><p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="641"><asset:image src="goal-9-1.png" width="20"/><span style="color:#000000;"> Introduction to startup school.</span></g:link></span></p></div></li>
 														<li><div><p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="642"><asset:image src="goal-9-1.png" width="20"/><span style="color:#000000;"> Incubator meetings.</span></g:link></span></p></div></li>

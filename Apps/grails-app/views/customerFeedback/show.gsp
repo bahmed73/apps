@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta name="description" content="Shop - Bring your store business online." />
-<meta name="keywords" content="shop local, store business, store, shop, local, local tree, trees, local business, injection, insects, fertilizer, farm, farm market, business, farm business, organic, health, nutrient, california, blogger, socialmedia, socialmedia blogger, social media blogger, facebook, facebook feed, twitter, twitter update, twitter" />
+<meta name="keywords" content="shop, buy, sell, organic, health, nutrient, california, blogger, socialmedia, socialmedia blogger, social media blogger, facebook, facebook feed, twitter, twitter update, twitter" />
 <meta http-equiv="window-target" content="_top" />
 <META HTTP-EQUIV="CACHE-CONTROL" CONTENT="PUBLIC">
 	<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
@@ -73,8 +73,8 @@
 	      var options = {};
 	           // Run the effect
 	      $( "#block1" ).effect( "bounce", options, 500, callback );
-	      $( "#block2" ).effect( "pulsate", options, 500, callback );
-	      $( "#block3" ).effect( "puff", options, 500, callback );
+	      $( "#block2" ).effect( "explode", options, 500, callback );
+	      $( "#block3" ).effect( "pulsate", options, 500, callback );
 	    };
 	 
 	    // Callback function to bring a hidden box back
@@ -97,12 +97,10 @@
 							<!-- Banner -->
 								<section id="banner">
 									
-										<span class="image image-full"><asset:image src="agiledevelopment-1.png"/></span>
+										<span class="image image-full"><asset:image src="leanstartup-2.png"/></span>
 										<header>
-										<!-- 
-											<h2>Shop</h2> 
-											<span class="byline">Bring your store business online.</span>
-											 -->
+											<!--  <h2>Foodal</h2>-->
+											<!--span class="byline">welcome!</span-->
 										</header>
 									
 									
@@ -115,66 +113,72 @@
 										<nav id="nav">
 											<ul>
 												<li><button class="button"><g:link url="/">Home</g:link></button></li>
-												<li><button class="button"><g:link controller="product" action="shelf">Dashboard</g:link></button></li>
-												<li><button class="button"><g:link controller="projects" action="create">Create a Project</g:link></button></li>
+												<li><button class="button"><g:link controller="customerFeedback" action="edit" id="${customerFeedback.id}">Edit Customer Feedback</g:link></button></li>
+												<li><button class="button"><g:link controller="customerFeedback" action="index">Show Customer Feedbacks</g:link></button></li>
 												<!--<li><a href="left-sidebar.html">Login</a></li>-->
 											</ul>
 										</nav>
 							<!-- Intro -->
-							
-							<g:if test="${projectsList}">
-							<g:each in="${projectsList}" status="i" var="projectsInstance">
-								<div class="row">
-								<div class="12u">
-									<section>
-										<div>
-											<div class="row">
-												<div id="block1" class="12u">
-														<section class="box">
-														<header>
-														<span style="font-size:35px;color:#000000">${projectsInstance.name}</span>
-														<br><br>
-														</header>
-														<p style="font-size:20px;color:#000000;">Description: ${projectsInstance.description}</p>
-														<br>
-														<p style="font-size:20px;color:#000000;">Status: ${projectsInstance.status}</p>
-														<br>
-														<p style="font-size:20px;color:#000000;">Due Date: <g:formatDate format="MM-dd-yyyy" date="${projectsInstance.dueDate}"/></p>
-														<br>
-														<button class="button"><g:link controller="projects" action="show" id="${projectsInstance.id}">Show Details</g:link></button>
-														</section>
-												</div>
-											</div>
-										</div>
-									</section>
-								</div>
-								</div>
-							</g:each>
-							</g:if>
-							<g:else>
-							<div class="row">
-								<div class="12u">
-									<section>
+														<div class="row">
+						<div class="12u">
+								<section>
 									<div>
 										<div class="row">
-										
-										<div class="6u">
+											<div id="block1" class="12u">
 													<section class="box">
 													<!-- <a href="http://www.mytweetmark.com" class="image image-full"><asset:image src="foodal-homepage-16.png"/></a> -->
 													<header>
-													<g:link controller="projects" action="create"><span style="font-size:28px;color:#8a7e7e;">Please create a project.</span></g:link>
+														<span style="font-size:35px;color:#000000"><f:display bean="customerFeedback" property="name"/></span>
 													</header>
-													</section>
+													<br><br>
+													<p style="font-size:20px;color:#000000;">Create Time: <g:formatDate format="MM-dd-yyyy" date="${customerFeedback.createTime}"/></p>
+													<br>
+													<p style="font-size:20px;color:#000000;">Description: <f:display bean="customerFeedback" property="description"/></p>
+													<br>
+													<span style="font-size:16px;margin-left:50px">Question / Metrics: How would you feel if you no longer used our product?</span>
+													<p style="font-size:20px;color:#000000;">Answer: <f:display bean="customerFeedback" property="question1"/></p>
+													<br>
+													<span style="font-size:16px;margin-left:50px">Question / Recommendation: Have you recommended our product to anyone?</span>
+													<p style="font-size:20px;color:#000000;">Answer: <f:display bean="customerFeedback" property="question2"/></p>
+													<br>
+													<span style="font-size:16px;margin-left:50px">Question / Referrer: How did you discover our product?</span>
+													<p style="font-size:20px;color:#000000;">Answer: <f:display bean="customerFeedback" property="question3"/></p>
+													<br>
+													<span style="font-size:16px;margin-left:50px">Question / Alternatives: What product would you use, if ours is not available?</span>
+													<p style="font-size:20px;color:#000000;">Answer: <f:display bean="customerFeedback" property="question4"/></p>
+													<br>
+													<span style="font-size:16px;margin-left:50px">Question / Benefits: What are the primary benefits, using our product?</span>
+													<p style="font-size:20px;color:#000000;">Answer: <f:display bean="customerFeedback" property="question5"/></p>
+													<br>
+													<span style="font-size:16px;margin-left:50px">Question / Audience: What type of person would be using our product?</span>
+													<p style="font-size:20px;color:#000000;">Answer: <f:display bean="customerFeedback" property="question6"/></p>
+													<br>
+													<span style="font-size:16px;margin-left:50px">Question / Improvement: How can we improve our product to meet your needs?</span>
+													<p style="font-size:20px;color:#000000;">Answer: <f:display bean="customerFeedback" property="question7"/></p>
+													<br>
+														
+												
+													<p style="font-size:20px;color:#000000;">Project: <g:link action="show" controller="customerFeedback" id="${customerFeedback.project.id}"><span style="font-size:20px;color:#000000">${customerFeedback.project.name}</span></g:link></p>
+													<br>
+													<p style="font-size:20px;color:#000000;">Customer: <g:link action="show" controller="customer" id="${customerFeedback.customer.id}"><span style="font-size:20px;color:#000000">${customerFeedback.customer.name}</span></g:link></p>
+													<br>
+													<p style="font-size:20px;color:#000000;">CustomerDevelopment: <g:link action="show" controller="customerDevelopment" id="${customerFeedback.customerDevelopment.id}"><span style="font-size:20px;color:#000000">${customerFeedback.customerDevelopment.name}</span></g:link></p>
+													<br>
+													<p style="font-size:20px;color:#000000;">User: <span style="font-size:20px;color:#000000">${customerFeedback.user.username}</span></p>
+													<br>
+													
+													
+												</section>
+											</div>
+											
 										</div>
 									</div>
-									</section>
-								</div>
-							</div>
-							</g:else>
-				        	</div>
-				        	</div>				
-							
-									
+								</section>
+
+						</div>
+					</div>
+				</div>
+			</div>		
 		<!-- Main Wrapper -->
 			<div id="main-wrapper">
 				<div class="container">
@@ -315,7 +319,7 @@
 										</li>
 										<li>
 											<h3>Mail</h3>
-											<a href="bilal@mytweetmark.com">bilal@mytweetmark.com</a>
+											<a href="mailto:bilal@mytweetmark.com">bilal@mytweetmark.com</a>
 										</li>
 										<!--li>
 											<h3>Phone</h3>
@@ -361,7 +365,7 @@
 								<!-- Copyright -->
 									<div id="copyright">
 										<ul class="links">
-											<li>&copy; 2019 Shop 	</li>
+											<li>&copy; 2019 Shop  	</li>
 											<!--li>Images: <a href="http://facebook.com/homecookme">Homecookme</a></li>
 											<li>Design: <a href="http://dalliusdesign.com">Dallius</a></li-->
 										</ul>

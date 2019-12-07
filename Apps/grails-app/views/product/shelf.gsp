@@ -287,6 +287,7 @@
 													<ul id="menu2">
 													<li><div><g:link class="list" action="index" controller="customerDevelopment"><span style="color:#000000;font-size:20px"><asset:image src="goal-7-1.png" width="35"/> Customer Development</span></g:link></div></li>
 													<li><div><g:link class="list" action="index" controller="customer"><span style="color:#000000;font-size:20px"><asset:image src="goal-8-1.png" width="35"/> Customers</span></g:link></div></li>
+													<li><div><g:link class="list" action="index" controller="customerFeedback"><span style="color:#000000;font-size:20px"><asset:image src="goal-8-1.png" width="35"/> Customers Feedback</span></g:link></div></li>
 													
 													</div>
 													<br><br>
