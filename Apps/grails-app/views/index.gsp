@@ -203,7 +203,7 @@
 										<section class="box">
 										<div id="block3" class="12u" style="border-style:solid; border-color:grey; border-width:100px;margin:1px;font-size:20px;color:#000000">
 													<header>
-														<p><span style="font-size:35px;color:#000000">For $15 / month per user, <b>Agile Development + Lean Startup</b>, enterprise license and training for your company.  Start using our tools to be invested by venture capitalists and incubators.</span></p>
+														<p><span style="font-size:35px;color:#000000">Running like an Incubator, <a href="http://bilalahmed.org">Weekly Investor Round Table Meeting.</a> Build your own startup, and mingle with other entrepreneurs and investors in our network!<br><br> For $15 / month per user, Agile Development + Lean Startup, enterprise license and training for your company.  Start using our tools to be invested by venture capitalists and incubators.</span></p>
 													</header>
 													</div>
 													</section>
