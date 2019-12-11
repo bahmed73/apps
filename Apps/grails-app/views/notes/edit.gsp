@@ -29,7 +29,15 @@
             <g:form resource="${this.notes}" method="POST" enctype="multipart/form-data">
                 <g:hiddenField name="version" value="${this.notes?.version}" />
                 <fieldset class="form">
-                    <f:all bean="notes" except="imageOne, imageTwo, imageThree, task"/>
+                    <f:all bean="notes" except="imageOne, imageTwo, imageThree, task, description"/>
+                </fieldset>
+                <fieldset style="margin-left:340px;">
+                	<div style="float:left;width:50" class="post"><h4>Description:</h4></div>
+                	<br>
+              				Write your note here and use html tags for styling.<br>
+              		<div>
+                  <g:textArea name="description" value="${notes.description}" rows="10" cols="80"/>
+              </div>	
                 </fieldset>
                 <fieldset>
                 <f:field bean="notes" property="task" widget-optionValue="name"/>

@@ -27,7 +27,15 @@
             </g:hasErrors>
             <g:form action="save" method="post" enctype="multipart/form-data">
                 <fieldset class="form">
-                    <f:all bean="notes" except="imageOne, imageTwo, imageThree, task"/>
+                    <f:all bean="notes" except="imageOne, imageTwo, imageThree, task, description"/>
+                </fieldset>
+                <fieldset style="margin-left:340px;">
+                	<div style="float:left;width:50" class="post"><h4>Description:</h4></div>
+                	<br>
+              				Write your note here and use html tags for styling.<br>
+              		<div>
+                  <g:textArea name="description" value="" rows="10" cols="80"/>
+              </div>	
                 </fieldset>
                 <fieldset>
                 <f:field bean="notes" property="task" widget-optionValue="name"/>

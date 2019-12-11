@@ -135,8 +135,6 @@
 														<span style="font-size:35px;color:#000000">${notesInstance.name}</span>
 														</header>
 														<br><br>
-														<p style="font-size:20px;color:#000000;">Description: ${notesInstance.description}</p>
-														<br>
 														<button class="button"><g:link controller="notes" action="show" id="${notesInstance.id}">View Full Note</g:link></button>
 														</section>
 												</div>
