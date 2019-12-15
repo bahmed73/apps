@@ -44,7 +44,7 @@
 		  }
 		  p {
 		  border: 2px solid #e5e1e1;
-		  background-color: #d5e5e1;
+		  background-color: #eff2f4;
 		  border-width: 2px;
 		  margin: 5px;
 		  padding: 10px;
@@ -199,7 +199,7 @@
 													</header>
 													<div id="block2">
 													
-													<ul id="menu">
+													<ul id="menu" style="background-color:#eff2f4">
 													<li><div><g:link class="list" action="index" controller="projects"><span style="color:#000000;font-size:20px"><asset:image src="goal-1-1.png" width="35"/> Projects</span></g:link></div></li>
 													<li><div><g:link class="list" action="index" controller="tasks"><span style="color:#000000;font-size:20px"><asset:image src="goal-2-1.png" width="35"/> Tasks</span></g:link></div></li>
 													<li><div><g:link class="list" action="index" controller="notes"><span style="color:#000000;font-size:20px"><asset:image src="goal-3-1.png" width="35"/> Notes</span></g:link></div></li>
@@ -284,7 +284,7 @@
 														<span style="font-size:35px;color:#000000">Lean Startup</span>
 													</header>
 													<div id="block1" style="border-style:solid; border-color:grey; border-width:1px;margin:1px;font-size:20px;color:#000000">
-													<ul id="menu2">
+													<ul id="menu2" style="background-color:#eff2f4">
 													<li><div><g:link class="list" action="index" controller="customerDevelopment"><span style="color:#000000;font-size:20px"><asset:image src="goal-7-1.png" width="35"/> Customer Development</span></g:link></div></li>
 													<li><div><g:link class="list" action="index" controller="customer"><span style="color:#000000;font-size:20px"><asset:image src="goal-8-1.png" width="35"/> Customers</span></g:link></div></li>
 													<li><div><g:link class="list" action="index" controller="customerFeedback"><span style="color:#000000;font-size:20px"><asset:image src="goal-8-1.png" width="35"/> Customers Feedback</span></g:link></div></li>
@@ -297,7 +297,7 @@
 													</header>
 													<br><br>
 													<div id="block3">
-													<ul id="menu3">
+													<ul id="menu3" style="background-color:#eff2f4">
 													<li><div><g:link class="list" action="index" controller="documentation"><span style="color:#000000;font-size:20px"><asset:image src="goal-9-1.png" width="35"/> Product Documentation</span></g:link></div></li>
 													<li><div><g:link class="list" action="index" controller="blog"><span style="color:#000000;font-size:20px"><asset:image src="goal-11-1.png" width="35"/> Blogs</span></g:link></div></li>
 													

@@ -201,7 +201,7 @@
 									<div>
 										<div class="row">
 										<section class="box">
-										<div id="block3" class="12u" style="border-style:solid; border-color:grey; border-width:100px;margin:1px;font-size:20px;color:#000000">
+										<div id="block3" class="12u" style="border-style:solid; border-color:grey; border-width:100px;margin:1px;font-size:20px;color:#000000;background-color:#eff2f4">
 													<header>
 														<p><span style="font-size:35px;color:#000000">Running like an Incubator, <a href="http://bilalahmed.org">Weekly Investor Round Table Meeting.</a> Build your own startup, and mingle with other entrepreneurs and investors in our network!<br><br> For $15 / month per user, Agile Development + Lean Startup, enterprise license and training for your company.  Start using our tools to be invested by venture capitalists and incubators.</span></p>
 													</header>
@@ -214,7 +214,7 @@
 													    <h3>Agile Development</h3>
 													    <div>
 													      
-													<ul id="menu" >
+													<ul id="menu" style="background-color:#eff2f4">
 													<li><div style="float:center"><p><g:link class="list" action="index" controller="projects"><span style="color:#000000;font-size:28px"><asset:image src="goal-1-1.png" width="30"/> Projects - Start creating agile development projects.</span></g:link></p></div></li>
 													<li><div><p><g:link class="list" action="index" controller="tasks"><span style="color:#000000;font-size:28px"><asset:image src="goal-2-1.png" width="30"/> Tasks - Create tasks, to manage the project.</span></g:link></p></div></li>
 													<li><div><p><g:link class="list" action="index" controller="notes"><span style="color:#000000;font-size:28px"><asset:image src="goal-3-1.png" width="30"/> Notes - Write notes for your team, on the tasks.</span></g:link></p></div></li>
@@ -225,7 +225,7 @@
 													    </div>
 													    <h3>Lean Startup</h3>
 													    <div>
-													      <ul id="menu2">
+													      <ul id="menu2" style="background-color:#eff2f4">
 															<li><div><p><g:link class="list" action="index" controller="customerDevelopment"><span style="color:#000000;font-size:28px"><asset:image src="goal-7-1.png" width="30"/> Customer Development - Build feedback flows.</span></g:link></p></div></li>
 															<li><div><p><g:link class="list" action="index" controller="customer"><span style="color:#000000;font-size:28px"><asset:image src="goal-8-1.png" width="30"/> Customers - Pivot on customers with the team.</span></g:link></p></div></li>
 															<li><div><p><g:link class="list" action="index" controller="customerFeedback"><span style="color:#000000;font-size:28px"><asset:image src="goal-8-1.png" width="30"/> Customers Feedback Survey - Talk to a customer.</span></g:link></p></div></li>
@@ -241,7 +241,7 @@
 														</div>
 													    <h3>Training</h3>
 													    <div>
-													      <ul id="menu3">
+													      <ul id="menu3" style="background-color:#eff2f4">
 														<li><div><p><g:link class="list" action="index" controller="documentation"><span style="color:#000000;font-size:28px"><asset:image src="goal-9-1.png" width="30"/> Product Docs - Business documentation.</span></g:link></p></div></li>
 														<li><div><p><g:link class="list" action="index" controller="blog"><span style="color:#000000;font-size:28px"><asset:image src="goal-11-1.png" width="30"/> Blogs - Agile development and lean startup.</span></g:link></p></div></li>
 														<li><div><p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="33"><asset:image src="goal-9-1.png" width="20"/><span style="color:#000000;"> What is sizing in agile development?</span></g:link></span></p></div></li>

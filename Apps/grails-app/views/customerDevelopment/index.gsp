@@ -39,6 +39,7 @@
 		  border-width: 2px;
 		  margin: 5px;
 		  padding: 10px;
+		  background-color: #eff2f4;
 		}
 		.button {
 		  display: inline-block;

@@ -36,7 +36,7 @@
 		<style>
 		p {
 		  border: 2px solid #e5e1e1;
-		  background-color: #d5e5e1;
+		  background-color: #eff2f4;
 		  border-width: 2px;
 		  margin: 5px;
 		  padding: 10px;
@@ -135,7 +135,7 @@
 																				<header>
 														<span style="font-size:35px;color:#000000">${blogInstance.name}</span>
 														<br><br>
-														<span style="font-size:20px;color:#000000">Create Time: <g:formatDate format="MM-dd-yyyy" date="${blogInstance.createTime}"/></span> 
+														<p><span style="font-size:20px;color:#000000">Create Time: <g:formatDate format="MM-dd-yyyy" date="${blogInstance.createTime}"/></span></p> 
 								
 														<br><br>
 														<br><br>
