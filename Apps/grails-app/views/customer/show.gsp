@@ -338,7 +338,7 @@
 							</div>
 						</div>
 						<div class="row">
-							<div class="12u">
+							<div class="10u">
 							
 								<!-- Copyright -->
 									<div id="copyright">

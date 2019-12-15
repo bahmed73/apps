@@ -290,7 +290,7 @@
 						</div-->
 						<div class="row">
 							<div class="4u">
-<section>
+								<section>
 									<header>
 										<h2>Connect with us</h2>
 									</header>
@@ -300,17 +300,13 @@
 										<li><a class="fa fa-linkedin solo" href="https://www.linkedin.com/company-beta/18041812/"><span>LinkedIn</span></a></li>-->
 										<!--li><a class="fa fa-google-plus solo" href="#"><span>Google+</span></a></li-->
 									<!--  </ul> -->
-									<ul class="contact">
+									<ul class="divided">
 										<li>
-											<h3>Address</h3>
-											
-												Oakland<br />
-																							California
+											<h3>Oakland, California</h3>
 											
 										</li>
 										<li>
-											<h3>Mail</h3>
-											<a href="mailto:bilal@mytweetmark.com">bilal@mytweetmark.com</a>
+											<h3><a href="mailto:bilal@mytweetmark.com">bilal@mytweetmark.com</a></h3>
 										</li>
 										<!--li>
 											<h3>Phone</h3>
@@ -328,7 +324,7 @@
 										<h2>More about us</h2>
 									</header>
 									<ul class="divided">
-										<li><a href="https://facebook.com/mytweetmark/">On Facebook</a></li>
+										<li><a href="https://facebook.com/dotshopper/"><h3>On Facebook</h3></a></li>
 										<li><a href="http://bilalahmed.org">Our Website</a></li>
 									</ul>
 								</section>
@@ -340,8 +336,8 @@
 										<h2>And more...</h2>
 									</header>
 									<ul class="divided">
-										<li><a href="https://www.youtube.com/user/bahmed73">On YouTube</a></li>
-										<li><a href="https://twitter.com/mytweetmark">On Twitter</a></li>
+										<li><a href="https://www.youtube.com/user/bahmed73"><h3>On YouTube</h3></a></li>
+										<li><a href="https://twitter.com/taoteshop"><h3>On Twitter</h3></a></li>
 										<!--li><a href="#">Sem feugiat sapien id suscipit magna felis nec</a></li>
 										<li><a href="#">Elit class aptent taciti sociosqu ad litora</a></li-->
 									</ul>
@@ -351,12 +347,12 @@
 							</div>
 						</div>
 						<div class="row">
-							<div class="12u">
+							<div class="10u">
 							
 								<!-- Copyright -->
 									<div id="copyright">
 										<ul class="links">
-											<li>&copy; 2019 Shop  	</li>
+											<li>&copy; 2020 Shop  	</li>
 											<!--li>Images: <a href="http://facebook.com/homecookme">Homecookme</a></li>
 											<li>Design: <a href="http://dalliusdesign.com">Dallius</a></li-->
 										</ul>
@@ -367,6 +363,8 @@
 					</section>
 				
 			</div>
-
+</div>
+</div>
+</div>
 	</body>
 </html>
