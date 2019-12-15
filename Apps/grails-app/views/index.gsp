@@ -98,6 +98,7 @@
 		    $( "#menu" ).menu();
 		    $( "#menu2" ).menu();
 		    $( "#menu3" ).menu();
+		    $( "#menu4" ).menu();
 		  } );
 		  </script>
 		  <style>
@@ -254,6 +255,27 @@
 														<br><br>
 													
 														</div>
+														<h3>Sample Startup Pitch to Venture Capitals</h3>
+													    <div>
+													      <ul id="menu4" style="background-color:#eff2f4">
+														<li><div><p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="706"><asset:image src="goal-9-1.png" width="20"/><span style="color:#000000;"> Startup Problem</span></g:link></span></p></div></li>
+														<li><div><p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="707"><asset:image src="goal-9-1.png" width="20"/><span style="color:#000000;"> Who has the problem?</span></g:link></span></p></div></li>
+														<li><div><p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="708"><asset:image src="goal-9-1.png" width="20"/><span style="color:#000000;"> Is that an important problem?</span></g:link></span></p></div></li>
+														<li><div><p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="709"><asset:image src="goal-9-1.png" width="20"/><span style="color:#000000;"> Your Solution?</span></g:link></span></p></div></li>
+														<li><div><p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="710"><asset:image src="goal-9-1.png" width="20"/><span style="color:#000000;"> Opportunity?</span></g:link></span></p></div></li>
+														<li><div><p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="711"><asset:image src="goal-9-1.png" width="20"/><span style="color:#000000;"> Competition?</span></g:link></span></p></div></li>
+														<li><div><p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="712"><asset:image src="goal-9-1.png" width="20"/><span style="color:#000000;"> Why agile development and lean startup on shop?</span></g:link></span></p></div></li>
+														<li><div><p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="713"><asset:image src="goal-9-1.png" width="20"/><span style="color:#000000;"> Company Needs?</span></g:link></span></p></div></li>
+														<li><div><p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="714"><asset:image src="goal-9-1.png" width="20"/><span style="color:#000000;"> What excites you?</span></g:link></span></p></div></li>
+														<li><div><p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="715"><asset:image src="goal-9-1.png" width="20"/><span style="color:#000000;"> One Line Pitch</span></g:link></span></p></div></li>
+														<li><div><p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="716"><asset:image src="goal-9-1.png" width="20"/><span style="color:#000000;"> Team</span></g:link></span></p></div></li>
+																								
+														</ul>
+														
+														<br><br>
+													
+														</div>
+													
 													  </div>
 													</div>
 													
