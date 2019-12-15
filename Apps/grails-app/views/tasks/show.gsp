@@ -312,6 +312,9 @@
 							
 							</div>
 						</div-->
+						<a href="/"><asset:image src="logoshop5.png" width="150px" height="150px"/></a>
+						<br><br>
+						
 						<div class="row">
 							<div class="4u">
 <section>
