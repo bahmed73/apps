@@ -138,7 +138,7 @@
 													<br>
 													<p style="font-size:20px;color:#000000;">Priority: <f:display bean="customerDevelopment" property="priority"/></p>
 													<br>
-													<p style="font-size:20px;color:#000000;">Project: <g:link action="show" controller="customerDevelopment" id="${customerDevelopment.project.id}"><span style="font-size:20px;color:#000000">${customerDevelopment.project.name}</span></g:link></p>
+													<p style="font-size:20px;color:#000000;">Project: <g:link action="show" controller="projects" id="${customerDevelopment.project.id}"><span style="font-size:20px;color:#000000">${customerDevelopment.project.name}</span></g:link></p>
 													<br>
 													<g:if test="${customerDevelopment.sprint}">
 													<p style="font-size:20px;color:#000000;">Sprint: <g:link action="show" controller="sprint" id="${customerDevelopment.sprint.id}"><span style="font-size:20px;color:#000000">${customerDevelopment.sprint.name}</span></g:link></p>

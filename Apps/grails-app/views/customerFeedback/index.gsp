@@ -136,7 +136,11 @@
 														<span style="font-size:35px;color:#000000">${customerFeedbackInstance.name}</span>
 														<br><br>
 														</header>
-														<p style="font-size:20px;color:#000000;">Create Time: <g:formatDate format="MM-dd-yyyy" date="${customerFeedbackInstance.createTime}"/></p>
+														<p style="font-size:20px;color:#000000;"><g:link action="show" controller="projects" id="${customerFeedbackInstance.project.id}"><span style="font-size:20px;color:#000000">Projects: ${customerFeedbackInstance.project.name}</span></g:link></p>
+														<br>
+														<p style="font-size:20px;color:#000000;"><g:link action="show" controller="customer" id="${customerFeedbackInstance.customer.id}"><span style="font-size:20px;color:#000000">Customer: ${customerFeedbackInstance.customer.name}</span></g:link></p>
+														<br>
+														<p style="font-size:20px;color:#000000;"><g:link action="show" controller="customerDevelopment" id="${customerFeedbackInstance.customerDevelopment.id}"><span style="font-size:20px;color:#000000">Customer Development: ${customerFeedbackInstance.customerDevelopment.name}</span></g:link></p>
 														<br>
 														<button class="button"><g:link controller="customerFeedback" action="show" id="${customerFeedbackInstance.id}">Show Details</g:link></button>
 														</section>

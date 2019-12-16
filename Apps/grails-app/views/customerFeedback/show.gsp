@@ -159,7 +159,7 @@
 													<br>
 														
 												
-													<p style="font-size:20px;color:#000000;">Project: <g:link action="show" controller="customerFeedback" id="${customerFeedback.project.id}"><span style="font-size:20px;color:#000000">${customerFeedback.project.name}</span></g:link></p>
+													<p style="font-size:20px;color:#000000;">Project: <g:link action="show" controller="projects" id="${customerFeedback.project.id}"><span style="font-size:20px;color:#000000">${customerFeedback.project.name}</span></g:link></p>
 													<br>
 													<p style="font-size:20px;color:#000000;">Customer: <g:link action="show" controller="customer" id="${customerFeedback.customer.id}"><span style="font-size:20px;color:#000000">${customerFeedback.customer.name}</span></g:link></p>
 													<br>
