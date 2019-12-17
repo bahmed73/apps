@@ -11,6 +11,7 @@ class Customer {
         Date updateTime
 		User user
 		CustomerDevelopment customerDevelopment
+		String feedback
 
 
     static constraints = {
@@ -23,6 +24,7 @@ class Customer {
                 updateTime(nullable:false)
 				user(nullable:false)
 				customerDevelopment(nullable:true)
+				feedback(nullable:true, maxSize:50000)
     }
 
         static mapping = {

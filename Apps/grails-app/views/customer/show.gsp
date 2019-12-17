@@ -147,6 +147,9 @@
 													<p style="font-size:20px;color:#000000;">Customer Development: <g:link action="show" controller="customerDevelopment" id="${customer.customerDevelopment.id}"><span style="font-size:20px;color:#000000">${customer.customerDevelopment.name}</span></g:link></p>
 													<br>
 													</g:if>
+													<p style="font-size:20px;color:#000000;">Feedback: <f:display bean="customer" property="feedback"/></p>
+													<br>
+													
 												</section>
 											</div>
 											

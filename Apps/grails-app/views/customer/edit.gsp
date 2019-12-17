@@ -29,10 +29,18 @@
             <g:form resource="${this.customer}" method="PUT">
                 <g:hiddenField name="version" value="${this.customer?.version}" />
                 <fieldset class="form">
-                    <f:all bean="customer" except="customerDevelopment"/>
+                    <f:all bean="customer" except="customerDevelopment, feedback"/>
                 </fieldset>
                 <fieldset>
                 <f:field bean="customer" property="customerDevelopment" widget-optionValue="name"/>
+                </fieldset>
+                <fieldset style="margin-left:340px;">
+                	<div style="float:left;width:50" class="post"><h4>Feedback:</h4></div>
+                	<br>
+              				Write your customer feedback here and use html tags for styling.<br>
+              		<div>
+                  <g:textArea name="feedback" value="${customer.feedback}" rows="10" cols="40"/>
+              </div>	
                 </fieldset>
                 <fieldset class="buttons">
                     <input class="save" type="submit" value="${message(code: 'default.button.update.label', default: 'Update')}" />
