@@ -86,7 +86,7 @@ grails:
         host: 'smtp.gmail.com'
         port: 465
         username: "bahmed73@gmail.com"
-        password: "Sivananda1"
+        password: "Brahmananda1"
         props:
             mail:
                 smtp:
