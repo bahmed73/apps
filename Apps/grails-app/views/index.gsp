@@ -1,12 +1,12 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<meta name="description" content="Shop - Bring your store business online. Start with our project management tools." />
-<meta name="keywords" content="agile development, sprint planning, lean startup, customer development, product development, product roadmap, project management, product backlog" />
+		<meta name="description" content="Shop - Building agile development and lean startup tools, for entrepreneurs, venture capital, startups and project manager." />
+<meta name="keywords" content="lean startup, customer development, agile development, agile sprints, agile back log, agile backlog, venture capital, startups, entrepreneur, entrepreneurship, customer feedback loop, product development, product roadmap, project management, product backlog" />
 <meta http-equiv="window-target" content="_top" />
 <META HTTP-EQUIV="CACHE-CONTROL" CONTENT="PUBLIC">
 	<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
-	<title>Shop - Bring your store business online.</title>
+	<title>Shop - Building agile development and lean startup tools, for entrepreneurs, venture capital, startups and project manager.</title>
 	<asset:stylesheet src="skel-noscript.css"/>
 	<asset:stylesheet src="style.css"/>
 	<asset:stylesheet src="style-desktop.css"/>
@@ -204,7 +204,7 @@
 										<section class="box">
 										<div id="block3" class="12u" style="border-style:solid; border-color:grey; border-width:100px;margin:1px;font-size:20px;color:#000000;background-color:#eff2f4">
 													<header>
-														<p><span style="font-size:35px;color:#000000">Running like an Incubator, <a href="http://bilalahmed.org">Weekly Investor Round Table Meeting.</a> Build your own startup, and mingle with other entrepreneurs and investors in our network!<br><br> For $15 / month per user, Agile Development + Lean Startup, enterprise license and training for your company.  Start using our tools to be invested by venture capitalists and incubators.</span></p>
+														<p><span style="font-size:35px;color:#000000">Running like an Incubator, <a href="http://bilalahmed.org">Weekly Investor Round Table Meeting.</a> Build your own startup, and mingle with other entrepreneurs and investors in our network!<br><br> For $15 / month per user, Agile Development + Lean Startup, enterprise license and training for your company.  Start using our tools to be invested by venture capitalists and incubators.<br><br> <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></span></p>
 													</header>
 													</div>
 													</section>
