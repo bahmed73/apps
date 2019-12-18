@@ -116,6 +116,9 @@
 												<li><button class="button"><g:link url="/">Home</g:link></button></li>
 												<li><button class="button"><g:link controller="tasks" action="edit" id="${tasks.id}">Edit Task</g:link></button></li>
 												<li><button class="button"><g:link controller="tasks" action="index">Show Tasks</g:link></button></li>
+												<br><br><div><a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script><br></div>
+												<br><br>	
+												
 												<!--<li><a href="left-sidebar.html">Login</a></li>-->
 											</ul>
 										</nav>
@@ -130,8 +133,6 @@
 													<!-- <a href="http://www.mytweetmark.com" class="image image-full"><asset:image src="foodal-homepage-16.png"/></a> -->
 													<header>
 														<span style="font-size:35px;color:#000000"><f:display bean="tasks" property="name"/></span>
-														<br><br>
-														<a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 													</header>
 													<br><br>
 													<p style="font-size:20px;color:#000000;">Description: <f:display bean="tasks" property="description"/></p>
