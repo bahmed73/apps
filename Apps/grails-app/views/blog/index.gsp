@@ -1,12 +1,12 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<meta name="description" content="Shop - Shop - Building agile development and lean startup tools, for entrepreneurs, venture capital, startups and project manager." />
+		<meta name="description" content="Building agile development and lean startup tools, for entrepreneurs, venture capital, startups and project manager." />
 <meta name="keywords" content="lean startup, customer development, agile development, agile sprints, agile back log, agile backlog, venture capital, startups, entrepreneur, entrepreneurship, customer feedback loop, product development, product roadmap, project management, product backlog" />
 <meta http-equiv="window-target" content="_top" />
 <META HTTP-EQUIV="CACHE-CONTROL" CONTENT="PUBLIC">
 	<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
-	<title>Shop - Building agile development and lean startup tools, for entrepreneurs, venture capital, startups and project manager.</title>
+	<title>Blog - Building agile development and lean startup tools, for entrepreneurs, venture capital, startups and project manager.</title>
 	<asset:stylesheet src="skel-noscript.css"/>
 	<asset:stylesheet src="style.css"/>
 	<asset:stylesheet src="style-desktop.css"/>
@@ -88,6 +88,8 @@
 	    };
 	</script>
 	
+	<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v5.0&appId=261449270414&autoLogAppEvents=1"></script>
 		<!-- Header Wrapper -->
 			<div id="header-wrapper">
 				<div class="container">
@@ -122,6 +124,10 @@
 											</ul>
 										</nav>
 							<!-- Intro -->
+							
+							<div style="margin:50px">
+							<div class="fb-share-button" data-href="http://taote.shop/blog" data-layout="button" data-size="small"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Ftaote.shop%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
+							</div>
 							
 							<g:if test="${blogList}">
 							<g:each in="${blogList}" status="i" var="blogInstance">

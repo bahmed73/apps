@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<meta name="description" content="Shop - Building agile development and lean startup tools, for entrepreneurs, venture capital, startups and project manager." />
+		<meta name="description" content="Building agile development and lean startup tools, for entrepreneurs, venture capital, startups and project manager." />
 <meta name="keywords" content="lean startup, customer development, agile development, agile sprints, agile back log, agile backlog, venture capital, startups, entrepreneur, entrepreneurship, customer feedback loop, product development, product roadmap, project management, product backlog" />
 <meta http-equiv="window-target" content="_top" />
 <META HTTP-EQUIV="CACHE-CONTROL" CONTENT="PUBLIC">
@@ -143,7 +143,8 @@
 	      }, 1000 );
 	    };
 	</script>
-	
+		<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v5.0&appId=261449270414&autoLogAppEvents=1"></script>
 		<!-- Header Wrapper -->
 			<div id="header-wrapper">
 				<div class="container">
@@ -192,19 +193,23 @@
 												<li><button class="button"><g:link class="list" action="shelf" controller="product"><span style="color:#ffffff">Dashboard</span></g:link></button></li>
 												<li><button class="button"><g:link controller="sprint" action="index"><span style="color:#ffffff">Agile Development</span></g:link></button></li>
 												<li><button class="button"><g:link controller="customerDevelopment" action="index"><span style="color:#ffffff">Lean Startup</span></g:link></button></li>
+												<br><br><div><div class="fb-share-button" data-href="http://taote.shop" data-layout="button" data-size="small"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Ftaote.shop%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div><br><br><a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script><br></div>
+												<br><br>	
 												<!--<li><a href="left-sidebar.html">Login</a></li>-->
 											</ul>
 										</nav>
 							<!-- Intro -->
 							<div class="row">
 						<div class="12u">
+						<br><br>
 								<section>
 									<div>
 										<div class="row">
 										<section class="box">
 										<div id="block3" class="12u" style="border-style:solid; border-color:grey; border-width:100px;margin:1px;font-size:20px;color:#000000;background-color:#eff2f4">
 													<header>
-														<p><span style="font-size:35px;color:#000000">Running like an Incubator, <a href="http://bilalahmed.org">Weekly Investor Round Table Meeting.</a> Build your own startup, and mingle with other entrepreneurs and investors in our network!<br><br> For $15 / month per user, Agile Development + Lean Startup, enterprise license and training for your company.  Start using our tools to be invested by venture capitalists and incubators.<br><br> <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></span></p>
+														<p><span style="font-size:35px;color:#000000">Running like an Incubator, <a href="http://bilalahmed.org">Weekly Investor Round Table Meeting.</a> Build your own startup, and mingle with other entrepreneurs and investors in our network!<br><br> For $15 / month per user, Agile Development + Lean Startup, enterprise license and training for your company.  Start using our tools to be invested by venture capitalists and incubators.<br><br></span></p>
+														
 													</header>
 													</div>
 													</section>
@@ -409,6 +414,7 @@
 						</div-->
 						<a href="/"><asset:image src="logoshop5.png" width="150px" height="150px"/></a>
 						<br><br>
+						
 						<div class="row">
 							<div class="4u">
 								<section>

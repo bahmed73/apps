@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<meta name="description" content="Shop - Shop - Building agile development and lean startup tools, for entrepreneurs, venture capital, startups and project manager." />
+		<meta name="description" content="Building agile development and lean startup tools, for entrepreneurs, venture capital, startups and project manager." />
 <meta name="keywords" content="lean startup, customer development, agile development, agile sprints, agile back log, agile backlog, venture capital, startups, entrepreneur, entrepreneurship, customer feedback loop, product development, product roadmap, project management, product backlog" />
 <meta http-equiv="window-target" content="_top" />
 <META HTTP-EQUIV="CACHE-CONTROL" CONTENT="PUBLIC">
