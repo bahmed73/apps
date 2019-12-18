@@ -87,7 +87,8 @@
 	      }, 1000 );
 	    };
 	</script>
-	
+	<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v5.0&appId=261449270414&autoLogAppEvents=1"></script>
 		<!-- Header Wrapper -->
 			<div id="header-wrapper">
 				<div class="container">
@@ -116,9 +117,8 @@
 												<li><button class="button"><g:link url="/">Home</g:link></button></li>
 												<li><button class="button"><g:link controller="blog" action="edit" id="${blog.id}">Edit Blog</g:link></button></li>
 												<li><button class="button"><g:link controller="blog" action="index">Show Blogs</g:link></button></li>
-												<br><br><div><a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script><br></div>
-												<br><br>	
-												
+												<br><br><div><div class="fb-share-button" data-href="${createLink(absolute: 'true')}" data-layout="button" data-size="small"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Ftaote.shop%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div><br><br><a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script><br></div>
+												<br><br>
 												<!--<li><a href="left-sidebar.html">Login</a></li>-->
 											</ul>
 										</nav>
