@@ -214,7 +214,7 @@
 										<section class="box">
 										<div id="block3" class="12u" style="border-style:solid; border-color:grey; border-width:100px;margin:1px;font-size:20px;color:#000000;background-color:#fdeba9">
 													<header>
-														<p><span style="font-size:28px;color:#000000">Build your own startup, and mingle with other entrepreneurs and investors in our network!<br><br> For $15 / month per user, Agile Development + Lean Startup.  Start using our tools to be invested by venture capitalists and incubators.<br><br></span></p>
+														<p><span style="font-size:28px;color:#000000">Build your own startup, and mingle with other entrepreneurs and investors in our network! For $15 / month per user, Agile Development + Lean Startup.  Start using our tools to be invested by venture capitalists and incubators.<br><br></span></p>
 														
 													</header>
 													</div>
