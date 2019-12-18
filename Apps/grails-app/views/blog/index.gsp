@@ -164,9 +164,9 @@
 												<div id="block2" class="6u">
 														<section class="box" >
 																				<header>
-														<g:if test="${blogInstance.imageThree}">
+														<g:if test="${blogInstance.imageOne}">
 														<div>
-														<img src="data:image/png;base64,${blogInstance.imageThree?.encodeBase64()}"/>
+														<img src="data:image/png;base64,${blogInstance.imageOne?.encodeBase64()}"/>
 														</div>
 														<br><br>
 														</g:if>
