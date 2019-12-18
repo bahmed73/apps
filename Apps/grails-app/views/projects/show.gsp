@@ -158,7 +158,7 @@
 												<section class="box">
 												<g:if test="${projects.imageThree}">
 												<header>
-													<div style="border: 2px solid #e5e1e1;margin:50px;">
+													<div style="border: 2px solid #e5e1e1;">
 													<img src="data:image/png;base64,${projects.imageThree?.encodeBase64()}"/>
 													</div>
 													<br><br>
@@ -167,6 +167,7 @@
 												</header>
 												</g:if>
 													<footer class="actions">
+													<br><br>
 														<a href="mailto:bilal@mytweetmark.com" class="button fa fa-file-text">Email us today!</a>
 														<br><br>
 													</footer>	

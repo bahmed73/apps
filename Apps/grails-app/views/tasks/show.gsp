@@ -167,7 +167,7 @@
 												<section class="box">
 												<header>
 													<g:if test="${tasks.imageThree}">
-													<div style="border: 2px solid #e5e1e1;margin:50px;">
+													<div style="border: 2px solid #e5e1e1;">
 													<img src="data:image/png;base64,${tasks.imageThree?.encodeBase64()}"/>
 													</div>
 													<p style="font-size:24px;color:#000000">Upload task screenshot.</p>
@@ -175,6 +175,7 @@
 													</g:if>
 												</header>
 													<footer class="actions">
+													<br><br>
 														<a href="mailto:bilal@mytweetmark.com" class="button fa fa-file-text">Email us today!</a>
 														<br><br>
 													</footer>	

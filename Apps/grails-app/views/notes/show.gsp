@@ -148,7 +148,7 @@
 												<section class="box">
 												<header>
 												<g:if test="${notes.imageThree}">
-													<div style="border: 2px solid #e5e1e1;margin:50px;">
+													<div style="border: 2px solid #e5e1e1;">
 													<img src="data:image/png;base64,${notes.imageThree?.encodeBase64()}"/>
 													<br><br>
 													<p style="font-size:24px;color:#000000;">Upload images with the note.</p>
@@ -157,6 +157,7 @@
 												</g:if>
 												</header>
 													<footer class="actions">
+													<br><br>
 														<a href="mailto:bilal@mytweetmark.com" class="button fa fa-file-text">Email us today!</a>
 														<br><br>
 													</footer>	
