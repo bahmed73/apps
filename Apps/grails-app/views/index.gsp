@@ -201,6 +201,11 @@
 												<li><button class="button"><g:link class="list" action="shelf" controller="product"><span style="color:#ffffff">Dashboard</span></g:link></button></li>
 												<li><button class="button"><g:link controller="sprint" action="index"><span style="color:#ffffff">Agile Development</span></g:link></button></li>
 												<li><button class="button"><g:link controller="customerDevelopment" action="index"><span style="color:#ffffff">Lean Startup</span></g:link></button></li>
+												<li><button class="button"><div class="fb-share-button" data-href="${createLink(absolute: 'true')}" data-layout="button" data-size="small"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Ftaote.shop%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div></button></li>
+												<li><button class="button"><a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></button></li>
+												<br><br>
+												
+												
 												<!--<li><a href="left-sidebar.html">Login</a></li>-->
 											</ul>
 										</nav>
