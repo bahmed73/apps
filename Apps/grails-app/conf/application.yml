@@ -83,7 +83,7 @@ endpoints:
 ---
 grails:
     mail:
-        host: 'smtp.office365.com'
+        host: 'smtp.live.com'
         port: 587
         username: "dotshopper@outlook.com"
         password: "shopagent1!"

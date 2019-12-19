@@ -61,10 +61,10 @@ dependencies {
 	compile 'org.grails.plugins:spring-security-core:3.1.1'
 	compile fileTree(dir:'lib', include:'*.jar')
 	//runtime files('lib/ij.jar')
-	compile "org.grails.plugins:mail:2.0.0.RC6"
+	//compile "org.grails.plugins:mail:2.0.0.RC6"
 	compile 'com.jameskleeh:excel-builder:0.3.0'
 	compile 'org.grails.plugins:spring-security-ui:3.0.2'
-	compile 'org.grails.plugins:mail:2.0.0.RC6'
+	compile 'org.grails.plugins:mail:3.0.0'
 	runtime 'postgresql:postgresql:9.0-801.jdbc4'
 	compile 'org.twitter4j:twitter4j-core:4.0.2'
 	compile 'org.grails.plugins:mongodb:6.1.2'
