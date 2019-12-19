@@ -44,7 +44,7 @@
 		.button {
 		  display: inline-block;
 		  padding: 15px 25px;
-		  font-size: 20px;
+		  font-size: 15px;
 		  cursor: pointer;
 		  text-align: center;
 		  text-decoration: none;
@@ -127,10 +127,9 @@
 												<li><button class="button"><g:link url="/">Home</g:link></button></li>
 												<li><button class="button"><g:link controller="tasks" action="edit" id="${tasks.id}">Edit Task</g:link></button></li>
 												<li><button class="button"><g:link controller="tasks" action="index">Show Tasks</g:link></button></li>
-												<br><br><div><div class="fb-share-button" data-href="${createLink(action: 'show', controller: 'tasks', id: tasks.id)}" data-layout="button" data-size="small"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Ftaote.shop%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div><br><br><a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script><br></div>
+												<li><button class="button"><div class="fb-share-button" data-href="${createLink(action: 'show', controller: 'tasks', id: tasks.id)}" data-layout="button" data-size="small"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Ftaote.shop%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div></button></li>
+												<li><button class="button"><a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></button></li>
 												<br><br>
-													
-												
 												<!--<li><a href="left-sidebar.html">Login</a></li>-->
 											</ul>
 										</nav>

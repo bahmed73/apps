@@ -6,7 +6,7 @@
 <meta http-equiv="window-target" content="_top" />
 <META HTTP-EQUIV="CACHE-CONTROL" CONTENT="PUBLIC">
 	<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
-	<title>Backlog - Building agile development and lean startup tools, for entrepreneurs, venture capital, startups and project manager.</title>
+	<title>Agile Backlog - Setup a backlog of future ideas and tasks.</title>
 	<asset:stylesheet src="skel-noscript.css"/>
 	<asset:stylesheet src="style.css"/>
 	<asset:stylesheet src="style-desktop.css"/>
@@ -44,7 +44,7 @@
 		.button {
 		  display: inline-block;
 		  padding: 15px 25px;
-		  font-size: 20px;
+		  font-size: 15px;
 		  cursor: pointer;
 		  text-align: center;
 		  text-decoration: none;
@@ -129,8 +129,9 @@
 												<li><button class="button"><g:link url="/">Home</g:link></button></li>
 												<li><button class="button"><g:link controller="product" action="shelf">Dashboard</g:link></button></li>
 												<li><button class="button"><g:link controller="backlog" action="create">Create a backlog</g:link></button></li>
-												<br><br><div><div class="fb-share-button" data-href="${createLink(action: 'index', controller: 'backlog')}" data-layout="button" data-size="small"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Ftaote.shop%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div><br><br><a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script><br></div>
-												<br><br>	
+												<li><button class="button"><div class="fb-share-button" data-href="${createLink(action: 'index', controller: 'backlog')}" data-layout="button" data-size="small"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Ftaote.shop%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div></button></li>
+												<li><button class="button"><a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></button></li>
+												<br><br>
 												
 												<!--<li><a href="left-sidebar.html">Login</a></li>-->
 											</ul>

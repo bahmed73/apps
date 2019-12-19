@@ -55,7 +55,7 @@
 		.button {
 		  display: inline-block;
 		  padding: 15px 25px;
-		  font-size: 20px;
+		  font-size: 15px;
 		  cursor: pointer;
 		  text-align: center;
 		  text-decoration: none;
