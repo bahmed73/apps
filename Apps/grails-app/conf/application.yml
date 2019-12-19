@@ -81,16 +81,18 @@ endpoints:
         unique-names: true
 
 ---
-grails {
-   mail {
-     host = "smtp.office365.com"
-     port = 587
-     username = "dotshopper@outlook.com"
-     password = "shopagent1!"
-     props = ["mail.smtp.starttls.enable":"true",
-              "mail.smtp.port":"587"]
-   }
-}
+grails:
+    mail:
+        host: 'smtp.office365.com'
+        port: 587
+        username: "dotshopper@outlook.com"
+        password: "shopagent1!"
+        props:
+            mail:
+                smtp:
+                    port: 587
+                    starttls:
+                        enable: true
 ---
 grails:
     controllers:
