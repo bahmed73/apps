@@ -130,7 +130,7 @@
 												<li><button class="button"><g:link url="/">Home</g:link></button></li>
 												<li><button class="button"><g:link controller="product" action="shelf">Dashboard</g:link></button></li>
 												<li><button class="button"><g:link controller="projects" action="create">Create a Project</g:link></button></li>
-												<br><br><div><div class="fb-share-button" data-href="http://taote.shop/projects" data-layout="button" data-size="small"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Ftaote.shop%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div><br><br><a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script><br></div>
+												<br><br><div><div class="fb-share-button" data-href="${createLink(action: 'index', controller: 'projects')}" data-layout="button" data-size="small"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Ftaote.shop%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div><br><br><a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script><br></div>
 												<br><br>	
 												
 												<!--<li><a href="left-sidebar.html">Login</a></li>-->
