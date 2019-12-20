@@ -20,7 +20,7 @@ class ProjectsController {
     def index(Integer max) {
         params.max = Math.min(max ?: 100, 200)
 		
-		/*
+		
 		def user = springSecurityService.currentUser
 		
 		if (user != null) {
@@ -29,9 +29,9 @@ class ProjectsController {
 		} else {
 			def projectsList = Projects.findAll()
 			respond projectsList
-		}*/
+		}
 		
-        respond Projects.list(params), model:[projectsCount: Projects.count()]
+        //respond Projects.list(params), model:[projectsCount: Projects.count()]
     }
 
 	@Secured(['ROLE_ADMIN', 'ROLE_ANONYMOUS'])

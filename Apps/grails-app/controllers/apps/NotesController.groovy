@@ -20,7 +20,7 @@ class NotesController {
     def index(Integer max) {
         params.max = Math.min(max ?: 100, 200)
 		
-		/*
+		
 		def user = springSecurityService.currentUser
 		
 		if (user != null) {
@@ -30,8 +30,8 @@ class NotesController {
 			def notesList = Notes.findAll()
 			respond notesList
 		}
-		*/
-        respond Notes.list(params), model:[notesCount: Notes.count()]
+		
+        //respond Notes.list(params), model:[notesCount: Notes.count()]
     }
 
 	@Secured(['ROLE_ADMIN', 'ROLE_ANONYMOUS'])

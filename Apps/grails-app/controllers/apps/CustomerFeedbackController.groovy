@@ -20,7 +20,18 @@ class CustomerFeedbackController {
 	@Secured(['ROLE_ADMIN', 'ROLE_ANONYMOUS'])
     def index(Integer max) {
         params.max = Math.min(max ?: 10, 100)
-        respond CustomerFeedback.list(params), model:[customerFeedbackCount: CustomerFeedback.count()]
+		
+		def user = springSecurityService.currentUser
+		
+		if (user != null) {
+			def customerFeedbackList = CustomerFeedback.findAllByUser(user)
+			respond customerFeedbackList
+		} else {
+			def customerFeedbackList = CustomerFeedback.findAll()
+			respond customerFeedbackList
+		}
+		
+        //respond CustomerFeedback.list(params), model:[customerFeedbackCount: CustomerFeedback.count()]
     }
 
 	@Secured(['ROLE_ADMIN', 'ROLE_ANONYMOUS'])

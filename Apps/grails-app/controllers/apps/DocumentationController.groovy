@@ -8,6 +8,8 @@ import grails.plugin.springsecurity.annotation.Secured
 @Secured('ROLE_ADMIN')
 class DocumentationController {
 
+	def springSecurityService
+	
     static allowedMethods = [save: "POST", update: "PUT", delete: "DELETE"]
 
 	static fProd = "/opt/tomcat/webapps/ROOT/assets/images"
@@ -16,7 +18,18 @@ class DocumentationController {
 	@Secured(['ROLE_ADMIN', 'ROLE_ANONYMOUS'])
     def index(Integer max) {
         params.max = Math.min(max ?: 100, 200)
-        respond Documentation.list(params), model:[documentationCount: Documentation.count()]
+		
+		def user = springSecurityService.currentUser
+		
+		if (user != null) {
+			def documentationList = Documentation.findAllByUser(user)
+			respond documentationList
+		} else {
+			def documentationList = Documentation.findAll()
+			respond documentationList
+		}
+		
+        //respond Documentation.list(params), model:[documentationCount: Documentation.count()]
     }
 
 	@Secured(['ROLE_ADMIN', 'ROLE_ANONYMOUS'])

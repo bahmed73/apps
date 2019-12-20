@@ -8,12 +8,25 @@ import grails.plugin.springsecurity.annotation.Secured
 @Secured('ROLE_ADMIN')
 class CustomerController {
 
+	def springSecurityService
+	
     static allowedMethods = [save: "POST", update: "PUT", delete: "DELETE"]
 
 	@Secured(['ROLE_ADMIN', 'ROLE_ANONYMOUS'])
     def index(Integer max) {
         params.max = Math.min(max ?: 100, 200)
-        respond Customer.list(params), model:[customerCount: Customer.count()]
+		
+		def user = springSecurityService.currentUser
+		
+		if (user != null) {
+			def customerList = Customer.findAllByUser(user)
+			respond customerList
+		} else {
+			def customerList = Customer.findAll()
+			respond customerList
+		}
+		
+        //respond Customer.list(params), model:[customerCount: Customer.count()]
     }
 
 	@Secured(['ROLE_ADMIN', 'ROLE_ANONYMOUS'])

@@ -452,4 +452,5 @@ grails.plugin.springsecurity.filterChain.chainMap = [
 ]
 
 grails.plugin.springsecurity.ui.register.defaultRoleNames = ['ROLE_ADMIN']
-grails.plugin.springsecurity.ui.register.emailSubject = 'Welcome to Foodal!'
+grails.plugin.springsecurity.ui.register.emailFrom = 'Shop'
+grails.plugin.springsecurity.ui.register.emailSubject = 'Welcome to Shop! Agile Development and Lean Startup Tools.'

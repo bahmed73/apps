@@ -8,12 +8,25 @@ import grails.plugin.springsecurity.annotation.Secured
 @Secured('ROLE_ADMIN')
 class BacklogController {
 
+	def springSecurityService
+	
     static allowedMethods = [save: "POST", update: "PUT", delete: "DELETE"]
 
 	@Secured(['ROLE_ADMIN', 'ROLE_ANONYMOUS'])
     def index(Integer max) {
         params.max = Math.min(max ?: 100, 200)
-        respond Backlog.list(params), model:[backlogCount: Backlog.count()]
+		
+		def user = springSecurityService.currentUser
+		
+		if (user != null) {
+			def backlogList = Backlog.findAllByUser(user)
+			respond backlogList
+		} else {
+			def backlogList = Backlog.findAll()
+			respond backlogList
+		}
+		
+        //respond Backlog.list(params), model:[backlogCount: Backlog.count()]
     }
 
 	@Secured(['ROLE_ADMIN', 'ROLE_ANONYMOUS'])

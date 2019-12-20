@@ -9,6 +9,7 @@ class Documentation {
         Date updateTime
 		String filename
 		byte[] testBytes
+		User user
 
     static constraints = {
                 //id(nullable:true)
@@ -18,5 +19,6 @@ class Documentation {
                 updateTime(nullable:false)
 				filename(nullable:true)
 				testBytes(nullable:true, maxSize: 1073741824)
+				user(nullable:true)
     }
 }
