@@ -83,16 +83,18 @@ endpoints:
 ---
 grails:
     mail:
-        host: 'smtp.live.com'
-        port: 587
-        username: "dotshopper@outlook.com"
-        password: "shopagent1!"
+        host: "smtp.gmail.com"
+        port: 465
+        username: "agiledevelopment.leanstartup@gmail.com"
+        password: "Brahmananda1!"
         props:
             mail:
                 smtp:
-                    port: 587
-                    starttls:
-                        enable: true
+                    auth: true
+                    socketFactory:
+                        port: 465
+                        class: "javax.net.ssl.SSLSocketFactory"
+                        fallback: false
 ---
 grails:
     controllers:
