@@ -307,6 +307,20 @@
 														<br><br>
 													
 														</div>
+														<h3>Customer Development</h3>
+													    <div>
+													      <ul id="menu4" style="background-color:#eff2f4">
+														<li><div><p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="801"><asset:image src="goal-9-1.png" width="20"/><span style="color:#000000;"> The Go to Market Approach Startups Need to Adopt </span></g:link></span></p></div></li>
+														<li><div><p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="802"><asset:image src="goal-9-1.png" width="20"/><span style="color:#000000;"> Go to Market Best Practices for Startups: A Teaser </span></g:link></span></p></div></li>
+														<li><div><p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="803"><asset:image src="goal-9-1.png" width="20"/><span style="color:#000000;"> Using Product Market Fit to Drive Sustainable Growth </span></g:link></span></p></div></li>
+														<li><div><p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="804"><asset:image src="goal-9-1.png" width="20"/><span style="color:#000000;"> Understand Customer Acquisition in SaaS </span></g:link></span></p></div></li>
+														<li><div><p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="805"><asset:image src="goal-9-1.png" width="20"/><span style="color:#000000;"> How The Lean Startup Team Practices Customer Development </span></g:link></span></p></div></li>
+																								
+														</ul>
+														
+														<br><br>
+													
+														</div>
 													
 													  </div>
 													</div>
