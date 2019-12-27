@@ -44,7 +44,8 @@
 		  }
 		  p {
 		  border: 2px solid #e5e1e1;
-		  background-color: #eff2f4;
+		  background-color: #5f6469;
+		  color: #fdeba9;
 		  border-width: 2px;
 		  margin: 5px;
 		  padding: 10px;
@@ -107,6 +108,10 @@
 		    $( "#menu2" ).menu();
 		    $( "#menu3" ).menu();
 		  } );
+
+		  $( function() {
+			    $( "#tabs" ).tabs();
+			  } );
 		  </script>
 		  <style>
 		  .ui-menu { width: 400px; }
@@ -196,134 +201,74 @@
 										</nav>
 							<!-- Intro -->
 							<div class="row">
-						<div class="12u"  style="background-color:#5f6469;margin:25px;">
+						<div class="12u">
 								<section>
 									<div>
-										<div class="row">
+										<div id="tabs"  style="background-color:#fdeba9">
+													  <ul>
+													    <li><a href="#tabs-1">Agile Development</a></li>
+													    <li><a href="#tabs-2">Lean Startup</a></li>
+													    <li><a href="#tabs-3">Customer Development</a></li>
+													    <li><a href="#tabs-4">Venture Capital</a></li>
+													    <li><a href="#tabs-5">Documentation</a></li>
+													  </ul>
+													  <div id="tabs-1">
+													  	<p><g:link class="list" action="index" controller="projects"><span style="color:#fdeba9;font-size:20px"><asset:image src="goal-1-1.png" width="30"/> Projects - Start creating agile development projects.</span></g:link></p>
+													    <p><g:link class="list" action="index" controller="tasks"><span style="color:#fdeba9;font-size:20px"><asset:image src="goal-2-1.png" width="30"/> Tasks - Create tasks, to manage the project.</span></g:link></p>
+													    <p><g:link class="list" action="index" controller="notes"><span style="color:#fdeba9;font-size:20px"><asset:image src="goal-3-1.png" width="30"/> Notes - Write notes for your team, on the tasks.</span></g:link></p>
+													    <p><g:link class="list" action="index" controller="sprint"><span style="color:#fdeba9;font-size:20px"><asset:image src="goal-4-1.png" width="30"/> Sprint Planning - Start creating sprints, a groups of tasks.</span></g:link></p>
+													    <p><g:link class="list" action="index" controller="meeting"><span style="color:#fdeba9;font-size:20px"><asset:image src="goal-5-1.png" width="30"/> Meetings - Setup sprint planning meetings and retrospectives.</span></g:link></p>
+													    <p><g:link class="list" action="index" controller="backlog"><span style="color:#fdeba9;font-size:20px"><asset:image src="goal-6-1.png" width="30"/> Agile Backlog - Setup a backlog of future ideas and tasks.</span></g:link></p>
+													  </div>
+													  <div id="tabs-2">
+													    <p><g:link class="list" action="index" controller="customerDevelopment"><span style="color:#fdeba9;font-size:20px"><asset:image src="goal-7-1.png" width="30"/> Customer Development - Build feedback flows.</span></g:link></p>
+														<p><g:link class="list" action="index" controller="customer"><span style="color:#fdeba9;font-size:20px"><asset:image src="goal-8-1.png" width="30"/> Customers - Pivot on customers with the team.</span></g:link></p>
+														<p><g:link class="list" action="index" controller="customerFeedback"><span style="color:#fdeba9;font-size:20px"><asset:image src="goal-8-1.png" width="30"/> Customers Feedback Survey - Talk to a customer.</span></g:link></p>
+															
+														<p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="641"><asset:image src="goal-9-1.png" width="20"/><span style="color:#fdeba9;"> Introduction to startup school.</span></g:link></span></p>
+														<p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="642"><asset:image src="goal-9-1.png" width="20"/><span style="color:#fdeba9;"> Incubator meetings.</span></g:link></span></p>
+														<p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="643"><asset:image src="goal-9-1.png" width="20"/><span style="color:#fdeba9;"> Incubator - Brand expert feedback.</span></g:link></span></p>
+														<p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="644"><asset:image src="goal-9-1.png" width="20"/><span style="color:#fdeba9;"> Incubator homework - Name focus group.</span></g:link></span></p>
+														<p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="645"><asset:image src="goal-9-1.png" width="20"/><span style="color:#fdeba9;"> Incubator homework - Paying customer feedback.</span></g:link></span></p>
+													  </div>
+													  <div id="tabs-3">
+													    <p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="801"><asset:image src="goal-9-1.png" width="20"/><span style="color:#fdeba9;"> The Go to Market Approach Startups Need to Adopt </span></g:link></span></p>
+														<p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="802"><asset:image src="goal-9-1.png" width="20"/><span style="color:#fdeba9;"> Go to Market Best Practices for Startups: A Teaser </span></g:link></span></p>
+														<p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="803"><asset:image src="goal-9-1.png" width="20"/><span style="color:#fdeba9;"> Using Product Market Fit to Drive Sustainable Growth </span></g:link></span></p>
+														<p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="804"><asset:image src="goal-9-1.png" width="20"/><span style="color:#fdeba9;"> Understand Customer Acquisition in SaaS </span></g:link></span></p>
+														<p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="805"><asset:image src="goal-9-1.png" width="20"/><span style="color:#fdeba9;"> How The Lean Startup Team Practices Customer Development </span></g:link></span></p>
+														<p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="833"><asset:image src="goal-9-1.png" width="20"/><span style="color:#fdeba9;"> Teaching Customer Development and the Lean Startup </span></g:link></span></p>
+														<p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="834"><asset:image src="goal-9-1.png" width="20"/><span style="color:#fdeba9;"> Startup Lessons Learned - What is Customer Development? </span></g:link></span></p>
+														<p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="835"><asset:image src="goal-9-1.png" width="20"/><span style="color:#fdeba9;"> Why the Lean Start-Up Changes Everything </span></g:link></span></p>
+														
+													  </div>
+													  <div id="tabs-4">
+													    <p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="706"><asset:image src="goal-9-1.png" width="20"/><span style="color:#fdeba9;"> Startup Problem</span></g:link></span></p>
+														<p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="707"><asset:image src="goal-9-1.png" width="20"/><span style="color:#fdeba9;"> Who has the problem?</span></g:link></span></p>
+														<p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="708"><asset:image src="goal-9-1.png" width="20"/><span style="color:#fdeba9;"> Is that an important problem?</span></g:link></span></p>
+														<p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="709"><asset:image src="goal-9-1.png" width="20"/><span style="color:#fdeba9;"> Your Solution?</span></g:link></span></p>
+														<p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="710"><asset:image src="goal-9-1.png" width="20"/><span style="color:#fdeba9;"> Opportunity?</span></g:link></span></p>
+														<p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="711"><asset:image src="goal-9-1.png" width="20"/><span style="color:#fdeba9;"> Competition?</span></g:link></span></p>
+														<p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="712"><asset:image src="goal-9-1.png" width="20"/><span style="color:#fdeba9;"> Why agile development and lean startup on shop?</span></g:link></span></p>
+														<p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="713"><asset:image src="goal-9-1.png" width="20"/><span style="color:#fdeba9;"> Company Needs?</span></g:link></span></p>
+														<p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="714"><asset:image src="goal-9-1.png" width="20"/><span style="color:#fdeba9;"> What excites you?</span></g:link></span></p>
+														<p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="715"><asset:image src="goal-9-1.png" width="20"/><span style="color:#fdeba9;"> One Line Pitch</span></g:link></span></p>
+														<p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="716"><asset:image src="goal-9-1.png" width="20"/><span style="color:#fdeba9;"> Team</span></g:link></span></p>
+																
+													  </div>
+													  <div id="tabs-5">
+													    <p><g:link class="list" action="index" controller="documentation"><span style="color:#fdeba9;font-size:20px"><asset:image src="goal-9-1.png" width="30"/> Product Docs - Business documentation.</span></g:link></p>
+														<p><g:link class="list" action="index" controller="blog"><span style="color:#fdeba9;font-size:20px"><asset:image src="goal-11-1.png" width="30"/> Blogs - Agile development and lean startup.</span></g:link></p>
+														<p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="33"><asset:image src="goal-9-1.png" width="20"/><span style="color:#fdeba9;"> What is sizing in agile development?</span></g:link></span></p>
+														<p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="353"><asset:image src="goal-9-1.png" width="20"/><span style="color:#fdeba9;"> What is an incremental hiring pattern in startups?</span></g:link></span></p>
+														<p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="385"><asset:image src="goal-9-1.png" width="20"/><span style="color:#fdeba9;"> How should a hiring manager conduct a technical interview?</span></g:link></span></p>
+														<p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="386"><asset:image src="goal-9-1.png" width="20"/><span style="color:#fdeba9;"> What is a full stack project manager?</span></g:link></span></p>
+														<p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="646"><asset:image src="goal-9-1.png" width="20"/><span style="color:#fdeba9;"> Startup pivot.</span></g:link></span></p>
+														
+													  </div>
+													</div>
+												
 										
-										<div class="6u">
-													<section class="box">
-													<!-- <a href="http://www.mytweetmark.com" class="image image-full"><asset:image src="foodal-homepage-16.png"/></a> -->
-													<header>
-														<span style="font-size:35px;color:#fdeba9">Agile Development</span>
-													</header>
-													<div id="block2">
-													
-													<ul id="menu" style="background-color:#5f6469">
-													<li><div><g:link class="list" action="index" controller="projects"><span style="color:#fdeba9;font-size:20px"><asset:image src="goal-1-1.png" width="35"/> Projects</span></g:link></div></li>
-													<li><div><g:link class="list" action="index" controller="tasks"><span style="color:#fdeba9;font-size:20px"><asset:image src="goal-2-1.png" width="35"/> Tasks</span></g:link></div></li>
-													<li><div><g:link class="list" action="index" controller="notes"><span style="color:#fdeba9;font-size:20px"><asset:image src="goal-3-1.png" width="35"/> Notes</span></g:link></div></li>
-													<li><div><g:link class="list" action="index" controller="sprint"><span style="color:#fdeba9;font-size:20px"><asset:image src="goal-4-1.png" width="35"/> Sprints</span></g:link></div></li>
-													<li><div><g:link class="list" action="index" controller="meeting"><span style="color:#fdeba9;font-size:20px"><asset:image src="goal-5-1.png" width="35"/> Meetings</span></g:link></div></li>
-													<li><div><g:link class="list" action="index" controller="backlog"><span style="color:#fdeba9;font-size:20px"><asset:image src="goal-6-1.png" width="35"/> Backlog</span></g:link></div></li>
-													
-													<!-- 
-													<li>-</li>
-													
-													<li><div><g:link class="list" action="index" controller="photos"><span style="color:#8a7e7e;font-size:20px">Photos</span></g:link></div></li>
-													<li>-</li>
-													<li><div><g:link class="list" action="index" controller="videos"><span style="color:#8a7e7e;font-size:20px">Videos</span></g:link></div></li>
-													<li>-</li>
-													<li><div><g:link class="list" action="index" controller="products"><span style="color:#8a7e7e;font-size:20px">Products</span></g:link></div></li>
-													<li>-</li>
-													<li><div><g:link controller="coupon" action="index"><span style="color:#8a7e7e;font-size:20px">Marketing</span></g:link></div></li>
-													<li>-</li>
-													<li><div><g:link controller="product" action="analytics"><span style="color:#8a7e7e;font-size:20px">Analytics</span></g:link></div>
-													<ul>
-													<li><div><g:link class="list" action="index" controller="productView"><span style="color:#8a7e7e;">Product Views</span></g:link></div></li>
-													<li>-</li>
-													<li><div><g:link class="list" action="export" controller="productView"><span style="color:#8a7e7e;">Download Report: Product Views</span></g:link></div></li>
-													<li>-</li>
-													<li><div><g:link class="list" action="index" controller="productReferer"><span style="color:#8a7e7e;">Product Referers</span></g:link></div></li>
-													<li>-</li>
-													<li><div><g:link class="list" action="export" controller="productReferer"><span style="color:#8a7e7e;">Download Report: Product Referers</span></g:link></div></li>
-													<li>-</li>
-													<li><div><g:link class="list" action="index" controller="blogView"><span style="color:#8a7e7e;">Blog Views</span></g:link></div></li>
-													<li>-</li>
-													<li><div><g:link class="list" action="export" controller="blogView"><span style="color:#8a7e7e;">Download Report: Blog Views</span></g:link></div></li>
-													<li>-</li>
-													<li><div><g:link class="list" action="index" controller="blogReferer"><span style="color:#8a7e7e;">Blog Referer</span></g:link></div></li>
-													<li>-</li>
-													<li><div><g:link class="list" action="export" controller="blogReferer"><span style="color:#8a7e7e;">Download Report: Blog Referers</span></g:link></div></li>
-													</ul>
-													</li>
-													<li>-</li>
-													<li><div><g:link controller="blog" action="index"><span style="color:#8a7e7e;font-size:20px">Blog</span></g:link></div></li>
-													<li>-</li>
-													<li><div><g:link controller="product" action="sales"><span style="color:#8a7e7e;font-size:20px">Sales</span></g:link></div>
-													<ul>
-													<li><div><g:link class="list" action="index" controller="inventory"><span style="color:#8a7e7e;">Inventory</span></g:link></div></li>
-													<li>-</li>
-													<li><div><g:link class="list" action="export" controller="inventory"><span style="color:#8a7e7e;">Download Report: Inventory</span></g:link></div></li>
-													<li>-</li>
-													<li><div><g:link class="list" action="index" controller="seasonCatalog"><span style="color:#8a7e7e;">Season Catalog</span></g:link></div></li>
-													<li>-</li>
-													<li><div><g:link class="list" action="export" controller="seasonCatalog"><span style="color:#8a7e7e;">Download Report: Season Catalog</span></g:link></div></li>
-													<li>-</li>
-													<li><div><g:link class="list" action="index" controller="allocationForecast"><span style="color:#8a7e7e;">Allocation Forecast</span></g:link></div></li>
-													<li>-</li>
-													<li><div><g:link class="list" action="export" controller="allocationForecast"><span style="color:#8a7e7e;">Download Report: Allocation Forecast</span></g:link></div></li>
-													<li>-</li>
-													<li><div><g:link class="list" action="index" controller="goalSeek"><span style="color:#8a7e7e;">Goal Seek</span></g:link></div></li>
-													<li>-</li>
-													<li><div><g:link class="list" action="export" controller="goalSeek"><span style="color:#8a7e7e;">Download Report: Goal Seek</span></g:link></div></li>
-													<li>-</li>
-													<li><div><g:link class="list" action="index" controller="targetInventory"><span style="color:#8a7e7e;">Target Inventory</span></g:link></div></li>
-													<li>-</li>
-													<li><div><g:link class="list" action="export" controller="targetInventory"><span style="color:#8a7e7e;">Download Report: Target Inventory</span></g:link></div></li>
-													<li>-</li>
-													<li><div><g:link class="list" action="index" controller="customers"><span style="color:#8a7e7e;">Customers</span></g:link></div></li>
-													<li>-</li>
-													<li><div><g:link class="list" action="export" controller="customers"><span style="color:#8a7e7e;">Download Report: Customers</span></g:link></div></li>
-													<li>-</li>
-													<li><div><g:link class="list" action="index" controller="vendors"><span style="color:#8a7e7e;">Vendors</span></g:link></div></li>
-													<li>-</li>
-													<li><div><g:link class="list" action="export" controller="vendors"><span style="color:#8a7e7e;">Download Report: Vendors</span></g:link></div></li>
-													</ul>
-													</li>
-													 -->
-													</ul>
-													</div>
-													
-												</section>
-											</div>
-										<div class="6u">
-										<div>
-												<section class="box">
-													<header>
-														<span style="font-size:35px;color:#fdeba9">Lean Startup</span>
-													</header>
-													<div id="block1" style="border-style:solid; border-color:grey; border-width:1px;margin:1px;font-size:20px;color:#000000">
-													<ul id="menu2" style="background-color:#5f6469">
-													<li><div><g:link class="list" action="index" controller="customerDevelopment"><span style="color:#fdeba9;font-size:20px"><asset:image src="goal-7-1.png" width="35"/> Customer Development</span></g:link></div></li>
-													<li><div><g:link class="list" action="index" controller="customer"><span style="color:#fdeba9;font-size:20px"><asset:image src="goal-8-1.png" width="35"/> Customers</span></g:link></div></li>
-													<li><div><g:link class="list" action="index" controller="customerFeedback"><span style="color:#fdeba9;font-size:20px"><asset:image src="goal-8-1.png" width="35"/> Customers Feedback</span></g:link></div></li>
-													
-													</div>
-													<br><br>
-													
-													<header>
-														<span style="font-size:35px;color:#fdeba9">Documentation</span>
-													</header>
-													<br><br>
-													<div id="block3">
-													<ul id="menu3" style="background-color:#5f6469">
-													<li><div><g:link class="list" action="index" controller="documentation"><span style="color:#fdeba9;font-size:20px"><asset:image src="goal-9-1.png" width="35"/> Product Documentation</span></g:link></div></li>
-													<li><div><g:link class="list" action="index" controller="blog"><span style="color:#fdeba9;font-size:20px"><asset:image src="goal-11-1.png" width="35"/> Blogs</span></g:link></div></li>
-													
-													</div>
-													<!-- 
-													<footer class="actions">
-														<g:link controller="product" action="analytics" class="button fa fa-file-text">Please view our analytics.</g:link>
-														<br><br>
-														<g:link class="list" action="index" controller="products" class="button alt fa fa-comment">Please view our products.</g:link>
-													</footer>
-													 -->
-												</section>
-												</div>
-											</div>
-											
-										</div>
 									</div>
 								</section>
 
