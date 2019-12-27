@@ -210,7 +210,7 @@
 													    <li><a href="#tabs-2">Lean Startup</a></li>
 													    <li><a href="#tabs-3">Customer Development</a></li>
 													    <li><a href="#tabs-4">Venture Capital</a></li>
-													    <li><a href="#tabs-5">Documentation</a></li>
+													    <li><a href="#tabs-5">Training</a></li>
 													  </ul>
 													  <div id="tabs-1">
 													  	<p><g:link class="list" action="index" controller="projects"><span style="color:#fdeba9;font-size:20px">Projects - Start creating agile development projects.</span></g:link></p>
