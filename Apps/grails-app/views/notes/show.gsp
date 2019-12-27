@@ -161,7 +161,7 @@
 												<header>
 												<g:if test="${notes.imageThree}">
 													<div style="border: 2px solid #e5e1e1;">
-													<img src="data:image/png;base64,${notes.imageThree?.encodeBase64()}"/>
+													<img src="data:image/png;base64,${notes.imageThree?.encodeBase64()}" width="200px"/>
 													<br><br>
 													<p style="font-size:24px;color:#000000;">Upload images with the note.</p>
 													<br>

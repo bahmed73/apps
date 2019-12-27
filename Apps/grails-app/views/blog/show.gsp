@@ -150,12 +150,12 @@
 													<br><br>
 												</section>
 											</div>
-											<div id="block2" class="6u">
+											<div id="block2">
 												<section class="box">
 												<header>
 												<g:if test="${blog.imageThree}">
 													<div style="border: 2px solid #e5e1e1;">
-													<img src="data:image/png;base64,${blog.imageThree?.encodeBase64()}"/>
+													<img src="data:image/png;base64,${blog.imageThree?.encodeBase64()}" width="200px"/>
 													<br><br>
 													<p style="font-size:24px;color:#000000">Upload images with the blog.</p>
 													<br>
