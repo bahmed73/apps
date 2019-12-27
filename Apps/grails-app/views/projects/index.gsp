@@ -39,7 +39,7 @@
 		  border-width: 2px;
 		  margin: 5px;
 		  padding: 10px;
-		  background-color:#eff2f4;
+		  background-color:#5f6469;
 		}
 		.button {
 		  display: inline-block;
@@ -151,13 +151,13 @@
 														<span style="font-size:35px;color:#000000">${projectsInstance.name}</span>
 														<br><br>
 														</header>
-														<p style="font-size:20px;color:#000000;">Description: ${projectsInstance.description}</p>
+														<p style="font-size:20px;color:#fdeba9;">Description: ${projectsInstance.description}</p>
 														<br>
-														<p style="font-size:20px;color:#000000;">Status: ${projectsInstance.status}</p>
+														<p style="font-size:20px;color:#fdeba9;">Status: ${projectsInstance.status}</p>
 														<br>
-														<p style="font-size:20px;color:#000000;">Due Date: <g:formatDate format="MM-dd-yyyy" date="${projectsInstance.dueDate}"/></p>
+														<p style="font-size:20px;color:#fdeba9;">Due Date: <g:formatDate format="MM-dd-yyyy" date="${projectsInstance.dueDate}"/></p>
 														<br>
-														<button class="button"><g:link controller="projects" action="show" id="${projectsInstance.id}">Show Details</g:link></button>
+														<button class="button"><g:link controller="projects" action="show" id="${projectsInstance.id}"><span style="font-size:20px;color:#fdeba9;">Show Details</span></g:link></button>
 														</section>
 												</div>
 											</div>
@@ -178,7 +178,7 @@
 													<section class="box">
 													<!-- <a href="http://www.mytweetmark.com" class="image image-full"><asset:image src="foodal-homepage-16.png"/></a> -->
 													<header>
-													<g:link controller="projects" action="create"><span style="font-size:28px;color:#8a7e7e;">Please create a project.</span></g:link>
+													<g:link controller="projects" action="create"><span style="font-size:28px;color:#000000;">Please create a project.</span></g:link>
 													</header>
 													</section>
 										</div>

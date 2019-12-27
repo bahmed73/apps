@@ -39,7 +39,7 @@
 		  border-width: 2px;
 		  margin: 5px;
 		  padding: 10px;
-		  background-color:#eff2f4;
+		  background-color:#5f6469;
 		}
 		.button {
 		  display: inline-block;
@@ -151,11 +151,9 @@
 														<span style="font-size:35px;color:#000000">${sprintInstance.name}</span>
 														</header>
 														<br><br>
-														<p style="font-size:20px;color:#000000;">Description: ${sprintInstance.description}</p>
+														<p style="font-size:20px;color:#fdeba9;">Description: ${sprintInstance.description}</p>
 														<br>
-														<p style="font-size:20px;color:#000000;">Create Date: <g:formatDate format="yyyy-MM-dd" date="${sprintInstance.createTime}"/></p>
-														<br>
-														<p style="font-size:20px;color:#000000;">Update Date: <g:formatDate format="yyyy-MM-dd" date="${sprintInstance.updateTime}"/></p>
+														<p style="font-size:20px;color:#fdeba9;">Create Date: <g:formatDate format="yyyy-MM-dd" date="${sprintInstance.createTime}"/></p>
 														<br>
 														<button class="button"><g:link controller="sprint" action="show" id="${sprintInstance.id}">See Full Sprint Page</g:link></button>
 														</section>

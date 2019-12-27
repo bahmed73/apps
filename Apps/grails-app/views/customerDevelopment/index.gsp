@@ -39,7 +39,7 @@
 		  border-width: 2px;
 		  margin: 5px;
 		  padding: 10px;
-		  background-color: #eff2f4;
+		  background-color: #5f6469;
 		}
 		.button {
 		  display: inline-block;
@@ -153,18 +153,14 @@
 														<span style="font-size:35px;color:#000000">${customerDevelopmentInstance.name}</span>
 														</header>
 														<br><br>
-														<p style="font-size:20px;color:#000000;">Duration: ${customerDevelopmentInstance.duration}</p>
-														<br>
-														<p style="font-size:20px;color:#000000;">Priority: ${customerDevelopmentInstance.priority}</p>
-														<br>
-														<p style="font-size:20px;color:#000000;"><g:link action="show" controller="projects" id="${customerDevelopmentInstance.project.id}"><span style="font-size:20px;color:#000000">Projects: ${customerDevelopmentInstance.project.name}</span></g:link></p>
+														<p style="font-size:20px;color:#fdeba9;"><g:link action="show" controller="projects" id="${customerDevelopmentInstance.project.id}"><span style="font-size:20px;color:#fdeba9">Projects: ${customerDevelopmentInstance.project.name}</span></g:link></p>
 														<br>
 														<g:if test="${customerDevelopmentInstance.sprint}">
-														<p style="font-size:20px;color:#000000;"><g:link action="show" controller="sprint" id="${customerDevelopmentInstance.sprint.id}"><span style="font-size:20px;color:#000000">Sprint: ${customerDevelopmentInstance.sprint.name}</span></g:link></p>
+														<p style="font-size:20px;color:#fdeba9;"><g:link action="show" controller="sprint" id="${customerDevelopmentInstance.sprint.id}"><span style="font-size:20px;color:#fdeba9">Sprint: ${customerDevelopmentInstance.sprint.name}</span></g:link></p>
 														<br>
 														</g:if>
 														<g:if test="${customerDevelopmentInstance.backlog}">
-														<p style="font-size:20px;color:#000000;"><g:link action="show" controller="backlog" id="${customerDevelopmentInstance.backlog.id}"><span style="font-size:20px;color:#000000">Backlog: ${customerDevelopmentInstance.backlog.name}</span></g:link></p>
+														<p style="font-size:20px;color:#fdeba9;"><g:link action="show" controller="backlog" id="${customerDevelopmentInstance.backlog.id}"><span style="font-size:20px;color:#fdeba9">Backlog: ${customerDevelopmentInstance.backlog.name}</span></g:link></p>
 														<br>
 														</g:if>
 														<button class="button"><g:link controller="customerDevelopment" action="show" id="${customerDevelopmentInstance.id}">Show Full Customer Development</g:link></button>

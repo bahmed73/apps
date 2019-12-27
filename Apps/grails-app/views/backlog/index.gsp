@@ -39,7 +39,7 @@
 		  border-width: 2px;
 		  margin: 5px;
 		  padding: 10px;
-		  background-color:#eff2f4;
+		  background-color:#5f6469;
 		}
 		.button {
 		  display: inline-block;
@@ -150,11 +150,9 @@
 														<span style="font-size:35px;color:#000000">${backlogInstance.name}</span>
 														</header>
 														<br><br>
-														<p style="font-size:20px;color:#000000;">Description: ${backlogInstance.description}</p>
+														<p style="font-size:20px;color:#fdeba9;">Description: ${backlogInstance.description}</p>
 														<br>
-														<p style="font-size:20px;color:#000000;">Create Date: <g:formatDate format="yyyy-MM-dd" date="${backlogInstance.createTime}"/></p>
-														<br>
-														<p style="font-size:20px;color:#000000;">Update Date: <g:formatDate format="yyyy-MM-dd" date="${backlogInstance.updateTime}"/></p>
+														<p style="font-size:20px;color:#fdeba9;">Create Date: <g:formatDate format="yyyy-MM-dd" date="${backlogInstance.createTime}"/></p>
 														<br>
 														<button class="button"><g:link controller="backlog" action="show" id="${backlogInstance.id}">See Full Backlog Page</g:link></button>
 														</section>

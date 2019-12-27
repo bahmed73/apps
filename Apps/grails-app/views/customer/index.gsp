@@ -39,7 +39,7 @@
 		  border-width: 2px;
 		  margin: 5px;
 		  padding: 10px;
-		  background-color: #eff2f4;
+		  background-color: #5f6469;
 		}
 		.button {
 		  display: inline-block;
@@ -152,7 +152,7 @@
 														</header>
 														<br><br>
 														<g:if test="${customerInstance.customerDevelopment}">
-														<p style="font-size:20px;color:#000000;"><g:link action="show" controller="customerDevelopment" id="${customerInstance.customerDevelopment.id}"><span style="font-size:20px;color:#000000">Customer Development: ${customerInstance.customerDevelopment.name}</span></g:link></p>
+														<p style="font-size:20px;color:#fdeba9;"><g:link action="show" controller="customerDevelopment" id="${customerInstance.customerDevelopment.id}"><span style="font-size:20px;color:#fdeba9">Customer Development: ${customerInstance.customerDevelopment.name}</span></g:link></p>
 														<br>
 														</g:if>
 														<button class="button"><g:link controller="customer" action="show" id="${customerInstance.id}">Show Full Customer Details</g:link></button>

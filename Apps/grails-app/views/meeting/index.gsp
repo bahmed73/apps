@@ -39,7 +39,7 @@
 		  border-width: 2px;
 		  margin: 5px;
 		  padding: 10px;
-		  background-color:#eff2f4;
+		  background-color:#5f6469;
 		}
 		.button {
 		  display: inline-block;
@@ -151,9 +151,7 @@
 														<span style="font-size:35px;color:#000000">${meetingInstance.name}</span>
 														</header>
 														<br><br>
-														<p style="font-size:20px;color:#000000;">Create Date: <g:formatDate format="yyyy-MM-dd" date="${meetingInstance.createTime}"/></p>
-														<br>
-														<p style="font-size:20px;color:#000000;">Update Date: <g:formatDate format="yyyy-MM-dd" date="${meetingInstance.updateTime}"/></p>
+														<p style="font-size:20px;color:#fdeba9;">Create Date: <g:formatDate format="yyyy-MM-dd" date="${meetingInstance.createTime}"/></p>
 														<br>
 														<button class="button"><g:link controller="meeting" action="show" id="${meetingInstance.id}">See Full Meeting Page</g:link></button>
 														</section>

@@ -196,10 +196,10 @@
 										</nav>
 							<!-- Intro -->
 							<div class="row">
-						<div class="12u">
+						<div class="12u"  style="background-color:#5f6469;margin:25px;">
 								<section>
 									<div>
-										<div class="row" style="background-color:#5f6469;margin:50px;">
+										<div class="row">
 										
 										<div class="6u">
 													<section class="box">

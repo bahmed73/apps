@@ -39,7 +39,7 @@
 		  border-width: 2px;
 		  margin: 5px;
 		  padding: 10px;
-		  background-color:#eff2f4;
+		  background-color:#5f6469;
 		}
 		.button {
 		  display: inline-block;
@@ -151,20 +151,20 @@
 														<span style="font-size:35px;color:#000000">${tasksInstance.name}</span>
 														</header>
 														<br><br>
-														<p style="font-size:20px;color:#000000;">Description: ${tasksInstance.description}</p>
+														<p style="font-size:20px;color:#fdeba9;">Description: ${tasksInstance.description}</p>
 														<br>
-														<p style="font-size:20px;color:#000000;">Duration: ${tasksInstance.duration}</p>
+														<p style="font-size:20px;color:#fdeba9;">Duration: ${tasksInstance.duration}</p>
 														<br>
-														<p style="font-size:20px;color:#000000;">Priority: ${tasksInstance.priority}</p>
+														<p style="font-size:20px;color:#fdeba9;">Priority: ${tasksInstance.priority}</p>
 														<br>
-														<p style="font-size:20px;color:#000000;"><g:link action="show" controller="projects" id="${tasksInstance.project.id}"><span style="font-size:20px;color:#000000">Project: ${tasksInstance.project.name}</span></g:link></p>
+														<p style="font-size:20px;color:#fdeba9;"><g:link action="show" controller="projects" id="${tasksInstance.project.id}"><span style="font-size:20px;color:#fdeba9">Project: ${tasksInstance.project.name}</span></g:link></p>
 														<g:if test="${tasksInstance.sprint}">
 														<br>
-														<p style="font-size:20px;color:#000000;"><g:link action="show" controller="sprint" id="${tasksInstance.sprint.id}"><span style="font-size:20px;color:#000000">Sprint: ${tasksInstance.sprint.name}</span></g:link></p>
+														<p style="font-size:20px;color:#fdeba9;"><g:link action="show" controller="sprint" id="${tasksInstance.sprint.id}"><span style="font-size:20px;color:#fdeba9">Sprint: ${tasksInstance.sprint.name}</span></g:link></p>
 														</g:if>
 														<g:if test="${tasksInstance.backlog}">
 														<br>
-														<p style="font-size:20px;color:#000000;"><g:link action="show" controller="backlog" id="${tasksInstance.backlog.id}"><span style="font-size:20px;color:#000000">Backlog: ${tasksInstance.backlog.name}</span></g:link></p>
+														<p style="font-size:20px;color:#fdeba9;"><g:link action="show" controller="backlog" id="${tasksInstance.backlog.id}"><span style="font-size:20px;color:#fdeba9">Backlog: ${tasksInstance.backlog.name}</span></g:link></p>
 														</g:if>
 														<br>
 														<button class="button"><g:link controller="tasks" action="show" id="${tasksInstance.id}">Show Full Task</g:link></button>
@@ -188,7 +188,7 @@
 													<section class="box">
 													<!-- <a href="http://www.mytweetmark.com" class="image image-full"><asset:image src="foodal-homepage-16.png"/></a> -->
 													<header>
-													<g:link controller="tasks" action="create"><span style="font-size:28px;color:#8a7e7e;">Please create a Task.</span></g:link>
+													<g:link controller="tasks" action="create"><span style="font-size:28px;color:#000000;">Please create a Task.</span></g:link>
 													</header>
 													</section>
 										</div>

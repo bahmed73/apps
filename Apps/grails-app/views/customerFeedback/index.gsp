@@ -39,7 +39,7 @@
 		  border-width: 2px;
 		  margin: 5px;
 		  padding: 10px;
-		  background-color: #eff2f4;
+		  background-color: #5f6469;
 		}
 		.button {
 		  display: inline-block;
@@ -151,11 +151,11 @@
 														<span style="font-size:35px;color:#000000">${customerFeedbackInstance.name}</span>
 														<br><br>
 														</header>
-														<p style="font-size:20px;color:#000000;"><g:link action="show" controller="projects" id="${customerFeedbackInstance.project.id}"><span style="font-size:20px;color:#000000">Projects: ${customerFeedbackInstance.project.name}</span></g:link></p>
+														<p style="font-size:20px;color:#fdeba9;"><g:link action="show" controller="projects" id="${customerFeedbackInstance.project.id}"><span style="font-size:20px;color:#fdeba9">Projects: ${customerFeedbackInstance.project.name}</span></g:link></p>
 														<br>
-														<p style="font-size:20px;color:#000000;"><g:link action="show" controller="customer" id="${customerFeedbackInstance.customer.id}"><span style="font-size:20px;color:#000000">Customer: ${customerFeedbackInstance.customer.name}</span></g:link></p>
+														<p style="font-size:20px;color:#fdeba9;"><g:link action="show" controller="customer" id="${customerFeedbackInstance.customer.id}"><span style="font-size:20px;color:#fdeba9">Customer: ${customerFeedbackInstance.customer.name}</span></g:link></p>
 														<br>
-														<p style="font-size:20px;color:#000000;"><g:link action="show" controller="customerDevelopment" id="${customerFeedbackInstance.customerDevelopment.id}"><span style="font-size:20px;color:#000000">Customer Development: ${customerFeedbackInstance.customerDevelopment.name}</span></g:link></p>
+														<p style="font-size:20px;color:#fdeba9;"><g:link action="show" controller="customerDevelopment" id="${customerFeedbackInstance.customerDevelopment.id}"><span style="font-size:20px;color:#fdeba9">Customer Development: ${customerFeedbackInstance.customerDevelopment.name}</span></g:link></p>
 														<br>
 														<button class="button"><g:link controller="customerFeedback" action="show" id="${customerFeedbackInstance.id}">Show Details</g:link></button>
 														</section>
@@ -178,7 +178,7 @@
 													<section class="box">
 													<!-- <a href="http://www.mytweetmark.com" class="image image-full"><asset:image src="foodal-homepage-16.png"/></a> -->
 													<header>
-													<g:link controller="customerFeedback" action="create"><span style="font-size:28px;color:#8a7e7e;">Please create a customer feedback.</span></g:link>
+													<g:link controller="customerFeedback" action="create"><span style="font-size:28px;color:#000000;">Please create a customer feedback.</span></g:link>
 													</header>
 													</section>
 										</div>

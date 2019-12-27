@@ -39,7 +39,7 @@
 		  border-width: 2px;
 		  margin: 5px;
 		  padding: 10px;
-		  background-color: #eff2f4;
+		  background-color: #5f6469;
 		}
 		.button {
 		  display: inline-block;
@@ -152,11 +152,9 @@
 														<span style="font-size:35px;color:#000000">${documentationInstance.name}</span>
 														</header>
 														<br><br>
-														<p style="font-size:20px;color:#000000;">Description: ${documentationInstance.description}</p>
+														<p style="font-size:20px;color:#fdeba9;">Description: ${documentationInstance.description}</p>
 														<br>
-														<p style="font-size:20px;color:#000000;">Create Date: <g:formatDate format="yyyy-MM-dd" date="${documentationInstance.createTime}"/></p>
-														<br>
-														<p style="font-size:20px;color:#000000;">Update Date: <g:formatDate format="yyyy-MM-dd" date="${documentationInstance.updateTime}"/></p>
+														<p style="font-size:20px;color:#fdeba9;">Create Date: <g:formatDate format="yyyy-MM-dd" date="${documentationInstance.createTime}"/></p>
 														<br>
 														<button class="button"><g:link controller="documentation" action="show" id="${documentationInstance.id}">See Full Document</g:link></button>
 														</section>
