@@ -315,7 +315,10 @@
 														<li><div><p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="803"><asset:image src="goal-9-1.png" width="20"/><span style="color:#000000;"> Using Product Market Fit to Drive Sustainable Growth </span></g:link></span></p></div></li>
 														<li><div><p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="804"><asset:image src="goal-9-1.png" width="20"/><span style="color:#000000;"> Understand Customer Acquisition in SaaS </span></g:link></span></p></div></li>
 														<li><div><p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="805"><asset:image src="goal-9-1.png" width="20"/><span style="color:#000000;"> How The Lean Startup Team Practices Customer Development </span></g:link></span></p></div></li>
-																								
+														<li><div><p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="833"><asset:image src="goal-9-1.png" width="20"/><span style="color:#000000;"> Teaching Customer Development and the Lean Startup </span></g:link></span></p></div></li>
+														<li><div><p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="834"><asset:image src="goal-9-1.png" width="20"/><span style="color:#000000;"> Startup Lessons Learned - What is Customer Development? </span></g:link></span></p></div></li>
+														<li><div><p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="835"><asset:image src="goal-9-1.png" width="20"/><span style="color:#000000;"> Why the Lean Start-Up Changes Everything </span></g:link></span></p></div></li>
+														
 														</ul>
 														
 														<br><br>
