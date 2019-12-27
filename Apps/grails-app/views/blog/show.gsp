@@ -150,7 +150,7 @@
 													<br><br>
 												</section>
 											</div>
-											<div id="block2">
+											<div id="block2" class="6u">
 												<section class="box">
 												<header>
 												<g:if test="${blog.imageThree}">

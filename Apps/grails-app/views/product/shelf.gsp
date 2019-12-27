@@ -225,45 +225,45 @@
 														<p><g:link class="list" action="index" controller="customer"><span style="color:#fdeba9;font-size:20px">Customers - Pivot on customers with the team.</span></g:link></p>
 														<p><g:link class="list" action="index" controller="customerFeedback"><span style="color:#fdeba9;font-size:20px">Customers Feedback Survey - Talk to a customer.</span></g:link></p>
 															
-														<p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="641"><span style="color:#fdeba9;"> Introduction to startup school.</span></g:link></span></p>
-														<p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="642"><span style="color:#fdeba9;"> Incubator meetings.</span></g:link></span></p>
-														<p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="643"><span style="color:#fdeba9;"> Incubator - Brand expert feedback.</span></g:link></span></p>
-														<p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="644"><span style="color:#fdeba9;"> Incubator homework - Name focus group.</span></g:link></span></p>
-														<p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="645"><span style="color:#fdeba9;"> Incubator homework - Paying customer feedback.</span></g:link></span></p>
+														<p><span style="color:#8a7e7e;font-size:20px;"><g:link action="show" controller="blog" id="641"><span style="color:#fdeba9;">- Introduction to startup school.</span></g:link></span></p>
+														<p><span style="color:#8a7e7e;font-size:20px;"><g:link action="show" controller="blog" id="642"><span style="color:#fdeba9;">- Incubator meetings.</span></g:link></span></p>
+														<p><span style="color:#8a7e7e;font-size:20px;"><g:link action="show" controller="blog" id="643"><span style="color:#fdeba9;">- Incubator - Brand expert feedback.</span></g:link></span></p>
+														<p><span style="color:#8a7e7e;font-size:20px;"><g:link action="show" controller="blog" id="644"><span style="color:#fdeba9;">- Incubator homework - Name focus group.</span></g:link></span></p>
+														<p><span style="color:#8a7e7e;font-size:20px;"><g:link action="show" controller="blog" id="645"><span style="color:#fdeba9;">- Incubator homework - Paying customer feedback.</span></g:link></span></p>
 													  </div>
 													  <div id="tabs-3">
-													    <p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="801"><span style="color:#fdeba9;"> The Go to Market Approach Startups Need to Adopt </span></g:link></span></p>
-														<p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="802"><span style="color:#fdeba9;"> Go to Market Best Practices for Startups: A Teaser </span></g:link></span></p>
-														<p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="803"><span style="color:#fdeba9;"> Using Product Market Fit to Drive Sustainable Growth </span></g:link></span></p>
-														<p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="804"><span style="color:#fdeba9;"> Understand Customer Acquisition in SaaS </span></g:link></span></p>
-														<p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="805"><span style="color:#fdeba9;"> How The Lean Startup Team Practices Customer Development </span></g:link></span></p>
-														<p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="833"><span style="color:#fdeba9;"> Teaching Customer Development and the Lean Startup </span></g:link></span></p>
-														<p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="834"><span style="color:#fdeba9;"> Startup Lessons Learned - What is Customer Development? </span></g:link></span></p>
-														<p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="835"><span style="color:#fdeba9;"> Why the Lean Start-Up Changes Everything </span></g:link></span></p>
+													    <p><span style="color:#8a7e7e;font-size:20px;"><g:link action="show" controller="blog" id="801"><span style="color:#fdeba9;">- The Go to Market Approach Startups Need to Adopt </span></g:link></span></p>
+														<p><span style="color:#8a7e7e;font-size:20px;"><g:link action="show" controller="blog" id="802"><span style="color:#fdeba9;">- Go to Market Best Practices for Startups: A Teaser </span></g:link></span></p>
+														<p><span style="color:#8a7e7e;font-size:20px;"><g:link action="show" controller="blog" id="803"><span style="color:#fdeba9;">- Using Product Market Fit to Drive Sustainable Growth </span></g:link></span></p>
+														<p><span style="color:#8a7e7e;font-size:20px;"><g:link action="show" controller="blog" id="804"><span style="color:#fdeba9;">- Understand Customer Acquisition in SaaS </span></g:link></span></p>
+														<p><span style="color:#8a7e7e;font-size:20px;"><g:link action="show" controller="blog" id="805"><span style="color:#fdeba9;">- How The Lean Startup Team Practices Customer Development </span></g:link></span></p>
+														<p><span style="color:#8a7e7e;font-size:20px;"><g:link action="show" controller="blog" id="833"><span style="color:#fdeba9;">- Teaching Customer Development and the Lean Startup </span></g:link></span></p>
+														<p><span style="color:#8a7e7e;font-size:20px;"><g:link action="show" controller="blog" id="834"><span style="color:#fdeba9;">- Startup Lessons Learned - What is Customer Development? </span></g:link></span></p>
+														<p><span style="color:#8a7e7e;font-size:20px;"><g:link action="show" controller="blog" id="835"><span style="color:#fdeba9;">- Why the Lean Start-Up Changes Everything </span></g:link></span></p>
 														
 													  </div>
 													  <div id="tabs-4">
-													    <p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="706"><span style="color:#fdeba9;"> Startup Problem</span></g:link></span></p>
-														<p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="707"><span style="color:#fdeba9;"> Who has the problem?</span></g:link></span></p>
-														<p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="708"><span style="color:#fdeba9;"> Is that an important problem?</span></g:link></span></p>
-														<p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="709"><span style="color:#fdeba9;"> Your Solution?</span></g:link></span></p>
-														<p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="710"><span style="color:#fdeba9;"> Opportunity?</span></g:link></span></p>
-														<p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="711"><span style="color:#fdeba9;"> Competition?</span></g:link></span></p>
-														<p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="712"><span style="color:#fdeba9;"> Why agile development and lean startup on shop?</span></g:link></span></p>
-														<p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="713"><span style="color:#fdeba9;"> Company Needs?</span></g:link></span></p>
-														<p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="714"><span style="color:#fdeba9;"> What excites you?</span></g:link></span></p>
-														<p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="715"><span style="color:#fdeba9;"> One Line Pitch</span></g:link></span></p>
-														<p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="716"><span style="color:#fdeba9;"> Team</span></g:link></span></p>
+													    <p><span style="color:#8a7e7e;font-size:20px;"><g:link action="show" controller="blog" id="706"><span style="color:#fdeba9;">- Startup Problem</span></g:link></span></p>
+														<p><span style="color:#8a7e7e;font-size:20px;"><g:link action="show" controller="blog" id="707"><span style="color:#fdeba9;">- Who has the problem?</span></g:link></span></p>
+														<p><span style="color:#8a7e7e;font-size:20px;"><g:link action="show" controller="blog" id="708"><span style="color:#fdeba9;">- Is that an important problem?</span></g:link></span></p>
+														<p><span style="color:#8a7e7e;font-size:20px;"><g:link action="show" controller="blog" id="709"><span style="color:#fdeba9;">- Your Solution?</span></g:link></span></p>
+														<p><span style="color:#8a7e7e;font-size:20px;"><g:link action="show" controller="blog" id="710"><span style="color:#fdeba9;">- Opportunity?</span></g:link></span></p>
+														<p><span style="color:#8a7e7e;font-size:20px;"><g:link action="show" controller="blog" id="711"><span style="color:#fdeba9;">- Competition?</span></g:link></span></p>
+														<p><span style="color:#8a7e7e;font-size:20px;"><g:link action="show" controller="blog" id="712"><span style="color:#fdeba9;">- Why agile development and lean startup on shop?</span></g:link></span></p>
+														<p><span style="color:#8a7e7e;font-size:20px;"><g:link action="show" controller="blog" id="713"><span style="color:#fdeba9;">- Company Needs?</span></g:link></span></p>
+														<p><span style="color:#8a7e7e;font-size:20px;"><g:link action="show" controller="blog" id="714"><span style="color:#fdeba9;">- What excites you?</span></g:link></span></p>
+														<p><span style="color:#8a7e7e;font-size:20px;"><g:link action="show" controller="blog" id="715"><span style="color:#fdeba9;">- One Line Pitch</span></g:link></span></p>
+														<p><span style="color:#8a7e7e;font-size:20px;"><g:link action="show" controller="blog" id="716"><span style="color:#fdeba9;">- Team</span></g:link></span></p>
 																
 													  </div>
 													  <div id="tabs-5">
 													    <p><g:link class="list" action="index" controller="documentation"><span style="color:#fdeba9;font-size:20px">Product Docs - Business documentation.</span></g:link></p>
 														<p><g:link class="list" action="index" controller="blog"><span style="color:#fdeba9;font-size:20px">Blogs - Agile development and lean startup.</span></g:link></p>
-														<p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="33"><span style="color:#fdeba9;"> What is sizing in agile development?</span></g:link></span></p>
-														<p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="353"><span style="color:#fdeba9;"> What is an incremental hiring pattern in startups?</span></g:link></span></p>
-														<p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="385"><span style="color:#fdeba9;"> How should a hiring manager conduct a technical interview?</span></g:link></span></p>
-														<p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="386"><span style="color:#fdeba9;"> What is a full stack project manager?</span></g:link></span></p>
-														<p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="646"><span style="color:#fdeba9;"> Startup pivot.</span></g:link></span></p>
+														<p><span style="color:#8a7e7e;font-size:20px;"><g:link action="show" controller="blog" id="33"><span style="color:#fdeba9;">- What is sizing in agile development?</span></g:link></span></p>
+														<p><span style="color:#8a7e7e;font-size:20px;"><g:link action="show" controller="blog" id="353"><span style="color:#fdeba9;">- What is an incremental hiring pattern in startups?</span></g:link></span></p>
+														<p><span style="color:#8a7e7e;font-size:20px;"><g:link action="show" controller="blog" id="385"><span style="color:#fdeba9;">- How should a hiring manager conduct a technical interview?</span></g:link></span></p>
+														<p><span style="color:#8a7e7e;font-size:20px;"><g:link action="show" controller="blog" id="386"><span style="color:#fdeba9;">- What is a full stack project manager?</span></g:link></span></p>
+														<p><span style="color:#8a7e7e;font-size:20px;"><g:link action="show" controller="blog" id="646"><span style="color:#fdeba9;">- Startup pivot.</span></g:link></span></p>
 														
 													  </div>
 													</div>												
