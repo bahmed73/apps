@@ -6,7 +6,7 @@
 <meta http-equiv="window-target" content="_top" />
 <META HTTP-EQUIV="CACHE-CONTROL" CONTENT="PUBLIC">
 	<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
-	<title>Shop - Building agile development and lean startup tools, for entrepreneurs, venture capital, startups and project manager.</title>
+	<title>Shop - Building agile development and lean startup tools, for entrepreneurs, venture capitals, startups and project managers.</title>
 	<asset:stylesheet src="skel-noscript.css"/>
 	<asset:stylesheet src="style.css"/>
 	<asset:stylesheet src="style-desktop.css"/>
@@ -97,6 +97,7 @@
 		    $( "#menu2" ).menu();
 		    $( "#menu3" ).menu();
 		    $( "#menu4" ).menu();
+		    $( "#menu5" ).menu();
 		  } );
 		  </script>
 		  <style>
@@ -214,10 +215,10 @@
 								<section>
 									<div>
 										<div class="row">
-										<section class="box">
-										<div id="block3" class="12u" style="border-style:solid; border-color:grey; border-width:100px;margin:1px;font-size:20px;color:#000000;background-color:#fdeba9">
+										<section class="box" style="background-color:#fdeba9">
+										<div id="block3" class="12u" style="border-style:solid; border-color:#5f6469; border-width:1px;margin:1px;font-size:20px;color:#5f6469;background-color:#fdeba9">
 													<header>
-														<p><span style="font-size:28px;color:#000000">Build your own startup, and mingle with other entrepreneurs and investors in our network! For $50 / month per user, Agile Development + Lean Startup.  Start using our tools to be invested by venture capitalists and incubators.<br><br></span>
+														<p><span style="font-size:28px;color:#5f6469;border-color:#5f6469; border-width:1px;">Building agile development and lean startup tools, for entrepreneurs, venture capitals, startups and project managers. Starting at $50/month. Pay with card and register today.<br><br></span></p>
 														<div style="margin:20px">
 														<form controller="register" action="register" method="POST">
 														<script
@@ -236,7 +237,7 @@
 														</script>
 														</form>
 														</div> 
-														</p>
+														
 													</header>
 													</div>
 													</section>
@@ -247,41 +248,41 @@
 													    <h3>Agile Development</h3>
 													    <div>
 													      
-													<ul id="menu" style="background-color:#eff2f4">
-													<li><div style="float:center"><p><g:link class="list" action="index" controller="projects"><span style="color:#000000;font-size:20px"><asset:image src="goal-1-1.png" width="30"/> Projects - Start creating agile development projects.</span></g:link></p></div></li>
-													<li><div><p><g:link class="list" action="index" controller="tasks"><span style="color:#000000;font-size:20px"><asset:image src="goal-2-1.png" width="30"/> Tasks - Create tasks, to manage the project.</span></g:link></p></div></li>
-													<li><div><p><g:link class="list" action="index" controller="notes"><span style="color:#000000;font-size:20px"><asset:image src="goal-3-1.png" width="30"/> Notes - Write notes for your team, on the tasks.</span></g:link></p></div></li>
-													<li><div><p><g:link class="list" action="index" controller="sprint"><span style="color:#000000;font-size:20px"><asset:image src="goal-4-1.png" width="30"/> Sprint Planning - Start creating sprints, a groups of tasks.</span></g:link></p></div></li>
-													<li><div><p><g:link class="list" action="index" controller="meeting"><span style="color:#000000;font-size:20px"><asset:image src="goal-5-1.png" width="30"/> Meetings - Setup sprint planning meetings and retrospectives.</span></g:link></p></div></li>
-													<li><div><p><g:link class="list" action="index" controller="backlog"><span style="color:#000000;font-size:20px"><asset:image src="goal-6-1.png" width="30"/> Agile Backlog - Setup a backlog of future ideas and tasks.</span></g:link></p></div></li>
+													<ul id="menu" style="background-color:#5f6469">
+													<li><div style="float:center"><p><g:link class="list" action="index" controller="projects"><span style="color:#fdeba9;font-size:20px"><asset:image src="goal-1-1.png" width="30"/> Projects - Start creating agile development projects.</span></g:link></p></div></li>
+													<li><div><p><g:link class="list" action="index" controller="tasks"><span style="color:#fdeba9;font-size:20px"><asset:image src="goal-2-1.png" width="30"/> Tasks - Create tasks, to manage the project.</span></g:link></p></div></li>
+													<li><div><p><g:link class="list" action="index" controller="notes"><span style="color:#fdeba9;font-size:20px"><asset:image src="goal-3-1.png" width="30"/> Notes - Write notes for your team, on the tasks.</span></g:link></p></div></li>
+													<li><div><p><g:link class="list" action="index" controller="sprint"><span style="color:#fdeba9;font-size:20px"><asset:image src="goal-4-1.png" width="30"/> Sprint Planning - Start creating sprints, a groups of tasks.</span></g:link></p></div></li>
+													<li><div><p><g:link class="list" action="index" controller="meeting"><span style="color:#fdeba9;font-size:20px"><asset:image src="goal-5-1.png" width="30"/> Meetings - Setup sprint planning meetings and retrospectives.</span></g:link></p></div></li>
+													<li><div><p><g:link class="list" action="index" controller="backlog"><span style="color:#fdeba9;font-size:20px"><asset:image src="goal-6-1.png" width="30"/> Agile Backlog - Setup a backlog of future ideas and tasks.</span></g:link></p></div></li>
 													</ul>
 													    </div>
 													    <h3>Lean Startup</h3>
 													    <div>
-													      <ul id="menu2" style="background-color:#eff2f4">
-															<li><div><p><g:link class="list" action="index" controller="customerDevelopment"><span style="color:#000000;font-size:20px"><asset:image src="goal-7-1.png" width="30"/> Customer Development - Build feedback flows.</span></g:link></p></div></li>
-															<li><div><p><g:link class="list" action="index" controller="customer"><span style="color:#000000;font-size:20px"><asset:image src="goal-8-1.png" width="30"/> Customers - Pivot on customers with the team.</span></g:link></p></div></li>
-															<li><div><p><g:link class="list" action="index" controller="customerFeedback"><span style="color:#000000;font-size:20px"><asset:image src="goal-8-1.png" width="30"/> Customers Feedback Survey - Talk to a customer.</span></g:link></p></div></li>
+													      <ul id="menu2" style="background-color:#5f6469">
+															<li><div><p><g:link class="list" action="index" controller="customerDevelopment"><span style="color:#fdeba9;font-size:20px"><asset:image src="goal-7-1.png" width="30"/> Customer Development - Build feedback flows.</span></g:link></p></div></li>
+															<li><div><p><g:link class="list" action="index" controller="customer"><span style="color:#fdeba9;font-size:20px"><asset:image src="goal-8-1.png" width="30"/> Customers - Pivot on customers with the team.</span></g:link></p></div></li>
+															<li><div><p><g:link class="list" action="index" controller="customerFeedback"><span style="color:#fdeba9;font-size:20px"><asset:image src="goal-8-1.png" width="30"/> Customers Feedback Survey - Talk to a customer.</span></g:link></p></div></li>
 															
-														<li><div><p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="641"><asset:image src="goal-9-1.png" width="20"/><span style="color:#000000;"> Introduction to startup school.</span></g:link></span></p></div></li>
-														<li><div><p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="642"><asset:image src="goal-9-1.png" width="20"/><span style="color:#000000;"> Incubator meetings.</span></g:link></span></p></div></li>
-														<li><div><p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="643"><asset:image src="goal-9-1.png" width="20"/><span style="color:#000000;"> Incubator - Brand expert feedback.</span></g:link></span></p></div></li>
-														<li><div><p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="644"><asset:image src="goal-9-1.png" width="20"/><span style="color:#000000;"> Incubator homework - Name focus group.</span></g:link></span></p></div></li>
-														<li><div><p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="645"><asset:image src="goal-9-1.png" width="20"/><span style="color:#000000;"> Incubator homework - Paying customer feedback.</span></g:link></span></p></div></li>
+														<li><div><p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="641"><asset:image src="goal-9-1.png" width="20"/><span style="color:#fdeba9;"> Introduction to startup school.</span></g:link></span></p></div></li>
+														<li><div><p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="642"><asset:image src="goal-9-1.png" width="20"/><span style="color:#fdeba9;"> Incubator meetings.</span></g:link></span></p></div></li>
+														<li><div><p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="643"><asset:image src="goal-9-1.png" width="20"/><span style="color:#fdeba9;"> Incubator - Brand expert feedback.</span></g:link></span></p></div></li>
+														<li><div><p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="644"><asset:image src="goal-9-1.png" width="20"/><span style="color:#fdeba9;"> Incubator homework - Name focus group.</span></g:link></span></p></div></li>
+														<li><div><p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="645"><asset:image src="goal-9-1.png" width="20"/><span style="color:#fdeba9;"> Incubator homework - Paying customer feedback.</span></g:link></span></p></div></li>
 														</ul>
 														<br><br>
 														
 														</div>
 													    <h3>Training</h3>
 													    <div>
-													      <ul id="menu3" style="background-color:#eff2f4">
-														<li><div><p><g:link class="list" action="index" controller="documentation"><span style="color:#000000;font-size:20px"><asset:image src="goal-9-1.png" width="30"/> Product Docs - Business documentation.</span></g:link></p></div></li>
-														<li><div><p><g:link class="list" action="index" controller="blog"><span style="color:#000000;font-size:20px"><asset:image src="goal-11-1.png" width="30"/> Blogs - Agile development and lean startup.</span></g:link></p></div></li>
-														<li><div><p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="33"><asset:image src="goal-9-1.png" width="20"/><span style="color:#000000;"> What is sizing in agile development?</span></g:link></span></p></div></li>
-														<li><div><p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="353"><asset:image src="goal-9-1.png" width="20"/><span style="color:#000000;"> What is an incremental hiring pattern in startups?</span></g:link></span></p></div></li>
-														<li><div><p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="385"><asset:image src="goal-9-1.png" width="20"/><span style="color:#000000;"> How should a hiring manager conduct a technical interview?</span></g:link></span></p></div></li>
-														<li><div><p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="386"><asset:image src="goal-9-1.png" width="20"/><span style="color:#000000;"> What is a full stack project manager?</span></g:link></span></p></div></li>
-														<li><div><p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="646"><asset:image src="goal-9-1.png" width="20"/><span style="color:#000000;"> Startup pivot.</span></g:link></span></p></div></li>
+													      <ul id="menu3" style="background-color:#5f6469">
+														<li><div><p><g:link class="list" action="index" controller="documentation"><span style="color:#fdeba9;font-size:20px"><asset:image src="goal-9-1.png" width="30"/> Product Docs - Business documentation.</span></g:link></p></div></li>
+														<li><div><p><g:link class="list" action="index" controller="blog"><span style="color:#fdeba9;font-size:20px"><asset:image src="goal-11-1.png" width="30"/> Blogs - Agile development and lean startup.</span></g:link></p></div></li>
+														<li><div><p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="33"><asset:image src="goal-9-1.png" width="20"/><span style="color:#fdeba9;"> What is sizing in agile development?</span></g:link></span></p></div></li>
+														<li><div><p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="353"><asset:image src="goal-9-1.png" width="20"/><span style="color:#fdeba9;"> What is an incremental hiring pattern in startups?</span></g:link></span></p></div></li>
+														<li><div><p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="385"><asset:image src="goal-9-1.png" width="20"/><span style="color:#fdeba9;"> How should a hiring manager conduct a technical interview?</span></g:link></span></p></div></li>
+														<li><div><p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="386"><asset:image src="goal-9-1.png" width="20"/><span style="color:#fdeba9;"> What is a full stack project manager?</span></g:link></span></p></div></li>
+														<li><div><p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="646"><asset:image src="goal-9-1.png" width="20"/><span style="color:#fdeba9;"> Startup pivot.</span></g:link></span></p></div></li>
 														</ul>
 														
 														<br><br>
@@ -289,18 +290,18 @@
 														</div>
 														<h3>Sample Startup Pitch to Venture Capitals</h3>
 													    <div>
-													      <ul id="menu4" style="background-color:#eff2f4">
-														<li><div><p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="706"><asset:image src="goal-9-1.png" width="20"/><span style="color:#000000;"> Startup Problem</span></g:link></span></p></div></li>
-														<li><div><p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="707"><asset:image src="goal-9-1.png" width="20"/><span style="color:#000000;"> Who has the problem?</span></g:link></span></p></div></li>
-														<li><div><p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="708"><asset:image src="goal-9-1.png" width="20"/><span style="color:#000000;"> Is that an important problem?</span></g:link></span></p></div></li>
-														<li><div><p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="709"><asset:image src="goal-9-1.png" width="20"/><span style="color:#000000;"> Your Solution?</span></g:link></span></p></div></li>
-														<li><div><p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="710"><asset:image src="goal-9-1.png" width="20"/><span style="color:#000000;"> Opportunity?</span></g:link></span></p></div></li>
-														<li><div><p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="711"><asset:image src="goal-9-1.png" width="20"/><span style="color:#000000;"> Competition?</span></g:link></span></p></div></li>
-														<li><div><p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="712"><asset:image src="goal-9-1.png" width="20"/><span style="color:#000000;"> Why agile development and lean startup on shop?</span></g:link></span></p></div></li>
-														<li><div><p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="713"><asset:image src="goal-9-1.png" width="20"/><span style="color:#000000;"> Company Needs?</span></g:link></span></p></div></li>
-														<li><div><p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="714"><asset:image src="goal-9-1.png" width="20"/><span style="color:#000000;"> What excites you?</span></g:link></span></p></div></li>
-														<li><div><p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="715"><asset:image src="goal-9-1.png" width="20"/><span style="color:#000000;"> One Line Pitch</span></g:link></span></p></div></li>
-														<li><div><p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="716"><asset:image src="goal-9-1.png" width="20"/><span style="color:#000000;"> Team</span></g:link></span></p></div></li>
+													      <ul id="menu4" style="background-color:#5f6469">
+														<li><div><p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="706"><asset:image src="goal-9-1.png" width="20"/><span style="color:#fdeba9;"> Startup Problem</span></g:link></span></p></div></li>
+														<li><div><p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="707"><asset:image src="goal-9-1.png" width="20"/><span style="color:#fdeba9;"> Who has the problem?</span></g:link></span></p></div></li>
+														<li><div><p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="708"><asset:image src="goal-9-1.png" width="20"/><span style="color:#fdeba9;"> Is that an important problem?</span></g:link></span></p></div></li>
+														<li><div><p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="709"><asset:image src="goal-9-1.png" width="20"/><span style="color:#fdeba9;"> Your Solution?</span></g:link></span></p></div></li>
+														<li><div><p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="710"><asset:image src="goal-9-1.png" width="20"/><span style="color:#fdeba9;"> Opportunity?</span></g:link></span></p></div></li>
+														<li><div><p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="711"><asset:image src="goal-9-1.png" width="20"/><span style="color:#fdeba9;"> Competition?</span></g:link></span></p></div></li>
+														<li><div><p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="712"><asset:image src="goal-9-1.png" width="20"/><span style="color:#fdeba9;"> Why agile development and lean startup on shop?</span></g:link></span></p></div></li>
+														<li><div><p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="713"><asset:image src="goal-9-1.png" width="20"/><span style="color:#fdeba9;"> Company Needs?</span></g:link></span></p></div></li>
+														<li><div><p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="714"><asset:image src="goal-9-1.png" width="20"/><span style="color:#fdeba9;"> What excites you?</span></g:link></span></p></div></li>
+														<li><div><p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="715"><asset:image src="goal-9-1.png" width="20"/><span style="color:#fdeba9;"> One Line Pitch</span></g:link></span></p></div></li>
+														<li><div><p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="716"><asset:image src="goal-9-1.png" width="20"/><span style="color:#fdeba9;"> Team</span></g:link></span></p></div></li>
 																								
 														</ul>
 														
@@ -309,15 +310,15 @@
 														</div>
 														<h3>Customer Development</h3>
 													    <div>
-													      <ul id="menu4" style="background-color:#eff2f4">
-														<li><div><p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="801"><asset:image src="goal-9-1.png" width="20"/><span style="color:#000000;"> The Go to Market Approach Startups Need to Adopt </span></g:link></span></p></div></li>
-														<li><div><p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="802"><asset:image src="goal-9-1.png" width="20"/><span style="color:#000000;"> Go to Market Best Practices for Startups: A Teaser </span></g:link></span></p></div></li>
-														<li><div><p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="803"><asset:image src="goal-9-1.png" width="20"/><span style="color:#000000;"> Using Product Market Fit to Drive Sustainable Growth </span></g:link></span></p></div></li>
-														<li><div><p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="804"><asset:image src="goal-9-1.png" width="20"/><span style="color:#000000;"> Understand Customer Acquisition in SaaS </span></g:link></span></p></div></li>
-														<li><div><p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="805"><asset:image src="goal-9-1.png" width="20"/><span style="color:#000000;"> How The Lean Startup Team Practices Customer Development </span></g:link></span></p></div></li>
-														<li><div><p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="833"><asset:image src="goal-9-1.png" width="20"/><span style="color:#000000;"> Teaching Customer Development and the Lean Startup </span></g:link></span></p></div></li>
-														<li><div><p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="834"><asset:image src="goal-9-1.png" width="20"/><span style="color:#000000;"> Startup Lessons Learned - What is Customer Development? </span></g:link></span></p></div></li>
-														<li><div><p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="835"><asset:image src="goal-9-1.png" width="20"/><span style="color:#000000;"> Why the Lean Start-Up Changes Everything </span></g:link></span></p></div></li>
+													      <ul id="menu5" style="background-color:#5f6469">
+														<li><div><p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="801"><asset:image src="goal-9-1.png" width="20"/><span style="color:#fdeba9;"> The Go to Market Approach Startups Need to Adopt </span></g:link></span></p></div></li>
+														<li><div><p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="802"><asset:image src="goal-9-1.png" width="20"/><span style="color:#fdeba9;"> Go to Market Best Practices for Startups: A Teaser </span></g:link></span></p></div></li>
+														<li><div><p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="803"><asset:image src="goal-9-1.png" width="20"/><span style="color:#fdeba9;"> Using Product Market Fit to Drive Sustainable Growth </span></g:link></span></p></div></li>
+														<li><div><p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="804"><asset:image src="goal-9-1.png" width="20"/><span style="color:#fdeba9;"> Understand Customer Acquisition in SaaS </span></g:link></span></p></div></li>
+														<li><div><p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="805"><asset:image src="goal-9-1.png" width="20"/><span style="color:#fdeba9;"> How The Lean Startup Team Practices Customer Development </span></g:link></span></p></div></li>
+														<li><div><p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="833"><asset:image src="goal-9-1.png" width="20"/><span style="color:#fdeba9;"> Teaching Customer Development and the Lean Startup </span></g:link></span></p></div></li>
+														<li><div><p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="834"><asset:image src="goal-9-1.png" width="20"/><span style="color:#fdeba9;"> Startup Lessons Learned - What is Customer Development? </span></g:link></span></p></div></li>
+														<li><div><p><span style="color:#8a7e7e;font-size:20px;margin:50px;"><g:link action="show" controller="blog" id="835"><asset:image src="goal-9-1.png" width="20"/><span style="color:#fdeba9;"> Why the Lean Start-Up Changes Everything </span></g:link></span></p></div></li>
 														
 														</ul>
 														
