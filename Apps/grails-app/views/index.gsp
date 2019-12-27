@@ -172,7 +172,9 @@
 						  <ol class="carousel-indicators">
 						    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
 						    <li data-target="#myCarousel" data-slide-to="1"></li>
-						    
+						    <li data-target="#myCarousel" data-slide-to="3"></li>
+						    <li data-target="#myCarousel" data-slide-to="4"></li>
+						    <li data-target="#myCarousel" data-slide-to="5"></li>
 						  </ol>
 
 						  <!-- Wrapper for slides -->
@@ -185,6 +187,17 @@
 						      <g:link class="list" action="index" controller="customerDevelopment"><asset:image src="leanstartup-2.png"/></g:link>
 						    </div>
 						    
+						    <div class="item">
+						      <g:link class="list" action="index" controller="customerFeedback"><asset:image src="guru.png"/></g:link>
+						    </div>
+						    
+						    <div class="item">
+						      <g:link class="list" action="index" controller="blog"><asset:image src="blogging.png"/></g:link>
+						    </div>
+						    
+						    <div class="item">
+						      <g:link class="list" action="index" controller="documentation"><asset:image src="documentation.png"/></g:link>
+						    </div>
 						  </div>
 
 						  <!-- Left and right controls -->
@@ -251,7 +264,7 @@
 													    <li><a href="#tabs-2">Lean Startup</a></li>
 													    <li><a href="#tabs-3">Customer Development</a></li>
 													    <li><a href="#tabs-4">Venture Capital</a></li>
-													    <li><a href="#tabs-5">Documentation</a></li>
+													    <li><a href="#tabs-5">Training</a></li>
 													  </ul>
 													  <div id="tabs-1">
 													  	<p><g:link class="list" action="index" controller="projects"><span style="color:#fdeba9;font-size:20px">Projects - Start creating agile development projects.</span></g:link></p>
