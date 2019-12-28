@@ -152,9 +152,11 @@
 												<li><button class="button"><g:link controller="sprint" action="index">Agile Development</g:link></button></li>
 												<li><button class="button"><g:link controller="customerDevelopment" action="index">Lean Startup</g:link></button></li>
 												<li><button class="button"><g:link controller="product" action="twitter">Twitter</g:link></button></li>
+												<sec:ifLoggedIn>
 												<li><button class="button"><g:form controller="logout">                        
     													<g:submitButton name="logout" value="Logout" />
 													</g:form></button></li>
+													</sec:ifLoggedIn>
 												<!--<li><a href="left-sidebar.html">Login</a></li>-->
 											</ul>
 										</nav>
