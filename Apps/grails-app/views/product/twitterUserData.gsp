@@ -138,7 +138,7 @@
 														<button class="button"><g:link controller="product" action="favorite" id ="${tweet.id}">Favorite</g:link></button>
 														</header>
 														<br><br>
-														<p style="font-size:24px;">User: ${tweet.userScreenName}</p>
+														<p style="font-size:24px;">Twitter Username: ${tweet.userScreenName}</p>
 														<br><br>
 														<p style="font-size:18px;">Full name: ${tweet.userName}</p>
 														<br><br>
@@ -155,7 +155,7 @@
 														<br><br>
 														<p style="font-size:18px;">Following: ${tweet.userNumFollowing}</p>
 														<br><br>
-														<p style="font-size:24px;">Twitter: <button class="button"><g:link url="https://twitter.com/${tweet.userScreenName}"><span style="color:#000;">${tweet.userScreenName}</span></g:link></button></p>
+														<p style="font-size:24px;"><button class="button"><g:link url="https://twitter.com/${tweet.userScreenName}">${tweet.userScreenName}</g:link></button></p>
 														</section>
 												</div>
 											</div>
