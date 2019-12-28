@@ -1,12 +1,12 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<meta name="description" content="foodal" />
-<meta name="keywords" content="foodal, local, local food, food, local business, farmers, farmers market, farmer market, farmers markets, market, markets, farm, farm market, business, farm business, organic, health, nutrient,california local markets,california markets,local farmers market,local farmers markets,local farmer markets,local market,local markets,local farmers, farmers,local california,california,local, local business, chef, food chef, featured chef, food, home cook, cook, home, recipe, home recipe, food recipe, cook recipe, spiritual, spirit, blogger, socialmedia, socialmedia blogger, social media blogger, facebook, facebook feed, twitter, twitter update, twitter, twitter hash, twitter hashtag, hash, hashtag,viral,mytweetmark,mytweetmark.com,myhash, brand,share posts,post information,organize bookmarks,share bookmarks,share knowledge,organize bookmarks,categorize bookmarks,email bookmarks, share bookmarks and posts, share posts and bookmarks, share with friends,tweet,twitter" />
+		<meta name="description" content="Building agile development and lean startup tools, for entrepreneurs, venture capital, startups and project manager." />
+<meta name="keywords" content="lean startup, customer development, agile development, agile sprints, agile back log, agile backlog, venture capital, startups, entrepreneur, entrepreneurship, customer feedback loop, product development, product roadmap, project management, product backlog" />
 <meta http-equiv="window-target" content="_top" />
 <META HTTP-EQUIV="CACHE-CONTROL" CONTENT="PUBLIC">
 	<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
-	<title>Foodal - Promote your local food business and farmers markets.</title>
+	<title>Shop - Real-time Twitter feeds</title>
 	<asset:stylesheet src="skel-noscript.css"/>
 	<asset:stylesheet src="style.css"/>
 	<asset:stylesheet src="style-desktop.css"/>
@@ -33,9 +33,41 @@
 	
 		</noscript>-->
 		<!--[if lte IE 8]><asset:javascript src="html5shiv.js"/><asset:stylesheet src="ie8.css"/><![endif]-->
+		<style>
+
+		  p {
+		  border: 2px solid #e5e1e1;
+		  border-width: 2px;
+		  margin: 5px;
+		  padding: 10px;
+		  background-color: #5f6469;
+		  color: #fdeba9;
+		}
+		.button {
+		  display: inline-block;
+		  padding: 15px 25px;
+		  font-size: 15px;
+		  cursor: pointer;
+		  text-align: center;
+		  text-decoration: none;
+		  outline: none;
+		  color: #fdeba9;
+		  background-color: #000000;
+		  border: none;
+		  border-radius: 15px;
+		  box-shadow: 0 9px #999;
+		}
+
+		.button:hover {background-color: #a3a6a3}
+		
+		.button:active {
+		  background-color: #3e8e41;
+		  box-shadow: 0 5px #666;
+		  transform: translateY(4px);
+		}
+		  </style>
 	</head>
 	<body class="homepage">
-	<a href="/#"><asset:image src="favicon.png" class="grails-logo"/></a>
 		<!-- Header Wrapper -->
 			<div id="header-wrapper">
 				<div class="container">
@@ -45,10 +77,10 @@
 
 							<!-- Banner -->
 								<section id="banner">
-									<a href="http://foodal.co">
-										<span class="image image-full"><asset:image src="foodal-profile-2.png"/></span>
+									<a href="http://taote.shop">
+										<span class="image image-full"><asset:image src="guru.png"/></span>
 										<header>
-											<h2>Foodal</h2>
+											<h2>taote.shop</h2>
 											<!--span class="byline">welcome!</span-->
 										</header>
 									</a>
@@ -61,19 +93,13 @@
 								<!-- Nav -->
 										<nav id="nav">
 											<ul>
-												<li><g:link url="/">Home</g:link></li>
-												<li><g:link controller="product" action="twitterg20">G20</g:link></li>
-												<li><g:link controller="product" action="twitterBrics">Brics</g:link></li>
-												<li><g:link controller="product" action="twitterPanamaPapers">Panama Papers</g:link></li>
-												<li><g:link controller="product" action="twitterHeadline">Headlines</g:link></li>
-												<li><g:link controller="product" action="twitterTrump">Trump</g:link></li>
-												<li><g:link controller="product" action="twitterVenture">Venture</g:link></li>
-												<li><g:link controller="product" action="twitterEntertainment">Entertainment</g:link></li>
-												<li><g:link controller="product" action="twitterDefense">Defense</g:link></li>
-												<li><g:link controller="product" action="twitterYoga">Yoga</g:link></li>
-												<li><g:link controller="product" action="twitterHillary">Hillary</g:link></li>
-												<li><g:link controller="product" action="twitterThiel">Thiel</g:link></li>
-												<li><g:link controller="tweet" action="index">Archived</g:link></li>
+												<li><button class="button"><g:link url="/">Home</g:link></button></li>
+												<li><button class="button"><g:link controller="product" action="shelf">Dashboard</g:link></button></li>
+												<li><button class="button"><g:link controller="sprint" action="index">Agile Development</g:link></button></li>
+												<li><button class="button"><g:link controller="customerDevelopment" action="index">Lean Startup</g:link></button></li>
+												<li><button class="button"><g:form controller="logout">                        
+    													<g:submitButton name="logout" value="Logout" />
+													</g:form></button></li>
 												<!--<li><a href="left-sidebar.html">Login</a></li>-->
 											</ul>
 										</nav>
@@ -174,34 +200,9 @@
 							
 							<!-- Portfolio -->
 								<section>
-									<span style="font-size:40px;color:white">Also visit:</span>
 									
-									<div>
-										<div class="row">
-											<div class="4u" >
-												<section class="box">
-													<a href="http://www.homecook.me/farmerMarket/all" class="image image-full"><asset:image src="skill.png"/></a>
-												
-													<p><a href="http://www.homecook.me/farmerMarket/all">Alphabetical customer listing</a></p>
-												
-												</section>
-											</div>
-											<div class="4u">
-												<section class="box">
-													<a href="http://www.homecook.me/homecookme" class="image image-full"><asset:image src="vc.png"/></a>
-													<p><a href="http://www.homecook.me/homecookme">Local food API and programming</a></p>
-												</section>
-											</div>
-											<div class="4u">
-												<section class="box">
-													<a href="http://www.mytweetmark.com" class="image image-full"><asset:image src="whiteman-2.png"/></a>
-													<p><a href="http://www.mytweetmark.com">Twitter marketing tool</a></p>
-												</section>
-											</div>
-										</div>
 										
-											
-					</div>
+					
 					<div class="row">
 						<div class="12u">
 
@@ -311,9 +312,12 @@
 							
 							</div>
 						</div-->
+						<a href="/"><asset:image src="logoshop5.png" width="150px" height="150px"/></a>
+						<br><br>
+						
 						<div class="row">
 							<div class="4u">
-<section>
+								<section>
 									<header>
 										<h2>Connect with us</h2>
 									</header>
@@ -323,17 +327,13 @@
 										<li><a class="fa fa-linkedin solo" href="https://www.linkedin.com/company-beta/18041812/"><span>LinkedIn</span></a></li>-->
 										<!--li><a class="fa fa-google-plus solo" href="#"><span>Google+</span></a></li-->
 									<!--  </ul>-->
-									<ul class="contact">
+									<ul class="divided">
 										<li>
-											<h3>Address</h3>
-											<p>
-												Oakland<br />
-																							California
-											</p>
+											<h3>Oakland, California</h3>
+											
 										</li>
 										<li>
-											<h3>Mail</h3>
-											<p><a href="mailto:bilal@mytweetmark.com">bilal@mytweetmark.com</a></p>
+											<h3><a href="bilal@mytweetmark.com">bilal@mytweetmark.com</a></h3>
 										</li>
 										<!--li>
 											<h3>Phone</h3>
@@ -344,6 +344,7 @@
 								
 
 							</div>
+							
 							<div class="4u">
 
 								<section>
@@ -351,20 +352,21 @@
 										<h2>More about us</h2>
 									</header>
 									<ul class="divided">
-										<li><a href="http://www.homecook.me/images/survey.doc">Survey</a></li>
-										<li><a href="http://www.homecook.me/users/privacy">Privacy</a></li>
+										<li><a href="https://facebook.com/dotshopper/"><h3>On Facebook</h3></a></li>
+										<li><a href="http://bilalahmed.org"><h3>Our Website</h3></a></li>
 									</ul>
 								</section>
-
+				
 							</div>
+							 
 							<div class="4u">
 							<section>
 									<header>
 										<h2>And more...</h2>
 									</header>
 									<ul class="divided">
-										<li><a href="http://www.foundersspace.com/news-announcements/startup-splotlight-mytweetmark/">On FoundersSpace</a></li>
-										<li><a href="http://www.homecook.me/users/tos">Terms</a></li>
+										<li><a href="https://www.youtube.com/user/bahmed73"><h3>On YouTube</h3></a></li>
+										<li><a href="https://twitter.com/taoteshop"><h3>On Twitter</h3></a></li>
 										<!--li><a href="#">Sem feugiat sapien id suscipit magna felis nec</a></li>
 										<li><a href="#">Elit class aptent taciti sociosqu ad litora</a></li-->
 									</ul>
@@ -374,12 +376,12 @@
 							</div>
 						</div>
 						<div class="row">
-							<div class="12u">
+							<div class="10u">
 							
 								<!-- Copyright -->
 									<div id="copyright">
 										<ul class="links">
-											<li>&copy; 2017 foodal.co 	</li>
+											<li>&copy; 2020 Shop 	</li>
 											<!--li>Images: <a href="http://facebook.com/homecookme">Homecookme</a></li>
 											<li>Design: <a href="http://dalliusdesign.com">Dallius</a></li-->
 										</ul>
