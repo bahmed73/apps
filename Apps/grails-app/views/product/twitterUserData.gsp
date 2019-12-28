@@ -97,6 +97,7 @@
 												<li><button class="button"><g:link controller="product" action="shelf">Dashboard</g:link></button></li>
 												<li><button class="button"><g:link controller="sprint" action="index">Agile Development</g:link></button></li>
 												<li><button class="button"><g:link controller="customerDevelopment" action="index">Lean Startup</g:link></button></li>
+												<li><button class="button"><g:link controller="product" action="twitter">Twitter</g:link></button></li>
 												<li><button class="button"><g:form controller="logout">                        
     													<g:submitButton name="logout" value="Logout" />
 													</g:form></button></li>
@@ -113,7 +114,7 @@
 												<div class="12u">
 														<section class="box">
 														<header>
-														<p><span style="font-size:18px;color:#000;">search term: ${session.searchTerm}</span></p>
+														<p><span style="font-size:18px;">search term: ${session.searchTerm}</span></p>
 														<button class="button"><g:link controller="product" action="twitterUserData">Reload</g:link></button>
 														</header>
 														</section>
@@ -149,7 +150,7 @@
 														<p style="font-size:18px;">Followers: ${tweet.userNumFollowers}</p>
 														<br>
 														<p style="font-size:18px;">Following: ${tweet.userNumFollowing}</p>
-														<br><br>
+														<br>
 														<button class="button"><g:link url="https://twitter.com/${tweet.userScreenName}">${tweet.userScreenName}</g:link></button>
 														<button class="button"><g:link controller="product" action="retweet" id="${tweet.id}">Retweet</g:link></button>
 														<button class="button"><g:link controller="product" action="favorite" id ="${tweet.id}">Favorite</g:link></button>
