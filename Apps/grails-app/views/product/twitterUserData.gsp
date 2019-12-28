@@ -132,7 +132,7 @@
 												<div class="6u">
 														<section class="box">
 														<header>
-														<span style="font-size:24px;color:#000;">Tweet: ${tweet.text}</span>
+														<p><span style="font-size:24px;">Tweet: ${tweet.text}</span></p>
 														<br><br>
 														<button class="button"><g:link controller="product" action="retweet" id="${tweet.id}">Retweet</g:link></button>
 														<button class="button"><g:link controller="product" action="favorite" id ="${tweet.id}">Favorite</g:link></button>
@@ -148,7 +148,7 @@
 												<div class="6u">
 														<section class="box">
 														<header>
-														<span style="font-size:18px;color:#000;">Location: ${tweet.userLocation}</span>
+														<p><span style="font-size:18px;">Location: ${tweet.userLocation}</span></p>
 														</header>
 														<br><br>
 														<p style="font-size:18px;">Followers: ${tweet.userNumFollowers}</p>
