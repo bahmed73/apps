@@ -177,7 +177,7 @@
 														<button class="button"><g:link url="https://twitter.com/${tweet.userScreenName}">${tweet.userScreenName}</g:link></button>
 														<button class="button"><g:link controller="product" action="retweet" id="${tweet.id}">Retweet</g:link></button>
 														<button class="button"><g:link controller="product" action="favorite" id ="${tweet.id}">Favorite</g:link></button>
-														<button class="button" style="color:#fff"><g:link controller="product" action="mention" params ="[userName:'${tweet.userScreenName}']">Send Mention</g:link></button>
+														<button class="button" style="color:#fff"><g:link controller="product" action="mention" params ="[userName:${tweet.userScreenName}]">Send Mention</g:link></button>
 														</section>
 												</div>
 											</div>
