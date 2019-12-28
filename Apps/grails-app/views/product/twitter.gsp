@@ -91,7 +91,7 @@
 									<a href="http://taote.shop">
 										<span class="image image-full"><asset:image src="guru.png"/></span>
 										<header>
-											<h2>taote.shop</h2>
+											<h2>twitter</h2>
 											<!--span class="byline">welcome!</span-->
 										</header>
 									</a>
@@ -125,14 +125,14 @@
 													<section class="box">
 													<!-- <a href="http://www.mytweetmark.com" class="image image-full"><asset:image src="foodal-homepage-16.png"/></a> -->
 													<header>
-														<span style="font-size:35px;">Lean Startup!</span>
+														<span style="font-size:35px;color:#000;">Lean Startup!</span>
 													</header>
 													<div>
 													<ul style="list-style-type:disc; margin:50px;font-size:20px;">
-													<li>Find some really cool interesting people.</li>
-													<li>Find out what news many others are reading.</li>
-													<li>You never know what you might find.</li>
-													<li>Let's get started!</li>
+													<li><span style="font-size:28px;color:#000;">Find some really cool interesting people.</span></li>
+													<li><span style="font-size:28px;color:#000;">Find out what news many others are reading.</span></li>
+													<li><span style="font-size:28px;color:#000;">You never know what you might find.</span></li>
+													<li><span style="font-size:28px;color:#000;">Let's get started!</span></li>
 													</ul>
 													</div>
 													

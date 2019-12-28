@@ -80,7 +80,7 @@
 									<a href="http://taote.shop">
 										<span class="image image-full"><asset:image src="guru.png"/></span>
 										<header>
-											<h2>taote.shop</h2>
+											<h2>twitter</h2>
 											<!--span class="byline">welcome!</span-->
 										</header>
 									</a>
@@ -132,13 +132,13 @@
 												<div class="6u">
 														<section class="box">
 														<header>
-														<span style="font-size:35px;">Tweet: ${tweet.text}</span>
+														<span style="font-size:28px;color:#000;">Tweet: ${tweet.text}</span>
 														<br>
 														<g:link controller="product" action="retweet" id="${tweet.id}"><asset:image src="retweet.png"/></g:link>
 														<g:link controller="product" action="favorite" id ="${tweet.id}"><asset:image src="favorite.png"/></g:link>
 														</header>
 														<br><br>
-														<p style="font-size:24px;color:#8a7e7e;">User: ${tweet.userScreenName}</p>
+														<p style="font-size:24px;">User: ${tweet.userScreenName}</p>
 														<br><br>
 														<p style="font-size:18px;">Full name: ${tweet.userName}</p>
 														<br><br>
@@ -148,14 +148,14 @@
 												<div class="6u">
 														<section class="box">
 														<header>
-														<span style="font-size:35px;">Location: ${tweet.userLocation}</span>
+														<span style="font-size:28px;color:#000;">Location: ${tweet.userLocation}</span>
 														</header>
 														<br><br>
-														<p style="font-size:24px;color:#8a7e7e;">Followers: ${tweet.userNumFollowers}</p>
+														<p style="font-size:24px;">Followers: ${tweet.userNumFollowers}</p>
 														<br><br>
 														<p style="font-size:18px;">Following: ${tweet.userNumFollowing}</p>
 														<br><br>
-														<p style="font-size:18px;color:#8a7e7e;">Twitter: <g:link url="https://twitter.com/${tweet.userScreenName}"><span style="color:#8a7e7e;">${tweet.userScreenName}</span></g:link></p>
+														<p style="font-size:18px;">Twitter: <g:link url="https://twitter.com/${tweet.userScreenName}"><span style="color:#8a7e7e;">${tweet.userScreenName}</span></g:link></p>
 														</section>
 												</div>
 											</div>
