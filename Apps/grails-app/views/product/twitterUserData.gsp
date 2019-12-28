@@ -133,9 +133,6 @@
 														<section class="box">
 														<header>
 														<p><span style="font-size:24px;">Tweet: ${tweet.text}</span></p>
-														<br><br>
-														<button class="button"><g:link controller="product" action="retweet" id="${tweet.id}">Retweet</g:link></button>
-														<button class="button"><g:link controller="product" action="favorite" id ="${tweet.id}">Favorite</g:link></button>
 														</header>
 														<br><br>
 														<p style="font-size:24px;">Twitter Username: ${tweet.userScreenName}</p>
@@ -156,6 +153,10 @@
 														<p style="font-size:18px;">Following: ${tweet.userNumFollowing}</p>
 														<br><br>
 														<p style="font-size:24px;"><button class="button"><g:link url="https://twitter.com/${tweet.userScreenName}">${tweet.userScreenName}</g:link></button></p>
+														<br><br>
+														<button class="button"><g:link controller="product" action="retweet" id="${tweet.id}">Retweet</g:link></button>
+														<button class="button"><g:link controller="product" action="favorite" id ="${tweet.id}">Favorite</g:link></button>
+														
 														</section>
 												</div>
 											</div>
