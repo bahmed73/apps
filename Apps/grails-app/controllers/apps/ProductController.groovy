@@ -17,8 +17,8 @@ class ProductController {
 	
     static allowedMethods = [save: "POST", update: "PUT", delete: "DELETE"]
 
-	static final String consumerKey = "qq1Mr7tLmzDSsUcGtBZmvM35d"
-	static final String consumerSecret = "huFnBilI98zuGZH4IicZsWOgs7w2b2OHJ9NtQhtedTkZ3XrLzM"
+	static final String consumerKey = "2wNsDeM9h74ICwQilAB2XqK2V"
+	static final String consumerSecret = "PsQDMqXKiqQjKzeBoyk8krJLbgkeIoiZ5BJVbrOUCNQGjn0Qck"
 	
 	
     def index(Integer max) {
