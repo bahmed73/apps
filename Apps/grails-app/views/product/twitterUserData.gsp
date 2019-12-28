@@ -67,32 +67,13 @@
 		}
 		  </style>
 	</head>
-	<body class="homepage" onload="testEffect()">
-	<script type="text/javascript">
-	function testEffect() {
-	      // Most effect types need no options passed by default
-	      var options = {};
-	           // Run the effect
-	      $( "#block1" ).effect( "bounce", options, 500, callback );
-	      $( "#block2" ).effect( "pulsate", options, 500, callback );
-	      $( "#block3" ).effect( "puff", options, 500, callback );
-	    };
-	 
-	    // Callback function to bring a hidden box back
-	    function callback() {
-	      setTimeout(function() {
-	        $( "#block1" ).removeAttr( "style" ).hide().fadeIn();
-	        $( "#block2" ).removeAttr( "style" ).hide().fadeIn();
-	        $( "#block3" ).removeAttr( "style" ).hide().fadeIn();
-	      }, 1000 );
-	    };
-	</script>
+	<body class="homepage">
 		<!-- Header Wrapper -->
 			<div id="header-wrapper">
 				<div class="container">
 					
 					<div class="row">
-						<div id="block3" class="12u">
+						<div class="12u">
 
 							<!-- Banner -->
 								<section id="banner">
@@ -129,7 +110,7 @@
 									<section>
 										<div>
 											<div class="row">
-												<div id="block1" class="6u">
+												<div class="6u">
 														<section class="box">
 														<header>
 														<span style="font-size:35px;color:#000;">search term: ${session.searchTerm}</span>
@@ -147,12 +128,12 @@
 								<div class="12u">
 									<section>
 										<div>
-											<div id="block2" class="row">
+											<div class="row">
 												<div class="6u">
 														<section class="box">
 														<header>
-														<span style="font-size:28px;color:#000;">Tweet: ${tweet.text}</span>
-														<br>
+														<span style="font-size:24px;color:#000;">Tweet: ${tweet.text}</span>
+														<br><br>
 														<button class="button"><g:link controller="product" action="retweet" id="${tweet.id}">Retweet</g:link></button>
 														<button class="button"><g:link controller="product" action="favorite" id ="${tweet.id}">Favorite</g:link></button>
 														</header>
@@ -167,14 +148,14 @@
 												<div class="6u">
 														<section class="box">
 														<header>
-														<span style="font-size:28px;color:#000;">Location: ${tweet.userLocation}</span>
+														<span style="font-size:18px;color:#000;">Location: ${tweet.userLocation}</span>
 														</header>
 														<br><br>
-														<p style="font-size:24px;">Followers: ${tweet.userNumFollowers}</p>
+														<p style="font-size:18px;">Followers: ${tweet.userNumFollowers}</p>
 														<br><br>
 														<p style="font-size:18px;">Following: ${tweet.userNumFollowing}</p>
 														<br><br>
-														<p style="font-size:18px;">Twitter: <g:link url="https://twitter.com/${tweet.userScreenName}"><span style="color:#8a7e7e;">${tweet.userScreenName}</span></g:link></p>
+														<p style="font-size:24px;">Twitter: <button class="button"><g:link url="https://twitter.com/${tweet.userScreenName}"><span style="color:#000;">${tweet.userScreenName}</span></g:link></button></p>
 														</section>
 												</div>
 											</div>
