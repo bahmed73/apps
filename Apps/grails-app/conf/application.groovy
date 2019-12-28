@@ -31,6 +31,7 @@ grails.plugin.springsecurity.controllerAnnotations.staticRules = [
 	[pattern: '/product/twitterThiel',access: ['permitAll']],
 	[pattern: '/product/retweet',access: ['permitAll']],
 	[pattern: '/product/favorite',access: ['permitAll']],
+	[pattern: '/product/mention',access: ['permitAll']],
 	[pattern: '/tweet/index',access: ['permitAll']],
 	[pattern: '/tweet/show',access: ['permitAll']],
 	[pattern: '/product/premium',access: ['permitAll']],
