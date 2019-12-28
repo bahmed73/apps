@@ -33,6 +33,14 @@
 	
 		</noscript>-->
 		<!--[if lte IE 8]><asset:javascript src="html5shiv.js"/><asset:stylesheet src="ie8.css"/><![endif]-->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-154739766-1"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+		
+		  gtag('config', 'UA-154739766-1');
+		</script>
 		<style>
 
 		  p {

@@ -35,13 +35,13 @@
 		<!--[if lte IE 8]><asset:javascript src="html5shiv.js"/><asset:stylesheet src="ie8.css"/><![endif]-->
 		
 		<!-- Global Site Tag (gtag.js) - Google Analytics -->
-		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-106312202-1"></script>
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-154739766-1"></script>
 		<script>
 		  window.dataLayer = window.dataLayer || [];
-		  function gtag(){dataLayer.push(arguments)};
+		  function gtag(){dataLayer.push(arguments);}
 		  gtag('js', new Date());
 		
-		  gtag('config', 'UA-106312202-1');
+		  gtag('config', 'UA-154739766-1');
 		</script>
 		
 		<style>
