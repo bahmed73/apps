@@ -443,6 +443,13 @@ class TwitterService {
 		twitter.retweetStatus(Long.valueOf(tweetId))
 	}
 	
+	public def mention(userName, twitter) {
+		
+		log.info "inside twitter.mention"
+		
+		twitter.updateStatus("@"+userName+" We are building agile development and lean startup tools for venture capitals, entrepreneurs, startups and project managers! Contact us please.")
+	}
+	
 	public def favorite(tweetId, twitter) {
 		
 		log.info "inside twitter.favorite"

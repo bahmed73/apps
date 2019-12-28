@@ -41,6 +41,18 @@
 		
 		  gtag('config', 'UA-154739766-1');
 		</script>
+		
+		<link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.7.0/themes/ui-lightness/jquery-ui.css" />
+	    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js" type="text/javascript"></script>
+	    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.7.2/jquery-ui.min.js" type="text/javascript"></script>
+	    <script type="text/javascript">
+		$(document).ready(function() {
+			$('div#thedialog').dialog({ autoOpen: false })
+			$('#thelink').click(function(){ $('div#thedialog').dialog('open'); });
+			})
+			    </script>
+		</script>
+		
 		<style>
 
 		  p {
@@ -162,6 +174,17 @@
 														<button class="button"><g:link url="https://twitter.com/${tweet.userScreenName}">${tweet.userScreenName}</g:link></button>
 														<button class="button"><g:link controller="product" action="retweet" id="${tweet.id}">Retweet</g:link></button>
 														<button class="button"><g:link controller="product" action="favorite" id ="${tweet.id}">Favorite</g:link></button>
+														
+														<div id="thedialog" title="Twitter Message" style="margin:30px;">
+													    <p>
+													        <span class="ui-icon ui-icon-circle-check" style="float:left; margin:0 7px 50px 0;"></span>
+													        @${tweet.userScreenName} We are building agile development and lean startup tools for venture capitals, entrepreneurs, startups and project managers! Contact us please.
+													    </p>
+													    <p>
+													        <button class="button"><g:link controller="product" action="mention" params ="userName:'${tweet.userScreenName}'">Send Mention</g:link></button>
+													    </p>
+														</div>
+														<button class="button" id="thelink">Mention</button>
 														
 														</section>
 												</div>

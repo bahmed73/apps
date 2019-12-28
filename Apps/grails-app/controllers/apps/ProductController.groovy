@@ -834,6 +834,18 @@ class ProductController {
 		redirect(uri: request.getHeader('referer') )
 	}
 	
+	def mention() {
+		
+			if (params.userName != null) {
+				System.out.println("inside twitter mention! twitter username = " + params.userName)
+				log.info "inside twitter retweet"
+				twitterService.mention(params.userName, session.twitter)
+			}
+			
+			redirect(uri: request.getHeader('referer') )
+		}
+	
+	
 	def favorite() {
 		
 		if (params.id != null) {
