@@ -175,6 +175,7 @@
 						    <li data-target="#myCarousel" data-slide-to="3"></li>
 						    <li data-target="#myCarousel" data-slide-to="4"></li>
 						    <li data-target="#myCarousel" data-slide-to="5"></li>
+						    <li data-target="#myCarousel" data-slide-to="6"></li>
 						  </ol>
 
 						  <!-- Wrapper for slides -->
@@ -197,6 +198,10 @@
 						    
 						    <div class="item">
 						      <g:link class="list" action="index" controller="documentation"><asset:image src="documentation.png"/></g:link>
+						    </div>
+						    
+						    <div class="item">
+						      <g:link class="list" action="twitter" controller="product"><asset:image src="customerdevelopment-2.png"/></g:link>
 						    </div>
 						  </div>
 

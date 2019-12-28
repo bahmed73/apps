@@ -78,7 +78,7 @@
 							<!-- Banner -->
 								<section id="banner">
 									<a href="http://taote.shop">
-										<span class="image image-full"><asset:image src="guru.png"/></span>
+										<span class="image image-full"><asset:image src="customerdevelopment-2.png"/></span>
 										<header>
 											<h2>twitter</h2>
 											<!--span class="byline">welcome!</span-->
