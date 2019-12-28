@@ -67,13 +67,32 @@
 		}
 		  </style>
 	</head>
-	<body class="homepage">
+	<body class="homepage" onload="testEffect()">
+	<script type="text/javascript">
+	function testEffect() {
+	      // Most effect types need no options passed by default
+	      var options = {};
+	           // Run the effect
+	      $( "#block1" ).effect( "bounce", options, 500, callback );
+	      $( "#block2" ).effect( "pulsate", options, 500, callback );
+	      $( "#block3" ).effect( "puff", options, 500, callback );
+	    };
+	 
+	    // Callback function to bring a hidden box back
+	    function callback() {
+	      setTimeout(function() {
+	        $( "#block1" ).removeAttr( "style" ).hide().fadeIn();
+	        $( "#block2" ).removeAttr( "style" ).hide().fadeIn();
+	        $( "#block3" ).removeAttr( "style" ).hide().fadeIn();
+	      }, 1000 );
+	    };
+	</script>
 		<!-- Header Wrapper -->
 			<div id="header-wrapper">
 				<div class="container">
 					
 					<div class="row">
-						<div class="12u">
+						<div id="block3" class="12u">
 
 							<!-- Banner -->
 								<section id="banner">
@@ -110,11 +129,11 @@
 									<section>
 										<div>
 											<div class="row">
-												<div class="6u">
+												<div id="block1" class="6u">
 														<section class="box">
 														<header>
-														<span style="font-size:35px;">search term: ${session.searchTerm}</span>
-														<g:link controller="product" action="twitterUserData"><asset:image src="reload.png"/></g:link>
+														<span style="font-size:35px;color:#000;">search term: ${session.searchTerm}</span>
+														<button class="button"><g:link controller="product" action="twitterUserData">Reload</g:link></button>
 														</header>
 														</section>
 												</div>
@@ -128,14 +147,14 @@
 								<div class="12u">
 									<section>
 										<div>
-											<div class="row">
+											<div id="block2" class="row">
 												<div class="6u">
 														<section class="box">
 														<header>
 														<span style="font-size:28px;color:#000;">Tweet: ${tweet.text}</span>
 														<br>
-														<g:link controller="product" action="retweet" id="${tweet.id}"><asset:image src="retweet.png"/></g:link>
-														<g:link controller="product" action="favorite" id ="${tweet.id}"><asset:image src="favorite.png"/></g:link>
+														<button class="button"><g:link controller="product" action="retweet" id="${tweet.id}">Retweet</g:link></button>
+														<button class="button"><g:link controller="product" action="favorite" id ="${tweet.id}">Favorite</g:link></button>
 														</header>
 														<br><br>
 														<p style="font-size:24px;">User: ${tweet.userScreenName}</p>
