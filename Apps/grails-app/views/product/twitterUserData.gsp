@@ -110,10 +110,10 @@
 									<section>
 										<div>
 											<div class="row">
-												<div class="6u">
+												<div class="12u">
 														<section class="box">
 														<header>
-														<span style="font-size:35px;color:#000;">search term: ${session.searchTerm}</span>
+														<p><span style="font-size:18px;color:#000;">search term: ${session.searchTerm}</span></p>
 														<button class="button"><g:link controller="product" action="twitterUserData">Reload</g:link></button>
 														</header>
 														</section>
@@ -134,11 +134,9 @@
 														<header>
 														<p><span style="font-size:24px;">Tweet: ${tweet.text}</span></p>
 														</header>
-														<br><br>
-														<p style="font-size:24px;">Twitter Username: ${tweet.userScreenName}</p>
-														<br><br>
+														<br>
 														<p style="font-size:18px;">Full name: ${tweet.userName}</p>
-														<br><br>
+														<br>
 														<p style="font-size:18px;">Created At: ${tweet.createdAt}</p>
 														</section>
 												</div>
@@ -147,13 +145,12 @@
 														<header>
 														<p><span style="font-size:18px;">Location: ${tweet.userLocation}</span></p>
 														</header>
-														<br><br>
+														<br>
 														<p style="font-size:18px;">Followers: ${tweet.userNumFollowers}</p>
-														<br><br>
+														<br>
 														<p style="font-size:18px;">Following: ${tweet.userNumFollowing}</p>
 														<br><br>
-														<p style="font-size:24px;"><button class="button"><g:link url="https://twitter.com/${tweet.userScreenName}">${tweet.userScreenName}</g:link></button></p>
-														<br><br>
+														<button class="button"><g:link url="https://twitter.com/${tweet.userScreenName}">${tweet.userScreenName}</g:link></button>
 														<button class="button"><g:link controller="product" action="retweet" id="${tweet.id}">Retweet</g:link></button>
 														<button class="button"><g:link controller="product" action="favorite" id ="${tweet.id}">Favorite</g:link></button>
 														
@@ -173,14 +170,14 @@
 									<div>
 										<div class="row">
 										
-										<div class="6u">
+										<div class="12u">
 													<section class="box">
 													<!-- <a href="http://www.mytweetmark.com" class="image image-full"><asset:image src="foodal-homepage-16.png"/></a> -->
 													<header>
-													No results found.
+													<p><span style="font-size:18px;">No results found.</span></p>
 													</header>
 													<footer class="actions">
-														 <g:link controller="product" action="twitterUserData"><asset:image src="reload.png"/></g:link>
+														 <button class="button"><g:link controller="product" action="twitterUserData">Reload</g:link></button>
 														<br><br>
 													</footer>
 													</section>

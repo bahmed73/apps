@@ -127,6 +127,7 @@
 													<header>
 														<span style="font-size:35px;color:#000;">Lean Startup!</span>
 													</header>
+													<p>
 													<div>
 													<ul style="list-style-type:disc; margin:50px;font-size:20px;">
 													<li><span style="font-size:28px;color:#000;">Find some really cool interesting people.</span></li>
@@ -135,7 +136,7 @@
 													<li><span style="font-size:28px;color:#000;">Let's get started!</span></li>
 													</ul>
 													</div>
-													
+													</p>
 													<br><br>
 													<footer class="actions">
 														 <g:link controller="product" action="twitterLoggedIn"><asset:image src="sign-in-with-twitter-gray.png"/></g:link>
@@ -145,7 +146,7 @@
 											</div>
 										<div class="6u">
 												<section class="box">
-													<a href="http://taote.shop" class="image image-full"><asset:image src="twitter-anonymous.png"/></a>
+													<asset:image src="logoshop5.png"/>
 													<!--header>
 														<h3>Aptent veroeros et aliquam</h3>
 														<span class="byline">Posted 45 minutes ago</span>
