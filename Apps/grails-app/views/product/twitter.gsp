@@ -133,7 +133,7 @@
 													<li><span style="font-size:28px;color:#000;">Find some really cool interesting people.</span></li>
 													<li><span style="font-size:28px;color:#000;">Find out what news many others are reading.</span></li>
 													<li><span style="font-size:28px;color:#000;">You never know what you might find.</span></li>
-													<li><span style="font-size:28px;color:#000;">Let's get started!</span></li>
+													<li><span style="font-size:28px;color:#000;">Connect with them on Twitter. Let's get started!</span></li>
 													</ul>
 													</div>
 													</p>

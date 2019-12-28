@@ -224,6 +224,7 @@
 										<nav id="nav">
 											<ul>
 												<li><button class="button"><g:link class="list" action="shelf" controller="product"><span style="color:#ffffff">Dashboard</span></g:link></button></li>
+												<li><button class="button"><g:link class="list" controller="product" action="twitter"><span style="color:#ffffff">Twitter</span></g:link></button></li>
 												<li><button class="button"><div class="fb-share-button" data-href="${createLink(absolute: 'true')}" data-layout="button" data-size="small"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Ftaote.shop%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div></button></li>
 												<li><button class="button"><a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></button></li>
 												<br><br>
@@ -238,7 +239,7 @@
 						<section class="box" style="background-color:#fdeba9">
 										<div id="block3" class="12u" style="border-style:solid; border-color:#5f6469; border-width:1px;margin:1px;font-size:20px;">
 													<header>
-														<p><span style="font-size:28px;">Building agile development and lean startup tools, for entrepreneurs, venture capitals, startups and project managers. Starting at $50/month. Pay with card and register today.<br><br></span></p>
+														<p><span style="font-size:28px;">Building agile development and lean startup tools, for entrepreneurs, venture capitals, startups and project managers. Try our <g:link class="list" controller="product" action="twitter">Twitter Demo for free</g:link> for Customer Development. Starting at $50/month. Pay with card and register today.<br><br></span></p>
 														<div style="margin:20px">
 														<form controller="register" action="register" method="POST">
 														<script
