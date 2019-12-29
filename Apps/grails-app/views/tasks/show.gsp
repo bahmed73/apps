@@ -180,7 +180,7 @@
 												<header>
 													<g:if test="${tasks.imageThree}">
 													<div style="border: 2px solid #e5e1e1;">
-													<img src="data:image/png;base64,${tasks.imageThree?.encodeBase64()}" width="200px"/>
+													<img src="data:image/png;base64,${tasks.imageThree?.encodeBase64()}" width="250px"/>
 													</div>
 													<p style="font-size:24px;color:#000000">Upload task screenshot.</p>
 													<br>

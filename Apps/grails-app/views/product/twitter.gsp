@@ -178,7 +178,7 @@
 											</div>
 										<div class="6u">
 												<section class="box">
-													<g:link controller="product" action="twitterLoggedIn"><asset:image src="logoshop5.png"  width="300" heignt="300"/></g:link>
+													<g:link controller="product" action="twitterLoggedIn"><asset:image src="logoshop5.png"  width="250" heignt="250"/></g:link>
 													<!--header>
 														<h3>Aptent veroeros et aliquam</h3>
 														<span class="byline">Posted 45 minutes ago</span>
