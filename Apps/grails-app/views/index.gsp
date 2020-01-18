@@ -172,37 +172,18 @@
 						  <ol class="carousel-indicators">
 						    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
 						    <li data-target="#myCarousel" data-slide-to="1"></li>
-						    <li data-target="#myCarousel" data-slide-to="3"></li>
-						    <li data-target="#myCarousel" data-slide-to="4"></li>
-						    <li data-target="#myCarousel" data-slide-to="5"></li>
-						    <li data-target="#myCarousel" data-slide-to="6"></li>
 						  </ol>
 
 						  <!-- Wrapper for slides -->
 						  <div class="carousel-inner">
 						    <div class="item active">
-						      <g:link class="list" action="index" controller="sprint"><asset:image src="agiledevelopment-1.png"/></g:link>
+						      <g:link class="list" action="index" controller="projects"><asset:image src="agiledevelopment-1.png"/></g:link>
 						    </div>
 						    
 						    <div class="item">
 						      <g:link class="list" action="index" controller="customerDevelopment"><asset:image src="leanstartup-2.png"/></g:link>
 						    </div>
 						    
-						    <div class="item">
-						      <g:link class="list" action="index" controller="customerFeedback"><asset:image src="guru.png"/></g:link>
-						    </div>
-						    
-						    <div class="item">
-						      <g:link class="list" action="index" controller="blog"><asset:image src="blogging.png"/></g:link>
-						    </div>
-						    
-						    <div class="item">
-						      <g:link class="list" action="index" controller="documentation"><asset:image src="documentation.png"/></g:link>
-						    </div>
-						    
-						    <div class="item">
-						      <g:link class="list" action="twitter" controller="product"><asset:image src="customerdevelopment-2.png"/></g:link>
-						    </div>
 						  </div>
 
 						  <!-- Left and right controls -->
@@ -225,8 +206,8 @@
 											<ul>
 												<li><button class="button"><g:link class="list" action="shelf" controller="product"><span style="color:#ffffff">Dashboard</span></g:link></button></li>
 												<li><button class="button"><g:link class="list" controller="product" action="twitter"><span style="color:#ffffff">Twitter</span></g:link></button></li>
-												<li><button class="button"><div class="fb-share-button" data-href="${createLink(absolute: 'true')}" data-layout="button" data-size="small"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Ftaote.shop%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div></button></li>
-												<li><button class="button"><a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></button></li>
+												<li><button class="button"><div data-href="${createLink(absolute: 'true')}" data-layout="button" data-size="small"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Ftaote.shop%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div></button></li>
+												<li><button class="button"><a href="https://twitter.com/share?ref_src=twsrc%5Etfw" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></button></li>
 												<br><br>
 												
 												
@@ -312,7 +293,7 @@
 														<p><span style="color:#8a7e7e;font-size:20px;"><g:link action="show" controller="blog" id="712"><span style="color:#fdeba9;">- Why agile development and lean startup on shop?</span></g:link></span></p>
 														<p><span style="color:#8a7e7e;font-size:20px;"><g:link action="show" controller="blog" id="713"><span style="color:#fdeba9;">- Company Needs?</span></g:link></span></p>
 														<p><span style="color:#8a7e7e;font-size:20px;"><g:link action="show" controller="blog" id="714"><span style="color:#fdeba9;">- What excites you?</span></g:link></span></p>
-														<p><span style="color:#8a7e7e;font-size:20px;"><g:link action="show" controller="blog" id="715"><span style="color:#fdeba9;">- One Line Pitch</span></g:link></span></p>
+														<p><span style="color:#8a7e7e;font-size:20px;"><g:link action="show" controller="blog" id="715"><span style="color:#fdeba9;">- One line pitch</span></g:link></span></p>
 														<p><span style="color:#8a7e7e;font-size:20px;"><g:link action="show" controller="blog" id="716"><span style="color:#fdeba9;">- Team</span></g:link></span></p>
 																
 													  </div>
