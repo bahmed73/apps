@@ -172,18 +172,22 @@
 						  <ol class="carousel-indicators">
 						    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
 						    <li data-target="#myCarousel" data-slide-to="1"></li>
+						    <li data-target="#myCarousel" data-slide-to="2"></li>
 						  </ol>
 
 						  <!-- Wrapper for slides -->
 						  <div class="carousel-inner">
 						    <div class="item active">
-						      <g:link class="list" action="index" controller="projects"><asset:image src="agiledevelopment-1.png"/></g:link>
+						      <g:link class="list" action="index" controller="customer"><asset:image src="custom-1.png"/></g:link>
 						    </div>
 						    
 						    <div class="item">
-						      <g:link class="list" action="index" controller="customerDevelopment"><asset:image src="leanstartup-2.png"/></g:link>
-						    </div>
+						    <g:link class="list" action="index" controller="projects"><asset:image src="agiledevelopment-1.png"/></g:link>
+						      </div>
 						    
+						    <div class="item">
+						    <g:link class="list" action="index" controller="customerDevelopment"><asset:image src="leanstartup-2.png"/></g:link>
+						    </div>
 						    
 						  </div>
 
