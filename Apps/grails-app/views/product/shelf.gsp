@@ -170,7 +170,7 @@
 							<!-- Banner -->
 								<section id="banner">
 									
-										<span class="image image-full"><asset:image src="guru.png"/></span>
+										<span class="image image-full"><asset:image src="you.png"/></span>
 										<header>
 										<!-- 
 											<h2>Shop</h2> 

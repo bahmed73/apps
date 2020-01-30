@@ -173,22 +173,41 @@
 						    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
 						    <li data-target="#myCarousel" data-slide-to="1"></li>
 						    <li data-target="#myCarousel" data-slide-to="2"></li>
+						    <li data-target="#myCarousel" data-slide-to="3"></li>
+						    <li data-target="#myCarousel" data-slide-to="4"></li>
+						    <li data-target="#myCarousel" data-slide-to="5"></li>
+						    <li data-target="#myCarousel" data-slide-to="6"></li>
 						  </ol>
 
 						  <!-- Wrapper for slides -->
 						  <div class="carousel-inner">
 						    <div class="item active">
-						      <g:link class="list" action="index" controller="customer"><asset:image src="custom-1.png"/></g:link>
+						      <g:link class="list" action="index" controller="projects"><asset:image src="custom-1.png"/></g:link>
 						    </div>
 						    
 						    <div class="item">
-						    <g:link class="list" action="index" controller="projects"><asset:image src="agiledevelopment-1.png"/></g:link>
+						    <g:link class="list" action="index" controller="tasks"><asset:image src="you.png"/></g:link>
+						      </div>
+						    
+						    <div class="item">
+						    <g:link class="list" action="index" controller="sprints"><asset:image src="agiledevelopment-1.png"/></g:link>
 						      </div>
 						    
 						    <div class="item">
 						    <g:link class="list" action="index" controller="customerDevelopment"><asset:image src="leanstartup-2.png"/></g:link>
 						    </div>
 						    
+						    <div class="item">
+						    <g:link class="list" action="index" controller="blog"><asset:image src="blogging.png"/></g:link>
+						    </div>
+						    
+						    <div class="item">
+						    <g:link class="list" action="index" controller="documentation"><asset:image src="documentation.png"/></g:link>
+						    </div>
+						    
+						    <div class="item">
+						    <g:link class="list" action="index" controller="customerFeedback"><asset:image src="signing.png"/></g:link>
+						    </div>
 						  </div>
 
 						  <!-- Left and right controls -->
@@ -223,7 +242,7 @@
 							<div class="row">
 						<div class="12u">
 						<section class="box" style="background-color:#fdeba9">
-										<div id="block3" class="12u" style="border-style:solid; border-color:#5f6469; border-width:1px;margin:1px;font-size:20px;">
+										<div id="block3" class="12u" style="border-style:solid; border-color:#5f6469; border-width:5px;margin:1px;font-size:20px;">
 													<header>
 														<p><span style="font-size:28px;">Building agile development and lean startup tools, for entrepreneurs, venture capitals, startups and project managers. Try our <g:link class="list" controller="product" action="twitter">Twitter Demo for free</g:link> for Customer Development. Starting at $50/month. Pay with card and register today.<br><br></span></p>
 														<div style="margin:20px">
