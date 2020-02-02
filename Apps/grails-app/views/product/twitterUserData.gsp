@@ -173,9 +173,9 @@
 														<p><span style="font-size:24px;">search term: ${session.searchTerm}</span></p>
 														<g:form controller="product" action="twitterUserData">
 											                <fieldset>
-											                	<div style="float:left;width:50" class="post"><h2>Search:</h2></div>
+											                	<div style="float:left;margin-left:50px;font-size:20px;" class="post">Search:</div>
 											                	<br>
-											              				<h3>For example, #leanstartup.</h3>
+											              				For example, #leanstartup.
 											              		<br>
 											              		<div>
 											                  		<g:textField name="searchTerm" value="${session.searchTerm}"/>
@@ -202,7 +202,7 @@
 												<div class="12u">
 														<section class="box">
 														<header>
-														<p><span style="font-size:24px;">Tweet: ${tweet.text}</span></p>
+														<p><span style="font-size:24px;"><b>Tweet:</b> ${tweet.text}</span></p>
 														</header>
 														<br>
 														<p style="font-size:18px;">Full name: ${tweet.userName}</p>
