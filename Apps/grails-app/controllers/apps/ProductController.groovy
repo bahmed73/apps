@@ -771,13 +771,24 @@ class ProductController {
 		log.info "inside twitter user data: loggedIn!"
 		
 		if (session.twitter) {
-		def searchResults = twitterService.search("#leanstartup", session.twitter)
-		
-		session.searchTerm = "#leanstartup"
-		session.searchResults = searchResults
-		
-		//render (view: "twitterUserData", bean: searchResults)
-		respond searchResults, model:[searchTerm: "#leanstartup", searchCount:searchResults.size()]
+			
+			def searchResult
+			
+			if (params.searchTerm) {
+				searchResults = twitterService.search(params.searchTerm, session.twitter)
+				session.searchTerm = params.searchTerm
+				
+			}
+			else {
+				searchResults = twitterService.search("#leanstartup", session.twitter)
+				session.searchTerm = "#leanstartup"
+				
+			}
+			
+			session.searchResults = searchResults
+			
+			//render (view: "twitterUserData", bean: searchResults)
+			respond searchResults, model:[searchTerm: session.searchTerm, searchCount:searchResults.size()]
 		}
 	}
 	

@@ -132,7 +132,7 @@
 							<!-- Banner -->
 								<section id="banner">
 									<a href="http://taote.shop">
-										<span class="image image-full"><asset:image src="customerdevelopment-2.png"/></span>
+										<span class="image image-full"><asset:image src="you.png"/></span>
 										<header>
 											<h2>twitter</h2>
 											<!--span class="byline">welcome!</span-->
@@ -171,6 +171,19 @@
 														<section class="box">
 														<header>
 														<p><span style="font-size:18px;">search term: ${session.searchTerm}</span></p>
+														<g:form controller="product" action="twitterUserData">
+											                <fieldset style="margin-left:340px;">
+											                	<div style="float:left;width:50" class="post"><h4>Search:</h4></div>
+											                	<br>
+											              				For example, #leanstartup.<br>
+											              		<div>
+											                  		<g:textField name="searchTerm" value="${session.searchTerm}"/>
+											              		</div>	
+											                </fieldset>
+											                <fieldset class="buttons">
+											                    <button class="button"><g:submitButton name="search"/></button>
+											                </fieldset>
+											            </g:form>
 														<button class="button"><g:link controller="product" action="twitterUserData">Reload</g:link></button>
 														</header>
 														</section>
