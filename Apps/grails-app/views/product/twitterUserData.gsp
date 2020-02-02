@@ -173,9 +173,11 @@
 														<p><span style="font-size:24px;">search term: ${session.searchTerm}</span></p>
 														<g:form controller="product" action="twitterUserData">
 											                <fieldset>
-											                	<div>
+											                	<br>
+											                	<div style="margin-left:5px">
 											                  		<g:textField name="searchTerm" value="${session.searchTerm}"/>
-											              		</div>	
+											              		</div>
+											              		<br>	
 											                </fieldset>
 											                <fieldset class="buttons">
 											                    <button class="button"><g:submitButton name="search"/></button>
