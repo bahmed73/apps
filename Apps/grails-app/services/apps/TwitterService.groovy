@@ -447,7 +447,7 @@ class TwitterService {
 		
 		log.info "inside twitter.mention"
 		
-		twitter.updateStatus(".@"+userName+" We are connecting with #agiledevelopment and #leanstartup tools for #venturecapitals, #entrepreneurs, #startups and #projectmanagers! Contact us please.")
+		twitter.updateStatus(".@"+userName+" we are building tools for #agiledevelopment and #leanstartup: #venturecapitals, #entrepreneurs, #startups and #projectmanagers! Interested? Contact us please.")
 	}
 	
 	public def favorite(tweetId, twitter) {

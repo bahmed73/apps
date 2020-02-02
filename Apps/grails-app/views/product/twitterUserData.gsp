@@ -170,12 +170,13 @@
 												<div class="12u">
 														<section class="box">
 														<header>
-														<p><span style="font-size:18px;">search term: ${session.searchTerm}</span></p>
+														<p><span style="font-size:24px;">search term: ${session.searchTerm}</span></p>
 														<g:form controller="product" action="twitterUserData">
-											                <fieldset style="margin-left:340px;">
-											                	<div style="float:left;width:50" class="post"><h4>Search:</h4></div>
+											                <fieldset>
+											                	<div style="float:left;width:50" class="post"><h2>Search:</h2></div>
 											                	<br>
-											              				For example, #leanstartup.<br>
+											              				<h3>For example, #leanstartup.</h3>
+											              		<br>
 											              		<div>
 											                  		<g:textField name="searchTerm" value="${session.searchTerm}"/>
 											              		</div>	
@@ -184,8 +185,7 @@
 											                    <button class="button"><g:submitButton name="search"/></button>
 											                </fieldset>
 											            </g:form>
-														<button class="button"><g:link controller="product" action="twitterUserData">Reload</g:link></button>
-														</header>
+											            </header>
 														</section>
 												</div>
 											</div>
@@ -199,7 +199,7 @@
 									<section>
 										<div>
 											<div class="row">
-												<div class="6u">
+												<div class="12u">
 														<section class="box">
 														<header>
 														<p><span style="font-size:24px;">Tweet: ${tweet.text}</span></p>
@@ -208,13 +208,8 @@
 														<p style="font-size:18px;">Full name: ${tweet.userName}</p>
 														<br>
 														<p style="font-size:18px;">Created At: ${tweet.createdAt}</p>
-														</section>
-												</div>
-												<div class="6u">
-														<section class="box">
-														<header>
+														<br>
 														<p><span style="font-size:18px;">Location: ${tweet.userLocation}</span></p>
-														</header>
 														<br>
 														<p style="font-size:18px;">Followers: ${tweet.userNumFollowers}</p>
 														<br>
@@ -224,6 +219,7 @@
 														<button class="button"><g:link controller="product" action="retweet" id="${tweet.id}">Retweet</g:link></button>
 														<button class="button"><g:link controller="product" action="favorite" id ="${tweet.id}">Favorite</g:link></button>
 														<button class="button" style="color:#fff"><g:link controller="product" action="mention" params ="[userName:tweet.userScreenName]">Send Mention</g:link></button>
+														
 														</section>
 												</div>
 											</div>
