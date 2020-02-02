@@ -772,23 +772,22 @@ class ProductController {
 		
 		if (session.twitter) {
 			
-			def searchResult
-			
 			if (params.searchTerm) {
-				searchResults = twitterService.search(params.searchTerm, session.twitter)
+				def searchResults = twitterService.search(params.searchTerm, session.twitter)
 				session.searchTerm = params.searchTerm
+				session.searchResults = searchResults
+				
 				
 			}
 			else {
-				searchResults = twitterService.search("#leanstartup", session.twitter)
+				def searchResults = twitterService.search("#leanstartup", session.twitter)
 				session.searchTerm = "#leanstartup"
-				
+				session.searchResults = searchResults
 			}
 			
-			session.searchResults = searchResults
 			
 			//render (view: "twitterUserData", bean: searchResults)
-			respond searchResults, model:[searchTerm: session.searchTerm, searchCount:searchResults.size()]
+			respond session.searchResults, model:[searchTerm: session.searchTerm, searchCount:session.searchResults.size()]
 		}
 	}
 	
