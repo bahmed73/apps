@@ -779,6 +779,12 @@ class ProductController {
 				
 				
 			}
+			else if (session.searchTerm) {
+				def searchResults = twitterService.search(session.searchTerm, session.twitter)
+				session.searchResults = searchResults
+				
+				
+			}
 			else {
 				def searchResults = twitterService.search("#leanstartup", session.twitter)
 				session.searchTerm = "#leanstartup"
