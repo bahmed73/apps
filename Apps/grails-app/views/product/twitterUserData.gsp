@@ -213,10 +213,11 @@
 														<br>
 														<p style="font-size:18px;">Following: ${tweet.userNumFollowing}</p>
 														<br>
-														<button class="button"><g:link url="https://twitter.com/${tweet.userScreenName}">${tweet.userScreenName}</g:link></button>
-														<button class="button"><g:link controller="product" action="retweet" id="${tweet.id}">Retweet</g:link></button>
-														<button class="button"><g:link controller="product" action="favorite" id ="${tweet.id}">Favorite</g:link></button>
-														<button class="button" style="color:#fff"><g:link controller="product" action="mention" params ="[userName:tweet.userScreenName]">Send Mention</g:link></button>
+														<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+														<button class="button"><a href="https://twitter.com/intent/user?screen_name=${tweet.userScreenName}">${tweet.userScreenName}</a></button>
+														<button class="button"><a href="https://twitter.com/intent/retweet?tweet_id=${tweet.id}">Retweet</a></button>
+														<button class="button"><a href="https://twitter.com/intent/like?tweet_id=${tweet.id}">Like</a></button>
+														<button class="button"><a href="https://twitter.com/intent/tweet?in_reply_to=${tweet.id}">Reply</a></button>
 														
 														</section>
 												</div>
