@@ -1,12 +1,135 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<meta name="description" content="foodal" />
-<meta name="keywords" content="foodal, local, local food, food, local business, farmers, farmers market, farmer market, farmers markets, market, markets, farm, farm market, business, farm business, organic, health, nutrient,california local markets,california markets,local farmers market,local farmers markets,local farmer markets,local market,local markets,local farmers, farmers,local california,california,local, local business, chef, food chef, featured chef, food, home cook, cook, home, recipe, home recipe, food recipe, cook recipe, spiritual, spirit, blogger, socialmedia, socialmedia blogger, social media blogger, facebook, facebook feed, twitter, twitter update, twitter, twitter hash, twitter hashtag, hash, hashtag,viral,mytweetmark,mytweetmark.com,myhash, brand,share posts,post information,organize bookmarks,share bookmarks,share knowledge,organize bookmarks,categorize bookmarks,email bookmarks, share bookmarks and posts, share posts and bookmarks, share with friends,tweet,twitter" />
+		<meta name="description" content="Building agile development and lean startup tools, for entrepreneurs, venture capital, startups and project manager." />
+<meta name="keywords" content="lean startup, customer development, agile development, agile sprints, agile back log, agile backlog, venture capital, startups, entrepreneur, entrepreneurship, customer feedback loop, product development, product roadmap, project management, product backlog" />
 <meta http-equiv="window-target" content="_top" />
 <META HTTP-EQUIV="CACHE-CONTROL" CONTENT="PUBLIC">
 	<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
-	<title>Foodal - Promote your local food business and farmers markets.</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  margin: 0;
+  min-width: 250px;
+}
+
+/* Include the padding and border in an element's total width and height */
+* {
+  box-sizing: border-box;
+}
+
+/* Remove margins and padding from the list */
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* Style the list items */
+ul li {
+  cursor: pointer;
+  position: relative;
+  padding: 12px 8px 12px 40px;
+  list-style-type: none;
+  background: #eee;
+  font-size: 18px;
+  transition: 0.2s;
+  
+  /* make the list items unselectable */
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Set all odd list items to a different color (zebra-stripes) */
+ul li:nth-child(odd) {
+  background: #f9f9f9;
+}
+
+/* Darker background-color on hover */
+ul li:hover {
+  background: #ddd;
+}
+
+/* When clicked on, add a background color and strike out text */
+ul li.checked {
+  background: #888;
+  color: #fff;
+  text-decoration: line-through;
+}
+
+/* Add a "checked" mark when clicked on */
+ul li.checked::before {
+  content: '';
+  position: absolute;
+  border-color: #fff;
+  border-style: solid;
+  border-width: 0 2px 2px 0;
+  top: 10px;
+  left: 16px;
+  transform: rotate(45deg);
+  height: 15px;
+  width: 7px;
+}
+
+/* Style the close button */
+.close {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 12px 16px 12px 16px;
+}
+
+.close:hover {
+  background-color: #007FFF;
+  color: white;
+}
+
+/* Style the header */
+.header {
+  background-color: #007FFF;
+  padding: 30px 40px;
+  color: white;
+  text-align: center;
+}
+
+/* Clear floats after the header */
+.header:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the input */
+input {
+  margin: 0;
+  border: none;
+  border-radius: 0;
+  width: 75%;
+  padding: 10px;
+  float: left;
+  font-size: 16px;
+}
+
+/* Style the "Add" button */
+.addBtn {
+  padding: 10px;
+  width: 25%;
+  background: #d9d9d9;
+  color: #555;
+  float: left;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 0;
+}
+
+.addBtn:hover {
+  background-color: #bbb;
+}
+</style>
+	<title>Shop - Product Development TODO List</title>
 	<asset:stylesheet src="skel-noscript.css"/>
 	<asset:stylesheet src="style.css"/>
 	<asset:stylesheet src="style-desktop.css"/>
@@ -35,34 +158,94 @@
 		<!--[if lte IE 8]><asset:javascript src="html5shiv.js"/><asset:stylesheet src="ie8.css"/><![endif]-->
 		
 		<!-- Global Site Tag (gtag.js) - Google Analytics -->
-		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-106312202-1"></script>
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-154739766-1"></script>
 		<script>
 		  window.dataLayer = window.dataLayer || [];
-		  function gtag(){dataLayer.push(arguments)};
+		  function gtag(){dataLayer.push(arguments);}
 		  gtag('js', new Date());
 		
-		  gtag('config', 'UA-106312202-1');
+		  gtag('config', 'UA-154739766-1');
 		</script>
 		
 		
 	</head>
-	<body class="homepage">
-	<a href="/#"><asset:image src="favicon.png" class="grails-logo"/></a>
+	<style>
+		  p {
+		  border: 2px solid #e5e1e1;
+		  border-width: 2px;
+		  margin: 5px;
+		  padding: 10px;
+		  background-color: #5f6469;
+		  color: #fdeba9;
+		}
+		.button {
+		  display: inline-block;
+		  padding: 15px 25px;
+		  font-size: 15px;
+		  cursor: pointer;
+		  text-align: center;
+		  text-decoration: none;
+		  outline: none;
+		  color: #fdeba9;
+		  background-color: #000000;
+		  border: none;
+		  border-radius: 15px;
+		  box-shadow: 0 9px #999;
+		}
+
+		.button:hover {background-color: #a3a6a3}
+		
+		.button:active {
+		  background-color: #3e8e41;
+		  box-shadow: 0 5px #666;
+		  transform: translateY(4px);
+		}
+		  </style>
+		  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+		  <link rel="stylesheet" href="/resources/demos/style.css">
+		  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+		  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+	</head>
+	<body class="homepage" onload="testEffect()">
+	<script type="text/javascript">
+	function testEffect() {
+		var options = {};
+        // Run the effect
+   		$( "#block3" ).effect( "shake", options, 1000, callback );
+		$( "#block1" )
+	    .animate({
+	      width: "90%"
+	    }, {
+	      queue: false,
+	      duration: 3000
+	    })
+	    .animate({ fontSize: "24px" }, 1500 )
+	    .animate({ borderRightWidth: "15px" }, 1500 );
+		$( "#block2" )
+	    .animate({ width: "90%" }, 1000 )
+	    .animate({ fontSize: "24px" }, 1000 )
+	    .animate({ borderLeftWidth: "15px" }, 1000 );
+		}
+
+	function callback() {
+	      setTimeout(function() {
+	        $( "#block3" ).removeAttr( "style" ).hide().fadeIn();
+	      }, 1000 );
+	    };
+	</script>
+
 		<!-- Header Wrapper -->
 			<div id="header-wrapper">
 				<div class="container">
 					
 					<div class="row">
-						<div class="12u">
+						<div id="block3" class="12u">
 
 							<!-- Banner -->
 								<section id="banner">
-									<a href="http://foodal.co">
-										<span class="image image-full"><asset:image src="news-3.png"/></span>
-										<header>
-											<h2>Foodal</h2>
-											<!--span class="byline">welcome!</span-->
-										</header>
+									<a href="http://taote.shop">
+										<span class="image image-full"><asset:image src="todolist.png"/></span>
+										
 									</a>
 									
 								</section>
@@ -72,78 +255,97 @@
 					
 								<!-- Nav -->
 										<nav id="nav">
-											<ul>
-												<li><g:link url="/">Home</g:link></li>
-												<li><g:link controller="product" action="premium">demo</g:link></li>
+											
+												<div style="padding:2px;padding-top:15px;"><button class="button"><g:link url="/">Home</g:link></button></div>
 												<!--<li><a href="left-sidebar.html">Login</a></li>-->
-											</ul>
+											
 										</nav>
 							<!-- Intro -->
 							<div class="row">
 						<div class="12u">
 								<section>
-									<div>
-										<div class="row">
-										
-										<div class="6u">
-													<section class="box">
-													<!-- <a href="http://www.mytweetmark.com" class="image image-full"><asset:image src="foodal-homepage-16.png"/></a> -->
-													<header>
-														<span style="font-size:35px;">Foodal News!</span>
-														<span class="byline">Get the latest premium real-time news from Twitter.</span>
-													</header>
-													<div>
-													<ul style="list-style-type:disc; margin:50px;font-size:20px;">
-													<li>Find some really cool interesting facts.</li>
-													<li>Find out where CNN, nytimes, nypost, Hillary Clinton, Snoop Dogg, Diddy, Fox news and many others get their news from.</li>
-													<li>You never know what you might find.</li>
-													<li>Since this is our first release, please help, make a simple donation of $5.</li>
-													<li>Lets get started!</li>
-													<li>See a <g:link controller="product" action="twitter"><span style="color:#8a7e7e;">demo</span></g:link></li>
-													</ul>
-													</div>
-													<br>
-													
-													<br><br>
-													<footer class="actions">
-														  
-													<form action="twitter" controller="product" method="POST">
-													<script
-										  			src="https://checkout.stripe.com/checkout.js" class="stripe-button"
-										  			data-key="pk_live_XG5V3QMNoSvnijnOBH1SRO2I"
-										  			data-amount="500.00"
-										  			data-name="foodal"
-										  			data-description="News Subscription"
-										  			data-zip-code="true"
-										  			data-shipping-address="true"
-										  			data-billing-address="true"
-										  			
-										  			
-										  			data-image="https://stripe.com/img/documentation/checkout/marketplace.png"
-										  			data-locale="auto">
-													</script>
-													</form> 
-														<br><br>
-													</footer>
-												</section>
-											</div>
-										<div class="6u">
-												<section class="box">
-													<a href="http://www.homecook.me" class="image image-full"><asset:image src="twitter-birdie.png"/></a>
-													<!--header>
-														<h3>Aptent veroeros et aliquam</h3>
-														<span class="byline">Posted 45 minutes ago</span>
-													</header>
-													<p>Lorem ipsum dolor sit amet sit veroeros sed et blandit consequat sed veroeros lorem et blandit  adipiscing feugiat phasellus tempus hendrerit, tortor vitae mattis tempor, sapien sem feugiat sapien, id suscipit magna felis nec elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos lorem ipsum dolor sit amet.</p>
-													<footer class="actions">
-														<a href="#" class="button fa fa-file-text">Continue Reading</a>
-														<a href="#" class="button alt fa fa-comment">33 comments</a>
-													</footer-->
-												</section>
-											</div>
-											
-										</div>
+									<div id="myDIV" class="header">
+									  <span style="margin:5px;font-size:24px;">Product Development TODO List - Add or delete, mark or unmark tasks.</span>
+									  <input type="text" id="myInput" placeholder="Type your product development - TODO item here...">
+									  <span onclick="newElement()" class="addBtn">Add</span>
 									</div>
+									
+									<div style="color:#000">
+									<ul id="myUL">
+										<li class="checked">Talk to shop</li>
+									  	<li>Buy a domain name for your website</li>
+									  	<li>Buy a cloud server</li>
+									  	<li>Create a logo</li>
+									  	<li>Pick favorite websites</li>
+									  	<li>Pick color palette</li>
+									  	<li>Create social media accounts</li>
+									  	<li>Sign up on shop</li>
+									  	<li>Create a project</li>
+									  	<li>Create a blog</li>
+									  	<li>Create a user guide</li>
+									  	<li>Write an executive summary</li>
+									  	<li>Do customer development</li>
+									  	<li>Iterate on product development</li>	
+									  	<li>Pitch to venture capitals</li>								  	
+									</ul>
+									</div>
+									<script>
+									// Create a "close" button and append it to each list item
+									var myNodelist = document.getElementsByTagName("LI");
+									var i;
+									for (i = 0; i < myNodelist.length; i++) {
+									  var span = document.createElement("SPAN");
+									  var txt = document.createTextNode("\u00D7");
+									  span.className = "close";
+									  span.appendChild(txt);
+									  myNodelist[i].appendChild(span);
+									}
+									
+									// Click on a close button to hide the current list item
+									var close = document.getElementsByClassName("close");
+									var i;
+									for (i = 0; i < close.length; i++) {
+									  close[i].onclick = function() {
+									    var div = this.parentElement;
+									    div.style.display = "none";
+									  }
+									}
+									
+									// Add a "checked" symbol when clicking on a list item
+									var list = document.querySelector('ul');
+									list.addEventListener('click', function(ev) {
+									  if (ev.target.tagName === 'LI') {
+									    ev.target.classList.toggle('checked');
+									  }
+									}, false);
+									
+									// Create a new list item when clicking on the "Add" button
+									function newElement() {
+									  var li = document.createElement("li");
+									  var inputValue = document.getElementById("myInput").value;
+									  var t = document.createTextNode(inputValue);
+									  li.appendChild(t);
+									  if (inputValue === '') {
+									    alert("You must write something!");
+									  } else {
+									    document.getElementById("myUL").appendChild(li);
+									  }
+									  document.getElementById("myInput").value = "";
+									
+									  var span = document.createElement("SPAN");
+									  var txt = document.createTextNode("\u00D7");
+									  span.className = "close";
+									  span.appendChild(txt);
+									  li.appendChild(span);
+									
+									  for (i = 0; i < close.length; i++) {
+									    close[i].onclick = function() {
+									      var div = this.parentElement;
+									      div.style.display = "none";
+									    }
+									  }
+									}
+									</script>
 								</section>
 
 						</div>
@@ -159,34 +361,7 @@
 							
 							<!-- Portfolio -->
 								<section>
-									<span style="font-size:40px;color:white">Also visit:</span>
 									
-									<div>
-										<div class="row">
-											<div class="4u" >
-												<section class="box">
-													<a href="http://www.homecook.me/farmerMarket/all" class="image image-full"><asset:image src="revenue-model.png"/></a>
-												
-													<p><a href="http://www.homecook.me/farmerMarket/all">Alphabetical customer listing</a></p>
-												
-												</section>
-											</div>
-											<div class="4u">
-												<section class="box">
-													<a href="https://github.com/bahmed73/apps" class="image image-full"><asset:image src="quit.png"/></a>
-													<p><a href="https://github.com/bahmed73/apps">On GitHub</a></p>
-												</section>
-											</div>
-											<div class="4u">
-												<section class="box">
-													<a href="http://www.mytweetmark.com" class="image image-full"><asset:image src="shutUp.png"/></a>
-													<p><a href="http://www.mytweetmark.com">Twitter marketing tool</a></p>
-												</section>
-											</div>
-										</div>
-										
-											
-					</div>
 					<div class="row">
 						<div class="12u">
 
@@ -296,9 +471,12 @@
 							
 							</div>
 						</div-->
+						<a href="/"><asset:image src="logoshop5.png" width="150px" height="150px"/></a>
+						<br><br>
+						
 						<div class="row">
 							<div class="4u">
-<section>
+								<section>
 									<header>
 										<h2>Connect with us</h2>
 									</header>
@@ -308,66 +486,62 @@
 										<li><a class="fa fa-linkedin solo" href="https://www.linkedin.com/company-beta/18041812/"><span>LinkedIn</span></a></li>-->
 										<!--li><a class="fa fa-google-plus solo" href="#"><span>Google+</span></a></li-->
 									<!--  </ul>-->
-									<ul class="contact">
-										<li>
-											<h3>Address</h3>
-											<p>
-												Oakland<br />
-																							California
-											</p>
-										</li>
-										<li>
-											<h3>Mail</h3>
-											<p><a href="mailto:bilal@mytweetmark.com">bilal@mytweetmark.com</a></p>
-										</li>
+									
+											<h3>Oakland, California</h3>
+											
+										
+											<h3><a href="bilal@mytweetmark.com">bilal@mytweetmark.com</a></h3>
+										
 										<!--li>
 											<h3>Phone</h3>
 											<p>(800) 000-0000</p>
 										</li-->
-									</ul>
+									
 								</section>
 								
 
 							</div>
+							
 							<div class="4u">
 
 								<section>
 									<header>
 										<h2>More about us</h2>
 									</header>
-									<ul class="divided">
-										<li><a href="https://angel.co/foodal">On AngelList</a></li>
-										<li><a href="https://www.facebook.com/foodalCo/">On Facebook</a></li>
-									</ul>
+									
+										<a href="https://facebook.com/dotshopper/"><h3>On Facebook</h3></a>
+										<a href="http://bilalahmed.org"><h3>Our Website</h3></a>
+									
 								</section>
-
+				
 							</div>
+							 
 							<div class="4u">
 							<section>
 									<header>
 										<h2>And more...</h2>
 									</header>
-									<ul class="divided">
-										<li><a href="https://linkedin.com/in/bahmed73">On LinkedIn</a></li>
-										<li><a href="https://twitter.com/foodal_">On Twitter</a></li>
+									
+										<a href="https://www.youtube.com/user/bahmed73"><h3>On YouTube</h3></a>
+										<a href="https://twitter.com/taoteshop"><h3>On Twitter</h3></a>
 										<!--li><a href="#">Sem feugiat sapien id suscipit magna felis nec</a></li>
 										<li><a href="#">Elit class aptent taciti sociosqu ad litora</a></li-->
-									</ul>
+									
 								</section>
 								
 							
 							</div>
 						</div>
 						<div class="row">
-							<div class="12u">
+							<div class="10u">
 							
 								<!-- Copyright -->
 									<div id="copyright">
-										<ul class="links">
-											<li>&copy; 2017 foodal.co 	</li>
+										
+											&copy; 2020 Shop 	
 											<!--li>Images: <a href="http://facebook.com/homecookme">Homecookme</a></li>
 											<li>Design: <a href="http://dalliusdesign.com">Dallius</a></li-->
-										</ul>
+										
 									</div>
 
 							</div>

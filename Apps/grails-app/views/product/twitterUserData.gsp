@@ -132,11 +132,8 @@
 							<!-- Banner -->
 								<section id="banner">
 									<a href="http://taote.shop">
-										<span class="image image-full"><asset:image src="you.png"/></span>
-										<header>
-											<h2>twitter</h2>
-											<!--span class="byline">welcome!</span-->
-										</header>
+										<span class="image image-full"><asset:image src="connect.png"/></span>
+										
 									</a>
 									
 								</section>
@@ -148,15 +145,8 @@
 										<nav id="nav">
 											<ul>
 												<li><button class="button"><g:link url="/">Home</g:link></button></li>
-												<li><button class="button"><g:link controller="product" action="shelf">Dashboard</g:link></button></li>
-												<li><button class="button"><g:link controller="sprint" action="index">Agile Development</g:link></button></li>
-												<li><button class="button"><g:link controller="customerDevelopment" action="index">Lean Startup</g:link></button></li>
 												<li><button class="button"><g:link controller="product" action="twitter">Twitter</g:link></button></li>
-												<sec:ifLoggedIn>
-												<li><button class="button"><g:form controller="logout">                        
-    													<g:submitButton name="logout" value="Logout" />
-													</g:form></button></li>
-													</sec:ifLoggedIn>
+												
 												<!--<li><a href="left-sidebar.html">Login</a></li>-->
 											</ul>
 										</nav>
