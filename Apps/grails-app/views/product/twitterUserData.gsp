@@ -205,7 +205,7 @@
 														<br>
 														<p style="font-size:18px;">Full name: ${tweet.userName}</p>
 														<br>
-														<p style="font-size:18px;">Created At: ${tweet.createdAt}</p>
+														<p style="font-size:18px;">Created At: <g:formatDate format="MM-dd-yyyy" date="${tweet.createdAt}"/></p>
 														<br>
 														<p><span style="font-size:18px;">Location: ${tweet.userLocation}</span></p>
 														<br>
@@ -235,17 +235,24 @@
 										<div class="row">
 										
 										<div class="12u">
-													<section class="box">
-													<!-- <a href="http://www.mytweetmark.com" class="image image-full"><asset:image src="foodal-homepage-16.png"/></a> -->
-													<header>
-													<p><span style="font-size:18px;">No results found.</span></p>
-													</header>
-													<footer class="actions">
-														 <button class="button"><g:link controller="product" action="twitterUserData">Reload</g:link></button>
-														<br><br>
-													</footer>
-													</section>
-										</div>
+														<section class="box">
+														<header>
+														<p><span style="font-size:24px;">No Results Found.</span></p>
+														<g:form controller="product" action="twitterUserData">
+											                <fieldset>
+											                	<br>
+											                	<div style="margin-left:5px">
+											                  		<g:textField name="searchTerm" value="${session.searchTerm}"/>
+											              		</div>
+											              		<br>	
+											                </fieldset>
+											                <fieldset class="buttons">
+											                    <button class="button"><g:submitButton name="search"/></button>
+											                </fieldset>
+											            </g:form>
+											            </header>
+														</section>
+												</div>
 									</div>
 									</section>
 								</div>
