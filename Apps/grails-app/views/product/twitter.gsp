@@ -157,7 +157,7 @@
 													<section class="box">
 													<!-- <a href="http://www.mytweetmark.com" class="image image-full"><asset:image src="foodal-homepage-16.png"/></a> -->
 													<header>
-														<span style="font-size:35px;color:#000;">Lean Startup!</span>
+														<span style="font-size:35px;color:#000;">Lean Startup on Twitter!</span>
 													</header>
 													<p>
 													<div>
