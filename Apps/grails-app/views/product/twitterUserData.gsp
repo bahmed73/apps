@@ -64,6 +64,7 @@
 		  margin: 5px;
 		  padding: 10px;
 		  background-color:#eff2f4;
+		  color: #000000;
 		}
 		.button {
 		  display: inline-block;
