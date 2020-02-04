@@ -250,7 +250,7 @@
 														<p><span style="color:#8a7e7e;font-size:20px;"><g:link action="show" controller="blog" id="712"><span style="color:#fdeba9;">- Why agile development and lean startup on shop?</span></g:link></span></p>
 														<p><span style="color:#8a7e7e;font-size:20px;"><g:link action="show" controller="blog" id="713"><span style="color:#fdeba9;">- Company Needs?</span></g:link></span></p>
 														<p><span style="color:#8a7e7e;font-size:20px;"><g:link action="show" controller="blog" id="714"><span style="color:#fdeba9;">- What excites you?</span></g:link></span></p>
-														<p><span style="color:#8a7e7e;font-size:20px;"><g:link action="show" controller="blog" id="715"><span style="color:#fdeba9;">- One Line Pitch</span></g:link></span></p>
+														<p><span style="color:#8a7e7e;font-size:20px;"><g:link action="show" controller="blog" id="715"><span style="color:#fdeba9;">- One line pitch</span></g:link></span></p>
 														<p><span style="color:#8a7e7e;font-size:20px;"><g:link action="show" controller="blog" id="716"><span style="color:#fdeba9;">- Team</span></g:link></span></p>
 																
 													  </div>

@@ -266,7 +266,9 @@ input {
 								<section>
 									<div id="myDIV" class="header">
 									  <span style="margin:5px;font-size:24px;">Product Development TODO List - Add or delete, mark or unmark tasks.</span>
-									  <input type="text" id="myInput" placeholder="Type your product development - TODO item here...">
+									  <br>
+									  <br>
+									  <input type="text" id="myInput" placeholder="Add TODO task...">
 									  <span onclick="newElement()" class="addBtn">Add</span>
 									</div>
 									
@@ -275,6 +277,7 @@ input {
 										<li class="checked">Talk to shop</li>
 									  	<li>Buy a domain name for your website</li>
 									  	<li>Buy a cloud server</li>
+									  	<li>Setup source control</li>
 									  	<li>Create a logo</li>
 									  	<li>Pick favorite websites</li>
 									  	<li>Pick color palette</li>
