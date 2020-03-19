@@ -179,6 +179,17 @@
 						    <li data-target="#myCarousel" data-slide-to="6"></li>
 						    <li data-target="#myCarousel" data-slide-to="7"></li>
 						    <li data-target="#myCarousel" data-slide-to="8"></li>
+						    <li data-target="#myCarousel" data-slide-to="9"></li>
+						    <li data-target="#myCarousel" data-slide-to="10"></li>
+						    <li data-target="#myCarousel" data-slide-to="11"></li>
+						    <li data-target="#myCarousel" data-slide-to="12"></li>
+						    <li data-target="#myCarousel" data-slide-to="13"></li>
+						    <li data-target="#myCarousel" data-slide-to="14"></li>
+						    <li data-target="#myCarousel" data-slide-to="15"></li>
+						    <li data-target="#myCarousel" data-slide-to="16"></li>
+						    <li data-target="#myCarousel" data-slide-to="17"></li>
+						    <li data-target="#myCarousel" data-slide-to="18"></li>
+						    
 						  </ol>
 
 						  <!-- Wrapper for slides -->
@@ -217,6 +228,46 @@
 						    
 						    <div class="item">
 						    <g:link class="list" action="twitter" controller="product"><asset:image src="connect.png"/></g:link>
+						    </div>
+						    
+						    <div class="item">
+						    <g:link class="list" action="premium" controller="product"><asset:image src="books.png"/></g:link>
+						    </div>
+						    
+						    <div class="item">
+						    <g:link class="list" action="twitter" controller="product"><asset:image src="shop-coupon.png"/></g:link>
+						    </div>
+						    
+						    <div class="item">
+						    <g:link class="list" action="premium" controller="product"><asset:image src="customer-service.png"/></g:link>
+						    </div>
+						    
+						    <div class="item">
+						    <g:link class="list" action="twitter" controller="product"><asset:image src="deal.png"/></g:link>
+						    </div>
+						    
+						    <div class="item">
+						    <g:link class="list" action="premium" controller="product"><asset:image src="food-business.png"/></g:link>
+						    </div>
+						    
+						    <div class="item">
+						    <g:link class="list" action="twitter" controller="product"><asset:image src="kobebryant.png"/></g:link>
+						    </div>
+						    
+						    <div class="item">
+						    <g:link class="list" action="premium" controller="product"><asset:image src="launch.png"/></g:link>
+						    </div>
+						    
+						    <div class="item">
+						    <g:link class="list" action="twitter" controller="product"><asset:image src="medication.png"/></g:link>
+						    </div>
+						    
+						    <div class="item">
+						    <g:link class="list" action="premium" controller="product"><asset:image src="saguna.png"/></g:link>
+						    </div>
+						    
+						    <div class="item">
+						    <g:link class="list" action="twitter" controller="product"><asset:image src="video.png"/></g:link>
 						    </div>
 						  </div>
 
@@ -285,6 +336,7 @@
 													    <li><a href="#tabs-3">Customer Development</a></li>
 													    <li><a href="#tabs-4">Venture Capital</a></li>
 													    <li><a href="#tabs-5">Training</a></li>
+													    <li><a href="#tabs-6">Coronavirus</a></li>
 													  </ul>
 													  <div id="tabs-1">
 													  	<p><g:link class="list" action="index" controller="projects"><span style="color:#fdeba9;font-size:20px">Projects - Start creating agile development projects.</span></g:link></p>
@@ -338,6 +390,38 @@
 														<p><span style="color:#8a7e7e;font-size:20px;"><g:link action="show" controller="blog" id="385"><span style="color:#fdeba9;">- How should a hiring manager conduct a technical interview?</span></g:link></span></p>
 														<p><span style="color:#8a7e7e;font-size:20px;"><g:link action="show" controller="blog" id="386"><span style="color:#fdeba9;">- What is a full stack project manager?</span></g:link></span></p>
 														<p><span style="color:#8a7e7e;font-size:20px;"><g:link action="show" controller="blog" id="646"><span style="color:#fdeba9;">- Startup pivot.</span></g:link></span></p>
+														
+													  </div>
+													  
+													  <div id="tabs-6">
+													  	<p><span style="color:#8a7e7e;font-size:20px;"><a href="https://mailchi.mp/f15bb501d131/shop-human-toilets?e=e4dae35d9f"><span style="color:#fdeba9;">- CoronaVirus: Human Toilets</span></a></span></span></p>
+													  	<p><span style="color:#8a7e7e;font-size:20px;"><a href="https://mailchi.mp/20e426c5d503/the-tao-book-skin-tone?e=e4dae35d9f"><span style="color:#fdeba9;">- CoronaVirus: Skin Tone</span></a></span></span></p>
+													  	<p><span style="color:#8a7e7e;font-size:20px;"><a href="https://mailchi.mp/dfd9b5fb9340/the-tao-book-taxes-elections-and-coronavirus?e=e4dae35d9f"><span style="color:#fdeba9;">- Shop: Taxes, Elections and Corona Virus</span></a></span></span></p>
+													  	<p><span style="color:#8a7e7e;font-size:20px;"><a href="https://mailchi.mp/7be5c96a6d75/the-tao-book-history-healthcare-coronavirus-oakland-california?e=e4dae35d9f"><span style="color:#fdeba9;">- Shop: History, Coronavirus and Healthcare</span></a></span></span></p>
+													  	<p><span style="color:#8a7e7e;font-size:20px;"><a href="https://mailchi.mp/dfcfa0fea001/the-tao-book-thejourney-of-a-startup-tao-master?e=e4dae35d9f"><span style="color:#fdeba9;">- Shop: A Journey of a Tao Master</span></a></span></span></p>
+														<p><span style="color:#8a7e7e;font-size:20px;"><a href="https://mailchi.mp/81f47092f837/the-tao-book-the-first-one-the-one-with-a-fist?e=e4dae35d9f"><span style="color:#fdeba9;">- Shop: The Tao Book</span></a></span></span></p>
+														<p><span style="color:#8a7e7e;font-size:20px;"><a href="https://mailchi.mp/22a5bdf97cb9/books-by-bilal-ahmed-startups-yoga-and-tao?e=e4dae35d9f"><span style="color:#fdeba9;">- Books by Bilal Ahmed</span></a></span></span></p>
+														<p><span style="color:#8a7e7e;font-size:20px;"><a href="https://mailchi.mp/b747b90ff956/shop-winning-the-china-coronavirus-with-supply-chain-software?e=e4dae35d9f"><span style="color:#fdeba9;">- Coronavirus: Winning with Supply Chain Software</span></a></span></span></p>
+														<p><span style="color:#8a7e7e;font-size:20px;"><a href="https://mailchi.mp/07f3fa704ef3/shop-fighting-the-china-coronavirus-with-supply-chain-software?e=e4dae35d9f"><span style="color:#fdeba9;">- Coronavirus: Fighting with Supply Chain Software</span></a></span></span></p>
+														<p><span style="color:#8a7e7e;font-size:20px;"><a href="https://mailchi.mp/6365a793cb6f/branding-rename-tiny-house-trend-to-hard-tents?e=e4dae35d9f"><span style="color:#fdeba9;">- Shop: Investor Feedback from Dave McClure</span></a></span></span></p>
+														<p><span style="color:#8a7e7e;font-size:20px;"><a href="https://mailchi.mp/83ffb0277ca2/shop-what-is-tao-te-in-taoteshop-teachings-of-master-wang?e=e4dae35d9f"><span style="color:#fdeba9;">- What is Tao Te? Teachings of Master Wang</span></a></span></span></p>
+														<p><span style="color:#8a7e7e;font-size:20px;"><a href="https://mailchi.mp/080088e6b3c4/shop-start-a-business-in-2020?e=e4dae35d9f"><span style="color:#fdeba9;">- Shop: Start a Business</span></a></span></span></p>
+														<p><span style="color:#8a7e7e;font-size:20px;"><a href="https://mailchi.mp/0b35fd9500c8/free-tool-for-product-development-todo-list-and-customer-development-twitter?e=e4dae35d9f"><span style="color:#fdeba9;">- Free tool: TODO for Product Development</span></a></span></span></p>
+														<p><span style="color:#8a7e7e;font-size:20px;"><a href="https://mailchi.mp/7fe5186bc7c6/shop-launch-a-product-today?e=e4dae35d9f"><span style="color:#fdeba9;">- Shop: Launch a product today</span></a></span></span></p>
+														<p><span style="color:#8a7e7e;font-size:20px;"><a href="https://mailchi.mp/0051f5aa1978/shop-how-much-kobe-bryant-you-got?e=e4dae35d9f"><span style="color:#fdeba9;">- Shop: How much Kobe Bryant you got?</span></a></span></span></p>
+														<p><span style="color:#8a7e7e;font-size:20px;"><a href="https://mailchi.mp/b7a1748c34da/shop-supply-chain-software?e=e4dae35d9f"><span style="color:#fdeba9;">- Shop: Supply Chain Software</span></a></span></span></p>
+														<p><span style="color:#8a7e7e;font-size:20px;"><a href="https://mailchi.mp/c2d0c1e2f56f/shop-lean-startup?e=e4dae35d9f"><span style="color:#fdeba9;">- Shop: Lean Startup</span></a></span></span></p>
+														<p><span style="color:#8a7e7e;font-size:20px;"><a href="https://mailchi.mp/1e23f68f73ab/product-development-vs-customer-development?e=e4dae35d9f"><span style="color:#fdeba9;">- Shop: Analytics and Customer Development</span></a></span></span></p>
+														<p><span style="color:#8a7e7e;font-size:20px;"><a href="https://mailchi.mp/ae62f6695bb4/best-wishes-for-2020?e=e4dae35d9f"><span style="color:#fdeba9;">- Subscription: $50/month for connecting with Startups and venture capitalists</span></a></span></span></p>
+														<p><span style="color:#8a7e7e;font-size:20px;"><a href="https://mailchi.mp/2d9b095af906/free-tool-lean-twitter-customer-developer?e=e4dae35d9f"><span style="color:#fdeba9;">- Free tool: Twitter Customer Development</span></a></span></span></p>
+														<p><span style="color:#8a7e7e;font-size:20px;"><a href="https://mailchi.mp/1738a92728aa/looking-for-venture-capital-funds-apply-here?e=e4dae35d9f"><span style="color:#fdeba9;">- Looking for Venture Capital funds? Apply here</span></a></span></span></p>
+														<p><span style="color:#8a7e7e;font-size:20px;"><a href="https://mailchi.mp/2e5936933fa6/pivoting-on-minimum-viable-product-mvp-agile-development-lean-startup-tools?e=e4dae35d9f"><span style="color:#fdeba9;">- Pivoting on Minimal Viable Product</span></a></span></span></p>
+														<p><span style="color:#8a7e7e;font-size:20px;"><a href="https://mailchi.mp/09998ee0271f/lean-startup-customer-feedback-survey-12122019?e=e4dae35d9f"><span style="color:#fdeba9;">- Lean Startup: Customer Feedback Survey</span></a></span></span></p>
+														<p><span style="color:#8a7e7e;font-size:20px;"><a href="https://mailchi.mp/68f4f5e829b2/invite-weekly-investor-round-table-12122019-2pm?e=e4dae35d9f"><span style="color:#fdeba9;">- Weekly Investor Roundtable</span></a></span></span></p>
+														<p><span style="color:#8a7e7e;font-size:20px;"><a href="https://mailchi.mp/1e07a3b198ea/friends-and-family-round-investment?e=e4dae35d9f"><span style="color:#fdeba9;">- Friends and Family Round</span></a></span></span></p>
+														<p><span style="color:#8a7e7e;font-size:20px;"><a href="https://mailchi.mp/3087f29274b8/blogging-venture-capitalists-funding-money-happy-thanksgiving?e=e4dae35d9f"><span style="color:#fdeba9;">- Blogging: Venture Capitalists</span></a></span></span></p>
+														<p><span style="color:#8a7e7e;font-size:20px;"><a href="https://mailchi.mp/20d984234700/lean-startup-customer-development?e=e4dae35d9f"><span style="color:#fdeba9;">- Lean Startup: Customer Development</span></a></span></span></p>
+														<p><span style="color:#8a7e7e;font-size:20px;"><a href="https://mailchi.mp/ace67b5e42df/agile-development-lean-startup?e=e4dae35d9f"><span style="color:#fdeba9;">- Agile Development and Lean Startup</span></a></span></span></p>
 														
 													  </div>
 													</div>												
