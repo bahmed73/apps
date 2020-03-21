@@ -189,6 +189,7 @@
 						    <li data-target="#myCarousel" data-slide-to="16"></li>
 						    <li data-target="#myCarousel" data-slide-to="17"></li>
 						    <li data-target="#myCarousel" data-slide-to="18"></li>
+						    <li data-target="#myCarousel" data-slide-to="19"></li>
 						    
 						  </ol>
 
@@ -269,6 +270,10 @@
 						    <div class="item">
 						    <g:link class="list" action="twitter" controller="product"><asset:image src="video.png"/></g:link>
 						    </div>
+						    
+						    <div class="item">
+						    <g:link class="list" action="premium" controller="product"><asset:image src="buybooks.png"/></g:link>
+						    </div>
 						  </div>
 
 						  <!-- Left and right controls -->
@@ -337,6 +342,7 @@
 													    <li><a href="#tabs-4">Venture Capital</a></li>
 													    <li><a href="#tabs-5">Training</a></li>
 													    <li><a href="#tabs-6">Coronavirus</a></li>
+													    <li><a href="#tabs-7">Books</a></li>
 													  </ul>
 													  <div id="tabs-1">
 													  	<p><g:link class="list" action="index" controller="projects"><span style="color:#fdeba9;font-size:20px">Projects - Start creating agile development projects.</span></g:link></p>
@@ -422,6 +428,23 @@
 														<p><span style="color:#8a7e7e;font-size:20px;"><a href="https://mailchi.mp/3087f29274b8/blogging-venture-capitalists-funding-money-happy-thanksgiving?e=e4dae35d9f"><span style="color:#fdeba9;">- Blogging: Venture Capitalists</span></a></span></span></p>
 														<p><span style="color:#8a7e7e;font-size:20px;"><a href="https://mailchi.mp/20d984234700/lean-startup-customer-development?e=e4dae35d9f"><span style="color:#fdeba9;">- Lean Startup: Customer Development</span></a></span></span></p>
 														<p><span style="color:#8a7e7e;font-size:20px;"><a href="https://mailchi.mp/ace67b5e42df/agile-development-lean-startup?e=e4dae35d9f"><span style="color:#fdeba9;">- Agile Development and Lean Startup</span></a></span></span></p>
+														
+													  </div>
+													  
+													  <div id="tabs-7">
+													  	<p><span style="color:#8a7e7e;font-size:20px;"><a href="https://www.amazon.com/Secret-Book-Bilal-Ahmed/dp/1484177975"><span style="color:#fdeba9;">- The Secret Book: Vedanta part I</span></a></span></span></p>
+													  	<p><span style="color:#8a7e7e;font-size:20px;"><a href="https://www.amazon.com/Sacred-Book-Bilal-Ahmed/dp/1490950931"><span style="color:#fdeba9;">- The Sacred Book: Vedanta part II</span></a></span></span></p>
+													  	<p><span style="color:#8a7e7e;font-size:20px;"><a href="https://www.amazon.com/Startup-Book-Entrepreneurship-Training-Manual/dp/1500475459"><span style="color:#fdeba9;">- The Startup Book: Venture Capitals</span></a></span></span></p>
+													  	<p><span style="color:#8a7e7e;font-size:20px;"><a href="https://www.amazon.com/Guru-Book-Bilal-Ahmed/dp/1502308959"><span style="color:#fdeba9;">- The Guru Book: Dedicated to Teachers and Masters</span></a></span></span></p>
+													  	<p><span style="color:#8a7e7e;font-size:20px;"><a href="https://www.amazon.com/VC-Book-Venture-Capital/dp/1514311925"><span style="color:#fdeba9;">- The Venture Capital Book: Startups</span></a></span></span></p>
+														<p><span style="color:#8a7e7e;font-size:20px;"><a href="https://www.amazon.com/Social-Book-Bilal-Ahmed/dp/1517320976"><span style="color:#fdeba9;">- The Social Book: Pyramids</span></a></span></span></p>
+														<p><span style="color:#8a7e7e;font-size:20px;"><a href="https://www.amazon.com/Founder-Book-Bilal-Ahmed/dp/1517596823"><span style="color:#fdeba9;">- The Founder Book: How to be One</span></a></span></span></p>
+														<p><span style="color:#8a7e7e;font-size:20px;"><a href="https://www.amazon.com/Cook-Book-Bilal-Ahmed/dp/1539524620"><span style="color:#fdeba9;">- The Cook Book: Vegan Recipes</span></a></span></span></p>
+														<p><span style="color:#8a7e7e;font-size:20px;"><a href="https://www.amazon.com/Entrepreneur-Handbook-Bilal-Ahmed/dp/1535584068"><span style="color:#fdeba9;">- The Entrepreneur Hand Book: Startups and Venture Capitals</span></a></span></span></p>
+														<p><span style="color:#8a7e7e;font-size:20px;"><a href="https://www.amazon.com/God-Book-Bilal-Ahmed/dp/1539987639"><span style="color:#fdeba9;">- The God Book: Vedas</span></a></span></span></p>
+														<p><span style="color:#8a7e7e;font-size:20px;"><a href="https://www.amazon.com/Business-Book-Entrepreneurs-Working-Incubators/dp/1985032015"><span style="color:#fdeba9;">- The Business Book: Incubators</span></a></span></span></p>
+														<p><span style="color:#8a7e7e;font-size:20px;"><a href="http://www.lulu.com/shop/bilal-ahmed/the-goddess-book/paperback/product-23782150.html"><span style="color:#fdeba9;">- The Goddess Book: Upanishads part I</span></a></span></span></p>
+														<p><span style="color:#8a7e7e;font-size:20px;"><a href="https://www.amazon.com/Goddess-Book-First-Upanishads/dp/1727484754"><span style="color:#fdeba9;">- The Goddess Book: Upanishads part II</span></a></span></span></p>
 														
 													  </div>
 													</div>												
