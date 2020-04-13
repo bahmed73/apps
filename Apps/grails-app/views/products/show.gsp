@@ -82,7 +82,7 @@
 							<!-- Banner -->
 								<section id="banner">
 									
-										<span class="image image-full"><asset:image src="taim_banner_3.png"/></span>
+										<span class="image image-full"><asset:image src="homepage-1.png"/></span>
 										<header>
 											<!--  <h2>Foodal</h2>-->
 											<!--span class="byline">welcome!</span-->
@@ -100,6 +100,13 @@
 												<li><g:link url="/">Home</g:link></li>
 												<li><g:link controller="products" action="edit" id="${products.id}">Edit Product</g:link></li>
 												<li><g:link controller="products" action="index">Show Products</g:link></li>
+												<li><g:form resource="${this.products}" method="DELETE" controller="products" action="delete">
+												    <fieldset class="buttons">
+									                	<input class="delete" type="submit" value="${message(code: 'default.button.delete.label', default: 'Delete')}" onclick="return confirm('${message(code: 'default.button.delete.confirm.message', default: 'Are you sure?')}');" />
+									                </fieldset>
+									                
+									            </g:form>
+									            </li>
 												<!--<li><a href="left-sidebar.html">Login</a></li>-->
 											</ul>
 										</nav>
@@ -116,7 +123,26 @@
 														<span style="font-size:35px;color:#9b9ea9"><f:display bean="products" property="name"/></span>
 													</header>
 													<br><br>
-													<p style="font-size:18px;color:#8a7e7e;">Usage: <f:display bean="products" property="usage"/></p>
+													
+													<div style="margin:20px">
+														<form controller="products" action="index" method="GET">
+														<script
+											  			src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+											  			data-key="pk_live_qiegeu48MOnZQ1SLm8mfdKsr002jmLKgYw"
+											  			data-amount="<f:display bean="products" property="price"/>"
+											  			data-name="shop"
+											  			data-description="Purchase"
+											  			data-zip-code="true"
+											  			data-shipping-address="true"
+											  			data-billing-address="true"
+											  			
+											  			
+											  			data-image="https://stripe.com/img/documentation/checkout/marketplace.png"
+											  			data-locale="auto">
+														</script>
+														</form>
+														</div> 
+													
 													<br><br>
 													<p style="font-size:16px;color:#8a7e7e;">Views: ${productViews}</p>
 													<br><br>
@@ -124,10 +150,9 @@
 													<br><br>
 													<p style="font-size:18px;color:#8a7e7e;">Other Relevant Info: <f:display bean="products" property="other"/></p>
 													<br><br>
-													<p style="font-size:18px;color:#8a7e7e;">Packaging: <f:display bean="products" property="packaging"/></p>
+													<p style="font-size:18px;color:#8a7e7e;">Price: <f:display bean="products" property="price"/></p>
 													<br><br>
-													<p style="font-size:18px;">Scientific Name: <f:display bean="products" property="scientificName"/></p>
-													<br><br>
+														
 													<a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 													<div class="fb-share-button" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button" data-size="small"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
 													
@@ -143,7 +168,7 @@
 													<p style="font-size:14px;">Copy and paste the browser link above for your social media marketing, e.g. paste as facebook post.</p>
 													<br>
 													<footer class="actions">
-														<a href="mailto:bilal@mytweetmark.com" class="button fa fa-file-text">Email us today!</a>
+														<a href="mailto:rob@thepromiserevealed.com" class="button fa fa-file-text">Email us today!</a>
 														<br><br>
 													</footer>	
 													<!--header>
@@ -283,9 +308,11 @@
 							
 							</div>
 						</div-->
+						<a href="/"><asset:image src="logo-150.jpg" width="150px" height="150px"/></a>
+						<br><br>
 						<div class="row">
 							<div class="4u">
-<section>
+								<section>
 									<header>
 										<h2>Connect with us</h2>
 									</header>
@@ -294,28 +321,22 @@
 										<li><a class="fa fa-twitter solo" href="https://twitter.com/foodal_"><span>Twitter</span></a></li>
 										<li><a class="fa fa-linkedin solo" href="https://www.linkedin.com/company-beta/18041812/"><span>LinkedIn</span></a></li>-->
 										<!--li><a class="fa fa-google-plus solo" href="#"><span>Google+</span></a></li-->
-									<!--  </ul> -->
-									<ul class="contact">
+									<!--  </ul>-->
+									<ul class="divided">
 										<li>
-											<h3>Address</h3>
-											
-												Oakland<br />
-																							California
+											<h3>Mount Shasta, California</h3>
 											
 										</li>
 										<li>
-											<h3>Mail</h3>
-											<a href="mailto:bilal@mytweetmark.com">bilal@mytweetmark.com</a>
+											<h3><a href="rob@thepromiserevealed.com">rob@thepromiserevealed.com</a></h3>
 										</li>
-										<!--li>
-											<h3>Phone</h3>
-											<p>(800) 000-0000</p>
-										</li-->
+										<li><a href="https://www.youtube.com/channel/UCdi75MbXf2IxDpncWkCehyg"><h3>On YouTube</h3></a></li>
 									</ul>
 								</section>
 								
 
 							</div>
+							
 							<div class="4u">
 
 								<section>
@@ -323,34 +344,25 @@
 										<h2>More about us</h2>
 									</header>
 									<ul class="divided">
-										<li><a href="https://facebook.com/mytweetmark/">On Facebook</a></li>
-										<li><a href="http://bilalahmed.org">Our Website</a></li>
+										<li><h3>(530) 918-8236</h3></li>
+										<li><a href="thepromiserevealed.com"><h3>Our Website</h3></a></li>
+										<li><a href="https://www.eventbrite.com/e/meet-the-venusians-mt-shasta-summer-conference-2020-tickets-89345987253"><h3>Attend Mount Shasta Summer Conference</h3></a></li>
 									</ul>
 								</section>
 				
-							</div><!-- 
-							<div class="4u">
-
-								<section>
-									<header>
-										<h2>More about us</h2>
-									</header>
-									<ul class="divided">
-										<li><a href="https://mauget.com/about-mauget/">About Us</a></li>
-										<li><a href="https://www.facebook.com/Mauget-464784170389171/">On Facebook</a></li>
-									</ul>
-								</section>
-
 							</div>
-							 -->
+							 
 							<div class="4u">
 							<section>
 									<header>
 										<h2>And more...</h2>
 									</header>
 									<ul class="divided">
-										<li><a href="https://www.youtube.com/user/bahmed73">On YouTube</a></li>
-										<li><a href="https://twitter.com/mytweetmark">On Twitter</a></li>
+										<li><a href="https://www.facebook.com/PromiseRevealed/"><h3>Robert Potter Facebook</h3></a></li>
+										<li><a href="https://www.facebook.com/Mt-Shasta-Summer-Conference-428207090637794/"><h3>Mount Shasta Summer Conference Facebook</h3></a></li>
+										<li><a href="https://www.instagram.com/thepromiserevealed/"><h3>Promise Revealed Instagram</h3></a></li>
+										<li><a href="https://twitter.com/ROBERTP35959598"><h3>Promise Revealed Twitter</h3></a></li>
+										
 										<!--li><a href="#">Sem feugiat sapien id suscipit magna felis nec</a></li>
 										<li><a href="#">Elit class aptent taciti sociosqu ad litora</a></li-->
 									</ul>
@@ -360,12 +372,12 @@
 							</div>
 						</div>
 						<div class="row">
-							<div class="12u">
+							<div class="10u">
 							
 								<!-- Copyright -->
 									<div id="copyright">
 										<ul class="links">
-											<li>&copy; 2019 Shop  	</li>
+											<li>&copy; 2020 thepromiserevealed.com 	</li>
 											<!--li>Images: <a href="http://facebook.com/homecookme">Homecookme</a></li>
 											<li>Design: <a href="http://dalliusdesign.com">Dallius</a></li-->
 										</ul>

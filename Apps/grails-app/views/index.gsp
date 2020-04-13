@@ -47,11 +47,11 @@
 		    margin-right: 80px;
 		    padding: 50px;		  }
 		  p {
-		  border: 2px solid #e5e1e1;
+		  border: 2px solid #3e8e41;
 		  border-width: 2px;
 		  margin: 5px;
 		  padding: 10px;
-		  background-color: #5f6469;
+		  background-color: #16e01b;
 		  color: #fdeba9;
 		}
 		.button {
@@ -63,13 +63,13 @@
 		  text-decoration: none;
 		  outline: none;
 		  color: #fdeba9;
-		  background-color: #000000;
+		  background-color: #16e01b;
 		  border: none;
 		  border-radius: 15px;
-		  box-shadow: 0 9px #999;
+		  box-shadow: 0 9px #12226c;
 		}
 
-		.button:hover {background-color: #a3a6a3}
+		.button:hover {background-color: #ffffff}
 		
 		.button:active {
 		  background-color: #3e8e41;
@@ -172,108 +172,19 @@
 						  <ol class="carousel-indicators">
 						    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
 						    <li data-target="#myCarousel" data-slide-to="1"></li>
-						    <li data-target="#myCarousel" data-slide-to="2"></li>
-						    <li data-target="#myCarousel" data-slide-to="3"></li>
-						    <li data-target="#myCarousel" data-slide-to="4"></li>
-						    <li data-target="#myCarousel" data-slide-to="5"></li>
-						    <li data-target="#myCarousel" data-slide-to="6"></li>
-						    <li data-target="#myCarousel" data-slide-to="7"></li>
-						    <li data-target="#myCarousel" data-slide-to="8"></li>
-						    <li data-target="#myCarousel" data-slide-to="9"></li>
-						    <li data-target="#myCarousel" data-slide-to="10"></li>
-						    <li data-target="#myCarousel" data-slide-to="11"></li>
-						    <li data-target="#myCarousel" data-slide-to="12"></li>
-						    <li data-target="#myCarousel" data-slide-to="13"></li>
-						    <li data-target="#myCarousel" data-slide-to="14"></li>
-						    <li data-target="#myCarousel" data-slide-to="15"></li>
-						    <li data-target="#myCarousel" data-slide-to="16"></li>
-						    <li data-target="#myCarousel" data-slide-to="17"></li>
-						    <li data-target="#myCarousel" data-slide-to="18"></li>
-						    <li data-target="#myCarousel" data-slide-to="19"></li>
-						    
+						    						    
 						  </ol>
 
 						  <!-- Wrapper for slides -->
 						  <div class="carousel-inner">
 						    <div class="item active">
-						      <g:link class="list" action="index" controller="projects"><asset:image src="custom-1.png"/></g:link>
+						      <g:link class="list" action="index" controller="projects"><asset:image src="homepage-1.png"/></g:link>
 						    </div>
 						    
 						    <div class="item">
-						    <g:link class="list" action="premium" controller="product"><asset:image src="todolist.png"/></g:link>
-						      </div>
-						      
-						    <div class="item">
-						    <g:link class="list" action="index" controller="tasks"><asset:image src="you.png"/></g:link>
+						    <g:link class="list" action="premium" controller="product"><asset:image src="homepage-2.png"/></g:link>
 						      </div>
 						    
-						    <div class="item">
-						    <g:link class="list" action="index" controller="sprints"><asset:image src="agiledevelopment-1.png"/></g:link>
-						      </div>
-						    
-						    <div class="item">
-						    <g:link class="list" action="index" controller="customerDevelopment"><asset:image src="leanstartup-2.png"/></g:link>
-						    </div>
-						    
-						    <div class="item">
-						    <g:link class="list" action="index" controller="blog"><asset:image src="blogging.png"/></g:link>
-						    </div>
-						    
-						    <div class="item">
-						    <g:link class="list" action="index" controller="documentation"><asset:image src="documentation.png"/></g:link>
-						    </div>
-						    
-						    <div class="item">
-						    <g:link class="list" action="index" controller="customerFeedback"><asset:image src="signing.png"/></g:link>
-						    </div>
-						    
-						    <div class="item">
-						    <g:link class="list" action="twitter" controller="product"><asset:image src="connect.png"/></g:link>
-						    </div>
-						    
-						    <div class="item">
-						    <g:link class="list" action="premium" controller="product"><asset:image src="books.png"/></g:link>
-						    </div>
-						    
-						    <div class="item">
-						    <g:link class="list" action="twitter" controller="product"><asset:image src="shop-coupon.png"/></g:link>
-						    </div>
-						    
-						    <div class="item">
-						    <g:link class="list" action="premium" controller="product"><asset:image src="customer-service.png"/></g:link>
-						    </div>
-						    
-						    <div class="item">
-						    <g:link class="list" action="twitter" controller="product"><asset:image src="deal.png"/></g:link>
-						    </div>
-						    
-						    <div class="item">
-						    <g:link class="list" action="premium" controller="product"><asset:image src="food-business.png"/></g:link>
-						    </div>
-						    
-						    <div class="item">
-						    <g:link class="list" action="twitter" controller="product"><asset:image src="kobebryant.png"/></g:link>
-						    </div>
-						    
-						    <div class="item">
-						    <g:link class="list" action="premium" controller="product"><asset:image src="launch.png"/></g:link>
-						    </div>
-						    
-						    <div class="item">
-						    <g:link class="list" action="twitter" controller="product"><asset:image src="medication.png"/></g:link>
-						    </div>
-						    
-						    <div class="item">
-						    <g:link class="list" action="premium" controller="product"><asset:image src="saguna.png"/></g:link>
-						    </div>
-						    
-						    <div class="item">
-						    <g:link class="list" action="twitter" controller="product"><asset:image src="video.png"/></g:link>
-						    </div>
-						    
-						    <div class="item">
-						    <g:link class="list" action="premium" controller="product"><asset:image src="buybooks.png"/></g:link>
-						    </div>
 						  </div>
 
 						  <!-- Left and right controls -->
@@ -294,9 +205,11 @@
 								<!-- Nav -->
 										<nav id="nav">
 											<ul>
-												<li><button class="button"><g:link class="list" action="shelf" controller="product"><span style="color:#ffffff">Dashboard</span></g:link></button></li>
-												<li><button class="button"><g:link class="list" controller="product" action="twitter"><span style="color:#ffffff">Twitter</span></g:link></button></li>
-												<li><button class="button"><g:link class="list" controller="product" action="premium"><span style="color:#ffffff">TODO</span></g:link></button></li>
+												<li><button class="button"><span style="color:#ffffff"><g:link class="list" action="index" controller="products"><span style="color:#000000">Products</span></g:link></span></button></li>
+												<li><button class="button"><span style="color:#ffffff"><g:link class="list" action="index" controller="blog"><span style="color:#000000">Blogs</span></g:link></span></button></li>
+												<li><button class="button"><span style="color:#ffffff"><g:link class="list" action="index" controller="videos"><span style="color:#000000">Videos</span></g:link></span></button></li>
+												<li><button class="button"><span style="color:#ffffff"><g:link class="list" action="index" controller="photos"><span style="color:#000000">Photos</span></g:link></span></button></li>
+												
 												<br><br>
 												
 												
@@ -306,147 +219,48 @@
 														<!-- Intro -->
 							<div class="row">
 						<div class="12u">
-						<section class="box" style="background-color:#fdeba9">
-										<div id="block3" class="12u" style="border-style:solid; border-color:#5f6469; border-width:5px;margin:1px;font-size:20px;">
-													<header>
-														<p><span style="font-size:28px;">Building agile development and lean startup tools, for entrepreneurs, venture capitals, startups and project managers. Try our <g:link class="list" controller="product" action="twitter">Twitter for free</g:link> for Customer Development. Try our <g:link class="list" controller="product" action="premium">TODO for free</g:link> for Product Development. Starting at $50/month. Pay with card and register today.<br><br></span></p>
-														<div style="margin:20px">
-														<form controller="register" action="register" method="POST">
-														<script
-											  			src="https://checkout.stripe.com/checkout.js" class="stripe-button"
-											  			data-key="pk_live_qiegeu48MOnZQ1SLm8mfdKsr002jmLKgYw"
-											  			data-amount="5000.00"
-											  			data-name="shop"
-											  			data-description="Monthly Subscription"
-											  			data-zip-code="true"
-											  			data-shipping-address="true"
-											  			data-billing-address="true"
-											  			
-											  			
-											  			data-image="https://stripe.com/img/documentation/checkout/marketplace.png"
-											  			data-locale="auto">
-														</script>
-														</form>
-														</div> 
-														
-													</header>
-													</div>
-													</section>
+						
 								<section>
 									<div>
-										<div id="tabs"  style="background-color:#fdeba9">
+										<div id="tabs" style="background-color:#ffffff">
 													  <ul>
-													    <li><a href="#tabs-1">Agile Development</a></li>
-													    <li><a href="#tabs-2">Lean Startup</a></li>
-													    <li><a href="#tabs-3">Customer Development</a></li>
-													    <li><a href="#tabs-4">Venture Capital</a></li>
-													    <li><a href="#tabs-5">Training</a></li>
-													    <li><a href="#tabs-6">Coronavirus</a></li>
-													    <li><a href="#tabs-7">Books</a></li>
+													    <li><a href="#tabs-1">Home</a></li>
+													    <li><a href="#tabs-2">Events</a></li>
+													    <li><a href="#tabs-3">Truth References</a></li>
+													    <li><a href="#tabs-4">Mission Statement</a></li>
+													    <li><a href="#tabs-5">Contact and Donate</a></li>
 													  </ul>
 													  <div id="tabs-1">
-													  	<p><g:link class="list" action="index" controller="projects"><span style="color:#fdeba9;font-size:20px">Projects - Start creating agile development projects.</span></g:link></p>
-													    <p><g:link class="list" action="index" controller="tasks"><span style="color:#fdeba9;font-size:20px">Tasks - Create tasks, to manage the project.</span></g:link></p>
-													    <p><g:link class="list" action="index" controller="notes"><span style="color:#fdeba9;font-size:20px">Notes - Write notes for your team, on the tasks.</span></g:link></p>
-													    <p><g:link class="list" action="index" controller="sprint"><span style="color:#fdeba9;font-size:20px">Sprint Planning - Start creating sprints, a groups of tasks.</span></g:link></p>
-													    <p><g:link class="list" action="index" controller="meeting"><span style="color:#fdeba9;font-size:20px">Meetings - Setup sprint planning meetings and retrospectives.</span></g:link></p>
-													    <p><g:link class="list" action="index" controller="backlog"><span style="color:#fdeba9;font-size:20px">Agile Backlog - Setup a backlog of future ideas and tasks.</span></g:link></p>
+													  	<p><span style="color:#000000;font-size:20px;">Cintamani Stones.</span></p>
+													    <p><span style="color:#000000;font-size:20px">Sleeping Pyramid Orb Accessory.</span></p>
+													    <p><span style="color:#000000;font-size:20px">Tesla Power Supply.</span></p>
+													    <p><span style="color:#000000;font-size:20px">Cintamani stone.</span></p>
+													    <p><span style="color:#000000;font-size:20px">Headgear Pyramid Copper.</span></p>
+													    <p><span style="color:#000000;font-size:20px">Giants.</span></p>
 													  </div>
 													  <div id="tabs-2">
-													    <p><g:link class="list" action="index" controller="customerDevelopment"><span style="color:#fdeba9;font-size:20px">Customer Development - Build feedback flows.</span></g:link></p>
-														<p><g:link class="list" action="index" controller="customer"><span style="color:#fdeba9;font-size:20px">Customers - Pivot on customers with the team.</span></g:link></p>
-														<p><g:link class="list" action="index" controller="customerFeedback"><span style="color:#fdeba9;font-size:20px">Customers Feedback Survey - Talk to a customer.</span></g:link></p>
-															
-														<p><span style="color:#8a7e7e;font-size:20px;"><g:link action="show" controller="blog" id="641"><span style="color:#fdeba9;">- Introduction to startup school.</span></g:link></span></p>
-														<p><span style="color:#8a7e7e;font-size:20px;"><g:link action="show" controller="blog" id="642"><span style="color:#fdeba9;">- Incubator meetings.</span></g:link></span></p>
-														<p><span style="color:#8a7e7e;font-size:20px;"><g:link action="show" controller="blog" id="643"><span style="color:#fdeba9;">- Incubator - Brand expert feedback.</span></g:link></span></p>
-														<p><span style="color:#8a7e7e;font-size:20px;"><g:link action="show" controller="blog" id="644"><span style="color:#fdeba9;">- Incubator homework - Name focus group.</span></g:link></span></p>
-														<p><span style="color:#8a7e7e;font-size:20px;"><g:link action="show" controller="blog" id="645"><span style="color:#fdeba9;">- Incubator homework - Paying customer feedback.</span></g:link></span></p>
+													    <p><span style="color:#000000;font-size:20px">Upcoming Events.</span></p>
+														<p><span style="color:#000000;font-size:20px">Past Events.</span></p>
+														
 													  </div>
 													  <div id="tabs-3">
-													    <p><span style="color:#8a7e7e;font-size:20px;"><g:link action="show" controller="blog" id="801"><span style="color:#fdeba9;">- The Go to Market Approach Startups Need to Adopt </span></g:link></span></p>
-														<p><span style="color:#8a7e7e;font-size:20px;"><g:link action="show" controller="blog" id="802"><span style="color:#fdeba9;">- Go to Market Best Practices for Startups: A Teaser </span></g:link></span></p>
-														<p><span style="color:#8a7e7e;font-size:20px;"><g:link action="show" controller="blog" id="803"><span style="color:#fdeba9;">- Using Product Market Fit to Drive Sustainable Growth </span></g:link></span></p>
-														<p><span style="color:#8a7e7e;font-size:20px;"><g:link action="show" controller="blog" id="804"><span style="color:#fdeba9;">- Understand Customer Acquisition in SaaS </span></g:link></span></p>
-														<p><span style="color:#8a7e7e;font-size:20px;"><g:link action="show" controller="blog" id="805"><span style="color:#fdeba9;">- How The Lean Startup Team Practices Customer Development </span></g:link></span></p>
-														<p><span style="color:#8a7e7e;font-size:20px;"><g:link action="show" controller="blog" id="833"><span style="color:#fdeba9;">- Teaching Customer Development and the Lean Startup </span></g:link></span></p>
-														<p><span style="color:#8a7e7e;font-size:20px;"><g:link action="show" controller="blog" id="834"><span style="color:#fdeba9;">- Startup Lessons Learned - What is Customer Development? </span></g:link></span></p>
-														<p><span style="color:#8a7e7e;font-size:20px;"><g:link action="show" controller="blog" id="835"><span style="color:#fdeba9;">- Why the Lean Start-Up Changes Everything </span></g:link></span></p>
+													    <p><span style="color:#000000;font-size:20px;"><span style="color:#000000;">Rob Videos. </span></span></p>
+														<p><span style="color:#000000;font-size:20px;"><span style="color:#000000;">Gallery. </span></span></p>
 														
 													  </div>
 													  <div id="tabs-4">
-													    <p><span style="color:#8a7e7e;font-size:20px;"><g:link action="show" controller="blog" id="706"><span style="color:#fdeba9;">- Startup Problem</span></g:link></span></p>
-														<p><span style="color:#8a7e7e;font-size:20px;"><g:link action="show" controller="blog" id="707"><span style="color:#fdeba9;">- Who has the problem?</span></g:link></span></p>
-														<p><span style="color:#8a7e7e;font-size:20px;"><g:link action="show" controller="blog" id="708"><span style="color:#fdeba9;">- Is that an important problem?</span></g:link></span></p>
-														<p><span style="color:#8a7e7e;font-size:20px;"><g:link action="show" controller="blog" id="709"><span style="color:#fdeba9;">- Your Solution?</span></g:link></span></p>
-														<p><span style="color:#8a7e7e;font-size:20px;"><g:link action="show" controller="blog" id="710"><span style="color:#fdeba9;">- Opportunity?</span></g:link></span></p>
-														<p><span style="color:#8a7e7e;font-size:20px;"><g:link action="show" controller="blog" id="711"><span style="color:#fdeba9;">- Competition?</span></g:link></span></p>
-														<p><span style="color:#8a7e7e;font-size:20px;"><g:link action="show" controller="blog" id="712"><span style="color:#fdeba9;">- Why agile development and lean startup on shop?</span></g:link></span></p>
-														<p><span style="color:#8a7e7e;font-size:20px;"><g:link action="show" controller="blog" id="713"><span style="color:#fdeba9;">- Company Needs?</span></g:link></span></p>
-														<p><span style="color:#8a7e7e;font-size:20px;"><g:link action="show" controller="blog" id="714"><span style="color:#fdeba9;">- What excites you?</span></g:link></span></p>
-														<p><span style="color:#8a7e7e;font-size:20px;"><g:link action="show" controller="blog" id="715"><span style="color:#fdeba9;">- One line pitch</span></g:link></span></p>
-														<p><span style="color:#8a7e7e;font-size:20px;"><g:link action="show" controller="blog" id="716"><span style="color:#fdeba9;">- Team</span></g:link></span></p>
+													    <p><span style="color:#000000;font-size:20px;"><span style="color:#000000;">Victory of the light Blog.</span></span></p>
+														<p><span style="color:#000000;font-size:20px;"><span style="color:#000000;">Prepare for change.</span></span></p>
+														<p><span style="color:#000000;font-size:20px;"><span style="color:#000000;">Haarp Article.</span></span></p>
+														<p><span style="color:#000000;font-size:20px;"><span style="color:#000000;">2012 Portal Event.</span></span></p>
 																
 													  </div>
 													  <div id="tabs-5">
-													    <p><g:link class="list" action="index" controller="documentation"><span style="color:#fdeba9;font-size:20px">Product Docs - Business documentation.</span></g:link></p>
-														<p><g:link class="list" action="index" controller="blog"><span style="color:#fdeba9;font-size:20px">Blogs - Agile development and lean startup.</span></g:link></p>
-														<p><span style="color:#8a7e7e;font-size:20px;"><g:link action="show" controller="blog" id="33"><span style="color:#fdeba9;">- What is sizing in agile development?</span></g:link></span></p>
-														<p><span style="color:#8a7e7e;font-size:20px;"><g:link action="show" controller="blog" id="353"><span style="color:#fdeba9;">- What is an incremental hiring pattern in startups?</span></g:link></span></p>
-														<p><span style="color:#8a7e7e;font-size:20px;"><g:link action="show" controller="blog" id="385"><span style="color:#fdeba9;">- How should a hiring manager conduct a technical interview?</span></g:link></span></p>
-														<p><span style="color:#8a7e7e;font-size:20px;"><g:link action="show" controller="blog" id="386"><span style="color:#fdeba9;">- What is a full stack project manager?</span></g:link></span></p>
-														<p><span style="color:#8a7e7e;font-size:20px;"><g:link action="show" controller="blog" id="646"><span style="color:#fdeba9;">- Startup pivot.</span></g:link></span></p>
+													    <p><span style="color:#000000;font-size:20px">Victory of the light radio show.</span></p>
+														<p><span style="color:#000000;font-size:20px">Interviews of Rob by other radio hosts.</span></p>
 														
 													  </div>
 													  
-													  <div id="tabs-6">
-													  	<p><span style="color:#8a7e7e;font-size:20px;"><a href="https://mailchi.mp/f15bb501d131/shop-human-toilets?e=e4dae35d9f"><span style="color:#fdeba9;">- CoronaVirus: Human Toilets</span></a></span></span></p>
-													  	<p><span style="color:#8a7e7e;font-size:20px;"><a href="https://mailchi.mp/20e426c5d503/the-tao-book-skin-tone?e=e4dae35d9f"><span style="color:#fdeba9;">- CoronaVirus: Skin Tone</span></a></span></span></p>
-													  	<p><span style="color:#8a7e7e;font-size:20px;"><a href="https://mailchi.mp/dfd9b5fb9340/the-tao-book-taxes-elections-and-coronavirus?e=e4dae35d9f"><span style="color:#fdeba9;">- Shop: Taxes, Elections and Corona Virus</span></a></span></span></p>
-													  	<p><span style="color:#8a7e7e;font-size:20px;"><a href="https://mailchi.mp/7be5c96a6d75/the-tao-book-history-healthcare-coronavirus-oakland-california?e=e4dae35d9f"><span style="color:#fdeba9;">- Shop: History, Coronavirus and Healthcare</span></a></span></span></p>
-													  	<p><span style="color:#8a7e7e;font-size:20px;"><a href="https://mailchi.mp/dfcfa0fea001/the-tao-book-thejourney-of-a-startup-tao-master?e=e4dae35d9f"><span style="color:#fdeba9;">- Shop: A Journey of a Tao Master</span></a></span></span></p>
-														<p><span style="color:#8a7e7e;font-size:20px;"><a href="https://mailchi.mp/81f47092f837/the-tao-book-the-first-one-the-one-with-a-fist?e=e4dae35d9f"><span style="color:#fdeba9;">- Shop: The Tao Book</span></a></span></span></p>
-														<p><span style="color:#8a7e7e;font-size:20px;"><a href="https://mailchi.mp/22a5bdf97cb9/books-by-bilal-ahmed-startups-yoga-and-tao?e=e4dae35d9f"><span style="color:#fdeba9;">- Books by Bilal Ahmed</span></a></span></span></p>
-														<p><span style="color:#8a7e7e;font-size:20px;"><a href="https://mailchi.mp/b747b90ff956/shop-winning-the-china-coronavirus-with-supply-chain-software?e=e4dae35d9f"><span style="color:#fdeba9;">- Coronavirus: Winning with Supply Chain Software</span></a></span></span></p>
-														<p><span style="color:#8a7e7e;font-size:20px;"><a href="https://mailchi.mp/07f3fa704ef3/shop-fighting-the-china-coronavirus-with-supply-chain-software?e=e4dae35d9f"><span style="color:#fdeba9;">- Coronavirus: Fighting with Supply Chain Software</span></a></span></span></p>
-														<p><span style="color:#8a7e7e;font-size:20px;"><a href="https://mailchi.mp/6365a793cb6f/branding-rename-tiny-house-trend-to-hard-tents?e=e4dae35d9f"><span style="color:#fdeba9;">- Shop: Investor Feedback from Dave McClure</span></a></span></span></p>
-														<p><span style="color:#8a7e7e;font-size:20px;"><a href="https://mailchi.mp/83ffb0277ca2/shop-what-is-tao-te-in-taoteshop-teachings-of-master-wang?e=e4dae35d9f"><span style="color:#fdeba9;">- What is Tao Te? Teachings of Master Wang</span></a></span></span></p>
-														<p><span style="color:#8a7e7e;font-size:20px;"><a href="https://mailchi.mp/080088e6b3c4/shop-start-a-business-in-2020?e=e4dae35d9f"><span style="color:#fdeba9;">- Shop: Start a Business</span></a></span></span></p>
-														<p><span style="color:#8a7e7e;font-size:20px;"><a href="https://mailchi.mp/0b35fd9500c8/free-tool-for-product-development-todo-list-and-customer-development-twitter?e=e4dae35d9f"><span style="color:#fdeba9;">- Free tool: TODO for Product Development</span></a></span></span></p>
-														<p><span style="color:#8a7e7e;font-size:20px;"><a href="https://mailchi.mp/7fe5186bc7c6/shop-launch-a-product-today?e=e4dae35d9f"><span style="color:#fdeba9;">- Shop: Launch a product today</span></a></span></span></p>
-														<p><span style="color:#8a7e7e;font-size:20px;"><a href="https://mailchi.mp/0051f5aa1978/shop-how-much-kobe-bryant-you-got?e=e4dae35d9f"><span style="color:#fdeba9;">- Shop: How much Kobe Bryant you got?</span></a></span></span></p>
-														<p><span style="color:#8a7e7e;font-size:20px;"><a href="https://mailchi.mp/b7a1748c34da/shop-supply-chain-software?e=e4dae35d9f"><span style="color:#fdeba9;">- Shop: Supply Chain Software</span></a></span></span></p>
-														<p><span style="color:#8a7e7e;font-size:20px;"><a href="https://mailchi.mp/c2d0c1e2f56f/shop-lean-startup?e=e4dae35d9f"><span style="color:#fdeba9;">- Shop: Lean Startup</span></a></span></span></p>
-														<p><span style="color:#8a7e7e;font-size:20px;"><a href="https://mailchi.mp/1e23f68f73ab/product-development-vs-customer-development?e=e4dae35d9f"><span style="color:#fdeba9;">- Shop: Analytics and Customer Development</span></a></span></span></p>
-														<p><span style="color:#8a7e7e;font-size:20px;"><a href="https://mailchi.mp/ae62f6695bb4/best-wishes-for-2020?e=e4dae35d9f"><span style="color:#fdeba9;">- Subscription: $50/month for connecting with Startups and venture capitalists</span></a></span></span></p>
-														<p><span style="color:#8a7e7e;font-size:20px;"><a href="https://mailchi.mp/2d9b095af906/free-tool-lean-twitter-customer-developer?e=e4dae35d9f"><span style="color:#fdeba9;">- Free tool: Twitter Customer Development</span></a></span></span></p>
-														<p><span style="color:#8a7e7e;font-size:20px;"><a href="https://mailchi.mp/1738a92728aa/looking-for-venture-capital-funds-apply-here?e=e4dae35d9f"><span style="color:#fdeba9;">- Looking for Venture Capital funds? Apply here</span></a></span></span></p>
-														<p><span style="color:#8a7e7e;font-size:20px;"><a href="https://mailchi.mp/2e5936933fa6/pivoting-on-minimum-viable-product-mvp-agile-development-lean-startup-tools?e=e4dae35d9f"><span style="color:#fdeba9;">- Pivoting on Minimal Viable Product</span></a></span></span></p>
-														<p><span style="color:#8a7e7e;font-size:20px;"><a href="https://mailchi.mp/09998ee0271f/lean-startup-customer-feedback-survey-12122019?e=e4dae35d9f"><span style="color:#fdeba9;">- Lean Startup: Customer Feedback Survey</span></a></span></span></p>
-														<p><span style="color:#8a7e7e;font-size:20px;"><a href="https://mailchi.mp/68f4f5e829b2/invite-weekly-investor-round-table-12122019-2pm?e=e4dae35d9f"><span style="color:#fdeba9;">- Weekly Investor Roundtable</span></a></span></span></p>
-														<p><span style="color:#8a7e7e;font-size:20px;"><a href="https://mailchi.mp/1e07a3b198ea/friends-and-family-round-investment?e=e4dae35d9f"><span style="color:#fdeba9;">- Friends and Family Round</span></a></span></span></p>
-														<p><span style="color:#8a7e7e;font-size:20px;"><a href="https://mailchi.mp/3087f29274b8/blogging-venture-capitalists-funding-money-happy-thanksgiving?e=e4dae35d9f"><span style="color:#fdeba9;">- Blogging: Venture Capitalists</span></a></span></span></p>
-														<p><span style="color:#8a7e7e;font-size:20px;"><a href="https://mailchi.mp/20d984234700/lean-startup-customer-development?e=e4dae35d9f"><span style="color:#fdeba9;">- Lean Startup: Customer Development</span></a></span></span></p>
-														<p><span style="color:#8a7e7e;font-size:20px;"><a href="https://mailchi.mp/ace67b5e42df/agile-development-lean-startup?e=e4dae35d9f"><span style="color:#fdeba9;">- Agile Development and Lean Startup</span></a></span></span></p>
-														
-													  </div>
-													  
-													  <div id="tabs-7">
-													  	<p><span style="color:#8a7e7e;font-size:20px;"><a href="https://www.amazon.com/Secret-Book-Bilal-Ahmed/dp/1484177975"><span style="color:#fdeba9;">- The Secret Book: Vedanta part I</span></a></span></span></p>
-													  	<p><span style="color:#8a7e7e;font-size:20px;"><a href="https://www.amazon.com/Sacred-Book-Bilal-Ahmed/dp/1490950931"><span style="color:#fdeba9;">- The Sacred Book: Vedanta part II</span></a></span></span></p>
-													  	<p><span style="color:#8a7e7e;font-size:20px;"><a href="https://www.amazon.com/Startup-Book-Entrepreneurship-Training-Manual/dp/1500475459"><span style="color:#fdeba9;">- The Startup Book: Venture Capitals</span></a></span></span></p>
-													  	<p><span style="color:#8a7e7e;font-size:20px;"><a href="https://www.amazon.com/Guru-Book-Bilal-Ahmed/dp/1502308959"><span style="color:#fdeba9;">- The Guru Book: Dedicated to Teachers and Masters</span></a></span></span></p>
-													  	<p><span style="color:#8a7e7e;font-size:20px;"><a href="https://www.amazon.com/VC-Book-Venture-Capital/dp/1514311925"><span style="color:#fdeba9;">- The Venture Capital Book: Startups</span></a></span></span></p>
-														<p><span style="color:#8a7e7e;font-size:20px;"><a href="https://www.amazon.com/Social-Book-Bilal-Ahmed/dp/1517320976"><span style="color:#fdeba9;">- The Social Book: Pyramids</span></a></span></span></p>
-														<p><span style="color:#8a7e7e;font-size:20px;"><a href="https://www.amazon.com/Founder-Book-Bilal-Ahmed/dp/1517596823"><span style="color:#fdeba9;">- The Founder Book: How to be One</span></a></span></span></p>
-														<p><span style="color:#8a7e7e;font-size:20px;"><a href="https://www.amazon.com/Cook-Book-Bilal-Ahmed/dp/1539524620"><span style="color:#fdeba9;">- The Cook Book: Vegan Recipes</span></a></span></span></p>
-														<p><span style="color:#8a7e7e;font-size:20px;"><a href="https://www.amazon.com/Entrepreneur-Handbook-Bilal-Ahmed/dp/1535584068"><span style="color:#fdeba9;">- The Entrepreneur Hand Book: Startups and Venture Capitals</span></a></span></span></p>
-														<p><span style="color:#8a7e7e;font-size:20px;"><a href="https://www.amazon.com/God-Book-Bilal-Ahmed/dp/1539987639"><span style="color:#fdeba9;">- The God Book: Vedas</span></a></span></span></p>
-														<p><span style="color:#8a7e7e;font-size:20px;"><a href="https://www.amazon.com/Business-Book-Entrepreneurs-Working-Incubators/dp/1985032015"><span style="color:#fdeba9;">- The Business Book: Incubators</span></a></span></span></p>
-														<p><span style="color:#8a7e7e;font-size:20px;"><a href="http://www.lulu.com/shop/bilal-ahmed/the-goddess-book/paperback/product-23782150.html"><span style="color:#fdeba9;">- The Goddess Book: Upanishads part I</span></a></span></span></p>
-														<p><span style="color:#8a7e7e;font-size:20px;"><a href="https://www.amazon.com/Goddess-Book-First-Upanishads/dp/1727484754"><span style="color:#fdeba9;">- The Goddess Book: Upanishads part II</span></a></span></span></p>
-														
-													  </div>
 													</div>												
 
 												
@@ -578,7 +392,7 @@
 							
 							</div>
 						</div-->
-						<a href="/"><asset:image src="logoshop5.png" width="150px" height="150px"/></a>
+						<a href="/"><asset:image src="logo-150.jpg" width="150px" height="150px"/></a>
 						<br><br>
 						
 						<div class="row">
@@ -595,16 +409,13 @@
 									<!--  </ul>-->
 									<ul class="divided">
 										<li>
-											<h3>Oakland, California</h3>
+											<h3>Mount Shasta, California</h3>
 											
 										</li>
 										<li>
-											<h3><a href="bilal@mytweetmark.com">bilal@mytweetmark.com</a></h3>
+											<h3><a href="rob@thepromiserevealed.com">rob@thepromiserevealed.com</a></h3>
 										</li>
-										<!--li>
-											<h3>Phone</h3>
-											<p>(800) 000-0000</p>
-										</li-->
+										<li><a href="https://www.youtube.com/channel/UCdi75MbXf2IxDpncWkCehyg"><h3>On YouTube</h3></a></li>
 									</ul>
 								</section>
 								
@@ -618,8 +429,9 @@
 										<h2>More about us</h2>
 									</header>
 									<ul class="divided">
-										<li><a href="https://facebook.com/dotshopper/"><h3>On Facebook</h3></a></li>
-										<li><a href="http://bilalahmed.org"><h3>Our Website</h3></a></li>
+										<li><h3>(530) 918-8236</h3></li>
+										<li><a href="thepromiserevealed.com"><h3>Our Website</h3></a></li>
+										<li><a href="https://www.eventbrite.com/e/meet-the-venusians-mt-shasta-summer-conference-2020-tickets-89345987253"><h3>Attend Mount Shasta Summer Conference</h3></a></li>
 									</ul>
 								</section>
 				
@@ -631,8 +443,11 @@
 										<h2>And more...</h2>
 									</header>
 									<ul class="divided">
-										<li><a href="https://www.youtube.com/user/bahmed73"><h3>On YouTube</h3></a></li>
-										<li><a href="https://twitter.com/taoteshop"><h3>On Twitter</h3></a></li>
+										<li><a href="https://www.facebook.com/PromiseRevealed/"><h3>Robert Potter Facebook</h3></a></li>
+										<li><a href="https://www.facebook.com/Mt-Shasta-Summer-Conference-428207090637794/"><h3>Mount Shasta Summer Conference Facebook</h3></a></li>
+										<li><a href="https://www.instagram.com/thepromiserevealed/"><h3>Promise Revealed Instagram</h3></a></li>
+										<li><a href="https://twitter.com/ROBERTP35959598"><h3>Promise Revealed Twitter</h3></a></li>
+										
 										<!--li><a href="#">Sem feugiat sapien id suscipit magna felis nec</a></li>
 										<li><a href="#">Elit class aptent taciti sociosqu ad litora</a></li-->
 									</ul>
@@ -647,7 +462,7 @@
 								<!-- Copyright -->
 									<div id="copyright">
 										<ul class="links">
-											<li>&copy; 2020 Shop 	</li>
+											<li>&copy; 2020 thepromiserevealed.com 	</li>
 											<!--li>Images: <a href="http://facebook.com/homecookme">Homecookme</a></li>
 											<li>Design: <a href="http://dalliusdesign.com">Dallius</a></li-->
 										</ul>

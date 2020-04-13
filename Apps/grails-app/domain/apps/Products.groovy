@@ -7,10 +7,8 @@ class Products {
         String name
         String description
         Date updateTime
-        String scientificName
-		String usage
-		String other
-		String packaging
+        String other
+		String price
 		User user
 		byte[] imageOne
 		byte[] imageTwo
@@ -23,10 +21,8 @@ class Products {
                 name(nullable:false, maxSize:500)
                 description(nullable:true, maxSize:50000)
                 updateTime(nullable:false)
-                scientificName(nullable:true, maxSize:500)
-				usage(nullable:true, maxSize:5000)
-				other(nullable:true, maxSize:5000)
-				packaging(nullable:true, maxSize:500)
+                other(nullable:true, maxSize:5000)
+				price(nullable:true, maxSize:50)
 				user(nullable:false)
 				imageOne(nullable:true, maxSize: 1024 * 1024 * 2)
 				imageTwo(nullable:true, maxSize: 1024 * 1024 * 2)

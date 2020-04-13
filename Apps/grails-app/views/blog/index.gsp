@@ -110,7 +110,7 @@
 							<!-- Banner -->
 								<section id="banner">
 									
-										<span class="image image-full"><asset:image src="blogging.png"/></span>
+										<span class="image image-full"><asset:image src="homepage-2.png"/></span>
 										<header>
 										<!-- 
 											<h2>Shop</h2> 
@@ -128,7 +128,6 @@
 										<nav id="nav">
 											<ul>
 												<li><button class="button"><g:link url="/">Home</g:link></button></li>
-												<li><button class="button"><g:link controller="product" action="shelf">Dashboard</g:link></button></li>
 												<li><button class="button"><g:link controller="blog" action="create">Create a Blog</g:link></button></li>
 												<li><button class="button"><div class="fb-share-button" data-href="${createLink(action: 'index', controller: 'blog')}" data-layout="button" data-size="small"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Ftaote.shop%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div></button></li>
 												<li><button class="button"><a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></button></li>
@@ -326,12 +325,12 @@
 							
 							</div>
 						</div-->
-						<a href="/"><asset:image src="logoshop5.png" width="150px" height="150px"/></a>
+						<a href="/"><asset:image src="logo-150.jpg" width="150px" height="150px"/></a>
 						<br><br>
 						
 						<div class="row">
 							<div class="4u">
-<section>
+								<section>
 									<header>
 										<h2>Connect with us</h2>
 									</header>
@@ -340,24 +339,22 @@
 										<li><a class="fa fa-twitter solo" href="https://twitter.com/foodal_"><span>Twitter</span></a></li>
 										<li><a class="fa fa-linkedin solo" href="https://www.linkedin.com/company-beta/18041812/"><span>LinkedIn</span></a></li>-->
 										<!--li><a class="fa fa-google-plus solo" href="#"><span>Google+</span></a></li-->
-									<!--  </ul> -->
+									<!--  </ul>-->
 									<ul class="divided">
 										<li>
-											<h3>Oakland, California</h3>
+											<h3>Mount Shasta, California</h3>
 											
 										</li>
 										<li>
-											<h3><a href="bilal@mytweetmark.com">bilal@mytweetmark.com</a></h3>
+											<h3><a href="rob@thepromiserevealed.com">rob@thepromiserevealed.com</a></h3>
 										</li>
-										<!--li>
-											<h3>Phone</h3>
-											<p>(800) 000-0000</p>
-										</li-->
+										<li><a href="https://www.youtube.com/channel/UCdi75MbXf2IxDpncWkCehyg"><h3>On YouTube</h3></a></li>
 									</ul>
 								</section>
 								
 
 							</div>
+							
 							<div class="4u">
 
 								<section>
@@ -365,20 +362,25 @@
 										<h2>More about us</h2>
 									</header>
 									<ul class="divided">
-										<li><a href="https://facebook.com/dotshopper/"><h3>On Facebook</h3></a></li>
-										<li><a href="http://bilalahmed.org"><h3>Our Website</h3></a></li>
+										<li><h3>(530) 918-8236</h3></li>
+										<li><a href="thepromiserevealed.com"><h3>Our Website</h3></a></li>
+										<li><a href="https://www.eventbrite.com/e/meet-the-venusians-mt-shasta-summer-conference-2020-tickets-89345987253"><h3>Attend Mount Shasta Summer Conference</h3></a></li>
 									</ul>
 								</section>
 				
 							</div>
+							 
 							<div class="4u">
 							<section>
 									<header>
 										<h2>And more...</h2>
 									</header>
 									<ul class="divided">
-										<li><a href="https://www.youtube.com/user/bahmed73"><h3>On YouTube</h3></a></li>
-										<li><a href="https://twitter.com/taoteshop"><h3>On Twitter</h3></a></li>
+										<li><a href="https://www.facebook.com/PromiseRevealed/"><h3>Robert Potter Facebook</h3></a></li>
+										<li><a href="https://www.facebook.com/Mt-Shasta-Summer-Conference-428207090637794/"><h3>Mount Shasta Summer Conference Facebook</h3></a></li>
+										<li><a href="https://www.instagram.com/thepromiserevealed/"><h3>Promise Revealed Instagram</h3></a></li>
+										<li><a href="https://twitter.com/ROBERTP35959598"><h3>Promise Revealed Twitter</h3></a></li>
+										
 										<!--li><a href="#">Sem feugiat sapien id suscipit magna felis nec</a></li>
 										<li><a href="#">Elit class aptent taciti sociosqu ad litora</a></li-->
 									</ul>
@@ -393,7 +395,7 @@
 								<!-- Copyright -->
 									<div id="copyright">
 										<ul class="links">
-											<li>&copy; 2020 Shop 	</li>
+											<li>&copy; 2020 thepromiserevealed.com 	</li>
 											<!--li>Images: <a href="http://facebook.com/homecookme">Homecookme</a></li>
 											<li>Design: <a href="http://dalliusdesign.com">Dallius</a></li-->
 										</ul>
