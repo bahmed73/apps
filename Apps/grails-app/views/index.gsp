@@ -1,12 +1,12 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<meta name="description" content="Building agile development and lean startup tools, for entrepreneurs, venture capital, startups and project manager." />
-<meta name="keywords" content="lean startup, customer development, agile development, agile sprints, agile back log, agile backlog, venture capital, startups, entrepreneur, entrepreneurship, customer feedback loop, product development, product roadmap, project management, product backlog" />
+		<meta name="description" content="Robert Potter - The Promise Revealed." />
+<meta name="keywords" content="Pyramid, Pyramid Power, Pyradyne Systems, Promise Pyramid Systems, The Promise Revealed, Cobra, Prepare for Change, Victory to the Light Radio Show, Victory to The Light, Dr. Fred Bell, Coast to Coast, Corey Goode, Michael Salla, Valiant Thor, Dr. Frank Stranges, Semjase, Pleiades, Alpha Centauri, Arcturus, Channeling, UFO, Ovni, Ascension, Ascended Masters, Saint Germain, El Morya, Kuthumi, Jesus christ, Sananda, Yehoshua, Master Hilarion, Buddha, Muslim, Mohammed,  Deep State, Corna Virus, Fema Camps, Truth, The Way Pyramids, Cintamani, Quartz, Crystals, Pyradyne Nuclear Receptor, Promise Nuclear Receptor, Andromedan Holographic Projector, Pyradyne, Andromedan Holographic Projector, Star Orb, Devastar Orb, Block 5G, Wholesale Quartz, Plasma, Ion Shower, Firestar, Irradiator, Mega Orb, Cintamani pendants, Cintamani rings, Tesla, Tesla Coil, Secret Space Program, HAARP, Venus, Venusian Contactee, Pleiadean Contactee, THe Promise, Books, The Event, Clarion, Moon Base, Search for Extra terrestrials, Violet Wand, Nikola Tesla, Tibet, lamas, Guru, Vedanta, Advaita, Krishna, Space Family, Friends of Venus, Queen of Venus, Lady Orda, Deloris Barrios, interview with Aura Rhanes, Commander Aura Rhanes,Pleiaden answers, Tachyon Crystals, Tachyon Products, Tachyonized Cintamani, Robert Potter, Rob Potter, Spirituality, Seminars, Healing, Consultations, Discounts, Best Price, Sleeping Pyramid, Omnion, Laser watch, Promise Light watch, Blood purification, Lasers, Lasers, Red lasers, Green Lasers, Laser Systems, Laser Stands, Blue Lasers, Alfred Lambremont Webber, BBS radio, Goldfish Report, Q anon, inner circle, Ufo images, earths history" />
 <meta http-equiv="window-target" content="_top" />
 <META HTTP-EQUIV="CACHE-CONTROL" CONTENT="PUBLIC">
 	<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
-	<title>Shop - Building agile development and lean startup tools, for entrepreneurs, venture capitals, startups and project managers.</title>
+	<title>Robert Potter - The Promise Revealed.</title>
 	<asset:stylesheet src="skel-noscript.css"/>
 	<asset:stylesheet src="style.css"/>
 	<asset:stylesheet src="style-desktop.css"/>
@@ -231,12 +231,11 @@
 													    <li><a href="#tabs-5">Contact and Donate</a></li>
 													  </ul>
 													  <div id="tabs-1">
-													  	<p><span style="color:#000000;font-size:20px;">Cintamani Stones.</span></p>
-													    <p><span style="color:#000000;font-size:20px">Sleeping Pyramid Orb Accessory.</span></p>
-													    <p><span style="color:#000000;font-size:20px">Tesla Power Supply.</span></p>
-													    <p><span style="color:#000000;font-size:20px">Cintamani stone.</span></p>
-													    <p><span style="color:#000000;font-size:20px">Headgear Pyramid Copper.</span></p>
-													    <p><span style="color:#000000;font-size:20px">Giants.</span></p>
+													  	<p><span style="color:#000000;">The Promise Revealed <g:link action="show" controller="blog" id="1"> Read more...</g:link></span></p>
+													    <p><span style="color:#000000;">What my Out-of-Body experiences felt like trying to communicate with Semjases Ship <g:link action="show" controller="blog" id="33"> Read more...</g:link></span></p>
+													    <p><span style="color:#000000;">Pyramid Power in action! Freds Front page of The National Examiner Article <g:link action="show" controller="blog" id="34"> Read more ...</g:link></span></p>
+													    <p><span style="color:#000000;">The mini all spark in action <g:link action="show" controller="blog" id="35"> Read more ...</g:link></span></p>
+													    <p><span style="color:#000000;">The Promise being fulfilled at the funerary Temple in Egypt <g:link action="show" controller="blog" id="36"> Read more ...</g:link></span></p>
 													  </div>
 													  <div id="tabs-2">
 													    <p><span style="color:#000000;font-size:20px">Upcoming Events.</span></p>
@@ -244,7 +243,7 @@
 														
 													  </div>
 													  <div id="tabs-3">
-													    <p><span style="color:#000000;font-size:20px;"><span style="color:#000000;">Rob Videos. </span></span></p>
+													    <p><span style="color:#000000;font-size:20px;">The concepts Don Juan was expounding on were the basis of quantum Physics. I was instinctively drawn to these understandings and somehow knew we make our own reality by our beliefs and where we place our attention. I was practicing the various secrets of gaining personal power and had some profound beyond belief type of happenings. Growing up in Laguna Beach where Timothy Leary lived, it wasn’t long before I was having my own experiences with Power Plants, mushrooms and eventually LSD. Realize this was in the mid 70’s and the astral plane was very different then and when I was leaving my body there were uninhibited excursions to other planes and dimensions. But now things are very different and the use of psychedelics is something I do not recommend as Astral plane is being compressed. this compression brings you right back to the here and now.<span style="color:#000000;">Rob Videos. </span></span></p>
 														<p><span style="color:#000000;font-size:20px;"><span style="color:#000000;">Gallery. </span></span></p>
 														
 													  </div>
