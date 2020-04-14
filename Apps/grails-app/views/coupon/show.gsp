@@ -75,7 +75,7 @@
 							<!-- Banner -->
 								<section id="banner">
 									<a href="https://mauget.com/">
-										<span class="image image-full"><asset:image src="taim_banner_3.png"/></span>
+										<span class="image image-full"><asset:image src="homepage-2.png"/></span>
 										<header>
 											<!--  <h2>Foodal</h2>-->
 											<!--span class="byline">welcome!</span-->
@@ -91,8 +91,8 @@
 										<nav id="nav">
 											<ul>
 												<li><g:link url="/">Home</g:link></li>
-												<li><g:link controller="coupon" action="edit" id="${coupon.id}">Edit Coupon</g:link></li>
-												<li><g:link controller="coupon" action="index">Show Coupons</g:link></li>
+												<li><g:link controller="coupon" action="edit" id="${coupon.id}">Edit Event</g:link></li>
+												<li><g:link controller="coupon" action="index">Show Events</g:link></li>
 												<!--<li><a href="left-sidebar.html">Login</a></li>-->
 											</ul>
 										</nav>
@@ -122,10 +122,9 @@
 													</div>
 												</header>
 													<br><br>
-													<p style="font-size:14px;">Download and print the image.</p>
 													<br>
 													<footer class="actions">
-														<a href="mailto:bilal@mytweetmark.com" class="button fa fa-file-text">Email us today!</a>
+														<a href="mailto:rob@thepromiserevealed.com" class="button fa fa-file-text">Email us today!</a>
 														<br><br>
 													</footer>	
 													<!--header>

@@ -235,9 +235,10 @@
 													  	<p><span style="color:#000000;font-size:20px;"><br><br>The Promise Revealed - My entire life has been filled with a calling and a longing. These longings and search for love and truth have been a blessing and a curse.I have always wanted to know who am I? Where did wecome from? What is our is our purpose here? Why is there so much suffering and discord and anxiety on our planet? Why is the world so distorted and fractured,and so caught up in wars pollution ignorance superstition and fear? <g:link action="show" controller="blog" id="1"><br><br><br> Read more...</g:link></span></p>
 													  </div>
 													  <div id="tabs-2">
-													    <p><span style="color:#000000;font-size:20px">Upcoming Events.</span></p>
-														<p><span style="color:#000000;font-size:20px">Past Events.</span></p>
-														
+													    <p><span style="color:#000000;font-size:20px">Upcoming Events:</span></p>
+													    <p><span style="color:#000000;font-size:20px;">Mount Shasta Summer Conference 2020 <g:link action="show" controller="coupon" id="2"><br><br><br> Read more...</g:link></span></p>
+														<p><span style="color:#000000;font-size:20px">Past Events:</span></p>
+														<p><span style="color:#000000;font-size:20px;">Rob and Cobra Portal Conference Laguna Beach November 2012 <g:link action="show" controller="coupon" id="1"><br><br><br> Read more...</g:link></span></p>
 													  </div>
 													  <div id="tabs-3">
 													    <p><span style="color:#000000;font-size:20px;"><br><br>Secret Space Program - Some years ago I was on the Internet and I found a very interesting friend on Facebook that had some very interesting pictures of some government spaceships. He had few friends and as usual I do not know how I found him. He just kind of popped up on my page and responded to some of my spaceship pictures. The gentleman I met in virtual space and whom I choose to keep anonymous for now was very cryptic and very short in our exchanges on the Internet. I presume he disappeared from Facebook after being told by gov’t agents that his conversations with people like me and the sharing of these photos was not part of his nondisclosure contract.<g:link action="show" controller="blog" id="33"><br><br><br> Read more...</g:link></span></p>

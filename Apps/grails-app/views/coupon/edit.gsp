@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta name="layout" content="main" />
-        <g:set var="entityName" value="${message(code: 'coupon.label', default: 'Coupon')}" />
+        <g:set var="entityName" value="Event" />
         <title><g:message code="default.edit.label" args="[entityName]" /></title>
     </head>
     <body>
@@ -29,10 +29,18 @@
             <g:form resource="${this.coupon}" method="POST" enctype="multipart/form-data">
                 <g:hiddenField name="version" value="${this.coupon?.version}" />
                 <fieldset class="form">
-                    <f:all bean="coupon" except="imageOne, imageTwo, imageThree"/>
+                    <f:all bean="coupon" except="imageOne, imageTwo, imageThree, description"/>
+                </fieldset>
+                <fieldset style="margin-left:340px;">
+                	<div style="float:left;width:50" class="post"><h4>Description:</h4></div>
+                	<br>
+              				Write your event description here and use html tags for styling.<br>
+              		<div>
+                  <g:textArea name="description" value="${coupon.description}" rows="10" cols="40"/>
+              </div>	
                 </fieldset>
                 <fieldset>
-                	<div style="float:left;width:50" class="post"><h4>Upload Coupon Image (JPG):</h4></div>
+                	<div style="float:left;width:50" class="post"><h4>Upload Event Image (JPG):</h4></div>
               				Please be patient while the file uploads.<br>
               		<div>
                   <input type="file" name="myFile" />
