@@ -309,7 +309,7 @@
 									</header>
 									<ul class="divided">
 										<li><h3>(530) 918-8236</h3></li>
-										<li><a href="thepromiserevealed.com"><h3>Our Website</h3></a></li>
+										<li><a href="https://thepromiserevealed.com"><h3>Our Website</h3></a></li>
 										<li><a href="https://www.eventbrite.com/e/meet-the-venusians-mt-shasta-summer-conference-2020-tickets-89345987253"><h3>Attend Mount Shasta Summer Conference</h3></a></li>
 									</ul>
 								</section>
