@@ -228,14 +228,11 @@
 													    <li><a href="#tabs-2">Events</a></li>
 													    <li><a href="#tabs-3">Truth References</a></li>
 													    <li><a href="#tabs-4">Mission Statement</a></li>
-													    <li><a href="#tabs-5">Contact and Donate</a></li>
+													    
 													  </ul>
 													  <div id="tabs-1">
-													  	<p><span style="color:#000000;">The Promise Revealed <g:link action="show" controller="blog" id="1"> Read more...</g:link></span></p>
-													    <p><span style="color:#000000;">What my Out-of-Body experiences felt like trying to communicate with Semjases Ship <g:link action="show" controller="blog" id="33"> Read more...</g:link></span></p>
-													    <p><span style="color:#000000;">Pyramid Power in action! Freds Front page of The National Examiner Article <g:link action="show" controller="blog" id="34"> Read more ...</g:link></span></p>
-													    <p><span style="color:#000000;">The mini all spark in action <g:link action="show" controller="blog" id="35"> Read more ...</g:link></span></p>
-													    <p><span style="color:#000000;">The Promise being fulfilled at the funerary Temple in Egypt <g:link action="show" controller="blog" id="36"> Read more ...</g:link></span></p>
+													  
+													  	<p><span style="color:#000000;font-size:20px;"><br><br>The Promise Revealed - My entire life has been filled with a calling and a longing. These longings and search for love and truth have been a blessing and a curse.I have always wanted to know who am I? Where did wecome from? What is our is our purpose here? Why is there so much suffering and discord and anxiety on our planet? Why is the world so distorted and fractured,and so caught up in wars pollution ignorance superstition and fear? <g:link action="show" controller="blog" id="1"><br><br><br> Read more...</g:link></span></p>
 													  </div>
 													  <div id="tabs-2">
 													    <p><span style="color:#000000;font-size:20px">Upcoming Events.</span></p>
@@ -243,21 +240,12 @@
 														
 													  </div>
 													  <div id="tabs-3">
-													    <p><span style="color:#000000;font-size:20px;">The concepts Don Juan was expounding on were the basis of quantum Physics. I was instinctively drawn to these understandings and somehow knew we make our own reality by our beliefs and where we place our attention. I was practicing the various secrets of gaining personal power and had some profound beyond belief type of happenings. Growing up in Laguna Beach where Timothy Leary lived, it wasn’t long before I was having my own experiences with Power Plants, mushrooms and eventually LSD. Realize this was in the mid 70’s and the astral plane was very different then and when I was leaving my body there were uninhibited excursions to other planes and dimensions. But now things are very different and the use of psychedelics is something I do not recommend as Astral plane is being compressed. this compression brings you right back to the here and now.<span style="color:#000000;">Rob Videos. </span></span></p>
-														<p><span style="color:#000000;font-size:20px;"><span style="color:#000000;">Gallery. </span></span></p>
+													    <p><span style="color:#000000;font-size:20px;"><br><br>Secret Space Program - Some years ago I was on the Internet and I found a very interesting friend on Facebook that had some very interesting pictures of some government spaceships. He had few friends and as usual I do not know how I found him. He just kind of popped up on my page and responded to some of my spaceship pictures. The gentleman I met in virtual space and whom I choose to keep anonymous for now was very cryptic and very short in our exchanges on the Internet. I presume he disappeared from Facebook after being told by gov’t agents that his conversations with people like me and the sharing of these photos was not part of his nondisclosure contract.<g:link action="show" controller="blog" id="33"><br><br><br> Read more...</g:link></span></p>
 														
 													  </div>
 													  <div id="tabs-4">
-													    <p><span style="color:#000000;font-size:20px;"><span style="color:#000000;">Victory of the light Blog.</span></span></p>
-														<p><span style="color:#000000;font-size:20px;"><span style="color:#000000;">Prepare for change.</span></span></p>
-														<p><span style="color:#000000;font-size:20px;"><span style="color:#000000;">Haarp Article.</span></span></p>
-														<p><span style="color:#000000;font-size:20px;"><span style="color:#000000;">2012 Portal Event.</span></span></p>
+													    <p><span style="color:#000000;font-size:20px;"><br><br>Victory to the Light - This website is intended to act as a Portal of Light and Truth to be shared freely with the entire universe. This site is currently brand new and is under construction. I will be adding to this site continually and sharing information in regards to all the subjects in the links at the top of this page. I will continue to travel the world to Sacred Sites and to share the truth of the space family and the healing technologies. I will instill the truth of The Promise and good news through the coming changes on these pages. I will sincerely proclaim the positive message of hope, love and prosperity for all. I will do this to share light from our benevolent space family who will soon be free to walk openly upon our world.<g:link action="show" controller="blog" id="34"><br><br><br> Read more...</g:link></span></p>
 																
-													  </div>
-													  <div id="tabs-5">
-													    <p><span style="color:#000000;font-size:20px">Victory of the light radio show.</span></p>
-														<p><span style="color:#000000;font-size:20px">Interviews of Rob by other radio hosts.</span></p>
-														
 													  </div>
 													  
 													</div>												
