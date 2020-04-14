@@ -15,13 +15,17 @@ class CategoryController {
 	static fProd = "/opt/tomcat/webapps/ROOT/assets/images"
 	static fTest = "C:\\development\\workspace\\Apps\\grails-app\\assets\\images"
 
+	@Secured(['ROLE_ADMIN', 'ROLE_ANONYMOUS'])
     def index(Integer max) {
         params.max = Math.min(max ?: 10, 100)
         respond Category.list(params), model:[categoryCount: Category.count()]
     }
 
+	@Secured(['ROLE_ADMIN', 'ROLE_ANONYMOUS'])
     def show(Category category) {
-        respond category
+		def photos = Photos.findAllByCategory(category)
+		def products = Products.findAllByCategory(category)
+        [category:category, photos:photos, products:products]
     }
 
     def create() {

@@ -144,6 +144,11 @@
 														</div> 
 													
 													<br><br>
+													<g:if test="${products.category}">
+													<p style="font-size:20px;color:#000000;">Category: <g:link action="show" controller="category" id="${products.category.id}"><span style="font-size:20px;color:#000000">${products.category.name}</span></g:link></p>
+													<br><br>
+													</g:if>
+													
 													<p style="font-size:16px;color:#8a7e7e;">Views: ${productViews}</p>
 													<br><br>
 													<p style="font-size:18px;">Description: <f:display bean="products" property="description"/></p>

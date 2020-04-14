@@ -11,6 +11,7 @@ class Photos {
 		byte[] imageOne
 		byte[] imageTwo
 		byte[] imageThree
+		Category category
 
     static constraints = {
                 //id(nullable:true)
@@ -22,6 +23,7 @@ class Photos {
 				imageOne(nullable:true, maxSize: 1024 * 1024 * 2)
 				imageTwo(nullable:true, maxSize: 1024 * 1024 * 2)
 				imageThree(nullable:true, maxSize: 1024 * 1024 * 2)
+				category(nullable:true)
     }
 
         static mapping = {

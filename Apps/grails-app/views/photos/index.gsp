@@ -113,6 +113,7 @@
 										<nav id="nav">
 											<ul>
 												<li><g:link url="/">Home</g:link></li>
+												<li><g:link controller="category" action="index">Category</g:link></li>
 												<li><g:link controller="photos" action="create">Create a Photo</g:link></li>
 												<!--<li><a href="left-sidebar.html">Login</a></li>-->
 											</ul>

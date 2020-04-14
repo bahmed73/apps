@@ -116,6 +116,11 @@
 														<span style="font-size:35px;color:#9b9ea9"><f:display bean="photos" property="name"/></span>
 													</header>
 													<br><br>
+													<g:if test="${photos.category}">
+													<p style="font-size:20px;color:#000000;">Category: <g:link action="show" controller="category" id="${photos.category.id}"><span style="font-size:20px;color:#000000">${photos.category.name}</span></g:link></p>
+													<br><br>
+													</g:if>
+													
 													<p style="font-size:18px;color:#8a7e7e;"><f:display bean="photos" property="description"/></p>
 													<br><br>
 													
