@@ -169,6 +169,20 @@
 													<br>
 													</div>
 												</g:if>
+												<g:if test="${photos}">
+												<br><br>
+													
+													<span style="font-size:25px;color:#000000">
+													Additional Photos:</span>
+													<br><br>
+													<g:each in="${photos}" status="i" var="photosInstance">
+													
+													<p><g:link controller="photos" action="show" id="${photosInstance.id}"><span style="color:#ffffff;"><img src="data:image/png;base64,${photosInstance.imageOne?.encodeBase64()}"/><br><br>${photosInstance.name}</span></g:link></p>
+													<br>	
+													</g:each>
+													</g:if>
+													<br><br>
+													
 												</header>
 													<footer class="actions">
 													<br><br>

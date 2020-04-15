@@ -27,10 +27,16 @@
             </g:hasErrors>
             <g:form action="save" method="post" enctype="multipart/form-data">
                 <fieldset class="form">
-                    <f:all bean="photos" except="imageOne, imageTwo, imageThree, category"/>
+                    <f:all bean="photos" except="imageOne, imageTwo, imageThree, category, blog, products"/>
                 </fieldset>
                 <fieldset>
                 <f:field bean="photos" property="category" widget-optionValue="name"/>
+                </fieldset>
+                <fieldset>
+                <f:field bean="photos" property="blog" widget-optionValue="name"/>
+                </fieldset>
+                <fieldset>
+                <f:field bean="photos" property="products" widget-optionValue="name"/>
                 </fieldset>
                 <fieldset>
                 	<div style="float:left;width:50" class="post"><h4>Upload Photo Image (JPG):</h4></div>

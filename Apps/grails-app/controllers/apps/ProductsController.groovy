@@ -77,7 +77,12 @@ class ProductsController {
 		log.info "added product referers"
 		
 		def productViews = ProductView.countByProducts(products)
-        respond products, model:[productViews: productViews]
+		
+		def photos = Photos.findAllByProducts(products)
+		
+		[products:products, productViews:productViews, photos:photos]
+		
+        //respond products, model:[productViews: productViews]
     }
 
     def create() {
