@@ -155,7 +155,7 @@
 													<br><br>
 													<g:each in="${photos}" status="i" var="photosInstance">
 													
-													<p><g:link controller="photos" action="show" id="${photosInstance.id}"><span style="color:#ffffff;">${photosInstance.name}</span></g:link></p>
+													<p><g:link controller="photos" action="show" id="${photosInstance.id}"><span style="color:#ffffff;"><img src="data:image/png;base64,${photosInstance.imageOne?.encodeBase64()}"/><br><br>${photosInstance.name}</span></g:link></p>
 													<br>	
 													</g:each>
 													</g:if>
@@ -165,7 +165,7 @@
 													Products:</span>
 													<br><br>
 													<g:each in="${products}" status="i" var="productsInstance">
-													<p><g:link controller="products" action="show" id="${productsInstance.id}"><span style="color:#ffffff;">${productsInstance.name}</span></g:link></p>
+													<p><g:link controller="products" action="show" id="${productsInstance.id}"><span style="color:#ffffff;"><img src="data:image/png;base64,${productsInstance.imageOne?.encodeBase64()}"/><br><br>${productsInstance.name}</span></g:link></p>
 													<br>
 													</g:each>
 													</g:if>
