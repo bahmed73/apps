@@ -38,10 +38,34 @@
 		<!--[if lte IE 8]><asset:javascript src="html5shiv.js"/><asset:stylesheet src="ie8.css"/><![endif]-->
 	<style>
 		p {
-		  border: 20px dotted #e5e1e1;
-		  background-color: #e1f3f9;
-		  border-radius: 10px;
-		  border-width: 5px;
+		  border: 2px solid #e5e1e1;
+		  background-color: #007FFF;
+		  border-width: 2px;
+		  margin: 5px;
+		  padding: 10px;
+		}
+		
+		.button {
+		  display: inline-block;
+		  padding: 15px 25px;
+		  font-size: 15px;
+		  cursor: pointer;
+		  text-align: center;
+		  text-decoration: none;
+		  outline: none;
+		  color: #fdeba9;
+		  background-color: #16e01b;
+		  border: none;
+		  border-radius: 15px;
+		  box-shadow: 0 9px #007FFF;
+		}
+
+		.button:hover {background-color: #ffffff}
+		
+		.button:active {
+		  background-color: #1d10d2;
+		  box-shadow: 0 5px #666;
+		  transform: translateY(4px);
 		}
 		</style>
 	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
@@ -111,8 +135,8 @@
 								<!-- Nav -->
 										<nav id="nav">
 											<ul>
-												<li><g:link url="/">Home</g:link></li>
-												<li><g:link controller="videos" action="create">Create a Video</g:link></li>
+												<li><button class="button"><g:link url="/"><span style="color:#000000">Home</span></g:link></button></li>
+												<li><button class="button"><g:link controller="videos" action="create"><span style="color:#000000">Create a Video</span></g:link></button></li>
 												<!--<li><a href="left-sidebar.html">Login</a></li>-->
 											</ul>
 										</nav>
@@ -128,12 +152,12 @@
 												<div id="block1" class="6u">
 														<section class="box">
 														<header>
-														<span style="font-size:35px;color:#9b9ea9">${videosInstance.name}</span>
+														<span style="font-size:35px;color:#000000">${videosInstance.name}</span>
 														</header>
 														<br><br>
-														<p style="font-size:20px;color:#8a7e7e;">Description: ${videosInstance.description}</p>
+														<p style="font-size:20px;color:#ffffff;">Description: ${videosInstance.description}</p>
 														<br><br>
-														<p style="font-size:18px;"><g:link controller="videos" action="show" id="${videosInstance.id}"><span style="color:#8a7e7e;">Watch the video...</span></g:link></p>
+														<button class="button"><g:link controller="videos" action="show" id="${videosInstance.id}"><span style="color:#000000;">Watch the video...</span></g:link></button>
 														</section>
 												</div>
 												<div id="block2" class="6u">

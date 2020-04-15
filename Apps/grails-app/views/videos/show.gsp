@@ -35,10 +35,34 @@
 		<!--[if lte IE 8]><asset:javascript src="html5shiv.js"/><asset:stylesheet src="ie8.css"/><![endif]-->
 	<style>
 		p {
-		  border: 20px dotted #e5e1e1;
-		  background-color: #e1f3f9;
-		  border-radius: 10px;
-		  border-width: 5px;
+		  border: 2px solid #e5e1e1;
+		  background-color: #007FFF;
+		  border-width: 2px;
+		  margin: 5px;
+		  padding: 10px;
+		}
+		
+		.button {
+		  display: inline-block;
+		  padding: 15px 25px;
+		  font-size: 15px;
+		  cursor: pointer;
+		  text-align: center;
+		  text-decoration: none;
+		  outline: none;
+		  color: #fdeba9;
+		  background-color: #16e01b;
+		  border: none;
+		  border-radius: 15px;
+		  box-shadow: 0 9px #007FFF;
+		}
+
+		.button:hover {background-color: #ffffff}
+		
+		.button:active {
+		  background-color: #1d10d2;
+		  box-shadow: 0 5px #666;
+		  transform: translateY(4px);
 		}
 		</style>
 	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
@@ -90,15 +114,16 @@
 								<!-- Nav -->
 										<nav id="nav">
 											<ul>
-												<li><g:link url="/">Home</g:link></li>
-												<li><g:link controller="videos" action="edit" id="${videos.id}">Edit Video</g:link></li>
-												<li><g:link controller="videos" action="index">Show Videos</g:link></li>
-												<li><g:form resource="${this.videos}" method="DELETE" controller="videos" action="delete">
+												<li><button class="button"><g:link url="/"><span style="color:#000000">Home</span></g:link></button></li>
+												<li><button class="button"><g:link controller="videos" action="edit" id="${videos.id}"><span style="color:#000000">Edit Video</span></g:link></button></li>
+												<li><button class="button"><g:link controller="videos" action="index"><span style="color:#000000">Show Videos</span></g:link></button></li>
+												<li><button class="button"><g:form resource="${this.videos}" method="DELETE" controller="videos" action="delete">
 												    <fieldset class="buttons">
 									                	<input class="delete" type="submit" value="${message(code: 'default.button.delete.label', default: 'Delete')}" onclick="return confirm('${message(code: 'default.button.delete.confirm.message', default: 'Are you sure?')}');" />
 									                </fieldset>
 									                
 									            </g:form>
+									            </button>
 									            </li>
 												<!--<li><a href="left-sidebar.html">Login</a></li>-->
 											</ul>
@@ -113,10 +138,10 @@
 													<section class="box">
 													<!-- <a href="http://www.mytweetmark.com" class="image image-full"><asset:image src="foodal-homepage-16.png"/></a> -->
 													<header>
-														<span style="font-size:35px;color:#9b9ea9"><f:display bean="videos" property="name"/></span>
+														<span style="font-size:35px;color:#000000"><f:display bean="videos" property="name"/></span>
 													</header>
 													<br><br>
-													<p style="font-size:18px;color:#8a7e7e;">Description: <f:display bean="videos" property="description"/></p>
+													<p style="font-size:18px;color:#ffffff;font-family: Arial, Helvetica, sans-serif;">Description: <f:display bean="videos" property="description"/></p>
 													<br><br>
 													
 												</section>
@@ -127,7 +152,7 @@
 													<iframe width="420" height="315" src="https://www.youtube.com/embed/${videos.videoUrl}" frameborder="0" allowfullscreen></iframe>
 												</header>
 													<br><br>
-													<p style="font-size:14px;">Questions? Email us today for 24/7 support.</p>
+													<p style="font-size:14px;color:#ffffff;">Use the videos to describe your products.</p>
 													<br>
 													<footer class="actions">
 														<a href="mailto:rob@thepromiserevealed.com" class="button fa fa-file-text">Email us today!</a>

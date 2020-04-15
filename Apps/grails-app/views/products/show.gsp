@@ -40,10 +40,34 @@
 		<!--[if lte IE 8]><asset:javascript src="html5shiv.js"/><asset:stylesheet src="ie8.css"/><![endif]-->
 		<style>
 		p {
-		  border: 20px dotted #e5e1e1;
-		  background-color: #e1f3f9;
-		  border-radius: 10px;
-		  border-width: 5px;
+		  border: 2px solid #e5e1e1;
+		  border-width: 2px;
+		  margin: 5px;
+		  padding: 10px;
+		  background-color: #007FFF;
+		}
+		
+		.button {
+		  display: inline-block;
+		  padding: 15px 25px;
+		  font-size: 15px;
+		  cursor: pointer;
+		  text-align: center;
+		  text-decoration: none;
+		  outline: none;
+		  color: #fdeba9;
+		  background-color: #16e01b;
+		  border: none;
+		  border-radius: 15px;
+		  box-shadow: 0 9px #007FFF;
+		}
+
+		.button:hover {background-color: #ffffff}
+		
+		.button:active {
+		  background-color: #1d10d2;
+		  box-shadow: 0 5px #666;
+		  transform: translateY(4px);
 		}
 		</style>
 	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
@@ -97,15 +121,17 @@
 								<!-- Nav -->
 										<nav id="nav">
 											<ul>
-												<li><g:link url="/">Home</g:link></li>
-												<li><g:link controller="products" action="edit" id="${products.id}">Edit Product</g:link></li>
-												<li><g:link controller="products" action="index">Show Products</g:link></li>
-												<li><g:form resource="${this.products}" method="DELETE" controller="products" action="delete">
+												<li><button class="button"><g:link url="/"><span style="color:#000000">Home</span></g:link></button></li>
+												<li><button class="button"><g:link controller="products" action="edit" id="${products.id}"><span style="color:#000000">Edit Product</span></g:link></button></li>
+												<li><button class="button"><g:link controller="products" action="index"><span style="color:#000000">Show Products</span></g:link></button></li>
+												<li><button class="button"><g:form resource="${this.products}" method="DELETE" controller="products" action="delete">
+												<span style="color:#000000">
 												    <fieldset class="buttons">
 									                	<input class="delete" type="submit" value="${message(code: 'default.button.delete.label', default: 'Delete')}" onclick="return confirm('${message(code: 'default.button.delete.confirm.message', default: 'Are you sure?')}');" />
 									                </fieldset>
-									                
+									                </span>
 									            </g:form>
+									            </button>
 									            </li>
 												<!--<li><a href="left-sidebar.html">Login</a></li>-->
 											</ul>
@@ -120,7 +146,7 @@
 													<section class="box">
 													<!-- <a href="http://www.mytweetmark.com" class="image image-full"><asset:image src="foodal-homepage-16.png"/></a> -->
 													<header>
-														<span style="font-size:35px;color:#9b9ea9"><f:display bean="products" property="name"/></span>
+														<span style="font-size:35px;color:#000000"><f:display bean="products" property="name"/></span>
 													</header>
 													<br><br>
 													
@@ -149,13 +175,13 @@
 													<br><br>
 													</g:if>
 													
-													<p style="font-size:16px;color:#8a7e7e;">Views: ${productViews}</p>
+													<p style="font-size:16px;color:#ffffff;">Views: ${productViews}</p>
 													<br><br>
-													<p style="font-size:18px;">Description: <f:display bean="products" property="description"/></p>
+													<p style="font-size:18px;color:#ffffff;font-family: Arial, Helvetica, sans-serif;">Description: <f:display bean="products" property="description"/></p>
 													<br><br>
-													<p style="font-size:18px;color:#8a7e7e;">Other Relevant Info: <f:display bean="products" property="other"/></p>
+													<p style="font-size:18px;color:#ffffff;">Other Relevant Info: <f:display bean="products" property="other"/></p>
 													<br><br>
-													<p style="font-size:18px;color:#8a7e7e;">Price: <f:display bean="products" property="price"/></p>
+													<p style="font-size:18px;color:#ffffff;">Price: <f:display bean="products" property="price"/></p>
 													<br><br>
 														
 													<a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -170,7 +196,7 @@
 													<img src="data:image/png;base64,${products.imageThree?.encodeBase64()}"/>
 												</header>
 													<br><br>
-													<p style="font-size:14px;">Copy and paste the browser link above for your social media marketing, e.g. paste as facebook post.</p>
+													<p style="font-size:14px;color:#ffffff;">Copy and paste the browser link above for your social media marketing, e.g. paste as facebook post or twitter tweet.</p>
 													<br>
 													<footer class="actions">
 														<a href="mailto:rob@thepromiserevealed.com" class="button fa fa-file-text">Email us today!</a>

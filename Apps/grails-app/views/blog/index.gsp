@@ -36,7 +36,7 @@
 		<style>
 		p {
 		  border: 2px solid #e5e1e1;
-		  background-color: #5f6469;
+		  background-color: #007FFF;
 		  border-width: 2px;
 		  margin: 5px;
 		  padding: 10px;
@@ -49,17 +49,17 @@
 		  text-align: center;
 		  text-decoration: none;
 		  outline: none;
-		  color: #fff;
-		  background-color: #000000;
+		  color: #fdeba9;
+		  background-color: #16e01b;
 		  border: none;
 		  border-radius: 15px;
-		  box-shadow: 0 9px #999;
+		  box-shadow: 0 9px #007FFF;
 		}
 
-		.button:hover {background-color: #515751}
+		.button:hover {background-color: #ffffff}
 		
 		.button:active {
-		  background-color: #3e8e41;
+		  background-color: #1d10d2;
 		  box-shadow: 0 5px #666;
 		  transform: translateY(4px);
 		}
@@ -127,10 +127,10 @@
 								<!-- Nav -->
 										<nav id="nav">
 											<ul>
-												<li><button class="button"><g:link url="/">Home</g:link></button></li>
-												<li><button class="button"><g:link controller="blog" action="create">Create a Blog</g:link></button></li>
-												<li><button class="button"><div class="fb-share-button" data-href="${createLink(action: 'index', controller: 'blog')}" data-layout="button" data-size="small"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Ftaote.shop%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div></button></li>
-												<li><button class="button"><a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></button></li>
+												<li><button class="button"><g:link url="/"><span style="color:#000000">Home</span></g:link></button></li>
+												<li><button class="button"><g:link controller="blog" action="create"><span style="color:#000000">Create a Blog</span></g:link></button></li>
+												<li><button class="button"><div class="fb-share-button" data-href="${createLink(action: 'index', controller: 'blog')}" data-layout="button" data-size="small"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Ftaote.shop%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore"><span style="color:#000000">Share</span></a></div></button></li>
+												<li><button class="button"><a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false"><span style="color:#000000">Tweet</span></a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></button></li>
 												<br><br>
 												
 												<!--<li><a href="left-sidebar.html">Login</a></li>-->
@@ -150,7 +150,7 @@
 																				<header>
 														<span style="font-size:35px;color:#000000">${blogInstance.name}</span>
 														<br><br>
-														<p><span style="font-size:20px;color:#fdeba9">Create Time: <g:formatDate format="MM-dd-yyyy" date="${blogInstance.createTime}"/></span></p> 
+														<p><span style="font-size:20px;color:#ffffff">Create Time: <g:formatDate format="MM-dd-yyyy" date="${blogInstance.createTime}"/></span></p> 
 								
 														<br><br>
 														<br><br>
@@ -158,7 +158,7 @@
 														</header>
 														<br><br>
 														
-														<button class="button"><g:link controller="blog" action="show" id="${blogInstance.id}">View Full Blog</g:link></button>
+														<button class="button"><g:link controller="blog" action="show" id="${blogInstance.id}"><span style="color:#000000">View Full Blog</span></g:link></button>
 														</section>
 												</div>
 												<div id="block2" class="6u">

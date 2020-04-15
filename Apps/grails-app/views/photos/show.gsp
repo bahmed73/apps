@@ -35,10 +35,34 @@
 		<!--[if lte IE 8]><asset:javascript src="html5shiv.js"/><asset:stylesheet src="ie8.css"/><![endif]-->
 		<style>
 		p {
-		  border: 20px dotted #e5e1e1;
-		  background-color: #e1f3f9;
-		  border-radius: 10px;
-		  border-width: 5px;
+		  border: 2px solid #e5e1e1;
+		  background-color: #007FFF;
+		  border-width: 2px;
+		  margin: 5px;
+		  padding: 10px;
+		}
+		
+		.button {
+		  display: inline-block;
+		  padding: 15px 25px;
+		  font-size: 15px;
+		  cursor: pointer;
+		  text-align: center;
+		  text-decoration: none;
+		  outline: none;
+		  color: #fdeba9;
+		  background-color: #16e01b;
+		  border: none;
+		  border-radius: 15px;
+		  box-shadow: 0 9px #007FFF;
+		}
+
+		.button:hover {background-color: #ffffff}
+		
+		.button:active {
+		  background-color: #1d10d2;
+		  box-shadow: 0 5px #666;
+		  transform: translateY(4px);
 		}
 		</style>
 	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
@@ -90,15 +114,16 @@
 								<!-- Nav -->
 										<nav id="nav">
 											<ul>
-												<li><g:link url="/">Home</g:link></li>
-												<li><g:link controller="photos" action="edit" id="${photos.id}">Edit Photo</g:link></li>
-												<li><g:link controller="photos" action="index">Show Photos</g:link></li>
-												<li><g:form resource="${this.photos}" method="DELETE" controller="photos" action="delete">
+												<li><button class="button"><g:link url="/"><span style="color:#000000">Home</span></g:link></button></li>
+												<li><button class="button"><g:link controller="photos" action="edit" id="${photos.id}"><span style="color:#000000">Edit Photo</span></g:link></button></li>
+												<li><button class="button"><g:link controller="photos" action="index"><span style="color:#000000">Show Photos</span></g:link></button></li>
+												<li><button class="button"><g:form resource="${this.photos}" method="DELETE" controller="photos" action="delete">
 												    <fieldset class="buttons">
 									                	<input class="delete" type="submit" value="${message(code: 'default.button.delete.label', default: 'Delete')}" onclick="return confirm('${message(code: 'default.button.delete.confirm.message', default: 'Are you sure?')}');" />
 									                </fieldset>
 									                
 									            </g:form>
+									            </button>
 									            </li>
 												<!--<li><a href="left-sidebar.html">Login</a></li>-->
 											</ul>
@@ -113,7 +138,7 @@
 													<section class="box">
 													<!-- <a href="http://www.mytweetmark.com" class="image image-full"><asset:image src="foodal-homepage-16.png"/></a> -->
 													<header>
-														<span style="font-size:35px;color:#9b9ea9"><f:display bean="photos" property="name"/></span>
+														<span style="font-size:35px;color:#000000"><f:display bean="photos" property="name"/></span>
 													</header>
 													<br><br>
 													<g:if test="${photos.category}">
@@ -121,7 +146,7 @@
 													<br><br>
 													</g:if>
 													
-													<p style="font-size:18px;color:#8a7e7e;"><f:display bean="photos" property="description"/></p>
+													<p style="font-size:18px;color:#ffffff;font-family: Arial, Helvetica, sans-serif;">Description: <f:display bean="photos" property="description"/></p>
 													<br><br>
 													
 												</section>
@@ -129,12 +154,12 @@
 											<div id="block2">
 												<section class="box">
 												<header>
-													<div style="border: 20px dotted #e1f3f9;">
+													<div>
 													<img src="data:image/png;base64,${photos.imageThree?.encodeBase64()}"/>
 													</div>
 												</header>
 													<br><br>
-													<p style="font-size:14px;">Upload your photos.</p>
+													<p style="font-size:14px;color:#ffffff;">Upload photos to describe your products by category.</p>
 													<br>
 													<footer class="actions">
 														<a href="mailto:rob@thepromiserevealed.com" class="button fa fa-file-text">Email us today!</a>

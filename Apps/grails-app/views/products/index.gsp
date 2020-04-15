@@ -35,11 +35,35 @@
 		<!--[if lte IE 8]><asset:javascript src="html5shiv.js"/><asset:stylesheet src="ie8.css"/><![endif]-->
 		<style>
 		p {
-		  border: 20px dotted #e5e1e1;
-		  background-color: #e1f3f9;
-		  border-radius: 10px;
-		  border-width: 5px;
+		  border: 2px solid #e5e1e1;
+		  background-color: #007FFF;
+		  border-width: 2px;
+		  margin: 5px;
+		  padding: 10px;
 		}
+		.button {
+		  display: inline-block;
+		  padding: 15px 25px;
+		  font-size: 15px;
+		  cursor: pointer;
+		  text-align: center;
+		  text-decoration: none;
+		  outline: none;
+		  color: #fdeba9;
+		  background-color: #16e01b;
+		  border: none;
+		  border-radius: 15px;
+		  box-shadow: 0 9px #007FFF;
+		}
+
+		.button:hover {background-color: #ffffff}
+		
+		.button:active {
+		  background-color: #1d10d2;
+		  box-shadow: 0 5px #666;
+		  transform: translateY(4px);
+		}
+		
 		</style>
 	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
 		  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
@@ -92,9 +116,9 @@
 								<!-- Nav -->
 										<nav id="nav">
 											<ul>
-												<li><g:link url="/">Home</g:link></li>
-												<li><g:link controller="category" action="index">Category</g:link></li>
-												<li><g:link controller="products" action="create">Create a Product</g:link></li>
+												<li><button class="button"><g:link url="/"><span style="color:#000000">Home</span></g:link></button></li>
+												<li><button class="button"><g:link controller="category" action="index"><span style="color:#000000">Category</span></g:link></button></li>
+												<li><button class="button"><g:link controller="products" action="create"><span style="color:#000000">Create a Product</span></g:link></button></li>
 												<!--<li><a href="left-sidebar.html">Login</a></li>-->
 											</ul>
 										</nav>
@@ -110,19 +134,19 @@
 												<div id="block1" class="6u">
 														<section class="box">
 														<header>
-														<span style="font-size:35px;color:#9b9ea9">${productsInstance.name}</span>
+														<span style="font-size:35px;color:#000000">${productsInstance.name}</span>
 														</header>
 														<br><br>
-														<p style="font-size:18px;">Other Relevant Info: ${productsInstance.other}</p>
+														<p style="font-size:18px;color:#ffffff">Other Relevant Info: ${productsInstance.other}</p>
 														<br><br>
-														<p style="font-size:18px;">Price: ${productsInstance.price}</p>
+														<p style="font-size:18px;color:#ffffff">Price: ${productsInstance.price}</p>
 														<br><br>
-														<g:link controller="products" action="show" id="${productsInstance.id}"><span style="color:#8a7e7e;">See checkout page...</span></g:link>
+														<button class="button"><g:link controller="products" action="show" id="${productsInstance.id}"><span style="color:#000000">See checkout page...</span></g:link></button>
 														</section>
 												</div>
 												<div id="block2">
 														<section class="box">
-														<div style="border: 20px dotted #e1f3f9;">
+														<div>
 														<img src="data:image/png;base64,${productsInstance.imageThree?.encodeBase64()}"/>
 														</div>
 														</section>

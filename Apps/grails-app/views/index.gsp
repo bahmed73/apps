@@ -66,13 +66,13 @@
 		  background-color: #16e01b;
 		  border: none;
 		  border-radius: 15px;
-		  box-shadow: 0 9px #12226c;
+		  box-shadow: 0 9px #007FFF;
 		}
 
 		.button:hover {background-color: #ffffff}
 		
 		.button:active {
-		  background-color: #3e8e41;
+		  background-color: #1d10d2;
 		  box-shadow: 0 5px #666;
 		  transform: translateY(4px);
 		}
@@ -222,7 +222,7 @@
 						
 								<section>
 									<div>
-										<div id="tabs" style="background-color:#ffffff">
+										<div id="tabs">
 													  <ul>
 													    <li><a href="#tabs-1">Home</a></li>
 													    <li><a href="#tabs-2">Events</a></li>
