@@ -29,7 +29,15 @@
             <g:form resource="${this.category}" method="POST" enctype="multipart/form-data">
                 <g:hiddenField name="version" value="${this.category?.version}" />
                 <fieldset class="form">
-                    <f:all bean="category" except="imageOne, imageTwo, imageThree"/>
+                    <f:all bean="category" except="imageOne, imageTwo, imageThree, description"/>
+                </fieldset>
+                <fieldset style="margin-left:340px;">
+                	<div style="float:left;width:50" class="post"><h4>Description:</h4></div>
+                	<br>
+              				Write your category details here and use html tags for styling.<br>
+              		<div>
+                  <g:textArea name="description" value="${category.description}" rows="10" cols="40"/>
+              </div>	
                 </fieldset>
                 <fieldset>
                 	<div style="float:left;width:50" class="post"><h4>Upload Category Image (JPG):</h4></div>
