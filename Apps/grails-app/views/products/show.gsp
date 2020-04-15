@@ -101,7 +101,7 @@
 				<div class="container">
 					
 					<div class="row">
-						<div id="block3" class="12u">
+						<div class="12u">
 
 							<!-- Banner -->
 								<section id="banner">
@@ -142,7 +142,7 @@
 								<section>
 									<div>
 										<div class="row">
-											<div id="block1" class="6u">
+											<div class="6u">
 													<section class="box">
 													<!-- <a href="http://www.mytweetmark.com" class="image image-full"><asset:image src="foodal-homepage-16.png"/></a> -->
 													<header>
@@ -177,8 +177,6 @@
 													
 													<p style="font-size:16px;color:#ffffff;">Views: ${productViews}</p>
 													<br><br>
-													<p style="font-size:18px;color:#ffffff;font-family: Arial, Helvetica, sans-serif;">Description: <f:display bean="products" property="description"/></p>
-													<br><br>
 													<p style="font-size:18px;color:#ffffff;">Other Relevant Info: <f:display bean="products" property="other"/></p>
 													<br><br>
 													<p style="font-size:18px;color:#ffffff;">Price: <f:display bean="products" property="price"/></p>
@@ -189,7 +187,7 @@
 													
 												</section>
 											</div>
-											<div id="block2" class="6u">
+											<div class="6u">
 												<section class="box">
 												<header>
 													<!-- <asset:image src="PRODUCTS_${products.id}-03"/> -->
@@ -202,15 +200,14 @@
 														<a href="mailto:rob@thepromiserevealed.com" class="button fa fa-file-text">Email us today!</a>
 														<br><br>
 													</footer>	
-													<!--header>
-														<h3>Aptent veroeros et aliquam</h3>
-														<span class="byline">Posted 45 minutes ago</span>
-													</header>
-													<p>Lorem ipsum dolor sit amet sit veroeros sed et blandit consequat sed veroeros lorem et blandit  adipiscing feugiat phasellus tempus hendrerit, tortor vitae mattis tempor, sapien sem feugiat sapien, id suscipit magna felis nec elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos lorem ipsum dolor sit amet.</p>
-													<footer class="actions">
-														<a href="#" class="button fa fa-file-text">Continue Reading</a>
-														<a href="#" class="button alt fa fa-comment">33 comments</a>
-													</footer-->
+													
+												</section>
+											</div>
+											<div class="12u">
+												<section class="box">
+												<p style="font-size:18px;color:#ffffff;font-family: Arial, Helvetica, sans-serif;">Description: <f:display bean="products" property="description"/></p>
+													<br><br>
+														
 												</section>
 											</div>
 										</div>

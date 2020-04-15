@@ -94,7 +94,7 @@
 				<div class="container">
 					
 					<div class="row">
-						<div id="block3" class="12u">
+						<div class="12u">
 
 							<!-- Banner -->
 								<section id="banner">
@@ -131,7 +131,7 @@
 									<section>
 										<div>
 											<div class="row">
-												<div id="block1" class="6u">
+												<div class="6u">
 														<section class="box">
 														<header>
 														<span style="font-size:35px;color:#000000">${productsInstance.name}</span>
@@ -144,7 +144,7 @@
 														<button class="button"><g:link controller="products" action="show" id="${productsInstance.id}"><span style="color:#000000">See checkout page...</span></g:link></button>
 														</section>
 												</div>
-												<div id="block2">
+												<div>
 														<section class="box">
 														<div>
 														<img src="data:image/png;base64,${productsInstance.imageThree?.encodeBase64()}"/>

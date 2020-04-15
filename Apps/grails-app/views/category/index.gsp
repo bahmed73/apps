@@ -152,18 +152,16 @@
 									<section>
 										<div>
 											<div class="row">
-												<div id="block1" class="6u">
+												<div class="6u">
 														<section class="box">
 														<header>
 														<span style="font-size:35px;color:#000000">${categoryInstance.name}</span>
 														</header>
 														<br><br>
-														<p style="font-size:20px;color:#ffffff;">${categoryInstance.description}</p>
-														<br><br>
 														<button class="button"><g:link controller="category" action="show" id="${categoryInstance.id}"><span style="color:#000000;">View Category Details...</span></g:link></button>
 														</section>
 												</div>
-												<div id="block2">
+												<div>
 														<section class="box">
 														<div>
 														<img src="data:image/png;base64,${categoryInstance.imageOne?.encodeBase64()}"/>

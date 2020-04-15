@@ -149,7 +149,7 @@
 									<section>
 										<div>
 											<div class="row">
-												<div id="block1" class="6u">
+												<div class="6u">
 														<section class="box">
 														<header>
 														<span style="font-size:35px;color:#000000">${videosInstance.name}</span>
@@ -160,7 +160,7 @@
 														<button class="button"><g:link controller="videos" action="show" id="${videosInstance.id}"><span style="color:#000000;">Watch the video...</span></g:link></button>
 														</section>
 												</div>
-												<div id="block2" class="6u">
+												<div class="6u">
 														<section class="box">
 														<iframe width="210" height="162" src="https://www.youtube.com/embed/${videosInstance.videoUrl}" frameborder="0" allowfullscreen></iframe>
 														</section>

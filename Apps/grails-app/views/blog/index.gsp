@@ -105,7 +105,7 @@
 				<div class="container">
 					
 					<div class="row">
-						<div id="block3" class="12u">
+						<div class="12u">
 
 							<!-- Banner -->
 								<section id="banner">
@@ -145,7 +145,7 @@
 									<section>
 										<div>
 											<div class="row">
-												<div id="block1" class="6u">
+												<div class="6u">
 														<section class="box" >
 																				<header>
 														<span style="font-size:35px;color:#000000">${blogInstance.name}</span>
@@ -161,7 +161,7 @@
 														<button class="button"><g:link controller="blog" action="show" id="${blogInstance.id}"><span style="color:#000000">View Full Blog</span></g:link></button>
 														</section>
 												</div>
-												<div id="block2" class="6u">
+												<div class="6u">
 														<section class="box" >
 																				<header>
 														<g:if test="${blogInstance.imageOne}">

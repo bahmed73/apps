@@ -151,7 +151,7 @@
 									<section>
 										<div>
 											<div class="row">
-												<div id="block1" class="6u">
+												<div class="6u">
 														<section class="box">
 														<header>
 														<span style="font-size:35px;color:#000000">${photosInstance.name}</span>
@@ -162,7 +162,7 @@
 														<button class="button"><g:link controller="photos" action="show" id="${photosInstance.id}"><span style="color:#000000;">View bigger photo...</span></g:link></button>
 														</section>
 												</div>
-												<div id="block2">
+												<div>
 														<section class="box">
 														<div>
 														<img src="data:image/png;base64,${photosInstance.imageOne?.encodeBase64()}"/>

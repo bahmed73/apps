@@ -94,17 +94,17 @@
 				<div class="container">
 					
 					<div class="row">
-						<div id="block3" class="12u">
+						<div class="12u">
 
 							<!-- Banner -->
 								<section id="banner">
-									<a href="https://taote.shop/">
+									
 										<span class="image image-full"><asset:image src="homepage-2.png"/></span>
 										<header>
 											<!--  <h2>Foodal</h2>-->
 											<!--span class="byline">welcome!</span-->
 										</header>
-									</a>
+									
 									
 								</section>
 								
@@ -134,7 +134,7 @@
 								<section>
 									<div>
 										<div class="row">
-											<div id="block1" class="6u">
+											<div class="6u">
 													<section class="box">
 													<!-- <a href="http://www.mytweetmark.com" class="image image-full"><asset:image src="foodal-homepage-16.png"/></a> -->
 													<header>
@@ -151,7 +151,7 @@
 													
 												</section>
 											</div>
-											<div id="block2">
+											<div>
 												<section class="box">
 												<header>
 													<div>

@@ -94,7 +94,7 @@
 				<div class="container">
 					
 					<div class="row">
-						<div id="block3" class="12u">
+						<div class="12u">
 
 							<!-- Banner -->
 								<section id="banner">
@@ -134,7 +134,7 @@
 								<section>
 									<div>
 										<div class="row">
-											<div id="block1" class="6u">
+											<div class="6u">
 													<section class="box">
 													<!-- <a href="http://www.mytweetmark.com" class="image image-full"><asset:image src="foodal-homepage-16.png"/></a> -->
 													<header>
@@ -146,7 +146,7 @@
 													
 												</section>
 											</div>
-											<div id="block2" class="6u">
+											<div class="6u">
 												<section class="box">
 												<header>
 													<iframe width="420" height="315" src="https://www.youtube.com/embed/${videos.videoUrl}" frameborder="0" allowfullscreen></iframe>

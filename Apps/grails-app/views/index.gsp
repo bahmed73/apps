@@ -51,7 +51,7 @@
 		  border-width: 2px;
 		  margin: 5px;
 		  padding: 10px;
-		  background-color: #16e01b;
+		  background-color: #007FFF;
 		  color: #fdeba9;
 		}
 		.button {
@@ -232,20 +232,20 @@
 													  </ul>
 													  <div id="tabs-1">
 													  
-													  	<p><span style="color:#000000;"><br><br>The Promise Revealed - My entire life has been filled with a calling and a longing. These longings and search for love and truth have been a blessing and a curse.I have always wanted to know who am I? Where did wecome from? What is our is our purpose here? Why is there so much suffering and discord and anxiety on our planet? Why is the world so distorted and fractured,and so caught up in wars pollution ignorance superstition and fear? <g:link action="show" controller="blog" id="1"><br><br><br><span style="font-size:12px;">Read more...</span></g:link></span></p>
+													  	<p><span style="color:#ffffff;font-size:20px;"><br><br>The Promise Revealed - My entire life has been filled with a calling and a longing. These longings and search for love and truth have been a blessing and a curse.I have always wanted to know who am I? Where did wecome from? What is our is our purpose here? Why is there so much suffering and discord and anxiety on our planet? Why is the world so distorted and fractured,and so caught up in wars pollution ignorance superstition and fear? <g:link action="show" controller="blog" id="1"><br><br><br><span style="font-size:12px;color:#ffffff;">Read more...</span></g:link></span></p>
 													  </div>
 													  <div id="tabs-2">
-													    <p><span style="color:#000000;"><br><br>Upcoming Events:</span></p>
-													    <p><span style="color:#000000;font-size:14px;"><g:link action="show" controller="coupon" id="2">Mount Shasta Summer Conference 2020</g:link></span></p>
-														<p><span style="color:#000000;">Past Events:</span></p>
-														<p><span style="color:#000000;font-size:14px;"><g:link action="show" controller="coupon" id="1">Rob and Cobra Portal Conference Laguna Beach November 2012</g:link></span></p>
+													    <p><span style="color:#ffffff;font-size:20px;"><br><br>Upcoming Events:</span></p>
+													    <p><g:link action="show" controller="coupon" id="2"><span style="color:#ffffff;font-size:14px;">Mount Shasta Summer Conference 2020</span></g:link></p>
+														<p><span style="color:#ffffff;font-size:20px;">Past Events:</span></p>
+														<p><g:link action="show" controller="coupon" id="1"><span style="color:#ffffff;font-size:14px;">Rob and Cobra Portal Conference Laguna Beach November 2012</span></g:link></p>
 													  </div>
 													  <div id="tabs-3">
-													    <p><span style="color:#000000;"><br><br>Secret Space Program - Some years ago I was on the Internet and I found a very interesting friend on Facebook that had some very interesting pictures of some government spaceships. He had few friends and as usual I do not know how I found him. He just kind of popped up on my page and responded to some of my spaceship pictures. The gentleman I met in virtual space and whom I choose to keep anonymous for now was very cryptic and very short in our exchanges on the Internet. I presume he disappeared from Facebook after being told by gov’t agents that his conversations with people like me and the sharing of these photos was not part of his nondisclosure contract.<g:link action="show" controller="blog" id="33"><br><br><br><span style="font-size:12px;">Read more...</span></g:link></span></p>
+													    <p><span style="color:#ffffff;font-size:20px;"><br><br>Secret Space Program - Some years ago I was on the Internet and I found a very interesting friend on Facebook that had some very interesting pictures of some government spaceships. He had few friends and as usual I do not know how I found him. He just kind of popped up on my page and responded to some of my spaceship pictures. The gentleman I met in virtual space and whom I choose to keep anonymous for now was very cryptic and very short in our exchanges on the Internet. I presume he disappeared from Facebook after being told by gov’t agents that his conversations with people like me and the sharing of these photos was not part of his nondisclosure contract.<g:link action="show" controller="blog" id="33"><br><br><br><span style="font-size:12px;color:#ffffff;">Read more...</span></g:link></span></p>
 														
 													  </div>
 													  <div id="tabs-4">
-													    <p><span style="color:#000000;"><br><br>Victory to the Light - This website is intended to act as a Portal of Light and Truth to be shared freely with the entire universe. This site is currently brand new and is under construction. I will be adding to this site continually and sharing information in regards to all the subjects in the links at the top of this page. I will continue to travel the world to Sacred Sites and to share the truth of the space family and the healing technologies. I will instill the truth of The Promise and good news through the coming changes on these pages. I will sincerely proclaim the positive message of hope, love and prosperity for all. I will do this to share light from our benevolent space family who will soon be free to walk openly upon our world.<g:link action="show" controller="blog" id="34"><br><br><br><span style="font-size:12px;">Read more...</span></g:link></span></p>
+													    <p><span style="color:#ffffff;font-size:20px;"><br><br>Victory to the Light - This website is intended to act as a Portal of Light and Truth to be shared freely with the entire universe. This site is currently brand new and is under construction. I will be adding to this site continually and sharing information in regards to all the subjects in the links at the top of this page. I will continue to travel the world to Sacred Sites and to share the truth of the space family and the healing technologies. I will instill the truth of The Promise and good news through the coming changes on these pages. I will sincerely proclaim the positive message of hope, love and prosperity for all. I will do this to share light from our benevolent space family who will soon be free to walk openly upon our world.<g:link action="show" controller="blog" id="34"><br><br><br><span style="font-size:12px;color:#ffffff;">Read more...</span></g:link></span></p>
 																
 													  </div>
 													  

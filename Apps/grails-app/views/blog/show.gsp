@@ -104,7 +104,7 @@
 				<div class="container">
 					
 					<div class="row">
-						<div id="block3" class="12u">
+						<div class="12u">
 
 							<!-- Banner -->
 								<section id="banner">
@@ -147,7 +147,7 @@
 								<section>
 									<div>
 										<div class="row">
-											<div id="block1" class="12u">
+											<div class="12u">
 													<section class="box">
 													<!-- <a href="http://www.mytweetmark.com" class="image image-full"><asset:image src="foodal-homepage-16.png"/></a> -->
 													<header>
@@ -158,7 +158,7 @@
 													
 												</section>
 											</div>
-											<div id="block2">
+											<div>
 												<section class="box">
 												<header>
 												<g:if test="${blog.imageThree}">
