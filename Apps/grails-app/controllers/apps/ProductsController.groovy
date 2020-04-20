@@ -80,7 +80,9 @@ class ProductsController {
 		
 		def photos = Photos.findAllByProducts(products)
 		
-		[products:products, productViews:productViews, photos:photos]
+		def videos = Videos.findAllByProducts(products)
+		
+		[products:products, productViews:productViews, photos:photos, videos:videos]
 		
         //respond products, model:[productViews: productViews]
     }

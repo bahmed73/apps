@@ -187,6 +187,23 @@
 											</div>
 											<div class="8u">
 												<section class="box">
+													<g:if test="${videos}">
+													<span style="font-size:25px;color:#000000">
+													Videos:</span>
+													<br><br>
+													<g:each in="${videos}" status="i" var="videosInstance">
+													
+													<p><g:link controller="videos" action="show" id="${videosInstance.id}"><span style="color:#ffffff;">${videosInstance.name}</span></g:link></p>
+													<br>	
+													</g:each>
+													</g:if>
+													<br><br>
+												</section>
+											</div>
+											
+											
+											<div class="8u">
+												<section class="box">
 													<p style="font-size:18px;color:#ffffff">Description: <f:display bean="category" property="description"/></p>
 													<br><br>
 													
@@ -208,6 +225,7 @@
 													
 												</section>
 											</div>
+											
 										</div>
 									</div>
 								</section>

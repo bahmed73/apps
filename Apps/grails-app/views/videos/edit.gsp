@@ -29,9 +29,14 @@
             <g:form resource="${this.videos}" method="POST">
                 <g:hiddenField name="version" value="${this.videos?.version}" />
                 <fieldset class="form">
-                    <f:all bean="videos"/>
+                    <f:all bean="videos" except="category, products"/>
                 </fieldset>
-                
+                <fieldset>
+                <f:field bean="videos" property="category" widget-optionValue="name"/>
+                </fieldset>
+                <fieldset>
+                <f:field bean="videos" property="products" widget-optionValue="name"/>
+                </fieldset>
                 <fieldset class="buttons">
                     <input class="save" type="submit" value="${message(code: 'default.button.update.label', default: 'Update')}" />
                 </fieldset>

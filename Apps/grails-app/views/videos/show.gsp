@@ -141,6 +141,14 @@
 														<span style="font-size:35px;color:#000000"><f:display bean="videos" property="name"/></span>
 													</header>
 													<br><br>
+													<g:if test="${videos.category}">
+													<p style="font-size:20px;color:#000000;">Category: <g:link action="show" controller="category" id="${videos.category.id}"><span style="font-size:20px;color:#000000">${videos.category.name}</span></g:link></p>
+													<br><br>
+													</g:if>
+													<g:if test="${videos.products}">
+													<p style="font-size:20px;color:#000000;">Product: <g:link action="show" controller="products" id="${videos.products.id}"><span style="font-size:20px;color:#000000">${videos.products.name}</span></g:link></p>
+													<br><br>
+													</g:if>
 													<p style="font-size:18px;color:#ffffff;font-family: Arial, Helvetica, sans-serif;">Description: <f:display bean="videos" property="description"/></p>
 													<br><br>
 													

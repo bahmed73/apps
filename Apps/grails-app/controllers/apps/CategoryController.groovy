@@ -24,8 +24,10 @@ class CategoryController {
 	@Secured(['ROLE_ADMIN', 'ROLE_ANONYMOUS'])
     def show(Category category) {
 		def photos = Photos.findAllByCategory(category)
+		def videos = Videos.findAllByCategory(category)
+		
 		def products = Products.findAllByCategory(category)
-        [category:category, photos:photos, products:products]
+        [category:category, photos:photos, videos:videos, products:products]
     }
 
     def create() {

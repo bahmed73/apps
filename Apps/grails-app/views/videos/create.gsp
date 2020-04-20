@@ -27,8 +27,15 @@
             </g:hasErrors>
             <g:form action="save" method="post">
                 <fieldset class="form">
-                    <f:all bean="videos"/>
+                    <f:all bean="videos" except="category, products"/>
                 </fieldset>
+                <fieldset>
+                <f:field bean="videos" property="category" widget-optionValue="name"/>
+                </fieldset>
+                <fieldset>
+                <f:field bean="videos" property="products" widget-optionValue="name"/>
+                </fieldset>
+                
                 <fieldset class="buttons">
                     <g:submitButton name="create" class="save" value="${message(code: 'default.button.create.label', default: 'Create')}" />
                 </fieldset>
