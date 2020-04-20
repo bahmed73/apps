@@ -157,6 +157,16 @@
 														<br><br>
 														<p style="font-size:20px;color:#ffffff;">Description: ${videosInstance.description}</p>
 														<br><br>
+														<g:if test="${videosInstance.category}">
+														<p style="font-size:20px;color:#000000;">Category: <g:link action="show" controller="category" id="${videosInstance.category.id}"><span style="font-size:20px;color:#000000">${videosInstance.category.name}</span></g:link></p>
+														<br><br>
+														<g:if test="${videosInstance.products}">
+														<p style="font-size:20px;color:#000000;">Product: <g:link action="show" controller="products" id="${videosInstance.products.id}"><span style="font-size:20px;color:#000000">${videosInstance.products.name}</span></g:link></p>
+														<br><br>
+														</g:if>
+													
+														</g:if>
+													
 														<button class="button"><g:link controller="videos" action="show" id="${videosInstance.id}"><span style="color:#000000;">Watch the video...</span></g:link></button>
 														</section>
 												</div>
