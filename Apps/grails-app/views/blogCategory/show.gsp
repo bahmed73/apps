@@ -6,7 +6,7 @@
 <meta http-equiv="window-target" content="_top" />
 <META HTTP-EQUIV="CACHE-CONTROL" CONTENT="PUBLIC">
 	<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
-	<title>Robert Potter - The Promise Revealed.</title>
+	<title><f:display bean="blogCategory" property="name"/></title>
 	<asset:stylesheet src="skel-noscript.css"/>
 	<asset:stylesheet src="style.css"/>
 	<asset:stylesheet src="style-desktop.css"/>
@@ -25,6 +25,11 @@
 		<asset:javascript src="config.js"/>
 		<asset:javascript src="skel.min.js"/>
 		<asset:javascript src="skel-panels.min.js"/>
+		<script>
+		  $( function() {
+		    $( "#dialog" ).dialog();
+		  } );
+		  </script>
 		
 		<!--<noscript>
 			<asset:stylesheet src="skel-noscript.css"/>
@@ -41,6 +46,7 @@
 		  margin: 5px;
 		  padding: 10px;
 		}
+		
 		.button {
 		  display: inline-block;
 		  padding: 15px 25px;
@@ -65,17 +71,7 @@
 		}
 		</style>
 	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-		  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script><!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-154739766-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-154739766-1');
-</script>
-		  
-		  
+		  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 	</head>
 	<body class="homepage" onload="testEffect()">
 	<script type="text/javascript">
@@ -85,7 +81,7 @@
 	           // Run the effect
 	      $( "#block1" ).effect( "bounce", options, 500, callback );
 	      $( "#block2" ).effect( "pulsate", options, 500, callback );
-	      $( "#block3" ).effect( "puff", options, 500, callback );
+	      $( "#block3" ).effect( "shake", options, 500, callback );
 	    };
 	 
 	    // Callback function to bring a hidden box back
@@ -97,9 +93,9 @@
 	      }, 1000 );
 	    };
 	</script>
-	
 	<div id="fb-root"></div>
-<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v5.0&appId=261449270414&autoLogAppEvents=1"></script>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2&appId=261449270414&autoLogAppEvents=1"></script>
+	
 		<!-- Header Wrapper -->
 			<div id="header-wrapper">
 				<div class="container">
@@ -110,12 +106,10 @@
 							<!-- Banner -->
 								<section id="banner">
 									
-										<span class="image image-full"><asset:image src="homepage-2.png"/></span>
+										<span class="image image-full"><asset:image src="homepage-1.png"/></span>
 										<header>
-										<!-- 
-											<h2>Shop</h2> 
-											<span class="byline">Bring your store business online.</span>
-											 -->
+											<!--  <h2>Foodal</h2>-->
+											<!--span class="byline">welcome!</span-->
 										</header>
 									
 									
@@ -128,86 +122,87 @@
 										<nav id="nav">
 											<ul>
 												<li><button class="button"><g:link url="/"><span style="color:#000000">Home</span></g:link></button></li>
+												<li><button class="button"><g:link controller="blogCategory" action="edit" id="${blogCategory.id}"><span style="color:#000000">Edit Blog Category</span></g:link></button></li>
 												<li><button class="button"><g:link controller="blogCategory" action="index"><span style="color:#000000">Show Blog Categories</span></g:link></button></li>
-												<li><button class="button"><g:link controller="blog" action="create"><span style="color:#000000">Create a Blog</span></g:link></button></li>
-												<li><button class="button"><div class="fb-share-button" data-href="${createLink(action: 'index', controller: 'blog')}" data-layout="button" data-size="small"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Ftaote.shop%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore"><span style="color:#000000">Share</span></a></div></button></li>
-												<li><button class="button"><a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false"><span style="color:#000000">Tweet</span></a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></button></li>
-												<br><br>
-												
+												<li><button class="button"><g:form resource="${this.blogCategory}" method="DELETE" controller="blogCategory" action="delete">
+												    <fieldset class="buttons">
+									                	<input class="delete" type="submit" value="${message(code: 'default.button.delete.label', default: 'Delete')}" onclick="return confirm('${message(code: 'default.button.delete.confirm.message', default: 'Are you sure?')}');" />
+									                </fieldset>
+									                
+									            </g:form>
+									            </button>
+									            </li>
 												<!--<li><a href="left-sidebar.html">Login</a></li>-->
 											</ul>
 										</nav>
 							<!-- Intro -->
-							
-							<g:if test="${blogList}">
-							<g:each in="${blogList}" status="i" var="blogInstance">
-								<div class="row">
-								<div class="12u">
-									<section>
-										<div>
-											<div class="row">
-												<div class="6u">
-														<section class="box" >
-																				<header>
-														<span style="font-size:35px;color:#000000">${blogInstance.name}</span>
-														<br><br>
-														<p><span style="font-size:20px;color:#ffffff">Create Time: <g:formatDate format="MM-dd-yyyy" date="${blogInstance.createTime}"/></span></p> 
-								
-														<br><br>
-														<br><br>
-														
-														</header>
-														<br><br>
-														
-														<button class="button"><g:link controller="blog" action="show" id="${blogInstance.id}"><span style="color:#000000">View Full Blog</span></g:link></button>
-														</section>
-												</div>
-												<div class="6u">
-														<section class="box" >
-																				<header>
-														<g:if test="${blogInstance.imageOne}">
-														<div>
-														<img src="data:image/png;base64,${blogInstance.imageOne?.encodeBase64()}"/>
-														</div>
-														<br><br>
-														</g:if>
-														
-														</header>
-														<br><br>
-														
-														</section>
-												</div>
-											</div>
-										</div>
-									</section>
-								</div>
-								</div>
-							</g:each>
-							</g:if>
-							<g:else>
-							<div class="row">
-								<div class="12u">
-									<section>
+														<div class="row">
+						<div class="12u">
+								<section>
 									<div>
 										<div class="row">
-										
-										<div class="6u">
+											<div class="6u">
 													<section class="box">
 													<!-- <a href="http://www.mytweetmark.com" class="image image-full"><asset:image src="foodal-homepage-16.png"/></a> -->
 													<header>
-													<g:link controller="blog" action="create"><span style="font-size:28px;color:#000000;">Please create a Blog.</span></g:link>
+														<span style="font-size:35px;color:#000000"><f:display bean="blogCategory" property="name"/></span>
 													</header>
-													</section>
+													<br><br>
+													<br><br>
+													<p><span style="color:#ffffff;">Share our blog category pages on Twitter or Facebook. </span></p>
+													<br><br>
+													<br><br>
+													<a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+													<div class="fb-share-button" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button" data-size="small"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
+													
+												</section>
+											</div>
+											<div class="6u">
+												<section class="box">
+												<header>
+													<img src="data:image/png;base64,${blogCategory.imageThree?.encodeBase64()}"/>
+												</header>
+													
+												</section>
+											</div>
+											
+											<div class="12u">
+												<section class="box">
+												<header>
+													<g:if test="${blogs}">
+													<span style="font-size:25px;color:#000000">
+													Blogs:</span>
+													<br><br>
+													<g:each in="${blogs}" status="i" var="blogInstance">
+													<div class="4u" style="float:left;height:150px;">
+													<p><g:link controller="blog" action="show" id="${blogInstance.id}"><span style="color:#ffffff;"><img src="data:image/png;base64,${blogInstance.imageOne?.encodeBase64()}"/>  ${blogInstance.name}</span></g:link></p>
+													</div>
+													</g:each>
+													</g:if>
+													<br><br>
+													
+												</header>
+													
+												</section>
+											</div>
+											
+											
+											<div class="8u">
+												<section class="box">
+													<p style="font-size:18px;color:#ffffff">Description: <f:display bean="blogCategory" property="description"/></p>
+													<br><br>
+													
+												</section>
+											</div>
+											
 										</div>
 									</div>
-									</section>
-								</div>
-							</div>
-							</g:else>
-				        	</div>
-				        	</div>				
-							
-									
+								</section>
+
+						</div>
+					</div>
+				</div>
+			</div>		
 		<!-- Main Wrapper -->
 			<div id="main-wrapper">
 				<div class="container">
@@ -328,7 +323,6 @@
 						</div-->
 						<a href="/"><asset:image src="logo-150.jpg" width="150px" height="150px"/></a>
 						<br><br>
-						
 						<div class="row">
 							<div class="4u">
 								<section>

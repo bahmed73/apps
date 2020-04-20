@@ -29,7 +29,10 @@
             <g:form resource="${this.blog}" method="POST" enctype="multipart/form-data">
                 <g:hiddenField name="version" value="${this.blog?.version}" />
                 <fieldset class="form">
-                    <f:all bean="blog" except="imageOne, imageTwo, imageThree, description"/>
+                    <f:all bean="blog" except="imageOne, imageTwo, imageThree, description, blogCategory"/>
+                </fieldset>
+                <fieldset>
+                <f:field bean="blog" property="blogCategory" widget-optionValue="name"/>
                 </fieldset>
                 <fieldset style="margin-left:340px;">
                 	<div style="float:left;width:50" class="post"><h4>Description:</h4></div>

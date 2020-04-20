@@ -10,6 +10,9 @@
 	<asset:stylesheet src="skel-noscript.css"/>
 	<asset:stylesheet src="style.css"/>
 	<asset:stylesheet src="style-desktop.css"/>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 	
 <LINK REL="SHORTCUT ICON"
        HREF="${createLinkTo(dir:'images', file:'favicon.ico')}">
@@ -41,6 +44,7 @@
 		  margin: 5px;
 		  padding: 10px;
 		}
+		
 		.button {
 		  display: inline-block;
 		  padding: 15px 25px;
@@ -65,17 +69,7 @@
 		}
 		</style>
 	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-		  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script><!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-154739766-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-154739766-1');
-</script>
-		  
-		  
+		  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 	</head>
 	<body class="homepage" onload="testEffect()">
 	<script type="text/javascript">
@@ -83,8 +77,8 @@
 	      // Most effect types need no options passed by default
 	      var options = {};
 	           // Run the effect
-	      $( "#block1" ).effect( "bounce", options, 500, callback );
-	      $( "#block2" ).effect( "pulsate", options, 500, callback );
+	      $( "#block1" ).effect( "pulsate", options, 500, callback );
+	      $( "#block2" ).effect( "shake", options, 500, callback );
 	      $( "#block3" ).effect( "puff", options, 500, callback );
 	    };
 	 
@@ -98,29 +92,44 @@
 	    };
 	</script>
 	
-	<div id="fb-root"></div>
-<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v5.0&appId=261449270414&autoLogAppEvents=1"></script>
 		<!-- Header Wrapper -->
 			<div id="header-wrapper">
 				<div class="container">
 					
 					<div class="row">
 						<div class="12u">
+						<div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    
+  </ol>
 
-							<!-- Banner -->
-								<section id="banner">
-									
-										<span class="image image-full"><asset:image src="homepage-2.png"/></span>
-										<header>
-										<!-- 
-											<h2>Shop</h2> 
-											<span class="byline">Bring your store business online.</span>
-											 -->
-										</header>
-									
-									
-								</section>
-								
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <div class="item active">
+      <g:link class="list" action="index" controller="photos"><asset:image src="homepage-1.png"/></g:link>
+    </div>
+    
+    <div class="item">
+      <g:link class="list" action="index" controller="photos"><asset:image src="homepage-2.png"/></g:link>
+    </div>
+    
+    
+      </div>
+
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+						
 						</div>
 					</div>
 					
@@ -128,60 +137,30 @@
 										<nav id="nav">
 											<ul>
 												<li><button class="button"><g:link url="/"><span style="color:#000000">Home</span></g:link></button></li>
-												<li><button class="button"><g:link controller="blogCategory" action="index"><span style="color:#000000">Show Blog Categories</span></g:link></button></li>
-												<li><button class="button"><g:link controller="blog" action="create"><span style="color:#000000">Create a Blog</span></g:link></button></li>
-												<li><button class="button"><div class="fb-share-button" data-href="${createLink(action: 'index', controller: 'blog')}" data-layout="button" data-size="small"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Ftaote.shop%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore"><span style="color:#000000">Share</span></a></div></button></li>
-												<li><button class="button"><a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false"><span style="color:#000000">Tweet</span></a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></button></li>
-												<br><br>
-												
+												<li><button class="button"><g:link controller="blog" action="index"><span style="color:#000000">Blogs</span></g:link></button></li>
+												<li><button class="button"><g:link controller="blogCategory" action="create"><span style="color:#000000">Create a Blog Category</span></g:link></button></li>
 												<!--<li><a href="left-sidebar.html">Login</a></li>-->
 											</ul>
 										</nav>
 							<!-- Intro -->
 							
-							<g:if test="${blogList}">
-							<g:each in="${blogList}" status="i" var="blogInstance">
-								<div class="row">
-								<div class="12u">
+							<div class="12u">
+							<g:if test="${blogCategoryList}">
+							<g:each in="${blogCategoryList}" status="i" var="blogCategoryInstance">
 									<section>
-										<div>
-											<div class="row">
-												<div class="6u">
-														<section class="box" >
-																				<header>
-														<span style="font-size:35px;color:#000000">${blogInstance.name}</span>
-														<br><br>
-														<p><span style="font-size:20px;color:#ffffff">Create Time: <g:formatDate format="MM-dd-yyyy" date="${blogInstance.createTime}"/></span></p> 
-								
-														<br><br>
-														<br><br>
-														
-														</header>
-														<br><br>
-														
-														<button class="button"><g:link controller="blog" action="show" id="${blogInstance.id}"><span style="color:#000000">View Full Blog</span></g:link></button>
-														</section>
-												</div>
-												<div class="6u">
-														<section class="box" >
-																				<header>
-														<g:if test="${blogInstance.imageOne}">
+										
+											<div class="4u" style="float:left">
+												<div>
 														<div>
-														<img src="data:image/png;base64,${blogInstance.imageOne?.encodeBase64()}"/>
+														<p><g:link controller="blogCategory" action="show" id="${blogCategoryInstance.id}"><span style="color:#ffffff;"><img src="data:image/png;base64,${blogCategoryInstance.imageOne?.encodeBase64()}" width="150" height="150"/>  ${blogCategoryInstance.name}</span></g:link></p>
 														</div>
-														<br><br>
-														</g:if>
+													
 														
-														</header>
-														<br><br>
-														
-														</section>
 												</div>
 											</div>
-										</div>
+										
 									</section>
-								</div>
-								</div>
+								
 							</g:each>
 							</g:if>
 							<g:else>
@@ -195,7 +174,7 @@
 													<section class="box">
 													<!-- <a href="http://www.mytweetmark.com" class="image image-full"><asset:image src="foodal-homepage-16.png"/></a> -->
 													<header>
-													<g:link controller="blog" action="create"><span style="font-size:28px;color:#000000;">Please create a Blog.</span></g:link>
+													<g:link controller="blogCategory" action="create"><span style="font-size:28px;color:#8a7e7e;">Please create a blog category.</span></g:link>
 													</header>
 													</section>
 										</div>
@@ -204,6 +183,7 @@
 								</div>
 							</div>
 							</g:else>
+							</div>
 				        	</div>
 				        	</div>				
 							
@@ -328,7 +308,6 @@
 						</div-->
 						<a href="/"><asset:image src="logo-150.jpg" width="150px" height="150px"/></a>
 						<br><br>
-						
 						<div class="row">
 							<div class="4u">
 								<section>

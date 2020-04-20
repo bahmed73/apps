@@ -6,45 +6,44 @@ import grails.transaction.Transactional
 import grails.plugin.springsecurity.annotation.Secured
 
 @Secured('ROLE_ADMIN')
-class CategoryController {
+class BlogCategoryController {
 
-    def appsService
+	def appsService
 	
     static allowedMethods = [save: "POST", update: "PUT", delete: "DELETE"]
-	
+
 	static fProd = "/opt/tomcat/webapps/ROOT/assets/images"
 	static fTest = "C:\\development\\workspace\\Apps\\grails-app\\assets\\images"
-
+	
 	@Secured(['ROLE_ADMIN', 'ROLE_ANONYMOUS'])
     def index(Integer max) {
         params.max = Math.min(max ?: 50, 100)
-        respond Category.list(params), model:[categoryCount: Category.count()]
+        respond BlogCategory.list(params), model:[blogCategoryCount: BlogCategory.count()]
     }
 
 	@Secured(['ROLE_ADMIN', 'ROLE_ANONYMOUS'])
-    def show(Category category) {
-		def photos = Photos.findAllByCategory(category)
-		def videos = Videos.findAllByCategory(category)
+    def show(BlogCategory blogCategory) {
 		
-		def products = Products.findAllByCategory(category)
-        [category:category, photos:photos, videos:videos, products:products]
+		def blogs = Blog.findAllByBlogCategory(blogCategory)
+		[blogCategory:blogCategory, blogs:blogs]
+        //respond blogCategory
     }
 
     def create() {
-        respond new Category(params)
+        respond new BlogCategory(params)
     }
 
     @Transactional
-    def save(Category category) {
-        if (category == null) {
+    def save(BlogCategory blogCategory) {
+        if (blogCategory == null) {
             transactionStatus.setRollbackOnly()
             notFound()
             return
         }
 
-        if (category.hasErrors()) {
+        if (blogCategory.hasErrors()) {
             transactionStatus.setRollbackOnly()
-            respond category.errors, view:'create'
+            respond blogCategory.errors, view:'create'
             return
         }
 
@@ -56,25 +55,25 @@ class CategoryController {
 
 				switch (grails.util.Environment.current) {
 				case grails.util.Environment.DEVELOPMENT:
-						fileName = fTest + "\\CATEGORY_"+category.id
+						fileName = fTest + "\\BLOG_CATEGORY_"+blogCategory.id
 						System.out.println("fileName = " + fileName)
 						File file = new File(fileName)
 						transferFile.transferTo( file )
-						appsService.uploadCategoryPhoto(file, category)
+						appsService.uploadBlogCategoryPhoto(file, blogCategory)
 						break
 				case grails.util.Environment.TEST:
-						fileName = fProd + "/CATEGORY_"+category.id
+						fileName = fProd + "/BLOG_CATEGORY_"+blogCategory.id
 						System.out.println("fileName = " + fileName)
 						File file = new File(fileName)
 						transferFile.transferTo( file )
-						appsService.uploadCategoryPhoto(file, category)
+						appsService.uploadBlogCategoryPhoto(file, blogCategory)
 						break
 				case grails.util.Environment.PRODUCTION:
-						fileName = fProd + "/CATEGORY_"+category.id
+						fileName = fProd + "/BLOG_CATEGORY_"+blogCategory.id
 						log.info "fileName = " + fileName
 						File file = new File(fileName)
 						transferFile.transferTo( file )
-						appsService.uploadCategoryPhoto(file, category)
+						appsService.uploadBlogCategoryPhoto(file, blogCategory)
 						break
 				}
 
@@ -88,32 +87,32 @@ class CategoryController {
 				log.info "caught exception: " + e
 		}
 		
-        category.save flush:true
+        blogCategory.save flush:true
 
         request.withFormat {
             form multipartForm {
-                flash.message = message(code: 'default.created.message', args: [message(code: 'category.label', default: 'Category'), category.id])
-                redirect category
+                flash.message = message(code: 'default.created.message', args: [message(code: 'blogCategory.label', default: 'BlogCategory'), blogCategory.id])
+                redirect blogCategory
             }
-            '*' { respond category, [status: CREATED] }
+            '*' { respond blogCategory, [status: CREATED] }
         }
     }
 
-    def edit(Category category) {
-        respond category
+    def edit(BlogCategory blogCategory) {
+        respond blogCategory
     }
 
     @Transactional
-    def update(Category category) {
-        if (category == null) {
+    def update(BlogCategory blogCategory) {
+        if (blogCategory == null) {
             transactionStatus.setRollbackOnly()
             notFound()
             return
         }
 
-        if (category.hasErrors()) {
+        if (blogCategory.hasErrors()) {
             transactionStatus.setRollbackOnly()
-            respond category.errors, view:'edit'
+            respond blogCategory.errors, view:'edit'
             return
         }
 
@@ -125,25 +124,25 @@ class CategoryController {
 
 				switch (grails.util.Environment.current) {
 				case grails.util.Environment.DEVELOPMENT:
-						fileName = fTest + "\\CATEGORY_"+category.id
+						fileName = fTest + "\\BLOG_CATEGORY_"+blogCategory.id
 						System.out.println("fileName = " + fileName)
 						File file = new File(fileName)
 						transferFile.transferTo( file )
-						appsService.uploadCategoryPhoto(file, category)
+						appsService.uploadBlogCategoryPhoto(file, blogCategory)
 						break
 				case grails.util.Environment.TEST:
-						fileName = fProd + "/CATEGORY_"+category.id
+						fileName = fProd + "/BLOG_CATEGORY_"+blogCategory.id
 						System.out.println("fileName = " + fileName)
 						File file = new File(fileName)
 						transferFile.transferTo( file )
-						appsService.uploadCategoryPhoto(file, category)
+						appsService.uploadBlogCategoryPhoto(file, blogCategory)
 						break
 				case grails.util.Environment.PRODUCTION:
-						fileName = fProd + "/CATEGORY_"+category.id
+						fileName = fProd + "/BLOG_CATEGORY_"+blogCategory.id
 						log.info "fileName = " + fileName
 						File file = new File(fileName)
 						transferFile.transferTo( file )
-						appsService.uploadCategoryPhoto(file, category)
+						appsService.uploadBlogCategoryPhoto(file, blogCategory)
 						break
 				}
 
@@ -156,32 +155,32 @@ class CategoryController {
 				log.info "caught exception: " + e.getMessage()
 				log.info "caught exception: " + e
 		}
-		
-        category.save flush:true
+
+        blogCategory.save flush:true
 
         request.withFormat {
             form multipartForm {
-                flash.message = message(code: 'default.updated.message', args: [message(code: 'category.label', default: 'Category'), category.id])
-                redirect category
+                flash.message = message(code: 'default.updated.message', args: [message(code: 'blogCategory.label', default: 'BlogCategory'), blogCategory.id])
+                redirect blogCategory
             }
-            '*'{ respond category, [status: OK] }
+            '*'{ respond blogCategory, [status: OK] }
         }
     }
 
     @Transactional
-    def delete(Category category) {
+    def delete(BlogCategory blogCategory) {
 
-        if (category == null) {
+        if (blogCategory == null) {
             transactionStatus.setRollbackOnly()
             notFound()
             return
         }
 
-        category.delete flush:true
+        blogCategory.delete flush:true
 
         request.withFormat {
             form multipartForm {
-                flash.message = message(code: 'default.deleted.message', args: [message(code: 'category.label', default: 'Category'), category.id])
+                flash.message = message(code: 'default.deleted.message', args: [message(code: 'blogCategory.label', default: 'BlogCategory'), blogCategory.id])
                 redirect action:"index", method:"GET"
             }
             '*'{ render status: NO_CONTENT }
@@ -191,7 +190,7 @@ class CategoryController {
     protected void notFound() {
         request.withFormat {
             form multipartForm {
-                flash.message = message(code: 'default.not.found.message', args: [message(code: 'category.label', default: 'Category'), params.id])
+                flash.message = message(code: 'default.not.found.message', args: [message(code: 'blogCategory.label', default: 'BlogCategory'), params.id])
                 redirect action: "index", method: "GET"
             }
             '*'{ render status: NOT_FOUND }
