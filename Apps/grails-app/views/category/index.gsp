@@ -145,35 +145,23 @@
 										</nav>
 							<!-- Intro -->
 							
+							<div class="12u">
 							<g:if test="${categoryList}">
 							<g:each in="${categoryList}" status="i" var="categoryInstance">
-								<div class="row">
-								<div class="12u">
 									<section>
-										<div>
-											<div class="row">
-												<div class="6u">
-														<section class="box">
-														<header>
-														<span style="font-size:35px;color:#000000">${categoryInstance.name}</span>
-														</header>
-														<br><br>
-														<button class="button"><g:link controller="category" action="show" id="${categoryInstance.id}"><span style="color:#000000;">View Category Details...</span></g:link></button>
-														</section>
-												</div>
+										
+											<div class="4u" style="float:left">
 												<div>
-														<section class="box">
 														<div>
-														<img src="data:image/png;base64,${categoryInstance.imageThree?.encodeBase64()}"/>
+														<p><g:link controller="category" action="show" id="${categoryInstance.id}"><span style="color:#ffffff;"><img src="data:image/png;base64,${categoryInstance.imageOne?.encodeBase64()}" width="150" height="150"/>  ${categoryInstance.name}</span></g:link></p>
 														</div>
-														</section>
+													
 														
 												</div>
 											</div>
-										</div>
+										
 									</section>
-								</div>
-								</div>
+								
 							</g:each>
 							</g:if>
 							<g:else>
@@ -196,6 +184,7 @@
 								</div>
 							</div>
 							</g:else>
+							</div>
 				        	</div>
 				        	</div>				
 							
