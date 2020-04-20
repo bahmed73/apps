@@ -148,27 +148,9 @@
 														<span style="font-size:35px;color:#000000"><f:display bean="category" property="name"/></span>
 													</header>
 													<br><br>
-													
-													<g:if test="${photos}">
-													<span style="font-size:25px;color:#000000">
-													Photos:</span>
 													<br><br>
-													<g:each in="${photos}" status="i" var="photosInstance">
-													
-													<p><g:link controller="photos" action="show" id="${photosInstance.id}"><span style="color:#ffffff;"><img src="data:image/png;base64,${photosInstance.imageOne?.encodeBase64()}"/><br><br>${photosInstance.name}</span></g:link></p>
-													<br>	
-													</g:each>
-													</g:if>
+													<p><span style="color:#ffffff;">Share our product category pages on Twitter or Facebook. </span></p>
 													<br><br>
-													<g:if test="${products}">
-													<span style="font-size:25px;color:#000000">
-													Products:</span>
-													<br><br>
-													<g:each in="${products}" status="i" var="productsInstance">
-													<p><g:link controller="products" action="show" id="${productsInstance.id}"><span style="color:#ffffff;"><img src="data:image/png;base64,${productsInstance.imageOne?.encodeBase64()}"/><br><br>${productsInstance.name}</span></g:link></p>
-													<br>
-													</g:each>
-													</g:if>
 													<br><br>
 													<a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 													<div class="fb-share-button" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button" data-size="small"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
@@ -180,19 +162,48 @@
 												<header>
 													<img src="data:image/png;base64,${category.imageThree?.encodeBase64()}"/>
 												</header>
-													<br><br>
-													<p style="font-size:14px;color:#ffffff">The category allows you to see products and photos.</p>
-													<br>
-													<footer class="actions">
-														<a href="mailto:rob@thepromiserevealed.com" class="button fa fa-file-text">Email us today!</a>
-														<br><br>
-													</footer>	
 													
 												</section>
 											</div>
+											
 											<div class="12u">
 												<section class="box">
+												<header>
+													<g:if test="${products}">
+													<span style="font-size:25px;color:#000000">
+													Products:</span>
+													<br><br>
+													<g:each in="${products}" status="i" var="productsInstance">
+													<div class="4u" style="float:left">
+													<p><g:link controller="products" action="show" id="${productsInstance.id}"><span style="color:#000000;"><img src="data:image/png;base64,${productsInstance.imageOne?.encodeBase64()}"/>${productsInstance.name}</span></g:link></p>
+													</div>
+													</g:each>
+													</g:if>
+													<br><br>
+													
+												</header>
+													
+												</section>
+											</div>
+											<div class="8u">
+												<section class="box">
 													<p style="font-size:18px;color:#ffffff">Description: <f:display bean="category" property="description"/></p>
+													<br><br>
+													
+												</section>
+											</div>
+											<div class="4u">
+												<section class="box">
+													<g:if test="${photos}">
+													<span style="font-size:25px;color:#000000">
+													Photos:</span>
+													<br><br>
+													<g:each in="${photos}" status="i" var="photosInstance">
+													
+													<p><g:link controller="photos" action="show" id="${photosInstance.id}"><span style="color:#ffffff;"><img src="data:image/png;base64,${photosInstance.imageOne?.encodeBase64()}"/><br><br>${photosInstance.name}</span></g:link></p>
+													<br>	
+													</g:each>
+													</g:if>
 													<br><br>
 													
 												</section>

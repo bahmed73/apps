@@ -164,7 +164,7 @@
 												<div>
 														<section class="box">
 														<div>
-														<img src="data:image/png;base64,${categoryInstance.imageOne?.encodeBase64()}"/>
+														<img src="data:image/png;base64,${categoryInstance.imageThree?.encodeBase64()}"/>
 														</div>
 														</section>
 														

@@ -1,0 +1,9 @@
+2020-04-16 18:28:47 jdbc[7]: exception
+org.h2.jdbc.JdbcSQLException: Value too long for column "DESCRIPTION VARCHAR(50000)": "STRINGDECODE('By Rob Potter<br><br>\r\n\r\nLeader of Planetary Leadership Group<br><br>\r\nWELCOME\r\n<br><br>\r\nSection 1 Intr... (127377)"; SQL statement:
+update blog set create_time=?, description=?, image_one=?, image_three=?, image_two=?, name=?, update_time=?, user_id=? where id=? [22001-193]
+2020-04-16 18:40:24 jdbc[7]: exception
+org.h2.jdbc.JdbcSQLException: Value too long for column "DESCRIPTION VARCHAR(50000)": "STRINGDECODE('By Rob Potter<br><br>\r\n\r\nLeader of Planetary Leadership Group<br><br>\r\nWELCOME\r\n<br><br>\r\nSection 1 Intr... (127377)"; SQL statement:
+update blog set create_time=?, description=?, image_one=?, image_three=?, image_two=?, name=?, update_time=?, user_id=? where id=? [22001-193]
+2020-04-16 18:49:36 jdbc[7]: exception
+org.h2.jdbc.JdbcSQLException: Value too long for column "DESCRIPTION VARCHAR(50000)": "STRINGDECODE('By Rob Potter<br><br>\r\n\r\nLeader of Planetary Leadership Group<br><br>\r\nWELCOME\r\n<br><br>\r\nSection 1 Intr... (127377)"; SQL statement:
+update blog set create_time=?, description=?, image_one=?, image_three=?, image_two=?, name=?, update_time=?, user_id=? where id=? [22001-193]

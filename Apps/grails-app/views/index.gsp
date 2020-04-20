@@ -205,7 +205,7 @@
 								<!-- Nav -->
 										<nav id="nav">
 											<ul>
-												<li><button class="button"><span style="color:#ffffff"><g:link class="list" action="index" controller="products"><span style="color:#000000">Products</span></g:link></span></button></li>
+												<li><button class="button"><span style="color:#ffffff"><g:link controller="category" action="index"><span style="color:#000000">Products</span></g:link></span></button></li>
 												<li><button class="button"><span style="color:#ffffff"><g:link class="list" action="index" controller="blog"><span style="color:#000000">Blogs</span></g:link></span></button></li>
 												<li><button class="button"><span style="color:#ffffff"><g:link class="list" action="index" controller="videos"><span style="color:#000000">Videos</span></g:link></span></button></li>
 												<li><button class="button"><span style="color:#ffffff"><g:link class="list" action="index" controller="photos"><span style="color:#000000">Photos</span></g:link></span></button></li>
