@@ -174,7 +174,7 @@
 													Products:</span>
 													<br><br>
 													<g:each in="${products}" status="i" var="productsInstance">
-													<div class="4u" style="float:left">
+													<div class="4u" style="float:left;height:150px;">
 													<p><g:link controller="products" action="show" id="${productsInstance.id}"><span style="color:#ffffff;"><img src="data:image/png;base64,${productsInstance.imageOne?.encodeBase64()}"/>  ${productsInstance.name}</span></g:link></p>
 													</div>
 													</g:each>
