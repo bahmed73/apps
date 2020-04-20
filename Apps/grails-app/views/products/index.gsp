@@ -137,6 +137,11 @@
 														<span style="font-size:35px;color:#000000">${productsInstance.name}</span>
 														</header>
 														<br><br>
+														<g:if test="${productsInstance.category}">
+														<p style="font-size:20px;color:#000000;">Category: <g:link action="show" controller="category" id="${productsInstance.category.id}"><span style="font-size:20px;color:#000000">${productsInstance.category.name}</span></g:link></p>
+														<br><br>
+														</g:if>
+													
 														<p style="font-size:18px;color:#ffffff">Other Relevant Info: ${productsInstance.other}</p>
 														<br><br>
 														<p style="font-size:18px;color:#ffffff">Price: ${productsInstance.price}</p>
