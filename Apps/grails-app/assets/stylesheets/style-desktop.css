@@ -184,12 +184,12 @@
 	
 	#footer-wrapper
 	{
-		padding: 6em 0 6em 0;
+		padding: 1em 0 1em 0;
 	}
 
 		#footer-wrapper:before
 		{
-			height: 5em;
+			height: 1em;
 		}
 
 		#footer-wrapper header

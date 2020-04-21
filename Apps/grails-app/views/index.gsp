@@ -172,18 +172,23 @@
 						  <ol class="carousel-indicators">
 						    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
 						    <li data-target="#myCarousel" data-slide-to="1"></li>
+						    <li data-target="#myCarousel" data-slide-to="1"></li>
 						    						    
 						  </ol>
 
 						  <!-- Wrapper for slides -->
 						  <div class="carousel-inner">
 						    <div class="item active">
-						      <g:link class="list" action="index" controller="products"><asset:image src="homepage-1.png"/></g:link>
+						      <g:link class="list" action="index" controller="category"><asset:image src="homepage-1.png"/></g:link>
 						    </div>
 						    
 						    <div class="item">
 						    <a href="https://www.eventbrite.com/e/meet-the-venusians-mt-shasta-summer-conference-2020-tickets-89345987253"><asset:image src="homepage-2.png"/></a>
 						      </div>
+						    
+						    <div class="item">
+						      <g:link class="list" action="index" controller="blogCategory"><asset:image src="homepage-3.png"/></g:link>
+						    </div>
 						    
 						  </div>
 
@@ -232,20 +237,31 @@
 													  </ul>
 													  <div id="tabs-1">
 													  
-													  	<p><span style="color:#ffffff;font-size:20px;"><br><br>The Promise Revealed - My entire life has been filled with a calling and a longing. These longings and search for love and truth have been a blessing and a curse.I have always wanted to know who am I? Where did wecome from? What is our is our purpose here? Why is there so much suffering and discord and anxiety on our planet? Why is the world so distorted and fractured,and so caught up in wars pollution ignorance superstition and fear? <g:link action="show" controller="blog" id="1"><br><br><br><span style="font-size:12px;color:#ffffff;">Read more...</span></g:link></span></p>
+													  	<p><span style="color:#ffffff;font-size:20px;"><br><br>The Promise Revealed - My entire life has been filled with a calling and a longing. These longings and search for love and truth have been a blessing and a curse.I have always wanted to know who am I? Where did wecome from? What is our is our purpose here? Why is there so much suffering and discord and anxiety on our planet? Why is the world so distorted and fractured,and so caught up in wars pollution ignorance superstition and fear? <g:link action="show" controller="blog" id="1"><br><br><span style="font-size:14px;color:#ffffff;">Read more...
+													  	<br><br><br><br>
+													  	<span style="color:#ffffff;font-size:20px;">Product Categories:</span>
+													  	<br><br>
+													  	<g:link class="list" action="index" controller="category"><asset:image src="product-categories-small.png"/></g:link>
+													  	</span></g:link></span></p>
 													  </div>
 													  <div id="tabs-2">
-													    <p><span style="color:#ffffff;font-size:20px;"><br><br>Upcoming Events:</span></p>
-													    <p><g:link action="show" controller="coupon" id="2"><span style="color:#ffffff;font-size:14px;">Mount Shasta Summer Conference 2020</span></g:link></p>
+													    <p><span style="color:#ffffff;font-size:20px;"><br><br>Events:</span></p>
+													    <p><a href="https://www.eventbrite.com/e/meet-the-venusians-mt-shasta-summer-conference-2020-tickets-89345987253"><span style="color:#ffffff;font-size:16px;">Mount Shasta Summer Conference 2020</span></a></p>
+														<p><a href="https://www.eventbrite.com/e/meet-the-venusians-mt-shasta-summer-conference-2020-tickets-89345987253"><asset:image src="mount-shasta-conference.png"/></a></p>
 														<p><span style="color:#ffffff;font-size:20px;">Past Events:</span></p>
-														<p><g:link action="show" controller="coupon" id="1"><span style="color:#ffffff;font-size:14px;">Rob and Cobra Portal Conference Laguna Beach November 2012</span></g:link></p>
+														<p><g:link action="index" controller="coupon"><span style="color:#ffffff;font-size:14px;">View Past Events ...</span></g:link></p>
 													  </div>
 													  <div id="tabs-3">
-													    <p><span style="color:#ffffff;font-size:20px;"><br><br>Secret Space Program - Some years ago I was on the Internet and I found a very interesting friend on Facebook that had some very interesting pictures of some government spaceships. He had few friends and as usual I do not know how I found him. He just kind of popped up on my page and responded to some of my spaceship pictures. The gentleman I met in virtual space and whom I choose to keep anonymous for now was very cryptic and very short in our exchanges on the Internet. I presume he disappeared from Facebook after being told by gov’t agents that his conversations with people like me and the sharing of these photos was not part of his nondisclosure contract.<g:link action="show" controller="blog" id="33"><br><br><br><span style="font-size:12px;color:#ffffff;">Read more...</span></g:link></span></p>
+													    <p><span style="color:#ffffff;font-size:20px;"><br><br>Secret Space Program - Some years ago I was on the Internet and I found a very interesting friend on Facebook that had some very interesting pictures of some government spaceships. He had few friends and as usual I do not know how I found him. He just kind of popped up on my page and responded to some of my spaceship pictures. The gentleman I met in virtual space and whom I choose to keep anonymous for now was very cryptic and very short in our exchanges on the Internet. I presume he disappeared from Facebook after being told by gov’t agents that his conversations with people like me and the sharing of these photos was not part of his nondisclosure contract.<g:link action="show" controller="blog" id="33"><br><br><span style="font-size:14px;color:#ffffff;">Read more...
+													    <br><br><br><br>
+													    <span style="color:#ffffff;font-size:20px;">Blog Categories:</span>
+													    <br><br>
+													    <g:link class="list" action="index" controller="blogCategory"><asset:image src="blog-categories-small.png"/></g:link>
+													    </span></g:link></span></p>
 														
 													  </div>
 													  <div id="tabs-4">
-													    <p><span style="color:#ffffff;font-size:20px;"><br><br>Victory to the Light - This website is intended to act as a Portal of Light and Truth to be shared freely with the entire universe. This site is currently brand new and is under construction. I will be adding to this site continually and sharing information in regards to all the subjects in the links at the top of this page. I will continue to travel the world to Sacred Sites and to share the truth of the space family and the healing technologies. I will instill the truth of The Promise and good news through the coming changes on these pages. I will sincerely proclaim the positive message of hope, love and prosperity for all. I will do this to share light from our benevolent space family who will soon be free to walk openly upon our world.<g:link action="show" controller="blog" id="34"><br><br><br><span style="font-size:12px;color:#ffffff;">Read more...</span></g:link></span></p>
+													    <p><span style="color:#ffffff;font-size:20px;"><br><br>Victory to the Light - This website is intended to act as a Portal of Light and Truth to be shared freely with the entire universe. This site is currently brand new and is under construction. I will be adding to this site continually and sharing information in regards to all the subjects in the links at the top of this page. I will continue to travel the world to Sacred Sites and to share the truth of the space family and the healing technologies. I will instill the truth of The Promise and good news through the coming changes on these pages. I will sincerely proclaim the positive message of hope, love and prosperity for all. I will do this to share light from our benevolent space family who will soon be free to walk openly upon our world.<g:link action="show" controller="blog" id="34"><br><br><span style="font-size:14px;color:#ffffff;">Read more...</span></g:link></span></p>
 																
 													  </div>
 													  
@@ -387,7 +403,7 @@
 							<div class="4u">
 								<section>
 									<header>
-										<h2>Connect with us</h2>
+										<h2><g:link action="show" controller="blog" id="35">Contact</g:link></h2>
 									</header>
 									<!--  <ul class="social">-->
 										<!--  <li><a class="fa fa-facebook solo" href="https://www.facebook.com/foodalCo/"><span>Facebook</span></a></li>
@@ -397,13 +413,15 @@
 									<!--  </ul>-->
 									<ul class="divided">
 										<li>
-											<h3>Mount Shasta, California</h3>
-											
-										</li>
-										<li>
+										<asset:image src="email.jpg"/>
+										<br><br>
+										
 											<h3><a href="rob@thepromiserevealed.com">rob@thepromiserevealed.com</a></h3>
 										</li>
-										<li><a href="https://www.youtube.com/channel/UCdi75MbXf2IxDpncWkCehyg"><h3>On YouTube</h3></a></li>
+										<li>
+										<asset:image src="youtube.jpg"/>
+										<br><br>
+										<a href="https://www.youtube.com/channel/UCdi75MbXf2IxDpncWkCehyg"><h3>On YouTube</h3></a></li>
 									</ul>
 								</section>
 								
@@ -417,9 +435,21 @@
 										<h2>More about us</h2>
 									</header>
 									<ul class="divided">
-										<li><h3>(530) 918-8236</h3></li>
-										<li><a href="https://thepromiserevealed.com"><h3>Our Website</h3></a></li>
-										<li><a href="https://www.eventbrite.com/e/meet-the-venusians-mt-shasta-summer-conference-2020-tickets-89345987253"><h3>Attend Mount Shasta Summer Conference</h3></a></li>
+										<li>
+										<asset:image src="phone.jpg"/>
+										<br><br>
+										
+										<h3>(530) 918-8236</h3></li>
+										<li>
+										<asset:image src="facebook.jpg"/>
+										<br><br>
+										<a href="https://www.facebook.com/PromiseRevealed/"><h3>Robert Potter Facebook</h3></a>
+										<br>
+										<asset:image src="facebook.jpg"/>
+										<br><br>
+										<a href="https://www.facebook.com/Mt-Shasta-Summer-Conference-428207090637794/"><h3>Mount Shasta Summer Conference</h3></a>
+										</li>
+										
 									</ul>
 								</section>
 				
@@ -431,10 +461,15 @@
 										<h2>And more...</h2>
 									</header>
 									<ul class="divided">
-										<li><a href="https://www.facebook.com/PromiseRevealed/"><h3>Robert Potter Facebook</h3></a></li>
-										<li><a href="https://www.facebook.com/Mt-Shasta-Summer-Conference-428207090637794/"><h3>Mount Shasta Summer Conference Facebook</h3></a></li>
-										<li><a href="https://www.instagram.com/thepromiserevealed/"><h3>Promise Revealed Instagram</h3></a></li>
-										<li><a href="https://twitter.com/ROBERTP35959598"><h3>Promise Revealed Twitter</h3></a></li>
+										<li>
+										<asset:image src="instagram.jpg"/>
+										<br><br>
+										
+										<a href="https://www.instagram.com/thepromiserevealed/"><h3>Promise Revealed Instagram</h3></a></li>
+										<li>
+										<asset:image src="twitter.jpg"/>
+										<br><br>
+										<a href="https://twitter.com/ROBERTP35959598"><h3>Promise Revealed Twitter</h3></a></li>
 										
 										<!--li><a href="#">Sem feugiat sapien id suscipit magna felis nec</a></li>
 										<li><a href="#">Elit class aptent taciti sociosqu ad litora</a></li-->

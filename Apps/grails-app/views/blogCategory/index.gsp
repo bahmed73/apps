@@ -109,11 +109,11 @@
   <!-- Wrapper for slides -->
   <div class="carousel-inner">
     <div class="item active">
-      <g:link class="list" action="index" controller="photos"><asset:image src="homepage-1.png"/></g:link>
+      <g:link class="list" action="index" controller="category"><asset:image src="homepage-1.png"/></g:link>
     </div>
     
     <div class="item">
-      <g:link class="list" action="index" controller="photos"><asset:image src="homepage-2.png"/></g:link>
+      <g:link class="list" action="index" controller="blogCategory"><asset:image src="homepage-3.png"/></g:link>
     </div>
     
     
@@ -312,7 +312,7 @@
 							<div class="4u">
 								<section>
 									<header>
-										<h2>Connect with us</h2>
+										<h2><g:link action="show" controller="blog" id="35">Contact</g:link></h2>
 									</header>
 									<!--  <ul class="social">-->
 										<!--  <li><a class="fa fa-facebook solo" href="https://www.facebook.com/foodalCo/"><span>Facebook</span></a></li>
@@ -322,13 +322,15 @@
 									<!--  </ul>-->
 									<ul class="divided">
 										<li>
-											<h3>Mount Shasta, California</h3>
-											
-										</li>
-										<li>
+										<asset:image src="email.jpg"/>
+										<br><br>
+										
 											<h3><a href="rob@thepromiserevealed.com">rob@thepromiserevealed.com</a></h3>
 										</li>
-										<li><a href="https://www.youtube.com/channel/UCdi75MbXf2IxDpncWkCehyg"><h3>On YouTube</h3></a></li>
+										<li>
+										<asset:image src="youtube.jpg"/>
+										<br><br>
+										<a href="https://www.youtube.com/channel/UCdi75MbXf2IxDpncWkCehyg"><h3>On YouTube</h3></a></li>
 									</ul>
 								</section>
 								
@@ -342,9 +344,21 @@
 										<h2>More about us</h2>
 									</header>
 									<ul class="divided">
-										<li><h3>(530) 918-8236</h3></li>
-										<li><a href="https://thepromiserevealed.com"><h3>Our Website</h3></a></li>
-										<li><a href="https://www.eventbrite.com/e/meet-the-venusians-mt-shasta-summer-conference-2020-tickets-89345987253"><h3>Attend Mount Shasta Summer Conference</h3></a></li>
+										<li>
+										<asset:image src="phone.jpg"/>
+										<br><br>
+										
+										<h3>(530) 918-8236</h3></li>
+										<li>
+										<asset:image src="facebook.jpg"/>
+										<br><br>
+										<a href="https://www.facebook.com/PromiseRevealed/"><h3>Robert Potter Facebook</h3></a>
+										<br>
+										<asset:image src="facebook.jpg"/>
+										<br><br>
+										<a href="https://www.facebook.com/Mt-Shasta-Summer-Conference-428207090637794/"><h3>Mount Shasta Summer Conference</h3></a>
+										</li>
+										
 									</ul>
 								</section>
 				
@@ -356,10 +370,15 @@
 										<h2>And more...</h2>
 									</header>
 									<ul class="divided">
-										<li><a href="https://www.facebook.com/PromiseRevealed/"><h3>Robert Potter Facebook</h3></a></li>
-										<li><a href="https://www.facebook.com/Mt-Shasta-Summer-Conference-428207090637794/"><h3>Mount Shasta Summer Conference Facebook</h3></a></li>
-										<li><a href="https://www.instagram.com/thepromiserevealed/"><h3>Promise Revealed Instagram</h3></a></li>
-										<li><a href="https://twitter.com/ROBERTP35959598"><h3>Promise Revealed Twitter</h3></a></li>
+										<li>
+										<asset:image src="instagram.jpg"/>
+										<br><br>
+										
+										<a href="https://www.instagram.com/thepromiserevealed/"><h3>Promise Revealed Instagram</h3></a></li>
+										<li>
+										<asset:image src="twitter.jpg"/>
+										<br><br>
+										<a href="https://twitter.com/ROBERTP35959598"><h3>Promise Revealed Twitter</h3></a></li>
 										
 										<!--li><a href="#">Sem feugiat sapien id suscipit magna felis nec</a></li>
 										<li><a href="#">Elit class aptent taciti sociosqu ad litora</a></li-->
