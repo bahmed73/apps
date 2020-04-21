@@ -157,8 +157,18 @@
 														<span style="font-size:35px;color:#000000">${photosInstance.name}</span>
 														</header>
 														<br><br>
-														<p style="font-size:20px;color:#ffffff;">${photosInstance.description}</p>
+														<g:if test="${photosInstance.category}">
+														<p style="font-size:20px;color:#000000;">Category: <g:link action="show" controller="category" id="${photosInstance.category.id}"><span style="font-size:20px;color:#000000">${photosInstance.category.name}</span></g:link></p>
 														<br><br>
+														</g:if>
+														<g:if test="${photosInstance.blog}">
+														<p style="font-size:20px;color:#000000;">Blog: <g:link action="show" controller="blog" id="${photosInstance.blog.id}"><span style="font-size:20px;color:#000000">${photosInstance.blog.name}</span></g:link></p>
+														<br><br>
+														</g:if>
+														<g:if test="${photosInstance.products}">
+														<p style="font-size:20px;color:#000000;">Product: <g:link action="show" controller="products" id="${photosInstance.products.id}"><span style="font-size:20px;color:#000000">${photosInstance.products.name}</span></g:link></p>
+														<br><br>
+														</g:if>
 														<button class="button"><g:link controller="photos" action="show" id="${photosInstance.id}"><span style="color:#000000;">View bigger photo...</span></g:link></button>
 														</section>
 												</div>
