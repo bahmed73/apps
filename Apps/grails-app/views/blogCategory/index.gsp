@@ -39,7 +39,7 @@
 		<style>
 		p {
 		  border: 2px solid #e5e1e1;
-		  background-color: #007FFF;
+		  background-color: #ffffff;
 		  border-width: 2px;
 		  margin: 5px;
 		  padding: 10px;
@@ -149,10 +149,10 @@
 							<g:each in="${blogCategoryList}" status="i" var="blogCategoryInstance">
 									<section>
 										
-											<div class="4u" style="float:left">
+											<div class="3u" style="float:left">
 												<div>
 														<div>
-														<p><g:link controller="blogCategory" action="show" id="${blogCategoryInstance.id}"><span style="color:#ffffff;"><img src="data:image/png;base64,${blogCategoryInstance.imageOne?.encodeBase64()}" width="150" height="150"/>  ${blogCategoryInstance.name}</span></g:link></p>
+														<p><g:link controller="blogCategory" action="show" id="${blogCategoryInstance.id}"><span style="color:#000000;font-size:20px;"><img src="data:image/png;base64,${blogCategoryInstance.imageOne?.encodeBase64()}" width="250" height="250"/><br>${blogCategoryInstance.name}</span></g:link></p>
 														</div>
 													
 														

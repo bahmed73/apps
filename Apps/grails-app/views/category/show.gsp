@@ -174,8 +174,8 @@
 													Products:</span>
 													<br><br>
 													<g:each in="${products}" status="i" var="productsInstance">
-													<div class="4u" style="float:left;height:150px;">
-													<p><g:link controller="products" action="show" id="${productsInstance.id}"><span style="color:#ffffff;"><img src="data:image/png;base64,${productsInstance.imageOne?.encodeBase64()}"/>  ${productsInstance.name}</span></g:link></p>
+													<div class="3u" style="float:left;height:300px;">
+													<g:link controller="products" action="show" id="${productsInstance.id}"><span style="color:#000000;font-size:20px;"><img src="data:image/png;base64,${productsInstance.imageThree?.encodeBase64()}" width="250" height="250"/><br>${productsInstance.name}</span></g:link>
 													</div>
 													</g:each>
 													</g:if>
@@ -217,8 +217,8 @@
 													<br><br>
 													<g:each in="${photos}" status="i" var="photosInstance">
 													
-													<p><g:link controller="photos" action="show" id="${photosInstance.id}"><span style="color:#ffffff;"><img src="data:image/png;base64,${photosInstance.imageOne?.encodeBase64()}"/><br><br>${photosInstance.name}</span></g:link></p>
-													<br>	
+													<g:link controller="photos" action="show" id="${photosInstance.id}"><span style="color:#000000;"><img src="data:image/png;base64,${photosInstance.imageOne?.encodeBase64()}"/><br>${photosInstance.name}</span></g:link>
+													<br><br>	
 													</g:each>
 													</g:if>
 													<br><br>
