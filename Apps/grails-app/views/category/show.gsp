@@ -106,7 +106,7 @@
 							<!-- Banner -->
 								<section id="banner">
 									
-										<span class="image image-full"><asset:image src="homepage-1.png"/></span>
+										<g:link class="list" action="index" controller="category"><span class="image image-full"><asset:image src="homepage-1.png"/></span></g:link>
 										<header>
 											<!--  <h2>Foodal</h2>-->
 											<!--span class="byline">welcome!</span-->

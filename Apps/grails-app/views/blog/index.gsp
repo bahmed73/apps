@@ -110,7 +110,7 @@
 							<!-- Banner -->
 								<section id="banner">
 									
-										<span class="image image-full"><asset:image src="homepage-2.png"/></span>
+										<g:link class="list" action="index" controller="blogCategory"><span class="image image-full"><asset:image src="homepage-3.png"/></span></g:link>
 										<header>
 										<!-- 
 											<h2>Shop</h2> 
