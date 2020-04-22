@@ -144,47 +144,35 @@
 										</nav>
 							<!-- Intro -->
 							
+							<div class="12u">
 							<g:if test="${photosList}">
 							<g:each in="${photosList}" status="i" var="photosInstance">
-								<div class="row">
-								<div class="12u">
-									<section>
-										<div>
-											<div class="row">
-												<div class="6u">
-														<section class="box">
-														<header>
-														<span style="font-size:35px;color:#000000">${photosInstance.name}</span>
-														</header>
+								
+									
+												<div class="3u" style="float:left;height:400px;">
+														<img src="data:image/png;base64,${photosInstance.imageOne?.encodeBase64()}"/>
+														<br><br>
+														<span style="font-size:16px;color:#000000">${photosInstance.name}</span>
 														<br><br>
 														<g:if test="${photosInstance.category}">
-														<p style="font-size:20px;color:#000000;">Category: <g:link action="show" controller="category" id="${photosInstance.category.id}"><span style="font-size:20px;color:#000000">${photosInstance.category.name}</span></g:link></p>
+														<span style="font-size:16px;color:#000000;">Category: <g:link action="show" controller="category" id="${photosInstance.category.id}"><span style="font-size:16px;color:#000000">${photosInstance.category.name}</span></g:link></span>
 														<br><br>
 														</g:if>
 														<g:if test="${photosInstance.blog}">
-														<p style="font-size:20px;color:#000000;">Blog: <g:link action="show" controller="blog" id="${photosInstance.blog.id}"><span style="font-size:20px;color:#000000">${photosInstance.blog.name}</span></g:link></p>
+														<span style="font-size:16px;color:#000000;">Blog: <g:link action="show" controller="blog" id="${photosInstance.blog.id}"><span style="font-size:16px;color:#000000">${photosInstance.blog.name}</span></g:link></span>
 														<br><br>
 														</g:if>
 														<g:if test="${photosInstance.products}">
-														<p style="font-size:20px;color:#000000;">Product: <g:link action="show" controller="products" id="${photosInstance.products.id}"><span style="font-size:20px;color:#000000">${photosInstance.products.name}</span></g:link></p>
+														<span style="font-size:16px;color:#000000;">Product: <g:link action="show" controller="products" id="${photosInstance.products.id}"><span style="font-size:16px;color:#000000">${photosInstance.products.name}</span></g:link></span>
 														<br><br>
 														</g:if>
 														<button class="button"><g:link controller="photos" action="show" id="${photosInstance.id}"><span style="color:#000000;">View bigger photo...</span></g:link></button>
-														</section>
+														<br><br>
 												</div>
-												<div>
-														<section class="box">
-														<div>
-														<img src="data:image/png;base64,${photosInstance.imageOne?.encodeBase64()}"/>
-														</div>
-														</section>
-														
-												</div>
-											</div>
-										</div>
-									</section>
-								</div>
-								</div>
+												
+									
+								
+								
 							</g:each>
 							</g:if>
 							<g:else>
@@ -207,6 +195,7 @@
 								</div>
 							</div>
 							</g:else>
+							</div>
 				        	</div>
 				        	</div>				
 							

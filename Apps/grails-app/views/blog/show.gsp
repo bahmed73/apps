@@ -176,19 +176,15 @@
 													Additional Photos:</span>
 													<br><br>
 													<g:each in="${photos}" status="i" var="photosInstance">
-													
-													<p><g:link controller="photos" action="show" id="${photosInstance.id}"><span style="color:#ffffff;"><img src="data:image/png;base64,${photosInstance.imageOne?.encodeBase64()}"/><br><br>${photosInstance.name}</span></g:link></p>
-													<br>	
+													<div class="3u" style="float:left">
+													<g:link controller="photos" action="show" id="${photosInstance.id}"><span style="color:#000000;"><img src="data:image/png;base64,${photosInstance.imageOne?.encodeBase64()}"/><br><br>${photosInstance.name}</span></g:link>
+													<br><br>
+													</div>	
 													</g:each>
 													</g:if>
 													<br><br>
 													
 												</header>
-													<footer class="actions">
-													<br><br>
-														<a href="mailto:rob@thepromiserevealed.com" class="button fa fa-file-text">Email us today!</a>
-														<br><br>
-													</footer>	
 													<!--header>
 														<h3>Aptent veroeros et aliquam</h3>
 														<span class="byline">Posted 45 minutes ago</span>

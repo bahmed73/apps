@@ -29,7 +29,7 @@
             <g:form resource="${this.products}" method="POST" enctype="multipart/form-data">
                 <g:hiddenField name="version" value="${this.products?.version}" />
                 <fieldset class="form">
-                    <f:all bean="products" except="imageOne, imageTwo, imageThree, category, description"/>
+                    <f:all bean="products" except="imageOne, imageTwo, imageThree, category, description, other"/>
                 </fieldset>
                 <fieldset>
                 <f:field bean="products" property="category" widget-optionValue="name"/>
@@ -40,6 +40,14 @@
               				Write your product details here and use html tags for styling.<br>
               		<div>
                   <g:textArea name="description" value="${products.description}" rows="10" cols="40"/>
+              </div>	
+                </fieldset>
+                <fieldset style="margin-left:340px;">
+                	<div style="float:left;width:50" class="post"><h4>Other:</h4></div>
+                	<br>
+              				Write your other product details here and use html tags for styling.<br>
+              		<div>
+                  <g:textArea name="other" value="${products.other}" rows="10" cols="40"/>
               </div>	
                 </fieldset>
                 <fieldset>

@@ -139,6 +139,7 @@
 												<li><button class="button"><g:link url="/"><span style="color:#000000">Home</span></g:link></button></li>
 												<li><button class="button"><g:link controller="products" action="index"><span style="color:#000000">Products</span></g:link></button></li>
 												<li><button class="button"><g:link controller="photos" action="index"><span style="color:#000000">Photos</span></g:link></button></li>
+												<li><button class="button"><span style="color:#ffffff"><g:link class="list" action="index" controller="videos"><span style="color:#000000">Videos</span></g:link></span></button></li>
 												<li><button class="button"><g:link controller="category" action="create"><span style="color:#000000">Create a Category</span></g:link></button></li>
 												<!--<li><a href="left-sidebar.html">Login</a></li>-->
 											</ul>

@@ -202,23 +202,24 @@
 											</div>
 											
 											
-											<div class="8u">
+											<div class="12u">
 												<section class="box">
 													<p style="font-size:18px;color:#ffffff">Description: <f:display bean="category" property="description"/></p>
 													<br><br>
 													
 												</section>
 											</div>
-											<div class="4u">
+											<div class="12u">
 												<section class="box">
 													<g:if test="${photos}">
 													<span style="font-size:25px;color:#000000">
 													Photos:</span>
 													<br><br>
 													<g:each in="${photos}" status="i" var="photosInstance">
-													
+													<div class="3u" style="float:left">
 													<g:link controller="photos" action="show" id="${photosInstance.id}"><span style="color:#000000;"><img src="data:image/png;base64,${photosInstance.imageOne?.encodeBase64()}"/><br>${photosInstance.name}</span></g:link>
-													<br><br>	
+													<br><br>
+													</div>	
 													</g:each>
 													</g:if>
 													<br><br>
