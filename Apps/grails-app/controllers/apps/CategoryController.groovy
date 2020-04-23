@@ -23,7 +23,7 @@ class CategoryController {
 
 	@Secured(['ROLE_ADMIN', 'ROLE_ANONYMOUS'])
     def show(Category category) {
-		def photos = Photos.findAllByCategory(category)
+		def photos = Photos.findAllByCategory(category, [sort: "photoOrder", order: "desc"])
 		def videos = Videos.findAllByCategory(category)
 		
 		def products = Products.findAllByCategory(category)

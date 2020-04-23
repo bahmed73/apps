@@ -14,6 +14,7 @@ class Photos {
 		Category category
 		Blog blog
 		Products products
+		Integer photoOrder
 
     static constraints = {
                 //id(nullable:true)
@@ -28,6 +29,7 @@ class Photos {
 				category(nullable:true)
 				blog(nullable:true)
 				products(nullable:true)
+				photoOrder(nullable:true)
     }
 
         static mapping = {

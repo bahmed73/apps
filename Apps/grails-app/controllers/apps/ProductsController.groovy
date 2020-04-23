@@ -78,7 +78,7 @@ class ProductsController {
 		
 		def productViews = ProductView.countByProducts(products)
 		
-		def photos = Photos.findAllByProducts(products)
+		def photos = Photos.findAllByProducts(products, [sort: "photoOrder", order: "desc"])
 		
 		def videos = Videos.findAllByProducts(products)
 		

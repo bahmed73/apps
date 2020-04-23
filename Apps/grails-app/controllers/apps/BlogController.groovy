@@ -45,7 +45,7 @@ class BlogController {
 		appsService.addBlogView(blog, request.getRemoteAddr(), user)
 		appsService.trackBlogReferer(request.getHeader("REFERER"), blog, user)
 		def blogViews = BlogView.countByBlog(blog)
-		def photos = Photos.findAllByBlog(blog)
+		def photos = Photos.findAllByBlog(blog, [sort: "photoOrder", order: "desc"])
 		
 		[blog:blog, blogViews:blogViews, photos:photos]
         //respond blog, model:[blogViews: blogViews]
