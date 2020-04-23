@@ -154,7 +154,7 @@
 														<form controller="products" action="index" method="GET">
 														<script
 											  			src="https://checkout.stripe.com/checkout.js" class="stripe-button"
-											  			data-key="pk_live_qiegeu48MOnZQ1SLm8mfdKsr002jmLKgYw"
+											  			data-key="pk_live_jJVbuS5AS21wPAefuu6izPwz00IYUQlKe5"
 											  			data-amount="<f:display bean="products" property="price"/>"
 											  			data-name="shop"
 											  			data-description="Purchase"
