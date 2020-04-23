@@ -156,7 +156,7 @@
 											  			src="https://checkout.stripe.com/checkout.js" class="stripe-button"
 											  			data-key="pk_live_jJVbuS5AS21wPAefuu6izPwz00IYUQlKe5"
 											  			data-amount="<f:display bean="products" property="price"/>"
-											  			data-name="shop"
+											  			data-name="thepromiserevealed"
 											  			data-description="Purchase"
 											  			data-zip-code="true"
 											  			data-shipping-address="true"
