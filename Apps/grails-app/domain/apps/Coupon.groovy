@@ -11,7 +11,8 @@ class Coupon {
 		byte[] imageTwo
 		byte[] imageThree
 		User user
-
+		Date eventDate
+		
     static constraints = {
                 //id(nullable:true)
                 createTime(nullable:false)
@@ -22,11 +23,12 @@ class Coupon {
 				imageTwo(nullable:true, maxSize: 1024 * 1024 * 2)
 				imageThree(nullable:true, maxSize: 1024 * 1024 * 2)
 				user(nullable:true)
-				
+				eventDate(nullable:true)
     }
 
         static mapping = {
                 version false
+				//sort createTime: "asc"
 				//table 'question'
                 //id generator:'sequence', params:[sequence:'question_seq']
         }

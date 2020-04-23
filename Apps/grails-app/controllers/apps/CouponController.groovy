@@ -21,16 +21,17 @@ class CouponController {
         params.max = Math.min(max ?: 50, 100)
 		
 		def user = springSecurityService.currentUser
+		def couponList
 		
 		if (user != null) {
-			def couponList = Coupon.findAllByUser(user)
+			couponList = Coupon.findAllByUser(user, [sort: "eventDate", order: "desc"])
 			respond couponList
 		} else {
-			def couponList = Coupon.findAll()
+			couponList = Coupon.findAll()
 			respond couponList
 		}
 		
-        respond Coupon.list(params), model:[couponCount: Coupon.count()]
+        //respond Coupon.list(params), model:[couponCount: Coupon.count()]
     }
 
 	@Secured(['ROLE_ADMIN', 'ROLE_ANONYMOUS'])

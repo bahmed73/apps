@@ -216,8 +216,8 @@
 													Photos:</span>
 													<br><br>
 													<g:each in="${photos}" status="i" var="photosInstance">
-													<div class="3u" style="float:left">
-													<g:link controller="photos" action="show" id="${photosInstance.id}"><span style="color:#000000;"><img src="data:image/png;base64,${photosInstance.imageOne?.encodeBase64()}"/><br>${photosInstance.name}</span></g:link>
+													<div class="3u" style="float:left;height:300px;">
+													<g:link controller="photos" action="show" id="${photosInstance.id}"><span style="color:#000000;font-size:20px;"><img src="data:image/png;base64,${photosInstance.imageThree?.encodeBase64()}" width="250" height="250"/><br>${photosInstance.name}</span></g:link>
 													<br><br>
 													</div>	
 													</g:each>
