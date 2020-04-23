@@ -292,6 +292,36 @@ class ProductsController {
 			return
 		}
 		
+		//set all photos for this product to null
+		
+		def photos = Photos.findAllByProducts(products)
+		
+		if (photos != null) {
+			for (int i=0; i<photos.size(); i++) {
+				def photo = photos.get(i)
+				photo.products = null
+				photo.save flush:true
+			}
+		} 
+		
+		def productReferers = ProductReferer.findAllByProducts(products)
+		
+		if (productReferers != null) {
+			for (int j=0;j<productReferers.size(); j++) {
+				def productReferer = productReferers.get(j)
+				productReferer.delete flush:true
+			}
+		}
+		
+		def productViews = ProductView.findAllByProducts(products)
+		
+		if (productViews != null) {
+			for (int j=0;j<productViews.size(); j++) {
+				def productView = productViews.get(j)
+				productView.delete flush:true
+			}
+		}
+		
         products.delete flush:true
 
         request.withFormat {

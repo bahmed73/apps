@@ -124,14 +124,6 @@
 												<li><button class="button"><g:link url="/"><span style="color:#000000">Home</span></g:link></button></li>
 												<li><button class="button"><g:link controller="category" action="edit" id="${category.id}"><span style="color:#000000">Edit Category</span></g:link></button></li>
 												<li><button class="button"><g:link controller="category" action="index"><span style="color:#000000">Show Categories</span></g:link></button></li>
-												<li><button class="button"><g:form resource="${this.category}" method="DELETE" controller="category" action="delete">
-												    <fieldset class="buttons">
-									                	<input class="delete" type="submit" value="${message(code: 'default.button.delete.label', default: 'Delete')}" onclick="return confirm('${message(code: 'default.button.delete.confirm.message', default: 'Are you sure?')}');" />
-									                </fieldset>
-									                
-									            </g:form>
-									            </button>
-									            </li>
 												<!--<li><a href="left-sidebar.html">Login</a></li>-->
 											</ul>
 										</nav>

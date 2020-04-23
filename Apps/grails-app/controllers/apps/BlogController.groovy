@@ -216,12 +216,29 @@ class BlogController {
         }
 
 		def user = springSecurityService.currentUser
-		System.out.println("username = " + user.username)
 		
 		if (blog.user != user) {
 			flash.message ="Access denied."
 			redirect action:"index", method:"GET"
 			return
+		}
+		
+		def blogReferers = BlogReferer.findAllByBlog(blog)
+		
+		if (blogReferers != null) {
+			for (int j=0;j<blogReferers.size(); j++) {
+				def blogReferer = blogReferers.get(j)
+				blogReferer.delete flush:true
+			}
+		}
+		
+		def blogViews = BlogView.findAllByBlog(blog)
+		
+		if (blogViews != null) {
+			for (int j=0;j<blogViews.size(); j++) {
+				def blogView = blogViews.get(j)
+				blogView.delete flush:true
+			}
 		}
 		
         blog.delete flush:true
