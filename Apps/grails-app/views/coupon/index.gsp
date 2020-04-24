@@ -133,10 +133,10 @@
 												<div class="6u">
 														<section class="box">
 														<header>
-														<span style="font-size:35px;color:#000000">${couponInstance.name}</span>
+														<span style="font-size:35px;color:#1d10d2">${couponInstance.name}</span>
 														</header>
 														<br><br>
-														<button class="button"><g:link controller="coupon" action="show" id="${couponInstance.id}"><span style="color:#000000;">View full event...</span></g:link></button>
+														<button class="button"><g:link controller="coupon" action="show" id="${couponInstance.id}"><span style="color:#1d10d2;">View full event...</span></g:link></button>
 														</section>
 												</div>
 												<div>

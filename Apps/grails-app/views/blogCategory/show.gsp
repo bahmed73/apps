@@ -40,8 +40,7 @@
 		<!--[if lte IE 8]><asset:javascript src="html5shiv.js"/><asset:stylesheet src="ie8.css"/><![endif]-->
 		<style>
 		p {
-		  border: 2px solid #e5e1e1;
-		  background-color: #007FFF;
+		  background-color: #ffffff;
 		  border-width: 2px;
 		  margin: 5px;
 		  padding: 10px;
@@ -137,7 +136,7 @@
 													<section class="box">
 													<!-- <a href="http://www.mytweetmark.com" class="image image-full"><asset:image src="foodal-homepage-16.png"/></a> -->
 													<header>
-														<span style="font-size:35px;color:#000000"><f:display bean="blogCategory" property="name"/></span>
+														<span style="font-size:35px;color:#1d10d2"><f:display bean="blogCategory" property="name"/></span>
 													</header>
 													<br><br>
 													<br><br>
@@ -162,12 +161,12 @@
 												<section class="box">
 												<header>
 													<g:if test="${blogs}">
-													<span style="font-size:25px;color:#000000">
+													<span style="font-size:25px;color:#1d10d2">
 													Blogs:</span>
 													<br><br>
 													<g:each in="${blogs}" status="i" var="blogInstance">
 													<div class="3u" style="float:left;height:300px;">
-													<g:link controller="blog" action="show" id="${blogInstance.id}"><span style="color:#000000;font-size:20px;"><img src="data:image/png;base64,${blogInstance.imageThree?.encodeBase64()}" width="250" height="250"/><br>${blogInstance.name}</span></g:link>
+													<g:link controller="blog" action="show" id="${blogInstance.id}"><span style="color:#1d10d2;font-size:20px;"><img src="data:image/png;base64,${blogInstance.imageThree?.encodeBase64()}" width="250" height="250"/><br>${blogInstance.name}</span></g:link>
 													</div>
 													</g:each>
 													</g:if>
@@ -181,7 +180,7 @@
 											
 											<div class="8u">
 												<section class="box">
-													<p style="font-size:18px;color:#ffffff">Description: <f:display bean="blogCategory" property="description"/></p>
+													<span style="font-size:18px;color:#1d10d2">Description: <f:display bean="blogCategory" property="description"/></span>
 													<br><br>
 													
 												</section>

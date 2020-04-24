@@ -152,7 +152,7 @@
 											<div class="3u" style="float:left">
 												<div>
 														<div>
-														<p><g:link controller="blogCategory" action="show" id="${blogCategoryInstance.id}"><span style="color:#000000;font-size:20px;"><img src="data:image/png;base64,${blogCategoryInstance.imageOne?.encodeBase64()}" width="250" height="250"/><br>${blogCategoryInstance.name}</span></g:link></p>
+														<p><g:link controller="blogCategory" action="show" id="${blogCategoryInstance.id}"><span style="color:#1d10d2;font-size:20px;"><img src="data:image/png;base64,${blogCategoryInstance.imageOne?.encodeBase64()}" width="250" height="250"/><br>${blogCategoryInstance.name}</span></g:link></p>
 														</div>
 													
 														

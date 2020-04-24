@@ -138,7 +138,7 @@
 													<section class="box">
 													<!-- <a href="http://www.mytweetmark.com" class="image image-full"><asset:image src="foodal-homepage-16.png"/></a> -->
 													<header>
-														<span style="font-size:35px;color:#000000"><f:display bean="coupon" property="name"/></span>
+														<span style="font-size:35px;color:#1d10d2"><f:display bean="coupon" property="name"/></span>
 													</header>
 													<br><br>
 													<span style="font-size:18px;color:#1d10d2;font-family: Arial, Helvetica, sans-serif;">Description: <f:display bean="coupon" property="description"/></span>

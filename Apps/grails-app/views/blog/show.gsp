@@ -150,7 +150,7 @@
 													<section class="box">
 													<!-- <a href="http://www.mytweetmark.com" class="image image-full"><asset:image src="foodal-homepage-16.png"/></a> -->
 													<header>
-														<span style="font-size:35px;color:#000000"><f:display bean="blog" property="name"/></span>
+														<span style="font-size:35px;color:#1d10d2"><f:display bean="blog" property="name"/></span>
 													</header>
 													<br><br>
 													<span style="font-size:20px;color:#1d10d2;font-family: Arial, Helvetica, sans-serif;"><f:display bean="blog" property="description"/></span>
@@ -164,19 +164,19 @@
 													<div style="border: 2px solid #e5e1e1;">
 													<img src="data:image/png;base64,${blog.imageThree?.encodeBase64()}" width="250px"/>
 													<br><br>
-													<p style="font-size:24px;color:#000000">Blog images.</p>
+													<p style="font-size:24px;color:#1d10d2">Blog images.</p>
 													<br>
 													</div>
 												</g:if>
 												<g:if test="${photos}">
 												<br><br>
 													
-													<span style="font-size:25px;color:#000000">
+													<span style="font-size:25px;color:#1d10d2">
 													Additional Photos:</span>
 													<br><br>
 													<g:each in="${photos}" status="i" var="photosInstance">
 													<div class="3u" style="float:left">
-													<g:link controller="photos" action="show" id="${photosInstance.id}"><span style="color:#000000;"><img src="data:image/png;base64,${photosInstance.imageOne?.encodeBase64()}"/><br><br>${photosInstance.name}</span></g:link>
+													<g:link controller="photos" action="show" id="${photosInstance.id}"><span style="color:#1d10d2;"><img src="data:image/png;base64,${photosInstance.imageOne?.encodeBase64()}"/><br><br>${photosInstance.name}</span></g:link>
 													<br><br>
 													</div>	
 													</g:each>

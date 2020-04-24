@@ -138,19 +138,19 @@
 													<section class="box">
 													<!-- <a href="http://www.mytweetmark.com" class="image image-full"><asset:image src="foodal-homepage-16.png"/></a> -->
 													<header>
-														<span style="font-size:35px;color:#000000"><f:display bean="photos" property="name"/></span>
+														<span style="font-size:35px;color:#1d10d2"><f:display bean="photos" property="name"/></span>
 													</header>
 													<br><br>
 													<g:if test="${photos.category}">
-													<p style="font-size:20px;color:#000000;">Category: <g:link action="show" controller="category" id="${photos.category.id}"><span style="font-size:20px;color:#000000">${photos.category.name}</span></g:link></p>
+													<p style="font-size:20px;color:#1d10d2;">Category: <g:link action="show" controller="category" id="${photos.category.id}"><span style="font-size:20px;color:#1d10d2">${photos.category.name}</span></g:link></p>
 													<br><br>
 													</g:if>
 													<g:if test="${photos.blog}">
-													<p style="font-size:20px;color:#000000;">Blog: <g:link action="show" controller="blog" id="${photos.blog.id}"><span style="font-size:20px;color:#000000">${photos.blog.name}</span></g:link></p>
+													<p style="font-size:20px;color:#1d10d2;">Blog: <g:link action="show" controller="blog" id="${photos.blog.id}"><span style="font-size:20px;color:#1d10d2">${photos.blog.name}</span></g:link></p>
 													<br><br>
 													</g:if>
 													<g:if test="${photos.products}">
-													<p style="font-size:20px;color:#000000;">Product: <g:link action="show" controller="products" id="${photos.products.id}"><span style="font-size:20px;color:#000000">${photos.products.name}</span></g:link></p>
+													<p style="font-size:20px;color:#1d10d2;">Product: <g:link action="show" controller="products" id="${photos.products.id}"><span style="font-size:20px;color:#1d10d2">${photos.products.name}</span></g:link></p>
 													<br><br>
 													</g:if>
 													

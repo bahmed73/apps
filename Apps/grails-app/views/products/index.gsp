@@ -134,11 +134,11 @@
 												<div class="6u">
 														<section class="box">
 														<header>
-														<span style="font-size:35px;color:#000000">${productsInstance.name}</span>
+														<span style="font-size:35px;color:#1d10d2">${productsInstance.name}</span>
 														</header>
 														<br><br>
 														<g:if test="${productsInstance.category}">
-														<p style="font-size:20px;color:#000000;">Category: <g:link action="show" controller="category" id="${productsInstance.category.id}"><span style="font-size:20px;color:#000000">${productsInstance.category.name}</span></g:link></p>
+														<p style="font-size:20px;color:#1d10d2;">Category: <g:link action="show" controller="category" id="${productsInstance.category.id}"><span style="font-size:20px;color:#1d10d2">${productsInstance.category.name}</span></g:link></p>
 														<br><br>
 														</g:if>
 													
@@ -146,7 +146,7 @@
 														<br><br>
 														<p style="font-size:18px;color:#ffffff">Price: ${productsInstance.price}</p>
 														<br><br>
-														<button class="button"><g:link controller="products" action="show" id="${productsInstance.id}"><span style="color:#000000">See checkout page...</span></g:link></button>
+														<button class="button"><g:link controller="products" action="show" id="${productsInstance.id}"><span style="color:#1d10d2">See checkout page...</span></g:link></button>
 														</section>
 												</div>
 												<div>

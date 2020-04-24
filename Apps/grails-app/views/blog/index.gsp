@@ -149,7 +149,7 @@
 												<div class="6u">
 														<section class="box" >
 																				<header>
-														<span style="font-size:35px;color:#000000">${blogInstance.name}</span>
+														<span style="font-size:35px;color:#1d10d2">${blogInstance.name}</span>
 														<br><br>
 														<p><span style="font-size:20px;color:#ffffff">Create Time: <g:formatDate format="MM-dd-yyyy" date="${blogInstance.createTime}"/></span></p> 
 								
@@ -159,7 +159,7 @@
 														</header>
 														<br><br>
 														
-														<button class="button"><g:link controller="blog" action="show" id="${blogInstance.id}"><span style="color:#000000">View Full Blog</span></g:link></button>
+														<button class="button"><g:link controller="blog" action="show" id="${blogInstance.id}"><span style="color:#1d10d2">View Full Blog</span></g:link></button>
 														</section>
 												</div>
 												<div class="6u">
@@ -195,7 +195,7 @@
 													<section class="box">
 													<!-- <a href="http://www.mytweetmark.com" class="image image-full"><asset:image src="foodal-homepage-16.png"/></a> -->
 													<header>
-													<g:link controller="blog" action="create"><span style="font-size:28px;color:#000000;">Please create a Blog.</span></g:link>
+													<g:link controller="blog" action="create"><span style="font-size:28px;color:#1d10d2;">Please create a Blog.</span></g:link>
 													</header>
 													</section>
 										</div>
