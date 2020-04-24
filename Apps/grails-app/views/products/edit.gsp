@@ -4,6 +4,7 @@
         <meta name="layout" content="main" />
         <g:set var="entityName" value="${message(code: 'products.label', default: 'Products')}" />
         <title><g:message code="default.edit.label" args="[entityName]" /></title>
+        <ckeditor:resources/>
     </head>
     <body>
         <a href="#edit-products" class="skip" tabindex="-1"><g:message code="default.link.skip.label" default="Skip to content&hellip;"/></a>
@@ -37,17 +38,21 @@
                 <fieldset style="margin-left:340px;">
                 	<div style="float:left;width:50" class="post"><h4>Description:</h4></div>
                 	<br>
-              				Write your product details here and use html tags for styling.<br>
+              				
               		<div>
-                  <g:textArea name="description" value="${products.description}" rows="10" cols="40"/>
+                  <ckeditor:editor name="description" height="400px" width="80%">
+					${products.description}
+					</ckeditor:editor>
               </div>	
                 </fieldset>
                 <fieldset style="margin-left:340px;">
                 	<div style="float:left;width:50" class="post"><h4>Other:</h4></div>
                 	<br>
-              				Write your other product details here and use html tags for styling.<br>
+              				
               		<div>
-                  <g:textArea name="other" value="${products.other}" rows="10" cols="40"/>
+                  <ckeditor:editor name="other" height="400px" width="80%">
+					${products.other}
+					</ckeditor:editor>
               </div>	
                 </fieldset>
                 <fieldset>

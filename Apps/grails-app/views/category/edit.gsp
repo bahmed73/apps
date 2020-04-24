@@ -4,6 +4,7 @@
         <meta name="layout" content="main" />
         <g:set var="entityName" value="${message(code: 'category.label', default: 'Category')}" />
         <title><g:message code="default.edit.label" args="[entityName]" /></title>
+        <ckeditor:resources/>
     </head>
     <body>
         <a href="#edit-category" class="skip" tabindex="-1"><g:message code="default.link.skip.label" default="Skip to content&hellip;"/></a>
@@ -34,9 +35,11 @@
                 <fieldset style="margin-left:340px;">
                 	<div style="float:left;width:50" class="post"><h4>Description:</h4></div>
                 	<br>
-              				Write your category details here and use html tags for styling.<br>
+              				
               		<div>
-                  <g:textArea name="description" value="${category.description}" rows="10" cols="40"/>
+                  <ckeditor:editor name="description" height="400px" width="80%">
+					${category.description}
+					</ckeditor:editor>
               </div>	
                 </fieldset>
                 <fieldset>

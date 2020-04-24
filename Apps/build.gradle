@@ -68,6 +68,7 @@ dependencies {
 	runtime 'postgresql:postgresql:9.0-801.jdbc4'
 	compile 'org.twitter4j:twitter4j-core:4.0.2'
 	compile 'org.grails.plugins:mongodb:6.1.2'
+	compile "org.grails.plugins:ckeditor:4.5.9.0"
 	
 }
 

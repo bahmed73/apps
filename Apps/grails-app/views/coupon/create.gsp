@@ -4,6 +4,7 @@
         <meta name="layout" content="main" />
         <g:set var="entityName" value="Event" />
         <title><g:message code="default.create.label" args="[entityName]" /></title>
+        <ckeditor:resources/>
     </head>
     <body>
         <a href="#create-coupon" class="skip" tabindex="-1"><g:message code="default.link.skip.label" default="Skip to content&hellip;"/></a>
@@ -32,9 +33,11 @@
                 <fieldset style="margin-left:340px;">
                 	<div style="float:left;width:50" class="post"><h4>Description:</h4></div>
                 	<br>
-              				Write your event description here and use html tags for styling.<br>
+              				
               		<div>
-                  <g:textArea name="description" value="" rows="10" cols="40"/>
+                  <ckeditor:editor name="description" height="400px" width="80%">
+                  Write your event description here.
+					</ckeditor:editor>
               </div>	
                 </fieldset>
                 <fieldset>

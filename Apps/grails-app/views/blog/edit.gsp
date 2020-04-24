@@ -4,6 +4,7 @@
         <meta name="layout" content="main" />
         <g:set var="entityName" value="${message(code: 'blog.label', default: 'Blog')}" />
         <title><g:message code="default.edit.label" args="[entityName]" /></title>
+        <ckeditor:resources/>
     </head>
     <body>
         <a href="#edit-blog" class="skip" tabindex="-1"><g:message code="default.link.skip.label" default="Skip to content&hellip;"/></a>
@@ -36,10 +37,11 @@
                 </fieldset>
                 <fieldset style="margin-left:340px;">
                 	<div style="float:left;width:50" class="post"><h4>Description:</h4></div>
-                	<br>
-              				Write your blog here and use html tags for styling.<br>
+                	<br>              				
               		<div>
-                  <g:textArea name="description" value="${blog.description}" rows="10" cols="40"/>
+                  <ckeditor:editor name="description" height="400px" width="80%">
+					${blog.description}
+					</ckeditor:editor>
               </div>	
                 </fieldset>
                 <fieldset style="margin-left:340px;">

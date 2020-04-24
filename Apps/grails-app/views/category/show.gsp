@@ -40,8 +40,7 @@
 		<!--[if lte IE 8]><asset:javascript src="html5shiv.js"/><asset:stylesheet src="ie8.css"/><![endif]-->
 		<style>
 		p {
-		  border: 2px solid #e5e1e1;
-		  background-color: #007FFF;
+		  background-color: #ffffff;
 		  border-width: 2px;
 		  margin: 5px;
 		  padding: 10px;
@@ -141,7 +140,7 @@
 													</header>
 													<br><br>
 													<br><br>
-													<p><span style="color:#ffffff;">Share our product category pages on Twitter or Facebook. </span></p>
+													<p><span style="color:#000000;">Share our product category pages on Twitter or Facebook. </span></p>
 													<br><br>
 													<br><br>
 													<a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -185,7 +184,7 @@
 													<br><br>
 													<g:each in="${videos}" status="i" var="videosInstance">
 													
-													<p><g:link controller="videos" action="show" id="${videosInstance.id}"><span style="color:#ffffff;">${videosInstance.name}</span></g:link></p>
+													<p><g:link controller="videos" action="show" id="${videosInstance.id}"><span style="color:#000000;">${videosInstance.name}</span></g:link></p>
 													<br>	
 													</g:each>
 													</g:if>
@@ -196,7 +195,7 @@
 											
 											<div class="12u">
 												<section class="box">
-													<p style="font-size:18px;color:#ffffff">Description: <f:display bean="category" property="description"/></p>
+													<span style="font-size:18px;color:#000000">Description: <f:display bean="category" property="description"/></span>
 													<br><br>
 													
 												</section>

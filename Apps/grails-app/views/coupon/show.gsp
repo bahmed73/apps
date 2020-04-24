@@ -35,8 +35,7 @@
 		<!--[if lte IE 8]><asset:javascript src="html5shiv.js"/><asset:stylesheet src="ie8.css"/><![endif]-->
 		<style>
 		p {
-		  border: 2px solid #e5e1e1;
-		  background-color: #007FFF;
+		  background-color: #ffffff;
 		  border-width: 2px;
 		  margin: 5px;
 		  padding: 10px;
@@ -142,7 +141,7 @@
 														<span style="font-size:35px;color:#000000"><f:display bean="coupon" property="name"/></span>
 													</header>
 													<br><br>
-													<p style="font-size:18px;color:#ffffff;font-family: Arial, Helvetica, sans-serif;">Description: <f:display bean="coupon" property="description"/></p>
+													<span style="font-size:18px;color:#1d10d2;font-family: Arial, Helvetica, sans-serif;">Description: <f:display bean="coupon" property="description"/></span>
 													<br><br>
 													
 												</section>

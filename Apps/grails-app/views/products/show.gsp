@@ -40,11 +40,10 @@
 		<!--[if lte IE 8]><asset:javascript src="html5shiv.js"/><asset:stylesheet src="ie8.css"/><![endif]-->
 		<style>
 		p {
-		  border: 2px solid #e5e1e1;
 		  border-width: 2px;
 		  margin: 5px;
 		  padding: 10px;
-		  background-color: #007FFF;
+		  background-color: #ffffff;
 		}
 		
 		.button {
@@ -175,11 +174,11 @@
 													<br><br>
 													</g:if>
 													
-													<p style="font-size:16px;color:#ffffff;">Views: ${productViews}</p>
+													<p style="font-size:16px;color:#000000;">Views: ${productViews}</p>
 													<br><br>
-													<p style="font-size:18px;color:#ffffff;">Other Relevant Info: <f:display bean="products" property="other"/></p>
+													<span style="font-size:18px;color:#000000;">Other Relevant Info: <f:display bean="products" property="other"/></span>
 													<br><br>
-													<p style="font-size:18px;color:#ffffff;">Price: <f:display bean="products" property="price"/></p>
+													<p style="font-size:18px;color:#000000;">Price: <f:display bean="products" property="price"/></p>
 													<br><br>
 														
 													<a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -194,7 +193,7 @@
 													<img src="data:image/png;base64,${products.imageThree?.encodeBase64()}"/>
 												</header>
 													<br><br>
-													<p style="font-size:14px;color:#ffffff;">Copy and paste the browser link above for your social media marketing, e.g. paste as facebook post or twitter tweet.</p>
+													<p style="font-size:14px;color:#000000;">Copy and paste the browser link above for your social media marketing, e.g. paste as facebook post or twitter tweet.</p>
 													<br>
 													<footer class="actions">
 														<a href="mailto:rob@thepromiserevealed.com" class="button fa fa-file-text">Email us today!</a>
@@ -205,7 +204,7 @@
 											</div>
 											<div class="12u">
 												<section class="box">
-												<p style="font-size:18px;color:#ffffff;font-family: Arial, Helvetica, sans-serif;">Description: <f:display bean="products" property="description"/></p>
+												<span style="font-size:18px;color:#000000;font-family: Arial, Helvetica, sans-serif;">Description: <f:display bean="products" property="description"/></span>
 													<br><br>
 												<g:if test="${photos}">
 												<br><br>
@@ -230,7 +229,7 @@
 													<br><br>
 													<g:each in="${videos}" status="i" var="videosInstance">
 													
-													<p><g:link controller="videos" action="show" id="${videosInstance.id}"><span style="color:#ffffff;">${videosInstance.name}</span></g:link></p>
+													<p><g:link controller="videos" action="show" id="${videosInstance.id}"><span style="color:#000000;">${videosInstance.name}</span></g:link></p>
 													<br>	
 													</g:each>
 													</g:if>

@@ -35,11 +35,10 @@
 		<!--[if lte IE 8]><asset:javascript src="html5shiv.js"/><asset:stylesheet src="ie8.css"/><![endif]-->
 		<style>
 		p {
-		  border: 2px solid #e5e1e1;
 		  border-width: 2px;
 		  margin: 5px;
 		  padding: 10px;
-		  background-color: #007FFF;
+		  background-color: #ffffff;
 		}
 		.button {
 		  display: inline-block;
@@ -154,7 +153,7 @@
 														<span style="font-size:35px;color:#000000"><f:display bean="blog" property="name"/></span>
 													</header>
 													<br><br>
-													<p style="font-size:20px;color:#ffffff;font-family: Arial, Helvetica, sans-serif;"><f:display bean="blog" property="description"/></p>
+													<span style="font-size:20px;color:#1d10d2;font-family: Arial, Helvetica, sans-serif;"><f:display bean="blog" property="description"/></span>
 													
 												</section>
 											</div>
