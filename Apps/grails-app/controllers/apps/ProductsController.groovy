@@ -24,6 +24,21 @@ class ProductsController {
 	static fTest = "C:\\development\\workspace\\Apps\\grails-app\\assets\\images"
 	
 	@Secured(['ROLE_ADMIN', 'ROLE_ANONYMOUS'])
+	def search() {
+		System.out.println("inside search")
+		def searchTerm = params.search
+		
+		if (searchTerm != null) {
+			System.out.println("search term = " + searchTerm)
+			
+			def productsList = Products.findAllByDescriptionIlike("%"+searchTerm+"%")
+			def blogsList = Blog.findAllByDescriptionIlike("%"+searchTerm+"%")
+			[productsList:productsList, blogsList:blogsList]
+			//respond productsList
+		}
+	}
+	
+	@Secured(['ROLE_ADMIN', 'ROLE_ANONYMOUS'])
     def index(Integer max) {
         params.max = Math.min(max ?: 10, 100)
 		
