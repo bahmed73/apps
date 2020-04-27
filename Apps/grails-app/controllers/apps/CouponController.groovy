@@ -23,13 +23,13 @@ class CouponController {
 		def user = springSecurityService.currentUser
 		def couponList
 		
-		if (user != null) {
-			couponList = Coupon.findAllByUser(user, [sort: "eventDate", order: "desc"])
+		//if (user != null) {
+		//	couponList = Coupon.findAllByUser(user, [sort: "eventDate", order: "desc"])
+		//	respond couponList
+		//} else {
+			couponList = Coupon.findAll([sort: "eventDate", order: "desc"])
 			respond couponList
-		} else {
-			couponList = Coupon.findAll()
-			respond couponList
-		}
+		//}
 		
         //respond Coupon.list(params), model:[couponCount: Coupon.count()]
     }

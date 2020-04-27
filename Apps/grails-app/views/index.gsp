@@ -213,6 +213,9 @@
 												<li><button class="button"><span style="color:#ffffff"><g:link controller="category" action="index"><span style="color:#000000">Product Categories</span></g:link></span></button></li>
 												<li><button class="button"><span style="color:#ffffff"><g:link class="list" action="index" controller="blogCategory"><span style="color:#000000">Truth References / Blogs</span></g:link></span></button></li>
 												<li><button class="button"><span style="color:#ffffff"><g:link controller="product" action="shelf"><span style="color:#000000">Members</span></g:link></span></button></li>
+												<li><button class="button"><span style="color:#000000"><g:form controller="logout">                        
+    													<span style="color:#000000"><g:submitButton name="logout" value="Logout" /></span>
+													</g:form></span></button></li>
 												
 												<br><br>
 												
