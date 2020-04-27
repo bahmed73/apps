@@ -458,7 +458,7 @@ grails.plugin.springsecurity.filterChain.chainMap = [
 ]
 
 grails.plugin.springsecurity.ui.register.postRegisterUrl = '/product/shelf'
-grails.plugin.springsecurity.ui.register.defaultRoleNames = ['INNER_CIRCLE']
+grails.plugin.springsecurity.ui.register.defaultRoleNames = ['ROLE_INNER_CIRCLE']
 grails.plugin.springsecurity.ui.register.emailFrom = 'The Promise Revealed'
 grails.plugin.springsecurity.ui.register.emailSubject = 'Welcome to the promise revealed!'
 grails.plugin.springsecurity.ui.register.emailBody = 'Login to get details on The Promise Revealed'
