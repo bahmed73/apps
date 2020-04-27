@@ -238,7 +238,6 @@
 													  
 													  	<p><span style="color:#1d10d2;font-size:20px;"><br><br>The Promise Revealed - My entire life has been filled with a calling and a longing. These longings and search for love and truth have been a blessing and a curse.I have always wanted to know who am I? Where did wecome from? What is our is our purpose here? Why is there so much suffering and discord and anxiety on our planet? Why is the world so distorted and fractured,and so caught up in wars pollution ignorance superstition and fear? <g:link action="show" controller="blog" id="1"><br><br><span style="font-size:14px;color:#1d10d2;">Read more...
 													  	</span></g:link></span></p>
-													  	<br><br>
 													  	<p><span style="color:#1d10d2;font-size:20px;"><g:link class="list" action="index" controller="category"><span style="color:#1d10d2">Product Categories</span></g:link></span></p>
 													  	<p><span style="color:#1d10d2;font-size:20px;"><g:link class="list" action="index" controller="blogCategory"><span style="color:#1d10d2">Blog Categories</span></g:link></span></p>
 													    <br><br>
@@ -270,7 +269,9 @@
 													    
 													  </div>
 													  <div id="tabs-4">
-													    <p><span style="color:#1d10d2;font-size:20px;"><br><br><g:link action="register" controller="register">Inner Circle Membership - Register now.</g:link></span></p>
+													    <p><span style="color:#1d10d2;font-size:20px;"><br><br><g:link action="shelf" controller="product"><span style="color:#1d10d2">Member Dashboard.</span></g:link></span></p>
+														<p><span style="color:#1d10d2;font-size:20px;"><g:link action="register" controller="register"><span style="color:#1d10d2">Inner Circle Membership - Register now.</span></g:link></span></p>
+														<p><span style="color:#1d10d2;font-size:20px;"><g:link action="forgotPassword" controller="register"><span style="color:#1d10d2">Forgot Password.</span></g:link></span></p>
 																
 													  </div>
 													  

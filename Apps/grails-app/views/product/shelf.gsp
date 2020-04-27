@@ -180,6 +180,21 @@
 						<div class="12u">
 								<section>
 									<div>
+										<p><span style="color:#1d10d2;font-size:20px;">Inner Circle Membership:</span>
+										<p><span style="color:#1d10d2;font-size:18px;">Benefits include Basic Product Discounts, Special Discounts on Events, Deep Discounts on New and Existing Products, Exclusive Content from Inner Circle Meetings with Dr. Frank Stranges, The Science of Kriya Yoga and the Teachings of the Masters of the Far East, Recieve Special teachings from Rob, Discounts toward personal healing and counseling sessions and Special downloads of books and rarely seen teachings of Yehoshua The Christ.</span></p>
+										<p><span style="color:#1d10d2;font-size:16px;">You will also automatically be put on the Newsletter email list and Blog updates. Be aware that all Newsletters and Blog Updates will show up in your Gmail under “Promotions” and not be readily visible in your “Inbox” The same situation exisits with Yahoo all Newsletter and Blog Updates will be sent to your “Spam” folder. The reason being is Gmail and Yahoo have filters for any emails that contain more than 50 recipients. So it is always best to periodically check these folders for updates and emails.</span></p>
+										<p><span style="color:#1d10d2;font-size:16px;">The second level of membership is called the Inner Circle and there is an annual cost associated with this membership. You will receive a host of benefits from this type of membership including a 10% discount to my Mt Shasta Summer Conferences. This discount alone can be worth up to $50. I am very excited to be able to take my service to the next level with some very powerful spiritual information specifically designed to help you prepare yourself for the imminent changes soon to be visible to the world at large.</span></p>
+										
+									</div>
+								</section>
+
+						</div>
+					</div>
+							
+							<div class="row">
+						<div class="12u">
+								<section>
+									<div>
 										<div id="tabs">
 													  <ul>
 													    <li><a href="#tabs-1">Product categories</a></li>
