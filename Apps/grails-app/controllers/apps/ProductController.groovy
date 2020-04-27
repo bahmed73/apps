@@ -589,6 +589,7 @@ class ProductController {
         respond new Product(params)
     }
 	
+	@Secured(['ROLE_ADMIN', 'INNER_CIRCLE'])
 	def shelf() {
 		/*App app = App.findByName("foodal")
 		 
