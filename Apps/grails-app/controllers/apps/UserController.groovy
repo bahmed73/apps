@@ -17,16 +17,7 @@ class UserController {
     }
 
     def show(User user) {
-		def loggedInUser = springSecurityService.currentUser
-		System.out.println("username = " + user.username)
-		
-		if (loggedInUser != user) {
-			flash.message ="Access denied."
-			redirect action:"shelf", controller: "product"
-			return
-		}
-		
-        respond user
+		respond user
     }
 
     def create() {

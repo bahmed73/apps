@@ -20,7 +20,7 @@
             <div class="message" role="status">${flash.message}</div>
             </g:if>
             <div style="margin:50px;">
-            <f:display bean="user" property="username" />
+            <f:display bean="user"/>
             </div>
              
             <g:form resource="${this.user}" method="DELETE">
