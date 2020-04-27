@@ -590,11 +590,11 @@ class ProductController {
     }
 	
 	def shelf() {
-		App app = App.findByName("foodal")
+		/*App app = App.findByName("foodal")
 		 
 		if (app != null) {
 			addView(app, request.getRemoteAddr())
-		}
+		}*/
 	}
 	
 	def analytics() {

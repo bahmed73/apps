@@ -1,12 +1,12 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<meta name="description" content="Building agile development and lean startup tools, for entrepreneurs, venture capital, startups and project manager." />
-<meta name="keywords" content="lean startup, customer development, agile development, agile sprints, agile back log, agile backlog, venture capital, startups, entrepreneur, entrepreneurship, customer feedback loop, product development, product roadmap, project management, product backlog" />
+		<meta name="description" content="Robert Potter - The Promise Revealed." />
+<meta name="keywords" content="Pyramid, Pyramid Power, Pyradyne Systems, Promise Pyramid Systems, The Promise Revealed, Cobra, Prepare for Change, Victory to the Light Radio Show, Victory to The Light, Dr. Fred Bell, Coast to Coast, Corey Goode, Michael Salla, Valiant Thor, Dr. Frank Stranges, Semjase, Pleiades, Alpha Centauri, Arcturus, Channeling, UFO, Ovni, Ascension, Ascended Masters, Saint Germain, El Morya, Kuthumi, Jesus christ, Sananda, Yehoshua, Master Hilarion, Buddha, Muslim, Mohammed,  Deep State, Corna Virus, Fema Camps, Truth, The Way Pyramids, Cintamani, Quartz, Crystals, Pyradyne Nuclear Receptor, Promise Nuclear Receptor, Andromedan Holographic Projector, Pyradyne, Andromedan Holographic Projector, Star Orb, Devastar Orb, Block 5G, Wholesale Quartz, Plasma, Ion Shower, Firestar, Irradiator, Mega Orb, Cintamani pendants, Cintamani rings, Tesla, Tesla Coil, Secret Space Program, HAARP, Venus, Venusian Contactee, Pleiadean Contactee, THe Promise, Books, The Event, Clarion, Moon Base, Search for Extra terrestrials, Violet Wand, Nikola Tesla, Tibet, lamas, Guru, Vedanta, Advaita, Krishna, Space Family, Friends of Venus, Queen of Venus, Lady Orda, Deloris Barrios, interview with Aura Rhanes, Commander Aura Rhanes,Pleiaden answers, Tachyon Crystals, Tachyon Products, Tachyonized Cintamani, Robert Potter, Rob Potter, Spirituality, Seminars, Healing, Consultations, Discounts, Best Price, Sleeping Pyramid, Omnion, Laser watch, Promise Light watch, Blood purification, Lasers, Lasers, Red lasers, Green Lasers, Laser Systems, Laser Stands, Blue Lasers, Alfred Lambremont Webber, BBS radio, Goldfish Report, Q anon, inner circle, Ufo images, earths history" />
 <meta http-equiv="window-target" content="_top" />
 <META HTTP-EQUIV="CACHE-CONTROL" CONTENT="PUBLIC">
 	<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
-	<title>Shop - Building agile development and lean startup tools, for entrepreneurs, venture capital, startups and project manager.</title>
+	<title>Robert Potter - The Promise Revealed.</title>
 	<asset:stylesheet src="skel-noscript.css"/>
 	<asset:stylesheet src="style.css"/>
 	<asset:stylesheet src="style-desktop.css"/>
@@ -43,12 +43,12 @@
 		    height: 550px;
 		  }
 		  p {
-		  border: 2px solid #e5e1e1;
-		  background-color: #5f6469;
-		  color: #fdeba9;
+		  border: 1px #16e01b;
 		  border-width: 2px;
 		  margin: 5px;
 		  padding: 10px;
+		  background-color: #ffffff;
+		  color: #fdeba9;
 		}
 		.button {
 		  display: inline-block;
@@ -58,40 +58,17 @@
 		  text-align: center;
 		  text-decoration: none;
 		  outline: none;
-		  color: #fff;
-		  background-color: #000000;
+		  color: #fdeba9;
+		  background-color: #16e01b;
 		  border: none;
 		  border-radius: 15px;
-		  box-shadow: 0 9px #999;
+		  box-shadow: 0 9px #007FFF;
 		}
 
-		.button:hover {background-color: #a3a6a3}
+		.button:hover {background-color: #ffffff}
 		
 		.button:active {
-		  background-color: #3e8e41;
-		  box-shadow: 0 5px #666;
-		  transform: translateY(4px);
-		}
-		
-		.button2 {
-		  display: inline-block;
-		  padding: 15px 25px;
-		  font-size: 20px;
-		  cursor: pointer;
-		  text-align: center;
-		  text-decoration: none;
-		  outline: none;
-		  color: #fff;
-		  background-color: #c1c3cb;
-		  border: none;
-		  border-radius: 15px;
-		  box-shadow: 0 9px #999;
-		}
-
-		.button:hover {background-color: #a3a6a3}
-		
-		.button:active {
-		  background-color: #3e8e41;
+		  background-color: #1d10d2;
 		  box-shadow: 0 5px #666;
 		  transform: translateY(4px);
 		}
@@ -165,12 +142,12 @@
 				<div class="container">
 					
 					<div class="row">
-						<div id="block3" class="12u">
+						<div class="12u">
 
 							<!-- Banner -->
 								<section id="banner">
 									
-										<span class="image image-full"><asset:image src="you.png"/></span>
+										<g:link class="list" action="index" controller="category"><span class="image image-full"><asset:image src="homepage-1.png"/></span></g:link>
 										<header>
 										<!-- 
 											<h2>Shop</h2> 
@@ -187,10 +164,11 @@
 								<!-- Nav -->
 										<nav id="nav">
 											<ul>
-												<li><button class="button"><g:link url="/">Home</g:link></button></li>
-												<li><button class="button"><g:form controller="logout">                        
+												<li><button class="button"><span style="color:#ffffff"><g:link url="/">Home</g:link></span></button></li>
+												<li><button class="button"><span style="color:#ffffff"><g:link controller="user" action="index"><span style="color:#ffffff">Users</span></g:link></span></button></li>
+												<li><button class="button"><span style="color:#ffffff"><g:form controller="logout">                        
     													<g:submitButton name="logout" value="Logout" />
-													</g:form></button></li>
+													</g:form></span></button></li>
 												
 												<!--<li><g:link controller="product" action="analytics">Analytics</g:link></li>
 												<li><g:link controller="product" action="sales">Sales</g:link></li>
@@ -202,67 +180,28 @@
 						<div class="12u">
 								<section>
 									<div>
-										<div id="tabs"  style="background-color:#fdeba9">
+										<div id="tabs">
 													  <ul>
-													    <li><a href="#tabs-1">Agile Development</a></li>
-													    <li><a href="#tabs-2">Lean Startup</a></li>
-													    <li><a href="#tabs-3">Customer Development</a></li>
-													    <li><a href="#tabs-4">Venture Capital</a></li>
-													    <li><a href="#tabs-5">Training</a></li>
+													    <li><a href="#tabs-1">Product categories</a></li>
+													    <li><a href="#tabs-2">Products</a></li>
+													    <li><a href="#tabs-3">Photos</a></li>
+													    <li><a href="#tabs-4">Videos</a></li>
+													    <li><a href="#tabs-5">Blog Categories</a></li>
 													  </ul>
 													  <div id="tabs-1">
-													  	<p><g:link class="list" action="index" controller="projects"><span style="color:#fdeba9;font-size:20px">Projects - Start creating agile development projects.</span></g:link></p>
-													    <p><g:link class="list" action="index" controller="tasks"><span style="color:#fdeba9;font-size:20px">Tasks - Create tasks, to manage the project.</span></g:link></p>
-													    <p><g:link class="list" action="index" controller="notes"><span style="color:#fdeba9;font-size:20px">Notes - Write notes for your team, on the tasks.</span></g:link></p>
-													    <p><g:link class="list" action="index" controller="sprint"><span style="color:#fdeba9;font-size:20px">Sprint Planning - Start creating sprints, a groups of tasks.</span></g:link></p>
-													    <p><g:link class="list" action="index" controller="meeting"><span style="color:#fdeba9;font-size:20px">Meetings - Setup sprint planning meetings and retrospectives.</span></g:link></p>
-													    <p><g:link class="list" action="index" controller="backlog"><span style="color:#fdeba9;font-size:20px">Agile Backlog - Setup a backlog of future ideas and tasks.</span></g:link></p>
+													  	<p><g:link class="list" action="index" controller="Category"><span style="color:#1d10d2;font-size:20px;">Product Categories.</span></g:link></p>
 													  </div>
 													  <div id="tabs-2">
-													    <p><g:link class="list" action="index" controller="customerDevelopment"><span style="color:#fdeba9;font-size:20px">Customer Development - Build feedback flows.</span></g:link></p>
-														<p><g:link class="list" action="index" controller="customer"><span style="color:#fdeba9;font-size:20px">Customers - Pivot on customers with the team.</span></g:link></p>
-														<p><g:link class="list" action="index" controller="customerFeedback"><span style="color:#fdeba9;font-size:20px">Customers Feedback Survey - Talk to a customer.</span></g:link></p>
-															
-														<p><span style="color:#8a7e7e;font-size:20px;"><g:link action="show" controller="blog" id="641"><span style="color:#fdeba9;">- Introduction to startup school.</span></g:link></span></p>
-														<p><span style="color:#8a7e7e;font-size:20px;"><g:link action="show" controller="blog" id="642"><span style="color:#fdeba9;">- Incubator meetings.</span></g:link></span></p>
-														<p><span style="color:#8a7e7e;font-size:20px;"><g:link action="show" controller="blog" id="643"><span style="color:#fdeba9;">- Incubator - Brand expert feedback.</span></g:link></span></p>
-														<p><span style="color:#8a7e7e;font-size:20px;"><g:link action="show" controller="blog" id="644"><span style="color:#fdeba9;">- Incubator homework - Name focus group.</span></g:link></span></p>
-														<p><span style="color:#8a7e7e;font-size:20px;"><g:link action="show" controller="blog" id="645"><span style="color:#fdeba9;">- Incubator homework - Paying customer feedback.</span></g:link></span></p>
+													    <p><g:link class="list" action="index" controller="Products"><span style="color:#1d10d2;font-size:20px;">Products.</span></g:link></p>
 													  </div>
 													  <div id="tabs-3">
-													    <p><span style="color:#8a7e7e;font-size:20px;"><g:link action="show" controller="blog" id="801"><span style="color:#fdeba9;">- The Go to Market Approach Startups Need to Adopt </span></g:link></span></p>
-														<p><span style="color:#8a7e7e;font-size:20px;"><g:link action="show" controller="blog" id="802"><span style="color:#fdeba9;">- Go to Market Best Practices for Startups: A Teaser </span></g:link></span></p>
-														<p><span style="color:#8a7e7e;font-size:20px;"><g:link action="show" controller="blog" id="803"><span style="color:#fdeba9;">- Using Product Market Fit to Drive Sustainable Growth </span></g:link></span></p>
-														<p><span style="color:#8a7e7e;font-size:20px;"><g:link action="show" controller="blog" id="804"><span style="color:#fdeba9;">- Understand Customer Acquisition in SaaS </span></g:link></span></p>
-														<p><span style="color:#8a7e7e;font-size:20px;"><g:link action="show" controller="blog" id="805"><span style="color:#fdeba9;">- How The Lean Startup Team Practices Customer Development </span></g:link></span></p>
-														<p><span style="color:#8a7e7e;font-size:20px;"><g:link action="show" controller="blog" id="833"><span style="color:#fdeba9;">- Teaching Customer Development and the Lean Startup </span></g:link></span></p>
-														<p><span style="color:#8a7e7e;font-size:20px;"><g:link action="show" controller="blog" id="834"><span style="color:#fdeba9;">- Startup Lessons Learned - What is Customer Development? </span></g:link></span></p>
-														<p><span style="color:#8a7e7e;font-size:20px;"><g:link action="show" controller="blog" id="835"><span style="color:#fdeba9;">- Why the Lean Start-Up Changes Everything </span></g:link></span></p>
-														
+													    <p><g:link class="list" action="index" controller="Photos"><span style="color:#1d10d2;font-size:20px;">Photos.</span></g:link></p>
 													  </div>
 													  <div id="tabs-4">
-													    <p><span style="color:#8a7e7e;font-size:20px;"><g:link action="show" controller="blog" id="706"><span style="color:#fdeba9;">- Startup Problem</span></g:link></span></p>
-														<p><span style="color:#8a7e7e;font-size:20px;"><g:link action="show" controller="blog" id="707"><span style="color:#fdeba9;">- Who has the problem?</span></g:link></span></p>
-														<p><span style="color:#8a7e7e;font-size:20px;"><g:link action="show" controller="blog" id="708"><span style="color:#fdeba9;">- Is that an important problem?</span></g:link></span></p>
-														<p><span style="color:#8a7e7e;font-size:20px;"><g:link action="show" controller="blog" id="709"><span style="color:#fdeba9;">- Your Solution?</span></g:link></span></p>
-														<p><span style="color:#8a7e7e;font-size:20px;"><g:link action="show" controller="blog" id="710"><span style="color:#fdeba9;">- Opportunity?</span></g:link></span></p>
-														<p><span style="color:#8a7e7e;font-size:20px;"><g:link action="show" controller="blog" id="711"><span style="color:#fdeba9;">- Competition?</span></g:link></span></p>
-														<p><span style="color:#8a7e7e;font-size:20px;"><g:link action="show" controller="blog" id="712"><span style="color:#fdeba9;">- Why agile development and lean startup on shop?</span></g:link></span></p>
-														<p><span style="color:#8a7e7e;font-size:20px;"><g:link action="show" controller="blog" id="713"><span style="color:#fdeba9;">- Company Needs?</span></g:link></span></p>
-														<p><span style="color:#8a7e7e;font-size:20px;"><g:link action="show" controller="blog" id="714"><span style="color:#fdeba9;">- What excites you?</span></g:link></span></p>
-														<p><span style="color:#8a7e7e;font-size:20px;"><g:link action="show" controller="blog" id="715"><span style="color:#fdeba9;">- One line pitch</span></g:link></span></p>
-														<p><span style="color:#8a7e7e;font-size:20px;"><g:link action="show" controller="blog" id="716"><span style="color:#fdeba9;">- Team</span></g:link></span></p>
-																
+													    <p><g:link class="list" action="index" controller="Videos"><span style="color:#1d10d2;font-size:20px;">Videos.</span></g:link></p>		
 													  </div>
 													  <div id="tabs-5">
-													    <p><g:link class="list" action="index" controller="documentation"><span style="color:#fdeba9;font-size:20px">Product Docs - Business documentation.</span></g:link></p>
-														<p><g:link class="list" action="index" controller="blog"><span style="color:#fdeba9;font-size:20px">Blogs - Agile development and lean startup.</span></g:link></p>
-														<p><span style="color:#8a7e7e;font-size:20px;"><g:link action="show" controller="blog" id="33"><span style="color:#fdeba9;">- What is sizing in agile development?</span></g:link></span></p>
-														<p><span style="color:#8a7e7e;font-size:20px;"><g:link action="show" controller="blog" id="353"><span style="color:#fdeba9;">- What is an incremental hiring pattern in startups?</span></g:link></span></p>
-														<p><span style="color:#8a7e7e;font-size:20px;"><g:link action="show" controller="blog" id="385"><span style="color:#fdeba9;">- How should a hiring manager conduct a technical interview?</span></g:link></span></p>
-														<p><span style="color:#8a7e7e;font-size:20px;"><g:link action="show" controller="blog" id="386"><span style="color:#fdeba9;">- What is a full stack project manager?</span></g:link></span></p>
-														<p><span style="color:#8a7e7e;font-size:20px;"><g:link action="show" controller="blog" id="646"><span style="color:#fdeba9;">- Startup pivot.</span></g:link></span></p>
-														
+													    <p><g:link class="list" action="index" controller="BlogCategory"><span style="color:#1d10d2;font-size:20px;">Blog Categories.</span></g:link></p>
 													  </div>
 													</div>												
 										
@@ -392,14 +331,14 @@
 							
 							</div>
 						</div-->
-						<a href="/"><asset:image src="logoshop5.png" width="150px" height="150px"/></a>
+						<a href="/"><asset:image src="logo-150.jpg" width="150px" height="150px"/></a>
 						<br><br>
 						
 						<div class="row">
 							<div class="4u">
 								<section>
 									<header>
-										<h2>Connect with us</h2>
+										<h2><g:link action="show" controller="blog" id="35">Contact</g:link></h2>
 									</header>
 									<!--  <ul class="social">-->
 										<!--  <li><a class="fa fa-facebook solo" href="https://www.facebook.com/foodalCo/"><span>Facebook</span></a></li>
@@ -409,21 +348,21 @@
 									<!--  </ul>-->
 									<ul class="divided">
 										<li>
-											<h3>Oakland, California</h3>
-											
+										<asset:image src="email.jpg"/>
+										<br><br>
+										
+											<h3><a href="rob@thepromiserevealed.com">rob@thepromiserevealed.com</a></h3>
 										</li>
 										<li>
-											<h3><a href="bilal@mytweetmark.com">bilal@mytweetmark.com</a></h3>
-										</li>
-										<!--li>
-											<h3>Phone</h3>
-											<p>(800) 000-0000</p>
-										</li-->
+										<asset:image src="youtube.jpg"/>
+										<br><br>
+										<a href="https://www.youtube.com/channel/UCdi75MbXf2IxDpncWkCehyg"><h3>On YouTube</h3></a></li>
 									</ul>
 								</section>
 								
 
 							</div>
+							
 							<div class="4u">
 
 								<section>
@@ -431,20 +370,42 @@
 										<h2>More about us</h2>
 									</header>
 									<ul class="divided">
-										<li><a href="https://facebook.com/dotshopper/"><h3>On Facebook</h3></a></li>
-										<li><a href="http://bilalahmed.org"><h3>Our Website</h3></a></li>
+										<li>
+										<asset:image src="phone.jpg"/>
+										<br><br>
+										
+										<h3>(530) 918-8236</h3></li>
+										<li>
+										<asset:image src="facebook.jpg"/>
+										<br><br>
+										<a href="https://www.facebook.com/PromiseRevealed/"><h3>Robert Potter Facebook</h3></a>
+										<br>
+										<asset:image src="facebook.jpg"/>
+										<br><br>
+										<a href="https://www.facebook.com/Mt-Shasta-Summer-Conference-428207090637794/"><h3>Mount Shasta Summer Conference</h3></a>
+										</li>
+										
 									</ul>
 								</section>
 				
 							</div>
+							 
 							<div class="4u">
 							<section>
 									<header>
 										<h2>And more...</h2>
 									</header>
 									<ul class="divided">
-										<li><a href="https://www.youtube.com/user/bahmed73"><h3>On YouTube</h3></a></li>
-										<li><a href="https://twitter.com/taoteshop"><h3>On Twitter</h3></a></li>
+										<li>
+										<asset:image src="instagram.jpg"/>
+										<br><br>
+										
+										<a href="https://www.instagram.com/thepromiserevealed/"><h3>Promise Revealed Instagram</h3></a></li>
+										<li>
+										<asset:image src="twitter.jpg"/>
+										<br><br>
+										<a href="https://twitter.com/ROBERTP35959598"><h3>Promise Revealed Twitter</h3></a></li>
+										
 										<!--li><a href="#">Sem feugiat sapien id suscipit magna felis nec</a></li>
 										<li><a href="#">Elit class aptent taciti sociosqu ad litora</a></li-->
 									</ul>
@@ -459,7 +420,7 @@
 								<!-- Copyright -->
 									<div id="copyright">
 										<ul class="links">
-											<li>&copy; 2020 Shop 	</li>
+											<li>&copy; 2020 thepromiserevealed.com 	</li>
 											<!--li>Images: <a href="http://facebook.com/homecookme">Homecookme</a></li>
 											<li>Design: <a href="http://dalliusdesign.com">Dallius</a></li-->
 										</ul>

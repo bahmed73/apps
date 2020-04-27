@@ -212,6 +212,7 @@
 											<ul>
 												<li><button class="button"><span style="color:#ffffff"><g:link controller="category" action="index"><span style="color:#000000">Product Categories</span></g:link></span></button></li>
 												<li><button class="button"><span style="color:#ffffff"><g:link class="list" action="index" controller="blogCategory"><span style="color:#000000">Truth References / Blogs</span></g:link></span></button></li>
+												<li><button class="button"><span style="color:#ffffff"><g:link controller="product" action="shelf"><span style="color:#000000">Members</span></g:link></span></button></li>
 												
 												<br><br>
 												
@@ -230,7 +231,7 @@
 													    <li><a href="#tabs-1">Home</a></li>
 													    <li><a href="#tabs-2">Events</a></li>
 													    <li><a href="#tabs-3">Search</a></li>
-													    <li><a href="#tabs-4">Mission Statement</a></li>
+													    <li><a href="#tabs-4">Membership</a></li>
 													    
 													  </ul>
 													  <div id="tabs-1">
@@ -269,7 +270,7 @@
 													    
 													  </div>
 													  <div id="tabs-4">
-													    <p><span style="color:#1d10d2;font-size:20px;"><br><br>Victory to the Light - This website is intended to act as a Portal of Light and Truth to be shared freely with the entire universe. This site is currently brand new and is under construction. I will be adding to this site continually and sharing information in regards to all the subjects in the links at the top of this page. I will continue to travel the world to Sacred Sites and to share the truth of the space family and the healing technologies. I will instill the truth of The Promise and good news through the coming changes on these pages. I will sincerely proclaim the positive message of hope, love and prosperity for all. I will do this to share light from our benevolent space family who will soon be free to walk openly upon our world.<g:link action="show" controller="blog" id="34"><br><br><span style="font-size:14px;color:#1d10d2;">Read more...</span></g:link></span></p>
+													    <p><span style="color:#1d10d2;font-size:20px;"><br><br><g:link action="register" controller="register">Inner Circle Membership - Register now.</g:link></span></p>
 																
 													  </div>
 													  

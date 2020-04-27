@@ -11,6 +11,9 @@
             <ul>
                 <li><a class="home" href="${createLink(uri: '/')}"><g:message code="default.home.label"/></a></li>
                 <li><g:link class="create" action="create"><g:message code="default.new.label" args="[entityName]" /></g:link></li>
+                <li><g:link controller="role" action="index"><span style="color:#000000">Roles</span></g:link></li>
+				<li><g:link controller="userRole" action="index"><span style="color:#000000">User Roles</span></g:link></li>
+																				
             </ul>
         </div>
         <div id="list-user" class="content scaffold-list" role="main">
