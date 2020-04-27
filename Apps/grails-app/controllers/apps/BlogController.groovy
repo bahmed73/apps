@@ -18,6 +18,7 @@ class BlogController {
 	
 	@Secured(['ROLE_ADMIN', 'ROLE_ANONYMOUS'])
     def index(Integer max) {
+		/*
 		params.max = Math.min(max ?: 50, 100)
 		 
 		def user = springSecurityService.currentUser
@@ -25,10 +26,10 @@ class BlogController {
 		if (user != null) {
 			def blogList = Blog.findAllByUser(user)
 			respond blogList
-		} else {
+		} else {*/
 			def blogList = Blog.findAll()
 			respond blogList
-		}
+		//}
 		/*params.max = Math.min(max ?: 10, 100)
         respond Blog.list(params), model:[blogCount: Blog.count()]*/
     }

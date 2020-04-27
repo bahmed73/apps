@@ -17,7 +17,7 @@ class CategoryController {
 
 	@Secured(['ROLE_ADMIN', 'ROLE_ANONYMOUS'])
     def index(Integer max) {
-        params.max = Math.min(max ?: 50, 100)
+        params.max = Math.min(max ?: 100, 100)
         respond Category.list(params), model:[categoryCount: Category.count()]
     }
 

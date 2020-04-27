@@ -17,7 +17,7 @@ class BlogCategoryController {
 	
 	@Secured(['ROLE_ADMIN', 'ROLE_ANONYMOUS'])
     def index(Integer max) {
-        params.max = Math.min(max ?: 50, 100)
+        params.max = Math.min(max ?: 100, 100)
         respond BlogCategory.list(params), model:[blogCategoryCount: BlogCategory.count()]
     }
 

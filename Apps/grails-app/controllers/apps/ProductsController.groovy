@@ -40,19 +40,19 @@ class ProductsController {
 	
 	@Secured(['ROLE_ADMIN', 'ROLE_ANONYMOUS'])
     def index(Integer max) {
-        params.max = Math.min(max ?: 10, 100)
+        params.max = Math.min(max ?: 500, 500)
 		
-		def user = springSecurityService.currentUser
+		/*def user = springSecurityService.currentUser
 		
 		if (user != null) {
 			System.out.println("username = " + user.username)
 		
 			def productsList = Products.findAllByUser(user)
 			respond productsList
-		} else {
+		} else {*/
 			def productsList = Products.findAll()
 			respond productsList
-		}
+		//}
     }
 	
 	def twitterUserData() {

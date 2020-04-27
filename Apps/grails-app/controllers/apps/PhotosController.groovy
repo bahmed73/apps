@@ -18,8 +18,10 @@ class PhotosController {
 	
 	@Secured(['ROLE_ADMIN', 'ROLE_ANONYMOUS'])
     def index(Integer max) {
-        params.max = Math.min(max ?: 100, 200)
 		
+        params.max = Math.min(max ?: 500, 500)
+		
+		/*
 		def user = springSecurityService.currentUser
 		
 		if (user != null) {
@@ -29,7 +31,7 @@ class PhotosController {
 			def photoList = Photos.findAll()
 			respond photoList
 		}
-		
+		*/
         respond Photos.list(params), model:[photosCount: Photos.count()]
     }
 

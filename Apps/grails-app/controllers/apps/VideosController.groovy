@@ -18,8 +18,9 @@ class VideosController {
 
 	@Secured(['ROLE_ADMIN', 'ROLE_ANONYMOUS'])
     def index(Integer max) {
-        params.max = Math.min(max ?: 100, 200)
+        params.max = Math.min(max ?: 500, 500)
 		
+		/*
 		def user = springSecurityService.currentUser
 		
 		if (user != null) {
@@ -29,7 +30,7 @@ class VideosController {
 			def videoList = Videos.findAll()
 			respond videoList
 		}
-		
+		*/
         respond Videos.list(params), model:[videosCount: Videos.count()]
     }
 
