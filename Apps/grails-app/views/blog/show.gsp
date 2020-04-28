@@ -163,8 +163,6 @@
 												<g:if test="${blog.imageThree}">
 													<div style="border: 2px solid #e5e1e1;">
 													<img src="data:image/png;base64,${blog.imageThree?.encodeBase64()}" width="250px"/>
-													<br><br>
-													<p style="font-size:24px;color:#1d10d2">Blog images.</p>
 													<br>
 													</div>
 												</g:if>
@@ -175,7 +173,7 @@
 													Additional Photos:</span>
 													<br><br>
 													<g:each in="${photos}" status="i" var="photosInstance">
-													<div class="3u" style="float:left">
+													<div class="3u" style="float:left;margin:10px;">
 													<g:link controller="photos" action="show" id="${photosInstance.id}"><span style="color:#1d10d2;"><img src="data:image/png;base64,${photosInstance.imageOne?.encodeBase64()}"/><br><br>${photosInstance.name}</span></g:link>
 													<br><br>
 													</div>	
