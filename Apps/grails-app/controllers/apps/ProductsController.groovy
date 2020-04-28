@@ -195,16 +195,7 @@ class ProductsController {
 
     def edit(Products products) {
 		
-		def user = springSecurityService.currentUser
-		log.info "username = " + user.username
-		
-		if (products.user == user) {
-			respond products
-		} else {
-		flash.message ="Access denied."
-			redirect action:"index", method:"GET"
-			return
-		}
+		respond products
     }
 
     @Transactional

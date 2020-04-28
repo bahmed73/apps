@@ -126,16 +126,7 @@ class BlogController {
     }
 
     def edit(Blog blog) {
-		def user = springSecurityService.currentUser
-		log.info "inside edit blog: username = " + user.username
-		
-		if (blog.user == user) {
-			respond blog
-		} else {
-			flash.message ="Access denied."
-			redirect action:"index", method:"GET"
-			return
-		}
+		respond blog
     }
 
     @Transactional
