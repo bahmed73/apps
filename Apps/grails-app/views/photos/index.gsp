@@ -39,7 +39,7 @@
 		<style>
 		p {
 		  border: 2px solid #e5e1e1;
-		  background-color: #007FFF;
+		  background-color: #ffffff;
 		  border-width: 2px;
 		  margin: 5px;
 		  padding: 10px;
@@ -143,12 +143,130 @@
 											</ul>
 										</nav>
 							<!-- Intro -->
+							<div class="row">
+							<div class="12u">
+							<g:if test="${categoryExpando}">
+							<span style="font-size:25px;color:#1d10d2">
+													Photos By Category:</span>
+													<br><br>
+							<g:each in="${categoryExpando}" status="i" var="expandoInstance">
+							<g:set var="category" value="${expandoInstance.category}" />
+							<g:set var="photos" value="${expandoInstance.photos}" />	
+									
+												<section>
+										
+											
+												<div class="row">
+														<div>
+														<p><g:link controller="category" action="show" id="${category.id}"><span style="color:#1d10d2;font-size:20px;"><img src="data:image/png;base64,${category.imageOne?.encodeBase64()}" width="250" height="250"/><br>${category.name}</span></g:link></p>
+														</div>
+														<br><br>
+														<g:if test="${photos}">
+														<g:each in="${photos}" status="j" var="photosInstance">
+														<div class="1u" style="float:left">
+														<g:link controller="photos" action="show" id="${photosInstance.id}"><img src="data:image/png;base64,${photosInstance.imageOne?.encodeBase64()}"/></g:link>
+														
+														<br><br>
+														</div>
+														</g:each>
+														</g:if>
+														<br><br>
+												</div>
+											
+									</section>
+									<br><br>
+								
+							</g:each>
+							</g:if>
+							</div>
+							</div>
+							<br><br>
+							<div class="row">
+							<div class="12u">
+							<g:if test="${productsExpando}">
+							<span style="font-size:25px;color:#1d10d2">
+													Photos By Product:</span>
+													<br><br>
+							<g:each in="${productsExpando}" status="i" var="expandoInstance">
+							<g:set var="products" value="${expandoInstance.products}" />
+							<g:set var="photos" value="${expandoInstance.photos}" />	
+									
+												<section>
+										
+											
+												<div class="row">
+														<div>
+														<p><g:link controller="products" action="show" id="${products.id}"><span style="color:#1d10d2;font-size:20px;"><img src="data:image/png;base64,${products.imageOne?.encodeBase64()}" width="250" height="250"/><br>${products.name}</span></g:link></p>
+														</div>
+														<br><br>
+														<g:if test="${photos}">
+														<g:each in="${photos}" status="j" var="photosInstance">
+														<div class="1u" style="float:left">
+														<g:link controller="photos" action="show" id="${photosInstance.id}"><img src="data:image/png;base64,${photosInstance.imageOne?.encodeBase64()}"/></g:link>
+														
+														<br><br>
+														</div>
+														</g:each>
+														</g:if>
+														<br><br>
+												</div>
+											
+									</section>
+									<br><br>
+								
+							</g:each>
+							</g:if>
+							</div>
+							</div>
+							<br><br>
+							
+							<div class="row">
+							<div class="12u">
+							<g:if test="${blogExpando}">
+							<span style="font-size:25px;color:#1d10d2">
+													Photos By Blog:</span>
+													<br><br>
+							<g:each in="${blogExpando}" status="i" var="expandoInstance">
+							<g:set var="blog" value="${expandoInstance.blog}" />
+							<g:set var="photos" value="${expandoInstance.photos}" />	
+									
+												<section>
+										
+											
+												<div class="row">
+														<div>
+														<p><g:link controller="blog" action="show" id="${blog.id}"><span style="color:#1d10d2;font-size:20px;"><img src="data:image/png;base64,${blog.imageOne?.encodeBase64()}" width="250" height="250"/><br>${blog.name}</span></g:link></p>
+														</div>
+														<br><br>
+														<g:if test="${photos}">
+														<g:each in="${photos}" status="j" var="photosInstance">
+														<div class="1u" style="float:left">
+														<g:link controller="photos" action="show" id="${photosInstance.id}"><img src="data:image/png;base64,${photosInstance.imageOne?.encodeBase64()}"/></g:link>
+														<br><br>
+														</div>
+														</g:each>
+														</g:if>
+														<br><br>
+												</div>
+											
+									</section>
+									<br><br>
+								
+							</g:each>
+							</g:if>
+							</div>
+							</div>
+							<br><br>
 							
 							<div class="12u">
+							<br><br>
 							<g:if test="${photosList}">
+							<span style="font-size:25px;color:#1d10d2">
+													All Photos:</span>
+													<br><br>
 							<g:each in="${photosList}" status="i" var="photosInstance">
 								
-									
+									<section>
 												<div class="3u" style="float:left;height:400px;">
 														<img src="data:image/png;base64,${photosInstance.imageOne?.encodeBase64()}"/>
 														<br><br>
@@ -169,32 +287,13 @@
 														<button class="button"><g:link controller="photos" action="show" id="${photosInstance.id}"><span style="color:#1d10d2;">View bigger photo...</span></g:link></button>
 														<br><br>
 												</div>
-												
+									</section>			
 									
 								
 								
 							</g:each>
 							</g:if>
-							<g:else>
-							<div class="row">
-								<div class="12u">
-									<section>
-									<div>
-										<div class="row">
-										
-										<div class="6u">
-													<section class="box">
-													<!-- <a href="http://www.mytweetmark.com" class="image image-full"><asset:image src="foodal-homepage-16.png"/></a> -->
-													<header>
-													<g:link controller="photos" action="create"><span style="font-size:28px;color:#8a7e7e;">Please create a photo.</span></g:link>
-													</header>
-													</section>
-										</div>
-									</div>
-									</section>
-								</div>
-							</div>
-							</g:else>
+							
 							</div>
 				        	</div>
 				        	</div>				

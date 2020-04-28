@@ -174,9 +174,7 @@
 													<br><br>
 													</g:if>
 													
-													<p style="font-size:16px;color:#1d10d2;">Views: ${productViews}</p>
-													<br><br>
-													<span style="font-size:18px;color:#1d10d2;">Other Relevant Info: <f:display bean="products" property="other"/></span>
+													<span style="font-size:18px;color:#1d10d2;"><f:display bean="products" property="other"/></span>
 													<br><br>
 													<p style="font-size:18px;color:#1d10d2;">Price: <f:display bean="products" property="price"/></p>
 													<br><br>
@@ -193,18 +191,13 @@
 													<img src="data:image/png;base64,${products.imageThree?.encodeBase64()}"/>
 												</header>
 													<br><br>
-													<p style="font-size:14px;color:#1d10d2;">Copy and paste the browser link above for your social media marketing, e.g. paste as facebook post or twitter tweet.</p>
-													<br>
-													<footer class="actions">
-														<a href="mailto:rob@thepromiserevealed.com" class="button fa fa-file-text">Email us today!</a>
-														<br><br>
-													</footer>	
+														
 													
 												</section>
 											</div>
 											<div class="12u">
 												<section class="box">
-												<span style="font-size:18px;color:#1d10d2;font-family: Arial, Helvetica, sans-serif;">Description: <f:display bean="products" property="description"/></span>
+												<span style="font-size:18px;color:#1d10d2;font-family: Arial, Helvetica, sans-serif;"><f:display bean="products" property="description"/></span>
 													<br><br>
 												<g:if test="${photos}">
 												<br><br>

@@ -19,7 +19,7 @@ class PhotosController {
 	@Secured(['ROLE_ADMIN', 'ROLE_ANONYMOUS'])
     def index(Integer max) {
 		
-        params.max = Math.min(max ?: 500, 500)
+        //params.max = Math.min(max ?: 500, 500)
 		
 		/*
 		def user = springSecurityService.currentUser
@@ -32,7 +32,48 @@ class PhotosController {
 			respond photoList
 		}
 		*/
-        respond Photos.list(params), model:[photosCount: Photos.count()]
+		
+		def photosList = Photos.findAll()
+        
+		def categoryList = Category.findAll()
+		def categoryExpando = new ArrayList()
+		
+		for (int i=0; i<categoryList.size();i++) {
+			def photos = Photos.findAllByCategory(categoryList.getAt(i), [sort: "photoOrder", order: "desc"])
+			
+			def expando = new Expando()
+			expando.category = categoryList.getAt(i)
+			expando.photos = photos
+			categoryExpando.add(expando)
+		}
+		
+		def productsList = Products.findAll()
+		def productsExpando = new ArrayList()
+		
+		for (int i=0; i<productsList.size();i++) {
+			def photos = Photos.findAllByProducts(productsList.getAt(i), [sort: "photoOrder", order: "desc"])
+			
+			def expando = new Expando()
+			expando.products = productsList.getAt(i)
+			expando.photos = photos
+			productsExpando.add(expando)
+		}
+		
+		def blogList = Blog.findAll()
+		def blogExpando = new ArrayList()
+		
+		for (int i=0; i<blogList.size();i++) {
+			def photos = Photos.findAllByBlog(blogList.getAt(i), [sort: "photoOrder", order: "desc"])
+			
+			def expando = new Expando()
+			expando.blog = blogList.getAt(i)
+			expando.photos = photos
+			blogExpando.add(expando)
+		}
+		
+		[photosList:photosList, categoryExpando: categoryExpando, productsExpando: productsExpando, blogExpando: blogExpando]
+		//respond Photos.list(params), model:[photosCount: Photos.count()]
+		
     }
 
 	@Secured(['ROLE_ADMIN', 'ROLE_ANONYMOUS'])
