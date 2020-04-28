@@ -126,6 +126,7 @@
 												<li><button class="button"><g:link url="/"><span style="color:#000000">Home</span></g:link></button></li>
 												<li><button class="button"><g:link controller="blog" action="edit" id="${blog.id}"><span style="color:#000000">Edit Blog</span></g:link></button></li>
 												<li><button class="button"><g:link controller="blog" action="index"><span style="color:#000000">Show Blogs</span></g:link></button></li>
+												<li><button class="button"><g:link controller="photos" action="index"><span style="color:#000000">Photos</span></g:link></button></li>
 												<li><button class="button"><div class="fb-share-button" data-href="${createLink(action: 'show', controller: 'blog', id: blog.id)}" data-layout="button" data-size="small"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Ftaote.shop%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore"><span style="color:#000000">Share</span></a></div></button></li>
 												<li><button class="button"><a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false"><span style="color:#000000">Tweet</span></a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></button></li>
 												<li><button class="button"><g:form resource="${this.blog}" method="DELETE" controller="blog" action="delete">

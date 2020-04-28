@@ -138,6 +138,7 @@
 											<ul>
 												<li><button class="button"><g:link url="/"><span style="color:#000000">Home</span></g:link></button></li>
 												<li><button class="button"><g:link controller="category" action="index"><span style="color:#000000">Category</span></g:link></button></li>
+												<li><button class="button"><g:link controller="blogCategory" action="index"><span style="color:#000000">Blog Category</span></g:link></button></li>
 												<li><button class="button"><g:link controller="photos" action="create"><span style="color:#000000">Create a Photo</span></g:link></button></li>
 												<!--<li><a href="left-sidebar.html">Login</a></li>-->
 											</ul>
