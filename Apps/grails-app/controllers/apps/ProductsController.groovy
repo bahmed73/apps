@@ -50,7 +50,7 @@ class ProductsController {
 			def productsList = Products.findAllByUser(user)
 			respond productsList
 		} else {*/
-			def productsList = Products.findAll()
+			def productsList = Products.findAll([sort: "productsOrder", order: "desc"])
 			respond productsList
 		//}
     }

@@ -142,8 +142,6 @@
 														<br><br>
 														</g:if>
 													
-														<p style="font-size:18px;color:#ffffff">Other Relevant Info: ${productsInstance.other}</p>
-														<br><br>
 														<p style="font-size:18px;color:#ffffff">Price: ${productsInstance.price}</p>
 														<br><br>
 														<button class="button"><g:link controller="products" action="show" id="${productsInstance.id}"><span style="color:#1d10d2">See checkout page...</span></g:link></button>
