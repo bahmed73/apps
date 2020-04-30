@@ -27,7 +27,7 @@ class BlogController {
 			def blogList = Blog.findAllByUser(user)
 			respond blogList
 		} else {*/
-			def blogList = Blog.findAll()
+			def blogList = Blog.findAll([sort: "blogOrder", order: "desc"])
 			respond blogList
 		//}
 		/*params.max = Math.min(max ?: 10, 100)
