@@ -28,7 +28,7 @@ class CouponController {
 			couponList = Coupon.findAllByUser(user, [sort: "eventDate", order: "desc"])
 			respond couponList
 		} else {*/
-			couponList = Coupon.findAll([sort: "eventDate", order: "desc"])
+			def couponList = Coupon.findAll([sort: "eventDate", order: "desc"])
 			respond couponList
 		//}
 		
