@@ -12,6 +12,7 @@ class Blog {
 	byte[] imageTwo
 	byte[] imageThree
 	BlogCategory blogCategory
+	Integer blogOrder
 
     static constraints = {
                 //id(nullable:true)
@@ -24,6 +25,7 @@ class Blog {
 				imageTwo(nullable:true, maxSize: 1024 * 1024 * 2)
 				imageThree(nullable:true, maxSize: 1024 * 1024 * 2)
 				blogCategory(nullable:true)
+				blogOrder(nullable:true)
     }
 
         static mapping = {

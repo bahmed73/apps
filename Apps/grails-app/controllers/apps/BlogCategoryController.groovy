@@ -17,14 +17,16 @@ class BlogCategoryController {
 	
 	@Secured(['ROLE_ADMIN', 'ROLE_ANONYMOUS'])
     def index(Integer max) {
-        params.max = Math.min(max ?: 100, 100)
-        respond BlogCategory.list(params), model:[blogCategoryCount: BlogCategory.count()]
+        //params.max = Math.min(max ?: 100, 100)
+        //respond BlogCategory.list(params), model:[blogCategoryCount: BlogCategory.count()]
+		def blogCategoryList = BlogCategory.findAll([sort: "categoryOrder", order: "desc"])
+		respond blogCategoryList
     }
 
 	@Secured(['ROLE_ADMIN', 'ROLE_ANONYMOUS'])
     def show(BlogCategory blogCategory) {
 		
-		def blogs = Blog.findAllByBlogCategory(blogCategory)
+		def blogs = Blog.findAllByBlogCategory(blogCategory, [sort: "blogOrder", order: "desc"])
 		[blogCategory:blogCategory, blogs:blogs]
         //respond blogCategory
     }

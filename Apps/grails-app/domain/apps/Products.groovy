@@ -14,6 +14,7 @@ class Products {
 		byte[] imageTwo
 		byte[] imageThree
 		Category category
+		Integer productsOrder
 
     static constraints = {
                 //id(nullable:true)
@@ -28,6 +29,7 @@ class Products {
 				imageTwo(nullable:true, maxSize: 1024 * 1024 * 2)
 				imageThree(nullable:true, maxSize: 1024 * 1024 * 2)
 				category(nullable:true)
+				productsOrder(nullable:true)
     }
 
         static mapping = {

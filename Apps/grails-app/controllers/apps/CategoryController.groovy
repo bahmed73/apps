@@ -17,8 +17,10 @@ class CategoryController {
 
 	@Secured(['ROLE_ADMIN', 'ROLE_ANONYMOUS'])
     def index(Integer max) {
-        params.max = Math.min(max ?: 100, 100)
-        respond Category.list(params), model:[categoryCount: Category.count()]
+        //params.max = Math.min(max ?: 100, 100)
+        //respond Category.list(params), model:[categoryCount: Category.count()]
+		def categoryList = Category.findAll([sort: "categoryOrder", order: "desc"])
+		respond categoryList
     }
 
 	@Secured(['ROLE_ADMIN', 'ROLE_ANONYMOUS'])
@@ -26,7 +28,7 @@ class CategoryController {
 		def photos = Photos.findAllByCategory(category, [sort: "photoOrder", order: "desc"])
 		def videos = Videos.findAllByCategory(category)
 		
-		def products = Products.findAllByCategory(category)
+		def products = Products.findAllByCategory(category, [sort: "productsOrder", order: "desc"])
         [category:category, photos:photos, videos:videos, products:products]
     }
 
