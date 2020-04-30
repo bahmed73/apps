@@ -36,7 +36,7 @@
 		<style>
 		p {
 		  border: 2px solid #e5e1e1;
-		  background-color: #007FFF;
+		  background-color: #ffffff;
 		  border-width: 2px;
 		  margin: 5px;
 		  padding: 10px;
@@ -124,64 +124,45 @@
 										</nav>
 							<!-- Intro -->
 							
-							<g:if test="${productsList}">
-							<g:each in="${productsList}" status="i" var="productsInstance">
-								<div class="row">
-								<div class="12u">
-									<section>
-										<div>
-											<div class="row">
-												<div class="6u">
-														<section class="box">
-														<header>
-														<span style="font-size:35px;color:#1d10d2">${productsInstance.name}</span>
-														</header>
-														<br><br>
-														<g:if test="${productsInstance.category}">
-														<p style="font-size:20px;color:#1d10d2;">Category: <g:link action="show" controller="category" id="${productsInstance.category.id}"><span style="font-size:20px;color:#1d10d2">${productsInstance.category.name}</span></g:link></p>
-														<br><br>
-														</g:if>
-													
-														<p style="font-size:18px;color:#ffffff">Price: ${productsInstance.price}</p>
-														<br><br>
-														<button class="button"><g:link controller="products" action="show" id="${productsInstance.id}"><span style="color:#1d10d2">See checkout page...</span></g:link></button>
-														</section>
-												</div>
-												<div>
-														<section class="box">
+							<div class="row">
+							<div class="12u">
+							<g:if test="${categoryExpando}">
+							<span style="font-size:25px;color:#1d10d2">
+													Products By Category:</span>
+													<br><br>
+							<g:each in="${categoryExpando}" status="i" var="expandoInstance">
+							<g:set var="category" value="${expandoInstance.category}" />
+							<g:set var="products" value="${expandoInstance.products}" />	
+									
+												<section>
+										
+											
+												<div class="row">
 														<div>
-														<img src="data:image/png;base64,${productsInstance.imageThree?.encodeBase64()}"/>
+														<p><g:link controller="category" action="show" id="${category.id}"><span style="color:#1d10d2;font-size:20px;"><img src="data:image/png;base64,${category.imageOne?.encodeBase64()}" width="250" height="250"/><br>${category.name}</span></g:link></p>
 														</div>
-														</section>
+														<br><br>
+														<g:if test="${products}">
+														<g:each in="${products}" status="j" var="productsInstance">
+														<div class="3u" style="float:left;margin:10px">
+														<g:link controller="products" action="show" id="${productsInstance.id}"><img src="data:image/png;base64,${productsInstance.imageOne?.encodeBase64()}" width="100" height="100"/></g:link>
+														<br>
+														<span style="color:#1d10d2;font-size:12px;">${productsInstance.name}</span>
+														</div>
+														</g:each>
+														</g:if>
+														<br><br>
 												</div>
-											</div>
-										</div>
+											
 									</section>
-								</div>
-								</div>
+									<br><br>
+								
 							</g:each>
 							</g:if>
-							<g:else>
-							<div class="row">
-								<div class="12u">
-									<section>
-									<div>
-										<div class="row">
-										
-										<div class="6u">
-													<section class="box">
-													<!-- <a href="http://www.mytweetmark.com" class="image image-full"><asset:image src="foodal-homepage-16.png"/></a> -->
-													<header>
-													<g:link controller="products" action="create"><span style="font-size:28px;color:#8a7e7e;">Please create a product.</span></g:link>
-													</header>
-													</section>
-										</div>
-									</div>
-									</section>
-								</div>
 							</div>
-							</g:else>
-				        	</div>
+							</div>
+							<br><br>							
+							</div>
 				        	</div>				
 							
 									

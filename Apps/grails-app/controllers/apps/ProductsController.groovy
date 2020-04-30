@@ -40,19 +40,18 @@ class ProductsController {
 	
 	@Secured(['ROLE_ADMIN', 'ROLE_ANONYMOUS'])
     def index(Integer max) {
-        params.max = Math.min(max ?: 500, 500)
+        def categoryList = Category.findAll([sort: "categoryOrder", order: "desc"])
+		def categoryExpando = new ArrayList()
 		
-		/*def user = springSecurityService.currentUser
-		
-		if (user != null) {
-			System.out.println("username = " + user.username)
-		
-			def productsList = Products.findAllByUser(user)
-			respond productsList
-		} else {*/
-			def productsList = Products.findAll([sort: "productsOrder", order: "desc"])
-			respond productsList
-		//}
+		for (int i=0; i<categoryList.size();i++) {
+			def products = Products.findAllByCategory(categoryList.getAt(i), [sort: "productsOrder", order: "desc"])
+			
+			def expando = new Expando()
+			expando.category = categoryList.getAt(i)
+			expando.products = products
+			categoryExpando.add(expando)
+		}
+		[categoryExpando: categoryExpando]
     }
 	
 	def twitterUserData() {

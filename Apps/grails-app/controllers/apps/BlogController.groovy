@@ -18,20 +18,18 @@ class BlogController {
 	
 	@Secured(['ROLE_ADMIN', 'ROLE_ANONYMOUS'])
     def index(Integer max) {
-		/*
-		params.max = Math.min(max ?: 50, 100)
-		 
-		def user = springSecurityService.currentUser
+		def categoryList = BlogCategory.findAll([sort: "categoryOrder", order: "desc"])
+		def categoryExpando = new ArrayList()
 		
-		if (user != null) {
-			def blogList = Blog.findAllByUser(user)
-			respond blogList
-		} else {*/
-			def blogList = Blog.findAll([sort: "blogOrder", order: "desc"])
-			respond blogList
-		//}
-		/*params.max = Math.min(max ?: 10, 100)
-        respond Blog.list(params), model:[blogCount: Blog.count()]*/
+		for (int i=0; i<categoryList.size();i++) {
+			def blogs = Blog.findAllByBlogCategory(categoryList.getAt(i), [sort: "blogOrder", order: "desc"])
+			
+			def expando = new Expando()
+			expando.category = categoryList.getAt(i)
+			expando.blogs = blogs
+			categoryExpando.add(expando)
+		}
+		[categoryExpando: categoryExpando]
     }
 
 	@Transactional

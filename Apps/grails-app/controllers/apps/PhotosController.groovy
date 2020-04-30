@@ -35,7 +35,7 @@ class PhotosController {
 		
 		def photosList = Photos.findAll()
         
-		def categoryList = Category.findAll()
+		def categoryList = Category.findAll([sort: "categoryOrder", order: "desc"])
 		def categoryExpando = new ArrayList()
 		
 		for (int i=0; i<categoryList.size();i++) {
@@ -47,7 +47,7 @@ class PhotosController {
 			categoryExpando.add(expando)
 		}
 		
-		def productsList = Products.findAll()
+		def productsList = Products.findAll([sort: "productsOrder", order: "desc"])
 		def productsExpando = new ArrayList()
 		
 		for (int i=0; i<productsList.size();i++) {
@@ -59,7 +59,7 @@ class PhotosController {
 			productsExpando.add(expando)
 		}
 		
-		def blogList = Blog.findAll()
+		def blogList = Blog.findAll([sort: "blogOrder", order: "desc"])
 		def blogExpando = new ArrayList()
 		
 		for (int i=0; i<blogList.size();i++) {

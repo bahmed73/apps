@@ -36,7 +36,7 @@
 		<style>
 		p {
 		  border: 2px solid #e5e1e1;
-		  background-color: #007FFF;
+		  background-color: #ffffff;
 		  border-width: 2px;
 		  margin: 5px;
 		  padding: 10px;
@@ -139,71 +139,45 @@
 										</nav>
 							<!-- Intro -->
 							
-							<g:if test="${blogList}">
-							<g:each in="${blogList}" status="i" var="blogInstance">
-								<div class="row">
-								<div class="12u">
-									<section>
-										<div>
-											<div class="row">
-												<div class="6u">
-														<section class="box" >
-																				<header>
-														<span style="font-size:35px;color:#1d10d2">${blogInstance.name}</span>
-														<br><br>
-														<p><span style="font-size:20px;color:#ffffff">Create Time: <g:formatDate format="MM-dd-yyyy" date="${blogInstance.createTime}"/></span></p> 
-								
-														<br><br>
-														<br><br>
-														
-														</header>
-														<br><br>
-														
-														<button class="button"><g:link controller="blog" action="show" id="${blogInstance.id}"><span style="color:#1d10d2">View Full Blog</span></g:link></button>
-														</section>
-												</div>
-												<div class="6u">
-														<section class="box" >
-																				<header>
-														<g:if test="${blogInstance.imageOne}">
+							<div class="row">
+							<div class="12u">
+							<g:if test="${categoryExpando}">
+							<span style="font-size:25px;color:#1d10d2">
+													Blogs By Category:</span>
+													<br><br>
+							<g:each in="${categoryExpando}" status="i" var="expandoInstance">
+							<g:set var="category" value="${expandoInstance.category}" />
+							<g:set var="blogs" value="${expandoInstance.blogs}" />	
+									
+												<section>
+										
+											
+												<div class="row">
 														<div>
-														<img src="data:image/png;base64,${blogInstance.imageOne?.encodeBase64()}"/>
+														<p><g:link controller="blogCategory" action="show" id="${category.id}"><span style="color:#1d10d2;font-size:20px;"><img src="data:image/png;base64,${category.imageOne?.encodeBase64()}" width="250" height="250"/><br>${category.name}</span></g:link></p>
 														</div>
 														<br><br>
+														<g:if test="${blogs}">
+														<g:each in="${blogs}" status="j" var="blogInstance">
+														<div class="3u" style="float:left;margin:10px">
+														<g:link controller="blog" action="show" id="${blogInstance.id}"><img src="data:image/png;base64,${blogInstance.imageOne?.encodeBase64()}" width="100" height="100"/></g:link>
+														<br>
+														<span style="color:#1d10d2;font-size:12px;">${blogInstance.name}</span>
+														</div>
+														</g:each>
 														</g:if>
-														
-														</header>
 														<br><br>
-														
-														</section>
 												</div>
-											</div>
-										</div>
+											
 									</section>
-								</div>
-								</div>
+									<br><br>
+								
 							</g:each>
 							</g:if>
-							<g:else>
-							<div class="row">
-								<div class="12u">
-									<section>
-									<div>
-										<div class="row">
-										
-										<div class="6u">
-													<section class="box">
-													<!-- <a href="http://www.mytweetmark.com" class="image image-full"><asset:image src="foodal-homepage-16.png"/></a> -->
-													<header>
-													<g:link controller="blog" action="create"><span style="font-size:28px;color:#1d10d2;">Please create a Blog.</span></g:link>
-													</header>
-													</section>
-										</div>
-									</div>
-									</section>
-								</div>
 							</div>
-							</g:else>
+							</div>
+							<br><br>							
+							
 				        	</div>
 				        	</div>				
 							
