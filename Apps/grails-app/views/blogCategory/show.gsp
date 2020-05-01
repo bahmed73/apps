@@ -165,7 +165,7 @@
 													Blogs:</span>
 													<br><br>
 													<g:each in="${blogs}" status="i" var="blogInstance">
-													<div class="3u" style="float:left;height:300px;">
+													<div class="3u" style="float:left;height:400px;width:300px;">
 													<g:link controller="blog" action="show" id="${blogInstance.id}"><span style="color:#1d10d2;font-size:20px;"><img src="data:image/png;base64,${blogInstance.imageThree?.encodeBase64()}" width="250" height="250"/><br>${blogInstance.name}</span></g:link>
 													</div>
 													</g:each>

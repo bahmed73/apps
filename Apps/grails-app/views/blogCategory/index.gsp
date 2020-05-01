@@ -149,7 +149,7 @@
 							<g:each in="${blogCategoryList}" status="i" var="blogCategoryInstance">
 									<section>
 										
-											<div class="3u" style="float:left">
+											<div class="3u" style="float:left;height:400px;width:300px;">
 												<div>
 														<div>
 														<p><g:link controller="blogCategory" action="show" id="${blogCategoryInstance.id}"><span style="color:#1d10d2;font-size:16px;"><img src="data:image/png;base64,${blogCategoryInstance.imageOne?.encodeBase64()}"/><br>${blogCategoryInstance.name}</span></g:link></p>
