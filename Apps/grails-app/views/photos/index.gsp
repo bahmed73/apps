@@ -268,7 +268,7 @@
 							<g:each in="${photosList}" status="i" var="photosInstance">
 								
 									<section>
-												<div class="3u" style="float:left;height:400px;">
+												<div class="3u" style="float:left;height:500px;width:400px;">
 														<img src="data:image/png;base64,${photosInstance.imageOne?.encodeBase64()}"/>
 														<br><br>
 														<span style="font-size:16px;color:#1d10d2">${photosInstance.name}</span>
