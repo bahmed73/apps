@@ -164,8 +164,8 @@
 														<br><br>
 														<g:if test="${photos}">
 														<g:each in="${photos}" status="j" var="photosInstance">
-														<div class="1u" style="float:left">
-														<g:link controller="photos" action="show" id="${photosInstance.id}"><img src="data:image/png;base64,${photosInstance.imageOne?.encodeBase64()}" width="100" height="100"/></g:link>
+														<div class="1u" style="float:left;color:#1d10d2;font-size:14px;height:200px;width:200px;">
+														<g:link controller="photos" action="show" id="${photosInstance.id}"><img src="data:image/png;base64,${photosInstance.imageOne?.encodeBase64()}" width="100" height="100"/><br>${photosInstance.name}</g:link>
 														
 														<br><br>
 														</div>
@@ -202,8 +202,8 @@
 														<br><br>
 														<g:if test="${photos}">
 														<g:each in="${photos}" status="j" var="photosInstance">
-														<div class="1u" style="float:left">
-														<g:link controller="photos" action="show" id="${photosInstance.id}"><img src="data:image/png;base64,${photosInstance.imageOne?.encodeBase64()}" width="100" height="100"/></g:link>
+														<div class="1u" style="float:left;color:#1d10d2;font-size:14px;height:200px;width:200px;">
+														<g:link controller="photos" action="show" id="${photosInstance.id}"><img src="data:image/png;base64,${photosInstance.imageOne?.encodeBase64()}" width="100" height="100"/><br>${photosInstance.name}</g:link>
 														
 														<br><br>
 														</div>
@@ -241,8 +241,8 @@
 														<br><br>
 														<g:if test="${photos}">
 														<g:each in="${photos}" status="j" var="photosInstance">
-														<div class="1u" style="float:left">
-														<g:link controller="photos" action="show" id="${photosInstance.id}"><img src="data:image/png;base64,${photosInstance.imageOne?.encodeBase64()}" width="100" height="100"/></g:link>
+														<div class="1u" style="float:left;color:#1d10d2;font-size:14px;height:200px;width:200px;">
+														<g:link controller="photos" action="show" id="${photosInstance.id}"><img src="data:image/png;base64,${photosInstance.imageOne?.encodeBase64()}" width="100" height="100"/><br>${photosInstance.name}</g:link>
 														<br><br>
 														</div>
 														</g:each>
@@ -268,7 +268,7 @@
 							<g:each in="${photosList}" status="i" var="photosInstance">
 								
 									<section>
-												<div class="3u" style="float:left;height:500px;width:400px;">
+												<div class="3u" style="float:left;height:400px;width:300px;">
 														<img src="data:image/png;base64,${photosInstance.imageOne?.encodeBase64()}"/>
 														<br><br>
 														<span style="font-size:16px;color:#1d10d2">${photosInstance.name}</span>

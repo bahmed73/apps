@@ -165,7 +165,7 @@
 													Products:</span>
 													<br><br>
 													<g:each in="${products}" status="i" var="productsInstance">
-													<div class="3u" style="float:left;height:400px;width:300px;">
+													<div class="3u" style="float:left;height:300px;width:300px;">
 													<g:link controller="products" action="show" id="${productsInstance.id}"><span style="color:#1d10d2;font-size:16px;"><img src="data:image/png;base64,${productsInstance.imageOne?.encodeBase64()}"/><br>${productsInstance.name} - ${productsInstance.price}</span></g:link>
 													</div>
 													</g:each>
@@ -207,7 +207,7 @@
 													Photos:</span>
 													<br><br>
 													<g:each in="${photos}" status="i" var="photosInstance">
-													<div class="3u" style="float:left;height:400px;width:300px;">
+													<div class="3u" style="float:left;height:300px;width:300px;">
 													<g:link controller="photos" action="show" id="${photosInstance.id}"><span style="color:#1d10d2;font-size:20px;"><img src="data:image/png;base64,${photosInstance.imageOne?.encodeBase64()}"/><br>${photosInstance.name}</span></g:link>
 													<br><br>
 													</div>	
