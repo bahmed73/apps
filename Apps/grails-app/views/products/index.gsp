@@ -147,7 +147,7 @@
 														<div class="3u" style="float:left;margin:10px">
 														<g:link controller="products" action="show" id="${productsInstance.id}"><img src="data:image/png;base64,${productsInstance.imageOne?.encodeBase64()}" width="100" height="100"/></g:link>
 														<br>
-														<span style="color:#1d10d2;font-size:12px;">${productsInstance.name}</span>
+														<span style="color:#1d10d2;font-size:12px;">${productsInstance.name} - ${productsInstance.price}</span>
 														</div>
 														</g:each>
 														</g:if>

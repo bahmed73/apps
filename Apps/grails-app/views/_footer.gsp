@@ -36,9 +36,6 @@
 							<div class="4u">
 
 								<section>
-									<header>
-										<h2>More about us</h2>
-									</header>
 									<ul class="divided">
 										<li>
 										<asset:image src="phone.jpg"/>
@@ -62,9 +59,6 @@
 							 
 							<div class="4u">
 							<section>
-									<header>
-										<h2>And more...</h2>
-									</header>
 									<ul class="divided">
 										<li>
 										<asset:image src="instagram.jpg"/>
@@ -75,25 +69,15 @@
 										<asset:image src="twitter.jpg"/>
 										<br><br>
 										<a href="https://twitter.com/ROBERTP35959598" target="_blank"><h3>Promise Revealed Twitter</h3></a></li>
-										
+										<br><br>
+										<li>&copy; 2020 thepromiserevealed.com 	</li>
 									</ul>
 								</section>
 								
 							
 							</div>
 						</div>
-						<div class="row">
-							<div class="10u">
-							
-								<!-- Copyright -->
-									<div id="copyright">
-										<ul class="links">
-											<li>&copy; 2020 thepromiserevealed.com 	</li>
-										</ul>
-									</div>
-
-							</div>
-						</div>
+											
 					</section>
 				
 			</div>

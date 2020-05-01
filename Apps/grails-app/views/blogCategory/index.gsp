@@ -38,7 +38,7 @@
 		<!--[if lte IE 8]><asset:javascript src="html5shiv.js"/><asset:stylesheet src="ie8.css"/><![endif]-->
 		<style>
 		p {
-		  border: 2px solid #e5e1e1;
+		  border: 2px solid #16e01b;
 		  background-color: #ffffff;
 		  border-width: 2px;
 		  margin: 5px;
@@ -152,7 +152,7 @@
 											<div class="3u" style="float:left">
 												<div>
 														<div>
-														<p><g:link controller="blogCategory" action="show" id="${blogCategoryInstance.id}"><span style="color:#1d10d2;font-size:20px;"><img src="data:image/png;base64,${blogCategoryInstance.imageOne?.encodeBase64()}" width="250" height="250"/><br>${blogCategoryInstance.name}</span></g:link></p>
+														<p><g:link controller="blogCategory" action="show" id="${blogCategoryInstance.id}"><span style="color:#1d10d2;font-size:16px;"><img src="data:image/png;base64,${blogCategoryInstance.imageOne?.encodeBase64()}"/><br>${blogCategoryInstance.name}</span></g:link></p>
 														</div>
 													
 														

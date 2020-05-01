@@ -165,8 +165,8 @@
 													Products:</span>
 													<br><br>
 													<g:each in="${products}" status="i" var="productsInstance">
-													<div class="3u" style="float:left;height:300px;">
-													<g:link controller="products" action="show" id="${productsInstance.id}"><span style="color:#1d10d2;font-size:20px;"><img src="data:image/png;base64,${productsInstance.imageThree?.encodeBase64()}" width="250" height="250"/><br>${productsInstance.name}</span></g:link>
+													<div class="3u" style="float:left;height:400px;">
+													<g:link controller="products" action="show" id="${productsInstance.id}"><span style="color:#1d10d2;font-size:16px;"><img src="data:image/png;base64,${productsInstance.imageThree?.encodeBase64()}" width="250" height="250"/><br>${productsInstance.name} - ${productsInstance.price}</span></g:link>
 													</div>
 													</g:each>
 													</g:if>

@@ -213,10 +213,6 @@
 												<li><button class="button"><span style="color:#ffffff"><g:link controller="category" action="index"><span style="color:#000000">Product Categories</span></g:link></span></button></li>
 												<li><button class="button"><span style="color:#ffffff"><g:link class="list" action="index" controller="blogCategory"><span style="color:#000000">Truth References / Blogs</span></g:link></span></button></li>
 												<li><button class="button"><span style="color:#ffffff"><g:link controller="product" action="shelf"><span style="color:#000000">Members</span></g:link></span></button></li>
-												<li><button class="button"><span style="color:#000000"><g:form controller="logout">                        
-    													<span style="color:#000000"><g:submitButton name="logout" value="Logout" /></span>
-													</g:form></span></button></li>
-												
 												<br><br>
 												
 												
@@ -250,7 +246,7 @@
 													    <p><span style="color:#1d10d2;font-size:20px;"><br><br>Upcoming Events:</span></p>
 													    <p><a href="https://www.eventbrite.com/e/meet-the-venusians-mt-shasta-summer-conference-2020-tickets-89345987253"><span style="color:#1d10d2;font-size:16px;">Mount Shasta Summer Conference 2020</span></a></p>
 														<p><span style="color:#1d10d2;font-size:20px;">Past Events:</span></p>
-														<p><g:link action="index" controller="coupon"><span style="color:#1d10d2;font-size:14px;">View Past Events ...</span></g:link></p>
+														<p><g:link action="index" controller="coupon"><span style="color:#1d10d2;font-size:16px;">View Past Events ...</span></g:link></p>
 													  </div>
 													  <div id="tabs-3">
 													    <br><br><br><br>
