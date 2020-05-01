@@ -6,6 +6,9 @@
     <title>
         <g:layoutTitle default="Grails"/>
     </title>
+    <asset:stylesheet src="skel-noscript.css"/>
+	<asset:stylesheet src="style.css"/>
+	<asset:stylesheet src="style-desktop.css"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
 
     <asset:stylesheet src="application.css"/>
@@ -41,17 +44,10 @@
 
     <g:layoutBody/>
 
-    <div class="footer" role="contentinfo">
-    				<h1>				
-    				<asset:image src="favicon.png" width="50px" height="50px"/>
-									<ul>
-										<li><a href="https://www.youtube.com/channel/UCdi75MbXf2IxDpncWkCehyg" target="_blank"><span>Find us on YouTube!</span></a></li><br>
-										<li><a href="https://twitter.com/ROBERTP35959598" target="_blank"><span>See Us on Twitter!</span></a></li>
-										<!--li><a class="fa fa-google-plus solo" href="#"><span>Google+</span></a></li-->
-									</ul>
-									</h1>
-    </div>
-
+    <!-- Footer Wrapper -->
+    	<div style="background-color:black;padding:20px">
+		<g:render template="/footer" />
+		</div>
     <div id="spinner" class="spinner" style="display:none;">
         <g:message code="spinner.alt" default="Loading&hellip;"/>
     </div>
