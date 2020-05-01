@@ -143,16 +143,20 @@
 													<br><br>
 													<span style="font-size:18px;color:#1d10d2;font-family: Arial, Helvetica, sans-serif;">Description: <f:display bean="coupon" property="description"/></span>
 													<br><br>
+													<span style="font-size:18px;color:#1d10d2;font-family: Arial, Helvetica, sans-serif;">Purchase Tickets: <a href="${coupon.eventLink}" target="_blank"><span style="font-size:18px;color:#1d10d2;font-family: Arial, Helvetica, sans-serif;"><f:display bean="coupon" property="eventLink"/></span></a></span>
+													<br><br>
 													
 												</section>
 											</div>
-											<div>
+											<div class="6u">
 												<section class="box">
 												<header>
 													<div>
-													<img src="data:image/png;base64,${coupon.imageThree?.encodeBase64()}"/>
+													<a href="${coupon.eventLink}" target="_blank"><img src="data:image/png;base64,${coupon.imageThree?.encodeBase64()}"/></a>
 													</div>
 												</header>
+													<br><br>
+													<span style="font-size:18px;color:#1d10d2;font-family: Arial, Helvetica, sans-serif;">Click on the image above to purchase the tickets. Email us for any questions.</span>
 													<br><br>
 													<br>
 													<footer class="actions">

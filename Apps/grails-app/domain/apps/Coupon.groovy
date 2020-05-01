@@ -12,6 +12,7 @@ class Coupon {
 		byte[] imageThree
 		User user
 		Date eventDate
+		String eventLink
 		
     static constraints = {
                 //id(nullable:true)
@@ -24,6 +25,7 @@ class Coupon {
 				imageThree(nullable:true, maxSize: 1024 * 1024 * 2)
 				user(nullable:true)
 				eventDate(nullable:true)
+				eventLink(nullable:true, maxSize:500)
     }
 
         static mapping = {
