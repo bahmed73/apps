@@ -109,7 +109,7 @@
   <!-- Wrapper for slides -->
   <div class="carousel-inner">
     <div class="item active">
-      <g:link class="list" action="index" controller="category"><asset:image src="homepage-1.png"/></g:link>
+      <g:link class="list" action="index" controller="category"><asset:image src="homepage-4.png"/></g:link>
     </div>
     
     <div class="item">

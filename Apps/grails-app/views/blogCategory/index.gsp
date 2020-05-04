@@ -109,12 +109,12 @@
   <!-- Wrapper for slides -->
   <div class="carousel-inner">
     <div class="item active">
-      <g:link class="list" action="index" controller="category"><asset:image src="homepage-1.png"/></g:link>
+      <g:link class="list" action="index" controller="category"><asset:image src="homepage-4.png"/></g:link>
     </div>
     
     <div class="item">
-      <g:link class="list" action="index" controller="blogCategory"><asset:image src="homepage-3.png"/></g:link>
-    </div>
+						    <a href="https://www.eventbrite.com/e/meet-the-venusians-mt-shasta-summer-conference-2020-tickets-89345987253"><asset:image src="homepage-2.png"/></a>
+						      </div>
     
     
       </div>
