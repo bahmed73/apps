@@ -149,11 +149,42 @@
 													</header>
 													<br><br>
 													
-													<div style="margin:20px">
+													<g:if test="${products.category}">
+													<p style="font-size:20px;color:#1d10d2;">Category: <g:link action="show" controller="category" id="${products.category.id}"><span style="font-size:20px;color:#1d10d2">${products.category.name}</span></g:link></p>
+													<br><br>
+													</g:if>
+													
+													<span style="font-size:18px;color:#1d10d2;"><f:display bean="products" property="other"/></span>
+													<br><br>
+													<p style="font-size:24px;color:#16e01b;border:2px solid #e5e1e1">Price: <f:display bean="products" property="price"/></p>
+													<br><br>
+														
+													<div style="margin:20px;color:#1d10d2;font-size:20px;">
+													Twitter: 	
+													<a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+													</div>
+													<br>
+													<div style="margin:20px;color:#1d10d2;font-size:20px;">
+													Facebook: 
+													<div class="fb-share-button" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button" data-size="small"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
+													</div>
+													<br><br>
+												</section>
+											</div>
+											<div class="6u">
+												<section class="box">
+												<header>
+													<!-- <asset:image src="PRODUCTS_${products.id}-03"/> -->
+													<img src="data:image/png;base64,${products.imageThree?.encodeBase64()}"/>
+												</header>
+												<br><br>
+													<div style="margin:20px;color:#1d10d2;font-size:20px;">
+													Stripe Payments: 
+													<br><br>
 														<form controller="products" action="index" method="GET">
 														<script
 											  			src="https://checkout.stripe.com/checkout.js" class="stripe-button"
-											  			data-key="pk_live_jJVbuS5AS21wPAefuu6izPwz00IYUQlKe5"
+											  			data-key="pk_test_u3s8kQvrcV1PO01gYVOmJmCO00vnKwU0cT"
 											  			data-amount="<f:display bean="products" property="price"/>"
 											  			data-name="thepromiserevealed"
 											  			data-description="Purchase"
@@ -167,30 +198,20 @@
 														</script>
 														</form>
 														</div> 
+													<br>
+													<div style="margin:20px;color:#1d10d2;font-size:20px;">
+													Paypal: 
+													<br><br>
+													<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+													<input type="hidden" name="cmd" value="_s-xclick">
+													<input type="hidden" name="hosted_button_id" value="G63S5PZQKVGUW">
+													<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+													<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+													</form>
+													</div>
 													
 													<br><br>
-													<g:if test="${products.category}">
-													<p style="font-size:20px;color:#1d10d2;">Category: <g:link action="show" controller="category" id="${products.category.id}"><span style="font-size:20px;color:#1d10d2">${products.category.name}</span></g:link></p>
-													<br><br>
-													</g:if>
 													
-													<span style="font-size:18px;color:#1d10d2;"><f:display bean="products" property="other"/></span>
-													<br><br>
-													<p style="font-size:18px;color:#1d10d2;">Price: <f:display bean="products" property="price"/></p>
-													<br><br>
-														
-													<a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-													<div class="fb-share-button" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button" data-size="small"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
-													
-												</section>
-											</div>
-											<div class="6u">
-												<section class="box">
-												<header>
-													<!-- <asset:image src="PRODUCTS_${products.id}-03"/> -->
-													<img src="data:image/png;base64,${products.imageThree?.encodeBase64()}"/>
-												</header>
-													<br><br>
 														
 													
 												</section>
