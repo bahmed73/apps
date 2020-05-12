@@ -70,13 +70,28 @@ class ProductsController {
 		
 		log.info "show products, params = " + params
 		
-		if (params.stripeToken != null) {
-			log.info "stripe token = " + params.stripeToken
-			paymentService.productCheckout(params)
-		}
 		if (products == null) {
 			redirect action:"index", method:"GET"
 			return
+		}
+		
+		if (products.price != null) {
+			
+			def productPrice = products.price
+			
+			int x = productPrice.indexOf("\$")
+			
+			if (x > -1) {
+				productPrice = productPrice.substring(x+1)
+			}
+			
+			int y = productPrice.indexOf(",")
+			
+			if (y > -1) {
+				productPrice = productPrice.replace(",", "")
+			}
+			
+			products.price = productPrice
 		}
 		
 		log.info "product is not null"
@@ -131,7 +146,27 @@ class ProductsController {
 		def user = User.findByUsername(principal.getName())
 		products.user = user
 		
-        
+		if (products.price != null) {
+		
+			def productPrice = products.price
+			
+			int x = productPrice.indexOf("\$")
+			
+			if (x > -1) {
+				productPrice = productPrice.substring(x+1)
+			}
+			
+			int y = productPrice.indexOf(",")
+			
+			if (y > -1) {
+				productPrice = productPrice.replace(",", "")
+			}
+			
+			products.price = productPrice
+		}
+		
+		
+	
 		/*
 		mailService.sendMail {
 			to "bilal@mytweetmark.com"
@@ -220,14 +255,26 @@ class ProductsController {
 		
 		def user = User.findByUsername(principal.getName())
 		
-		if (products.user != user) {
-			flash.message ="Access denied."
-			redirect action:"index", method:"GET"
-			return
-		}
-		
 		products.user = user
 		
+		if (products.price != null) {
+			
+				def productPrice = products.price
+				
+				int x = productPrice.indexOf("\$")
+				
+				if (x > -1) {
+					productPrice = productPrice.substring(x+1)
+				}
+				
+				int y = productPrice.indexOf(",")
+				
+				if (y > -1) {
+					productPrice = productPrice.replace(",", "")
+				}
+				
+				products.price = productPrice
+			}
         
 		try {
 			def transferFile = request.getFile('myFile')

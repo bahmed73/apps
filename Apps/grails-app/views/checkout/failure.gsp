@@ -6,7 +6,7 @@
 <meta http-equiv="window-target" content="_top" />
 <META HTTP-EQUIV="CACHE-CONTROL" CONTENT="PUBLIC">
 	<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
-	<title>Empty Shopping Cart.</title>
+	<title>Checkout Failed.</title>
 	<asset:stylesheet src="skel-noscript.css"/>
 	<asset:stylesheet src="style.css"/>
 	<asset:stylesheet src="style-desktop.css"/>
@@ -134,17 +134,38 @@
 													<section class="box">
 													<!-- <a href="http://www.mytweetmark.com" class="image image-full"><asset:image src="foodal-homepage-16.png"/></a> -->
 													<header>
-														<span style="font-size:35px;color:#1d10d2">Your shopping cart is empty.</span>
+														<span style="font-size:35px;color:#1d10d2">Failed to purchase the products.</span>
 													</header>
 													<br><br>
 													
-													<p style="font-size:18px;color:#1d10d2;">Dear User: you were unsuccessful in purchase of the product. Please contact Rob Potter.</p>
+													<p style="font-size:18px;color:#1d10d2;">Dear Promise Customer,<br><br> 
+I want to thank you for your purchase and I want you to know we grateful for your support. We hope you will enjoy your product. We are always here to support you with any questions or help you may need to be able to properly use or install our products.  
+<br><br>
+Most deliveries inside the USA will arrive within 14 days. If you do not receive your item promptly please let us know. Overseas products generally will arrive within 21 days or sooner depending on your countries customs processing speed. Unless requested all products will be shipped USPS. 
+<br><br>
+Overseas shipments cannot be tracked through the USPS tracking system after they leave the USA. We do offer DHL or Fed Ex shipping that can be tracked with a signature required to international destinations if requested. There will be an extra charge if you would like this option! Please contact me by email or phone if you would like more secure international shipping for your product. 
+<br><br>
+If you have questions or concerns feel free to contact me we will get back to within two to three days. <br><br>
+Thank You<br>
+Rob Potter<br>
+Rob@ThePromiseRevealed.com<br>
+530-925-3502<br></p>
 													<br><br>
 													
 												</section>
 											</div>
 											
-															
+											<div class="6u">
+											<g:if test="${session.shoppingCart}">
+														<g:each in="${session.shoppingCart}" status="j" var="productsInstance">
+														<div class="3u" style="float:left;margin:10px">
+														<g:link controller="products" action="show" id="${productsInstance.id}"><img src="data:image/png;base64,${productsInstance.imageOne?.encodeBase64()}" width="100" height="100"/></g:link>
+														<br>
+														<span style="color:#1d10d2;font-size:12px;">${productsInstance.name} - ${productsInstance.price}</span>
+														</div>
+														</g:each>
+														</g:if>
+							</div>							
 							
 										</div>
 									</div>

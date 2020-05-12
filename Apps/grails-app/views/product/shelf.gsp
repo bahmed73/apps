@@ -166,6 +166,7 @@
 											<ul>
 												<li><button class="button"><span style="color:#ffffff"><g:link url="/">Home</g:link></span></button></li>
 												<li><button class="button"><span style="color:#ffffff"><g:link controller="user" action="index"><span style="color:#ffffff">Users</span></g:link></span></button></li>
+												<li><button class="button"><span style="color:#ffffff"><g:link controller="checkout" action="index"><span style="color:#ffffff">Checkouts</span></g:link></span></button></li>
 												<li><button class="button"><span style="color:#ffffff"><g:form controller="logout">                        
     													<g:submitButton name="logout" value="Logout" />
 													</g:form></span></button></li>

@@ -178,37 +178,12 @@
 													<img src="data:image/png;base64,${products.imageThree?.encodeBase64()}"/>
 												</header>
 												<br><br>
-													<div style="margin:20px;color:#1d10d2;font-size:20px;">
-													Stripe Payments: 
+												<span style="font-size:18px;color:#1d10d2;font-family: Arial, Helvetica, sans-serif;">Add $15 for domestic shipping and $25 for international.</span>
 													<br><br>
-														<form controller="products" action="index" method="GET">
-														<script
-											  			src="https://checkout.stripe.com/checkout.js" class="stripe-button"
-											  			data-key="pk_test_u3s8kQvrcV1PO01gYVOmJmCO00vnKwU0cT"
-											  			data-amount="<f:display bean="products" property="price"/>"
-											  			data-name="thepromiserevealed"
-											  			data-description="Purchase"
-											  			data-zip-code="true"
-											  			data-shipping-address="true"
-											  			data-billing-address="true"
-											  			
-											  			
-											  			data-image="https://stripe.com/img/documentation/checkout/marketplace.png"
-											  			data-locale="auto">
-														</script>
-														</form>
-														</div> 
-													<br>
-													<div style="margin:20px;color:#1d10d2;font-size:20px;">
-													Paypal: 
-													<br><br>
-													<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-													<input type="hidden" name="cmd" value="_s-xclick">
-													<input type="hidden" name="hosted_button_id" value="G63S5PZQKVGUW">
-													<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-													<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-													</form>
-													</div>
+													<button class="button"><g:link controller="checkout" action="buyNow" id="${products.id}"><span style="color:#000000">Buy Now</span></g:link></button>
+													<button class="button"><g:link controller="checkout" action="addToShoppingCart" id="${products.id}"><span style="color:#000000">Add to Shopping Cart</span></g:link></button>
+													<button class="button"><g:link controller="checkout" action="checkout" id="${products.id}"><span style="color:#000000">Checkout</span></g:link></button>
+												
 													
 													<br><br>
 													

@@ -19,29 +19,44 @@ class PaymentService {
     }
 	
 	def charge(String stripeToken, Double amount) {
-		Stripe.apiKey = "sk_test_5i1QWnJC2wtuzSZ9s4nUcpVU"
+		System.out.println("payment service: stripe token = " + stripeToken)
+		System.out.println("payment service: amount = " + amount)
 		
-        def amountInCents = (amount * 100) as Integer
-
+		Stripe.apiKey = 'sk_live_yv77aXREWPsDHLZf8xgaOUjJ00TUXdfMYU'
+		
+		def amountInCents = (amount * 100) as Integer
+		//test
+		//stripeToken = "tok_amex"
+		
         def chargeParams = [
             'amount': amountInCents, 
             'currency': 'usd', 
-            'card': stripeToken, 
-            'description': 'bilal@mytweetmark.com'
+            'source': stripeToken, 
+            'description': 'rob@thepromiserevealed.com'
         ]
 
         def status
         Charge chargeStatus
         try {
             chargeStatus = Charge.create(chargeParams)
-            println chargeStatus
+            System.out.println("payment service: amount = " + chargeStatus)
+		
             status = 'Your purchase was successful.'
-        } catch(CardException) {
+			return true
+        } catch(CardException ce) {
+		ce.printStackTrace()
+            println status
+			status = 'There was an error processing your credit card.'
+			return false
+        } catch(Exception e) {
+		e.printStackTrace()
             println status
             status = 'There was an error processing your credit card.'
+			return false
         }
 
-        return
+		System.out.println("Error processing stripe payment")
+        return false
     }
 	
 	def homepageCheckout(params) {
