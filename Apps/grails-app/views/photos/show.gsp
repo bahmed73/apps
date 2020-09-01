@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<meta name="description" content="Robert Potter - The Promise Revealed." />
+		<meta name="description" content="Erika Tovar - Loverth." />
 <meta name="keywords" content="Pyramid, Pyramid Power, Pyradyne Systems, Promise Pyramid Systems, The Promise Revealed, Cobra, Prepare for Change, Victory to the Light Radio Show, Victory to The Light, Dr. Fred Bell, Coast to Coast, Corey Goode, Michael Salla, Valiant Thor, Dr. Frank Stranges, Semjase, Pleiades, Alpha Centauri, Arcturus, Channeling, UFO, Ovni, Ascension, Ascended Masters, Saint Germain, El Morya, Kuthumi, Jesus christ, Sananda, Yehoshua, Master Hilarion, Buddha, Muslim, Mohammed,  Deep State, Corna Virus, Fema Camps, Truth, The Way Pyramids, Cintamani, Quartz, Crystals, Pyradyne Nuclear Receptor, Promise Nuclear Receptor, Andromedan Holographic Projector, Pyradyne, Andromedan Holographic Projector, Star Orb, Devastar Orb, Block 5G, Wholesale Quartz, Plasma, Ion Shower, Firestar, Irradiator, Mega Orb, Cintamani pendants, Cintamani rings, Tesla, Tesla Coil, Secret Space Program, HAARP, Venus, Venusian Contactee, Pleiadean Contactee, THe Promise, Books, The Event, Clarion, Moon Base, Search for Extra terrestrials, Violet Wand, Nikola Tesla, Tibet, lamas, Guru, Vedanta, Advaita, Krishna, Space Family, Friends of Venus, Queen of Venus, Lady Orda, Deloris Barrios, interview with Aura Rhanes, Commander Aura Rhanes,Pleiaden answers, Tachyon Crystals, Tachyon Products, Tachyonized Cintamani, Robert Potter, Rob Potter, Spirituality, Seminars, Healing, Consultations, Discounts, Best Price, Sleeping Pyramid, Omnion, Laser watch, Promise Light watch, Blood purification, Lasers, Lasers, Red lasers, Green Lasers, Laser Systems, Laser Stands, Blue Lasers, Alfred Lambremont Webber, BBS radio, Goldfish Report, Q anon, inner circle, Ufo images, earths history" />
 <meta http-equiv="window-target" content="_top" />
 <META HTTP-EQUIV="CACHE-CONTROL" CONTENT="PUBLIC">
@@ -99,7 +99,7 @@
 							<!-- Banner -->
 								<section id="banner">
 									
-										<g:link class="list" action="index" controller="blogCategory"><span class="image image-full"><asset:image src="homepage-3.png"/></span></g:link>
+										<g:link class="list" action="index" controller="blogCategory"><span class="image image-full"><asset:image src="loverth.png"/></span></g:link>
 										<header>
 											<!--  <h2>Foodal</h2>-->
 											<!--span class="byline">welcome!</span-->

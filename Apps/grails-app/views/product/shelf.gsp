@@ -1,12 +1,12 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<meta name="description" content="Robert Potter - The Promise Revealed." />
+		<meta name="description" content="Erika Tovar - Loverth." />
 <meta name="keywords" content="Pyramid, Pyramid Power, Pyradyne Systems, Promise Pyramid Systems, The Promise Revealed, Cobra, Prepare for Change, Victory to the Light Radio Show, Victory to The Light, Dr. Fred Bell, Coast to Coast, Corey Goode, Michael Salla, Valiant Thor, Dr. Frank Stranges, Semjase, Pleiades, Alpha Centauri, Arcturus, Channeling, UFO, Ovni, Ascension, Ascended Masters, Saint Germain, El Morya, Kuthumi, Jesus christ, Sananda, Yehoshua, Master Hilarion, Buddha, Muslim, Mohammed,  Deep State, Corna Virus, Fema Camps, Truth, The Way Pyramids, Cintamani, Quartz, Crystals, Pyradyne Nuclear Receptor, Promise Nuclear Receptor, Andromedan Holographic Projector, Pyradyne, Andromedan Holographic Projector, Star Orb, Devastar Orb, Block 5G, Wholesale Quartz, Plasma, Ion Shower, Firestar, Irradiator, Mega Orb, Cintamani pendants, Cintamani rings, Tesla, Tesla Coil, Secret Space Program, HAARP, Venus, Venusian Contactee, Pleiadean Contactee, THe Promise, Books, The Event, Clarion, Moon Base, Search for Extra terrestrials, Violet Wand, Nikola Tesla, Tibet, lamas, Guru, Vedanta, Advaita, Krishna, Space Family, Friends of Venus, Queen of Venus, Lady Orda, Deloris Barrios, interview with Aura Rhanes, Commander Aura Rhanes,Pleiaden answers, Tachyon Crystals, Tachyon Products, Tachyonized Cintamani, Robert Potter, Rob Potter, Spirituality, Seminars, Healing, Consultations, Discounts, Best Price, Sleeping Pyramid, Omnion, Laser watch, Promise Light watch, Blood purification, Lasers, Lasers, Red lasers, Green Lasers, Laser Systems, Laser Stands, Blue Lasers, Alfred Lambremont Webber, BBS radio, Goldfish Report, Q anon, inner circle, Ufo images, earths history" />
 <meta http-equiv="window-target" content="_top" />
 <META HTTP-EQUIV="CACHE-CONTROL" CONTENT="PUBLIC">
 	<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
-	<title>Robert Potter - The Promise Revealed.</title>
+	<title>Erika Tovar - Loverth.</title>
 	<asset:stylesheet src="skel-noscript.css"/>
 	<asset:stylesheet src="style.css"/>
 	<asset:stylesheet src="style-desktop.css"/>
@@ -147,7 +147,7 @@
 							<!-- Banner -->
 								<section id="banner">
 									
-										<g:link class="list" action="index" controller="category"><span class="image image-full"><asset:image src="homepage-4.png"/></span></g:link>
+										<g:link class="list" action="index" controller="category"><span class="image image-full"><asset:image src="loverth.png"/></span></g:link>
 										<header>
 										<!-- 
 											<h2>Shop</h2> 
@@ -181,10 +181,10 @@
 						<div class="12u">
 								<section>
 									<div>
-										<p><span style="color:#1d10d2;font-size:20px;">Inner Circle Membership:</span>
-										<p><span style="color:#1d10d2;font-size:18px;">Benefits include Basic Product Discounts, Special Discounts on Events, Deep Discounts on New and Existing Products, Exclusive Content from Inner Circle Meetings with Dr. Frank Stranges, The Science of Kriya Yoga and the Teachings of the Masters of the Far East, Recieve Special teachings from Rob, Discounts toward personal healing and counseling sessions and Special downloads of books and rarely seen teachings of Yehoshua The Christ.</span></p>
-										<p><span style="color:#1d10d2;font-size:16px;">You will also automatically be put on the Newsletter email list and Blog updates. Be aware that all Newsletters and Blog Updates will show up in your Gmail under “Promotions” and not be readily visible in your “Inbox” The same situation exisits with Yahoo all Newsletter and Blog Updates will be sent to your “Spam” folder. The reason being is Gmail and Yahoo have filters for any emails that contain more than 50 recipients. So it is always best to periodically check these folders for updates and emails.</span></p>
-										<p><span style="color:#1d10d2;font-size:16px;">The second level of membership is called the Inner Circle and there is an annual cost associated with this membership. You will receive a host of benefits from this type of membership including a 10% discount to my Mt Shasta Summer Conferences. This discount alone can be worth up to $50. I am very excited to be able to take my service to the next level with some very powerful spiritual information specifically designed to help you prepare yourself for the imminent changes soon to be visible to the world at large.</span></p>
+										<p><span style="color:#1d10d2;font-size:20px;">Dashboard:</span>
+										<p><span style="color:#1d10d2;font-size:18px;">User login is required to access the dashboard.</span></p>
+										<p><span style="color:#1d10d2;font-size:16px;">Create content, product categories, products, blog categories, blogs, photos and videos.</span></p>
+										<p><span style="color:#1d10d2;font-size:16px;">Link photos and videos to product and blog categories, and also products and blogs.</span></p>
 										
 									</div>
 								</section>

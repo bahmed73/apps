@@ -21,12 +21,12 @@
 										<asset:image src="email.jpg"/>
 										<br><br>
 										
-											<h3><a href="mailto:rob@thepromiserevealed.com">rob@thepromiserevealed.com</a></h3>
+											<h3><a href="mailto:yogierykah7@gmail.com">yogierykah7@gmail.com</a></h3>
 										</li>
 										<li>
 										<asset:image src="youtube.jpg"/>
 										<br><br>
-										<a href="https://www.youtube.com/channel/UCdi75MbXf2IxDpncWkCehyg" target="_blank"><h3>On YouTube</h3></a></li>
+										<a href="https://www.youtube.com/channel/UCFb2Mbd2MXF1AXwnCLCCPvg" target="_blank"><h3>On YouTube</h3></a></li>
 									</ul>
 								</section>
 								
@@ -41,15 +41,12 @@
 										<asset:image src="phone.jpg"/>
 										<br><br>
 										
-										<h3>(530) 918-8236</h3></li>
+										<h3>(323) 915-0068</h3></li>
 										<li>
 										<asset:image src="facebook.jpg"/>
 										<br><br>
-										<a href="https://www.facebook.com/PromiseRevealed/" target="_blank"><h3>Robert Potter Facebook</h3></a>
+										<a href="https://www.facebook.com/erika.tovar.336" target="_blank"><h3>Erika Tovar Facebook</h3></a>
 										<br>
-										<asset:image src="facebook.jpg"/>
-										<br><br>
-										<a href="https://www.facebook.com/Mt-Shasta-Summer-Conference-428207090637794/" target="_blank"><h3>Mount Shasta Summer Conference</h3></a>
 										</li>
 										
 									</ul>
@@ -64,13 +61,11 @@
 										<asset:image src="instagram.jpg"/>
 										<br><br>
 										
-										<a href="https://www.instagram.com/thepromiserevealed/" target="_blank"><h3>Promise Revealed Instagram</h3></a></li>
+										<a href="https://www.instagram.com/holisticyogila/" target="_blank"><h3>Erika Tovar Instagram</h3></a></li>
 										<li>
 										<asset:image src="twitter.jpg"/>
 										<br><br>
-										<a href="https://twitter.com/ROBERTP35959598" target="_blank"><h3>Promise Revealed Twitter</h3></a></li>
-										<br><br>
-										<li>&copy; 2020 thepromiserevealed.com 	</li>
+										<li>&copy; 2020 loverth.shop 	</li>
 									</ul>
 								</section>
 								

@@ -1,12 +1,12 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<meta name="description" content="Robert Potter - The Promise Revealed." />
+		<meta name="description" content="Erika Tovar - Loverth." />
 <meta name="keywords" content="Pyramid, Pyramid Power, Pyradyne Systems, Promise Pyramid Systems, The Promise Revealed, Cobra, Prepare for Change, Victory to the Light Radio Show, Victory to The Light, Dr. Fred Bell, Coast to Coast, Corey Goode, Michael Salla, Valiant Thor, Dr. Frank Stranges, Semjase, Pleiades, Alpha Centauri, Arcturus, Channeling, UFO, Ovni, Ascension, Ascended Masters, Saint Germain, El Morya, Kuthumi, Jesus christ, Sananda, Yehoshua, Master Hilarion, Buddha, Muslim, Mohammed,  Deep State, Corna Virus, Fema Camps, Truth, The Way Pyramids, Cintamani, Quartz, Crystals, Pyradyne Nuclear Receptor, Promise Nuclear Receptor, Andromedan Holographic Projector, Pyradyne, Andromedan Holographic Projector, Star Orb, Devastar Orb, Block 5G, Wholesale Quartz, Plasma, Ion Shower, Firestar, Irradiator, Mega Orb, Cintamani pendants, Cintamani rings, Tesla, Tesla Coil, Secret Space Program, HAARP, Venus, Venusian Contactee, Pleiadean Contactee, THe Promise, Books, The Event, Clarion, Moon Base, Search for Extra terrestrials, Violet Wand, Nikola Tesla, Tibet, lamas, Guru, Vedanta, Advaita, Krishna, Space Family, Friends of Venus, Queen of Venus, Lady Orda, Deloris Barrios, interview with Aura Rhanes, Commander Aura Rhanes,Pleiaden answers, Tachyon Crystals, Tachyon Products, Tachyonized Cintamani, Robert Potter, Rob Potter, Spirituality, Seminars, Healing, Consultations, Discounts, Best Price, Sleeping Pyramid, Omnion, Laser watch, Promise Light watch, Blood purification, Lasers, Lasers, Red lasers, Green Lasers, Laser Systems, Laser Stands, Blue Lasers, Alfred Lambremont Webber, BBS radio, Goldfish Report, Q anon, inner circle, Ufo images, earths history" />
 <meta http-equiv="window-target" content="_top" />
 <META HTTP-EQUIV="CACHE-CONTROL" CONTENT="PUBLIC">
 	<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
-	<title>Robert Potter - The Promise Revealed.</title>
+	<title>Erika Tovar - Loverth.</title>
 	<asset:stylesheet src="skel-noscript.css"/>
 	<asset:stylesheet src="style.css"/>
 	<asset:stylesheet src="style-desktop.css"/>
@@ -178,11 +178,11 @@
 						  <!-- Wrapper for slides -->
 						  <div class="carousel-inner">
 						    <div class="item active">
-						      <g:link action="show" controller="blog" id="129"><asset:image src="homepage-1.png"/></g:link>
+						      <asset:image src="loverth.png"/>
 						    </div>
 						    
 						    <div class="item">
-						    <a href="https://www.eventbrite.com/e/meet-the-venusians-mt-shasta-summer-conference-2020-tickets-89345987253"><asset:image src="homepage-2.png"/></a>
+						    <asset:image src="loverth-2.png"/>
 						      </div>
 						    
 						  </div>
@@ -204,12 +204,12 @@
 					
 								<!-- Nav -->
 										<nav id="nav">
-											<ul>
-												<li><button class="button"><span style="color:#ffffff"><g:link controller="category" action="index"><span style="color:#000000">Product Categories</span></g:link></span></button></li>
-												<li><button class="button"><span style="color:#ffffff"><g:link class="list" action="index" controller="blogCategory"><span style="color:#000000">Truth References / Blogs</span></g:link></span></button></li>
-												<li><button class="button"><span style="color:#ffffff"><g:link controller="product" action="shelf"><span style="color:#000000">Members</span></g:link></span></button></li>
+											<ul> 
+												<li><button class="button"><span style="color:#ffffff"><g:link controller="category" action="index"><span style="color:#000000">Products</span></g:link></span></button></li>
+												<li><button class="button"><span style="color:#ffffff"><g:link class="list" action="index" controller="blogCategory"><span style="color:#000000">Blogs</span></g:link></span></button></li>
+												<li><button class="button"><span style="color:#ffffff"><g:link controller="product" action="shelf"><span style="color:#000000">Dashboard</span></g:link></span></button></li>
 												<br><br>
-												
+												 
 												
 												<!--<li><a href="left-sidebar.html">Login</a></li>-->
 											</ul>
@@ -223,25 +223,56 @@
 										<div id="tabs">
 													  <ul>
 													    <li><a href="#tabs-1">Home</a></li>
-													    <li><a href="#tabs-2">Events</a></li>
+													    <li><a href="#tabs-2">Products and Blogs</a></li>
 													    <li><a href="#tabs-3">Search</a></li>
-													    <li><a href="#tabs-4">Membership</a></li>
+													    <li><a href="#tabs-4">Sign up!</a></li>
 													    
 													  </ul>
 													  <div id="tabs-1">
 													  
-													  	<p><span style="color:#1d10d2;font-size:20px;"><br><br>The Promise Revealed - My entire life has been filled with a calling and a longing. These longings and search for love and truth have been a blessing and a curse.I have always wanted to know who am I? Where did wecome from? What is our is our purpose here? Why is there so much suffering and discord and anxiety on our planet? Why is the world so distorted and fractured,and so caught up in wars pollution ignorance superstition and fear? <g:link action="show" controller="blog" id="1"><br><br><span style="font-size:16px;color:#1d10d2;">Read more...
-													  	</span></g:link></span></p>
+													  	<p><span style="color:#1d10d2;font-size:20px;"><br><br>My name is Erika Tovar. I was born and raised in Los Angeles Ca. I am a Holistic Practitioner. I healed my own traumas through my practice of yoga, meditation and art. Children and play have been a huge part of my healing.
+<br><br>
+My passion is helping and servicing the community by offering my holistic healings services: yoga, meditation, Art therapy, food and other things I create for the community.
+<br><br>
+I am a yoga & meditation teacher, A Holistic Transformation Life Coach, Artist and a performer but most importantly I am a grandma to two handsome little boys that I am so in love with. I worked as a behaviorist for 19 years with children in the Autism Spectrum & other diagnoses. I’ve been teaching yoga to the community for three years. All my students hold a special place in my heart.
+<br><br>
+I am the most blissful and happiest when I helping others, creating , performing and engaging with children.
+<br><br>
+My goal is to bring healing to the community and help others heal by decolonize their mind, body and soul with love and bring light & happiness into peoples lives.
+<br><br>
+I would love to help you start your healing & transformation journey in the most holistic loving way. To heal all parts as a whole is self love.
+<br><br>
+I look forward to connecting with you and your community in a more personal level.
+<br><br>
+To heal all parts as a whole is self love.
+<br><br>
+Namaste, Loverth, Erika</span></p>
 													  	
-													    <p><span style="color:#1d10d2;font-size:20px;"><br><br>Mission Statement - This website is intended to act as a Portal of Light and Truth to be shared freely with the entire universe. This site is currently brand new and is under construction. I will be adding to this site continually and sharing information in regards to all the subjects in the links at the top of this page. I will continue to travel the world to Sacred Sites and to share the truth of the space family and the healing technologies. I will instill the truth of The Promise and good news through the coming changes on these pages. I will sincerely proclaim the positive message of hope, love and prosperity for all. I will do this to share light from our benevolent space family who will soon be free to walk openly upon our world. <g:link action="show" controller="blog" id="34"><br><br><span style="font-size:16px;color:#1d10d2;">Read more...
-													  	</span></g:link></span></p>
-													  	<br><br>
+													    <br><br>
 													  </div>
 													  <div id="tabs-2">
-													    <p><span style="color:#1d10d2;font-size:20px;"><br><br>Upcoming Events:</span></p>
-													    <p><a href="https://www.eventbrite.com/e/meet-the-venusians-mt-shasta-summer-conference-2020-tickets-89345987253"><span style="color:#1d10d2;font-size:16px;">Mount Shasta Summer Conference 2020</span></a></p>
-														<p><span style="color:#1d10d2;font-size:20px;">Past Events:</span></p>
-														<p><g:link action="index" controller="coupon"><span style="color:#1d10d2;font-size:16px;">View Past Events ...</span></g:link></p>
+													  
+													    <p><span style="color:#1d10d2;font-size:20px;"><br><br>
+													    Loverth is is a platform where entrepreneurs can sell their products and express themselves to be their authentic divine self. It is a place to grow spiritually, globally and fulfillment of abundance.
+<br><br>
+It is a firm foundation to build your business with so much bliss.
+<br><br>
+Loverth products come in three different categories: art, clothes& accessories
+<br><br>
+Art pieces ( originals/prints and coloring meditation book.
+<br><br>
+Art Clothing coming soon
+<br><br>
+Accessories, body jewelry & earth Gems
+<br><br>
+All Loverth products are made with love and carry the healing energy of artist & healer Erika Tovar.
+<br><br>
+Allow yourself heal & grow with Loverth.
+<br><br>
+Love & Light, Loverth
+<br><br>
+													    <p><g:link class="list" action="index" controller="Category"><span style="color:#1d10d2;font-size:20px;">Product Categories.</span></g:link></p><br><p><g:link class="list" action="index" controller="BlogCategory"><span style="color:#1d10d2;font-size:20px;">Blog Categories.</span></g:link></p> </span></p>
+													  	
 													  </div>
 													  <div id="tabs-3">
 													    <br><br><br><br>
@@ -261,7 +292,7 @@
 													  </div>
 													  <div id="tabs-4">
 													  <br><br><br>
-													    <p><span style="color:#1d10d2;font-size:20px;"><g:link action="register" controller="register"><span style="color:#1d10d2">Inner Circle Membership - Register now.</span></g:link></span></p>
+													    <p><span style="color:#1d10d2;font-size:20px;"><g:link action="register" controller="register"><span style="color:#1d10d2">Register now.</span></g:link></span></p>
 														<p><span style="color:#1d10d2;font-size:20px;"><g:link action="forgotPassword" controller="register"><span style="color:#1d10d2">Forgot Password.</span></g:link></span></p>
 																
 													  </div>
