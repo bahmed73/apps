@@ -191,7 +191,7 @@ input[type=submit]:hover {
 							<!-- Banner -->
 								<section id="banner">
 									
-										<g:link class="list" action="index" controller="category"><span class="image image-full"><asset:image src="homepage-4.png"/></span></g:link>
+										<g:link class="list" action="index" controller="category"><span class="image image-full"><asset:image src="loverth.png"/></span></g:link>
 										<header>
 										<!-- 
 											<h2>Shop</h2> 
@@ -246,9 +246,9 @@ input[type=submit]:hover {
 					            <button class="button"><span style="color:#000000">Process Checkout: </span><g:form controller="checkout" action="processCheckout" id="${checkout.id}">
 														<script
 											  			src="https://checkout.stripe.com/checkout.js" class="stripe-button"
-											  			data-key="pk_live_jJVbuS5AS21wPAefuu6izPwz00IYUQlKe5"
+											  			data-key="pk_test_51HQzyoFM8FxBwW6pNugCzicxrTx4Eax2Sdy78JmHlY06183wr6m1Tg9Rl4gOQ41WMawHk4kLHhYmGKgLKijPXKVk002pPqfS3N"
 											  			data-amount="<f:display bean="checkout" property="amount"/>00"
-											  			data-name="thepromiserevealed"
+											  			data-name="loverth"
 											  			data-description="Purchase"
 											  			data-zip-code="true"
 											  			data-shipping-address="true"
