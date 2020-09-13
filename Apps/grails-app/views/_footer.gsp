@@ -21,7 +21,7 @@
 										<asset:image src="email.jpg"/>
 										<br><br>
 										
-											<h3><a href="mailto:yogierykah7@gmail.com">yogierykah7@gmail.com</a></h3>
+											<h3><a href="mailto:erika@loverth.shop">erika@loverth.shop</a></h3>
 										</li>
 										<li>
 										<asset:image src="youtube.jpg"/>

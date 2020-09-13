@@ -8,7 +8,7 @@ import com.stripe.Stripe
 @Transactional
 class PaymentService {
 
-	def stripeSecret = "sk_test_5i1QWnJC2wtuzSZ9s4nUcpVU"
+	def stripeSecret = "sk_test_51HQzyoFM8FxBwW6pjKljoQhsYxgLEkf2iJdWX0EJIqN47m3Q0ufG5XLWL1WENvOKyuvVZBnI3nY4DUwWPlKMkRzv00Tyjf9McH"
 	def stripePublishable = "pk_test_VBLyN579809ToN0y2VA4VXG8"
 	
 	def stripeProductSecret = "sk_live_JTBjE2udFzOGJpABo18JFSLR"
@@ -22,7 +22,7 @@ class PaymentService {
 		System.out.println("payment service: stripe token = " + stripeToken)
 		System.out.println("payment service: amount = " + amount)
 		
-		Stripe.apiKey = 'sk_live_yv77aXREWPsDHLZf8xgaOUjJ00TUXdfMYU'
+		Stripe.apiKey = 'sk_test_51HQzyoFM8FxBwW6pjKljoQhsYxgLEkf2iJdWX0EJIqN47m3Q0ufG5XLWL1WENvOKyuvVZBnI3nY4DUwWPlKMkRzv00Tyjf9McH'
 		
 		def amountInCents = (amount * 100) as Integer
 		//test
