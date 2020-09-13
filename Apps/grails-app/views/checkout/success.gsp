@@ -105,7 +105,7 @@
 							<!-- Banner -->
 								<section id="banner">
 									
-										<g:link class="list" action="index" controller="category"><span class="image image-full"><asset:image src="homepage-4.png"/></span></g:link>
+										<g:link class="list" action="index" controller="category"><span class="image image-full"><asset:image src="loverth.png"/></span></g:link>
 										<header>
 											<!--  <h2>Foodal</h2>-->
 											<!--span class="byline">welcome!</span-->
@@ -139,8 +139,8 @@
 													</header>
 													<br><br>
 													
-													<p style="font-size:18px;color:#1d10d2;">Dear Promise Customer,<br><br> 
-I want to thank you for your purchase and I want you to know we grateful for your support. We hope you will enjoy your product. We are always here to support you with any questions or help you may need to be able to properly use or install our products.  
+													<p style="font-size:18px;color:#1d10d2;">Dear loverth Customer,<br><br> 
+I want to thank you for your purchase and I want you to know we grateful for your support. We hope you will enjoy your product. We are always here to support you with any questions.  
 <br><br>
 Most deliveries inside the USA will arrive within 14 days. If you do not receive your item promptly please let us know. Overseas products generally will arrive within 21 days or sooner depending on your countries customs processing speed. Unless requested all products will be shipped USPS. 
 <br><br>
@@ -148,10 +148,9 @@ Overseas shipments cannot be tracked through the USPS tracking system after they
 <br><br>
 If you have questions or concerns feel free to contact me we will get back to within two to three days. <br><br>
 Thank You<br>
-Rob Potter<br>
-Rob@ThePromiseRevealed.com<br>
-530-925-3502<br>
-</p>
+Erika Tovar<br>
+erika@loverth.shop<br>
+323-915-0068<br></p>
 													<br><br>
 												</section>
 											</div>

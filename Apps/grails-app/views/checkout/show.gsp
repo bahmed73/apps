@@ -246,7 +246,7 @@ input[type=submit]:hover {
 					            <button class="button"><span style="color:#000000">Process Checkout: </span><g:form controller="checkout" action="processCheckout" id="${checkout.id}">
 														<script
 											  			src="https://checkout.stripe.com/checkout.js" class="stripe-button"
-											  			data-key="pk_test_51HQzyoFM8FxBwW6pNugCzicxrTx4Eax2Sdy78JmHlY06183wr6m1Tg9Rl4gOQ41WMawHk4kLHhYmGKgLKijPXKVk002pPqfS3N"
+											  			data-key="pk_live_51HQzyoFM8FxBwW6pjn8JJjcSDSg7Zwud4UiVn0H7Opro8SO6W9sy7D5dbhg3AD85wwLGz3K0kUX5gETxAPkN8Ljm00UTOCcWIR"
 											  			data-amount="<f:display bean="checkout" property="amount"/>00"
 											  			data-name="loverth"
 											  			data-description="Purchase"
