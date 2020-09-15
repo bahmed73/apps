@@ -180,9 +180,9 @@
 												<br><br>
 												<span style="font-size:18px;color:#1d10d2;font-family: Arial, Helvetica, sans-serif;">Add $15 for domestic shipping and $25 for international.</span>
 													<br><br>
-													<button class="button"><g:link controller="checkout" action="buyNow" id="${products.id}"><span style="color:#000000">Buy Now</span></g:link></button>
-													<button class="button"><g:link controller="checkout" action="addToShoppingCart" id="${products.id}"><span style="color:#000000">Add to Shopping Cart</span></g:link></button>
-													<button class="button"><g:link controller="checkout" action="checkout" id="${products.id}"><span style="color:#000000">Checkout</span></g:link></button>
+													<button class="button"><g:link controller="checkout" action="buyNow" id="${products.id}"><span style="color:#feff00">Buy Now</span></g:link></button>
+													<button class="button"><g:link controller="checkout" action="addToShoppingCart" id="${products.id}"><span style="color:#feff00">Add to Shopping Cart</span></g:link></button>
+													<button class="button"><g:link controller="checkout" action="checkout" id="${products.id}"><span style="color:#feff00">Checkout</span></g:link></button>
 												
 													
 													<br><br>

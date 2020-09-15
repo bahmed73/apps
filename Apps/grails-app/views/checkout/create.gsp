@@ -55,13 +55,13 @@ var elements = stripe.elements();
 		  text-decoration: none;
 		  outline: none;
 		  color: #fdeba9;
-		  background-color: #16e01b;
+		  background-color: #fb7b77;
 		  border: none;
 		  border-radius: 15px;
 		  box-shadow: 0 9px #007FFF;
 		}
 
-		.button:hover {background-color: #ffffff}
+		.button:hover {background-color: #000000}
 		
 		.button:active {
 		  background-color: #1d10d2;
@@ -211,7 +211,7 @@ input[type=submit]:hover {
 								<!-- Nav -->
 										<nav id="nav">
 											<ul>
-												<li><button class="button"><g:link url="/"><span style="color:#000000">Home</span></g:link></button></li>
+												<li><button class="button"><g:link url="/"><span style="color:#feff00">Home</span></g:link></button></li>
 												<!--<li><a href="left-sidebar.html">Login</a></li>-->
 											</ul>
 										</nav>
@@ -315,7 +315,7 @@ input[type=submit]:hover {
 								</label>
 								<br><br>
 				                <fieldset class="buttons">
-				                    <button class="button"><g:submitButton name="create" class="save" value="Review Checkout Payment Details" /></button>
+				                    <button class="button"><span style="color:#feff00"><g:submitButton name="create" class="save" value="Review Checkout Payment Details" /></span></button>
 				                </fieldset>
 				            </g:form>
 							</div>
@@ -337,7 +337,7 @@ input[type=submit]:hover {
 							</div>				
 										
 							<div style="margin:20px;padding:20px;">		
-							<button class="button"><g:link controller="checkout" action="reset"><span style="color:#000000">Reset Shopping Cart</span></g:link></button>
+							<button class="button"><g:link controller="checkout" action="reset"><span style="color:#feff00">Reset Shopping Cart</span></g:link></button>
 												</div>
 							</div>
 							<br><br>							
