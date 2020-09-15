@@ -59,13 +59,13 @@
 		  text-decoration: none;
 		  outline: none;
 		  color: #fdeba9;
-		  background-color: #16e01b;
+		  background-color: #fb7b77;
 		  border: none;
 		  border-radius: 15px;
 		  box-shadow: 0 9px #007FFF;
 		}
 
-		.button:hover {background-color: #ffffff}
+		.button:hover {background-color: #000000}
 		
 		.button:active {
 		  background-color: #1d10d2;
@@ -164,10 +164,10 @@
 								<!-- Nav -->
 										<nav id="nav">
 											<ul>
-												<li><button class="button"><span style="color:#ffffff"><g:link url="/">Home</g:link></span></button></li>
-												<li><button class="button"><span style="color:#ffffff"><g:link controller="user" action="index"><span style="color:#ffffff">Users</span></g:link></span></button></li>
-												<li><button class="button"><span style="color:#ffffff"><g:link controller="checkout" action="index"><span style="color:#ffffff">Checkouts</span></g:link></span></button></li>
-												<li><button class="button"><span style="color:#ffffff"><g:form controller="logout">                        
+												<li><button class="button"><span style="color:#feff00"><g:link url="/"><span style="color:#feff00">Home</span></g:link></span></button></li>
+												<li><button class="button"><span style="color:#ffffff"><g:link controller="user" action="index"><span style="color:#feff00">Users</span></g:link></span></button></li>
+												<li><button class="button"><span style="color:#ffffff"><g:link controller="checkout" action="index"><span style="color:#feff00">Checkouts</span></g:link></span></button></li>
+												<li><button class="button"><span style="color:#feff00"><g:form controller="logout">                        
     													<g:submitButton name="logout" value="Logout" />
 													</g:form></span></button></li>
 												

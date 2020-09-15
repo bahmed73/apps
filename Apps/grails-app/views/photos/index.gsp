@@ -54,13 +54,13 @@
 		  text-decoration: none;
 		  outline: none;
 		  color: #fdeba9;
-		  background-color: #16e01b;
+		  background-color: #fb7b77;
 		  border: none;
 		  border-radius: 15px;
 		  box-shadow: 0 9px #007FFF;
 		}
 
-		.button:hover {background-color: #ffffff}
+		.button:hover {background-color: #000000}
 		
 		.button:active {
 		  background-color: #1d10d2;
@@ -136,10 +136,10 @@
 								<!-- Nav -->
 										<nav id="nav">
 											<ul>
-												<li><button class="button"><g:link url="/"><span style="color:#000000">Home</span></g:link></button></li>
-												<li><button class="button"><g:link controller="category" action="index"><span style="color:#000000">Category</span></g:link></button></li>
-												<li><button class="button"><g:link controller="blogCategory" action="index"><span style="color:#000000">Blog Category</span></g:link></button></li>
-												<li><button class="button"><g:link controller="photos" action="create"><span style="color:#000000">Create a Photo</span></g:link></button></li>
+												<li><button class="button"><g:link url="/"><span style="color:#feff00">Home</span></g:link></button></li>
+												<li><button class="button"><g:link controller="category" action="index"><span style="color:#feff00">Category</span></g:link></button></li>
+												<li><button class="button"><g:link controller="blogCategory" action="index"><span style="color:#feff00">Blog Category</span></g:link></button></li>
+												<li><button class="button"><g:link controller="photos" action="create"><span style="color:#feff00">Create a Photo</span></g:link></button></li>
 												<!--<li><a href="left-sidebar.html">Login</a></li>-->
 											</ul>
 										</nav>

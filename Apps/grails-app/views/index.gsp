@@ -63,13 +63,13 @@
 		  text-decoration: none;
 		  outline: none;
 		  color: #fdeba9;
-		  background-color: #16e01b;
+		  background-color: #fb7b77;
 		  border: none;
 		  border-radius: 15px;
 		  box-shadow: 0 9px #007FFF;
 		}
 
-		.button:hover {background-color: #ffffff}
+		.button:hover {background-color: #000000}
 		
 		.button:active {
 		  background-color: #1d10d2;
@@ -172,8 +172,6 @@
 						  <ol class="carousel-indicators">
 						    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
 						    <li data-target="#myCarousel" data-slide-to="1"></li>
-						    <li data-target="#myCarousel" data-slide-to="2"></li>
-						    <li data-target="#myCarousel" data-slide-to="3"></li>
 						    						    
 						  </ol>
 
@@ -185,14 +183,6 @@
 						    
 						    <div class="item">
 						    <asset:image src="loverth-2.png"/>
-						      </div>
-						    
-						    <div class="item">
-						    <asset:image src="heartearthbanner.png"/>
-						      </div>
-						    
-						    <div class="item">
-						    <asset:image src="banner-more.png"/>
 						      </div>
 						    
 						  </div>
@@ -215,9 +205,9 @@
 								<!-- Nav -->
 										<nav id="nav">
 											<ul> 
-												<li><button class="button"><span style="color:#ffffff"><g:link controller="category" action="index"><span style="color:#000000">Products</span></g:link></span></button></li>
-												<li><button class="button"><span style="color:#ffffff"><g:link class="list" action="index" controller="blogCategory"><span style="color:#000000">Blogs</span></g:link></span></button></li>
-												<li><button class="button"><span style="color:#ffffff"><g:link controller="product" action="shelf"><span style="color:#000000">Dashboard</span></g:link></span></button></li>
+												<li><button class="button"><span style="color:#ffffff"><g:link controller="category" action="index"><span style="color:#feff00">Products</span></g:link></span></button></li>
+												<li><button class="button"><span style="color:#ffffff"><g:link class="list" action="index" controller="blogCategory"><span style="color:#feff00">Blogs</span></g:link></span></button></li>
+												<li><button class="button"><span style="color:#ffffff"><g:link controller="product" action="shelf"><span style="color:#feff00">Dashboard</span></g:link></span></button></li>
 												<br><br>
 												 
 												

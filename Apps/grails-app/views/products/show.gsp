@@ -55,13 +55,13 @@
 		  text-decoration: none;
 		  outline: none;
 		  color: #fdeba9;
-		  background-color: #16e01b;
+		  background-color: #fb7b77;
 		  border: none;
 		  border-radius: 15px;
 		  box-shadow: 0 9px #007FFF;
 		}
 
-		.button:hover {background-color: #ffffff}
+		.button:hover {background-color: #000000}
 		
 		.button:active {
 		  background-color: #1d10d2;
@@ -120,11 +120,11 @@
 								<!-- Nav -->
 										<nav id="nav">
 											<ul>
-												<li><button class="button"><g:link url="/"><span style="color:#000000">Home</span></g:link></button></li>
-												<li><button class="button"><g:link controller="products" action="edit" id="${products.id}"><span style="color:#000000">Edit Product</span></g:link></button></li>
-												<li><button class="button"><g:link controller="products" action="index"><span style="color:#000000">Show Products</span></g:link></button></li>
+												<li><button class="button"><g:link url="/"><span style="color:#feff00">Home</span></g:link></button></li>
+												<li><button class="button"><g:link controller="products" action="edit" id="${products.id}"><span style="color:#feff00">Edit Product</span></g:link></button></li>
+												<li><button class="button"><g:link controller="products" action="index"><span style="color:#feff00">Show Products</span></g:link></button></li>
 												<li><button class="button"><g:form resource="${this.products}" method="DELETE" controller="products" action="delete">
-												<span style="color:#000000">
+												<span style="color:#feff00">
 												    <fieldset class="buttons">
 									                	<input class="delete" type="submit" value="${message(code: 'default.button.delete.label', default: 'Delete')}" onclick="return confirm('${message(code: 'default.button.delete.confirm.message', default: 'Are you sure?')}');" />
 									                </fieldset>
