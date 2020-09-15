@@ -50,13 +50,13 @@
 		  text-decoration: none;
 		  outline: none;
 		  color: #fdeba9;
-		  background-color: #16e01b;
+		  background-color: #fb7b77;
 		  border: none;
 		  border-radius: 15px;
 		  box-shadow: 0 9px #007FFF;
 		}
 
-		.button:hover {background-color: #ffffff}
+		.button:hover {background-color: #000000}
 		
 		.button:active {
 		  background-color: #1d10d2;
@@ -208,7 +208,7 @@ input[type=submit]:hover {
 								<!-- Nav -->
 										<nav id="nav">
 											<ul>
-												<li><button class="button"><g:link url="/"><span style="color:#000000">Home</span></g:link></button></li>
+												<li><button class="button"><g:link url="/"><span style="color:#feff00">Home</span></g:link></button></li>
 												<!--<li><a href="left-sidebar.html">Login</a></li>-->
 											</ul>
 										</nav>
@@ -243,7 +243,7 @@ input[type=submit]:hover {
 							International Shipment:<br>
 							<f:display bean="checkout" property="internationalShipment" /><br><br>
 							
-					            <button class="button"><span style="color:#000000">Process Checkout: </span><g:form controller="checkout" action="processCheckout" id="${checkout.id}">
+					            <button class="button"><span style="color:#feff00">Process Checkout: </span><g:form controller="checkout" action="processCheckout" id="${checkout.id}">
 														<script
 											  			src="https://checkout.stripe.com/checkout.js" class="stripe-button"
 											  			data-key="pk_live_51HQzyoFM8FxBwW6pjn8JJjcSDSg7Zwud4UiVn0H7Opro8SO6W9sy7D5dbhg3AD85wwLGz3K0kUX5gETxAPkN8Ljm00UTOCcWIR"
@@ -259,7 +259,7 @@ input[type=submit]:hover {
 											  			data-locale="auto">
 														</script>
 														</g:form></button>
-								<button class="button"><g:link controller="checkout" action="edit" id="${checkout.id}"><span style="color:#000000">Edit Checkout Payment Details</span></g:link></button>
+								<button class="button"><g:link controller="checkout" action="edit" id="${checkout.id}"><span style="color:#feff00">Edit Checkout Payment Details</span></g:link></button>
 					            
 							</p>
 							</div>
@@ -281,7 +281,7 @@ input[type=submit]:hover {
 							</div>				
 										
 							<div style="margin:20px;padding:20px;">		
-							<button class="button"><g:link controller="checkout" action="reset"><span style="color:#000000">Reset Shopping Cart</span></g:link></button>
+							<button class="button"><g:link controller="checkout" action="reset"><span style="color:#feff00">Reset Shopping Cart</span></g:link></button>
 												</div>
 							</div>
 							<br><br>							
