@@ -48,7 +48,7 @@
                 	<br>
               				
               		<div>
-                  <ckeditor:editor name="description" height="400px" width="80%">
+                  <ckeditor:editor name="other" height="400px" width="80%">
                   Write your other product details here.<br>
 					</ckeditor:editor>
               </div>	
