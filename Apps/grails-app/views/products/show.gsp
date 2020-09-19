@@ -40,8 +40,7 @@
 		<!--[if lte IE 8]><asset:javascript src="html5shiv.js"/><asset:stylesheet src="ie8.css"/><![endif]-->
 		<style>
 		p {
-		border: 2px solid #fb7b77;
-		  border-width: 2px;
+		border-width: 2px;
 		  margin: 5px;
 		  padding: 10px;
 		  background-color: #ffffff;
@@ -167,7 +166,7 @@
 													<br>
 													<div style="margin:20px;color:#000000;font-size:20px;">
 													Facebook:
-													<div class="fb-share-button" data-href="${createLink(action: 'show', controller: 'products', id: blog.id)}" data-layout="button" data-size="small"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
+													<div class="fb-share-button" data-href="${createLink(action: 'show', controller: 'products', id: products.id)}" data-layout="button" data-size="small"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
 													</div>
 													<br><br>
 												</section>

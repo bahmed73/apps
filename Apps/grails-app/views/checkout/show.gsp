@@ -35,11 +35,11 @@
 		<!--[if lte IE 8]><asset:javascript src="html5shiv.js"/><asset:stylesheet src="ie8.css"/><![endif]-->
 		<style>
 		p {
-		  border: 2px solid #e5e1e1;
-		  background-color: #ffffff;
+		  border: 2px solid #fb7b77;
 		  border-width: 2px;
 		  margin: 5px;
 		  padding: 10px;
+		  background-color: #ffffff;
 		}
 		.button {
 		  display: inline-block;
@@ -215,7 +215,7 @@ input[type=submit]:hover {
 							<!-- Intro -->
 							
 							<div class="row">
-							<div class="6u" style="font-size:18px;color:#1d10d2;border-radius: 5px;padding: 20px;">
+							<div class="6u" style="font-size:18px;color:#000000;border-radius: 5px;padding: 20px;">
 							<header>
 														<span style="font-size:25px;">Checkout:</span>
 													</header>
@@ -266,7 +266,7 @@ input[type=submit]:hover {
 							
 							<div class="6u">
 							<header>
-														<span style="font-size:25px;color:#1d10d2;border-radius: 5px;padding: 20px;">Shopping Cart:</span>
+														<span style="font-size:25px;color:#000000;border-radius: 5px;padding: 20px;">Shopping Cart:</span>
 													</header>
 													<br><br>
 							<g:if test="${session.shoppingCart}">
@@ -274,7 +274,7 @@ input[type=submit]:hover {
 														<div class="3u" style="float:left;margin:10px">
 														<g:link controller="products" action="show" id="${productsInstance.id}"><img src="data:image/png;base64,${productsInstance.imageOne?.encodeBase64()}" width="100" height="100"/></g:link>
 														<br>
-														<span style="color:#1d10d2;font-size:12px;">${productsInstance.name} - ${productsInstance.price}</span>
+														<span style="color:#000000;font-size:12px;">${productsInstance.name} - ${productsInstance.price}</span>
 														</div>
 														</g:each>
 														</g:if>

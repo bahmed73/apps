@@ -40,6 +40,7 @@
 		<!--[if lte IE 8]><asset:javascript src="html5shiv.js"/><asset:stylesheet src="ie8.css"/><![endif]-->
 		<style>
 		p {
+		  border: 2px solid #fb7b77;
 		  border-width: 2px;
 		  margin: 5px;
 		  padding: 10px;
@@ -134,11 +135,11 @@
 													<section class="box">
 													<!-- <a href="http://www.mytweetmark.com" class="image image-full"><asset:image src="foodal-homepage-16.png"/></a> -->
 													<header>
-														<span style="font-size:35px;color:#1d10d2">Your shopping cart is empty.</span>
+														<span style="font-size:35px;color:#000000">Your shopping cart is empty.</span>
 													</header>
 													<br><br>
 													
-													<p style="font-size:18px;color:#1d10d2;">Dear loverth Customer,<br><br> 
+													<p style="font-size:18px;color:#000000;">Dear loverth Customer,<br><br> 
 I want to thank you for your purchase and I want you to know we grateful for your support. We hope you will enjoy your product. We are always here to support you with any questions.  
 <br><br>
 Most deliveries inside the USA will arrive within 14 days. If you do not receive your item promptly please let us know. Overseas products generally will arrive within 21 days or sooner depending on your countries customs processing speed. Unless requested all products will be shipped USPS. 

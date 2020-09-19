@@ -40,6 +40,7 @@
 		<!--[if lte IE 8]><asset:javascript src="html5shiv.js"/><asset:stylesheet src="ie8.css"/><![endif]-->
 		<style>
 		p {
+		  border: 2px solid #fb7b77;
 		  border-width: 2px;
 		  margin: 5px;
 		  padding: 10px;
@@ -134,11 +135,11 @@
 													<section class="box">
 													<!-- <a href="http://www.mytweetmark.com" class="image image-full"><asset:image src="foodal-homepage-16.png"/></a> -->
 													<header>
-														<span style="font-size:35px;color:#1d10d2">Failed to purchase the products.</span>
+														<span style="font-size:35px;color:#000000">Failed to purchase the products.</span>
 													</header>
 													<br><br>
 													
-													<p style="font-size:18px;color:#1d10d2;">Dear loverth Customer,<br><br> 
+													<p style="font-size:18px;color:#000000;">Dear loverth Customer,<br><br> 
 I want to thank you for your purchase and I want you to know we grateful for your support. We hope you will enjoy your product. We are always here to support you with any questions.  
 <br><br>
 Most deliveries inside the USA will arrive within 14 days. If you do not receive your item promptly please let us know. Overseas products generally will arrive within 21 days or sooner depending on your countries customs processing speed. Unless requested all products will be shipped USPS. 
@@ -161,7 +162,7 @@ erika@loverth.shop<br>
 														<div class="3u" style="float:left;margin:10px">
 														<g:link controller="products" action="show" id="${productsInstance.id}"><img src="data:image/png;base64,${productsInstance.imageOne?.encodeBase64()}" width="100" height="100"/></g:link>
 														<br>
-														<span style="color:#1d10d2;font-size:12px;">${productsInstance.name} - ${productsInstance.price}</span>
+														<span style="color:#000000;font-size:12px;">${productsInstance.name} - ${productsInstance.price}</span>
 														</div>
 														</g:each>
 														</g:if>
