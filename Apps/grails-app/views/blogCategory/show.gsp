@@ -136,11 +136,11 @@
 													<section class="box">
 													<!-- <a href="http://www.mytweetmark.com" class="image image-full"><asset:image src="foodal-homepage-16.png"/></a> -->
 													<header>
-														<span style="font-size:35px;color:#1d10d2"><f:display bean="blogCategory" property="name"/></span>
+														<span style="font-size:35px;color:#000000"><f:display bean="blogCategory" property="name"/></span>
 													</header>
 													<br><br>
 													<br><br>
-													<p><span style="color:#ffffff;">Share our blog category pages on Twitter or Facebook. </span></p>
+													<p><span style="color:#000000;">Share our blog category pages on Twitter or Facebook. </span></p>
 													<br><br>
 													<br><br>
 													<a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -161,12 +161,12 @@
 												<section class="box">
 												<header>
 													<g:if test="${blogs}">
-													<span style="font-size:25px;color:#1d10d2">
+													<span style="font-size:25px;color:#000000">
 													Blogs:</span>
 													<br><br>
 													<g:each in="${blogs}" status="i" var="blogInstance">
 													<div class="3u" style="float:left;height:300px;width:300px;">
-													<g:link controller="blog" action="show" id="${blogInstance.id}"><span style="color:#1d10d2;font-size:20px;"><img src="data:image/png;base64,${blogInstance.imageOne?.encodeBase64()}"/><br>${blogInstance.name}</span></g:link>
+													<g:link controller="blog" action="show" id="${blogInstance.id}"><span style="color:#000000;font-size:20px;"><img src="data:image/png;base64,${blogInstance.imageOne?.encodeBase64()}"/><br>${blogInstance.name}</span></g:link>
 													</div>
 													</g:each>
 													</g:if>
@@ -180,7 +180,7 @@
 											
 											<div class="8u">
 												<section class="box">
-													<span style="font-size:18px;color:#1d10d2">Description: <f:display bean="blogCategory" property="description"/></span>
+													<span style="font-size:18px;color:#000000">Description: <f:display bean="blogCategory" property="description"/></span>
 													<br><br>
 													
 												</section>

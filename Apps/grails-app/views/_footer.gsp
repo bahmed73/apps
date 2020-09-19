@@ -18,14 +18,10 @@
 									<!--  </ul>-->
 									<ul class="divided">
 										<li>
-										<asset:image src="email.jpg"/>
-										<br><br>
 										
 											<h3><a href="mailto:erika@loverth.shop">erika@loverth.shop</a></h3>
 										</li>
 										<li>
-										<asset:image src="youtube.jpg"/>
-										<br><br>
 										<a href="https://www.youtube.com/channel/UCFb2Mbd2MXF1AXwnCLCCPvg" target="_blank"><h3>On YouTube</h3></a></li>
 									</ul>
 								</section>
@@ -38,14 +34,11 @@
 								<section>
 									<ul class="divided">
 										<li>
-										<asset:image src="phone.jpg"/>
-										<br><br>
-										
 										<h3>(323) 915-0068</h3></li>
 										<li>
-										<asset:image src="facebook.jpg"/>
-										<br><br>
-										<a href="https://www.facebook.com/erika.tovar.336" target="_blank"><h3>Erika Tovar Facebook</h3></a>
+										<a href="https://www.facebook.com/loverth.shop.erika" target="_blank"><h3>Loverth on Facebook</h3></a>
+										<br>
+										<a href="https://www.f6s.com/loverthshop" target="_blank"><h3>Loverth on F6s - Entrepreneurship network</h3></a>
 										<br>
 										</li>
 										
@@ -57,14 +50,14 @@
 							<div class="4u">
 							<section>
 									<ul class="divided">
-										<li>
-										<asset:image src="instagram.jpg"/>
-										<br><br>
-										
-										<a href="https://www.instagram.com/holisticyogila/" target="_blank"><h3>Erika Tovar Instagram</h3></a></li>
-										<li>
-										<asset:image src="twitter.jpg"/>
-										<br><br>
+									<li>
+										<a href="https://www.instagram.com/holisticyogila/" target="_blank"><h3>Erika Tovar Instagram</h3></a>
+										<br>
+										<a href="https://www.linkedin.com/company/loverth/" target="_blank"><h3>Loverth on Linkedin</h3></a>
+										<br>
+										<a href="https://angel.co/company/loverth" target="_blank"><h3>Loverth on Angellist - Angel Investor network</h3></a>
+										<br>
+										</li>
 										<li>&copy; 2020 loverth.shop 	</li>
 									</ul>
 								</section>

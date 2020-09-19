@@ -38,11 +38,11 @@
 		<!--[if lte IE 8]><asset:javascript src="html5shiv.js"/><asset:stylesheet src="ie8.css"/><![endif]-->
 		<style>
 		p {
-		  border: 2px solid #16e01b;
-		  background-color: #ffffff;
+		  border: 2px solid #fb7b77;
 		  border-width: 2px;
 		  margin: 5px;
 		  padding: 10px;
+		  background-color: #ffffff;
 		}
 		
 		.button {
@@ -152,7 +152,7 @@
 											<div class="3u" style="float:left;height:300px;width:300px;">
 												<div>
 														<div>
-														<p><g:link controller="blogCategory" action="show" id="${blogCategoryInstance.id}"><span style="color:#1d10d2;font-size:16px;"><img src="data:image/png;base64,${blogCategoryInstance.imageOne?.encodeBase64()}"/><br>${blogCategoryInstance.name}</span></g:link></p>
+														<p><g:link controller="blogCategory" action="show" id="${blogCategoryInstance.id}"><span style="color:#000000;font-size:16px;"><img src="data:image/png;base64,${blogCategoryInstance.imageOne?.encodeBase64()}"/><br>${blogCategoryInstance.name}</span></g:link></p>
 														</div>
 													
 														
@@ -174,7 +174,7 @@
 													<section class="box">
 													<!-- <a href="http://www.mytweetmark.com" class="image image-full"><asset:image src="foodal-homepage-16.png"/></a> -->
 													<header>
-													<g:link controller="blogCategory" action="create"><span style="font-size:28px;color:#8a7e7e;">Please create a blog category.</span></g:link>
+													<g:link controller="blogCategory" action="create"><span style="font-size:28px;color:#000000;">Please create a blog category.</span></g:link>
 													</header>
 													</section>
 										</div>

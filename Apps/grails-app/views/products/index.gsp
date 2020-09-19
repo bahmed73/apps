@@ -35,7 +35,7 @@
 		<!--[if lte IE 8]><asset:javascript src="html5shiv.js"/><asset:stylesheet src="ie8.css"/><![endif]-->
 		<style>
 		p {
-		  border: 2px solid #e5e1e1;
+		  border: 2px solid #fb7b77;
 		  background-color: #ffffff;
 		  border-width: 2px;
 		  margin: 5px;
@@ -127,7 +127,7 @@
 							<div class="row">
 							<div class="12u">
 							<g:if test="${categoryExpando}">
-							<span style="font-size:25px;color:#1d10d2">
+							<span style="font-size:25px;color:#000000">
 													Products By Category:</span>
 													<br><br>
 							<g:each in="${categoryExpando}" status="i" var="expandoInstance">
@@ -139,7 +139,7 @@
 											
 												<div class="row">
 														<div>
-														<p><g:link controller="category" action="show" id="${category.id}"><span style="color:#1d10d2;font-size:20px;"><img src="data:image/png;base64,${category.imageOne?.encodeBase64()}" width="250" height="250"/><br>${category.name}</span></g:link></p>
+														<p><g:link controller="category" action="show" id="${category.id}"><span style="color:#000000;font-size:20px;"><img src="data:image/png;base64,${category.imageOne?.encodeBase64()}" width="250" height="250"/><br>${category.name}</span></g:link></p>
 														</div>
 														<br><br>
 														<g:if test="${products}">
@@ -147,7 +147,7 @@
 														<div class="3u" style="float:left;margin:10px">
 														<g:link controller="products" action="show" id="${productsInstance.id}"><img src="data:image/png;base64,${productsInstance.imageOne?.encodeBase64()}" width="100" height="100"/></g:link>
 														<br>
-														<span style="color:#1d10d2;font-size:12px;">${productsInstance.name} - ${productsInstance.price}</span>
+														<span style="color:#000000;font-size:12px;">${productsInstance.name} - ${productsInstance.price}</span>
 														</div>
 														</g:each>
 														</g:if>

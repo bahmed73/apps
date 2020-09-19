@@ -38,7 +38,7 @@
 		<!--[if lte IE 8]><asset:javascript src="html5shiv.js"/><asset:stylesheet src="ie8.css"/><![endif]-->
 		<style>
 		p {
-		  border: 2px solid #e5e1e1;
+		  border: 2px solid #fb7b77;
 		  background-color: #ffffff;
 		  border-width: 2px;
 		  margin: 5px;
@@ -147,7 +147,7 @@
 							<div class="row">
 							<div class="12u">
 							<g:if test="${categoryExpando}">
-							<span style="font-size:25px;color:#1d10d2">
+							<span style="font-size:25px;color:#000000">
 													Photos By Category:</span>
 													<br><br>
 							<g:each in="${categoryExpando}" status="i" var="expandoInstance">
@@ -159,12 +159,12 @@
 											
 												<div class="row">
 														<div>
-														<p><g:link controller="category" action="show" id="${category.id}"><span style="color:#1d10d2;font-size:20px;"><img src="data:image/png;base64,${category.imageOne?.encodeBase64()}" width="250" height="250"/><br>${category.name}</span></g:link></p>
+														<p><g:link controller="category" action="show" id="${category.id}"><span style="color:#000000;font-size:20px;"><img src="data:image/png;base64,${category.imageOne?.encodeBase64()}" width="250" height="250"/><br>${category.name}</span></g:link></p>
 														</div>
 														<br><br>
 														<g:if test="${photos}">
 														<g:each in="${photos}" status="j" var="photosInstance">
-														<div class="1u" style="float:left;color:#1d10d2;font-size:14px;height:200px;width:200px;">
+														<div class="1u" style="float:left;color:#000000;font-size:14px;height:200px;width:200px;">
 														<g:link controller="photos" action="show" id="${photosInstance.id}"><img src="data:image/png;base64,${photosInstance.imageOne?.encodeBase64()}" width="100" height="100"/><br>${photosInstance.name}</g:link>
 														
 														<br><br>
@@ -185,7 +185,7 @@
 							<div class="row">
 							<div class="12u">
 							<g:if test="${productsExpando}">
-							<span style="font-size:25px;color:#1d10d2">
+							<span style="font-size:25px;color:#000000">
 													Photos By Product:</span>
 													<br><br>
 							<g:each in="${productsExpando}" status="i" var="expandoInstance">
@@ -197,12 +197,12 @@
 											
 												<div class="row">
 														<div>
-														<p><g:link controller="products" action="show" id="${products.id}"><span style="color:#1d10d2;font-size:20px;"><img src="data:image/png;base64,${products.imageOne?.encodeBase64()}" width="250" height="250"/><br>${products.name}</span></g:link></p>
+														<p><g:link controller="products" action="show" id="${products.id}"><span style="color:#000000;font-size:20px;"><img src="data:image/png;base64,${products.imageOne?.encodeBase64()}" width="250" height="250"/><br>${products.name}</span></g:link></p>
 														</div>
 														<br><br>
 														<g:if test="${photos}">
 														<g:each in="${photos}" status="j" var="photosInstance">
-														<div class="1u" style="float:left;color:#1d10d2;font-size:14px;height:200px;width:200px;">
+														<div class="1u" style="float:left;color:#000000;font-size:14px;height:200px;width:200px;">
 														<g:link controller="photos" action="show" id="${photosInstance.id}"><img src="data:image/png;base64,${photosInstance.imageOne?.encodeBase64()}" width="100" height="100"/><br>${photosInstance.name}</g:link>
 														
 														<br><br>
@@ -224,7 +224,7 @@
 							<div class="row">
 							<div class="12u">
 							<g:if test="${blogExpando}">
-							<span style="font-size:25px;color:#1d10d2">
+							<span style="font-size:25px;color:#000000">
 													Photos By Blog:</span>
 													<br><br>
 							<g:each in="${blogExpando}" status="i" var="expandoInstance">
@@ -236,12 +236,12 @@
 											
 												<div class="row">
 														<div>
-														<p><g:link controller="blog" action="show" id="${blog.id}"><span style="color:#1d10d2;font-size:20px;"><img src="data:image/png;base64,${blog.imageOne?.encodeBase64()}" width="250" height="250"/><br>${blog.name}</span></g:link></p>
+														<p><g:link controller="blog" action="show" id="${blog.id}"><span style="color:#000000;font-size:20px;"><img src="data:image/png;base64,${blog.imageOne?.encodeBase64()}" width="250" height="250"/><br>${blog.name}</span></g:link></p>
 														</div>
 														<br><br>
 														<g:if test="${photos}">
 														<g:each in="${photos}" status="j" var="photosInstance">
-														<div class="1u" style="float:left;color:#1d10d2;font-size:14px;height:200px;width:200px;">
+														<div class="1u" style="float:left;color:#000000;font-size:14px;height:200px;width:200px;">
 														<g:link controller="photos" action="show" id="${photosInstance.id}"><img src="data:image/png;base64,${photosInstance.imageOne?.encodeBase64()}" width="100" height="100"/><br>${photosInstance.name}</g:link>
 														<br><br>
 														</div>
@@ -262,7 +262,7 @@
 							<div class="12u">
 							<br><br>
 							<g:if test="${photosList}">
-							<span style="font-size:25px;color:#1d10d2">
+							<span style="font-size:25px;color:#000000">
 													All Photos:</span>
 													<br><br>
 							<g:each in="${photosList}" status="i" var="photosInstance">
@@ -271,21 +271,21 @@
 												<div class="3u" style="float:left;height:400px;width:300px;">
 														<img src="data:image/png;base64,${photosInstance.imageOne?.encodeBase64()}"/>
 														<br><br>
-														<span style="font-size:16px;color:#1d10d2">${photosInstance.name}</span>
+														<span style="font-size:16px;color:#000000">${photosInstance.name}</span>
 														<br><br>
 														<g:if test="${photosInstance.category}">
-														<span style="font-size:16px;color:#1d10d2;">Category: <g:link action="show" controller="category" id="${photosInstance.category.id}"><span style="font-size:16px;color:#1d10d2">${photosInstance.category.name}</span></g:link></span>
+														<span style="font-size:16px;color:#000000;">Category: <g:link action="show" controller="category" id="${photosInstance.category.id}"><span style="font-size:16px;color:#000000">${photosInstance.category.name}</span></g:link></span>
 														<br><br>
 														</g:if>
 														<g:if test="${photosInstance.blog}">
-														<span style="font-size:16px;color:#1d10d2;">Blog: <g:link action="show" controller="blog" id="${photosInstance.blog.id}"><span style="font-size:16px;color:#1d10d2">${photosInstance.blog.name}</span></g:link></span>
+														<span style="font-size:16px;color:#000000;">Blog: <g:link action="show" controller="blog" id="${photosInstance.blog.id}"><span style="font-size:16px;color:#000000">${photosInstance.blog.name}</span></g:link></span>
 														<br><br>
 														</g:if>
 														<g:if test="${photosInstance.products}">
-														<span style="font-size:16px;color:#1d10d2;">Product: <g:link action="show" controller="products" id="${photosInstance.products.id}"><span style="font-size:16px;color:#1d10d2">${photosInstance.products.name}</span></g:link></span>
+														<span style="font-size:16px;color:#000000;">Product: <g:link action="show" controller="products" id="${photosInstance.products.id}"><span style="font-size:16px;color:#000000">${photosInstance.products.name}</span></g:link></span>
 														<br><br>
 														</g:if>
-														<button class="button"><g:link controller="photos" action="show" id="${photosInstance.id}"><span style="color:#1d10d2;">View bigger photo...</span></g:link></button>
+														<button class="button"><g:link controller="photos" action="show" id="${photosInstance.id}"><span style="color:#feff00;">View bigger photo...</span></g:link></button>
 														<br><br>
 												</div>
 									</section>			

@@ -40,6 +40,7 @@
 		<!--[if lte IE 8]><asset:javascript src="html5shiv.js"/><asset:stylesheet src="ie8.css"/><![endif]-->
 		<style>
 		p {
+		border: 2px solid #fb7b77;
 		  border-width: 2px;
 		  margin: 5px;
 		  padding: 10px;
@@ -145,28 +146,28 @@
 													<section class="box">
 													<!-- <a href="http://www.mytweetmark.com" class="image image-full"><asset:image src="foodal-homepage-16.png"/></a> -->
 													<header>
-														<span style="font-size:35px;color:#1d10d2"><f:display bean="products" property="name"/></span>
+														<span style="font-size:35px;color:#000000"><f:display bean="products" property="name"/></span>
 													</header>
 													<br><br>
 													
 													<g:if test="${products.category}">
-													<p style="font-size:20px;color:#1d10d2;">Category: <g:link action="show" controller="category" id="${products.category.id}"><span style="font-size:20px;color:#1d10d2">${products.category.name}</span></g:link></p>
+													<p style="font-size:20px;color:#000000;">Category: <g:link action="show" controller="category" id="${products.category.id}"><span style="font-size:20px;color:#000000">${products.category.name}</span></g:link></p>
 													<br><br>
 													</g:if>
 													
-													<span style="font-size:18px;color:#1d10d2;"><f:display bean="products" property="other"/></span>
+													<span style="font-size:18px;color:#000000;"><f:display bean="products" property="other"/></span>
 													<br><br>
-													<p style="font-size:24px;color:#16e01b;border:2px solid #e5e1e1">Price: <f:display bean="products" property="price"/></p>
+													<p style="font-size:24px;color:#000000;border:2px solid #e5e1e1">Price: <f:display bean="products" property="price"/></p>
 													<br><br>
 														
-													<div style="margin:20px;color:#1d10d2;font-size:20px;">
-													Twitter: 	
+													<div style="margin:20px;color:#000000;font-size:20px;">
+													Twitter:
 													<a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 													</div>
 													<br>
-													<div style="margin:20px;color:#1d10d2;font-size:20px;">
-													Facebook: 
-													<div class="fb-share-button" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button" data-size="small"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
+													<div style="margin:20px;color:#000000;font-size:20px;">
+													Facebook:
+													<div class="fb-share-button" data-href="${createLink(action: 'show', controller: 'products', id: blog.id)}" data-layout="button" data-size="small"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
 													</div>
 													<br><br>
 												</section>
@@ -178,7 +179,7 @@
 													<img src="data:image/png;base64,${products.imageThree?.encodeBase64()}"/>
 												</header>
 												<br><br>
-												<span style="font-size:18px;color:#1d10d2;font-family: Arial, Helvetica, sans-serif;">Add $15 for domestic shipping and $25 for international.</span>
+												<span style="font-size:18px;color:#000000;font-family: Arial, Helvetica, sans-serif;">Add $15 for domestic shipping and $25 for international.</span>
 													<br><br>
 													<button class="button"><g:link controller="checkout" action="buyNow" id="${products.id}"><span style="color:#feff00">Buy Now</span></g:link></button>
 													<button class="button"><g:link controller="checkout" action="addToShoppingCart" id="${products.id}"><span style="color:#feff00">Add to Shopping Cart</span></g:link></button>
@@ -193,17 +194,17 @@
 											</div>
 											<div class="12u">
 												<section class="box">
-												<span style="font-size:18px;color:#1d10d2;font-family: Arial, Helvetica, sans-serif;"><f:display bean="products" property="description"/></span>
+												<span style="font-size:18px;color:#000000;font-family: Arial, Helvetica, sans-serif;"><f:display bean="products" property="description"/></span>
 													<br><br>
 												<g:if test="${photos}">
 												<br><br>
 													
-													<span style="font-size:25px;color:#1d10d2">
+													<span style="font-size:25px;color:#000000">
 													Additional Photos:</span>
 													<br><br>
 													<g:each in="${photos}" status="i" var="photosInstance">
 													<div class="3u" style="float:left;height:300px;">
-													<g:link controller="photos" action="show" id="${photosInstance.id}"><span style="color:#1d10d2;font-size:20px;"><img src="data:image/png;base64,${photosInstance.imageThree?.encodeBase64()}" width="250" height="250"/><br>${photosInstance.name}</span></g:link>
+													<g:link controller="photos" action="show" id="${photosInstance.id}"><span style="color:#000000;font-size:20px;"><img src="data:image/png;base64,${photosInstance.imageThree?.encodeBase64()}" width="250" height="250"/><br>${photosInstance.name}</span></g:link>
 													</div>	
 													</g:each>
 													</g:if>
@@ -213,12 +214,12 @@
 											<div class="12u">
 												<section class="box">
 													<g:if test="${videos}">
-													<span style="font-size:25px;color:#1d10d2">
+													<span style="font-size:25px;color:#000000">
 													Videos:</span>
 													<br><br>
 													<g:each in="${videos}" status="i" var="videosInstance">
 													
-													<p><g:link controller="videos" action="show" id="${videosInstance.id}"><span style="color:#1d10d2;">${videosInstance.name}</span></g:link></p>
+													<p><g:link controller="videos" action="show" id="${videosInstance.id}"><span style="color:#000000;">${videosInstance.name}</span></g:link></p>
 													<br>	
 													</g:each>
 													</g:if>

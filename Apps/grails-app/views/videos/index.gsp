@@ -38,11 +38,11 @@
 		<!--[if lte IE 8]><asset:javascript src="html5shiv.js"/><asset:stylesheet src="ie8.css"/><![endif]-->
 	<style>
 		p {
-		  border: 2px solid #e5e1e1;
-		  background-color: #007FFF;
+		  border: 2px solid #fb7b77;
 		  border-width: 2px;
 		  margin: 5px;
 		  padding: 10px;
+		  background-color: #ffffff;
 		}
 		
 		.button {
@@ -152,22 +152,22 @@
 												<div class="6u">
 														<section class="box">
 														<header>
-														<span style="font-size:35px;color:#1d10d2">${videosInstance.name}</span>
+														<span style="font-size:35px;color:#000000">${videosInstance.name}</span>
 														</header>
 														<br><br>
-														<p style="font-size:20px;color:#ffffff;">Description: ${videosInstance.description}</p>
+														<p style="font-size:20px;color:#000000;">Description: ${videosInstance.description}</p>
 														<br><br>
 														<g:if test="${videosInstance.category}">
-														<p style="font-size:20px;color:#1d10d2;">Category: <g:link action="show" controller="category" id="${videosInstance.category.id}"><span style="font-size:20px;color:#1d10d2">${videosInstance.category.name}</span></g:link></p>
+														<p style="font-size:20px;color:#000000;">Category: <g:link action="show" controller="category" id="${videosInstance.category.id}"><span style="font-size:20px;color:#000000">${videosInstance.category.name}</span></g:link></p>
 														<br><br>
 														<g:if test="${videosInstance.products}">
-														<p style="font-size:20px;color:#1d10d2;">Product: <g:link action="show" controller="products" id="${videosInstance.products.id}"><span style="font-size:20px;color:#1d10d2">${videosInstance.products.name}</span></g:link></p>
+														<p style="font-size:20px;color:#000000;">Product: <g:link action="show" controller="products" id="${videosInstance.products.id}"><span style="font-size:20px;color:#000000">${videosInstance.products.name}</span></g:link></p>
 														<br><br>
 														</g:if>
 													
 														</g:if>
 													
-														<button class="button"><g:link controller="videos" action="show" id="${videosInstance.id}"><span style="color:#1d10d2;">Watch the video...</span></g:link></button>
+														<button class="button"><g:link controller="videos" action="show" id="${videosInstance.id}"><span style="color:#feff00;">Watch the video...</span></g:link></button>
 														</section>
 												</div>
 												<div class="6u">

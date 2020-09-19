@@ -230,7 +230,7 @@
 													  </ul>
 													  <div id="tabs-1">
 													  
-													  	<p><span style="color:#1d10d2;font-size:20px;"><br><br>My name is Erika Tovar. I was born and raised in Los Angeles Ca. I am a Holistic Practitioner. I healed my own traumas through my practice of yoga, meditation and art. Children and play have been a huge part of my healing.
+													  	<p><span style="color:#000000;font-size:20px;"><br><br>My name is Erika Tovar. I was born and raised in Los Angeles Ca. I am a Holistic Practitioner. I healed my own traumas through my practice of yoga, meditation and art. Children and play have been a huge part of my healing.
 <br><br>
 My passion is helping and servicing the community by offering my holistic healings services: yoga, meditation, Art therapy, food and other things I create for the community.
 <br><br>
@@ -252,7 +252,7 @@ Namaste, Loverth, Erika</span></p>
 													  </div>
 													  <div id="tabs-2">
 													  
-													    <p><span style="color:#1d10d2;font-size:20px;"><br><br>
+													    <p><span style="color:#000000;font-size:20px;"><br><br>
 													    Loverth is is a platform where entrepreneurs can sell their products and express themselves to be their authentic divine self. It is a place to grow spiritually, globally and fulfillment of abundance.
 <br><br>
 It is a firm foundation to build your business with so much bliss.
@@ -271,7 +271,8 @@ Allow yourself heal & grow with Loverth.
 <br><br>
 Love & Light, Loverth
 <br><br>
-													    <p><g:link class="list" action="index" controller="Category"><span style="color:#1d10d2;font-size:20px;">Product Categories.</span></g:link></p><br><p><g:link class="list" action="index" controller="BlogCategory"><span style="color:#1d10d2;font-size:20px;">Blog Categories.</span></g:link></p> </span></p>
+													    <p><g:link class="list" action="index" controller="Category"><span style="color:#000000;font-size:20px;">Product Categories.</span></g:link></p>
+													    <br><p><g:link class="list" action="index" controller="BlogCategory"><span style="color:#000000;font-size:20px;">Blog Categories.</span></g:link></p> </span></p>
 													  	
 													  </div>
 													  <div id="tabs-3">
@@ -292,8 +293,8 @@ Love & Light, Loverth
 													  </div>
 													  <div id="tabs-4">
 													  <br><br><br>
-													    <p><span style="color:#1d10d2;font-size:20px;"><g:link action="register" controller="register"><span style="color:#1d10d2">Register now.</span></g:link></span></p>
-														<p><span style="color:#1d10d2;font-size:20px;"><g:link action="forgotPassword" controller="register"><span style="color:#1d10d2">Forgot Password.</span></g:link></span></p>
+													    <p><span style="color:#000000;font-size:20px;"><g:link action="register" controller="register"><span style="color:#000000">Register now.</span></g:link></span></p>
+														<p><span style="color:#000000;font-size:20px;"><g:link action="forgotPassword" controller="register"><span style="color:#000000">Forgot Password.</span></g:link></span></p>
 																
 													  </div>
 													  
