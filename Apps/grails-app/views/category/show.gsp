@@ -40,7 +40,6 @@
 		<!--[if lte IE 8]><asset:javascript src="html5shiv.js"/><asset:stylesheet src="ie8.css"/><![endif]-->
 		<style>
 		p {
-		  border: 2px solid #fb7b77;
 		  background-color: #ffffff;
 		  border-width: 2px;
 		  margin: 5px;
