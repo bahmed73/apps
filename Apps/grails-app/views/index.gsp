@@ -172,6 +172,13 @@
 						  <ol class="carousel-indicators">
 						    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
 						    <li data-target="#myCarousel" data-slide-to="1"></li>
+						    <li data-target="#myCarousel" data-slide-to="2"></li>
+						    <li data-target="#myCarousel" data-slide-to="3"></li>
+						    <li data-target="#myCarousel" data-slide-to="4"></li>
+						    <li data-target="#myCarousel" data-slide-to="5"></li>
+						    <li data-target="#myCarousel" data-slide-to="6"></li>
+						    <li data-target="#myCarousel" data-slide-to="7"></li>
+						    <li data-target="#myCarousel" data-slide-to="8"></li>
 						    						    
 						  </ol>
 
@@ -180,6 +187,34 @@
 						    <div class="item active">
 						      <asset:image src="loverth.png"/>
 						    </div>
+						    
+						    <div class="item">
+						    <asset:image src="loverth-banner-1.png"/>
+						      </div>
+						    
+						    <div class="item">
+						    <asset:image src="loverth-banner-2.png"/>
+						      </div>
+						    
+						    <div class="item">
+						    <asset:image src="loverth-banner-3.png"/>
+						      </div>
+						    
+						    <div class="item">
+						    <asset:image src="loverth-banner-4.png"/>
+						      </div>
+						    
+						    <div class="item">
+						    <asset:image src="loverth-banner-5.png"/>
+						      </div>
+						    
+						    <div class="item">
+						    <asset:image src="loverth-banner-6.png"/>
+						      </div>
+						    
+						    <div class="item">
+						    <asset:image src="loverth-banner-7.png"/>
+						      </div>
 						    
 						    <div class="item">
 						    <asset:image src="loverth-2.png"/>
@@ -222,79 +257,71 @@
 									<div>
 										<div id="tabs">
 													  <ul>
-													    <li><a href="#tabs-1">Home</a></li>
-													    <li><a href="#tabs-2">Products and Blogs</a></li>
-													    <li><a href="#tabs-3">Search</a></li>
-													    <li><a href="#tabs-4">Sign up!</a></li>
+													    <li><a href="#tabs-1">About</a></li>
+													    <li><a href="#tabs-2">Price Plans</a></li>
+													    <li><a href="#tabs-3">Problem?</a></li>
+													    <li><a href="#tabs-4">Features</a></li>
 													    
 													  </ul>
 													  <div id="tabs-1">
 													  
-													  	<p><span style="color:#000000;font-size:20px;"><br><br>My name is Erika Tovar. I was born and raised in Los Angeles Ca. I am a Holistic Practitioner. I healed my own traumas through my practice of yoga, meditation and art. Children and play have been a huge part of my healing.
-<br><br>
-My passion is helping and servicing the community by offering my holistic healings services: yoga, meditation, Art therapy, food and other things I create for the community.
-<br><br>
-I am a yoga & meditation teacher, A Holistic Transformation Life Coach, Artist and a performer but most importantly I am a grandma to two handsome little boys that I am so in love with. I worked as a behaviorist for 19 years with children in the Autism Spectrum & other diagnoses. I’ve been teaching yoga to the community for three years. All my students hold a special place in my heart.
-<br><br>
-I am the most blissful and happiest when I helping others, creating , performing and engaging with children.
-<br><br>
-My goal is to bring healing to the community and help others heal by decolonize their mind, body and soul with love and bring light & happiness into peoples lives.
-<br><br>
-I would love to help you start your healing & transformation journey in the most holistic loving way. To heal all parts as a whole is self love.
-<br><br>
-I look forward to connecting with you and your community in a more personal level.
-<br><br>
-To heal all parts as a whole is self love.
-<br><br>
-Namaste, Loverth, Erika</span></p>
+													  	<p><span style="color:#000000;font-size:20px;"><br><br>Platform for artists and art galleries:
+													  	<br><br>
+● Buy and Sell art.<br>
+● E-commerce enabled website, desktop and mobile applications.<br>
+● Supply Chain Software, social network to help connect artists and art galleries.<br>
+● Content Management System, to store product information and categories,
+blogs to describe the products and their categories.<br>
+● Photos and videos to describe details on the artists and art galleries.<br>
+● On touch sale, checkout from your product profile page, credit card
+transactions directly to your business bank account.<br>
+</span></p>
 													  	
 													    <br><br>
 													  </div>
 													  <div id="tabs-2">
 													  
 													    <p><span style="color:#000000;font-size:20px;"><br><br>
-													    Loverth is is a platform where entrepreneurs can sell their products and express themselves to be their authentic divine self. It is a place to grow spiritually, globally and fulfillment of abundance.
-<br><br>
-It is a firm foundation to build your business with so much bliss.
-<br><br>
-Loverth products come in three different categories: art, clothes& accessories
-<br><br>
-Art pieces ( originals/prints and coloring meditation book.
-<br><br>
-Art Clothing coming soon
-<br><br>
-Accessories, body jewelry & earth Gems
-<br><br>
-All Loverth products are made with love and carry the healing energy of artist & healer Erika Tovar.
-<br><br>
-Allow yourself heal & grow with Loverth.
-<br><br>
-Love & Light, Loverth
-<br><br>
-													    <p><g:link class="list" action="index" controller="Category"><span style="color:#000000;font-size:20px;">Product Categories.</span></g:link></p>
-													    <br><p><g:link class="list" action="index" controller="BlogCategory"><span style="color:#000000;font-size:20px;">Blog Categories.</span></g:link></p> </span></p>
+													    Artists:<br><br>
+● Plan A - Use Loverth to sell your art,
+pay fee for using the platform and
+commission on a sale.<br>
+● Plan B - Use Art Gallery, to sell your
+art.<br>
+● Plan C = Plan A + Plan B<br><br>
+Art Galleries:<br><br>
+1. Use Loverth to sell art online, pay
+monthly fee and also commission on
+sale.<br></p> </span></p>
 													  	
 													  </div>
 													  <div id="tabs-3">
-													    <br><br><br><br>
-													    <g:form action="search" controller="products" method="post">
-													    <fieldset>
-													    <g:field name="search" value=""/>
-													    </fieldset>
-													    <br><br>
-													    <fieldset class="buttons">
-													    <span style="color:#000000">
-										                    <g:submitButton name="searchButton" value="Search" />
-										                    </span>
-										                </fieldset>
-													    </g:form>
-														<br><br>
-													  	
+													    <p><span style="color:#000000;font-size:20px;"><br><br>
+													    Problem?<br><br>
+Artists • Art Galleries<br><br>
+Artists and art galleries are not
+technical, hence it’s difficult to sell
+art online. Instagram, Facebook and
+many other photo tools make art
+obsolete, hence we are here to solve
+that problem by helping artists sell
+art.<br></p> </span></p>													  	
 													  </div>
 													  <div id="tabs-4">
-													  <br><br><br>
-													    <p><span style="color:#000000;font-size:20px;"><g:link action="register" controller="register"><span style="color:#000000">Register now.</span></g:link></span></p>
-														<p><span style="color:#000000;font-size:20px;"><g:link action="forgotPassword" controller="register"><span style="color:#000000">Forgot Password.</span></g:link></span></p>
+													  
+													    <p><span style="color:#000000;font-size:20px;"><br><br>
+													    Features:
+													  	<br><br>
+													    ● Social media.<br>
+● Analytics.<br>
+● E-commerce enabled.<br>
+● One click buy.<br>
+● Sales dashboard.<br>
+● Customer management.<br>
+● Build online store with
+persona.<br>
+● Supply chain software, artist ->
+art gallery.<br></span></p>
 																
 													  </div>
 													  
