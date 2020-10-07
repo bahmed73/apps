@@ -3,13 +3,15 @@
 				<!-- Footer -->
 						<a href="/"><asset:image src="logo-150.jpg" width="150px" height="150px"/></a>
 						<br><br>
+						<section>
+									<header>
+										<h2><g:link action="show" controller="blog" id="35">Contact Information:</g:link></h2>
+									</header>
+								</section>
 						
 						<div class="row">
 							<div class="4u">
 								<section>
-									<header>
-										<h2><g:link action="show" controller="blog" id="35">Contact</g:link></h2>
-									</header>
 									<!--  <ul class="social">-->
 										<!--  <li><a class="fa fa-facebook solo" href="https://www.facebook.com/foodalCo/"><span>Facebook</span></a></li>
 										<li><a class="fa fa-twitter solo" href="https://twitter.com/foodal_"><span>Twitter</span></a></li>
@@ -23,6 +25,9 @@
 										</li>
 										<li>
 										<a href="https://www.youtube.com/channel/UCFb2Mbd2MXF1AXwnCLCCPvg" target="_blank"><h3>On YouTube</h3></a></li>
+										<li>
+										<a href="https://angel.co/company/loverth" target="_blank"><h3>Loverth on Angellist - Angel Investor network</h3></a></li>
+										
 									</ul>
 								</section>
 								
@@ -36,10 +41,9 @@
 										<li>
 										<h3>(323) 915-0068</h3></li>
 										<li>
-										<a href="https://www.facebook.com/loverth.shop.erika" target="_blank"><h3>Loverth on Facebook</h3></a>
-										<br>
+										<a href="https://www.facebook.com/loverth.shop.erika" target="_blank"><h3>Loverth on Facebook</h3></a></li>
+										<li>
 										<a href="https://www.f6s.com/loverthshop" target="_blank"><h3>Loverth on F6s - Entrepreneurship network</h3></a>
-										<br>
 										</li>
 										
 									</ul>
@@ -51,13 +55,9 @@
 							<section>
 									<ul class="divided">
 									<li>
-										<a href="https://www.instagram.com/holisticyogila/" target="_blank"><h3>Erika Tovar Instagram</h3></a>
-										<br>
-										<a href="https://www.linkedin.com/company/loverth/" target="_blank"><h3>Loverth on Linkedin</h3></a>
-										<br>
-										<a href="https://angel.co/company/loverth" target="_blank"><h3>Loverth on Angellist - Angel Investor network</h3></a>
-										<br>
-										</li>
+										<a href="https://www.instagram.com/holisticyogila/" target="_blank"><h3>Erika Tovar Instagram</h3></a></li>
+										<li>
+										<a href="https://www.linkedin.com/company/loverth/" target="_blank"><h3>Loverth on Linkedin</h3></a></li>
 										<li>&copy; 2020 loverth.shop 	</li>
 									</ul>
 								</section>

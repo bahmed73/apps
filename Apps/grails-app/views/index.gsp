@@ -259,9 +259,7 @@
 													  <ul>
 													    <li><a href="#tabs-1">About</a></li>
 													    <li><a href="#tabs-2">Price Plans</a></li>
-													    <li><a href="#tabs-3">Problem?</a></li>
-													    <li><a href="#tabs-4">Features</a></li>
-													    
+													    <li><a href="#tabs-3">Team</a></li>
 													  </ul>
 													  <div id="tabs-1">
 													  
@@ -273,15 +271,38 @@
 ● Content Management System, to store product information and categories,
 blogs to describe the products and their categories.<br>
 ● Photos and videos to describe details on the artists and art galleries.<br>
-● On touch sale, checkout from your product profile page, credit card
+● One touch sale, checkout from your product profile page, credit card
 transactions directly to your business bank account.<br>
 </span></p>
 													  	
-													    <br><br>
+													    <p><span style="color:#000000;font-size:20px;"><br>
+													    Features:
+													  	<br><br>
+													    ● Social media.<br>
+● Analytics.<br>
+● E-commerce enabled.<br>
+● One click buy.<br>
+● Sales dashboard.<br>
+● Customer management.<br>
+● Build online store with
+persona.<br>
+● Supply chain software, artist ->
+art gallery.<br></span></p>
+													    
 													  </div>
 													  <div id="tabs-2">
-													  
 													    <p><span style="color:#000000;font-size:20px;"><br><br>
+													    Problem?<br><br>
+Artists • Art Galleries<br><br>
+Artists and art galleries are not
+technical, hence it’s difficult to sell
+art online. Instagram, Facebook and
+many other photo tools make art
+obsolete, hence we are here to solve
+that problem by helping artists sell
+art. We build social media tools.</span></p>										
+													  
+													    <p><span style="color:#000000;font-size:20px;"><br>
 													    Artists:<br><br>
 ● Plan A - Use Loverth to sell your art,
 pay fee for using the platform and
@@ -297,34 +318,39 @@ sale.<br></p> </span></p>
 													  </div>
 													  <div id="tabs-3">
 													    <p><span style="color:#000000;font-size:20px;"><br><br>
-													    Problem?<br><br>
-Artists • Art Galleries<br><br>
-Artists and art galleries are not
-technical, hence it’s difficult to sell
-art online. Instagram, Facebook and
-many other photo tools make art
-obsolete, hence we are here to solve
-that problem by helping artists sell
-art.<br></p> </span></p>													  	
+													    Team:<br><br>
+Erika Tovar • CEO<br><br>
+Hi my name is Erika Tovar. I am the CEO of Loverth. I am an artist, designer and holistic practitioner.  I was a behavioral therapist for children in the autism spectrum for 19 years. I created Loverth platform to sell my products and to collaborate with other new entrepreneurs, Artists and small businesses like mine. Loverth platform is a platform where others can create, express, expand, sell, network, build your online shop, collaborate & connects with other holistic businesses online and through social media. 
+<br><br>
+Our goal is to build a holistic business community network platform that will bring holistic healing to communities nationwide. Please contact me!<br><br>
+
+Bilal Ahmed • CTO<br><br>
+Bilal Ahmed is our CTO. He is a brilliant software engineer. I am honored to have him on our Loverth team. 
+<br><br>
+Full Stack Developer: Novell Internet Web Server 1996, Lockheed Martin NASA International Space Station 1997 - 2003, 2005 - 2008 hi5 (multimedia lead); 2008 bebo (analytics); 2010 mytweetmark (Founder with social algorithms with Foundersspace); 2012 Saas Markets (architecture grails); 2013 Wells Fargo Bank (lead 15+ developers); 2014 GearLaunch (architecture, dev, agile), 2015 Federal Home Loan Bank (architecture, 25+ engineers), Foodal 2018 (Founders Institute 2017), GAP Tech and Scrum lead 2019, Intuit Turbo Tax Software Security Engineer IV 2019, Shop and Loverth 2020.
+<br><br>
+Currently, working on shop and loverth, building agile development and lean startup tools for startup incubators. 
+<br><br>
+
+AZ Zaidi • CPO<br><br>
+Meet AZ Zaidi our CPO. His work is authentic. He makes sure the message is clear, direct and empowering. I am honored to have AZ on our Loverth team. 
+<br><br> 
+
+I focus on Message, live in Refinement, empower Communications & Deliver ROI. My Product-Focus naturally inclines towards identifying Risks and Developing Strategy. I provide unconventional outreach/ resolution, Community Management, UNconference, and training, while leveraging available resources.
+<br><br>
+
+Vasanth Sabavath • CSO<br><br>
+Vasanth Sabavath CSO is an amazing partner to have on our Loverth team.
+<br><br>
+
+Positive Thinker | Adaptable | Google India -Udacity Scholar | Infectiously Enthusiastic | Explorer|
+<br><br>
+
+An avid reader of Business and Success Principles books, I'm extremely hard working, Intrinsically motivated but operate with a deep sense of humility and gratitude. I am observant and intrigued by the unique traits and contributions of people around me, and the untapped talent of them, that can be extracted  through encouragement. Successfully completed Startup India Learning Program and part of International Society of Research & Development.
+
+</p> </span></p>													  	
 													  </div>
-													  <div id="tabs-4">
-													  
-													    <p><span style="color:#000000;font-size:20px;"><br><br>
-													    Features:
-													  	<br><br>
-													    ● Social media.<br>
-● Analytics.<br>
-● E-commerce enabled.<br>
-● One click buy.<br>
-● Sales dashboard.<br>
-● Customer management.<br>
-● Build online store with
-persona.<br>
-● Supply chain software, artist ->
-art gallery.<br></span></p>
-																
-													  </div>
-													  
+													  													  
 													</div>												
 
 												
