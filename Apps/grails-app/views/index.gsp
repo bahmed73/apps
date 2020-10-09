@@ -180,6 +180,7 @@
 						    <li data-target="#myCarousel" data-slide-to="7"></li>
 						    <li data-target="#myCarousel" data-slide-to="8"></li>
 						    <li data-target="#myCarousel" data-slide-to="9"></li>
+						    <li data-target="#myCarousel" data-slide-to="10"></li>
 						    						    
 						  </ol>
 
@@ -219,6 +220,10 @@
 						    
 						    <div class="item">
 						    <asset:image src="shop.png"/>
+						      </div>
+						    
+						    <div class="item">
+						    <asset:image src="loverth-team.png"/>
 						      </div>
 						    
 						    <div class="item">
