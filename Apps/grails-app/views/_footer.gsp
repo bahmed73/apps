@@ -58,7 +58,7 @@
 										<li>
 										<a href="https://www.linkedin.com/company/loverth/" target="_blank"><h3>Loverth on Linkedin</h3></a></li>
 										<li>&copy; 2020 loverth.shop 	</li>
-										<li>Powered by Shop. <a href="http://taote.shop" target="_blank"><asset:image src="logoshop5.png" width="150px" height="150px"/></a></li>
+										<li><a href="http://taote.shop" target="_blank">Powered by Shop. <asset:image src="logoshop5.png" width="150px" height="150px"/></a></li>
 						<br><br>
 										
 									</ul>
