@@ -181,6 +181,9 @@
 						    <li data-target="#myCarousel" data-slide-to="8"></li>
 						    <li data-target="#myCarousel" data-slide-to="9"></li>
 						    <li data-target="#myCarousel" data-slide-to="10"></li>
+						    <li data-target="#myCarousel" data-slide-to="11"></li>
+						    <li data-target="#myCarousel" data-slide-to="12"></li>
+						    <li data-target="#myCarousel" data-slide-to="13"></li>
 						    						    
 						  </ol>
 
@@ -224,6 +227,18 @@
 						    
 						    <div class="item">
 						    <asset:image src="loverth-team.png"/>
+						      </div>
+						    
+						    <div class="item">
+						    <asset:image src="banner.png"/>
+						      </div>
+						    
+						    <div class="item">
+						    <asset:image src="banner-user.png"/>
+						      </div>
+						    
+						    <div class="item">
+						    <asset:image src="banner-bitch.png"/>
 						      </div>
 						    
 						    <div class="item">
@@ -273,14 +288,16 @@
 													  </ul>
 													  <div id="tabs-1">
 													  
-													  	<p><span style="color:#000000;font-size:20px;"><br><br>Platform for artists and art galleries:
+													  	<p><span style="color:#000000;font-size:20px;"><br><br>Launchpad for entrepreneurs:
 													  	<br><br>
-● Buy and Sell art.<br>
+● Please let us help you, launch your million dollar startup idea.<br>
+● Launch a shop.<br>
+● Buy and Sell products.<br>
 ● E-commerce enabled website, desktop and mobile applications.<br>
-● Supply Chain Software, social network to help connect artists and art galleries.<br>
+● Supply Chain Software, social network to help connect entrepreneurs and their shops.<br>
 ● Content Management System, to store product information and categories,
 blogs to describe the products and their categories.<br>
-● Photos and videos to describe details on the artists and art galleries.<br>
+● Photos and videos to describe details on the entrepreneurs and their shops.<br>
 ● One touch sale, checkout from your product profile page, credit card
 transactions directly to your business bank account.<br>
 </span></p>
@@ -296,13 +313,13 @@ transactions directly to your business bank account.<br>
 ● Customer management.<br>
 ● Build online store with
 persona.<br>
-● Supply chain software, artist ->
-art gallery.<br></span></p>
+● Supply chain software, entrepreneurs ->
+shops.<br></span></p>
 													    
 													  </div>
 													  <div id="tabs-2">
 													    <p><span style="color:#000000;font-size:20px;"><br><br>
-													    Problem?<br><br>
+													    Problem? An example: <br><br>
 Artists • Art Galleries<br><br>
 Artists and art galleries are not
 technical, hence it’s difficult to sell
@@ -323,7 +340,14 @@ art.<br>
 Art Galleries:<br><br>
 1. Use Loverth to sell art online, pay
 monthly fee and also commission on
-sale.<br></p> </span></p>
+sale.<br><br>
+Entrepreneurs:<br><br>
+● Plan A - Allow shop to build a store for you with agile development.<br>
+● Plan B - Allow shop to market you with lean startup, customer development.<br>
+● Plan C = Plan A + Plan B<br><br>
+Consulting:<br><br>
+1. Hourly consultation, $150 / hour, product development, project management, sales and business.<br>
+</p> </span></p>
 													  	
 													  </div>
 													  <div id="tabs-3">
