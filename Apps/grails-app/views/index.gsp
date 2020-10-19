@@ -238,7 +238,7 @@
 						      </div>
 						    
 						    <div class="item">
-						    <asset:image src="banner-bitch.png"/>
+						    <asset:image src="banner-pixel.png"/>
 						      </div>
 						    
 						    <div class="item">
@@ -286,7 +286,9 @@
 													    <li><a href="#tabs-2">Price Plans</a></li>
 													    <li><a href="#tabs-3">Team</a></li>
 													  </ul>
-													  <div id="tabs-1">
+													  <div id="tabs-1" style="border: 5px #fdfaaa;
+		  border-width: 5px;
+		  background-color: #f9e8ee;">
 													  
 													  	<p><span style="color:#000000;font-size:20px;"><br><br>Launchpad for entrepreneurs:
 													  	<br><br>
@@ -317,7 +319,9 @@ persona.<br>
 shops.<br></span></p>
 													    
 													  </div>
-													  <div id="tabs-2">
+													  <div id="tabs-2" style="border: 5px #fdfaaa;
+		  border-width: 5px;
+		  background-color: #f9e8ee;">
 													    <p><span style="color:#000000;font-size:20px;"><br><br>
 													    Problem? An example: <br><br>
 Artists • Art Galleries<br><br>
@@ -347,10 +351,12 @@ Entrepreneurs:<br><br>
 ● Plan C = Plan A + Plan B<br><br>
 Consulting:<br><br>
 1. Hourly consultation, $150 / hour, product development, project management, sales and business.<br>
-</p> </span></p>
+</span></p>
 													  	
 													  </div>
-													  <div id="tabs-3">
+													  <div id="tabs-3" style="border: 5px #fdfaaa;
+		  border-width: 5px;
+		  background-color: #f9e8ee;">
 													    <p><span style="color:#000000;font-size:20px;"><br><br>
 													    Team:<br><br>
 Erika Tovar • CEO<br><br>
