@@ -388,7 +388,7 @@ Positive Thinker | Adaptable | Google India -Udacity Scholar | Infectiously Enth
 
 An avid reader of Business and Success Principles books, I'm extremely hard working, Intrinsically motivated but operate with a deep sense of humility and gratitude. I am observant and intrigued by the unique traits and contributions of people around me, and the untapped talent of them, that can be extracted  through encouragement. Successfully completed Startup India Learning Program and part of International Society of Research & Development.
 
-</p> </span></p>													  	
+</span></p>													  	
 													  </div>
 													  													  
 													</div>												

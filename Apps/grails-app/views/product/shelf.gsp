@@ -167,6 +167,9 @@
 												<li><button class="button"><span style="color:#feff00"><g:link url="/"><span style="color:#feff00">Home</span></g:link></span></button></li>
 												<li><button class="button"><span style="color:#ffffff"><g:link controller="user" action="index"><span style="color:#feff00">Users</span></g:link></span></button></li>
 												<li><button class="button"><span style="color:#ffffff"><g:link controller="checkout" action="index"><span style="color:#feff00">Checkouts</span></g:link></span></button></li>
+												<li><button class="button"><span style="color:#ffffff"><g:link controller="product" action="sales"><span style="color:#feff00">Sales</span></g:link></span></button></li>
+												<li><button class="button"><span style="color:#ffffff"><g:link controller="product" action="analytics"><span style="color:#feff00">Analytics</span></g:link></span></button></li>
+												
 												<li><button class="button"><span style="color:#feff00"><g:form controller="logout">                        
     													<g:submitButton name="logout" value="Logout" />
 													</g:form></span></button></li>
