@@ -181,9 +181,6 @@
 						    <li data-target="#myCarousel" data-slide-to="8"></li>
 						    <li data-target="#myCarousel" data-slide-to="9"></li>
 						    <li data-target="#myCarousel" data-slide-to="10"></li>
-						    <li data-target="#myCarousel" data-slide-to="11"></li>
-						    <li data-target="#myCarousel" data-slide-to="12"></li>
-						    <li data-target="#myCarousel" data-slide-to="13"></li>
 						    						    
 						  </ol>
 
@@ -227,18 +224,6 @@
 						    
 						    <div class="item">
 						    <asset:image src="loverth-team.png"/>
-						      </div>
-						    
-						    <div class="item">
-						    <asset:image src="banner.png"/>
-						      </div>
-						    
-						    <div class="item">
-						    <asset:image src="banner-user.png"/>
-						      </div>
-						    
-						    <div class="item">
-						    <asset:image src="banner-pixel.png"/>
 						      </div>
 						    
 						    <div class="item">
@@ -324,27 +309,26 @@ shops.<br></span></p>
 		  background-color: #f9e8ee;">
 													    <p><span style="color:#000000;font-size:20px;"><br><br>
 													    Problem? An example: <br><br>
-Artists • Art Galleries<br><br>
-Artists and art galleries are not
+Artists • Garments<br><br>
+Artists and garment shops are not
 technical, hence it’s difficult to sell
 art online. Instagram, Facebook and
 many other photo tools make art
 obsolete, hence we are here to solve
-that problem by helping artists sell
-art. We build social media tools.</span></p>										
+that problem by helping artists and garment shops sell
+art and clothing. We build social media tools and use our own supply chain software to solve problems with sales inventory and season catalogs.</span></p>										
 													  
 													    <p><span style="color:#000000;font-size:20px;"><br>
 													    Artists:<br><br>
 ● Plan A - Use Loverth to sell your art,
 pay fee for using the platform and
 commission on a sale.<br>
-● Plan B - Use Art Gallery, to sell your
-art.<br>
+● Plan B - Build your own art shop.<br>
 ● Plan C = Plan A + Plan B<br><br>
-Art Galleries:<br><br>
-1. Use Loverth to sell art online, pay
+Garments:<br><br>
+1. Use Loverth to sell garments online, pay
 monthly fee and also commission on
-sale.<br><br>
+sale or build your own garments shop.<br><br>
 Entrepreneurs:<br><br>
 ● Plan A - Allow shop to build a store for you with agile development.<br>
 ● Plan B - Allow shop to market you with lean startup, customer development.<br>
