@@ -172,15 +172,6 @@
 						  <ol class="carousel-indicators">
 						    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
 						    <li data-target="#myCarousel" data-slide-to="1"></li>
-						    <li data-target="#myCarousel" data-slide-to="2"></li>
-						    <li data-target="#myCarousel" data-slide-to="3"></li>
-						    <li data-target="#myCarousel" data-slide-to="4"></li>
-						    <li data-target="#myCarousel" data-slide-to="5"></li>
-						    <li data-target="#myCarousel" data-slide-to="6"></li>
-						    <li data-target="#myCarousel" data-slide-to="7"></li>
-						    <li data-target="#myCarousel" data-slide-to="8"></li>
-						    <li data-target="#myCarousel" data-slide-to="9"></li>
-						    <li data-target="#myCarousel" data-slide-to="10"></li>
 						    						    
 						  </ol>
 
@@ -189,43 +180,7 @@
 						    <div class="item active">
 						      <asset:image src="loverth.png"/>
 						    </div>
-						    
-						    <div class="item">
-						    <asset:image src="loverth-banner-1.png"/>
-						      </div>
-						    
-						    <div class="item">
-						    <asset:image src="loverth-banner-2.png"/>
-						      </div>
-						    
-						    <div class="item">
-						    <asset:image src="loverth-banner-3.png"/>
-						      </div>
-						    
-						    <div class="item">
-						    <asset:image src="loverth-banner-4.png"/>
-						      </div>
-						    
-						    <div class="item">
-						    <asset:image src="loverth-banner-5.png"/>
-						      </div>
-						    
-						    <div class="item">
-						    <asset:image src="loverth-banner-6.png"/>
-						      </div>
-						    
-						    <div class="item">
-						    <asset:image src="loverth-banner-7.png"/>
-						      </div>
-						    
-						    <div class="item">
-						    <asset:image src="shop.png"/>
-						      </div>
-						    
-						    <div class="item">
-						    <asset:image src="loverth-team.png"/>
-						      </div>
-						    
+						    						    
 						    <div class="item">
 						    <asset:image src="loverth-2.png"/>
 						      </div>
@@ -250,8 +205,7 @@
 								<!-- Nav -->
 										<nav id="nav">
 											<ul> 
-												<li><button class="button"><span style="color:#ffffff"><g:link controller="category" action="index"><span style="color:#feff00">Products</span></g:link></span></button></li>
-												<li><button class="button"><span style="color:#ffffff"><g:link class="list" action="index" controller="blogCategory"><span style="color:#feff00">Blogs</span></g:link></span></button></li>
+												<li><button class="button"><span style="color:#ffffff"><g:link controller="category" action="index"><span style="color:#feff00">Catalog</span></g:link></span></button></li>
 												<li><button class="button"><span style="color:#ffffff"><g:link controller="product" action="shelf"><span style="color:#feff00">Dashboard</span></g:link></span></button></li>
 												<br><br>
 												 
@@ -275,16 +229,15 @@
 		  border-width: 5px;
 		  background-color: #f9e8ee;">
 													  
-													  	<p><span style="color:#000000;font-size:20px;"><br><br>Launchpad for entrepreneurs:
+													  	<p><span style="color:#000000;font-size:20px;"><br><br>Launchpad for clothing distributors:
 													  	<br><br>
 ● Please let us help you, launch your million dollar startup idea.<br>
-● Launch a shop.<br>
+● Launch a garments shop.<br>
 ● Buy and Sell products.<br>
 ● E-commerce enabled website, desktop and mobile applications.<br>
-● Supply Chain Software, social network to help connect entrepreneurs and their shops.<br>
-● Content Management System, to store product information and categories,
-blogs to describe the products and their categories.<br>
-● Photos and videos to describe details on the entrepreneurs and their shops.<br>
+● Supply Chain Software, social network to help connect distributors and their shops.<br>
+● Content Management System, to store product information and catalog.<br>
+● Photos and videos to describe details on the catalog, products and their shops.<br>
 ● One touch sale, checkout from your product profile page, credit card
 transactions directly to your business bank account.<br>
 </span></p>
@@ -300,7 +253,7 @@ transactions directly to your business bank account.<br>
 ● Customer management.<br>
 ● Build online store with
 persona.<br>
-● Supply chain software, entrepreneurs ->
+● Supply chain software, clothing distributors ->
 shops.<br></span></p>
 													    
 													  </div>
@@ -309,24 +262,16 @@ shops.<br></span></p>
 		  background-color: #f9e8ee;">
 													    <p><span style="color:#000000;font-size:20px;"><br><br>
 													    Problem? An example: <br><br>
-Artists • Garments<br><br>
-Artists and garment shops are not
+Garments<br><br>
+Garment distributor shops are not
 technical, hence it’s difficult to sell
-art online. Instagram, Facebook and
-many other photo tools make art
+clothing online. GAP, other major stores make local clothing 
 obsolete, hence we are here to solve
-that problem by helping artists and garment shops sell
-art and clothing. We build social media tools and use our own supply chain software to solve problems with sales inventory and season catalogs.</span></p>										
+that problem by helping garment distributors shops sell clothing. We build social media tools and use our own supply chain software to solve problems with sales inventory and season catalogs.</span></p>										
 													  
 													    <p><span style="color:#000000;font-size:20px;"><br>
-													    Artists:<br><br>
-● Plan A - Use Loverth to sell your art,
-pay fee for using the platform and
-commission on a sale.<br>
-● Plan B - Build your own art shop.<br>
-● Plan C = Plan A + Plan B<br><br>
 Garments:<br><br>
-1. Use Loverth to sell garments online, pay
+1. Use us to sell garments online, pay
 monthly fee and also commission on
 sale or build your own garments shop.<br><br>
 Entrepreneurs:<br><br>
