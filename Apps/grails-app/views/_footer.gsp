@@ -1,11 +1,11 @@
 			<div id="footer-wrapper">
 				
 				<!-- Footer -->
-						<a href="/"><asset:image src="logo-150.jpg" width="150px" height="150px"/></a>
+						<a href="/"><asset:image src="logo-150.png" width="150px" height="150px"/></a>
 						<br><br>
 						<section>
 									<header>
-										<h2><g:link action="show" controller="blog" id="35">Contact Information:</g:link></h2>
+										<h2><g:link action="show" controller="blog" id="35">Partners:</g:link></h2>
 									</header>
 								</section>
 						
@@ -57,8 +57,8 @@
 										<a href="https://www.instagram.com/holisticyogila/" target="_blank"><h3>Erika Tovar Instagram</h3></a></li>
 										<li>
 										<a href="https://www.linkedin.com/company/loverth/" target="_blank"><h3>Loverth on Linkedin</h3></a></li>
-										<li>&copy; 2020 loverth.shop 	</li>
-										<li><a href="http://taote.shop" target="_blank">Powered by Shop. <asset:image src="logoshop4.png" width="150px" height="150px"/></a></li>
+										<li>&copy; 2020 ipixel.shop 	</li>
+										<li><a href="http://taote.shop" target="_blank">Powered by Shop. <asset:image src="logoshop5.png" width="150px" height="150px"/></a></li>
 						<br><br>
 										
 									</ul>
