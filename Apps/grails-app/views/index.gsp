@@ -1,12 +1,12 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<meta name="description" content="Garments" />
+		<meta name="description" content="ipixel.shop - garments" />
 <meta name="keywords" content="Garments, Art, Clothing, Jewelry, startup, online store, entrepreneur" />
 <meta http-equiv="window-target" content="_top" />
 <META HTTP-EQUIV="CACHE-CONTROL" CONTENT="PUBLIC">
 	<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
-	<title>Erika Tovar - Loverth.</title>
+	<title>ipixel.shop - garments</title>
 	<asset:stylesheet src="skel-noscript.css"/>
 	<asset:stylesheet src="style.css"/>
 	<asset:stylesheet src="style-desktop.css"/>
