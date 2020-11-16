@@ -5,7 +5,7 @@
 						<br><br>
 						<section>
 									<header>
-										<h2><g:link action="show" controller="blog" id="35">Customer Success Development:</g:link></h2>
+										<h2>Customer Success Development:</h2>
 									</header>
 								</section>
 						

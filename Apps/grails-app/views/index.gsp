@@ -6,7 +6,7 @@
 <meta http-equiv="window-target" content="_top" />
 <META HTTP-EQUIV="CACHE-CONTROL" CONTENT="PUBLIC">
 	<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
-	<title>ipixel.shop - garments</title>
+	<title>bookly.love - Books</title>
 	<asset:stylesheet src="skel-noscript.css"/>
 	<asset:stylesheet src="style.css"/>
 	<asset:stylesheet src="style-desktop.css"/>
@@ -205,7 +205,6 @@
 								<!-- Nav -->
 										<nav id="nav">
 											<ul> 
-												<li><button class="button"><span style="color:#ffffff"><g:link controller="category" action="index"><span style="color:#feff00">Catalog</span></g:link></span></button></li>
 												<li><button class="button"><span style="color:#ffffff"><g:link controller="product" action="shelf"><span style="color:#feff00">Dashboard</span></g:link></span></button></li>
 												<br><br>
 												 
