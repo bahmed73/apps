@@ -1,11 +1,11 @@
 			<div id="footer-wrapper">
 				
 				<!-- Footer -->
-						<a href="/"><asset:image src="logo-150.png" width="150px" height="150px"/></a>
+						<a href="/"><asset:image src="bookly-love-150.png" width="150px" height="150px"/></a>
 						<br><br>
 						<section>
 									<header>
-										<h2><g:link action="show" controller="blog" id="35">Partners:</g:link></h2>
+										<h2><g:link action="show" controller="blog" id="35">Customer Success Development:</g:link></h2>
 									</header>
 								</section>
 						
@@ -54,10 +54,10 @@
 							<section>
 									<ul class="divided">
 									<li>
-										<a href="https://www.instagram.com/holisticyogila/" target="_blank"><h3>Erika Tovar Instagram</h3></a></li>
+										<a href="http://ipixel.shop" target="_blank"><h3>New Shop ipixel.shop!</h3></a></li>
 										<li>
 										<a href="https://www.linkedin.com/company/loverth/" target="_blank"><h3>Loverth on Linkedin</h3></a></li>
-										<li>&copy; 2020 ipixel.shop 	</li>
+										<li>&copy; 2020 bookly.love 	</li>
 										<li><a href="http://taote.shop" target="_blank">Powered by Shop. <asset:image src="logoshop5.png" width="150px" height="150px"/></a></li>
 						<br><br>
 										

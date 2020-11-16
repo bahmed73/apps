@@ -1,8 +1,8 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<meta name="description" content="ipixel.shop - garments" />
-<meta name="keywords" content="Garments, Art, Clothing, Jewelry, startup, online store, entrepreneur" />
+		<meta name="description" content="bookly.love - books" />
+<meta name="keywords" content="Books, Publish, Marketing, pdf, text, images, image, video, photo, distribute, distribution, Garments, Art, Clothing, Jewelry, startup, online store, entrepreneur" />
 <meta http-equiv="window-target" content="_top" />
 <META HTTP-EQUIV="CACHE-CONTROL" CONTENT="PUBLIC">
 	<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
@@ -229,17 +229,13 @@
 		  border-width: 5px;
 		  background-color: #f9e8ee;">
 													  
-													  	<p><span style="color:#000000;font-size:20px;"><br><br>Launchpad for clothing distributors:
+													  	<p><span style="color:#000000;font-size:20px;"><br><br>Bookly.love:
 													  	<br><br>
-● Please let us help you, launch your million dollar startup idea.<br>
-● Launch a garments shop.<br>
-● Buy and Sell products.<br>
-● E-commerce enabled website, desktop and mobile applications.<br>
-● Supply Chain Software, social network to help connect distributors and their shops.<br>
-● Content Management System, to store product information and catalog.<br>
-● Photos and videos to describe details on the catalog, products and their shops.<br>
-● One touch sale, checkout from your product profile page, credit card
-transactions directly to your business bank account.<br>
+Turn your blogs into PDFs, ready to distribute to book distributors, like Amazon, etc.<br>
+Once the book is published, use bookly to market your book, traffic, Google SEO and distribution.<br>
+Use our help to publish to Amazon, Lulu, etc.<br>
+We will utilize Social Media API, application programming language, i.e. Facebook and Twitter, and other social networks to market and distribute our books.<br> 
+Amazon and other distributors don't have access to social media API.<br>
 </span></p>
 													  	
 													    <p><span style="color:#000000;font-size:20px;"><br>
@@ -262,18 +258,16 @@ shops.<br></span></p>
 		  background-color: #f9e8ee;">
 													    <p><span style="color:#000000;font-size:20px;"><br><br>
 													    Problem? An example: <br><br>
-Garments<br><br>
-Garment distributor shops are not
+Books<br><br>
+Book distributors are not
 technical, hence it’s difficult to sell
-clothing online. GAP, other major stores make local clothing 
-obsolete, hence we are here to solve
-that problem by helping garment distributors shops sell clothing. We build social media tools and use our own supply chain software to solve problems with sales inventory and season catalogs.</span></p>										
+books online. Small book distributors take all the exclusive rights and only show the book to a smaller audience for huge price. Amazon helps with self-publish, but is too large and the book gets lost, unless you do social media marketing. We build social media tools and use our own supply chain software to solve problems with sales inventory and season catalogs. We also utilize social media API for traffic generation by keywords, help with Google SEO. We make you famous as a brand with your book! Make you instance Guru on the subject matter. Help advance your career and pay check. Our techniques can be utilized with your existing book branding and marketing.</span></p>										
 													  
 													    <p><span style="color:#000000;font-size:20px;"><br>
-Garments:<br><br>
-1. Use us to sell garments online, pay
+Books:<br><br>
+1. Use us to sell books online, pay
 monthly fee and also commission on
-sale or build your own garments shop.<br><br>
+sale or build your own book shop.<br><br>
 Entrepreneurs:<br><br>
 ● Plan A - Allow shop to build a store for you with agile development.<br>
 ● Plan B - Allow shop to market you with lean startup, customer development.<br>
