@@ -1,12 +1,12 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<meta name="description" content="Erika Tovar - Loverth." />
-<meta name="keywords" content="Art, Clothing, Jewelry, startup, yoga, meditation, logos, online store, books, entrepreneur" />
+		<meta name="description" content="bookly.love - books" />
+<meta name="keywords" content="Books, Publish, Marketing, pdf, text, images, image, video, photo, distribute, distribution, Garments, Art, Clothing, Jewelry, startup, online store, entrepreneur" />
 <meta http-equiv="window-target" content="_top" />
 <META HTTP-EQUIV="CACHE-CONTROL" CONTENT="PUBLIC">
 	<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
-	<title>Erika Tovar - Loverth.</title>
+	<title>bookly.love - Books</title>
 	<asset:stylesheet src="skel-noscript.css"/>
 	<asset:stylesheet src="style.css"/>
 	<asset:stylesheet src="style-desktop.css"/>
@@ -167,8 +167,6 @@
 												<li><button class="button"><span style="color:#feff00"><g:link url="/"><span style="color:#feff00">Home</span></g:link></span></button></li>
 												<li><button class="button"><span style="color:#ffffff"><g:link controller="user" action="index"><span style="color:#feff00">Users</span></g:link></span></button></li>
 												<li><button class="button"><span style="color:#ffffff"><g:link controller="checkout" action="index"><span style="color:#feff00">Checkouts</span></g:link></span></button></li>
-												<li><button class="button"><span style="color:#ffffff"><g:link controller="product" action="sales"><span style="color:#feff00">Sales</span></g:link></span></button></li>
-												<li><button class="button"><span style="color:#ffffff"><g:link controller="product" action="analytics"><span style="color:#feff00">Analytics</span></g:link></span></button></li>
 												
 												<li><button class="button"><span style="color:#feff00"><g:form controller="logout">                        
     													<g:submitButton name="logout" value="Logout" />
@@ -186,8 +184,8 @@
 									<div>
 										<p><span style="color:#000000;font-size:20px;">Dashboard:</span>
 										<p><span style="color:#000000;font-size:18px;">User login is required to access the dashboard.</span></p>
-										<p><span style="color:#000000;font-size:16px;">Create content, product categories, products, blog categories, blogs, photos and videos.</span></p>
-										<p><span style="color:#000000;font-size:16px;">Link photos and videos to product and blog categories, and also products and blogs.</span></p>
+										<p><span style="color:#000000;font-size:16px;">Create content, categories, books and chapters.</span></p>
+										<p><span style="color:#000000;font-size:16px;">Generate PDF. Submit to distributors. Then come back and do social media marketing.</span></p>
 										
 									</div>
 								</section>
@@ -201,26 +199,18 @@
 									<div>
 										<div id="tabs">
 													  <ul>
-													    <li><a href="#tabs-1">Product categories</a></li>
-													    <li><a href="#tabs-2">Products</a></li>
-													    <li><a href="#tabs-3">Photos</a></li>
-													    <li><a href="#tabs-4">Videos</a></li>
-													    <li><a href="#tabs-5">Blog Categories</a></li>
+													    <li><a href="#tabs-1">Categories</a></li>
+													    <li><a href="#tabs-2">Books</a></li>
+													    <li><a href="#tabs-3">Chapters</a></li>
 													  </ul>
 													  <div id="tabs-1">
-													  	<p><g:link class="list" action="index" controller="Category"><span style="color:#000000;font-size:20px;">Product Categories.</span></g:link></p>
+													  	<p><g:link class="list" action="index" controller="blogCategory"><span style="color:#000000;font-size:20px;">Categories.</span></g:link></p>
 													  </div>
 													  <div id="tabs-2">
-													    <p><g:link class="list" action="index" controller="Products"><span style="color:#000000;font-size:20px;">Products.</span></g:link></p>
+													    <p><g:link class="list" action="index" controller="book"><span style="color:#000000;font-size:20px;">Books.</span></g:link></p>
 													  </div>
 													  <div id="tabs-3">
-													    <p><g:link class="list" action="index" controller="Photos"><span style="color:#000000;font-size:20px;">Photos.</span></g:link></p>
-													  </div>
-													  <div id="tabs-4">
-													    <p><g:link class="list" action="index" controller="Videos"><span style="color:#000000;font-size:20px;">Videos.</span></g:link></p>		
-													  </div>
-													  <div id="tabs-5">
-													    <p><g:link class="list" action="index" controller="BlogCategory"><span style="color:#000000;font-size:20px;">Blog Categories.</span></g:link></p>
+													    <p><g:link class="list" action="index" controller="chapter"><span style="color:#000000;font-size:20px;">Chapters.</span></g:link></p>
 													  </div>
 													</div>												
 										
