@@ -28,8 +28,9 @@
             </g:hasErrors>
             <g:form action="save" method="post" enctype="multipart/form-data">
                 <fieldset class="form">
-                    <f:all bean="chapter" except="imageOne, imageTwo, imageThree, description"/>
+                    <f:all bean="chapter" except="imageOne, imageTwo, imageThree, description, book"/>
                 </fieldset>
+                <f:field bean="chapter" property="book" widget-optionValue="name"/>
                 <fieldset style="margin-left:340px;">
                 	<div style="float:left;width:50" class="post"><h4>Description:</h4></div>
                 	<br>

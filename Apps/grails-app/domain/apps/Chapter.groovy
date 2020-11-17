@@ -12,7 +12,8 @@ class Chapter {
 	byte[] imageTwo
 	byte[] imageThree
 	Integer chapterOrder
-
+	Book book
+	
     static constraints = {
                 //id(nullable:true)
                 createTime(nullable:false)
@@ -24,6 +25,7 @@ class Chapter {
 				imageTwo(nullable:true, maxSize: 1024 * 1024 * 2)
 				imageThree(nullable:true, maxSize: 1024 * 1024 * 2)
 				chapterOrder(nullable:true)
+				book(nullable:false)
     }
 
         static mapping = {
