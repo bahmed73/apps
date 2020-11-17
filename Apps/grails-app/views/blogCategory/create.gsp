@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta name="layout" content="main" />
-        <g:set var="entityName" value="${message(code: 'blogCategory.label', default: 'BlogCategory')}" />
+        <g:set var="entityName" value="Category" />
         <title><g:message code="default.create.label" args="[entityName]" /></title>
         <ckeditor:resources/>
     </head>
@@ -36,12 +36,12 @@
               				
               		<div>
                   <ckeditor:editor name="description" height="400px" width="80%">
-                  Write your blog category description here.<br>
+                  Write your category description here.<br>
 					</ckeditor:editor>
               </div>	
                 </fieldset>
                 <fieldset style="margin-left:340px;">
-                	<div style="float:left;width:50" class="post"><h4>Upload Blog Category Image (JPG):</h4></div>
+                	<div style="float:left;width:50" class="post"><h4>Upload Category Image (JPG):</h4></div>
                 	<br>
               				Please be patient while the file uploads.<br>
               		<div>

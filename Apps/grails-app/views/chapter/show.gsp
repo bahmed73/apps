@@ -6,13 +6,10 @@
 <meta http-equiv="window-target" content="_top" />
 <META HTTP-EQUIV="CACHE-CONTROL" CONTENT="PUBLIC">
 	<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
-	<title>bookly.love - Books / Categories</title>
+	<title><f:display bean="chapter" property="name"/></title>
 	<asset:stylesheet src="skel-noscript.css"/>
 	<asset:stylesheet src="style.css"/>
 	<asset:stylesheet src="style-desktop.css"/>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 	
 <LINK REL="SHORTCUT ICON"
        HREF="${createLinkTo(dir:'images', file:'favicon.ico')}">
@@ -38,13 +35,11 @@
 		<!--[if lte IE 8]><asset:javascript src="html5shiv.js"/><asset:stylesheet src="ie8.css"/><![endif]-->
 		<style>
 		p {
-		  border: 2px solid #fb7b77;
 		  border-width: 2px;
 		  margin: 5px;
 		  padding: 10px;
 		  background-color: #ffffff;
 		}
-		
 		.button {
 		  display: inline-block;
 		  padding: 15px 25px;
@@ -70,6 +65,16 @@
 		</style>
 	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
 		  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+		  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-154739766-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-154739766-1');
+</script>
+		  
 	</head>
 	<body class="homepage" onload="testEffect()">
 	<script type="text/javascript">
@@ -77,9 +82,9 @@
 	      // Most effect types need no options passed by default
 	      var options = {};
 	           // Run the effect
-	      $( "#block1" ).effect( "pulsate", options, 500, callback );
-	      $( "#block2" ).effect( "shake", options, 500, callback );
-	      $( "#block3" ).effect( "puff", options, 500, callback );
+	      $( "#block1" ).effect( "bounce", options, 500, callback );
+	      $( "#block2" ).effect( "explode", options, 500, callback );
+	      $( "#block3" ).effect( "pulsate", options, 500, callback );
 	    };
 	 
 	    // Callback function to bring a hidden box back
@@ -91,45 +96,27 @@
 	      }, 1000 );
 	    };
 	</script>
-	
+	<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v5.0&appId=261449270414&autoLogAppEvents=1"></script>
 		<!-- Header Wrapper -->
 			<div id="header-wrapper">
 				<div class="container">
 					
 					<div class="row">
 						<div class="12u">
-						<div id="myCarousel" class="carousel slide" data-ride="carousel">
-  <!-- Indicators -->
-  <ol class="carousel-indicators">
-    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-    <li data-target="#myCarousel" data-slide-to="1"></li>
-    
-  </ol>
 
-  <!-- Wrapper for slides -->
-  <div class="carousel-inner">
-    <div class="item active">
-      <g:link class="list" action="index" controller="category"><asset:image src="loverth.png"/></g:link>
-    </div>
-    
-    <div class="item">
-						    <g:link class="list" action="index" controller="category"><asset:image src="loverth-2.png"/></g:link>
-						      </div>
-    
-    
-      </div>
-
-  <!-- Left and right controls -->
-  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="right carousel-control" href="#myCarousel" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
-						
+							<!-- Banner -->
+								<section id="banner">
+									
+										<g:link class="list" action="index" controller="blogCategory"><span class="image image-full"><asset:image src="loverth.png"/></span></g:link>
+										<header>
+											<!--  <h2>Foodal</h2>-->
+											<!--span class="byline">welcome!</span-->
+										</header>
+									
+									
+								</section>
+								
 						</div>
 					</div>
 					
@@ -137,57 +124,73 @@
 										<nav id="nav">
 											<ul>
 												<li><button class="button"><g:link url="/"><span style="color:#feff00">Home</span></g:link></button></li>
-												<li><button class="button"><g:link controller="book" action="index"><span style="color:#feff00">Books</span></g:link></button></li>
-												<li><button class="button"><g:link controller="blogCategory" action="create"><span style="color:#feff00">Create a Book Category</span></g:link></button></li>
+												<li><button class="button"><g:link controller="chapter" action="edit" id="${chapter.id}"><span style="color:#feff00">Edit Chapter</span></g:link></button></li>
+												<li><button class="button"><g:link controller="chapter" action="index"><span style="color:#feff00">Show Chapters</span></g:link></button></li>
+												<li><button class="button"><g:link controller="book" action="index"><span style="color:#feff00">Show Books</span></g:link></button></li>
+												<li><button class="button"><g:link controller="blogCategory" action="index"><span style="color:#feff00">Show Categories</span></g:link></button></li>
+												<li><button class="button"><div class="fb-share-button" data-href="${createLink(action: 'show', controller: 'chapter', id: chapter.id)}" data-layout="button" data-size="small"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Ftaote.shop%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore"><span style="color:#feff00">Share</span></a></div></button></li>
+												<li><button class="button"><a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false"><span style="color:#feff00">Tweet</span></a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></button></li>
+												<li><button class="button"><g:form resource="${this.chapter}" method="DELETE" controller="chapter" action="delete">
+												    <fieldset class="buttons">
+									                	<input class="delete" type="submit" value="${message(code: 'default.button.delete.label', default: 'Delete')}" onclick="return confirm('${message(code: 'default.button.delete.confirm.message', default: 'Are you sure?')}');" />
+									                </fieldset>
+									                
+									            </g:form>
+									            </button>
+									            </li>
+												<br><br>
 												<!--<li><a href="left-sidebar.html">Login</a></li>-->
 											</ul>
 										</nav>
 							<!-- Intro -->
-							
-							<div class="12u">
-							<g:if test="${blogCategoryList}">
-							<g:each in="${blogCategoryList}" status="i" var="blogCategoryInstance">
-									<section>
-										
-											<div class="3u" style="float:left;height:300px;width:300px;">
-												<div>
-														<div>
-														<p><g:link controller="blogCategory" action="show" id="${blogCategoryInstance.id}"><span style="color:#000000;font-size:16px;"><img src="data:image/png;base64,${blogCategoryInstance.imageOne?.encodeBase64()}"/><br>${blogCategoryInstance.name}</span></g:link></p>
-														</div>
-													
-														
-												</div>
-											</div>
-										
-									</section>
-								
-							</g:each>
-							</g:if>
-							<g:else>
-							<div class="row">
-								<div class="12u">
-									<section>
+														<div class="row">
+						<div class="12u">
+								<section>
 									<div>
 										<div class="row">
-										
-										<div class="6u">
+											<div class="12u">
 													<section class="box">
 													<!-- <a href="http://www.mytweetmark.com" class="image image-full"><asset:image src="foodal-homepage-16.png"/></a> -->
 													<header>
-													<g:link controller="blogCategory" action="create"><span style="font-size:28px;color:#000000;">Please create a book category.</span></g:link>
+														<span style="font-size:35px;color:#000000"><f:display bean="chapter" property="name"/></span>
 													</header>
-													</section>
+													<br><br>
+													<span style="font-size:20px;color:#000000;font-family: Arial, Helvetica, sans-serif;"><f:display bean="chapter" property="description"/></span>
+													
+												</section>
+											</div>
+											<div>
+												<section class="box">
+												<header>
+												<g:if test="${chapter.imageThree}">
+													<div style="border: 2px solid #e5e1e1;">
+													<img src="data:image/png;base64,${chapter.imageThree?.encodeBase64()}" width="250px"/>
+													<br>
+													</div>
+												</g:if>
+												
+													<br><br>
+													
+												</header>
+													<!--header>
+														<h3>Aptent veroeros et aliquam</h3>
+														<span class="byline">Posted 45 minutes ago</span>
+													</header>
+													<p>Lorem ipsum dolor sit amet sit veroeros sed et blandit consequat sed veroeros lorem et blandit  adipiscing feugiat phasellus tempus hendrerit, tortor vitae mattis tempor, sapien sem feugiat sapien, id suscipit magna felis nec elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos lorem ipsum dolor sit amet.</p>
+													<footer class="actions">
+														<a href="#" class="button fa fa-file-text">Continue Reading</a>
+														<a href="#" class="button alt fa fa-comment">33 comments</a>
+													</footer-->
+												</section>
+											</div>
 										</div>
 									</div>
-									</section>
-								</div>
-							</div>
-							</g:else>
-							</div>
-				        	</div>
-				        	</div>				
-							
-									
+								</section>
+
+						</div>
+					</div>
+				</div>
+			</div>		
 		<!-- Main Wrapper -->
 			<div id="main-wrapper">
 				<div class="container">

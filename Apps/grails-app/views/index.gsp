@@ -204,7 +204,8 @@
 					
 								<!-- Nav -->
 										<nav id="nav">
-											<ul> 
+											<ul>
+												<li><button class="button"><span style="color:#ffffff"><g:link controller="blogCategory" action="index"><span style="color:#feff00">Book Categories</span></g:link></span></button></li>
 												<li><button class="button"><span style="color:#ffffff"><g:link controller="product" action="shelf"><span style="color:#feff00">Dashboard</span></g:link></span></button></li>
 												<br><br>
 												 

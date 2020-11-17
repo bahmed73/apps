@@ -525,4 +525,70 @@ class AppsService {
 		}
 		
 	}
+	
+	def uploadBookPhoto(File file, Book book) {
+		log.info "inside uploadBookPhoto"
+		
+		String fileName = file.getAbsolutePath()
+		
+		log.info "fileName = " + fileName
+		
+		ImagePlus image = imagingService.openImagePlus(fileName);
+		try {
+			def output = imagingService.generate100x100(image, fileName, true);
+			
+			def files = new File(output)
+			book.imageOne = files.bytes
+			
+			output = imagingService.generate50x50(image, fileName, true);
+			
+			files = new File(output)
+			book.imageTwo = files.bytes
+			
+			output = imagingService.generate400x400(image, fileName);
+			
+			files = new File(output)
+			book.imageThree = files.bytes
+			
+		} catch (Exception e) {
+			
+			log.info"uploadChapterPhoto: error generating images"
+			e.printStackTrace()
+			
+		}
+		
+	}
+	
+	def uploadChapterPhoto(File file, Chapter chapter) {
+		log.info "inside uploadBookPhoto"
+		
+		String fileName = file.getAbsolutePath()
+		
+		log.info "fileName = " + fileName
+		
+		ImagePlus image = imagingService.openImagePlus(fileName);
+		try {
+			def output = imagingService.generate100x100(image, fileName, true);
+			
+			def files = new File(output)
+			chapter.imageOne = files.bytes
+			
+			output = imagingService.generate50x50(image, fileName, true);
+			
+			files = new File(output)
+			chapter.imageTwo = files.bytes
+			
+			output = imagingService.generate400x400(image, fileName);
+			
+			files = new File(output)
+			chapter.imageThree = files.bytes
+			
+		} catch (Exception e) {
+			
+			log.info"uploadChapterPhoto: error generating images"
+			e.printStackTrace()
+			
+		}
+		
+	}
 }
