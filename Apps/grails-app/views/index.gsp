@@ -248,7 +248,7 @@ Amazon and other distributors don't have access to social media API.<br>
 ● Customer management.<br>
 ● Build online store with
 persona.<br>
-● Supply chain software, clothing distributors ->
+● Supply chain software, book distributors ->
 shops.<br></span></p>
 													    
 													  </div>
