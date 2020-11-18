@@ -224,6 +224,7 @@
 													    <li><a href="#tabs-1">About</a></li>
 													    <li><a href="#tabs-2">Price Plans</a></li>
 													    <li><a href="#tabs-3">Team</a></li>
+													    <li><a href="#tabs-4">Books</a></li>
 													  </ul>
 													  <div id="tabs-1" style="border: 5px #fdfaaa;
 		  border-width: 5px;
@@ -250,7 +251,10 @@ Amazon and other distributors don't have access to social media API.<br>
 ● Build online store with
 persona.<br>
 ● Supply chain software, book distributors ->
-shops.<br></span></p>
+shops.<br>
+● $500 to help you write a book.<br>
+● $2000 to help you build a shop.<br>
+</span></p>
 													    
 													  </div>
 													  <div id="tabs-2" style="border: 5px #fdfaaa;
@@ -258,7 +262,7 @@ shops.<br></span></p>
 		  background-color: #f9e8ee;">
 													    <p><span style="color:#000000;font-size:20px;"><br><br>
 													    Problem? An example: <br><br>
-Books<br><br>
+Authors:<br><br>
 Book distributors are not
 technical, hence it’s difficult to sell
 books online. Small book distributors take all the exclusive rights and only show the book to a smaller audience for huge price. Amazon helps with self-publish, but is too large and the book gets lost, unless you do social media marketing. We build social media tools and use our own supply chain software to solve problems with sales inventory and season catalogs. We also utilize social media API for traffic generation by keywords, help with Google SEO. We make you famous as a brand with your book! Make you instance Guru on the subject matter. Help advance your career and pay check. Our techniques can be utilized with your existing book branding and marketing.</span></p>										
@@ -271,7 +275,9 @@ sale or build your own book shop.<br><br>
 Entrepreneurs:<br><br>
 ● Plan A - Allow shop to build a store for you with agile development.<br>
 ● Plan B - Allow shop to market you with lean startup, customer development.<br>
-● Plan C = Plan A + Plan B<br><br>
+● Plan C = Plan A + Plan B<br>
+● Plan D = We will help you write the book for $500.<br>
+● Plan E = We will help you build your shop for $2000.<br><br>
 Consulting:<br><br>
 1. Hourly consultation, $150 / hour, product development, project management, sales and business.<br>
 </span></p>
@@ -282,11 +288,13 @@ Consulting:<br><br>
 		  background-color: #f9e8ee;">
 													    <p><span style="color:#000000;font-size:20px;"><br><br>
 													    Team:<br><br>
+<p><span style="color:#000000;font-size:20px;">													    
 Erika Tovar • CEO<br><br>
 Hi my name is Erika Tovar. I am the CEO of Loverth. I am an artist, designer and holistic practitioner.  I was a behavioral therapist for children in the autism spectrum for 19 years. I created Loverth platform to sell my products and to collaborate with other new entrepreneurs, Artists and small businesses like mine. Loverth platform is a platform where others can create, express, expand, sell, network, build your online shop, collaborate & connects with other holistic businesses online and through social media. 
 <br><br>
 Our goal is to build a holistic business community network platform that will bring holistic healing to communities nationwide. Please contact me!<br><br>
-
+</span></p>
+<p><span style="color:#000000;font-size:20px;">
 Bilal Ahmed • CTO<br><br>
 Bilal Ahmed is our CTO. He is a brilliant software engineer. I am honored to have him on our Loverth team. 
 <br><br>
@@ -294,14 +302,16 @@ Full Stack Developer: Novell Internet Web Server 1996, Lockheed Martin NASA Inte
 <br><br>
 Currently, working on shop and loverth, building agile development and lean startup tools for startup incubators. 
 <br><br>
-
+</span></p>
+<p><span style="color:#000000;font-size:20px;">
 AZ Zaidi • CPO<br><br>
 Meet AZ Zaidi our CPO. His work is authentic. He makes sure the message is clear, direct and empowering. I am honored to have AZ on our Loverth team. 
 <br><br> 
 
 I focus on Message, live in Refinement, empower Communications & Deliver ROI. My Product-Focus naturally inclines towards identifying Risks and Developing Strategy. I provide unconventional outreach/ resolution, Community Management, UNconference, and training, while leveraging available resources.
 <br><br>
-
+</span></p>
+<p><span style="color:#000000;font-size:20px;">
 Vasanth Sabavath • CSO<br><br>
 Vasanth Sabavath CSO is an amazing partner to have on our Loverth team.
 <br><br>
@@ -310,9 +320,31 @@ Positive Thinker | Adaptable | Google India -Udacity Scholar | Infectiously Enth
 <br><br>
 
 An avid reader of Business and Success Principles books, I'm extremely hard working, Intrinsically motivated but operate with a deep sense of humility and gratitude. I am observant and intrigued by the unique traits and contributions of people around me, and the untapped talent of them, that can be extracted  through encouragement. Successfully completed Startup India Learning Program and part of International Society of Research & Development.
-
 </span></p>													  	
 													  </div>
+
+<div id="tabs-4" style="border: 5px #fdfaaa;
+		  border-width: 5px;
+		  background-color: #f9e8ee;">
+													    <p><span style="color:#000000;font-size:20px;"><br><br>
+													    Books published on Amazon and Lulu:<br><br>
+Generate the PDF through us. Sell your book with various publishers. Check on exclusive rights. You can also buy or sell books through us in the future. This way, more money goes into the pocket for writers.<br>
+<p><span style="color:#8a7e7e;font-size:20px;"><a href="https://www.amazon.com/Secret-Book-Bilal-Ahmed/dp/1484177975" target="_blank"><span style="color:#000000;">- The Secret Book: Vedanta part I</span></a></span></span></p>
+<p><span style="color:#8a7e7e;font-size:20px;"><a href="https://www.amazon.com/Sacred-Book-Bilal-Ahmed/dp/1490950931" target="_blank"><span style="color:#000000;">- The Sacred Book: Vedanta part II</span></a></span></span></p>
+<p><span style="color:#8a7e7e;font-size:20px;"><a href="https://www.amazon.com/Startup-Book-Entrepreneurship-Training-Manual/dp/1500475459" target="_blank"><span style="color:#000000;">- The Startup Book: Venture Capitals</span></a></span></span></p>
+<p><span style="color:#8a7e7e;font-size:20px;"><a href="https://www.amazon.com/Guru-Book-Bilal-Ahmed/dp/1502308959"><span style="color:#000000;" target="_blank">- The Guru Book: Dedicated to Teachers and Masters</span></a></span></span></p>
+<p><span style="color:#8a7e7e;font-size:20px;"><a href="https://www.amazon.com/VC-Book-Venture-Capital/dp/1514311925"><span style="color:#000000;" target="_blank">- The Venture Capital Book: Startups</span></a></span></span></p>
+<p><span style="color:#8a7e7e;font-size:20px;"><a href="https://www.amazon.com/Social-Book-Bilal-Ahmed/dp/1517320976"><span style="color:#000000;" target="_blank">- The Social Book: Pyramids</span></a></span></span></p>
+<p><span style="color:#8a7e7e;font-size:20px;"><a href="https://www.amazon.com/Founder-Book-Bilal-Ahmed/dp/1517596823"><span style="color:#000000;" target="_blank">- The Founder Book: How to be One</span></a></span></span></p>
+<p><span style="color:#8a7e7e;font-size:20px;"><a href="https://www.amazon.com/Cook-Book-Bilal-Ahmed/dp/1539524620"><span style="color:#000000;" target="_blank">- The Cook Book: Vegan Recipes</span></a></span></span></p>
+<p><span style="color:#8a7e7e;font-size:20px;"><a href="https://www.amazon.com/Entrepreneur-Handbook-Bilal-Ahmed/dp/1535584068"><span style="color:#000000;" target="_blank">- The Entrepreneur Hand Book: Startups and Venture Capitals</span></a></span></span></p>
+<p><span style="color:#8a7e7e;font-size:20px;"><a href="https://www.amazon.com/God-Book-Bilal-Ahmed/dp/1539987639"><span style="color:#000000;" target="_blank">- The God Book: Vedas</span></a></span></span></p>
+<p><span style="color:#8a7e7e;font-size:20px;"><a href="https://www.amazon.com/Business-Book-Entrepreneurs-Working-Incubators/dp/1985032015" target="_blank"><span style="color:#000000;">- The Business Book: Incubators</span></a></span></span></p>
+<p><span style="color:#8a7e7e;font-size:20px;"><a href="http://www.lulu.com/shop/bilal-ahmed/the-goddess-book/paperback/product-23782150.html" target="_blank"><span style="color:#000000;">- The Goddess Book: Upanishads part I</span></a></span></span></p>
+<p><span style="color:#8a7e7e;font-size:20px;"><a href="https://www.amazon.com/Goddess-Book-First-Upanishads/dp/1727484754"><span style="color:#000000;" target="_blank">- The Goddess Book: Upanishads part II</span></a></span></span></p>
+</span></p>													  	
+													  </div>
+
 													  													  
 													</div>												
 
