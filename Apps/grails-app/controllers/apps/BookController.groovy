@@ -10,6 +10,7 @@ class BookController {
 
 	def springSecurityService
 	def appsService
+	//def pdfRenderingService
 	
     static allowedMethods = [save: "POST", update: "PUT", delete: "DELETE"]
 
@@ -42,6 +43,53 @@ class BookController {
         respond new Book(params)
     }
 
+	@Secured(['ROLE_ADMIN', 'ROLE_ANONYMOUS'])
+	def export(Book book) {
+		def filename = book.name+".pdf"
+		
+		System.out.println("inside export")
+		System.out.println(book.name)
+		
+		def mypdf = new ByteArrayOutputStream().withStream { outputStream ->
+			pdfRenderingService.render(
+				[controller:this,
+				template: "/book/template",
+				model:[book: book]],
+				outputStream // <- ataylor added this parameter
+			).toByteArray()   // <- I added this
+		}
+	
+	response.contentType = 'application/pdf'
+	response.setHeader("Content-disposition", "attachment; filename=\"" + filename + "\"")
+		
+	response.outputStream << mypdf
+	return
+	
+		/*
+		def filename = book.name+".pdf"
+		def savedSummary = new File(filename).withOutputStream { outputStream ->
+			pdfRenderingService.render(template: "/book/template", model: [book: book]), outputStream)
+		}
+		//def filename = "C:\\development\\workspace\\Apps\\grails-app\\assets\\images\\test.pdf"
+		//File file = new File(filename)
+		
+		
+		//ByteArrayOutputStream bytes = pdfRenderingService.render(template: "/book/template", model: [book: book])
+		System.out.println("inside export, past rendering")
+		//render (file: new File(result), fileName: "TemplateSQL.met", contentType: "text/met")
+		
+		
+		//def fos= new FileOutputStream('Book.pdf')
+		//fos.write(bytes.toByteArray())
+		//fos.close()
+		response.setContentType("application/pdf")
+		//response.setContentLength(bytes.size())
+		response.setHeader("Content-disposition", "attachment; filename=\"" + filename + "\"")
+		response.outputStream << filename.newInputStream()
+		//fos.close()*/
+		return
+	}
+	
     @Transactional
     def save(Book book) {
         if (book == null) {

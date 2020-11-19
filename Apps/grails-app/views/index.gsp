@@ -341,7 +341,7 @@ Generate the PDF through us. Sell your book with various publishers. Check on ex
 <p><span style="color:#8a7e7e;font-size:20px;"><a href="https://www.amazon.com/God-Book-Bilal-Ahmed/dp/1539987639"><span style="color:#000000;" target="_blank">- The God Book: Vedas</span></a></span></span></p>
 <p><span style="color:#8a7e7e;font-size:20px;"><a href="https://www.amazon.com/Business-Book-Entrepreneurs-Working-Incubators/dp/1985032015" target="_blank"><span style="color:#000000;">- The Business Book: Incubators</span></a></span></span></p>
 <p><span style="color:#8a7e7e;font-size:20px;"><a href="http://www.lulu.com/shop/bilal-ahmed/the-goddess-book/paperback/product-23782150.html" target="_blank"><span style="color:#000000;">- The Goddess Book: Upanishads part I</span></a></span></span></p>
-<p><span style="color:#8a7e7e;font-size:20px;"><a href="https://www.amazon.com/Goddess-Book-First-Upanishads/dp/1727484754"><span style="color:#000000;" target="_blank">- The Goddess Book: Upanishads part II</span></a></span></span></p>
+<p><span style="color:#8a7e7e;font-size:20px;"><a href="https://www.amazon.com/Goddess-Book-First-Upanishads/dp/1727484754" target="_blank"><span style="color:#000000;" target="_blank">- The Goddess Book: Upanishads part II</span></a></span></span></p>
 </span></p>													  	
 													  </div>
 

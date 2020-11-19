@@ -148,7 +148,7 @@
 								<section>
 									<div>
 										<div class="row">
-											<div class="12u">
+											<div class="6u">
 													<section class="box">
 													<!-- <a href="http://www.mytweetmark.com" class="image image-full"><asset:image src="foodal-homepage-16.png"/></a> -->
 													<header>
@@ -166,9 +166,18 @@
 													<div style="border: 2px solid #e5e1e1;">
 													<img src="data:image/png;base64,${book.imageThree?.encodeBase64()}" width="250px"/>
 													<br>
+													<br>
+													
 													</div>
+													
 												</g:if>
-												
+												<br><br>
+													<p>
+													<g:link class="list" action="export" controller="book" id="${book.id}"><span style="color:#000000;font-size:30px;border: 5px solid #e5e1e1;">Download Book</span></g:link>
+													</p>
+													<br>
+													
+													
 													<br><br>
 													
 												</header>

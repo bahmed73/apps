@@ -70,6 +70,8 @@ dependencies {
 	compile 'org.grails.plugins:mongodb:6.1.2'
 	compile "org.grails.plugins:ckeditor:4.5.9.0"
 	compile "com.stripe:stripe-java:19.8.0"
+	compile 'org.grails.plugins:rendering:2.0.3'
+	runtime "org.springframework:spring-test:4.2.1.RELEASE"
 	
 }
 

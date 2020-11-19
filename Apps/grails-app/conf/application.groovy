@@ -458,10 +458,10 @@ grails.plugin.springsecurity.filterChain.chainMap = [
 ]
 
 grails.plugin.springsecurity.ui.register.postRegisterUrl = '/product/shelf'
-grails.plugin.springsecurity.ui.register.defaultRoleNames = ['ROLE_INNER_CIRCLE']
-grails.plugin.springsecurity.ui.register.emailFrom = 'The Promise Revealed'
-grails.plugin.springsecurity.ui.register.emailSubject = 'Welcome to the promise revealed!'
-grails.plugin.springsecurity.ui.register.emailBody = 'Login to get details on The Promise Revealed'
+grails.plugin.springsecurity.ui.register.defaultRoleNames = ['ROLE_ADMIN']
+grails.plugin.springsecurity.ui.register.emailFrom = 'Bookly.love'
+grails.plugin.springsecurity.ui.register.emailSubject = 'Welcome to bookly.love!'
+grails.plugin.springsecurity.ui.register.emailBody = 'Login to get details on bookly.love'
 
 grails.plugins.stripe.secretKey='sk_live_yv77aXREWPsDHLZf8xgaOUjJ00TUXdfMYU'
 grails.plugins.stripe.publishableKey='pk_live_jJVbuS5AS21wPAefuu6izPwz00IYUQlKe5'
