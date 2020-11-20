@@ -60,7 +60,7 @@ class BookController {
 		}
 	
 	response.contentType = 'application/pdf'
-	response.setHeader("Content-disposition", "attachment; filename=\"" + filename + "\"")
+	//response.setHeader("Content-disposition", "attachment; filename=\"" + filename + "\"")
 		
 	response.outputStream << mypdf
 	return

@@ -23,7 +23,7 @@ class Book {
 				subtitle(nullable:false, maxSize:500)
 				author(nullable:false, maxSize:500)
 				copyright(nullable:false, maxSize:500)
-                description(nullable:true, maxSize:50000)
+                description(nullable:true, maxSize:100000)
                 updateTime(nullable:false)
                 user(nullable:false)
 				imageOne(nullable:true, maxSize: 1024 * 1024 * 2)
