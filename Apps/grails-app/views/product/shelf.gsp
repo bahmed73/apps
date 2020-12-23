@@ -39,15 +39,13 @@
 		  	margin-left: 80px;
 		    margin-right: 80px;
 		    padding: 50px;
-		    width: 1100px;
-		    height: 550px;
 		  }
 		  p {
 		  border: 1px #16e01b;
 		  border-width: 2px;
 		  margin: 5px;
 		  padding: 10px;
-		  background-color: #ffffff;
+		  background-color: #e62c30;
 		  color: #fdeba9;
 		}
 		.button {
@@ -59,7 +57,7 @@
 		  text-decoration: none;
 		  outline: none;
 		  color: #fdeba9;
-		  background-color: #fb7b77;
+		  background-color: #e62c30;
 		  border: none;
 		  border-radius: 15px;
 		  box-shadow: 0 9px #007FFF;
@@ -182,10 +180,10 @@
 						<div class="12u">
 								<section>
 									<div>
-										<p><span style="color:#000000;font-size:20px;">Dashboard:</span>
-										<p><span style="color:#000000;font-size:18px;">User login is required to access the dashboard.</span></p>
-										<p><span style="color:#000000;font-size:16px;">Create content, categories, books and chapters.</span></p>
-										<p><span style="color:#000000;font-size:16px;">Generate PDF. Submit to distributors. Then come back and do social media marketing.</span></p>
+										<p><span style="color:#ffffff;font-size:20px;">Dashboard:</span>
+										<p><span style="color:#ffffff;font-size:18px;">User login is required to access the dashboard.</span></p>
+										<p><span style="color:#ffffff;font-size:16px;">Create content, categories, books and chapters.</span></p>
+										<p><span style="color:#ffffff;font-size:16px;">Generate PDF. Submit to distributors. Then come back and do social media marketing.</span></p>
 										
 									</div>
 								</section>
@@ -203,13 +201,19 @@
 													    <li><a href="#tabs-2">Books</a></li>
 													    <li><a href="#tabs-3">Chapters</a></li>
 													  </ul>
-													  <div id="tabs-1">
+													  <div id="tabs-1" style="border: 5px #fdfaaa;
+		  border-width: 5px;
+		  background-color: #007FFF;">
 													  	<p><g:link class="list" action="index" controller="blogCategory"><span style="color:#000000;font-size:20px;">Categories.</span></g:link></p>
 													  </div>
-													  <div id="tabs-2">
+													  <div id="tabs-2" style="border: 5px #fdfaaa;
+		  border-width: 5px;
+		  background-color: #007FFF;">
 													    <p><g:link class="list" action="index" controller="book"><span style="color:#000000;font-size:20px;">Books.</span></g:link></p>
 													  </div>
-													  <div id="tabs-3">
+													  <div id="tabs-3" style="border: 5px #fdfaaa;
+		  border-width: 5px;
+		  background-color: #007FFF;">
 													    <p><g:link class="list" action="index" controller="chapter"><span style="color:#000000;font-size:20px;">Chapters.</span></g:link></p>
 													  </div>
 													</div>												
