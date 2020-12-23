@@ -193,6 +193,26 @@
 													</footer-->
 												</section>
 											</div>
+											<div class="12u">
+												<section class="box">
+												<header>
+													<g:if test="${chapters}">
+													<span style="font-size:25px;color:#000000">
+													Chapters:</span>
+													<br><br>
+													<g:each in="${chapters}" status="i" var="chapterInstance">
+													<div class="3u" style="float:left;height:300px;width:300px;">
+													<p><g:link controller="chapter" action="show" id="${chapterInstance.id}"><span style="color:#ffffff;font-size:20px;"><img src="data:image/png;base64,${chapterInstance.imageOne?.encodeBase64()}"/><br>${chapterInstance.name}</span></g:link></p>
+													</div>
+													</g:each>
+													</g:if>
+													<br><br>
+													
+												</header>
+													
+												</section>
+											</div>
+												
 										</div>
 									</div>
 								</section>

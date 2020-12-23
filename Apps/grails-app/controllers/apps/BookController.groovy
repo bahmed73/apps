@@ -36,7 +36,8 @@ class BookController {
 	@Transactional
 	@Secured(['ROLE_ADMIN', 'ROLE_ANONYMOUS'])
     def show(Book book) {
-        respond book
+        def chapters = Chapter.findAllByBook(book, [sort: "createTime", order: "desc"])
+		[book:book, chapters:chapters]
     }
 
     def create() {

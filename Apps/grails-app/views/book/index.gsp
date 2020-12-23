@@ -154,7 +154,7 @@
 											
 												<div class="row">
 														<div>
-														<p><g:link controller="blogCategory" action="show" id="${category.id}"><span style="color:#000000;font-size:20px;"><img src="data:image/png;base64,${category.imageOne?.encodeBase64()}" width="250" height="250"/><br>${category.name}</span></g:link></p>
+														<p><g:link controller="blogCategory" action="show" id="${category.id}"><span style="color:#ffffff;font-size:20px;"><img src="data:image/png;base64,${category.imageOne?.encodeBase64()}" width="250" height="250"/><br>${category.name}</span></g:link></p>
 														</div>
 														<br><br>
 														<g:if test="${books}">
