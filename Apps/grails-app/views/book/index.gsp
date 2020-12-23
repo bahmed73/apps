@@ -35,11 +35,11 @@
 		<!--[if lte IE 8]><asset:javascript src="html5shiv.js"/><asset:stylesheet src="ie8.css"/><![endif]-->
 		<style>
 		p {
-		  border: 2px solid #fb7b77;
+		  border: 2px solid #007fff;
 		  border-width: 2px;
 		  margin: 5px;
 		  padding: 10px;
-		  background-color: #ffffff;
+		  background-color: #e62c30;
 		}
 		.button {
 		  display: inline-block;
@@ -50,7 +50,7 @@
 		  text-decoration: none;
 		  outline: none;
 		  color: #fdeba9;
-		  background-color: #fb7b77;
+		  background-color: #e62c30;
 		  border: none;
 		  border-radius: 15px;
 		  box-shadow: 0 9px #007FFF;
@@ -159,10 +159,8 @@
 														<br><br>
 														<g:if test="${books}">
 														<g:each in="${books}" status="j" var="bookInstance">
-														<div class="3u" style="float:left;margin:10px">
-														<g:link controller="book" action="show" id="${bookInstance.id}"><img src="data:image/png;base64,${bookInstance.imageOne?.encodeBase64()}" width="100" height="100"/></g:link>
-														<br>
-														<span style="color:#000000;font-size:12px;">${bookInstance.name}</span>
+														<div class="8u" style="float:left;margin:10px">
+														<p><g:link controller="book" action="show" id="${bookInstance.id}"><img src="data:image/png;base64,${bookInstance.imageOne?.encodeBase64()}" width="100" height="100"/><span style="color:#ffffff;font-size:20px;">${bookInstance.name}</span></g:link></p>
 														</div>
 														</g:each>
 														</g:if>

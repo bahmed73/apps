@@ -51,7 +51,7 @@
 		  border-width: 2px;
 		  margin: 5px;
 		  padding: 10px;
-		  background-color: #ffffff;
+		  background-color: #e62c30;
 		  color: #fdeba9;
 		}
 		.button {
@@ -63,7 +63,7 @@
 		  text-decoration: none;
 		  outline: none;
 		  color: #fdeba9;
-		  background-color: #fb7b77;
+		  background-color: #e62c30;
 		  border: none;
 		  border-radius: 15px;
 		  box-shadow: 0 9px #007FFF;
@@ -243,9 +243,9 @@
 													  </ul>
 													  <div id="tabs-1" style="border: 5px #fdfaaa;
 		  border-width: 5px;
-		  background-color: #f9e8ee;">
+		  background-color: #007FFF;">
 													  
-													  	<p><span style="color:#000000;font-size:20px;"><br><br>Bookly.love:
+													  	<p><span style="color:#ffffff;font-size:20px;"><br><br>Bookly.love:
 													  	<br><br>
 Turn your blogs into PDFs, ready to distribute to book distributors, like Amazon, etc.<br>
 Once the book is published, use bookly to market your book, traffic, Google SEO and distribution.<br>
@@ -254,7 +254,7 @@ We will utilize Social Media API, application programming language, i.e. Faceboo
 Amazon and other distributors don't have access to social media API.<br>
 </span></p>
 													  	
-													    <p><span style="color:#000000;font-size:20px;"><br>
+													    <p><span style="color:#ffffff;font-size:20px;"><br>
 													    Features:
 													  	<br><br>
 													    ● Social media.<br>
@@ -272,17 +272,17 @@ shops.<br>
 </span></p>
 													    
 													  </div>
-													  <div id="tabs-2" style="border: 5px #fdfaaa;
+													  <div id="tabs-2" style="border: 5px #ffffff;
 		  border-width: 5px;
-		  background-color: #f9e8ee;">
-													    <p><span style="color:#000000;font-size:20px;"><br><br>
+		  background-color: #007FFF;">
+													    <p><span style="color:#ffffff;font-size:20px;"><br><br>
 													    Problem? An example: <br><br>
 Authors:<br><br>
 Book distributors are not
 technical, hence it’s difficult to sell
 books online. Small book distributors take all the exclusive rights and only show the book to a smaller audience for huge price. Amazon helps with self-publish, but is too large and the book gets lost, unless you do social media marketing. We build social media tools and use our own supply chain software to solve problems with sales inventory and season catalogs. We also utilize social media API for traffic generation by keywords, help with Google SEO. We make you famous as a brand with your book! Make you instance Guru on the subject matter. Help advance your career and pay check. Our techniques can be utilized with your existing book branding and marketing.</span></p>										
 													  
-													    <p><span style="color:#000000;font-size:20px;"><br>
+													    <p><span style="color:#ffffff;font-size:20px;"><br>
 Books:<br><br>
 1. Use us to sell books online, pay
 monthly fee and also commission on
@@ -300,10 +300,10 @@ Consulting:<br><br>
 													  </div>
 													  <div id="tabs-3" style="border: 5px #fdfaaa;
 		  border-width: 5px;
-		  background-color: #f9e8ee;">
-													    <p><span style="color:#000000;font-size:20px;"><br><br>
+		  background-color: #007FFF;">
+													    <p><span style="color:#ffffff;font-size:20px;"><br><br>
 													    Team:<br><br>
-<p><span style="color:#000000;font-size:20px;">
+<p><span style="color:#ffffff;font-size:20px;">
 Bilal Ahmed • CTO<br><br>
 Bilal Ahmed is our CTO. He is a brilliant software engineer. I am honored to have him on our Loverth team. 
 <br><br>
@@ -312,7 +312,7 @@ Full Stack Developer: Novell Internet Web Server 1996, Lockheed Martin NASA Inte
 Currently, working on shop and loverth, building agile development and lean startup tools for startup incubators. 
 <br><br>
 </span></p>
-<p><span style="color:#000000;font-size:20px;">
+<p><span style="color:#ffffff;font-size:20px;">
 AZ Zaidi • CPO<br><br>
 Meet AZ Zaidi our CPO. His work is authentic. He makes sure the message is clear, direct and empowering. I am honored to have AZ on our Loverth team. 
 <br><br> 
@@ -320,7 +320,7 @@ Meet AZ Zaidi our CPO. His work is authentic. He makes sure the message is clear
 I focus on Message, live in Refinement, empower Communications & Deliver ROI. My Product-Focus naturally inclines towards identifying Risks and Developing Strategy. I provide unconventional outreach/ resolution, Community Management, UNconference, and training, while leveraging available resources.
 <br><br>
 </span></p>
-<p><span style="color:#000000;font-size:20px;">
+<p><span style="color:#ffffff;font-size:20px;">
 Vasanth Sabavath • CSO<br><br>
 Vasanth Sabavath CSO is an amazing partner to have on our Loverth team.
 <br><br>
@@ -334,24 +334,24 @@ An avid reader of Business and Success Principles books, I'm extremely hard work
 
 <div id="tabs-4" style="border: 5px #fdfaaa;
 		  border-width: 5px;
-		  background-color: #f9e8ee;">
-													    <p><span style="color:#000000;font-size:20px;"><br><br>
-													    <span style="color:#8a7e7e;font-size:20px;"><g:link controller="chapter" action="index"><span style="color:#000000">See Books and Chapters</span></g:link></span><br><br>
-													    Books published on Amazon and Lulu:<br><br>
+		  background-color: #007FFF;">
+													    <p><span style="color:#ffffff;font-size:20px;"><br><br>
+													    <span style="color:#8a7e7e;font-size:20px;"><g:link controller="chapter" action="index"><span style="color:#ffffff">Click here to see Books and Chapters on Bookly.</span></g:link></span><br><br>
+													    Books published on Amazon and Lulu without using bookly tools, however social media marketing through our platforms, billions of page views on yoga, tao and startups.<br><br>
 Generate the PDF through us. Sell your book with various publishers. Check on exclusive rights. You can also buy or sell books through us in the future. This way, more money goes into the pocket for writers.<br>
-<p><span style="color:#8a7e7e;font-size:20px;"><a href="https://www.amazon.com/Secret-Book-Bilal-Ahmed/dp/1484177975" target="_blank"><span style="color:#000000;">- The Secret Book: Vedanta part I</span></a></span></span></p>
-<p><span style="color:#8a7e7e;font-size:20px;"><a href="https://www.amazon.com/Sacred-Book-Bilal-Ahmed/dp/1490950931" target="_blank"><span style="color:#000000;">- The Sacred Book: Vedanta part II</span></a></span></span></p>
-<p><span style="color:#8a7e7e;font-size:20px;"><a href="https://www.amazon.com/Startup-Book-Entrepreneurship-Training-Manual/dp/1500475459" target="_blank"><span style="color:#000000;">- The Startup Book: Venture Capitals</span></a></span></span></p>
-<p><span style="color:#8a7e7e;font-size:20px;"><a href="https://www.amazon.com/Guru-Book-Bilal-Ahmed/dp/1502308959"><span style="color:#000000;" target="_blank">- The Guru Book: Dedicated to Teachers and Masters</span></a></span></span></p>
-<p><span style="color:#8a7e7e;font-size:20px;"><a href="https://www.amazon.com/VC-Book-Venture-Capital/dp/1514311925"><span style="color:#000000;" target="_blank">- The Venture Capital Book: Startups</span></a></span></span></p>
-<p><span style="color:#8a7e7e;font-size:20px;"><a href="https://www.amazon.com/Social-Book-Bilal-Ahmed/dp/1517320976"><span style="color:#000000;" target="_blank">- The Social Book: Pyramids</span></a></span></span></p>
-<p><span style="color:#8a7e7e;font-size:20px;"><a href="https://www.amazon.com/Founder-Book-Bilal-Ahmed/dp/1517596823"><span style="color:#000000;" target="_blank">- The Founder Book: How to be One</span></a></span></span></p>
-<p><span style="color:#8a7e7e;font-size:20px;"><a href="https://www.amazon.com/Cook-Book-Bilal-Ahmed/dp/1539524620"><span style="color:#000000;" target="_blank">- The Cook Book: Vegan Recipes</span></a></span></span></p>
-<p><span style="color:#8a7e7e;font-size:20px;"><a href="https://www.amazon.com/Entrepreneur-Handbook-Bilal-Ahmed/dp/1535584068"><span style="color:#000000;" target="_blank">- The Entrepreneur Hand Book: Startups and Venture Capitals</span></a></span></span></p>
-<p><span style="color:#8a7e7e;font-size:20px;"><a href="https://www.amazon.com/God-Book-Bilal-Ahmed/dp/1539987639"><span style="color:#000000;" target="_blank">- The God Book: Vedas</span></a></span></span></p>
-<p><span style="color:#8a7e7e;font-size:20px;"><a href="https://www.amazon.com/Business-Book-Entrepreneurs-Working-Incubators/dp/1985032015" target="_blank"><span style="color:#000000;">- The Business Book: Incubators</span></a></span></span></p>
-<p><span style="color:#8a7e7e;font-size:20px;"><a href="http://www.lulu.com/shop/bilal-ahmed/the-goddess-book/paperback/product-23782150.html" target="_blank"><span style="color:#000000;">- The Goddess Book: Upanishads part I</span></a></span></span></p>
-<p><span style="color:#8a7e7e;font-size:20px;"><a href="https://www.amazon.com/Goddess-Book-First-Upanishads/dp/1727484754" target="_blank"><span style="color:#000000;" target="_blank">- The Goddess Book: Upanishads part II</span></a></span></span></p>
+<p><span style="color:#8a7e7e;font-size:20px;"><a href="https://www.amazon.com/Secret-Book-Bilal-Ahmed/dp/1484177975" target="_blank"><span style="color:#ffffff;">- The Secret Book: Vedanta part I</span></a></span></span></p>
+<p><span style="color:#8a7e7e;font-size:20px;"><a href="https://www.amazon.com/Sacred-Book-Bilal-Ahmed/dp/1490950931" target="_blank"><span style="color:#ffffff;">- The Sacred Book: Vedanta part II</span></a></span></span></p>
+<p><span style="color:#8a7e7e;font-size:20px;"><a href="https://www.amazon.com/Startup-Book-Entrepreneurship-Training-Manual/dp/1500475459" target="_blank"><span style="color:#ffffff;">- The Startup Book: Venture Capitals</span></a></span></span></p>
+<p><span style="color:#8a7e7e;font-size:20px;"><a href="https://www.amazon.com/Guru-Book-Bilal-Ahmed/dp/1502308959"><span style="color:#ffffff;" target="_blank">- The Guru Book: Dedicated to Teachers and Masters</span></a></span></span></p>
+<p><span style="color:#8a7e7e;font-size:20px;"><a href="https://www.amazon.com/VC-Book-Venture-Capital/dp/1514311925"><span style="color:#ffffff;" target="_blank">- The Venture Capital Book: Startups</span></a></span></span></p>
+<p><span style="color:#8a7e7e;font-size:20px;"><a href="https://www.amazon.com/Social-Book-Bilal-Ahmed/dp/1517320976"><span style="color:#ffffff;" target="_blank">- The Social Book: Pyramids</span></a></span></span></p>
+<p><span style="color:#8a7e7e;font-size:20px;"><a href="https://www.amazon.com/Founder-Book-Bilal-Ahmed/dp/1517596823"><span style="color:#ffffff;" target="_blank">- The Founder Book: How to be One</span></a></span></span></p>
+<p><span style="color:#8a7e7e;font-size:20px;"><a href="https://www.amazon.com/Cook-Book-Bilal-Ahmed/dp/1539524620"><span style="color:#ffffff;" target="_blank">- The Cook Book: Vegan Recipes</span></a></span></span></p>
+<p><span style="color:#8a7e7e;font-size:20px;"><a href="https://www.amazon.com/Entrepreneur-Handbook-Bilal-Ahmed/dp/1535584068"><span style="color:#ffffff;" target="_blank">- The Entrepreneur Hand Book: Startups and Venture Capitals</span></a></span></span></p>
+<p><span style="color:#8a7e7e;font-size:20px;"><a href="https://www.amazon.com/God-Book-Bilal-Ahmed/dp/1539987639"><span style="color:#ffffff;" target="_blank">- The God Book: Vedas</span></a></span></span></p>
+<p><span style="color:#8a7e7e;font-size:20px;"><a href="https://www.amazon.com/Business-Book-Entrepreneurs-Working-Incubators/dp/1985032015" target="_blank"><span style="color:#ffffff;">- The Business Book: Incubators</span></a></span></span></p>
+<p><span style="color:#8a7e7e;font-size:20px;"><a href="http://www.lulu.com/shop/bilal-ahmed/the-goddess-book/paperback/product-23782150.html" target="_blank"><span style="color:#ffffff;">- The Goddess Book: Upanishads part I</span></a></span></span></p>
+<p><span style="color:#8a7e7e;font-size:20px;"><a href="https://www.amazon.com/Goddess-Book-First-Upanishads/dp/1727484754" target="_blank"><span style="color:#ffffff;" target="_blank">- The Goddess Book: Upanishads part II</span></a></span></span></p>
 </span></p>													  	
 													  </div>
 

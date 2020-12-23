@@ -38,11 +38,11 @@
 		<!--[if lte IE 8]><asset:javascript src="html5shiv.js"/><asset:stylesheet src="ie8.css"/><![endif]-->
 		<style>
 		p {
-		  border: 2px solid #fb7b77;
+		  border: 2px solid #007fff;
 		  border-width: 2px;
 		  margin: 5px;
 		  padding: 10px;
-		  background-color: #ffffff;
+		  background-color: #e62c30;
 		}
 		
 		.button {
@@ -54,7 +54,7 @@
 		  text-decoration: none;
 		  outline: none;
 		  color: #fdeba9;
-		  background-color: #fb7b77;
+		  background-color: #e62c30;
 		  border: none;
 		  border-radius: 15px;
 		  box-shadow: 0 9px #007FFF;
@@ -149,10 +149,10 @@
 							<g:each in="${blogCategoryList}" status="i" var="blogCategoryInstance">
 									<section>
 										
-											<div class="3u" style="float:left;height:300px;width:300px;">
+											<div class="12u">
 												<div>
 														<div>
-														<p><g:link controller="blogCategory" action="show" id="${blogCategoryInstance.id}"><span style="color:#000000;font-size:16px;"><img src="data:image/png;base64,${blogCategoryInstance.imageOne?.encodeBase64()}"/><br>${blogCategoryInstance.name}</span></g:link></p>
+														<p><g:link controller="blogCategory" action="show" id="${blogCategoryInstance.id}"><span style="color:#ffffff;font-size:20px;"><img src="data:image/png;base64,${blogCategoryInstance.imageOne?.encodeBase64()}"/><br>${blogCategoryInstance.name}</span></g:link></p>
 														</div>
 													
 														

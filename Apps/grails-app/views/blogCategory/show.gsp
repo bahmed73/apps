@@ -40,7 +40,8 @@
 		<!--[if lte IE 8]><asset:javascript src="html5shiv.js"/><asset:stylesheet src="ie8.css"/><![endif]-->
 		<style>
 		p {
-		  background-color: #ffffff;
+		  border: 2px solid #007fff;
+		  background-color: #e62c30;
 		  border-width: 2px;
 		  margin: 5px;
 		  padding: 10px;
@@ -55,7 +56,7 @@
 		  text-decoration: none;
 		  outline: none;
 		  color: #fdeba9;
-		  background-color: #fb7b77;
+		  background-color: #e62c30;
 		  border: none;
 		  border-radius: 15px;
 		  box-shadow: 0 9px #007FFF;
@@ -140,7 +141,7 @@
 													</header>
 													<br><br>
 													<br><br>
-													<p><span style="color:#000000;">Share our blog category pages on Twitter or Facebook. </span></p>
+													<p><span style="color:#ffffff;">Share our blog category pages on Twitter or Facebook. </span></p>
 													<br><br>
 													<br><br>
 													<a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -150,7 +151,7 @@
 											<div class="6u">
 												<section class="box">
 												<header>
-													<img src="data:image/png;base64,${blogCategory.imageThree?.encodeBase64()}"/>
+													<p><img src="data:image/png;base64,${blogCategory.imageThree?.encodeBase64()}"/></p>
 												</header>
 													
 												</section>
@@ -165,7 +166,7 @@
 													<br><br>
 													<g:each in="${books}" status="i" var="bookInstance">
 													<div class="3u" style="float:left;height:300px;width:300px;">
-													<g:link controller="book" action="show" id="${bookInstance.id}"><span style="color:#000000;font-size:20px;"><img src="data:image/png;base64,${bookInstance.imageOne?.encodeBase64()}"/><br>${bookInstance.name}</span></g:link>
+													<p><g:link controller="book" action="show" id="${bookInstance.id}"><span style="color:#ffffff;font-size:20px;"><img src="data:image/png;base64,${bookInstance.imageOne?.encodeBase64()}"/><br>${bookInstance.name}</span></g:link></p>
 													</div>
 													</g:each>
 													</g:if>
@@ -179,7 +180,7 @@
 											
 											<div class="8u">
 												<section class="box">
-													<span style="font-size:18px;color:#000000">Description: <f:display bean="blogCategory" property="description"/></span>
+													<span style="font-size:18px;color:#ffffff"><f:display bean="blogCategory" property="description"/></span>
 													<br><br>
 													
 												</section>

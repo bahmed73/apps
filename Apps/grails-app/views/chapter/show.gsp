@@ -35,10 +35,11 @@
 		<!--[if lte IE 8]><asset:javascript src="html5shiv.js"/><asset:stylesheet src="ie8.css"/><![endif]-->
 		<style>
 		p {
+		border: 2px solid #007fff;
 		  border-width: 2px;
 		  margin: 5px;
 		  padding: 10px;
-		  background-color: #ffffff;
+		  background-color: #e62c30;
 		}
 		.button {
 		  display: inline-block;
@@ -49,7 +50,7 @@
 		  text-decoration: none;
 		  outline: none;
 		  color: #fdeba9;
-		  background-color: #fb7b77;
+		  background-color: #e62c30;
 		  border: none;
 		  border-radius: 15px;
 		  box-shadow: 0 9px #007FFF;
@@ -155,7 +156,7 @@
 														<span style="font-size:35px;color:#000000"><f:display bean="chapter" property="name"/></span>
 													</header>
 													<br><br>
-													<span style="font-size:20px;color:#000000;font-family: Arial, Helvetica, sans-serif;"><f:display bean="chapter" property="description"/></span>
+													<p><span style="font-size:20px;color:#ffffff;font-family: Arial, Helvetica, sans-serif;"><f:display bean="chapter" property="description"/></span></p>
 													
 												</section>
 											</div>
@@ -164,7 +165,7 @@
 												<header>
 												<g:if test="${chapter.imageThree}">
 													<div style="border: 2px solid #e5e1e1;">
-													<img src="data:image/png;base64,${chapter.imageThree?.encodeBase64()}" width="250px"/>
+													<p><img src="data:image/png;base64,${chapter.imageThree?.encodeBase64()}" width="250px"/></p>
 													<br>
 													</div>
 												</g:if>
