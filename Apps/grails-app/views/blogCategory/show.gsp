@@ -159,13 +159,13 @@
 											<div class="12u">
 												<section class="box">
 												<header>
-													<g:if test="${blogs}">
+													<g:if test="${books}">
 													<span style="font-size:25px;color:#000000">
-													Blogs:</span>
+													Books:</span>
 													<br><br>
-													<g:each in="${blogs}" status="i" var="blogInstance">
+													<g:each in="${books}" status="i" var="bookInstance">
 													<div class="3u" style="float:left;height:300px;width:300px;">
-													<g:link controller="blog" action="show" id="${blogInstance.id}"><span style="color:#000000;font-size:20px;"><img src="data:image/png;base64,${blogInstance.imageOne?.encodeBase64()}"/><br>${blogInstance.name}</span></g:link>
+													<g:link controller="book" action="show" id="${bookInstance.id}"><span style="color:#000000;font-size:20px;"><img src="data:image/png;base64,${bookInstance.imageOne?.encodeBase64()}"/><br>${bookInstance.name}</span></g:link>
 													</div>
 													</g:each>
 													</g:if>

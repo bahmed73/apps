@@ -26,8 +26,8 @@ class BlogCategoryController {
 	@Secured(['ROLE_ADMIN', 'ROLE_ANONYMOUS'])
     def show(BlogCategory blogCategory) {
 		
-		def blogs = Blog.findAllByBlogCategory(blogCategory, [sort: "blogOrder", order: "desc"])
-		[blogCategory:blogCategory, blogs:blogs]
+		def books = Book.findAllByBlogCategory(blogCategory, [sort: "createTime", order: "desc"])
+		[blogCategory:blogCategory, books:books]
         //respond blogCategory
     }
 
