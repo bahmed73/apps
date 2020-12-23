@@ -173,7 +173,7 @@
 												</g:if>
 												<br><br>
 													<p>
-													<g:link class="list" action="export" controller="book" id="${book.id}"><span style="color:#000000;font-size:30px;border: 10px solid #e5e1e1;padding:5px;margin:5px;">Download Book</span></g:link>
+													<g:link class="list" action="export" controller="book" id="${book.id}"><span style="color:#000000;font-size:30px;border: 5px solid #e5e1e1;padding:5px;margin:5px;">Download</span></g:link>
 													</p>
 													<br>
 													

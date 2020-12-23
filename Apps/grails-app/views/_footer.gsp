@@ -21,12 +21,12 @@
 									<ul class="divided">
 										<li>
 										
-											<h3><a href="mailto:erika@loverth.shop">erika@loverth.shop</a></h3>
+											<h3><a href="mailto:bilal@mytweetmark.com">bilal@mytweetmark.com</a></h3>
 										</li>
 										<li>
-										<a href="https://www.youtube.com/channel/UCFb2Mbd2MXF1AXwnCLCCPvg" target="_blank"><h3>On YouTube</h3></a></li>
+										<a href="https://www.youtube.com/c/BilalAhmed73" target="_blank"><h3>On YouTube</h3></a></li>
 										<li>
-										<a href="https://angel.co/company/loverth" target="_blank"><h3>Loverth on Angellist - Angel Investor network</h3></a></li>
+										<a href="https://angel.co/company/dotshop-1" target="_blank"><h3>Shop on Angellist - Angel Investor network</h3></a></li>
 										
 									</ul>
 								</section>
@@ -38,11 +38,11 @@
 								<section>
 									<ul class="divided">
 										<li>
-										<h3>(323) 915-0068</h3></li>
+										<h3>(510) 424-7105</h3></li>
 										<li>
-										<a href="https://www.facebook.com/loverth.shop.erika" target="_blank"><h3>Loverth on Facebook</h3></a></li>
+										<a href="https://www.facebook.com/dotshopper" target="_blank"><h3>Shop on Facebook</h3></a></li>
 										<li>
-										<a href="https://www.f6s.com/loverthshop" target="_blank"><h3>Loverth on F6s - Entrepreneurship network</h3></a>
+										<a href="https://www.f6s.com/shop-agiledevelopmentleanstartup" target="_blank"><h3>Shop on F6s - Entrepreneurship network</h3></a>
 										</li>
 										
 									</ul>
@@ -56,7 +56,7 @@
 									<li>
 										<a href="http://ipixel.shop" target="_blank"><h3>New Shop ipixel.shop!</h3></a></li>
 										<li>
-										<a href="https://www.linkedin.com/company/loverth/" target="_blank"><h3>Loverth on Linkedin</h3></a></li>
+										<a href="https://www.linkedin.com/company/dotshop/" target="_blank"><h3>Shop on Linkedin</h3></a></li>
 										<li>&copy; 2020 bookly.love 	</li>
 										<li><a href="http://taote.shop" target="_blank">Powered by Shop. <asset:image src="logoshop5.png" width="150px" height="150px"/></a></li>
 						<br><br>

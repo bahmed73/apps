@@ -172,6 +172,9 @@
 						  <ol class="carousel-indicators">
 						    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
 						    <li data-target="#myCarousel" data-slide-to="1"></li>
+						    <li data-target="#myCarousel" data-slide-to="2"></li>
+						    <li data-target="#myCarousel" data-slide-to="3"></li>
+						    <li data-target="#myCarousel" data-slide-to="4"></li>
 						    						    
 						  </ol>
 
@@ -183,6 +186,18 @@
 						    						    
 						    <div class="item">
 						    <asset:image src="loverth-2.png"/>
+						      </div>
+						    
+						    <div class="item">
+						    <asset:image src="TheTaoBook.png"/>
+						      </div>
+						    
+						    <div class="item">
+						    <asset:image src="TheQuranBook.png"/>
+						      </div>
+						    
+						    <div class="item">
+						    <asset:image src="TheDragonBook.png"/>
 						      </div>
 						    
 						  </div>
@@ -288,12 +303,6 @@ Consulting:<br><br>
 		  background-color: #f9e8ee;">
 													    <p><span style="color:#000000;font-size:20px;"><br><br>
 													    Team:<br><br>
-<p><span style="color:#000000;font-size:20px;">													    
-Erika Tovar • CEO<br><br>
-Hi my name is Erika Tovar. I am the CEO of Loverth. I am an artist, designer and holistic practitioner.  I was a behavioral therapist for children in the autism spectrum for 19 years. I created Loverth platform to sell my products and to collaborate with other new entrepreneurs, Artists and small businesses like mine. Loverth platform is a platform where others can create, express, expand, sell, network, build your online shop, collaborate & connects with other holistic businesses online and through social media. 
-<br><br>
-Our goal is to build a holistic business community network platform that will bring holistic healing to communities nationwide. Please contact me!<br><br>
-</span></p>
 <p><span style="color:#000000;font-size:20px;">
 Bilal Ahmed • CTO<br><br>
 Bilal Ahmed is our CTO. He is a brilliant software engineer. I am honored to have him on our Loverth team. 
@@ -327,6 +336,7 @@ An avid reader of Business and Success Principles books, I'm extremely hard work
 		  border-width: 5px;
 		  background-color: #f9e8ee;">
 													    <p><span style="color:#000000;font-size:20px;"><br><br>
+													    <span style="color:#8a7e7e;font-size:20px;"><g:link controller="chapter" action="index"><span style="color:#000000">See Books and Chapters</span></g:link></span><br><br>
 													    Books published on Amazon and Lulu:<br><br>
 Generate the PDF through us. Sell your book with various publishers. Check on exclusive rights. You can also buy or sell books through us in the future. This way, more money goes into the pocket for writers.<br>
 <p><span style="color:#8a7e7e;font-size:20px;"><a href="https://www.amazon.com/Secret-Book-Bilal-Ahmed/dp/1484177975" target="_blank"><span style="color:#000000;">- The Secret Book: Vedanta part I</span></a></span></span></p>
