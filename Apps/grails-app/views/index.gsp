@@ -303,32 +303,39 @@ Consulting:<br><br>
 		  background-color: #007FFF;">
 													    <p><span style="color:#ffffff;font-size:20px;"><br><br>
 													    Team:<br><br>
+													    <p><span style="color:#ffffff;font-size:20px;">
+													    Erika Tovar • CEO<br><br>
+
+Hi my name is Erika Tovar. I am the CEO. I am an artist, designer and holistic practitioner. I was a behavioral therapist for children in the autism spectrum for 19 years. Currently I run Loverth, a platform for artists, as well as other business, bookly, shop and ipixel.<br><br> 
+
+Please contact me!<br><br>
+													    </span></p>
 <p><span style="color:#ffffff;font-size:20px;">
 Bilal Ahmed • CTO<br><br>
-Bilal Ahmed is our CTO. He is a brilliant software engineer. I am honored to have him on our Loverth team. 
+Bilal Ahmed is our CTO. He is a brilliant software engineer. I am honored to have him on our bookly team. 
 <br><br>
-Full Stack Developer: Novell Internet Web Server 1996, Lockheed Martin NASA International Space Station 1997 - 2003, 2005 - 2008 hi5 (multimedia lead); 2008 bebo (analytics); 2010 mytweetmark (Founder with social algorithms with Foundersspace); 2012 Saas Markets (architecture grails); 2013 Wells Fargo Bank (lead 15+ developers); 2014 GearLaunch (architecture, dev, agile), 2015 Federal Home Loan Bank (architecture, 25+ engineers), Foodal 2018 (Founders Institute 2017), GAP Tech and Scrum lead 2019, Intuit Turbo Tax Software Security Engineer IV 2019, Shop and Loverth 2020.
+Full Stack Developer: Novell Internet Web Server 1996, Lockheed Martin NASA International Space Station 1997 - 2003, 2005 - 2008 hi5 (multimedia lead); 2008 bebo (analytics); 2010 mytweetmark (Founder with social algorithms with Foundersspace); 2012 Saas Markets (architecture grails); 2013 Wells Fargo Bank (lead 15+ developers); 2014 GearLaunch (architecture, dev, agile), 2015 Federal Home Loan Bank (architecture, 25+ engineers), Foodal 2018 (Founders Institute 2017), GAP Tech and Scrum lead 2019, Intuit Turbo Tax Software Security Engineer IV 2019, Shop, Loverth, ipixel and bookly 2020. Written 16 books on yoga, tao and startups.
 <br><br>
-Currently, working on shop and loverth, building agile development and lean startup tools for startup incubators. 
+Currently, working on shop, loverth, ipixel, bookly, building shops and helping people write books. 
 <br><br>
 </span></p>
 <p><span style="color:#ffffff;font-size:20px;">
 AZ Zaidi • CPO<br><br>
-Meet AZ Zaidi our CPO. His work is authentic. He makes sure the message is clear, direct and empowering. I am honored to have AZ on our Loverth team. 
+Meet AZ Zaidi our CPO. His work is authentic. He makes sure the message is clear, direct and empowering. I am honored to have AZ on our bookly team. 
 <br><br> 
 
-I focus on Message, live in Refinement, empower Communications & Deliver ROI. My Product-Focus naturally inclines towards identifying Risks and Developing Strategy. I provide unconventional outreach/ resolution, Community Management, UNconference, and training, while leveraging available resources.
+I focus on Message, live in Refinement, empower Communications & Deliver ROI. My Product-Focus naturally inclines towards identifying Risks and Developing Strategy. I provide unconventional outreach/ resolution, Community Management, UNconference, and training, while leveraging available resources. Currently leading ipixel and other business, shop, loverth and bookly.
 <br><br>
 </span></p>
 <p><span style="color:#ffffff;font-size:20px;">
 Vasanth Sabavath • CSO<br><br>
-Vasanth Sabavath CSO is an amazing partner to have on our Loverth team.
+Vasanth Sabavath CSO is an amazing partner to have on our bookly team.
 <br><br>
 
 Positive Thinker | Adaptable | Google India -Udacity Scholar | Infectiously Enthusiastic | Explorer|
 <br><br>
 
-An avid reader of Business and Success Principles books, I'm extremely hard working, Intrinsically motivated but operate with a deep sense of humility and gratitude. I am observant and intrigued by the unique traits and contributions of people around me, and the untapped talent of them, that can be extracted  through encouragement. Successfully completed Startup India Learning Program and part of International Society of Research & Development.
+An avid reader of Business and Success Principles books, I'm extremely hard working, Intrinsically motivated but operate with a deep sense of humility and gratitude. I am observant and intrigued by the unique traits and contributions of people around me, and the untapped talent of them, that can be extracted  through encouragement. Successfully completed Startup India Learning Program and part of International Society of Research & Development. Currently helping Loverth and other shop business, ipixel and bookly.
 </span></p>													  	
 													  </div>
 

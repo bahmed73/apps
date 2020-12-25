@@ -156,7 +156,7 @@
 														<span style="font-size:35px;color:#000000"><f:display bean="book" property="name"/></span>
 													</header>
 													<br><br>
-													<span style="font-size:20px;color:#ffffff;font-family: Arial, Helvetica, sans-serif;"><f:display bean="book" property="description"/></span>
+													<span style="font-size:20px;color:#000000;font-family: Arial, Helvetica, sans-serif;"><f:display bean="book" property="description"/></span>
 													
 												</section>
 											</div>
