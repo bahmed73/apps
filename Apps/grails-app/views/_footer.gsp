@@ -26,9 +26,9 @@
 										<li>
 										<a href="https://www.youtube.com/c/BilalAhmed73" target="_blank"><h3>On YouTube</h3></a></li>
 										<li>
-										<a href="https://angel.co/company/dotshop-1" target="_blank"><h3>Shop on Angellist - Angel Investor network</h3></a></li>
+										<a href="https://angel.co/company/dotshop-1" target="_blank"><h3>Shop on Angellist</h3></a></li>
 										<li>
-										<a href="http://loverth.shop" target="_blank"><h3><asset:image src="loverth-150.png" width="150px" height="150px"/> loverth.</h3></a></li>
+										<a href="http://loverth.shop" target="_blank"><h3><asset:image src="loverth-150.png" width="150px" height="150px"/> loverth</h3></a></li>
 											
 									</ul>
 								</section>
@@ -44,10 +44,10 @@
 										<li>
 										<a href="https://www.facebook.com/dotshopper" target="_blank"><h3>Shop on Facebook</h3></a></li>
 										<li>
-										<a href="https://www.f6s.com/shop-agiledevelopmentleanstartup" target="_blank"><h3>Shop on F6s - Entrepreneurship network</h3></a>
+										<a href="https://www.f6s.com/shop-agiledevelopmentleanstartup" target="_blank"><h3>Shop on F6s</h3></a>
 										</li>
 										<li>
-										<a href="http://ipixel.shop" target="_blank"><h3><asset:image src="ipixel-150.png" width="150px" height="150px"/> ipixel. </h3></a></li>
+										<a href="http://ipixel.shop" target="_blank"><h3><asset:image src="ipixel-150.png" width="150px" height="150px"/> ipixel </h3></a></li>
 										
 									</ul>
 								</section>
@@ -64,7 +64,7 @@
 										</li>
 										
 										<li>&copy; 2020 bookly.love 	</li>
-										<li><a href="http://taote.shop" target="_blank"><asset:image src="logoshop5.png" width="150px" height="150px"/> Shop. </a></li>
+										<li><a href="http://taote.shop" target="_blank"><asset:image src="logoshop5.png" width="150px" height="150px"/> Shop </a></li>
 						<br><br>
 										
 									</ul>
