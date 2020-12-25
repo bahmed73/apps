@@ -5,7 +5,7 @@
 						<br><br>
 						<section>
 									<header>
-										<h2>Customer Success Development:</h2>
+										<h2>Contact Us:</h2>
 									</header>
 								</section>
 						
@@ -27,7 +27,9 @@
 										<a href="https://www.youtube.com/c/BilalAhmed73" target="_blank"><h3>On YouTube</h3></a></li>
 										<li>
 										<a href="https://angel.co/company/dotshop-1" target="_blank"><h3>Shop on Angellist - Angel Investor network</h3></a></li>
-										
+										<li>
+										<a href="http://loverth.shop" target="_blank"><h3><asset:image src="loverth-150.png" width="150px" height="150px"/> Art at loverth.shop!</h3></a></li>
+											
 									</ul>
 								</section>
 								
@@ -44,6 +46,8 @@
 										<li>
 										<a href="https://www.f6s.com/shop-agiledevelopmentleanstartup" target="_blank"><h3>Shop on F6s - Entrepreneurship network</h3></a>
 										</li>
+										<li>
+										<a href="http://ipixel.shop" target="_blank"><h3><asset:image src="ipixel-150.png" width="150px" height="150px"/> Garments at ipixel.shop!</h3></a></li>
 										
 									</ul>
 								</section>
@@ -54,11 +58,13 @@
 							<section>
 									<ul class="divided">
 									<li>
-										<a href="http://ipixel.shop" target="_blank"><h3>New Shop ipixel.shop!</h3></a></li>
-										<li>
 										<a href="https://www.linkedin.com/company/dotshop/" target="_blank"><h3>Shop on Linkedin</h3></a></li>
+										<li>
+										<a href="https://twitter.com/bookly_love" target="_blank"><h3>Bookly on Twitter</h3></a>
+										</li>
+										
 										<li>&copy; 2020 bookly.love 	</li>
-										<li><a href="http://taote.shop" target="_blank">Powered by Shop. <asset:image src="logoshop5.png" width="150px" height="150px"/></a></li>
+										<li><a href="http://taote.shop" target="_blank"><asset:image src="logoshop5.png" width="150px" height="150px"/> Powered by Shop. </a></li>
 						<br><br>
 										
 									</ul>
