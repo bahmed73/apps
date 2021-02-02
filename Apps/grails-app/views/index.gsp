@@ -172,9 +172,6 @@
 						  <ol class="carousel-indicators">
 						    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
 						    <li data-target="#myCarousel" data-slide-to="1"></li>
-						    <li data-target="#myCarousel" data-slide-to="2"></li>
-						    <li data-target="#myCarousel" data-slide-to="3"></li>
-						    <li data-target="#myCarousel" data-slide-to="4"></li>
 						    						    
 						  </ol>
 
@@ -186,18 +183,6 @@
 						    						    
 						    <div class="item">
 						    <asset:image src="loverth-2.png"/>
-						      </div>
-						    
-						    <div class="item">
-						    <asset:image src="TheTaoBook.png"/>
-						      </div>
-						    
-						    <div class="item">
-						    <asset:image src="TheQuranBook.png"/>
-						      </div>
-						    
-						    <div class="item">
-						    <asset:image src="TheDragonBook.png"/>
 						      </div>
 						    
 						  </div>
@@ -237,8 +222,6 @@
 										<div id="tabs">
 													  <ul>
 													    <li><a href="#tabs-1">About</a></li>
-													    <li><a href="#tabs-2">Price Plans</a></li>
-													    <li><a href="#tabs-3">Team</a></li>
 													    <li><a href="#tabs-4">Books</a></li>
 													  </ul>
 													  <div id="tabs-1" style="border: 5px #fdfaaa;
@@ -272,73 +255,7 @@ shops.<br>
 </span></p>
 													    
 													  </div>
-													  <div id="tabs-2" style="border: 5px #ffffff;
-		  border-width: 5px;
-		  background-color: #007FFF;">
-													    <p><span style="color:#ffffff;font-size:20px;"><br><br>
-													    Problem? An example: <br><br>
-Authors:<br><br>
-Book distributors are not
-technical, hence it’s difficult to sell
-books online. Small book distributors take all the exclusive rights and only show the book to a smaller audience for huge price. Amazon helps with self-publish, but is too large and the book gets lost, unless you do social media marketing. We build social media tools and use our own supply chain software to solve problems with sales inventory and season catalogs. We also utilize social media API for traffic generation by keywords, help with Google SEO. We make you famous as a brand with your book! Make you instance Guru on the subject matter. Help advance your career and pay check. Our techniques can be utilized with your existing book branding and marketing.</span></p>										
 													  
-													    <p><span style="color:#ffffff;font-size:20px;"><br>
-Books:<br><br>
-1. Use us to sell books online, pay
-monthly fee and also commission on
-sale or build your own book shop.<br><br>
-Entrepreneurs:<br><br>
-● Plan A - Allow shop to build a store for you with agile development.<br>
-● Plan B - Allow shop to market you with lean startup, customer development.<br>
-● Plan C = Plan A + Plan B<br>
-● Plan D = We will help you write the book for $500.<br>
-● Plan E = We will help you build your shop for $2000.<br><br>
-Consulting:<br><br>
-1. Hourly consultation, $150 / hour, product development, project management, sales and business.<br>
-</span></p>
-													  	
-													  </div>
-													  <div id="tabs-3" style="border: 5px #fdfaaa;
-		  border-width: 5px;
-		  background-color: #007FFF;">
-													    <p><span style="color:#ffffff;font-size:20px;"><br><br>
-													    Team:<br><br>
-													    <p><span style="color:#ffffff;font-size:20px;">
-													    Erika Tovar • CEO<br><br>
-
-Hi my name is Erika Tovar. I am the CEO. I am an artist, designer and holistic practitioner. I was a behavioral therapist for children in the autism spectrum for 19 years. Currently I run Loverth, a platform for artists, as well as other business, bookly, shop and ipixel.<br><br> 
-
-Please contact me!<br><br>
-													    </span></p>
-<p><span style="color:#ffffff;font-size:20px;">
-Bilal Ahmed • CTO<br><br>
-Bilal Ahmed is our CTO. He is a brilliant software engineer. I am honored to have him on our bookly team. 
-<br><br>
-Full Stack Developer: Novell Internet Web Server 1996, Lockheed Martin NASA International Space Station 1997 - 2003, 2005 - 2008 hi5 (multimedia lead); 2008 bebo (analytics); 2010 mytweetmark (Founder with social algorithms with Foundersspace); 2012 Saas Markets (architecture grails); 2013 Wells Fargo Bank (lead 15+ developers); 2014 GearLaunch (architecture, dev, agile), 2015 Federal Home Loan Bank (architecture, 25+ engineers), Foodal 2018 (Founders Institute 2017), GAP Tech and Scrum lead 2019, Intuit Turbo Tax Software Security Engineer IV 2019, Shop, Loverth, ipixel and bookly 2020. Written 16 books on yoga, tao and startups.
-<br><br>
-Currently, working on shop, loverth, ipixel, bookly, building shops and helping people write books. 
-<br><br>
-</span></p>
-<p><span style="color:#ffffff;font-size:20px;">
-AZ Zaidi • CPO<br><br>
-Meet AZ Zaidi our CPO. His work is authentic. He makes sure the message is clear, direct and empowering. I am honored to have AZ on our bookly team. 
-<br><br> 
-
-I focus on Message, live in Refinement, empower Communications & Deliver ROI. My Product-Focus naturally inclines towards identifying Risks and Developing Strategy. I provide unconventional outreach/ resolution, Community Management, UNconference, and training, while leveraging available resources. Currently leading ipixel and other business, shop, loverth and bookly.
-<br><br>
-</span></p>
-<p><span style="color:#ffffff;font-size:20px;">
-Vasanth Sabavath • CSO<br><br>
-Vasanth Sabavath CSO is an amazing partner to have on our bookly team.
-<br><br>
-
-Positive Thinker | Adaptable | Google India -Udacity Scholar | Infectiously Enthusiastic | Explorer|
-<br><br>
-
-An avid reader of Business and Success Principles books, I'm extremely hard working, Intrinsically motivated but operate with a deep sense of humility and gratitude. I am observant and intrigued by the unique traits and contributions of people around me, and the untapped talent of them, that can be extracted  through encouragement. Successfully completed Startup India Learning Program and part of International Society of Research & Development. Currently helping Loverth and other shop business, ipixel and bookly.
-</span></p>													  	
-													  </div>
-
 <div id="tabs-4" style="border: 5px #fdfaaa;
 		  border-width: 5px;
 		  background-color: #007FFF;">
