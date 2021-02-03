@@ -36,7 +36,7 @@
 		<style>
 		p {
 		  border: 2px solid #e5e1e1;
-		  background-color: #007FFF;
+		  background-color: #78789b;
 		  border-width: 2px;
 		  margin: 5px;
 		  padding: 10px;
@@ -53,7 +53,7 @@
 		  background-color: #16e01b;
 		  border: none;
 		  border-radius: 15px;
-		  box-shadow: 0 9px #007FFF;
+		  box-shadow: 0 9px #78789b;
 		}
 
 		.button:hover {background-color: #ffffff}

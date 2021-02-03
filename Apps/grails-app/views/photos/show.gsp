@@ -54,7 +54,7 @@
 		  background-color: #fb7b77;
 		  border: none;
 		  border-radius: 15px;
-		  box-shadow: 0 9px #007FFF;
+		  box-shadow: 0 9px #78789b;
 		}
 
 		.button:hover {background-color: #000000}

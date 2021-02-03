@@ -51,7 +51,7 @@
 		  border-width: 2px;
 		  margin: 5px;
 		  padding: 10px;
-		  background-color: #e62c30;
+		  background-color: #d23b2a;
 		  color: #fdeba9;
 		}
 		.button {
@@ -63,10 +63,10 @@
 		  text-decoration: none;
 		  outline: none;
 		  color: #fdeba9;
-		  background-color: #e62c30;
+		  background-color: #d23b2a;
 		  border: none;
 		  border-radius: 15px;
-		  box-shadow: 0 9px #007FFF;
+		  box-shadow: 0 9px #78789b;
 		}
 
 		.button:hover {background-color: #000000}
@@ -172,6 +172,7 @@
 						  <ol class="carousel-indicators">
 						    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
 						    <li data-target="#myCarousel" data-slide-to="1"></li>
+						    <li data-target="#myCarousel" data-slide-to="3"></li>
 						    						    
 						  </ol>
 
@@ -184,6 +185,11 @@
 						    <div class="item">
 						    <asset:image src="loverth-2.png"/>
 						      </div>
+						    
+						    <div class="item">
+						    <asset:image src="bookly-banner-3.png"/>
+						      </div>
+						    
 						    
 						  </div>
 
@@ -226,7 +232,7 @@
 													  </ul>
 													  <div id="tabs-1" style="border: 5px #fdfaaa;
 		  border-width: 5px;
-		  background-color: #007FFF;">
+		  background-color: #78789b;">
 													  
 													  	<p><span style="color:#ffffff;font-size:20px;"><br><br>Bookly.love:
 													  	<br><br>
@@ -258,7 +264,7 @@ shops.<br>
 													  
 <div id="tabs-4" style="border: 5px #fdfaaa;
 		  border-width: 5px;
-		  background-color: #007FFF;">
+		  background-color: #78789b;">
 													    <p><span style="color:#ffffff;font-size:20px;"><br><br>
 													    <span style="color:#8a7e7e;font-size:20px;"><g:link controller="chapter" action="index"><span style="color:#ffffff">Click here to see latest published books and chapters on Bookly.</span></g:link></span><br><br>
 													    Books published on Amazon and Lulu without using bookly tools, however social media marketing through our platforms, billions of page views on yoga, tao and startups.<br><br>

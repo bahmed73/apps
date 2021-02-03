@@ -45,7 +45,7 @@
 		  border-width: 2px;
 		  margin: 5px;
 		  padding: 10px;
-		  background-color: #e62c30;
+		  background-color: #d23b2a;
 		  color: #fdeba9;
 		}
 		.button {
@@ -57,10 +57,10 @@
 		  text-decoration: none;
 		  outline: none;
 		  color: #fdeba9;
-		  background-color: #e62c30;
+		  background-color: #d23b2a;
 		  border: none;
 		  border-radius: 15px;
-		  box-shadow: 0 9px #007FFF;
+		  box-shadow: 0 9px #78789b;
 		}
 
 		.button:hover {background-color: #000000}
@@ -203,17 +203,17 @@
 													  </ul>
 													  <div id="tabs-1" style="border: 5px #fdfaaa;
 		  border-width: 5px;
-		  background-color: #007FFF;">
+		  background-color: #78789b;">
 													  	<p><g:link class="list" action="index" controller="blogCategory"><span style="color:#000000;font-size:20px;">Categories.</span></g:link></p>
 													  </div>
 													  <div id="tabs-2" style="border: 5px #fdfaaa;
 		  border-width: 5px;
-		  background-color: #007FFF;">
+		  background-color: #78789b;">
 													    <p><g:link class="list" action="index" controller="book"><span style="color:#000000;font-size:20px;">Books.</span></g:link></p>
 													  </div>
 													  <div id="tabs-3" style="border: 5px #fdfaaa;
 		  border-width: 5px;
-		  background-color: #007FFF;">
+		  background-color: #78789b;">
 													    <p><g:link class="list" action="index" controller="chapter"><span style="color:#000000;font-size:20px;">Chapters.</span></g:link></p>
 													  </div>
 													</div>												

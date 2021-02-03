@@ -53,7 +53,7 @@
 		  background-color: #16e01b;
 		  border: none;
 		  border-radius: 15px;
-		  box-shadow: 0 9px #007FFF;
+		  box-shadow: 0 9px #78789b;
 		}
 
 		.button:hover {background-color: #ffffff}

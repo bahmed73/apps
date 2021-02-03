@@ -40,8 +40,8 @@
 		<!--[if lte IE 8]><asset:javascript src="html5shiv.js"/><asset:stylesheet src="ie8.css"/><![endif]-->
 		<style>
 		p {
-		  border: 2px solid #007fff;
-		  background-color: #e62c30;
+		  border: 2px solid #78789b;
+		  background-color: #d23b2a;
 		  border-width: 2px;
 		  margin: 5px;
 		  padding: 10px;
@@ -56,10 +56,10 @@
 		  text-decoration: none;
 		  outline: none;
 		  color: #fdeba9;
-		  background-color: #e62c30;
+		  background-color: #d23b2a;
 		  border: none;
 		  border-radius: 15px;
-		  box-shadow: 0 9px #007FFF;
+		  box-shadow: 0 9px #78789b;
 		}
 
 		.button:hover {background-color: #000000}
