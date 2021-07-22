@@ -247,14 +247,14 @@ Create a book, organize chapters and export PDF with bookly software.<br>
 													    <p><span style="color:#ffffff;font-size:20px;"><br>
 													    <span style="color:#feff9f">Shop:</span>
 													  	<br><br>
-													  	Use our supply chain software to build a shop - Ready in a week, own your intellectual property, IP by hosting your own server, with shopping cart experience and checkout. <a href="mailto:bilal@mytweetmark.com"><span style="color:#bfb487">The cost is $2000.</span></a><br><br>
+													  	Use our supply chain software to build a shop - Ready in a week, own your intellectual property, IP by hosting your own server, with shopping cart experience and checkout. <a href="mailto:bilal@mytweetmark.com"><span style="color:#cffc9b">The cost is $2000.</span></a><br><br>
 													  	</span></p>
 													  	
 													  	<p><span style="color:#ffffff;font-size:20px;"><br>
 													    <span style="color:#feff9f">Software:</span>
 													  	<br><br>
-													  	Use our product <a href="http://taote.shop/product/premium" target="_blank"><span style="color:#b3b6b8">TODO</span></a> software to sketch your shop.<br><br>
-													  	Use <a href="http://taote.shop" target="_blank"><span style="color:#b3b6b8">Shop Software</span></a> to manage your projects, tasks, notes, meetings, backlog and sprints with agile development. 
+													  	Use our product <a href="http://taote.shop/product/premium" target="_blank"><span style="color:#78f9f9">TODO</span></a> software to sketch your shop. 
+													  	Use <a href="http://taote.shop" target="_blank"><span style="color:#78f9f9">Shop</span></a> to manage your projects, tasks, notes, meetings, backlog and sprints with agile development. 
 													  	Lean startup and customer development methodologies, software tools, to create user feedback loops, help with product development and finding new customers.
 </span></p>
 													    
@@ -264,7 +264,7 @@ Create a book, organize chapters and export PDF with bookly software.<br>
 		  border-width: 5px;
 		  background-color: #78789b;">
 													    <p><span style="color:#ffffff;font-size:20px;"><br><br>
-													    Books published on Amazon and Lulu. <a href="mailto:bilal@mytweetmark.com"><span style="color:#bfb487">The cost is $500.</span></a><br>
+													    Books published on Amazon and Lulu. <a href="mailto:bilal@mytweetmark.com"><span style="color:#cffc9b">The cost is $500.</span></a><br>
 <p><span style="color:#8a7e7e;font-size:20px;"><a href="https://www.amazon.com/Secret-Book-Bilal-Ahmed/dp/1484177975" target="_blank"><span style="color:#ffffff;">- The Secret Book: Vedanta part I</span></a></span></span></p>
 <p><span style="color:#8a7e7e;font-size:20px;"><a href="https://www.amazon.com/Sacred-Book-Bilal-Ahmed/dp/1490950931" target="_blank"><span style="color:#ffffff;">- The Sacred Book: Vedanta part II</span></a></span></span></p>
 <p><span style="color:#8a7e7e;font-size:20px;"><a href="https://www.amazon.com/Startup-Book-Entrepreneurship-Training-Manual/dp/1500475459" target="_blank"><span style="color:#ffffff;">- The Startup Book: Venture Capitals</span></a></span></span></p>
@@ -300,7 +300,8 @@ Create a NFT with us, build a shop and write a book, to maximize value for your 
 													    <span style="color:#feff9f">Shop Product NFT:</span>
 													  	<br><br>
 													  	
-We have launched a list of NFTs for celebrities, helping define own platform and strategy as a business, become a brand, compared to using other people's website to launch your NFT, as a service. 
+We have launched a list of NFTs for celebrities, helping define own platform and strategy as a business, become a brand, compared to using other people's website to launch your NFT, as a service. <br><br>
+<a href="mailto:bilal@mytweetmark.com"><span style="color:#cffc9b">The cost is $100.</span></a><br>
 </span></p>
 													    
 													  </div>

@@ -176,21 +176,7 @@
 											</ul>
 										</nav>
 							<!-- Intro -->
-							<div class="row">
-						<div class="12u">
-								<section>
-									<div>
-										<p><span style="color:#ffffff;font-size:20px;">Dashboard:</span>
-										<p><span style="color:#ffffff;font-size:18px;">User login is required to access the dashboard.</span></p>
-										<p><span style="color:#ffffff;font-size:16px;">Create content, categories, books and chapters.</span></p>
-										<p><span style="color:#ffffff;font-size:16px;">Generate PDF. Submit to distributors. Then come back and do social media marketing.</span></p>
-										
-									</div>
-								</section>
-
-						</div>
-					</div>
-							
+														
 							<div class="row">
 						<div class="12u">
 								<section>
@@ -204,17 +190,17 @@
 													  <div id="tabs-1" style="border: 5px #fdfaaa;
 		  border-width: 5px;
 		  background-color: #78789b;">
-													  	<p><g:link class="list" action="index" controller="blogCategory"><span style="color:#000000;font-size:20px;">Categories.</span></g:link></p>
+													  	<p><g:link class="list" action="index" controller="blogCategory"><span style="color:#feff9f;font-size:20px;">Categories.</span></g:link></p>
 													  </div>
 													  <div id="tabs-2" style="border: 5px #fdfaaa;
 		  border-width: 5px;
 		  background-color: #78789b;">
-													    <p><g:link class="list" action="index" controller="book"><span style="color:#000000;font-size:20px;">Books.</span></g:link></p>
+													    <p><g:link class="list" action="index" controller="book"><span style="color:#feff9f;font-size:20px;">Books.</span></g:link></p>
 													  </div>
 													  <div id="tabs-3" style="border: 5px #fdfaaa;
 		  border-width: 5px;
 		  background-color: #78789b;">
-													    <p><g:link class="list" action="index" controller="chapter"><span style="color:#000000;font-size:20px;">Chapters.</span></g:link></p>
+													    <p><g:link class="list" action="index" controller="chapter"><span style="color:#feff9f;font-size:20px;">Chapters.</span></g:link></p>
 													  </div>
 													</div>												
 										
