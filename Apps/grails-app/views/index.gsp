@@ -172,6 +172,7 @@
 						  <ol class="carousel-indicators">
 						    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
 						    <li data-target="#myCarousel" data-slide-to="1"></li>
+						    <li data-target="#myCarousel" data-slide-to="2"></li>
 						    <li data-target="#myCarousel" data-slide-to="3"></li>
 						    						    
 						  </ol>
@@ -179,17 +180,20 @@
 						  <!-- Wrapper for slides -->
 						  <div class="carousel-inner">
 						    <div class="item active">
-						      <asset:image src="loverth.png"/>
+						      <asset:image src="nft-banner.png"/>
 						    </div>
 						    						    
 						    <div class="item">
-						    <asset:image src="loverth-2.png"/>
+						    <asset:image src="nft-banner-2.png"/>
 						      </div>
 						    
 						    <div class="item">
-						    <asset:image src="bookly-banner-3.png"/>
+						    <asset:image src="nft-banner-3.png"/>
 						      </div>
 						    
+						    <div class="item">
+						    <asset:image src="nft-banner-4.png"/>
+						      </div>
 						    
 						  </div>
 
@@ -227,48 +231,40 @@
 									<div>
 										<div id="tabs">
 													  <ul>
-													    <li><a href="#tabs-1">About</a></li>
-													    <li><a href="#tabs-4">Books</a></li>
+													    <li><a href="#tabs-1">Build a Shop</a></li>
+													    <li><a href="#tabs-2">Write a Book</a></li>
+													    <li><a href="#tabs-3">Create a NFT</a></li>
 													  </ul>
 													  <div id="tabs-1" style="border: 5px #fdfaaa;
 		  border-width: 5px;
 		  background-color: #78789b;">
 													  
-													  	<p><span style="color:#ffffff;font-size:20px;"><br><br>Bookly.love:
+													  	<p><span style="color:#ffffff;font-size:20px;"><br><br><span style="color:#feff9f">Bookly.love:</span>
 													  	<br><br>
-Turn your blogs into PDFs, ready to distribute to book distributors, like Amazon, etc.<br>
-Once the book is published, use bookly to market your book, traffic, Google SEO and distribution.<br>
-Use our help to publish to Amazon, Lulu, etc.<br>
-We will utilize Social Media API, application programming language, i.e. Facebook and Twitter, and other social networks to market and distribute our books.<br> 
-Amazon and other distributors don't have access to social media API.<br>
+Create a book, organize chapters and export PDF with bookly software.<br>
 </span></p>
 													  	
 													    <p><span style="color:#ffffff;font-size:20px;"><br>
-													    Features:
+													    <span style="color:#feff9f">Shop:</span>
 													  	<br><br>
-													    ● Social media.<br>
-● Analytics.<br>
-● E-commerce enabled.<br>
-● One click buy.<br>
-● Sales dashboard.<br>
-● Customer management.<br>
-● Build online store with
-persona.<br>
-● Supply chain software, book distributors ->
-shops.<br>
-● $500 to help you write a book.<br>
-● $2000 to help you build a shop.<br>
+													  	Use our supply chain software to build a shop - Ready in a week, own your intellectual property, IP by hosting your own server, with shopping cart experience and checkout. <a href="mailto:bilal@mytweetmark.com"><span style="color:#bfb487">The cost is $2000.</span></a><br><br>
+													  	</span></p>
+													  	
+													  	<p><span style="color:#ffffff;font-size:20px;"><br>
+													    <span style="color:#feff9f">Software:</span>
+													  	<br><br>
+													  	Use our product <a href="http://taote.shop/product/premium" target="_blank"><span style="color:#b3b6b8">TODO</span></a> software to sketch your shop.<br><br>
+													  	Use <a href="http://taote.shop" target="_blank"><span style="color:#b3b6b8">Shop Software</span></a> to manage your projects, tasks, notes, meetings, backlog and sprints with agile development. 
+													  	Lean startup and customer development methodologies, software tools, to create user feedback loops, help with product development and finding new customers.
 </span></p>
 													    
 													  </div>
 													  
-<div id="tabs-4" style="border: 5px #fdfaaa;
+<div id="tabs-2" style="border: 5px #fdfaaa;
 		  border-width: 5px;
 		  background-color: #78789b;">
 													    <p><span style="color:#ffffff;font-size:20px;"><br><br>
-													    <span style="color:#8a7e7e;font-size:20px;"><g:link controller="chapter" action="index"><span style="color:#ffffff">Click here to see latest published books and chapters on Bookly.</span></g:link></span><br><br>
-													    Books published on Amazon and Lulu without using bookly tools, however social media marketing through our platforms, billions of page views on yoga, tao and startups.<br><br>
-Generate the PDF through us. Sell your book with various publishers. Check on exclusive rights. You can also buy or sell books through us in the future. This way, more money goes into the pocket for writers.<br>
+													    Books published on Amazon and Lulu. <a href="mailto:bilal@mytweetmark.com"><span style="color:#bfb487">The cost is $500.</span></a><br>
 <p><span style="color:#8a7e7e;font-size:20px;"><a href="https://www.amazon.com/Secret-Book-Bilal-Ahmed/dp/1484177975" target="_blank"><span style="color:#ffffff;">- The Secret Book: Vedanta part I</span></a></span></span></p>
 <p><span style="color:#8a7e7e;font-size:20px;"><a href="https://www.amazon.com/Sacred-Book-Bilal-Ahmed/dp/1490950931" target="_blank"><span style="color:#ffffff;">- The Sacred Book: Vedanta part II</span></a></span></span></p>
 <p><span style="color:#8a7e7e;font-size:20px;"><a href="https://www.amazon.com/Startup-Book-Entrepreneurship-Training-Manual/dp/1500475459" target="_blank"><span style="color:#ffffff;">- The Startup Book: Venture Capitals</span></a></span></span></p>
@@ -284,6 +280,31 @@ Generate the PDF through us. Sell your book with various publishers. Check on ex
 <p><span style="color:#8a7e7e;font-size:20px;"><a href="https://www.amazon.com/Goddess-Book-First-Upanishads/dp/1727484754" target="_blank"><span style="color:#ffffff;" target="_blank">- The Goddess Book: Upanishads part II</span></a></span></span></p>
 </span></p>													  	
 													  </div>
+													  <div id="tabs-3" style="border: 5px #fdfaaa;
+		  border-width: 5px;
+		  background-color: #78789b;">
+													  
+													  	<p><span style="color:#ffffff;font-size:20px;"><br><br><span style="color:#feff9f">NFT:</span>
+													  	<br><br>
+Launch a Product NFT for celebrities, Services NFT for technology providers and Hybrid NFT for social media experts.<br>
+</span></p>
+													  	
+													    <p><span style="color:#ffffff;font-size:20px;"><br>
+													    <span style="color:#feff9f">Shop NFT:</span>
+													  	<br><br>
+													  	
+Create a NFT with us, build a shop and write a book, to maximize value for your business, and sell for cash or crypto currency. 
+</span></p>
+
+<p><span style="color:#ffffff;font-size:20px;"><br>
+													    <span style="color:#feff9f">Shop Product NFT:</span>
+													  	<br><br>
+													  	
+We have launched a list of NFTs for celebrities, helping define own platform and strategy as a business, become a brand, compared to using other people's website to launch your NFT, as a service. 
+</span></p>
+													    
+													  </div>
+			
 
 													  													  
 													</div>												

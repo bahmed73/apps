@@ -7,6 +7,8 @@ build/
 *.ipr
 *.iws
 .project
+../.project
+../.settings/
 .settings
 .classpath
 /bin/
