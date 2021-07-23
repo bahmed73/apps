@@ -33,7 +33,7 @@
 										<li>
 										<a href="https://www.facebook.com/dotshopper" target="_blank"><h3>Shop Ventures on Facebook</h3></a></li>
 										<li>
-										<a href="https://www.f6s.com/shop-agiledevelopmentleanstartup" target="_blank"><h3>Shop Ventures on F6s</h3></a>
+										<a href="https://www.f6s.com/agiledevelopmentleanstartup" target="_blank"><h3>Shop Ventures on F6s</h3></a>
 										</li>
 										
 									</ul>
