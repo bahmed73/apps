@@ -173,26 +173,21 @@
 						    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
 						    <li data-target="#myCarousel" data-slide-to="1"></li>
 						    <li data-target="#myCarousel" data-slide-to="2"></li>
-						    <li data-target="#myCarousel" data-slide-to="3"></li>
 						    						    
 						  </ol>
 
 						  <!-- Wrapper for slides -->
 						  <div class="carousel-inner">
 						    <div class="item active">
-						      <asset:image src="nft-banner.png"/>
+						      <asset:image src="lydia-banner.gif"/>
 						    </div>
 						    						    
 						    <div class="item">
-						    <asset:image src="nft-banner-2.png"/>
+						    <asset:image src="snl-banner.gif"/>
 						      </div>
 						    
 						    <div class="item">
-						    <asset:image src="nft-banner-3.png"/>
-						      </div>
-						    
-						    <div class="item">
-						    <asset:image src="nft-banner-4.png"/>
+						    <asset:image src="nba-banner.gif"/>
 						      </div>
 						    
 						  </div>
