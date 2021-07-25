@@ -110,7 +110,7 @@
 							<!-- Banner -->
 								<section id="banner">
 									
-										<g:link class="list" action="index" controller="blogCategory"><span class="image image-full"><asset:image src="loverth.png"/></span></g:link>
+										<g:link class="list" action="index" controller="blogCategory"><span class="image image-full"><asset:image src="trump.gif"/></span></g:link>
 										<header>
 										<!-- 
 											<h2>Shop</h2> 
