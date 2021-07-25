@@ -174,31 +174,27 @@
 						    <li data-target="#myCarousel" data-slide-to="1"></li>
 						    <li data-target="#myCarousel" data-slide-to="2"></li>
 						    <li data-target="#myCarousel" data-slide-to="3"></li>
-						    <li data-target="#myCarousel" data-slide-to="4"></li>
 						    						    
 						  </ol>
 
 						  <!-- Wrapper for slides -->
 						  <div class="carousel-inner">
 						    <div class="item active">
-						      <asset:image src="lydia-banner.gif"/>
+						    <g:link class="list" action="index" controller="book"><asset:image src="lydia-banner.gif"/></g:link>
 						    </div>
 						    						    
 						    <div class="item">
-						    <asset:image src="snl-banner.gif"/>
-						      </div>
+						    <g:link class="list" action="index" controller="book"><asset:image src="snl-banner.gif"/></g:link>
+						    </div>
 						    
 						    <div class="item">
-						    <asset:image src="nba-banner.gif"/>
-						      </div>
+						    <g:link class="list" action="index" controller="book"><asset:image src="nba-banner.gif"/></g:link>
+						    </div>
 						    
 						    <div class="item">
-						    <asset:image src="agent.gif"/>
-						      </div>
+						    <g:link class="list" action="index" controller="book"><asset:image src="agent.gif"/></g:link>
+						    </div>
 						      
-						    <div class="item">
-						    <asset:image src="SNL.gif"/>
-						      </div>  
 						  </div>
 
 						  <!-- Left and right controls -->
