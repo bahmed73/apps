@@ -103,6 +103,7 @@
   <ol class="carousel-indicators">
     <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
     <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
     
   </ol>
 
@@ -116,6 +117,9 @@
 						    <g:link class="list" action="index" controller="book"><asset:image src="victory.gif"/></g:link>
 						      </div>
     
+    <div class="item">
+						    <g:link class="list" action="index" controller="book"><asset:image src="michelle-obama.gif"/></g:link>
+						      </div>
     
       </div>
 

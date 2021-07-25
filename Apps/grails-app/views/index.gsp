@@ -173,6 +173,7 @@
 						    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
 						    <li data-target="#myCarousel" data-slide-to="1"></li>
 						    <li data-target="#myCarousel" data-slide-to="2"></li>
+						    <li data-target="#myCarousel" data-slide-to="2"></li>
 						    						    
 						  </ol>
 
@@ -190,6 +191,9 @@
 						    <asset:image src="nba-banner.gif"/>
 						      </div>
 						    
+						    <div class="item">
+						    <asset:image src="agent.gif"/>
+						      </div>
 						  </div>
 
 						  <!-- Left and right controls -->
