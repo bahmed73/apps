@@ -206,8 +206,8 @@
 													Chapters:</span>
 													<br><br>
 													<g:each in="${chapters}" status="i" var="chapterInstance">
-													<div class="3u" style="float:left;height:300px;width:300px;">
-													<p style="float:left;height:250px;width:250px;"><g:link controller="chapter" action="show" id="${chapterInstance.id}"><span style="color:#ffffff;font-size:20px;"><br><img src="data:image/png;base64,${chapterInstance.imageOne?.encodeBase64()}"/><br><br>${chapterInstance.name}</span></g:link></p>
+													<div class="3u" style="float:left;height:400px;width:300px;">
+													<p style="float:left;height:350px;width:250px;"><g:link controller="chapter" action="show" id="${chapterInstance.id}"><span style="color:#ffffff;font-size:20px;"><br><img src="data:image/png;base64,${chapterInstance.imageOne?.encodeBase64()}"/><br><br>${chapterInstance.name}</span></g:link></p>
 													</div>
 													</g:each>
 													</g:if>

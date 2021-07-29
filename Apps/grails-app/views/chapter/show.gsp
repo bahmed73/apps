@@ -37,6 +37,7 @@
 		p {
 		border: 2px solid #78789b;
 		  border-width: 2px;
+		  border-radius: 25px;
 		  margin: 5px;
 		  padding: 10px;
 		  background-color: #d23b2a;
