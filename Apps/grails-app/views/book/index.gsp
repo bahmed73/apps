@@ -40,8 +40,9 @@
 		p {
 		  border: 2px solid #78789b;
 		  border-width: 2px;
+		  border-radius: 25px;
 		  margin: 5px;
-		  padding: 10px;
+		  padding: 20px;
 		  background-color: #d23b2a;
 		}
 		.button {
@@ -65,6 +66,10 @@
 		  background-color: #1d10d2;
 		  box-shadow: 0 5px #666;
 		  transform: translateY(4px);
+		}
+		
+		p:hover, h1:hover, a:hover {
+		  background-color: black;
 		}
 		</style>
 	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
@@ -175,13 +180,13 @@
 											
 												<div class="row">
 														<div>
-														<p><g:link controller="blogCategory" action="show" id="${category.id}"><span style="color:#ffffff;font-size:20px;"><img src="data:image/png;base64,${category.imageOne?.encodeBase64()}" width="250" height="250"/><br>${category.name}</span></g:link></p>
+														<p style="float:left;height:465px;width:350px;"><g:link controller="blogCategory" action="show" id="${category.id}"><span style="color:#ffffff;font-size:20px;"><br><img src="data:image/png;base64,${category.imageOne?.encodeBase64()}" width="250" height="250"/><br><br>${category.name}</span></g:link></p>
 														</div>
 														<br><br>
 														<g:if test="${books}">
 														<g:each in="${books}" status="j" var="bookInstance">
-														<div class="8u" style="float:left;margin:10px">
-														<p><g:link controller="book" action="show" id="${bookInstance.id}"><img src="data:image/png;base64,${bookInstance.imageOne?.encodeBase64()}" width="100" height="100"/><span style="color:#ffffff;font-size:20px;">${bookInstance.name}</span></g:link></p>
+														<div class="3u" style="float:left;height:300px;width:300px;">
+														<p style="float:left;height:270px;width:250px;"><g:link controller="book" action="show" id="${bookInstance.id}"><br><img src="data:image/png;base64,${bookInstance.imageOne?.encodeBase64()}" width="100" height="100"/><span style="color:#ffffff;font-size:20px;"><br><br>${bookInstance.name}</span></g:link></p>
 														</div>
 														</g:each>
 														</g:if>

@@ -37,8 +37,9 @@
 		p {
 		border: 2px solid #78789b;
 		  border-width: 2px;
+		  border-radius: 25px;
 		  margin: 5px;
-		  padding: 10px;
+		  padding: 20px;
 		  background-color: #d23b2a;
 		}
 		.button {
@@ -62,6 +63,10 @@
 		  background-color: #1d10d2;
 		  box-shadow: 0 5px #666;
 		  transform: translateY(4px);
+		}
+		
+		p:hover, h1:hover, a:hover {
+		  background-color: black;
 		}
 		</style>
 	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
@@ -202,7 +207,7 @@
 													<br><br>
 													<g:each in="${chapters}" status="i" var="chapterInstance">
 													<div class="3u" style="float:left;height:300px;width:300px;">
-													<p><g:link controller="chapter" action="show" id="${chapterInstance.id}"><span style="color:#ffffff;font-size:20px;"><img src="data:image/png;base64,${chapterInstance.imageOne?.encodeBase64()}"/><br>${chapterInstance.name}</span></g:link></p>
+													<p style="float:left;height:250px;width:250px;"><g:link controller="chapter" action="show" id="${chapterInstance.id}"><span style="color:#ffffff;font-size:20px;"><br><img src="data:image/png;base64,${chapterInstance.imageOne?.encodeBase64()}"/><br><br>${chapterInstance.name}</span></g:link></p>
 													</div>
 													</g:each>
 													</g:if>

@@ -39,9 +39,10 @@
 		<style>
 		p {
 		  border: 2px solid #78789b;
+		  border-radius: 25px;
 		  border-width: 2px;
 		  margin: 5px;
-		  padding: 10px;
+		  padding: 20px;
 		  background-color: #d23b2a;
 		}
 		
@@ -66,6 +67,10 @@
 		  background-color: #1d10d2;
 		  box-shadow: 0 5px #666;
 		  transform: translateY(4px);
+		}
+		
+		p:hover, h1:hover, a:hover {
+		  background-color: black;
 		}
 		</style>
 	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
@@ -159,10 +164,11 @@
 							<g:each in="${blogCategoryList}" status="i" var="blogCategoryInstance">
 									<section>
 										
-											<div class="12u">
+											<div class="3u" style="float:left;height:400px;">
 												<div>
 														<div>
-														<p><g:link controller="blogCategory" action="show" id="${blogCategoryInstance.id}"><span style="color:#ffffff;font-size:20px;"><img src="data:image/png;base64,${blogCategoryInstance.imageOne?.encodeBase64()}"/><br>${blogCategoryInstance.name}</span></g:link></p>
+														
+														<p  style="float:left;height:340px;width:250px;"><g:link controller="blogCategory" action="show" id="${blogCategoryInstance.id}"><span style="color:#ffffff;font-size:20px;"><br><img src="data:image/png;base64,${blogCategoryInstance.imageOne?.encodeBase64()}"/><br><br>${blogCategoryInstance.name}</span></g:link></p>
 														</div>
 													
 														

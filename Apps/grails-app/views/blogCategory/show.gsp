@@ -41,10 +41,11 @@
 		<style>
 		p {
 		  border: 2px solid #78789b;
+		  border-radius: 25px;
 		  background-color: #d23b2a;
 		  border-width: 2px;
 		  margin: 5px;
-		  padding: 10px;
+		  padding: 20px;
 		}
 		
 		.button {
@@ -68,6 +69,10 @@
 		  background-color: #1d10d2;
 		  box-shadow: 0 5px #666;
 		  transform: translateY(4px);
+		}
+		
+		p:hover, h1:hover, a:hover {
+		  background-color: black;
 		}
 		</style>
 	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
@@ -166,7 +171,7 @@
 													<br><br>
 													<g:each in="${books}" status="i" var="bookInstance">
 													<div class="3u" style="float:left;height:300px;width:300px;">
-													<p><g:link controller="book" action="show" id="${bookInstance.id}"><span style="color:#ffffff;font-size:20px;"><img src="data:image/png;base64,${bookInstance.imageOne?.encodeBase64()}"/><br>${bookInstance.name}</span></g:link></p>
+													<p style="float:left;height:250px;width:250px;"><g:link controller="book" action="show" id="${bookInstance.id}"><span style="color:#ffffff;font-size:20px;"><br><img src="data:image/png;base64,${bookInstance.imageOne?.encodeBase64()}"/><br><br>${bookInstance.name}</span></g:link></p>
 													</div>
 													</g:each>
 													</g:if>
