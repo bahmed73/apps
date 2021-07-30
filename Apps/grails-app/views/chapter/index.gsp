@@ -178,8 +178,8 @@
 										
 											
 												<div class="row">
-														<div>
-														<p style="float:left;height:465px;width:350px;"><g:link controller="book" action="show" id="${book.id}"><span style="color:#ffffff;font-size:20px;"><br><img src="data:image/png;base64,${book.imageOne?.encodeBase64()}" width="250" height="250"/><br><br>${book.name}</span></g:link></p>
+														<div class="4u">
+														<p style="float:left;height:465px;width:350px;"><g:link controller="book" action="show" id="${book.id}"><span style="color:#ffffff;font-size:36px;"><br><img src="data:image/png;base64,${book.imageOne?.encodeBase64()}" width="250" height="250"/><br><br>${book.name}</span></g:link></p>
 														</div>
 														<br><br>
 														<g:if test="${chapters}">

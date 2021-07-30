@@ -170,8 +170,8 @@
 													Books:</span>
 													<br><br>
 													<g:each in="${books}" status="i" var="bookInstance">
-													<div class="3u" style="float:left;height:300px;width:300px;">
-													<p style="float:left;height:250px;width:250px;"><g:link controller="book" action="show" id="${bookInstance.id}"><span style="color:#ffffff;font-size:20px;"><br><img src="data:image/png;base64,${bookInstance.imageOne?.encodeBase64()}"/><br><br>${bookInstance.name}</span></g:link></p>
+													<div class="2u" style="float:left;height:300px;">
+													<p style="float:left;height:250px;"><g:link controller="book" action="show" id="${bookInstance.id}"><span style="color:#ffffff;font-size:20px;"><br><img src="data:image/png;base64,${bookInstance.imageOne?.encodeBase64()}"/><br><br>${bookInstance.name}</span></g:link></p>
 													</div>
 													</g:each>
 													</g:if>
