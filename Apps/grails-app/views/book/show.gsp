@@ -163,6 +163,12 @@
 													<br><br>
 													<span style="font-size:20px;color:#000000;font-family: Arial, Helvetica, sans-serif;"><f:display bean="book" property="description"/></span>
 													<br><br>
+													<br><br>
+													
+													<span style="font-size:25px;color:#000000">
+													Category:</span> 
+													<br><br>
+													
 													<p><g:link controller="blogCategory" action="show" id="${book.blogCategory.id}"><br><span style="font-size:20px;color:#ffffff;font-family: Arial, Helvetica, sans-serif;">${book.blogCategory.name}</span></g:link></p>
 													
 												</section>
