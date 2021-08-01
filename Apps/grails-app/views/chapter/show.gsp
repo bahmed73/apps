@@ -166,7 +166,7 @@
 												<header>
 												<g:if test="${chapter.imageThree}">
 													<div style="border: 2px solid #e5e1e1;">
-													<p><img src="data:image/png;base64,${chapter.imageThree?.encodeBase64()}" width="250px"/></p>
+													<p><g:link controller="book" action="show" id="${chapter.book.id}"><br><img src="data:image/png;base64,${chapter.imageThree?.encodeBase64()}" width="250px"/><span style="color:#ffffff;font-size:20px;"><br><br>${chapter.book.name}</span></g:link></p>
 													<br>
 													</div>
 												</g:if>
