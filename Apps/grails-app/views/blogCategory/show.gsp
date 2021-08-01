@@ -146,10 +146,9 @@
 													</header>
 													<br><br>
 													<br><br>
-													<p><span style="color:#ffffff;">Share our blog category pages on Twitter or Facebook. </span></p>
+													<p><span style="font-size:20px;color:#ffffff;font-family: Arial, Helvetica, sans-serif;"><f:display bean="blogCategory" property="description"/></span></p>
+													
 													<br><br>
-													<br><br>
-													<a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 													
 												</section>
 											</div>
@@ -178,16 +177,6 @@
 													<br><br>
 													
 												</header>
-													
-												</section>
-											</div>
-											
-											
-											<div class="8u">
-												<section class="box">
-													<p><span style="font-size:20px;color:#ffffff;font-family: Arial, Helvetica, sans-serif;"><f:display bean="blogCategory" property="description"/></span></p>
-													
-													<br><br>
 													
 												</section>
 											</div>
