@@ -119,19 +119,16 @@
 						  <!-- Indicators -->
 						  <ol class="carousel-indicators">
 						    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-						    <li data-target="#myCarousel" data-slide-to="1"></li>
 						    						    
 						  </ol>
 
 						  <!-- Wrapper for slides -->
 						  <div class="carousel-inner">
 						    <div class="item active">
-						    <g:link class="list" action="index" controller="book"><asset:image src="SNL-2.gif"/></g:link>
+						    <g:link class="list" action="index" controller="book"><asset:image src="mrrobot.gif"/></g:link>
 						    </div>
 						    						    
-						    <div class="item">
-						    <g:link class="list" action="index" controller="book"><asset:image src="SNL.gif"/></g:link>
-						    </div>  
+						      
 						  </div>
 
 						  <!-- Left and right controls -->
