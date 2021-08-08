@@ -245,9 +245,10 @@ Create a book, organize chapters and export PDF with bookly software.<br>
 													  	<p><span style="color:#ffffff;font-size:20px;"><br>
 													    <span style="color:#feff9f">Software:</span>
 													  	<br><br>
-													  	Use our product <a href="http://taote.shop/product/premium" target="_blank"><span style="color:#78f9f9">TODO</span></a> software to sketch your shop. 
-													  	Use <a href="http://taote.shop" target="_blank"><span style="color:#78f9f9">Shop</span></a> to manage your projects, tasks, notes, meetings, backlog and sprints with agile development. 
-													  	Lean startup and customer development methodologies, software tools, to create user feedback loops, help with product development and finding new customers.
+													  	Use our product <a href="http://taote.shop/product/premium" target="_blank"><span style="color:#78f9f9">TODO Software to Sketch your Shop:</span></a>  
+													  	Use <a href="http://taote.shop" target="_blank"><span style="color:#78f9f9">Shop to Manage your Projects,</span></a> tasks, notes, meetings, backlog and sprints with agile development. 
+													  	Lean startup and customer development methodologies, software tools, to create user feedback loops, help with product development and finding new customers.  
+														Please see article by techdeck.info - <a href="http://bookly.love/chapter/show/545" target="_blank"><span style="color:#78f9f9">Using Tech to Improve Productivity.</span></a>
 </span></p>
 													    
 													  </div>
