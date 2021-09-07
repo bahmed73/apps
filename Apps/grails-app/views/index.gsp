@@ -172,13 +172,18 @@
 						  <ol class="carousel-indicators">
 						    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
 						    <li data-target="#myCarousel" data-slide-to="1"></li>
+						    <li data-target="#myCarousel" data-slide-to="2"></li>
 						    						    
 						  </ol>
 
 						  <!-- Wrapper for slides -->
 						  <div class="carousel-inner">
-						    						    
+						    
 						    <div class="item active">
+						    <g:link class="list" action="index" controller="book"><asset:image src="banana-banner.png"/></g:link>
+						    </div>
+						    						    
+						    <div class="item">
 						    <g:link class="list" action="index" controller="book"><asset:image src="snl-banner.gif"/></g:link>
 						    </div>
 						    
@@ -250,6 +255,14 @@ Create a book, organize chapters and export PDF with bookly software.<br>
 													  	Lean startup and customer development methodologies, software tools, to create user feedback loops, help with product development and finding new customers.  
 														Please see article by techdeck.info - <a href="http://bookly.love/chapter/show/545" target="_blank"><span style="color:#78f9f9">Using Tech to Improve Productivity.</span></a>
 </span></p>
+
+<p><span style="color:#ffffff;font-size:20px;"><br>
+													    <span style="color:#feff9f">Entrepreneurship:</span>
+													  	<br><br>
+We are a 10+ Media Startup Incubator Entrepreneurship Program! Please meet our resident entrepreneur, <a href="http://bookly.love/chapter/show/578" target="_blank"><span style="color:#78f9f9">Cameron Tapia.</span></a>													  	
+<br><br>
+													  	</span></p>
+													  	
 													    
 													  </div>
 													  
