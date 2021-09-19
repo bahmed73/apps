@@ -173,6 +173,7 @@
 						    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
 						    <li data-target="#myCarousel" data-slide-to="1"></li>
 						    <li data-target="#myCarousel" data-slide-to="2"></li>
+						    <li data-target="#myCarousel" data-slide-to="3"></li>
 						    						    
 						  </ol>
 
@@ -185,6 +186,10 @@
 						    						    
 						    <div class="item">
 						    <g:link class="list" action="index" controller="book"><asset:image src="snl-banner.gif"/></g:link>
+						    </div>
+						    
+						    <div class="item">
+						    <g:link class="list" action="index" controller="book"><asset:image src="satoshi-banner.png"/></g:link>
 						    </div>
 						    
 						    <div class="item">
@@ -228,35 +233,35 @@
 									<div>
 										<div id="tabs">
 													  <ul>
-													    <li><a href="#tabs-1">Build a Shop</a></li>
-													    <li><a href="#tabs-2">Write a Book</a></li>
-													    <li><a href="#tabs-3">Create a NFT</a></li>
+													    <li><a href="#tabs-1">Shop</a></li>
+													    <li><a href="#tabs-2">Book</a></li>
+													    <li><a href="#tabs-3">NFT</a></li>
 													  </ul>
 													  <div id="tabs-1" style="border: 5px #fdfaaa;
 		  border-width: 5px;
 		  background-color: #78789b;">
 													  
-													  	<p><span style="color:#ffffff;font-size:20px;"><br><br><span style="color:#feff9f">Bookly.love:</span>
+													  	<p><span style="color:#ffffff;font-size:24px;"><br><br><span style="color:#feff9f">Bookly.love:</span>
 													  	<br><br>
 Create a book, organize chapters and export PDF with bookly software.<br>
 </span></p>
 													  	
-													    <p><span style="color:#ffffff;font-size:20px;"><br>
+													    <p><span style="color:#ffffff;font-size:24px;"><br>
 													    <span style="color:#feff9f">Shop:</span>
 													  	<br><br>
-													  	Use our supply chain software to build a shop - Ready in a week, own your intellectual property, IP by hosting your own server, with shopping cart experience and checkout. <a href="mailto:bilal@mytweetmark.com"><span style="color:#cffc9b">The cost is $2000.</span></a><br><br>
+													  	Supply chain software to build a shop - Ready in a week, intellectual property IP, shopping cart experience and checkout. <a href="mailto:bilal@mytweetmark.com"><span style="color:#cffc9b"> $2000.</span></a><br><br>
 													  	</span></p>
 													  	
-													  	<p><span style="color:#ffffff;font-size:20px;"><br>
+													  	<p><span style="color:#ffffff;font-size:24px;"><br>
 													    <span style="color:#feff9f">Software:</span>
 													  	<br><br>
-													  	Use our product <a href="http://taote.shop/product/premium" target="_blank"><span style="color:#78f9f9">TODO Software to Sketch your Shop:</span></a>  
+													  	<a href="http://taote.shop/product/premium" target="_blank"><span style="color:#78f9f9">TODO Software to Sketch your Shop:</span></a>  
 													  	Use <a href="http://taote.shop" target="_blank"><span style="color:#78f9f9">Shop to Manage your Projects,</span></a> tasks, notes, meetings, backlog and sprints with agile development. 
 													  	Lean startup and customer development methodologies, software tools, to create user feedback loops, help with product development and finding new customers.  
 														Please see article by techdeck.info - <a href="http://bookly.love/chapter/show/545" target="_blank"><span style="color:#78f9f9">Using Tech to Improve Productivity.</span></a>
 </span></p>
 
-<p><span style="color:#ffffff;font-size:20px;"><br>
+<p><span style="color:#ffffff;font-size:24px;"><br>
 													    <span style="color:#feff9f">Entrepreneurship:</span>
 													  	<br><br>
 We are a 10+ Media Startup Incubator Entrepreneurship Program! Please meet our resident entrepreneur, <a href="http://bookly.love/chapter/show/578" target="_blank"><span style="color:#78f9f9">Cameron Tapia.</span></a>													  	
@@ -269,40 +274,40 @@ We are a 10+ Media Startup Incubator Entrepreneurship Program! Please meet our r
 <div id="tabs-2" style="border: 5px #fdfaaa;
 		  border-width: 5px;
 		  background-color: #78789b;">
-													    <p><span style="color:#ffffff;font-size:20px;"><br><br>
-													    Books published on Amazon and Lulu. <a href="mailto:bilal@mytweetmark.com"><span style="color:#cffc9b">The cost is $500.</span></a><br>
-<p><span style="color:#8a7e7e;font-size:20px;"><a href="https://www.amazon.com/Secret-Book-Bilal-Ahmed/dp/1484177975" target="_blank"><span style="color:#ffffff;">- The Secret Book: Vedanta part I</span></a></span></span></p>
-<p><span style="color:#8a7e7e;font-size:20px;"><a href="https://www.amazon.com/Sacred-Book-Bilal-Ahmed/dp/1490950931" target="_blank"><span style="color:#ffffff;">- The Sacred Book: Vedanta part II</span></a></span></span></p>
-<p><span style="color:#8a7e7e;font-size:20px;"><a href="https://www.amazon.com/Startup-Book-Entrepreneurship-Training-Manual/dp/1500475459" target="_blank"><span style="color:#ffffff;">- The Startup Book: Venture Capitals</span></a></span></span></p>
-<p><span style="color:#8a7e7e;font-size:20px;"><a href="https://www.amazon.com/Guru-Book-Bilal-Ahmed/dp/1502308959" target="_blank"><span style="color:#ffffff;" target="_blank">- The Guru Book: Dedicated to Teachers and Masters</span></a></span></span></p>
-<p><span style="color:#8a7e7e;font-size:20px;"><a href="https://www.amazon.com/VC-Book-Venture-Capital/dp/1514311925" target="_blank"><span style="color:#ffffff;" target="_blank">- The Venture Capital Book: Startups</span></a></span></span></p>
-<p><span style="color:#8a7e7e;font-size:20px;"><a href="https://www.amazon.com/Social-Book-Bilal-Ahmed/dp/1517320976" target="_blank"><span style="color:#ffffff;" target="_blank">- The Social Book: Pyramids</span></a></span></span></p>
-<p><span style="color:#8a7e7e;font-size:20px;"><a href="https://www.amazon.com/Founder-Book-Bilal-Ahmed/dp/1517596823" target="_blank"><span style="color:#ffffff;" target="_blank">- The Founder Book: How to be One</span></a></span></span></p>
-<p><span style="color:#8a7e7e;font-size:20px;"><a href="https://www.amazon.com/Cook-Book-Bilal-Ahmed/dp/1539524620" target="_blank"><span style="color:#ffffff;" target="_blank">- The Cook Book: Vegan Recipes</span></a></span></span></p>
-<p><span style="color:#8a7e7e;font-size:20px;"><a href="https://www.amazon.com/Entrepreneur-Handbook-Bilal-Ahmed/dp/1535584068" target="_blank"><span style="color:#ffffff;" target="_blank">- The Entrepreneur Hand Book: Startups and Venture Capitals</span></a></span></span></p>
-<p><span style="color:#8a7e7e;font-size:20px;"><a href="https://www.amazon.com/God-Book-Bilal-Ahmed/dp/1539987639" target="_blank"><span style="color:#ffffff;" target="_blank">- The God Book: Vedas</span></a></span></span></p>
-<p><span style="color:#8a7e7e;font-size:20px;"><a href="https://www.amazon.com/Business-Book-Entrepreneurs-Working-Incubators/dp/1985032015" target="_blank"><span style="color:#ffffff;">- The Business Book: Incubators</span></a></span></span></p>
-<p><span style="color:#8a7e7e;font-size:20px;"><a href="http://www.lulu.com/shop/bilal-ahmed/the-goddess-book/paperback/product-23782150.html" target="_blank"><span style="color:#ffffff;">- The Goddess Book: Upanishads part I</span></a></span></span></p>
-<p><span style="color:#8a7e7e;font-size:20px;"><a href="https://www.amazon.com/Goddess-Book-First-Upanishads/dp/1727484754" target="_blank"><span style="color:#ffffff;" target="_blank">- The Goddess Book: Upanishads part II</span></a></span></span></p>
+													    <p><span style="color:#ffffff;font-size:24px;"><br><br>
+													    Books published on Amazon and Lulu. <a href="mailto:bilal@mytweetmark.com"><span style="color:#cffc9b"> $500.</span></a><br>
+<p><span style="color:#8a7e7e;font-size:24px;"><a href="https://www.amazon.com/Secret-Book-Bilal-Ahmed/dp/1484177975" target="_blank"><span style="color:#ffffff;">- The Secret Book: Vedanta part I</span></a></span></span></p>
+<p><span style="color:#8a7e7e;font-size:24px;"><a href="https://www.amazon.com/Sacred-Book-Bilal-Ahmed/dp/1490950931" target="_blank"><span style="color:#ffffff;">- The Sacred Book: Vedanta part II</span></a></span></span></p>
+<p><span style="color:#8a7e7e;font-size:24px;"><a href="https://www.amazon.com/Startup-Book-Entrepreneurship-Training-Manual/dp/1500475459" target="_blank"><span style="color:#ffffff;">- The Startup Book: Venture Capitals</span></a></span></span></p>
+<p><span style="color:#8a7e7e;font-size:24px;"><a href="https://www.amazon.com/Guru-Book-Bilal-Ahmed/dp/1502308959" target="_blank"><span style="color:#ffffff;" target="_blank">- The Guru Book: Dedicated to Teachers and Masters</span></a></span></span></p>
+<p><span style="color:#8a7e7e;font-size:24px;"><a href="https://www.amazon.com/VC-Book-Venture-Capital/dp/1514311925" target="_blank"><span style="color:#ffffff;" target="_blank">- The Venture Capital Book: Startups</span></a></span></span></p>
+<p><span style="color:#8a7e7e;font-size:24px;"><a href="https://www.amazon.com/Social-Book-Bilal-Ahmed/dp/1517320976" target="_blank"><span style="color:#ffffff;" target="_blank">- The Social Book: Pyramids</span></a></span></span></p>
+<p><span style="color:#8a7e7e;font-size:24px;"><a href="https://www.amazon.com/Founder-Book-Bilal-Ahmed/dp/1517596823" target="_blank"><span style="color:#ffffff;" target="_blank">- The Founder Book: How to be One</span></a></span></span></p>
+<p><span style="color:#8a7e7e;font-size:24px;"><a href="https://www.amazon.com/Cook-Book-Bilal-Ahmed/dp/1539524620" target="_blank"><span style="color:#ffffff;" target="_blank">- The Cook Book: Vegan Recipes</span></a></span></span></p>
+<p><span style="color:#8a7e7e;font-size:24px;"><a href="https://www.amazon.com/Entrepreneur-Handbook-Bilal-Ahmed/dp/1535584068" target="_blank"><span style="color:#ffffff;" target="_blank">- The Entrepreneur Hand Book: Startups and Venture Capitals</span></a></span></span></p>
+<p><span style="color:#8a7e7e;font-size:24px;"><a href="https://www.amazon.com/God-Book-Bilal-Ahmed/dp/1539987639" target="_blank"><span style="color:#ffffff;" target="_blank">- The God Book: Vedas</span></a></span></span></p>
+<p><span style="color:#8a7e7e;font-size:24px;"><a href="https://www.amazon.com/Business-Book-Entrepreneurs-Working-Incubators/dp/1985032015" target="_blank"><span style="color:#ffffff;">- The Business Book: Incubators</span></a></span></span></p>
+<p><span style="color:#8a7e7e;font-size:24px;"><a href="http://www.lulu.com/shop/bilal-ahmed/the-goddess-book/paperback/product-23782150.html" target="_blank"><span style="color:#ffffff;">- The Goddess Book: Upanishads part I</span></a></span></span></p>
+<p><span style="color:#8a7e7e;font-size:24px;"><a href="https://www.amazon.com/Goddess-Book-First-Upanishads/dp/1727484754" target="_blank"><span style="color:#ffffff;" target="_blank">- The Goddess Book: Upanishads part II</span></a></span></span></p>
 </span></p>													  	
 													  </div>
 													  <div id="tabs-3" style="border: 5px #fdfaaa;
 		  border-width: 5px;
 		  background-color: #78789b;">
 													  
-													  	<p><span style="color:#ffffff;font-size:20px;"><br><br><span style="color:#feff9f">NFT:</span>
+													  	<p><span style="color:#ffffff;font-size:24px;"><br><br><span style="color:#feff9f">NFT:</span>
 													  	<br><br>
 Launch a Product NFT for celebrities, Services NFT for technology providers and Hybrid NFT for social media experts.<br>
 </span></p>
 													  	
-													    <p><span style="color:#ffffff;font-size:20px;"><br>
+													    <p><span style="color:#ffffff;font-size:24px;"><br>
 													    <span style="color:#feff9f">Shop NFT:</span>
 													  	<br><br>
 													  	
 Create a NFT with us, build a shop and write a book, to maximize value for your business, and sell for cash or crypto currency. 
 </span></p>
 
-<p><span style="color:#ffffff;font-size:20px;"><br>
+<p><span style="color:#ffffff;font-size:24px;"><br>
 													    <span style="color:#feff9f">Shop Product NFT:</span>
 													  	<br><br>
 													  	
