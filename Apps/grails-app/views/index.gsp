@@ -174,7 +174,9 @@
 						    <li data-target="#myCarousel" data-slide-to="1"></li>
 						    <li data-target="#myCarousel" data-slide-to="2"></li>
 						    <li data-target="#myCarousel" data-slide-to="3"></li>
-						    						    
+						    <li data-target="#myCarousel" data-slide-to="4"></li>
+						    <li data-target="#myCarousel" data-slide-to="5"></li>
+						    <li data-target="#myCarousel" data-slide-to="6"></li>						    
 						  </ol>
 
 						  <!-- Wrapper for slides -->
@@ -182,6 +184,14 @@
 						    
 						    <div class="item active">
 						    <g:link class="list" action="index" controller="book"><asset:image src="banana-banner.png"/></g:link>
+						    </div>
+						    
+						    <div class="item">
+						    <g:link class="list" action="index" controller="book"><asset:image src="CTO.png"/></g:link>
+						    </div>
+						    
+						    <div class="item">
+						    <g:link class="list" action="index" controller="book"><asset:image src="team.png"/></g:link>
 						    </div>
 						    						    
 						    <div class="item">
@@ -194,6 +204,10 @@
 						    
 						    <div class="item">
 						    <g:link class="list" action="index" controller="book"><asset:image src="nba-banner.gif"/></g:link>
+						    </div>
+						    
+						    <div class="item">
+						    <g:link class="list" action="index" controller="book"><asset:image src="shopping.png"/></g:link>
 						    </div>
 						      
 						  </div>
