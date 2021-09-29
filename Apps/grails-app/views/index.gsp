@@ -177,14 +177,13 @@
 						    <li data-target="#myCarousel" data-slide-to="1"></li>
 						    <li data-target="#myCarousel" data-slide-to="2"></li>
 						    <li data-target="#myCarousel" data-slide-to="3"></li>
-						    <li data-target="#myCarousel" data-slide-to="4"></li>						    						    
 						  </ol>
 
 						  <!-- Wrapper for slides -->
 						  <div class="carousel-inner">
 						    
 						    <div class="item active">
-						    <g:link class="list" action="index" controller="book"><asset:image src="banana-banner.png"/></g:link>
+						    <g:link class="list" action="index" controller="book"><asset:image src="SNOOPDOGG.png"/></g:link>
 						    </div>
 						    
 						    <div class="item">
@@ -193,10 +192,6 @@
 						    						    
 						    <div class="item">
 						    <g:link class="list" action="index" controller="book"><asset:image src="satoshi-banner.png"/></g:link>
-						    </div>
-						    
-						    <div class="item">
-						    <g:link class="list" action="index" controller="book"><asset:image src="SNOOPDOGG.png"/></g:link>
 						    </div>
 						    
 						    <div class="item">
@@ -283,19 +278,19 @@ We are a 10+ Media Startup Incubator Entrepreneurship Program! Please meet our r
 		  background-color: black;">
 													    <p><span style="color:#ffffff;font-size:24px;"><br><br>
 													    Books published on Amazon and Lulu.<br><br>
-<p><span style="color:#8a7e7e;font-size:24px;"><a href="https://www.amazon.com/Secret-Book-Bilal-Ahmed/dp/1484177975" target="_blank"><span style="color:#ffffff;">- The Secret Book: Vedanta part I</span></a></span></span></p>
-<p><span style="color:#8a7e7e;font-size:24px;"><a href="https://www.amazon.com/Sacred-Book-Bilal-Ahmed/dp/1490950931" target="_blank"><span style="color:#ffffff;">- The Sacred Book: Vedanta part II</span></a></span></span></p>
-<p><span style="color:#8a7e7e;font-size:24px;"><a href="https://www.amazon.com/Startup-Book-Entrepreneurship-Training-Manual/dp/1500475459" target="_blank"><span style="color:#ffffff;">- The Startup Book: Venture Capitals</span></a></span></span></p>
-<p><span style="color:#8a7e7e;font-size:24px;"><a href="https://www.amazon.com/Guru-Book-Bilal-Ahmed/dp/1502308959" target="_blank"><span style="color:#ffffff;" target="_blank">- The Guru Book: Dedicated to Teachers and Masters</span></a></span></span></p>
-<p><span style="color:#8a7e7e;font-size:24px;"><a href="https://www.amazon.com/VC-Book-Venture-Capital/dp/1514311925" target="_blank"><span style="color:#ffffff;" target="_blank">- The Venture Capital Book: Startups</span></a></span></span></p>
-<p><span style="color:#8a7e7e;font-size:24px;"><a href="https://www.amazon.com/Social-Book-Bilal-Ahmed/dp/1517320976" target="_blank"><span style="color:#ffffff;" target="_blank">- The Social Book: Pyramids</span></a></span></span></p>
-<p><span style="color:#8a7e7e;font-size:24px;"><a href="https://www.amazon.com/Founder-Book-Bilal-Ahmed/dp/1517596823" target="_blank"><span style="color:#ffffff;" target="_blank">- The Founder Book: How to be One</span></a></span></span></p>
-<p><span style="color:#8a7e7e;font-size:24px;"><a href="https://www.amazon.com/Cook-Book-Bilal-Ahmed/dp/1539524620" target="_blank"><span style="color:#ffffff;" target="_blank">- The Cook Book: Vegan Recipes</span></a></span></span></p>
-<p><span style="color:#8a7e7e;font-size:24px;"><a href="https://www.amazon.com/Entrepreneur-Handbook-Bilal-Ahmed/dp/1535584068" target="_blank"><span style="color:#ffffff;" target="_blank">- The Entrepreneur Hand Book: Startups and Venture Capitals</span></a></span></span></p>
-<p><span style="color:#8a7e7e;font-size:24px;"><a href="https://www.amazon.com/God-Book-Bilal-Ahmed/dp/1539987639" target="_blank"><span style="color:#ffffff;" target="_blank">- The God Book: Vedas</span></a></span></span></p>
-<p><span style="color:#8a7e7e;font-size:24px;"><a href="https://www.amazon.com/Business-Book-Entrepreneurs-Working-Incubators/dp/1985032015" target="_blank"><span style="color:#ffffff;">- The Business Book: Incubators</span></a></span></span></p>
-<p><span style="color:#8a7e7e;font-size:24px;"><a href="http://www.lulu.com/shop/bilal-ahmed/the-goddess-book/paperback/product-23782150.html" target="_blank"><span style="color:#ffffff;">- The Goddess Book: Upanishads part I</span></a></span></span></p>
-<p><span style="color:#8a7e7e;font-size:24px;"><a href="https://www.amazon.com/Goddess-Book-First-Upanishads/dp/1727484754" target="_blank"><span style="color:#ffffff;" target="_blank">- The Goddess Book: Upanishads part II</span></a></span></span></p>
+<p><span style="color:#8a7e7e;font-size:24px;"><a href="https://www.amazon.com/Secret-Book-Bilal-Ahmed/dp/1484177975" target="_blank"><span style="color:#78f9f9;">- The Secret Book: Vedanta part I</span></a></span></span></p>
+<p><span style="color:#8a7e7e;font-size:24px;"><a href="https://www.amazon.com/Sacred-Book-Bilal-Ahmed/dp/1490950931" target="_blank"><span style="color:#78f9f9;">- The Sacred Book: Vedanta part II</span></a></span></span></p>
+<p><span style="color:#8a7e7e;font-size:24px;"><a href="https://www.amazon.com/Startup-Book-Entrepreneurship-Training-Manual/dp/1500475459" target="_blank"><span style="color:#78f9f9;">- The Startup Book: Venture Capitals</span></a></span></span></p>
+<p><span style="color:#8a7e7e;font-size:24px;"><a href="https://www.amazon.com/Guru-Book-Bilal-Ahmed/dp/1502308959" target="_blank"><span style="color:#78f9f9;" target="_blank">- The Guru Book: Dedicated to Teachers and Masters</span></a></span></span></p>
+<p><span style="color:#8a7e7e;font-size:24px;"><a href="https://www.amazon.com/VC-Book-Venture-Capital/dp/1514311925" target="_blank"><span style="color:#78f9f9;" target="_blank">- The Venture Capital Book: Startups</span></a></span></span></p>
+<p><span style="color:#8a7e7e;font-size:24px;"><a href="https://www.amazon.com/Social-Book-Bilal-Ahmed/dp/1517320976" target="_blank"><span style="color:#78f9f9;" target="_blank">- The Social Book: Pyramids</span></a></span></span></p>
+<p><span style="color:#8a7e7e;font-size:24px;"><a href="https://www.amazon.com/Founder-Book-Bilal-Ahmed/dp/1517596823" target="_blank"><span style="color:#78f9f9;" target="_blank">- The Founder Book: How to be One</span></a></span></span></p>
+<p><span style="color:#8a7e7e;font-size:24px;"><a href="https://www.amazon.com/Cook-Book-Bilal-Ahmed/dp/1539524620" target="_blank"><span style="color:#78f9f9;" target="_blank">- The Cook Book: Vegan Recipes</span></a></span></span></p>
+<p><span style="color:#8a7e7e;font-size:24px;"><a href="https://www.amazon.com/Entrepreneur-Handbook-Bilal-Ahmed/dp/1535584068" target="_blank"><span style="color:#78f9f9;" target="_blank">- The Entrepreneur Hand Book: Startups and Venture Capitals</span></a></span></span></p>
+<p><span style="color:#8a7e7e;font-size:24px;"><a href="https://www.amazon.com/God-Book-Bilal-Ahmed/dp/1539987639" target="_blank"><span style="color:#78f9f9;" target="_blank">- The God Book: Vedas</span></a></span></span></p>
+<p><span style="color:#8a7e7e;font-size:24px;"><a href="https://www.amazon.com/Business-Book-Entrepreneurs-Working-Incubators/dp/1985032015" target="_blank"><span style="color:#78f9f9;">- The Business Book: Incubators</span></a></span></span></p>
+<p><span style="color:#8a7e7e;font-size:24px;"><a href="http://www.lulu.com/shop/bilal-ahmed/the-goddess-book/paperback/product-23782150.html" target="_blank"><span style="color:#78f9f9;">- The Goddess Book: Upanishads part I</span></a></span></span></p>
+<p><span style="color:#8a7e7e;font-size:24px;"><a href="https://www.amazon.com/Goddess-Book-First-Upanishads/dp/1727484754" target="_blank"><span style="color:#78f9f9;" target="_blank">- The Goddess Book: Upanishads part II</span></a></span></span></p>
 </span></p>													  	
 													  </div>
 													  <div id="tabs-3" style="border: 5px #fdfaaa;
@@ -329,19 +324,19 @@ We have launched a list of NFTs for celebrities, helping define own platform and
 		  background-color: black;">
 													    <p><span style="color:#ffffff;font-size:24px;"><br><br>
 													    We have a huge community of investors through our newsletter.<br><br>
-<p><span style="color:#8a7e7e;font-size:24px;"><a href="https://mailchi.mp/18a27b37b431/shop-ventures-media-nft-corrupted-social-networks-fighting-elections-dna-space-modifications-35-trillion-bill-government-crypto-investments" target="_blank"><span style="color:#ffffff;">- Corrupted Social Networks - Fighting Elections / DNA Space Modifications - $3.5 Trillion Bill Government Investments or Shutdown Thursday</span></a></span></span></p>
-<p><span style="color:#8a7e7e;font-size:24px;"><a href="https://mailchi.mp/370ce9eaf552/shop-ventures-media-nft-september-2021-startup-incubator-semester-vc-general-partner-battles-rages-disruptive-fights-over-space-mrna-multiverses" target="_blank"><span style="color:#ffffff;">- September 2021 Startup Incubator Semester / General Partner Battles Rages in Venture Capitals / Disruption over Space mRNA Multiverses Business Opportunities / Deal Flows / Social Media / NFT</span></a></span></span></p>
-<p><span style="color:#8a7e7e;font-size:24px;"><a href="https://mailchi.mp/5045bc842c1a/shop-ventures-nft-adding-new-co-founders-startup-brand-media-entrepreneurship-coin-investors" target="_blank"><span style="color:#ffffff;">- September 2021 Startup Incubator Semester / Program - Adding Entrepreneurs (Co-Founders) and Investors!</span></a></span></span></p>
-<p><span style="color:#8a7e7e;font-size:24px;"><a href="https://mailchi.mp/7c851512dc8a/shop-ventures-media-nft-september-2021-startup-incubator-program-entrepreneurs-and-investors" target="_blank"><span style="color:#ffffff;" target="_blank">- Two new Co-founders, Media Entrepreneurs</span></a></span></span></p>
-<p><span style="color:#8a7e7e;font-size:24px;"><a href="https://mailchi.mp/5d82c6b1b437/shop-ventures-media-nft-september-2021-startup-incubator-semester-program" target="_blank"><span style="color:#ffffff;" target="_blank">- September 2021 Startup Incubator Semester / Program</span></a></span></span></p>
-<p><span style="color:#8a7e7e;font-size:24px;"><a href="https://mailchi.mp/69b7c8f6defc/shop-ventures-partners-mergers-and-acquisitions-mission-matters-adam-torres-and-techdeckinfo" target="_blank"><span style="color:#ffffff;" target="_blank">- Partners: Mergers and Acquisitions</span></a></span></span></p>
-<p><span style="color:#8a7e7e;font-size:24px;"><a href="https://mailchi.mp/38d32d7929a8/shop-ventures-partners-mergers-and-acquisitions-mission-matters-sugar-cones" target="_blank"><span style="color:#ffffff;" target="_blank">- Announcing two new partners, and as a deal flow to venture capital, opportunity for merger and acquisitions.</span></a></span></span></p>
-<p><span style="color:#8a7e7e;font-size:24px;"><a href="https://mailchi.mp/913c272ea7ab/shop-ventures-partners-mergers-and-acquisitions-elon-musk-on-twitter-venture-capitalists" target="_blank"><span style="color:#ffffff;" target="_blank">- We have to remind our venture capital the amount of money they made - In the cash to coin conversion, now owning the Wall Street with Jim Cramer. </span></a></span></span></p>
-<p><span style="color:#8a7e7e;font-size:24px;"><a href="https://mailchi.mp/3dc9f4974ac9/shop-ventures-cody-from-techdeckinfo-wrote-a-great-article-on-our-agile-development-and-lean-startup-products-using-tech-to-improve-productivity" target="_blank"><span style="color:#ffffff;" target="_blank">- Cody from Techdeck.info wrote a great article on our agile development and lean startup products, "Using Tech to Improve Productivity"</span></a></span></span></p>
-<p><span style="color:#8a7e7e;font-size:24px;"><a href="https://mailchi.mp/f99c322dbf01/shop-ventures-nft-startup-incubator-television" target="_blank"><span style="color:#ffffff;" target="_blank">- Fully televised updates with Live gifs for Shop Ventures and investors. Or simply stay on this privileged newsletter. According to Citibank, Bitcoin is ready for wide adoption.</span></a></span></span></p>
-<p><span style="color:#8a7e7e;font-size:24px;"><a href="https://mailchi.mp/ca8bd434effa/the-new-bookly-httpbooklylove-build-shop-write-book-create-nft-saturday-night-live-stories" target="_blank"><span style="color:#ffffff;">- The 'new' Bookly! Build a Shop, Write a Book and Create a NFT: Saturday Night Live Stories</span></a></span></span></p>
-<p><span style="color:#8a7e7e;font-size:24px;"><a href="https://mailchi.mp/4ead1ac82504/shop-ventures-nft-mr-robot-watching-twitter-spacex-fighting-governments-brain-interface-w-mrna" target="_blank"><span style="color:#ffffff;">- Mr Robot, Twitter & SpaceX + SNL, NBA and RAP Music</span></a></span></span></p>
-<p><span style="color:#8a7e7e;font-size:24px;"><a href="https://mailchi.mp/fd303c0a7173/shop-ventures-nft-write-book-build-shop-and-buy-coins" target="_blank"><span style="color:#ffffff;" target="_blank">- Coins Purchase / Perks & Discounts</span></a></span></span></p>
+<p><span style="color:#8a7e7e;font-size:24px;"><a href="https://mailchi.mp/18a27b37b431/shop-ventures-media-nft-corrupted-social-networks-fighting-elections-dna-space-modifications-35-trillion-bill-government-crypto-investments" target="_blank"><span style="color:#78f9f9;">- Corrupted Social Networks - Fighting Elections / DNA Space Modifications - $3.5 Trillion Bill Government Investments or Shutdown Thursday</span></a></span></span></p>
+<p><span style="color:#8a7e7e;font-size:24px;"><a href="https://mailchi.mp/370ce9eaf552/shop-ventures-media-nft-september-2021-startup-incubator-semester-vc-general-partner-battles-rages-disruptive-fights-over-space-mrna-multiverses" target="_blank"><span style="color:#78f9f9;">- September 2021 Startup Incubator Semester / General Partner Battles Rages in Venture Capitals / Disruption over Space mRNA Multiverses Business Opportunities / Deal Flows / Social Media / NFT</span></a></span></span></p>
+<p><span style="color:#8a7e7e;font-size:24px;"><a href="https://mailchi.mp/5045bc842c1a/shop-ventures-nft-adding-new-co-founders-startup-brand-media-entrepreneurship-coin-investors" target="_blank"><span style="color:#78f9f9;">- September 2021 Startup Incubator Semester / Program - Adding Entrepreneurs (Co-Founders) and Investors!</span></a></span></span></p>
+<p><span style="color:#8a7e7e;font-size:24px;"><a href="https://mailchi.mp/7c851512dc8a/shop-ventures-media-nft-september-2021-startup-incubator-program-entrepreneurs-and-investors" target="_blank"><span style="color:#78f9f9;" target="_blank">- Two new Co-founders, Media Entrepreneurs</span></a></span></span></p>
+<p><span style="color:#8a7e7e;font-size:24px;"><a href="https://mailchi.mp/5d82c6b1b437/shop-ventures-media-nft-september-2021-startup-incubator-semester-program" target="_blank"><span style="color:#78f9f9;" target="_blank">- September 2021 Startup Incubator Semester / Program</span></a></span></span></p>
+<p><span style="color:#8a7e7e;font-size:24px;"><a href="https://mailchi.mp/69b7c8f6defc/shop-ventures-partners-mergers-and-acquisitions-mission-matters-adam-torres-and-techdeckinfo" target="_blank"><span style="color:#78f9f9;" target="_blank">- Partners: Mergers and Acquisitions</span></a></span></span></p>
+<p><span style="color:#8a7e7e;font-size:24px;"><a href="https://mailchi.mp/38d32d7929a8/shop-ventures-partners-mergers-and-acquisitions-mission-matters-sugar-cones" target="_blank"><span style="color:#78f9f9;" target="_blank">- Announcing two new partners, and as a deal flow to venture capital, opportunity for merger and acquisitions.</span></a></span></span></p>
+<p><span style="color:#8a7e7e;font-size:24px;"><a href="https://mailchi.mp/913c272ea7ab/shop-ventures-partners-mergers-and-acquisitions-elon-musk-on-twitter-venture-capitalists" target="_blank"><span style="color:#78f9f9;" target="_blank">- We have to remind our venture capital the amount of money they made - In the cash to coin conversion, now owning the Wall Street with Jim Cramer. </span></a></span></span></p>
+<p><span style="color:#8a7e7e;font-size:24px;"><a href="https://mailchi.mp/3dc9f4974ac9/shop-ventures-cody-from-techdeckinfo-wrote-a-great-article-on-our-agile-development-and-lean-startup-products-using-tech-to-improve-productivity" target="_blank"><span style="color:#78f9f9;" target="_blank">- Cody from Techdeck.info wrote a great article on our agile development and lean startup products, "Using Tech to Improve Productivity"</span></a></span></span></p>
+<p><span style="color:#8a7e7e;font-size:24px;"><a href="https://mailchi.mp/f99c322dbf01/shop-ventures-nft-startup-incubator-television" target="_blank"><span style="color:#78f9f9;" target="_blank">- Fully televised updates with Live gifs for Shop Ventures and investors. Or simply stay on this privileged newsletter. According to Citibank, Bitcoin is ready for wide adoption.</span></a></span></span></p>
+<p><span style="color:#8a7e7e;font-size:24px;"><a href="https://mailchi.mp/ca8bd434effa/the-new-bookly-httpbooklylove-build-shop-write-book-create-nft-saturday-night-live-stories" target="_blank"><span style="color:#78f9f9;">- The 'new' Bookly! Build a Shop, Write a Book and Create a NFT: Saturday Night Live Stories</span></a></span></span></p>
+<p><span style="color:#8a7e7e;font-size:24px;"><a href="https://mailchi.mp/4ead1ac82504/shop-ventures-nft-mr-robot-watching-twitter-spacex-fighting-governments-brain-interface-w-mrna" target="_blank"><span style="color:#78f9f9;">- Mr Robot, Twitter & SpaceX + SNL, NBA and RAP Music</span></a></span></span></p>
+<p><span style="color:#8a7e7e;font-size:24px;"><a href="https://mailchi.mp/fd303c0a7173/shop-ventures-nft-write-book-build-shop-and-buy-coins" target="_blank"><span style="color:#78f9f9;" target="_blank">- Coins Purchase / Perks & Discounts</span></a></span></span></p>
 </span></p>													  	
 													  </div>
 
