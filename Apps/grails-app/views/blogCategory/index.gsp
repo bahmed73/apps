@@ -165,11 +165,11 @@
 							<g:each in="${blogCategoryList}" status="i" var="blogCategoryInstance">
 									<section>
 										
-											<div class="4u" style="float:left;height:400px;">
+											<div class="6u" style="float:left;height:400px;">
 												<div>
 														<div>
 														
-														<p  style="float:left;height:340px;width:250px;"><g:link controller="blogCategory" action="show" id="${blogCategoryInstance.id}"><span style="color:#ffffff;font-size:20px;"><br><img src="data:image/png;base64,${blogCategoryInstance.imageOne?.encodeBase64()}"/><br><br>${blogCategoryInstance.name}</span></g:link></p>
+														<p  style="float:left;height:340px;"><g:link controller="blogCategory" action="show" id="${blogCategoryInstance.id}"><span style="color:#ffffff;font-size:20px;"><br><img src="data:image/png;base64,${blogCategoryInstance.imageOne?.encodeBase64()}"/><br><br>${blogCategoryInstance.name}</span></g:link></p>
 														</div>
 													
 														
