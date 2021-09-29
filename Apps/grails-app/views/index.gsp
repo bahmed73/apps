@@ -248,8 +248,9 @@
 										<div id="tabs">
 													  <ul>
 													    <li><a href="#tabs-1">Shop</a></li>
-													    <li><a href="#tabs-2">Book</a></li>
+													    <li><a href="#tabs-2">Books</a></li>
 													    <li><a href="#tabs-3">NFT</a></li>
+													    <li><a href="#tabs-4">Newsletters</a></li>
 													  </ul>
 													  <div id="tabs-1" style="border: 5px #fdfaaa;
 		  border-width: 5px;
@@ -257,22 +258,21 @@
 													  
 													  	<p><span style="color:#ffffff;font-size:24px;"><br><br><span style="color:#feff9f">Bookly.love:</span>
 													  	<br><br>
-Create a book, organize chapters and export PDF with bookly software.<br>
+Create a book, organize chapters and export PDF.<br>
 </span></p>
 													  	
 													    <p><span style="color:#ffffff;font-size:24px;"><br>
 													    <span style="color:#feff9f">Shop:</span>
 													  	<br><br>
-													  	Supply chain software to build a shop - Ready in a week, intellectual property IP, shopping cart experience and checkout. <a href="mailto:bilal@mytweetmark.com"><span style="color:#cffc9b"> $2000.</span></a><br><br>
+													  	Supply chain software to build a shop - Shopping cart experience and checkout.<br><br>
 													  	</span></p>
 													  	
 													  	<p><span style="color:#ffffff;font-size:24px;"><br>
 													    <span style="color:#feff9f">Software:</span>
 													  	<br><br>
-													  	<a href="http://taote.shop/product/premium" target="_blank"><span style="color:#78f9f9">TODO Software to Sketch your Shop:</span></a>  
-													  	Use <a href="http://taote.shop" target="_blank"><span style="color:#78f9f9">Shop to Manage your Projects,</span></a> tasks, notes, meetings, backlog and sprints with agile development. 
-													  	Lean startup and customer development methodologies, software tools, to create user feedback loops, help with product development and finding new customers.  
-														Please see article by techdeck.info - <a href="http://bookly.love/chapter/show/545" target="_blank"><span style="color:#78f9f9">Using Tech to Improve Productivity.</span></a>
+													  	TODO - <a href="http://taote.shop/product/premium" target="_blank"><span style="color:#78f9f9">Sketch your Shop.</span></a><br><br>  
+													  	Software - <a href="http://taote.shop" target="_blank"><span style="color:#78f9f9">Manage your Projects,</span></a> tasks, notes, meetings, backlog and sprints. <br><br>
+													  	Article - <a href="http://bookly.love/chapter/show/545" target="_blank"><span style="color:#78f9f9">Using Tech to Improve Productivity.</span></a>
 </span></p>
 
 <p><span style="color:#ffffff;font-size:24px;"><br>
@@ -289,7 +289,7 @@ We are a 10+ Media Startup Incubator Entrepreneurship Program! Please meet our r
 		  border-width: 5px;
 		  background-color: #78789b;">
 													    <p><span style="color:#ffffff;font-size:24px;"><br><br>
-													    Books published on Amazon and Lulu. <a href="mailto:bilal@mytweetmark.com"><span style="color:#cffc9b"> $500.</span></a><br>
+													    Books published on Amazon and Lulu.<br>
 <p><span style="color:#8a7e7e;font-size:24px;"><a href="https://www.amazon.com/Secret-Book-Bilal-Ahmed/dp/1484177975" target="_blank"><span style="color:#ffffff;">- The Secret Book: Vedanta part I</span></a></span></span></p>
 <p><span style="color:#8a7e7e;font-size:24px;"><a href="https://www.amazon.com/Sacred-Book-Bilal-Ahmed/dp/1490950931" target="_blank"><span style="color:#ffffff;">- The Sacred Book: Vedanta part II</span></a></span></span></p>
 <p><span style="color:#8a7e7e;font-size:24px;"><a href="https://www.amazon.com/Startup-Book-Entrepreneurship-Training-Manual/dp/1500475459" target="_blank"><span style="color:#ffffff;">- The Startup Book: Venture Capitals</span></a></span></span></p>
@@ -326,11 +326,31 @@ Create a NFT with us, build a shop and write a book, to maximize value for your 
 													  	<br><br>
 													  	
 We have launched a list of NFTs for celebrities, helping define own platform and strategy as a business, become a brand, compared to using other people's website to launch your NFT, as a service. <br><br>
-<a href="mailto:bilal@mytweetmark.com"><span style="color:#cffc9b">The cost is $100.</span></a><br>
+<br>
 </span></p>
 													    
 													  </div>
 			
+<div id="tabs-4" style="border: 5px #fdfaaa;
+		  border-width: 5px;
+		  background-color: #78789b;">
+													    <p><span style="color:#ffffff;font-size:24px;"><br><br>
+													    We have a huge community of investors through our newsletter.<br>
+<p><span style="color:#8a7e7e;font-size:24px;"><a href="https://mailchi.mp/18a27b37b431/shop-ventures-media-nft-corrupted-social-networks-fighting-elections-dna-space-modifications-35-trillion-bill-government-crypto-investments" target="_blank"><span style="color:#ffffff;">- Corrupted Social Networks - Fighting Elections / DNA Space Modifications - $3.5 Trillion Bill Government Investments or Shutdown Thursday</span></a></span></span></p>
+<p><span style="color:#8a7e7e;font-size:24px;"><a href="https://mailchi.mp/370ce9eaf552/shop-ventures-media-nft-september-2021-startup-incubator-semester-vc-general-partner-battles-rages-disruptive-fights-over-space-mrna-multiverses" target="_blank"><span style="color:#ffffff;">- September 2021 Startup Incubator Semester / General Partner Battles Rages in Venture Capitals / Disruption over Space mRNA Multiverses Business Opportunities / Deal Flows / Social Media / NFT</span></a></span></span></p>
+<p><span style="color:#8a7e7e;font-size:24px;"><a href="https://mailchi.mp/5045bc842c1a/shop-ventures-nft-adding-new-co-founders-startup-brand-media-entrepreneurship-coin-investors" target="_blank"><span style="color:#ffffff;">- September 2021 Startup Incubator Semester / Program - Adding Entrepreneurs (Co-Founders) and Investors!</span></a></span></span></p>
+<p><span style="color:#8a7e7e;font-size:24px;"><a href="https://mailchi.mp/7c851512dc8a/shop-ventures-media-nft-september-2021-startup-incubator-program-entrepreneurs-and-investors" target="_blank"><span style="color:#ffffff;" target="_blank">- Two new Co-founders, Media Entrepreneurs</span></a></span></span></p>
+<p><span style="color:#8a7e7e;font-size:24px;"><a href="https://mailchi.mp/5d82c6b1b437/shop-ventures-media-nft-september-2021-startup-incubator-semester-program" target="_blank"><span style="color:#ffffff;" target="_blank">- September 2021 Startup Incubator Semester / Program</span></a></span></span></p>
+<p><span style="color:#8a7e7e;font-size:24px;"><a href="https://mailchi.mp/69b7c8f6defc/shop-ventures-partners-mergers-and-acquisitions-mission-matters-adam-torres-and-techdeckinfo" target="_blank"><span style="color:#ffffff;" target="_blank">- Partners: Mergers and Acquisitions</span></a></span></span></p>
+<p><span style="color:#8a7e7e;font-size:24px;"><a href="https://mailchi.mp/38d32d7929a8/shop-ventures-partners-mergers-and-acquisitions-mission-matters-sugar-cones" target="_blank"><span style="color:#ffffff;" target="_blank">- Announcing two new partners, and as a deal flow to venture capital, opportunity for merger and acquisitions.</span></a></span></span></p>
+<p><span style="color:#8a7e7e;font-size:24px;"><a href="https://mailchi.mp/913c272ea7ab/shop-ventures-partners-mergers-and-acquisitions-elon-musk-on-twitter-venture-capitalists" target="_blank"><span style="color:#ffffff;" target="_blank">- We have to remind our venture capital the amount of money they made - In the cash to coin conversion, now owning the Wall Street with Jim Cramer. </span></a></span></span></p>
+<p><span style="color:#8a7e7e;font-size:24px;"><a href="https://mailchi.mp/3dc9f4974ac9/shop-ventures-cody-from-techdeckinfo-wrote-a-great-article-on-our-agile-development-and-lean-startup-products-using-tech-to-improve-productivity" target="_blank"><span style="color:#ffffff;" target="_blank">- Cody from Techdeck.info wrote a great article on our agile development and lean startup products, "Using Tech to Improve Productivity"</span></a></span></span></p>
+<p><span style="color:#8a7e7e;font-size:24px;"><a href="https://mailchi.mp/f99c322dbf01/shop-ventures-nft-startup-incubator-television" target="_blank"><span style="color:#ffffff;" target="_blank">- Fully televised updates with Live gifs for Shop Ventures and investors. Or simply stay on this privileged newsletter. According to Citibank, Bitcoin is ready for wide adoption.</span></a></span></span></p>
+<p><span style="color:#8a7e7e;font-size:24px;"><a href="https://mailchi.mp/ca8bd434effa/the-new-bookly-httpbooklylove-build-shop-write-book-create-nft-saturday-night-live-stories" target="_blank"><span style="color:#ffffff;">- The 'new' Bookly! Build a Shop, Write a Book and Create a NFT: Saturday Night Live Stories</span></a></span></span></p>
+<p><span style="color:#8a7e7e;font-size:24px;"><a href="https://mailchi.mp/4ead1ac82504/shop-ventures-nft-mr-robot-watching-twitter-spacex-fighting-governments-brain-interface-w-mrna" target="_blank"><span style="color:#ffffff;">- Mr Robot, Twitter & SpaceX + SNL, NBA and RAP Music</span></a></span></span></p>
+<p><span style="color:#8a7e7e;font-size:24px;"><a href="https://mailchi.mp/fd303c0a7173/shop-ventures-nft-write-book-build-shop-and-buy-coins" target="_blank"><span style="color:#ffffff;" target="_blank">- Coins Purchase / Perks & Discounts</span></a></span></span></p>
+</span></p>													  	
+													  </div>
 
 													  													  
 													</div>												
