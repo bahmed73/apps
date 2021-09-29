@@ -110,7 +110,7 @@
 							<!-- Banner -->
 								<section id="banner">
 									
-										<g:link class="list" action="index" controller="blogCategory"><span class="image image-full"><asset:image src="bookly.gif"/></span></g:link>
+										<g:link class="list" action="index" controller="blogCategory"><span class="image image-full"><asset:image src="satoshi-banner.png"/></span></g:link>
 										<header>
 											<!--  <h2>Foodal</h2>-->
 											<!--span class="byline">welcome!</span-->

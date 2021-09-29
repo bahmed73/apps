@@ -125,9 +125,12 @@
 						  <!-- Wrapper for slides -->
 						  <div class="carousel-inner">
 						    <div class="item active">
-						    <g:link class="list" action="index" controller="book"><asset:image src="mrrobot.gif"/></g:link>
+						    <g:link class="list" action="index" controller="book"><asset:image src="team.png"/></g:link>
 						    </div>
 						    						    
+						    <div class="item">
+						    <g:link class="list" action="index" controller="book"><asset:image src="satoshi-banner.png"/></g:link>
+						    </div>						    
 						      
 						  </div>
 
