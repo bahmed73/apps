@@ -255,13 +255,11 @@ Create a book, organize chapters and export PDF.<br><br>
 													  	Supply chain software to build a shop - Shopping cart experience and checkout.<br><br>
 													  	</span></p>
 													  	
-													  	<p><span style="color:#ffffff;font-size:24px;"><br>
-													    <span style="color:#feff9f">Software:</span>
-													  	<br><br>
-													  	TODO - <a href="http://taote.shop/product/premium" target="_blank"><span style="color:#78f9f9">Sketch your Shop.</span></a><br><br>  
-													  	Software - <a href="http://taote.shop" target="_blank"><span style="color:#78f9f9">Manage your Projects,</span></a> tasks, notes, meetings, backlog and sprints. <br><br>
-													  	Article - <a href="http://bookly.love/chapter/show/545" target="_blank"><span style="color:#78f9f9">Using Tech to Improve Productivity.</span></a><br><br>
-</span></p>
+													  	<span style="color:#ffffff;font-size:28px;">
+													    <p><br><a href="http://taote.shop/product/premium" target="_blank"><span style="color:#78f9f9">Sketch your Shop.</span></a><br><br>  </p>
+													  	<p><br><a href="http://taote.shop" target="_blank"><span style="color:#78f9f9">Manage your Projects.</span></a><br><br></p>
+													  	<p><br><a href="http://bookly.love/chapter/show/545" target="_blank"><span style="color:#78f9f9">Using Tech to Improve Productivity.</span></a><br><br></p>
+</span>
 
 <p><span style="color:#ffffff;font-size:24px;"><br>
 													    <span style="color:#feff9f">Entrepreneurship:</span>
