@@ -76,6 +76,9 @@
 		  box-shadow: 0 5px #666;
 		  transform: translateY(4px);
 		}
+		p:hover {
+		  background-color: #78789b;
+		}
 		  </style>
 		  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
 		  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
