@@ -167,8 +167,6 @@
 							<div class="row">
 							<div class="12u">
 							<g:if test="${categoryExpando}">
-							<span style="font-size:25px;color:#000000">
-													Books By Category:</span>
 													<br><br>
 							<g:each in="${categoryExpando}" status="i" var="expandoInstance">
 							<g:set var="category" value="${expandoInstance.category}" />
