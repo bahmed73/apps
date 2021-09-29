@@ -177,8 +177,8 @@
 												<section class="box">
 												<header>
 												<g:if test="${book.imageThree}">
-													<div style="border: 2px solid #e5e1e1;">
-													<p><img src="data:image/png;base64,${book.imageThree?.encodeBase64()}" width="250px"/></p>
+													<div style="border: 2px solid #e5e1e1;width:250px;">
+													<p><img src="data:image/png;base64,${book.imageThree?.encodeBase64()}" width="200px"/></p>
 													<br>
 													<br>
 													

@@ -164,8 +164,6 @@
 							<div class="row">
 							<div class="12u">
 							<g:if test="${bookExpando}">
-							<span style="font-size:25px;color:#000000">
-													Chapters by Books:</span>
 													<br><br>
 							<g:each in="${bookExpando}" status="i" var="expandoInstance">
 							<g:set var="book" value="${expandoInstance.book}" />

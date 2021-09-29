@@ -125,11 +125,11 @@
   <div class="carousel-inner">
     
     <div class="item active">
-						    <g:link class="list" action="index" controller="book"><asset:image src="victory.gif"/></g:link>
+						    <g:link class="list" action="index" controller="book"><asset:image src="SNOOPDOGG.png"/></g:link>
 						      </div>
     
     <div class="item">
-						    <g:link class="list" action="index" controller="book"><asset:image src="michelle-obama.gif"/></g:link>
+						    <g:link class="list" action="index" controller="book"><asset:image src="pixelate.png"/></g:link>
 						      </div>
     
      
@@ -165,7 +165,7 @@
 							<g:each in="${blogCategoryList}" status="i" var="blogCategoryInstance">
 									<section>
 										
-											<div class="3u" style="float:left;height:400px;">
+											<div class="4u" style="float:left;height:400px;">
 												<div>
 														<div>
 														
