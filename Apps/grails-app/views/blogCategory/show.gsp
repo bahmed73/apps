@@ -77,6 +77,15 @@
 		</style>
 	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
 		  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+		  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-0PKFTJLWYP"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-0PKFTJLWYP');
+</script>
 	</head>
 	<body class="homepage" onload="testEffect()">
 	<script type="text/javascript">

@@ -112,14 +112,14 @@
 		  <style>
 		  .ui-menu { width: 910px; }
 		  </style>
-		  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-154739766-1"></script>
+		 <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-0PKFTJLWYP"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'UA-154739766-1');
+  gtag('config', 'G-0PKFTJLWYP');
 </script>
 		  
 	</head>
@@ -177,11 +177,7 @@
 						    <li data-target="#myCarousel" data-slide-to="1"></li>
 						    <li data-target="#myCarousel" data-slide-to="2"></li>
 						    <li data-target="#myCarousel" data-slide-to="3"></li>
-						    <li data-target="#myCarousel" data-slide-to="4"></li>
-						    <li data-target="#myCarousel" data-slide-to="5"></li>
-						    <li data-target="#myCarousel" data-slide-to="6"></li>
-						    <li data-target="#myCarousel" data-slide-to="7"></li>
-						    <li data-target="#myCarousel" data-slide-to="8"></li>						    
+						    <li data-target="#myCarousel" data-slide-to="4"></li>						    						    
 						  </ol>
 
 						  <!-- Wrapper for slides -->
@@ -192,17 +188,9 @@
 						    </div>
 						    
 						    <div class="item">
-						    <g:link class="list" action="index" controller="book"><asset:image src="CTO.png"/></g:link>
-						    </div>
-						    
-						    <div class="item">
 						    <g:link class="list" action="index" controller="book"><asset:image src="team.png"/></g:link>
 						    </div>
 						    						    
-						    <div class="item">
-						    <g:link class="list" action="index" controller="book"><asset:image src="snl-banner.gif"/></g:link>
-						    </div>
-						    
 						    <div class="item">
 						    <g:link class="list" action="index" controller="book"><asset:image src="satoshi-banner.png"/></g:link>
 						    </div>
@@ -213,14 +201,6 @@
 						    
 						    <div class="item">
 						    <g:link class="list" action="index" controller="book"><asset:image src="pixelate.png"/></g:link>
-						    </div>
-						    
-						    <div class="item">
-						    <g:link class="list" action="index" controller="book"><asset:image src="nba-banner.gif"/></g:link>
-						    </div>
-						    
-						    <div class="item">
-						    <g:link class="list" action="index" controller="book"><asset:image src="shopping.png"/></g:link>
 						    </div>
 						      
 						  </div>
