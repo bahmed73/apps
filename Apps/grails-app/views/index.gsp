@@ -77,7 +77,7 @@
 		  transform: translateY(4px);
 		}
 		p:hover {
-		  background-color: #78789b;
+		  background-color: black;
 		}
 		  </style>
 		  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
@@ -267,11 +267,11 @@
 													  </ul>
 													  <div id="tabs-1" style="border: 5px #fdfaaa;
 		  border-width: 5px;
-		  background-color: #78789b;">
+		  background-color: black;">
 													  
 													  	<p><span style="color:#ffffff;font-size:24px;"><br><br><span style="color:#feff9f">Bookly.love:</span>
 													  	<br><br>
-Create a book, organize chapters and export PDF.<br>
+Create a book, organize chapters and export PDF.<br><br>
 </span></p>
 													  	
 													    <p><span style="color:#ffffff;font-size:24px;"><br>
@@ -285,7 +285,7 @@ Create a book, organize chapters and export PDF.<br>
 													  	<br><br>
 													  	TODO - <a href="http://taote.shop/product/premium" target="_blank"><span style="color:#78f9f9">Sketch your Shop.</span></a><br><br>  
 													  	Software - <a href="http://taote.shop" target="_blank"><span style="color:#78f9f9">Manage your Projects,</span></a> tasks, notes, meetings, backlog and sprints. <br><br>
-													  	Article - <a href="http://bookly.love/chapter/show/545" target="_blank"><span style="color:#78f9f9">Using Tech to Improve Productivity.</span></a>
+													  	Article - <a href="http://bookly.love/chapter/show/545" target="_blank"><span style="color:#78f9f9">Using Tech to Improve Productivity.</span></a><br><br>
 </span></p>
 
 <p><span style="color:#ffffff;font-size:24px;"><br>
@@ -300,9 +300,9 @@ We are a 10+ Media Startup Incubator Entrepreneurship Program! Please meet our r
 													  
 <div id="tabs-2" style="border: 5px #fdfaaa;
 		  border-width: 5px;
-		  background-color: #78789b;">
+		  background-color: black;">
 													    <p><span style="color:#ffffff;font-size:24px;"><br><br>
-													    Books published on Amazon and Lulu.<br>
+													    Books published on Amazon and Lulu.<br><br>
 <p><span style="color:#8a7e7e;font-size:24px;"><a href="https://www.amazon.com/Secret-Book-Bilal-Ahmed/dp/1484177975" target="_blank"><span style="color:#ffffff;">- The Secret Book: Vedanta part I</span></a></span></span></p>
 <p><span style="color:#8a7e7e;font-size:24px;"><a href="https://www.amazon.com/Sacred-Book-Bilal-Ahmed/dp/1490950931" target="_blank"><span style="color:#ffffff;">- The Sacred Book: Vedanta part II</span></a></span></span></p>
 <p><span style="color:#8a7e7e;font-size:24px;"><a href="https://www.amazon.com/Startup-Book-Entrepreneurship-Training-Manual/dp/1500475459" target="_blank"><span style="color:#ffffff;">- The Startup Book: Venture Capitals</span></a></span></span></p>
@@ -320,18 +320,18 @@ We are a 10+ Media Startup Incubator Entrepreneurship Program! Please meet our r
 													  </div>
 													  <div id="tabs-3" style="border: 5px #fdfaaa;
 		  border-width: 5px;
-		  background-color: #78789b;">
+		  background-color: black;">
 													  
 													  	<p><span style="color:#ffffff;font-size:24px;"><br><br><span style="color:#feff9f">NFT:</span>
 													  	<br><br>
-Launch a Product NFT for celebrities, Services NFT for technology providers and Hybrid NFT for social media experts.<br>
+Launch a Product NFT for celebrities, Services NFT for technology providers and Hybrid NFT for social media experts.<br><br>
 </span></p>
 													  	
 													    <p><span style="color:#ffffff;font-size:24px;"><br>
 													    <span style="color:#feff9f">Shop NFT:</span>
 													  	<br><br>
 													  	
-Create a NFT with us, build a shop and write a book, to maximize value for your business, and sell for cash or crypto currency. 
+Create a NFT with us, build a shop and write a book, to maximize value for your business, and sell for cash or crypto currency. <br><br>
 </span></p>
 
 <p><span style="color:#ffffff;font-size:24px;"><br>
@@ -346,9 +346,9 @@ We have launched a list of NFTs for celebrities, helping define own platform and
 			
 <div id="tabs-4" style="border: 5px #fdfaaa;
 		  border-width: 5px;
-		  background-color: #78789b;">
+		  background-color: black;">
 													    <p><span style="color:#ffffff;font-size:24px;"><br><br>
-													    We have a huge community of investors through our newsletter.<br>
+													    We have a huge community of investors through our newsletter.<br><br>
 <p><span style="color:#8a7e7e;font-size:24px;"><a href="https://mailchi.mp/18a27b37b431/shop-ventures-media-nft-corrupted-social-networks-fighting-elections-dna-space-modifications-35-trillion-bill-government-crypto-investments" target="_blank"><span style="color:#ffffff;">- Corrupted Social Networks - Fighting Elections / DNA Space Modifications - $3.5 Trillion Bill Government Investments or Shutdown Thursday</span></a></span></span></p>
 <p><span style="color:#8a7e7e;font-size:24px;"><a href="https://mailchi.mp/370ce9eaf552/shop-ventures-media-nft-september-2021-startup-incubator-semester-vc-general-partner-battles-rages-disruptive-fights-over-space-mrna-multiverses" target="_blank"><span style="color:#ffffff;">- September 2021 Startup Incubator Semester / General Partner Battles Rages in Venture Capitals / Disruption over Space mRNA Multiverses Business Opportunities / Deal Flows / Social Media / NFT</span></a></span></span></p>
 <p><span style="color:#8a7e7e;font-size:24px;"><a href="https://mailchi.mp/5045bc842c1a/shop-ventures-nft-adding-new-co-founders-startup-brand-media-entrepreneurship-coin-investors" target="_blank"><span style="color:#ffffff;">- September 2021 Startup Incubator Semester / Program - Adding Entrepreneurs (Co-Founders) and Investors!</span></a></span></span></p>
