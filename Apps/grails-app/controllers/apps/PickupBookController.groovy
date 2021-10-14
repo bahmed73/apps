@@ -5,7 +5,7 @@ import grails.transaction.Transactional
 import grails.plugin.springsecurity.annotation.Secured
 import groovy.util.logging.Log;
 
-@Secured(['ROLE_ADMIN', 'ROLE_ANONYMOUS'])
+@Secured('ROLE_ANONYMOUS')
 class PickupBookController {
 
 	def springSecurityService
