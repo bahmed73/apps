@@ -289,7 +289,8 @@ We are a 10+ Media Startup Incubator Entrepreneurship Program! Please meet our r
 <p><span style="color:#8a7e7e;font-size:24px;"><a href="https://www.amazon.com/Business-Book-Entrepreneurs-Working-Incubators/dp/1985032015" target="_blank"><span style="color:#78f9f9;">- The Business Book: Incubators</span></a></span></span></p>
 <p><span style="color:#8a7e7e;font-size:24px;"><a href="http://www.lulu.com/shop/bilal-ahmed/the-goddess-book/paperback/product-23782150.html" target="_blank"><span style="color:#78f9f9;">- The Goddess Book: Upanishads part I</span></a></span></span></p>
 <p><span style="color:#8a7e7e;font-size:24px;"><a href="https://www.amazon.com/Goddess-Book-First-Upanishads/dp/1727484754" target="_blank"><span style="color:#78f9f9;" target="_blank">- The Goddess Book: Upanishads part II</span></a></span></span></p>
-</span></p>													  	
+</span></p>								
+<p><br><g:link class="list" action="index" controller="donateBook"><span style="color:#78f9f9;font-size:28px;">Donate a book today!</span></g:link><br><br>  </p>					  	
 													  </div>
 													  <div id="tabs-3" style="border: 5px #fdfaaa;
 		  border-width: 5px;

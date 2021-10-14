@@ -591,4 +591,70 @@ class AppsService {
 		}
 		
 	}
+	
+	def uploadPickupBookPhoto(File file, PickupBook pickupBook) {
+		log.info "inside uploadPickupBookPhoto"
+		
+		String fileName = file.getAbsolutePath()
+		
+		log.info "fileName = " + fileName
+		
+		ImagePlus image = imagingService.openImagePlus(fileName);
+		try {
+			def output = imagingService.generate100x100(image, fileName, true);
+			
+			def files = new File(output)
+			pickupBook.imageOne = files.bytes
+			
+			output = imagingService.generate50x50(image, fileName, true);
+			
+			files = new File(output)
+			pickupBook.imageTwo = files.bytes
+			
+			output = imagingService.generate400x400(image, fileName);
+			
+			files = new File(output)
+			pickupBook.imageThree = files.bytes
+			
+		} catch (Exception e) {
+			
+			log.info"uploadPickupBookPhoto: error generating images"
+			e.printStackTrace()
+			
+		}
+		
+	}
+	
+	def uploadDonateBookPhoto(File file, DonateBook donateBook) {
+		log.info "inside uploadDonateBookPhoto"
+		
+		String fileName = file.getAbsolutePath()
+		
+		log.info "fileName = " + fileName
+		
+		ImagePlus image = imagingService.openImagePlus(fileName);
+		try {
+			def output = imagingService.generate100x100(image, fileName, true);
+			
+			def files = new File(output)
+			donateBook.imageOne = files.bytes
+			
+			output = imagingService.generate50x50(image, fileName, true);
+			
+			files = new File(output)
+			donateBook.imageTwo = files.bytes
+			
+			output = imagingService.generate400x400(image, fileName);
+			
+			files = new File(output)
+			donateBook.imageThree = files.bytes
+			
+		} catch (Exception e) {
+			
+			log.info"uploadDonateBookPhoto: error generating images"
+			e.printStackTrace()
+			
+		}
+		
+	}
 }
