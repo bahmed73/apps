@@ -28,7 +28,7 @@
             </g:hasErrors>
             <g:form action="save" method="post" enctype="multipart/form-data">
                 <fieldset class="form">
-                    <f:all bean="book" except="imageOne, imageTwo, imageThree, description"/>
+                    <f:all bean="donateBook" except="imageOne, imageTwo, imageThree, description"/>
                 </fieldset>
                 
                 <fieldset style="margin-left:340px;">
