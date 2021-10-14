@@ -167,7 +167,7 @@
 												<div>
 														<div>
 														
-														<p  style="float:left;height:500px;"><g:link controller="pickupBook" action="show" id="${pickupBookInstance.id}"><span style="color:#ffffff;font-size:20px;"><br><img src="data:image/png;base64,${pickupBookInstance.imageOne?.encodeBase64()}"/><br><br>${pickupBookInstance.pickupName}</span></g:link></p>
+														<p  style="float:left;height:500px;"><g:link controller="pickupBook" action="show" id="${pickupBookInstance.id}"><span style="color:#ffffff;font-size:20px;"><br>${pickupBookInstance.pickupName}</span></g:link></p>
 														</div>
 													
 														

@@ -30,7 +30,7 @@
             <g:form resource="${this.donateBook}"  method="POST" enctype="multipart/form-data">
                 <g:hiddenField name="version" value="${this.donateBook?.version}" />
                 <fieldset class="form">
-                    <f:all bean="book" except="imageOne, imageTwo, imageThree, description"/>
+                    <f:all bean="donateBook" except="imageOne, imageTwo, imageThree, description"/>
                 </fieldset>
                 <fieldset style="margin-left:340px;">
                 <div>
