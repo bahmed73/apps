@@ -165,6 +165,11 @@
 													<br><br>
 													<span style="font-size:20px;color:#000000;font-family: Arial, Helvetica, sans-serif;">Email: ${pickupBook.pickupEmail}</span>
 													<br><br>
+													<span style="font-size:20px;color:#000000;font-family: Arial, Helvetica, sans-serif;">Book Picked Up: ${pickupBook.donateBook.name}</span>
+													<br><br>
+													<span style="font-size:20px;color:#000000;font-family: Arial, Helvetica, sans-serif;">Pick Up Note: ${pickupBook.pickupNote}</span>
+													<br><br>
+													
 													
 													<br><br>
 													
