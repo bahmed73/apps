@@ -114,7 +114,7 @@
 							<!-- Banner -->
 								<section id="banner">
 									
-										<g:link class="list" action="index" controller="blogCategory"><span class="image image-full"><asset:image src="SNOOPDOGG.png"/></span></g:link>
+										<g:link class="list" action="index" controller="blogCategory"><span class="image image-full"><asset:image src="satoshi-2.png"/></span></g:link>
 										<header>
 											<!--  <h2>Foodal</h2>-->
 											<!--span class="byline">welcome!</span-->
