@@ -33,32 +33,7 @@
                     <f:all bean="book" except="imageOne, imageTwo, imageThree, description"/>
                 </fieldset>
                 <fieldset style="margin-left:340px;">
-                <div style="float:left;width:50" class="post"><h4>Name:</h4></div>
-                	<br>
-              		
-                <g:field type="text" name="name" min="5" max="500" required="" value="${donateBook?.name}"/>
-                <br>
-              		<br>
-              		
-                <div style="float:left;width:50" class="post"><h4>Subtitle:</h4></div>
-                	<br>
-              		
-                <g:field type="text" name="subtitle" min="5" max="500" required="" value="${donateBook?.subtitle}"/>
-                
-                <br>
-              	<br>
-              	<div style="float:left;width:50" class="post"><h4>Author:</h4></div>
-                	<br>
-              		
-                <g:field type="text" name="author" min="5" max="500" required="" value="${donateBook?.author}"/>
-                <br>
-              		<br>
-              	
-              		
-                	<div style="float:left;width:50" class="post"><h4>Description:</h4></div>
-                	<br>
-              				
-              		<div>
+                <div>
                   <ckeditor:editor name="description" height="400px" width="80%">
 					Write book description here.
 					</ckeditor:editor>
@@ -71,32 +46,6 @@
               		<div>
                   <input type="file" name="myFile" />
               </div>	
-              <div style="float:left;width:50" class="post"><h4>Owner Name:</h4></div>
-                	<br>
-              		
-                <g:field type="text" name="ownerName" min="5" max="500" required="" value="${donateBook?.ownerName}"/>
-                <br>
-              		<br>
-              <div style="float:left;width:50" class="post"><h4>Owner Phone:</h4></div>
-                	<br>
-              		
-                <g:field type="text" name="ownerPhone" min="5" max="500" required="" value="${donateBook?.ownerPhone}"/>
-                <br>
-              		<br>
-              		
-                
-                <div style="float:left;width:50" class="post"><h4>Owner Address:</h4></div>
-                	<br>
-              		
-                <g:field type="text" name="ownerAddress" min="5" max="500" required="" value="${donateBook?.ownerAddress}"/>
-                <br>
-              		<br>
-              <div style="float:left;width:50" class="post"><h4>Owner Email:</h4></div>
-                	<br>
-              		
-                <g:field type="text" name="ownerEmail" min="5" max="500" required="" value="${donateBook?.ownerEmail}"/>
-                <br>
-              		<br>
               </fieldset>
                 <fieldset class="buttons">
                     <input class="save" type="submit" value="${message(code: 'default.button.update.label', default: 'Update')}" />

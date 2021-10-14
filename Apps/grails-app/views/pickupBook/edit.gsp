@@ -4,6 +4,7 @@
         <meta name="layout" content="main" />
         <g:set var="entityName" value="${message(code: 'pickupBook.label', default: 'PickupBook')}" />
         <title><g:message code="default.edit.label" args="[entityName]" /></title>
+        <ckeditor:resources/>
     </head>
     <body>
         <a href="#edit-pickupBook" class="skip" tabindex="-1"><g:message code="default.link.skip.label" default="Skip to content&hellip;"/></a>
@@ -29,10 +30,17 @@
             <g:form resource="${this.pickupBook}" method="PUT">
                 <g:hiddenField name="version" value="${this.pickupBook?.version}" />
                 <fieldset class="form">
-                    <f:all bean="pickupBook" except="donateBook"/>
+                    <f:all bean="pickupBook" except="pickupNote, donateBook"/>
                 </fieldset>
                 <fieldset>
                 <f:field bean="pickupBook" property="donateBook" widget-optionValue="name"/>
+                </fieldset>
+                <fieldset style="margin-left:340px;">
+                <div>
+                  <ckeditor:editor name="pickupNote" height="400px" width="80%">
+					Write pickup note here.
+					</ckeditor:editor>
+              </div>	
                 </fieldset>
                 <fieldset class="buttons">
                     <input class="save" type="submit" value="${message(code: 'default.button.update.label', default: 'Update')}" />

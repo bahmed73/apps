@@ -28,10 +28,17 @@
             </g:hasErrors>
             <g:form action="save" method="post" enctype="multipart/form-data">
                 <fieldset class="form">
-                    <f:all bean="pickupBook" except="donateBook"/>
+                    <f:all bean="pickupBook" except="pickupNote, donateBook"/>
                 </fieldset>
                 <fieldset>
                 <f:field bean="pickupBook" property="donateBook" widget-optionValue="name"/>
+                </fieldset>
+                <fieldset style="margin-left:340px;">
+                <div>
+                  <ckeditor:editor name="pickupNote" height="400px" width="80%">
+					Write pickup note here.
+					</ckeditor:editor>
+              </div>	
                 </fieldset>
                 <fieldset class="buttons">
                     <g:submitButton name="create" class="save" value="${message(code: 'default.button.create.label', default: 'Create')}" />
