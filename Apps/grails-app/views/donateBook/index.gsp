@@ -163,11 +163,11 @@
 							<g:each in="${donateBookList}" status="i" var="donateBookInstance">
 									<section>
 										
-											<div class="6u" style="float:left;height:550px;">
+											<div class="6u" style="float:left;width: 500px; height:550px;">
 												<div>
 														<div>
 														
-														<p  style="float:left;height:500px;"><g:link controller="donateBook" action="show" id="${donateBookInstance.id}"><span style="color:#ffffff;font-size:20px;"><br><img src="data:image/png;base64,${donateBookInstance.imageOne?.encodeBase64()}"/>
+														<p  style="float:left;width:450px; height:500px;"><g:link controller="donateBook" action="show" id="${donateBookInstance.id}"><span style="color:#ffffff;font-size:20px;"><br><img src="data:image/png;base64,${donateBookInstance.imageOne?.encodeBase64()}"/>
 														<br><br>Book name: ${donateBookInstance.name}
 														<br><br>Subtitle: ${donateBookInstance.subtitle}
 														<br><br>Author: ${donateBookInstance.author}

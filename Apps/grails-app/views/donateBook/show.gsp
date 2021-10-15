@@ -165,6 +165,14 @@
 													<br><br>
 													<span style="font-size:20px;color:#000000;font-family: Arial, Helvetica, sans-serif;">Author: ${donateBook.author}</span>
 													<br><br>
+													<span style="font-size:20px;color:#000000;font-family: Arial, Helvetica, sans-serif;">Owner Name: ${donateBook.ownerName}</span>
+													<br><br>
+													<span style="font-size:20px;color:#000000;font-family: Arial, Helvetica, sans-serif;">Owner Phone: ${donateBook.ownerPhone}</span>
+													<br><br>
+													<span style="font-size:20px;color:#000000;font-family: Arial, Helvetica, sans-serif;">Owner Address: ${donateBook.ownerAddress}</span>
+													<br><br>
+													<span style="font-size:20px;color:#000000;font-family: Arial, Helvetica, sans-serif;">Owner Email: ${donateBook.ownerEmail}</span>
+													<br><br>
 													
 													<br><br>
 													
