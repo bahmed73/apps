@@ -259,7 +259,7 @@ Create a book, organize chapters and export PDF.<br><br>
 <p><span style="color:#ffffff;font-size:24px;"><br>
 													    <span style="color:#feff9f">Entrepreneurship:</span>
 													  	<br><br>
-We are a 10+ Media Startup Incubator Entrepreneurship Program! Please meet our resident entrepreneur, <a href="http://bookly.love/chapter/show/578" target="_blank"><span style="color:#78f9f9">Cameron Tapia.</span></a>													  	
+NFT Metaverse WEB3, Startup Incubator & Accelerator - Entrepreneurship Program! Please meet our resident entrepreneur, <a href="http://bookly.love/chapter/show/578" target="_blank"><span style="color:#78f9f9">Cameron Tapia.</span></a>													  	
 <br><br>
 													  	</span></p>
 													  	
