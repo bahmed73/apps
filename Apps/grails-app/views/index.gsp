@@ -250,9 +250,9 @@ Create a book, organize chapters and export PDF.<br><br>
 </span></p>
 													  	
 													    <p><span style="color:#ffffff;font-size:24px;"><br>
-													    <span style="color:#feff9f">Shop:</span>
+													    <span style="color:#feff9f;">Shop:</span>
 													  	<br><br>
-													  	Supply chain software to build a shop - Shopping cart experience and checkout.<br><br>
+													  	<a href="https://paypal.me/mytweetmark" target="_blank"><span style="color:#78f9f9;font-size:28px;">Sell product online, books and NFT - $2000.</span></a><br><br>
 													  	</span></p>
 													  	
 													  	<span style="color:#ffffff;font-size:28px;">
@@ -275,6 +275,7 @@ We are a 10+ Media Startup Incubator Entrepreneurship Program! Please meet our r
 		  border-width: 5px;
 		  background-color: black;">
 													    <p><span style="color:#ffffff;font-size:24px;"><br><br>
+													    <a href="https://buy.stripe.com/8wMg15cT1fzcaIw6oo" target="_blank"><span style="color:#78f9f9;font-size:28px;">Pay for a Book on Bookly - $10.</span></a><br><br>
 													    Books published on Amazon and Lulu.<br><br>
 <p><span style="color:#8a7e7e;font-size:24px;"><a href="https://www.amazon.com/Secret-Book-Bilal-Ahmed/dp/1484177975" target="_blank"><span style="color:#78f9f9;">- The Secret Book: Vedanta part I</span></a></span></span></p>
 <p><span style="color:#8a7e7e;font-size:24px;"><a href="https://www.amazon.com/Sacred-Book-Bilal-Ahmed/dp/1490950931" target="_blank"><span style="color:#78f9f9;">- The Sacred Book: Vedanta part II</span></a></span></span></p>
