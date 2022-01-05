@@ -176,26 +176,21 @@
 						    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
 						    <li data-target="#myCarousel" data-slide-to="1"></li>
 						    <li data-target="#myCarousel" data-slide-to="2"></li>
-						    <li data-target="#myCarousel" data-slide-to="3"></li>
 						  </ol>
 
 						  <!-- Wrapper for slides -->
 						  <div class="carousel-inner">
 						    
 						    <div class="item active">
-						    <g:link class="list" action="index" controller="book"><asset:image src="SNOOPDOGG.png"/></g:link>
+						    <g:link url="https://paypal.me/mytweetmark"><asset:image src="paypal.png"/></g:link>
 						    </div>
 						    
 						    <div class="item">
-						    <g:link class="list" action="index" controller="book"><asset:image src="team.png"/></g:link>
+						    <g:link url="https://buy.stripe.com/8wMg15cT1fzcaIw6oo"><asset:image src="pdf.png"/></g:link>
 						    </div>
 						    						    
 						    <div class="item">
-						    <g:link class="list" action="index" controller="book"><asset:image src="satoshi-banner.png"/></g:link>
-						    </div>
-						    
-						    <div class="item">
-						    <g:link class="list" action="index" controller="book"><asset:image src="pixelate.png"/></g:link>
+						    <g:link url="https://buy.stripe.com/bIYg15dX5gDg6sg4gh"><asset:image src="investor.png"/></g:link>
 						    </div>
 						      
 						  </div>
@@ -252,7 +247,7 @@ Create a book, organize chapters and export PDF.<br><br>
 													    <p><span style="color:#ffffff;font-size:24px;"><br>
 													    <span style="color:#feff9f;">Shop:</span>
 													  	<br><br>
-													  	<a href="https://paypal.me/mytweetmark" target="_blank"><span style="color:#78f9f9;font-size:28px;">Sell product online, books and NFT - $2000.</span></a><br><br>
+													  	<a href="https://paypal.me/mytweetmark" target="_blank"><span style="color:#78f9f9;font-size:28px;">Sell product online, books and NFT - $2000, on paypal.</span></a><br><br>
 													  	</span></p>
 													  	
 													  	<span style="color:#ffffff;font-size:28px;">
@@ -275,7 +270,7 @@ We are a 10+ Media Startup Incubator Entrepreneurship Program! Please meet our r
 		  border-width: 5px;
 		  background-color: black;">
 													    <p><span style="color:#ffffff;font-size:24px;"><br><br>
-													    <a href="https://buy.stripe.com/8wMg15cT1fzcaIw6oo" target="_blank"><span style="color:#78f9f9;font-size:28px;">Pay for a Book on Bookly - $10.</span></a><br><br>
+													    <a href="https://buy.stripe.com/8wMg15cT1fzcaIw6oo" target="_blank"><span style="color:#78f9f9;font-size:28px;">Pay for a Book on Bookly - $10, credit card.</span></a><br><br>
 													    Books published on Amazon and Lulu.<br><br>
 <p><span style="color:#8a7e7e;font-size:24px;"><a href="https://www.amazon.com/Secret-Book-Bilal-Ahmed/dp/1484177975" target="_blank"><span style="color:#78f9f9;">- The Secret Book: Vedanta part I</span></a></span></span></p>
 <p><span style="color:#8a7e7e;font-size:24px;"><a href="https://www.amazon.com/Sacred-Book-Bilal-Ahmed/dp/1490950931" target="_blank"><span style="color:#78f9f9;">- The Sacred Book: Vedanta part II</span></a></span></span></p>
@@ -306,7 +301,7 @@ Launch a Product NFT for celebrities, Services NFT for technology providers and 
 													    <span style="color:#feff9f">Shop NFT:</span>
 													  	<br><br>
 													  	
-Create a NFT with us, build a shop and write a book, to maximize value for your business, and sell for cash or crypto currency. <br><br>
+Create a NFT with us, build a shop and write a book, to maximize value for your business, and sell for cash or crypto currency. <a href="https://buy.stripe.com/bIYg15dX5gDg6sg4gh" target="_blank"><span style="color:#78f9f9;font-size:28px;">Become an investor - $500, credit card!</span></a> <br><br>
 </span></p>
 
 <p><span style="color:#ffffff;font-size:24px;"><br>
