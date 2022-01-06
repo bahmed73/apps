@@ -47,7 +47,7 @@
 									<li>
 										<a href="https://www.linkedin.com/company/dotshop/" target="_blank"><h3>Shop Ventures on Linkedin</h3></a></li>
 										
-										<li>&copy; 2021 bookly.love</li>
+										<li>&copy; 2022 bookly.love</li>
 										<li><a href="http://taote.shop" target="_blank"><asset:image src="logoshop5.png" width="150px" height="150px"/> Shop Ventures</a></li>
 						<br><br>
 										
