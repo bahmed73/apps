@@ -241,25 +241,25 @@
 													  
 													  	<p><span style="color:#ffffff;font-size:24px;"><br><br><span style="color:#feff9f">Bookly.love:</span>
 													  	<br><br>
-<a href="https://buy.stripe.com/8wMg15cT1fzcaIw6oo" target="_blank"><span style="color:#78f9f9;font-size:28px;">Create a book, organize chapters and export PDF. Buy a Book - $10. Pay Now!</span></a><br><br>
+<a href="https://buy.stripe.com/8wMg15cT1fzcaIw6oo" target="_blank"><span style="color:#78f9f9;font-size:28px;">Create a book, chapters and download PDF. Buy a Book - $10. Pay Now with Credit Card!</span></a><br><br>
 </span></p>
 													  	
 													    <p><span style="color:#ffffff;font-size:24px;"><br>
 													    <span style="color:#feff9f;">Shop:</span>
 													  	<br><br>
-													  	<a href="https://paypal.me/mytweetmark" target="_blank"><span style="color:#78f9f9;font-size:28px;">Sell your products, books and NFT online - $2000. Pay now on Paypal!</span></a><br><br>
+													  	<a href="https://paypal.me/mytweetmark" target="_blank"><span style="color:#78f9f9;font-size:28px;">Sell your products, books and NFT online - $2000. Pay Now on Paypal!</span></a><br><br>
 													  	</span></p>
 													  	
 													  	<span style="color:#ffffff;font-size:28px;">
 													    <p><br><a href="http://taote.shop/product/premium" target="_blank"><span style="color:#78f9f9">Sketch your Shop. Let's get started on your NFT and startup checklist!</span></a><br><br>  </p>
 													  	<p><br><a href="http://taote.shop" target="_blank"><span style="color:#78f9f9">Manage your Projects. Use our NFT project management and venture capital tools.</span></a><br><br></p>
-													  	<p><br><a href="http://bookly.love/chapter/show/545" target="_blank"><span style="color:#78f9f9">Using Tech to Improve Productivity - Read article, our business tools in the news.</span></a><br><br></p>
+													  	<p><br><a href="http://bookly.love/chapter/show/545" target="_blank"><span style="color:#78f9f9">Using Tech to Improve Productivity - Read article, our enterprise business tools in the news.</span></a><br><br></p>
 </span>
 
 <p><span style="color:#ffffff;font-size:24px;"><br>
 													    <span style="color:#feff9f">Entrepreneurship:</span>
 													  	<br><br>
-<a href="https://buy.stripe.com/bIYg15dX5gDg6sg4gh" target="_blank"><span style="color:#78f9f9;font-size:28px;">NFT Metaverse WEB3, Startup Incubator & Accelerator - Entrepreneurship Program! Buy coins - $500. Pay now!</span></a>										  	
+<a href="https://buy.stripe.com/bIYg15dX5gDg6sg4gh" target="_blank"><span style="color:#78f9f9;font-size:28px;">NFT Metaverse WEB3, Startup Incubator & Accelerator - Entrepreneurship Program! Buy coins - $500. Pay Now with Credit Card!</span></a>										  	
 <br><br>
 													  	</span></p>
 													  	
