@@ -186,11 +186,11 @@
 						    </div>
 						    
 						    <div class="item">
-						    <g:link url="https://buy.stripe.com/8wMg15cT1fzcaIw6oo"><asset:image src="obama-bank.png"/></g:link>
+						    <g:link url="https://buy.stripe.com/bIYg15dX5gDg6sg4gh"><asset:image src="obama-bank.png"/></g:link>
 						    </div>
 						    						    
 						    <div class="item">
-						    <g:link url="https://buy.stripe.com/bIYg15dX5gDg6sg4gh"><asset:image src="diddy-bank.png"/></g:link>
+						    <g:link url="https://buy.stripe.com/8wMg15cT1fzcaIw6oo"><asset:image src="diddy-bank.png"/></g:link>
 						    </div>
 						      
 						  </div>
@@ -241,7 +241,7 @@
 													  
 													  	<p><span style="color:#ffffff;font-size:24px;"><br><br><span style="color:#feff9f">Bookly.love:</span>
 													  	<br><br>
-<a href="https://buy.stripe.com/bIYg15dX5gDg6sg4gh" target="_blank"><span style="color:#78f9f9;font-size:28px;">Create a book, organize chapters and export PDF. Buy a Book - $10. Pay Now!</span></a><br><br>
+<a href="https://buy.stripe.com/8wMg15cT1fzcaIw6oo" target="_blank"><span style="color:#78f9f9;font-size:28px;">Create a book, organize chapters and export PDF. Buy a Book - $10. Pay Now!</span></a><br><br>
 </span></p>
 													  	
 													    <p><span style="color:#ffffff;font-size:24px;"><br>
@@ -259,7 +259,7 @@
 <p><span style="color:#ffffff;font-size:24px;"><br>
 													    <span style="color:#feff9f">Entrepreneurship:</span>
 													  	<br><br>
-<a href="https://buy.stripe.com/8wMg15cT1fzcaIw6oo" target="_blank"><span style="color:#78f9f9;font-size:28px;">NFT Metaverse WEB3, Startup Incubator & Accelerator - Entrepreneurship Program! Buy coins - $500. Pay now!</span></a>										  	
+<a href="https://buy.stripe.com/bIYg15dX5gDg6sg4gh" target="_blank"><span style="color:#78f9f9;font-size:28px;">NFT Metaverse WEB3, Startup Incubator & Accelerator - Entrepreneurship Program! Buy coins - $500. Pay now!</span></a>										  	
 <br><br>
 													  	</span></p>
 													  	
