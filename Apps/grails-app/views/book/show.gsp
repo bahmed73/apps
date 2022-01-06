@@ -6,7 +6,7 @@
 <meta http-equiv="window-target" content="_top" />
 <META HTTP-EQUIV="CACHE-CONTROL" CONTENT="PUBLIC">
 	<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
-	<title><f:display bean="book" property="name"/></title>
+	<title>Shop Ventures NFT - Build Shop and Write a book!</title>
 	<asset:stylesheet src="skel-noscript.css"/>
 	<asset:stylesheet src="style.css"/>
 	<asset:stylesheet src="style-desktop.css"/>
@@ -214,8 +214,8 @@
 													Chapters:</span>
 													<br><br>
 													<g:each in="${chapters}" status="i" var="chapterInstance">
-													<div class="3u" style="float:left;height:400px;width:275px;">
-													<p style="float:left;height:350px;width:250px;"><g:link controller="chapter" action="show" id="${chapterInstance.id}"><span style="color:#ffffff;font-size:20px;"><br><img src="data:image/png;base64,${chapterInstance.imageOne?.encodeBase64()}"/><br><br>${chapterInstance.name}</span></g:link></p>
+													<div class="3u" style="float:left;height:500px;width:275px;">
+													<p style="float:left;height:450px;width:250px;"><g:link controller="chapter" action="show" id="${chapterInstance.id}"><span style="color:#ffffff;font-size:20px;"><br><img src="data:image/png;base64,${chapterInstance.imageOne?.encodeBase64()}"/><br><br>${chapterInstance.name}</span></g:link></p>
 													</div>
 													</g:each>
 													</g:if>
