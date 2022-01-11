@@ -176,6 +176,8 @@
 						    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
 						    <li data-target="#myCarousel" data-slide-to="1"></li>
 						    <li data-target="#myCarousel" data-slide-to="2"></li>
+						    <li data-target="#myCarousel" data-slide-to="3"></li>
+						    <li data-target="#myCarousel" data-slide-to="4"></li>
 						  </ol>
 
 						  <!-- Wrapper for slides -->
@@ -192,7 +194,14 @@
 						    <div class="item">
 						    <g:link url="https://buy.stripe.com/8wMg15cT1fzcaIw6oo"><asset:image src="diddy-bank.png"/></g:link>
 						    </div>
+						    
+						    <div class="item">
+						    <g:link url="https://buy.stripe.com/14k16bcT19aO4k8eUX"><asset:image src="trump-banner.png"/></g:link>
+						    </div>
 						      
+						    <div class="item">
+						    <g:link url="https://buy.stripe.com/fZe5mrdX5fzc3g4bIK"><asset:image src="clinton-banner.png"/></g:link>
+						    </div>  
 						  </div>
 
 						  <!-- Left and right controls -->
