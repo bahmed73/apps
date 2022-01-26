@@ -184,23 +184,23 @@
 						  <div class="carousel-inner">
 						    
 						    <div class="item active">
-						    <g:link url="https://paypal.me/mytweetmark"><asset:image src="snoop-bank.png"/></g:link>
+						    <g:link url="https://buy.stripe.com/14keX106f86K2c09AH"><asset:image src="venture-coin.png"/></g:link>
 						    </div>
 						    
 						    <div class="item">
-						    <g:link url="https://buy.stripe.com/bIYg15dX5gDg6sg4gh"><asset:image src="obama-bank.png"/></g:link>
+						    <g:link url="https://buy.stripe.com/00g8yDf19biW9Es14a"><asset:image src="entrepreneur-coin.png"/></g:link>
 						    </div>
 						    						    
 						    <div class="item">
-						    <g:link url="https://buy.stripe.com/8wMg15cT1fzcaIw6oo"><asset:image src="diddy-bank.png"/></g:link>
+						    <g:link url="https://buy.stripe.com/3cscOT5qz5YC8Ao148"><asset:image src="startup-coin.png"/></g:link>
 						    </div>
 						    
 						    <div class="item">
-						    <g:link url="https://buy.stripe.com/14k16bcT19aO4k8eUX"><asset:image src="trump-banner.png"/></g:link>
+						    <g:link url="https://buy.stripe.com/8wMg15aKTbiWeYM8wB"><asset:image src="book-coin.png"/></g:link>
 						    </div>
 						      
 						    <div class="item">
-						    <g:link url="https://buy.stripe.com/fZe5mrdX5fzc3g4bIK"><asset:image src="clinton-banner.png"/></g:link>
+						    <g:link url="https://paypal.me/mytweetmark"><asset:image src="pay-now.png"/></g:link>
 						    </div>  
 						  </div>
 
@@ -222,7 +222,6 @@
 								<!-- Nav -->
 										<nav id="nav">
 											<ul>
-												<li><button class="button"><span style="color:#ffffff"><g:link controller="blogCategory" action="index"><span style="color:#feff00">Categories</span></g:link></span></button></li>
 												<li><button class="button"><span style="color:#ffffff"><g:link controller="chapter" action="index"><span style="color:#feff00">Chapters</span></g:link></span></button></li>
 												<li><button class="button"><span style="color:#ffffff"><g:link controller="product" action="shelf"><span style="color:#feff00">Dashboard</span></g:link></span></button></li>
 												<br><br>
@@ -241,8 +240,7 @@
 													  <ul>
 													    <li><a href="#tabs-1">Shop</a></li>
 													    <li><a href="#tabs-2">Books</a></li>
-													    <li><a href="#tabs-3">NFT</a></li>
-													    <li><a href="#tabs-4">Newsletters</a></li>
+													    <li><a href="#tabs-3">NFT</a></li>													  
 													  </ul>
 													  <div id="tabs-1" style="border: 5px #fdfaaa;
 		  border-width: 5px;
@@ -250,13 +248,13 @@
 													  
 													  	<p><span style="color:#ffffff;font-size:24px;"><br><br><span style="color:#feff9f">Bookly.love:</span>
 													  	<br><br>
-<a href="https://buy.stripe.com/8wMg15cT1fzcaIw6oo" target="_blank"><span style="color:#78f9f9;font-size:28px;">Create a book, chapters and download PDF. Buy a Book - $10. Pay Now with Credit Card!</span></a><br><br>
+<a href="https://buy.stripe.com/8wMg15aKTbiWeYM8wB" target="_blank"><span style="color:#78f9f9;font-size:28px;">Write a Book - Create a NFT. Buy and Sell Books Online - Crowd Source Investments from your Readers in Blockchain. Pay Now! $1000</span></a><br><br>
 </span></p>
 													  	
 													    <p><span style="color:#ffffff;font-size:24px;"><br>
 													    <span style="color:#feff9f;">Shop:</span>
 													  	<br><br>
-													  	<a href="https://paypal.me/mytweetmark" target="_blank"><span style="color:#78f9f9;font-size:28px;">Sell your products, books and NFT online - $2000. Pay Now on Paypal!</span></a><br><br>
+													  	<a href="https://buy.stripe.com/3cscOT5qz5YC8Ao148" target="_blank"><span style="color:#78f9f9;font-size:28px;">Build a NFT Shop Online - Crowd Source your Business - Sell Products and Services - Buy and Sell Coins - WEB3 and Metaverse Design for Blockchain. Pay Now! $2000</span></a><br><br>
 													  	</span></p>
 													  	
 													  	<span style="color:#ffffff;font-size:28px;">
@@ -268,7 +266,7 @@
 <p><span style="color:#ffffff;font-size:24px;"><br>
 													    <span style="color:#feff9f">Entrepreneurship:</span>
 													  	<br><br>
-<a href="https://buy.stripe.com/bIYg15dX5gDg6sg4gh" target="_blank"><span style="color:#78f9f9;font-size:28px;">NFT Metaverse WEB3, Startup Incubator & Accelerator - Entrepreneurship Program! Buy coins - $500. Pay Now with Credit Card!</span></a>										  	
+<a href="https://paypal.me/mytweetmark" target="_blank"><span style="color:#78f9f9;font-size:28px;">NFT Metaverse WEB3, Blockchain Startup Incubator & Accelerator - Entrepreneurship Program - Pay Now!</span></a>										  	
 <br><br>
 													  	</span></p>
 													  	
@@ -279,7 +277,7 @@
 		  border-width: 5px;
 		  background-color: black;">
 													    <p><span style="color:#ffffff;font-size:24px;"><br><br>
-													    <a href="https://buy.stripe.com/8wMg15cT1fzcaIw6oo" target="_blank"><span style="color:#78f9f9;font-size:28px;">Pay for a Book on Bookly - $10, credit card.</span></a><br><br>
+													    <a href="https://buy.stripe.com/8wMg15cT1fzcaIw6oo" target="_blank"><span style="color:#78f9f9;font-size:28px;">Pay for a book you read on Bookly. Support your local entrepreneur - Pay Now! $10</span></a><br><br>
 													    Books published on Amazon and Lulu.<br><br>
 <p><span style="color:#8a7e7e;font-size:24px;"><a href="https://www.amazon.com/Secret-Book-Bilal-Ahmed/dp/1484177975" target="_blank"><span style="color:#78f9f9;">- The Secret Book: Vedanta part I</span></a></span></span></p>
 <p><span style="color:#8a7e7e;font-size:24px;"><a href="https://www.amazon.com/Sacred-Book-Bilal-Ahmed/dp/1490950931" target="_blank"><span style="color:#78f9f9;">- The Sacred Book: Vedanta part II</span></a></span></span></p>
@@ -303,7 +301,7 @@
 													  
 													  	<p><span style="color:#ffffff;font-size:24px;"><br><br><span style="color:#feff9f">NFT:</span>
 													  	<br><br>
-Launch a Product NFT for celebrities, Services NFT for technology providers and Hybrid NFT for social media experts.<br><br>
+<a href="https://buy.stripe.com/14keX106f86K2c09AH" target="_blank"><span style="color:#78f9f9;font-size:28px;">Launch a Product NFT for celebrities, Services NFT for technology providers and Hybrid NFT for social media experts. Learn Crowd Sourcing, NFT Business model and join our Team. Buy our Venture Coin - Pay Now! $100</span></a><br><br>
 </span></p>
 													  	
 													    <p><span style="color:#ffffff;font-size:24px;"><br>
@@ -317,33 +315,11 @@ Create a NFT with us, build a shop and write a book, to maximize value for your 
 													    <span style="color:#feff9f">Shop Product NFT:</span>
 													  	<br><br>
 													  	
-We have launched a list of NFTs for celebrities, helping define own platform and strategy as a business, become a brand, compared to using other people's website to launch your NFT, as a service. <br><br>
+<a href="https://buy.stripe.com/00g8yDf19biW9Es14a" target="_blank"><span style="color:#78f9f9;font-size:28px;">We have launched a list of NFTs for celebrities, helping define own platform and strategy as a business, become a brand, compared to using other people's website to launch your NFT, as a service, without owning Intellectual Property (IP). Buy our Entrepreneur Coin - Pay Now! $500</span></a> <br><br>
 <br>
 </span></p>
 													    
 													  </div>
-			
-<div id="tabs-4" style="border: 5px #fdfaaa;
-		  border-width: 5px;
-		  background-color: black;">
-													    <p><span style="color:#ffffff;font-size:24px;"><br><br>
-													    We have a huge community of investors through our newsletter.<br><br>
-<p><span style="color:#8a7e7e;font-size:24px;"><a href="https://mailchi.mp/18a27b37b431/shop-ventures-media-nft-corrupted-social-networks-fighting-elections-dna-space-modifications-35-trillion-bill-government-crypto-investments" target="_blank"><span style="color:#78f9f9;">- Corrupted Social Networks - Fighting Elections / DNA Space Modifications - $3.5 Trillion Bill Government Investments or Shutdown Thursday</span></a></span></span></p>
-<p><span style="color:#8a7e7e;font-size:24px;"><a href="https://mailchi.mp/370ce9eaf552/shop-ventures-media-nft-september-2021-startup-incubator-semester-vc-general-partner-battles-rages-disruptive-fights-over-space-mrna-multiverses" target="_blank"><span style="color:#78f9f9;">- September 2021 Startup Incubator Semester / General Partner Battles Rages in Venture Capitals / Disruption over Space mRNA Multiverses Business Opportunities / Deal Flows / Social Media / NFT</span></a></span></span></p>
-<p><span style="color:#8a7e7e;font-size:24px;"><a href="https://mailchi.mp/5045bc842c1a/shop-ventures-nft-adding-new-co-founders-startup-brand-media-entrepreneurship-coin-investors" target="_blank"><span style="color:#78f9f9;">- September 2021 Startup Incubator Semester / Program - Adding Entrepreneurs (Co-Founders) and Investors!</span></a></span></span></p>
-<p><span style="color:#8a7e7e;font-size:24px;"><a href="https://mailchi.mp/7c851512dc8a/shop-ventures-media-nft-september-2021-startup-incubator-program-entrepreneurs-and-investors" target="_blank"><span style="color:#78f9f9;" target="_blank">- Two new Co-founders, Media Entrepreneurs</span></a></span></span></p>
-<p><span style="color:#8a7e7e;font-size:24px;"><a href="https://mailchi.mp/5d82c6b1b437/shop-ventures-media-nft-september-2021-startup-incubator-semester-program" target="_blank"><span style="color:#78f9f9;" target="_blank">- September 2021 Startup Incubator Semester / Program</span></a></span></span></p>
-<p><span style="color:#8a7e7e;font-size:24px;"><a href="https://mailchi.mp/69b7c8f6defc/shop-ventures-partners-mergers-and-acquisitions-mission-matters-adam-torres-and-techdeckinfo" target="_blank"><span style="color:#78f9f9;" target="_blank">- Partners: Mergers and Acquisitions</span></a></span></span></p>
-<p><span style="color:#8a7e7e;font-size:24px;"><a href="https://mailchi.mp/38d32d7929a8/shop-ventures-partners-mergers-and-acquisitions-mission-matters-sugar-cones" target="_blank"><span style="color:#78f9f9;" target="_blank">- Announcing two new partners, and as a deal flow to venture capital, opportunity for merger and acquisitions.</span></a></span></span></p>
-<p><span style="color:#8a7e7e;font-size:24px;"><a href="https://mailchi.mp/913c272ea7ab/shop-ventures-partners-mergers-and-acquisitions-elon-musk-on-twitter-venture-capitalists" target="_blank"><span style="color:#78f9f9;" target="_blank">- We have to remind our venture capital the amount of money they made - In the cash to coin conversion, now owning the Wall Street with Jim Cramer. </span></a></span></span></p>
-<p><span style="color:#8a7e7e;font-size:24px;"><a href="https://mailchi.mp/3dc9f4974ac9/shop-ventures-cody-from-techdeckinfo-wrote-a-great-article-on-our-agile-development-and-lean-startup-products-using-tech-to-improve-productivity" target="_blank"><span style="color:#78f9f9;" target="_blank">- Cody from Techdeck.info wrote a great article on our agile development and lean startup products, "Using Tech to Improve Productivity"</span></a></span></span></p>
-<p><span style="color:#8a7e7e;font-size:24px;"><a href="https://mailchi.mp/f99c322dbf01/shop-ventures-nft-startup-incubator-television" target="_blank"><span style="color:#78f9f9;" target="_blank">- Fully televised updates with Live gifs for Shop Ventures and investors. Or simply stay on this privileged newsletter. According to Citibank, Bitcoin is ready for wide adoption.</span></a></span></span></p>
-<p><span style="color:#8a7e7e;font-size:24px;"><a href="https://mailchi.mp/ca8bd434effa/the-new-bookly-httpbooklylove-build-shop-write-book-create-nft-saturday-night-live-stories" target="_blank"><span style="color:#78f9f9;">- The 'new' Bookly! Build a Shop, Write a Book and Create a NFT: Saturday Night Live Stories</span></a></span></span></p>
-<p><span style="color:#8a7e7e;font-size:24px;"><a href="https://mailchi.mp/4ead1ac82504/shop-ventures-nft-mr-robot-watching-twitter-spacex-fighting-governments-brain-interface-w-mrna" target="_blank"><span style="color:#78f9f9;">- Mr Robot, Twitter & SpaceX + SNL, NBA and RAP Music</span></a></span></span></p>
-<p><span style="color:#8a7e7e;font-size:24px;"><a href="https://mailchi.mp/fd303c0a7173/shop-ventures-nft-write-book-build-shop-and-buy-coins" target="_blank"><span style="color:#78f9f9;" target="_blank">- Coins Purchase / Perks & Discounts</span></a></span></span></p>
-</span></p>													  	
-													  </div>
-
 													  													  
 													</div>												
 
