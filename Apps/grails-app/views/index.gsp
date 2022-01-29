@@ -1,12 +1,12 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<meta name="description" content="bookly.love - books" />
+		<meta name="description" content="bookly.love - NFT Marketplace: Build a Shop, Write Books and Create NFTs" />
 <meta name="keywords" content="Books, Publish, Marketing, pdf, text, images, image, video, photo, distribute, distribution, Garments, Art, Clothing, Jewelry, startup, online store, entrepreneur" />
 <meta http-equiv="window-target" content="_top" />
 <META HTTP-EQUIV="CACHE-CONTROL" CONTENT="PUBLIC">
 	<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
-	<title>bookly.love - Build a Shop, Write Books and Create NFTs</title>
+	<title>bookly.love - NFT Marketplace: Build a Shop, Write Books and Create NFTs</title>
 	<asset:stylesheet src="skel-noscript.css"/>
 	<asset:stylesheet src="style.css"/>
 	<asset:stylesheet src="style-desktop.css"/>
@@ -248,7 +248,7 @@
 													  
 													  	<p><span style="color:#ffffff;font-size:24px;"><br><br><span style="color:#feff9f">Bookly.love:</span>
 													  	<br><br>
-<a href="https://buy.stripe.com/8wMg15aKTbiWeYM8wB" target="_blank"><span style="color:#78f9f9;font-size:28px;">Write a Book - Create a NFT. Buy and Sell Books Online - Crowd Source Investments from your Readers in Blockchain. Pay Now! $1000</span></a><br><br>
+<a href="https://buy.stripe.com/8wMg15aKTbiWeYM8wB" target="_blank"><span style="color:#78f9f9;font-size:28px;">NFT Marketplace: Write a Book - Create a NFT. Buy and Sell Books Online - Crowd Source Investments from your Readers in Blockchain. Pay Now! $1000</span></a><br><br>
 </span></p>
 													  	
 													    <p><span style="color:#ffffff;font-size:24px;"><br>
