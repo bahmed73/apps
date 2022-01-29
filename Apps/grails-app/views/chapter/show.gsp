@@ -110,7 +110,7 @@
 							<!-- Banner -->
 								<section id="banner">
 									
-										<g:link class="list" action="index" controller="blogCategory"><span class="image image-full"><asset:image src="satoshi-banner.png"/></span></g:link>
+										<g:link url="https://paypal.me/mytweetmark"><span class="image image-full"><asset:image src="pay-now.png"/></span></g:link>
 										<header>
 											<!--  <h2>Foodal</h2>-->
 											<!--span class="byline">welcome!</span-->

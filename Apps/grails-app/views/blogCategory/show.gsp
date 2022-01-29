@@ -120,7 +120,7 @@
 							<!-- Banner -->
 								<section id="banner">
 									
-										<g:link class="list" action="index" controller="blogCategory"><span class="image image-full"><asset:image src="pixelate.png"/></span></g:link>
+										<g:link url="https://buy.stripe.com/8wMg15aKTbiWeYM8wB"><span class="image image-full"><asset:image src="book-coin.png"/></span></g:link>
 										<header>
 											<!--  <h2>Foodal</h2>-->
 											<!--span class="byline">welcome!</span-->

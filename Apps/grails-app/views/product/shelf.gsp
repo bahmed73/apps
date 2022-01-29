@@ -145,7 +145,7 @@
 							<!-- Banner -->
 								<section id="banner">
 									
-										<g:link class="list" action="index" controller="category"><span class="image image-full"><asset:image src="loverth.png"/></span></g:link>
+										<g:link url="https://paypal.me/mytweetmark"><span class="image image-full"><asset:image src="pay-now.png"/></span></g:link>
 										<header>
 										<!-- 
 											<h2>Shop</h2> 

@@ -178,6 +178,7 @@
 						    <li data-target="#myCarousel" data-slide-to="2"></li>
 						    <li data-target="#myCarousel" data-slide-to="3"></li>
 						    <li data-target="#myCarousel" data-slide-to="4"></li>
+						    <li data-target="#myCarousel" data-slide-to="5"></li>
 						  </ol>
 
 						  <!-- Wrapper for slides -->
@@ -202,6 +203,12 @@
 						    <div class="item">
 						    <g:link url="https://paypal.me/mytweetmark"><asset:image src="pay-now.png"/></g:link>
 						    </div>  
+						    
+						    <div class="item">
+						    <g:link url="https://buy.stripe.com/3cs3ej9GPbiW8AofZ6"><asset:image src="metaverse-coin.png"/></g:link>
+						    </div>
+						    
+						    
 						  </div>
 
 						  <!-- Left and right controls -->
@@ -250,6 +257,11 @@
 													  	<br><br>
 <a href="https://buy.stripe.com/8wMg15aKTbiWeYM8wB" target="_blank"><span style="color:#78f9f9;font-size:28px;">NFT Marketplace: Write a Book - Create a NFT. Buy and Sell Books Online - Crowd Source Investments from your Readers in Blockchain. Pay Now! $1000</span></a><br><br>
 </span></p>
+													  	<p><span style="color:#ffffff;font-size:24px;"><br>
+													    <span style="color:#feff9f;">Metaverse:</span>
+													  	<br><br>
+													  	<a href="https://buy.stripe.com/3cs3ej9GPbiW8AofZ6" target="_blank"><span style="color:#78f9f9;font-size:28px;">Build a WEB3 metaverse, NFT Blockchain Shop - Crowd Source and Fund in Blockchain. Pay Now! $5000</span></a><br><br>
+													  	</span></p>
 													  	
 													    <p><span style="color:#ffffff;font-size:24px;"><br>
 													    <span style="color:#feff9f;">Shop:</span>

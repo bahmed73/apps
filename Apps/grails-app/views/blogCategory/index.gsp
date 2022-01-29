@@ -125,12 +125,12 @@
   <div class="carousel-inner">
     
     <div class="item active">
-						    <g:link class="list" action="index" controller="book"><asset:image src="SNOOPDOGG.png"/></g:link>
-						      </div>
-    
-    <div class="item">
-						    <g:link class="list" action="index" controller="book"><asset:image src="pixelate.png"/></g:link>
-						      </div>
+						    <g:link url="https://buy.stripe.com/00g8yDf19biW9Es14a"><asset:image src="entrepreneur-coin.png"/></g:link>
+						    </div>
+						    						    
+						    <div class="item">
+						    <g:link url="https://buy.stripe.com/3cscOT5qz5YC8Ao148"><asset:image src="startup-coin.png"/></g:link>
+						    </div>
     
      
       </div>

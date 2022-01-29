@@ -125,11 +125,11 @@
 						  <!-- Wrapper for slides -->
 						  <div class="carousel-inner">
 						    <div class="item active">
-						    <g:link class="list" action="index" controller="book"><asset:image src="team.png"/></g:link>
+						    <g:link url="https://paypal.me/mytweetmark"><asset:image src="pay-now.png"/></g:link>
 						    </div>
 						    						    
 						    <div class="item">
-						    <g:link class="list" action="index" controller="book"><asset:image src="satoshi-banner.png"/></g:link>
+						    <g:link url="https://buy.stripe.com/3cs3ej9GPbiW8AofZ6"><asset:image src="metaverse-coin.png"/></g:link>
 						    </div>						    
 						      
 						  </div>
