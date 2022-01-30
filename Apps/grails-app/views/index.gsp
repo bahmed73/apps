@@ -208,6 +208,13 @@
 						    <g:link url="https://buy.stripe.com/3cs3ej9GPbiW8AofZ6"><asset:image src="metaverse-coin.png"/></g:link>
 						    </div>
 						    
+						    <div class="item">
+						    <g:link url="https://buy.stripe.com/fZe9CHf193Qu6sgeV4"><asset:image src="yoga-coin.png"/></g:link>
+						    </div>  
+						    
+						    <div class="item">
+						    <g:link url="https://buy.stripe.com/6oE4in06f0Ei9Es28h"><asset:image src="angel-coin.png"/></g:link>
+						    </div>
 						    
 						  </div>
 
@@ -256,7 +263,12 @@
 													  	<p><span style="color:#ffffff;font-size:24px;"><br><br><span style="color:#feff9f">Bookly.love:</span>
 													  	<br><br>
 <a href="https://buy.stripe.com/8wMg15aKTbiWeYM8wB" target="_blank"><span style="color:#78f9f9;font-size:28px;">NFT Marketplace: Write a Book - Create a NFT. Buy and Sell Books Online - Crowd Source Investments from your Readers in Blockchain. Pay Now! $1000</span></a><br><br>
-</span></p>
+</span>
+
+<br>
+<a href="https://buy.stripe.com/fZe9CHf193Qu6sgeV4" target="_blank"><span style="color:#78f9f9;font-size:28px;">Join our Team of entrepreneurs and investors - Working towards building WEB3, metaverse, NFT Blockchain shops - Inspired by Yoga and written many books, on Bookly! Pay Now! $49.50</span></a><br><br>
+</span>
+</p>
 													  	<p><span style="color:#ffffff;font-size:24px;"><br>
 													    <span style="color:#feff9f;">Metaverse:</span>
 													  	<br><br>
@@ -267,7 +279,12 @@
 													    <span style="color:#feff9f;">Shop:</span>
 													  	<br><br>
 													  	<a href="https://buy.stripe.com/3cscOT5qz5YC8Ao148" target="_blank"><span style="color:#78f9f9;font-size:28px;">Build a NFT Shop Online - Crowd Source your Business - Sell Products and Services - Buy and Sell Coins - WEB3 and Metaverse Design for Blockchain. Pay Now! $2000</span></a><br><br>
-													  	</span></p>
+													  	</span>
+													  	<br>
+													  	<a href="https://buy.stripe.com/6oE4in06f0Ei9Es28h
+" target="_blank"><span style="color:#78f9f9;font-size:28px;">Join our Team! Become a Lead Angel Investor - Build own metaverse, digital shop with Web3, NFT Blockchain - Crowd Source with Network, pitch for Venture Capital funds and Crowd Fund, your business. Get 1% equity with us! Pay Now! $10000</span></a><br><br>
+													  	</span>
+													  	</p>
 													  	
 													  	<span style="color:#ffffff;font-size:28px;">
 													    <p><br><a href="http://taote.shop/product/premium" target="_blank"><span style="color:#78f9f9">Sketch your Shop. Let's get started on your NFT and startup checklist!</span></a><br><br>  </p>
