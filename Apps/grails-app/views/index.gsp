@@ -179,6 +179,8 @@
 						    <li data-target="#myCarousel" data-slide-to="3"></li>
 						    <li data-target="#myCarousel" data-slide-to="4"></li>
 						    <li data-target="#myCarousel" data-slide-to="5"></li>
+						    <li data-target="#myCarousel" data-slide-to="6"></li>
+						    <li data-target="#myCarousel" data-slide-to="7"></li>
 						  </ol>
 
 						  <!-- Wrapper for slides -->
@@ -209,11 +211,21 @@
 						    </div>
 						    
 						    <div class="item">
+						    <g:link url="https://buy.stripe.com/bIY3ejdX53Qu2c07sE"><asset:image src="vc-coin.png"/></g:link>
+						    </div>  
+						    
+						    
+						    <div class="item">
 						    <g:link url="https://buy.stripe.com/fZe9CHf193Qu6sgeV4"><asset:image src="yoga-coin.png"/></g:link>
 						    </div>  
 						    
 						    <div class="item">
 						    <g:link url="https://buy.stripe.com/6oE4in06f0Ei9Es28h"><asset:image src="angel-coin.png"/></g:link>
+						    </div>
+						    
+						    
+						    <div class="item">
+						    <g:link url="https://buy.stripe.com/6oE2af9GP2Mq8Ao14f"><asset:image src="banana-coin.png"/></g:link>
 						    </div>
 						    
 						  </div>
@@ -338,6 +350,15 @@
 													  	<br><br>
 													  	
 Create a NFT with us, build a shop and write a book, to maximize value for your business, and sell for cash or crypto currency. <a href="https://buy.stripe.com/bIYg15dX5gDg6sg4gh" target="_blank"><span style="color:#78f9f9;font-size:28px;">Become an investor - $500, credit card!</span></a> <br><br>
+
+<br><br>
+													  	
+Working with GREAT business men in yoga and tao, but poor in many others things - Weakness compared to strengths, in the Spirit verse, where God resides. Take the blessings, but not free! <a href="https://buy.stripe.com/6oE2af9GP2Mq8Ao14f" target="_blank"><span style="color:#78f9f9;font-size:28px;">Banana Coin - $12.50, Pay Now!</span></a> <br><br>
+
+<br><br>
+													  	
+Working with Venture Capitals for over a decade - Many books written and this coin is for our SUPER investors, that live on our social media feed, 24 hours a day! <a href="https://buy.stripe.com/bIY3ejdX53Qu2c07sE" target="_blank"><span style="color:#78f9f9;font-size:28px;">Venture Capital / Satoshi Coin - $20000, Pay Now!</span></a> <br><br>
+
 </span></p>
 
 <p><span style="color:#ffffff;font-size:24px;"><br>
