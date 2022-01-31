@@ -362,10 +362,39 @@ Working with Venture Capitals for over a decade - Many books written and this co
 </span></p>
 
 <p><span style="color:#ffffff;font-size:24px;"><br>
-													    <span style="color:#feff9f">Shop Product NFT:</span>
+													    <span style="color:#feff9f">Celebrity NFT:</span>
 													  	<br><br>
 													  	
 <a href="https://buy.stripe.com/00g8yDf19biW9Es14a" target="_blank"><span style="color:#78f9f9;font-size:28px;">We have launched a list of NFTs for celebrities, helping define own platform and strategy as a business, become a brand, compared to using other people's website to launch your NFT, as a service, without owning Intellectual Property (IP). Buy our Entrepreneur Coin - Pay Now! $500</span></a> <br><br>
+<br>
+
+
+													  	
+<a href="https://buy.stripe.com/fZe16b8CLgDg17WfZb" target="_blank"><span style="color:#78f9f9;font-size:28px;">Learn the tricks of the super venture capitalist! As best business entrepreneurs, with many successful products - The Silicon Valley venture capital are DYING to get the deal flow! Build a Snoop Verse, with NFT & WEB3 plus ownership with us! Buy our Snoop Dogg Coin - Pay Now! $50000</span></a> <br><br>
+<br>
+
+													  	
+<a href="https://buy.stripe.com/4gwcOTdX586K8AoaES" target="_blank"><span style="color:#78f9f9;font-size:28px;">Learn the best tricks in the business - Humbled to be learning from Silicon Valley, as a student, in and out, now Saturday Night Live, as new American culture, hopefully you are not TOO poor, to buy this coin - Or looking for free guidance then blame. Buy our Puff Diddy Coin - Pay Now! $6.25</span></a> <br><br>
+<br>
+
+													  	
+<a href="https://buy.stripe.com/7sI2aff192Mq7wk3cr" target="_blank"><span style="color:#78f9f9;font-size:28px;">With so many venture capital now investing in politics - From mayorship to governor - Florida, Texas, California and New York, competing for talent - Support your local PAC - Elections 2022 results and make an impact in the world - With our Network. Buy our Obama Coin - Pay Now! $100000</span></a> <br><br>
+<br>
+
+													  	
+<a href="https://buy.stripe.com/fZe9CH5qz4UycQE3cs" target="_blank"><span style="color:#78f9f9;font-size:28px;">Do you know what it's like to be a superstar? Look no further - Lebron James, Kobe Bryant, Tom Brady are superstars, humbled to be hanging out on social media - Learning and teaching, both ways, with the guidance of Barack Obama and Hillary Clinton. Buy our King Coin - Pay Now! $10</span></a> <br><br>
+<br>
+
+													  	
+<a href="https://buy.stripe.com/eVa2af3irbiW03S9AR" target="_blank"><span style="color:#78f9f9;font-size:28px;">With Golden State Warriors, winning many NBA championships in Oakland, where Ayesha, same name as my sister, has a restaurant, downtown of Jack London Square, only if Silicon Valley venture capital knew of the location, that would build a CurryVerse. Buy our Curry Coin - Pay Now! $500000</span></a> <br><br>
+<br>
+
+													  	
+<a href="https://buy.stripe.com/7sIbKP8CL0EibMA5kC" target="_blank"><span style="color:#78f9f9;font-size:28px;">If you like to travel abroad, working with international software developers, especially hand shaking - That's on you Silicon Valley investors, for being life long cheap, that nobody wants to deal with you, until you pay past bills, free learning. Buy our Paris Coin - Pay Now! $3.12</span></a> <br><br>
+<br>
+
+													  	
+<a href="https://buy.stripe.com/cN22af1ajdr47wk00j" target="_blank"><span style="color:#78f9f9;font-size:28px;">With the influence of our teachers in music from 31 years ago - Lollapalooza, Jane's Addiction, Body Count, Ice T, Perry Farrell, Ice Cube, NWA and 7 years ago, working with Hillary Clinton, Snoop Dogg and Diddy, building many projects, software, etc. Buy our Ice & Hot Coin - Pay Now! $1</span></a> <br><br>
 <br>
 </span></p>
 													    
