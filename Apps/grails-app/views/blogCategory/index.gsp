@@ -105,7 +105,8 @@
 	      }, 1000 );
 	    };
 	</script>
-	
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v5.0&appId=261449270414&autoLogAppEvents=1"></script>	
 		<!-- Header Wrapper -->
 			<div id="header-wrapper">
 				<div class="container">
