@@ -170,6 +170,11 @@
 												<div style="border: 2px solid #e5e1e1;width:250px;">
 													<p><img src="data:image/png;base64,${blogCategory.imageThree?.encodeBase64()}" width="200px"/></p>
 													</div>
+													<br>
+													<p>
+													<g:link url="https://buy.stripe.com/8wMg15cT1fzcaIw6oo"><span style="color:#ffffff;font-size:40px;">Pay Now! $10</span></g:link>
+													</p>
+													
 												</header>
 													
 												</section>
