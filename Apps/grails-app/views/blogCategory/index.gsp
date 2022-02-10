@@ -154,7 +154,7 @@
 											<ul>
 												<li><button class="button"><g:link url="/"><span style="color:#feff00">Home</span></g:link></button></li>
 												<li><button class="button"><g:link controller="book" action="index"><span style="color:#feff00">Books</span></g:link></button></li>
-												<li><button class="button"><g:link controller="blogCategory" action="create"><span style="color:#feff00">Create a Book Category</span></g:link></button></li>
+												<li><button class="button"><g:link controller="blogCategory" action="create"><span style="color:#feff00">Create</span></g:link></button></li>
 												<!--<li><a href="left-sidebar.html">Login</a></li>-->
 											</ul>
 										</nav>

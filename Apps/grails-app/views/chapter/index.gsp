@@ -152,9 +152,9 @@
 										<nav id="nav">
 											<ul>
 												<li><button class="button"><g:link url="/"><span style="color:#feff00">Home</span></g:link></button></li>
-												<li><button class="button"><g:link controller="blogCategory" action="index"><span style="color:#feff00">Show Categories</span></g:link></button></li>
-												<li><button class="button"><g:link controller="book" action="index"><span style="color:#feff00">Show Books</span></g:link></button></li>
-												<li><button class="button"><g:link controller="chapter" action="create"><span style="color:#feff00">Create a Chapter</span></g:link></button></li>
+												<li><button class="button"><g:link controller="blogCategory" action="index"><span style="color:#feff00">Categories</span></g:link></button></li>
+												<li><button class="button"><g:link controller="book" action="index"><span style="color:#feff00">Books</span></g:link></button></li>
+												<li><button class="button"><g:link controller="chapter" action="create"><span style="color:#feff00">Create</span></g:link></button></li>
 												<li><button class="button"><div class="fb-share-button" data-href="${createLink(action: 'index', controller: 'chapter')}" data-layout="button" data-size="small"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fbookly.love%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore"><span style="color:#feff00">Share</span></a></div></button></li>
 												<li><button class="button"><a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false"><span style="color:#feff00">Tweet</span></a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></button></li>
 												<br><br>
@@ -177,13 +177,13 @@
 											
 												<div class="row">
 														<div class="4u">
-														<p style="float:left;height:465px;width:350px;"><g:link controller="book" action="show" id="${book.id}"><span style="color:#ffffff;font-size:36px;"><br><img src="data:image/png;base64,${book.imageOne?.encodeBase64()}" width="250" height="250"/><br><br>${book.name}</span></g:link></p>
+														<p style="float:left;height:465px;width:290px;"><g:link controller="book" action="show" id="${book.id}"><span style="color:#ffffff;font-size:36px;"><br><img src="data:image/png;base64,${book.imageOne?.encodeBase64()}" width="250" height="250"/><br><br>${book.name}</span></g:link></p>
 														</div>
 														<br><br>
 														<g:if test="${chapters}">
 														<g:each in="${chapters}" status="j" var="chapterInstance">
 														<div class="3u" style="float:left;height:450px;width:300px;">
-														<p style="float:left;height:430px;width:250px;"><g:link controller="chapter" action="show" id="${chapterInstance.id}"><br><img src="data:image/png;base64,${chapterInstance.imageOne?.encodeBase64()}" width="100" height="100"/><span style="color:#ffffff;font-size:20px;"><br><br>${chapterInstance.name}</span>
+														<p style="float:left;height:630px;width:250px;"><g:link controller="chapter" action="show" id="${chapterInstance.id}"><br><img src="data:image/png;base64,${chapterInstance.imageOne?.encodeBase64()}" width="100" height="100"/><span style="color:#ffffff;font-size:20px;"><br><br>${chapterInstance.name}</span>
 														</g:link></p>
 														</div>
 														</g:each>

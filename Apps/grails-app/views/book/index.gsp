@@ -153,8 +153,8 @@
 										<nav id="nav">
 											<ul>
 												<li><button class="button"><g:link url="/"><span style="color:#feff00">Home</span></g:link></button></li>
-												<li><button class="button"><g:link controller="blogCategory" action="index"><span style="color:#feff00">Show Categories</span></g:link></button></li>
-												<li><button class="button"><g:link controller="book" action="create"><span style="color:#feff00">Create a Book</span></g:link></button></li>
+												<li><button class="button"><g:link controller="blogCategory" action="index"><span style="color:#feff00">Categories</span></g:link></button></li>
+												<li><button class="button"><g:link controller="book" action="create"><span style="color:#feff00">Create</span></g:link></button></li>
 												<li><button class="button"><div class="fb-share-button" data-href="${createLink(action: 'index', controller: 'book')}" data-layout="button" data-size="small"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fbookly.love%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore"><span style="color:#feff00">Share</span></a></div></button></li>
 												<li><button class="button"><a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false"><span style="color:#feff00">Tweet</span></a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></button></li>
 												<br><br>

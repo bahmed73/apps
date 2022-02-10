@@ -1,12 +1,12 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<meta name="description" content="bookly.love - books" />
+		<meta name="description" content="bookly.love - Buy a Coin!" />
 <meta name="keywords" content="Books, Publish, Marketing, pdf, text, images, image, video, photo, distribute, distribution, Garments, Art, Clothing, Jewelry, startup, online store, entrepreneur" />
 <meta http-equiv="window-target" content="_top" />
 <META HTTP-EQUIV="CACHE-CONTROL" CONTENT="PUBLIC">
 	<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
-	<title>Shop Ventures NFT - Build Shop and Write a book!</title>
+	<title>Book: <f:display bean="book" property="name"/></title>
 	<asset:stylesheet src="skel-noscript.css"/>
 	<asset:stylesheet src="style.css"/>
 	<asset:stylesheet src="style-desktop.css"/>
@@ -130,10 +130,8 @@
 										<nav id="nav">
 											<ul>
 												<li><button class="button"><g:link url="/"><span style="color:#feff00">Home</span></g:link></button></li>
-												<li><button class="button"><g:link controller="book" action="edit" id="${book.id}"><span style="color:#feff00">Edit Book</span></g:link></button></li>
-												<li><button class="button"><g:link controller="book" action="index"><span style="color:#feff00">Show Books</span></g:link></button></li>
-												<li><button class="button"><g:link controller="chapter" action="index"><span style="color:#feff00">Show Chapters</span></g:link></button></li>
-												<li><button class="button"><g:link controller="blogCategory" action="index"><span style="color:#feff00">Show Categories</span></g:link></button></li>
+												<li><button class="button"><g:link controller="book" action="edit" id="${book.id}"><span style="color:#feff00">Edit</span></g:link></button></li>
+												<li><button class="button"><g:link controller="book" action="index"><span style="color:#feff00">Books</span></g:link></button></li>
 												<li><button class="button"><div class="fb-share-button" data-href="${createLink(action: 'show', controller: 'book', id: book.id)}" data-layout="button" data-size="small"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fbookly.love%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore"><span style="color:#feff00">Share</span></a></div></button></li>
 												<li><button class="button"><a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false"><span style="color:#feff00">Tweet</span></a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></button></li>
 												<li><button class="button"><g:form resource="${this.book}" method="DELETE" controller="book" action="delete">
@@ -170,6 +168,10 @@
 													<br><br>
 													
 													<p><g:link controller="blogCategory" action="show" id="${book.blogCategory.id}"><br><span style="font-size:20px;color:#ffffff;font-family: Arial, Helvetica, sans-serif;">${book.blogCategory.name}</span></g:link></p>
+													<br>
+													<p>
+													<g:link url="https://buy.stripe.com/8wMg15cT1fzcaIw6oo"><span style="color:#ffffff;font-size:40px;">Pay Now! $10</span></g:link>
+													</p>
 													
 												</section>
 											</div>
@@ -179,20 +181,14 @@
 												<g:if test="${book.imageThree}">
 													<div style="border: 2px solid #e5e1e1;width:250px;">
 													<p><img src="data:image/png;base64,${book.imageThree?.encodeBase64()}" width="200px"/></p>
-													<br>
-													<br>
 													
 													</div>
 													
 												</g:if>
-												<br><br>
+												
 													<p>
 													<g:link class="list" action="export" controller="book" id="${book.id}"><span style="color:#ffffff;font-size:40px;">Download</span></g:link>
 													</p>
-													<br>
-													
-													
-													<br><br>
 													
 												</header>
 													<!--header>

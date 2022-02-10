@@ -319,7 +319,7 @@
 		  background-color: black;">
 													    <p><span style="color:#ffffff;font-size:24px;"><br><br>
 													    <a href="https://buy.stripe.com/8wMg15cT1fzcaIw6oo" target="_blank"><span style="color:#78f9f9;font-size:28px;">Pay for a book you read on Bookly. Support your local entrepreneur - Pay Now! $10</span></a><br><br>
-													    Books published on Amazon and Lulu.<br><br>
+													    Books published on Amazon and Lulu.<br><br><g:link controller="book" action="index"><span style="color:#feff00">Read our books.</span></g:link>
 <p><span style="color:#8a7e7e;font-size:24px;"><a href="https://www.amazon.com/Secret-Book-Bilal-Ahmed/dp/1484177975" target="_blank"><span style="color:#78f9f9;">- The Secret Book: Vedanta part I</span></a></span></span></p>
 <p><span style="color:#8a7e7e;font-size:24px;"><a href="https://www.amazon.com/Sacred-Book-Bilal-Ahmed/dp/1490950931" target="_blank"><span style="color:#78f9f9;">- The Sacred Book: Vedanta part II</span></a></span></span></p>
 <p><span style="color:#8a7e7e;font-size:24px;"><a href="https://www.amazon.com/Startup-Book-Entrepreneurship-Training-Manual/dp/1500475459" target="_blank"><span style="color:#78f9f9;">- The Startup Book: Venture Capitals</span></a></span></span></p>
