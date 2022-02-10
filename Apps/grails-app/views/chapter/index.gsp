@@ -177,13 +177,13 @@
 											
 												<div class="row">
 														<div class="4u">
-														<p style="float:left;height:465px;width:290px;"><g:link controller="book" action="show" id="${book.id}"><span style="color:#ffffff;font-size:36px;"><br><img src="data:image/png;base64,${book.imageOne?.encodeBase64()}" width="250" height="250"/><br><br>${book.name}</span></g:link></p>
+														<p style="float:left;height:465px;width:300px;"><g:link controller="book" action="show" id="${book.id}"><span style="color:#ffffff;font-size:36px;"><br><img src="data:image/png;base64,${book.imageOne?.encodeBase64()}" width="250" height="250"/><br><br>${book.name}</span></g:link></p>
 														</div>
 														<br><br>
 														<g:if test="${chapters}">
 														<g:each in="${chapters}" status="j" var="chapterInstance">
 														<div class="3u" style="float:left;height:450px;width:300px;">
-														<p style="float:left;height:630px;width:250px;"><g:link controller="chapter" action="show" id="${chapterInstance.id}"><br><img src="data:image/png;base64,${chapterInstance.imageOne?.encodeBase64()}" width="100" height="100"/><span style="color:#ffffff;font-size:20px;"><br><br>${chapterInstance.name}</span>
+														<p style="float:left;height:530px;width:250px;"><g:link controller="chapter" action="show" id="${chapterInstance.id}"><br><img src="data:image/png;base64,${chapterInstance.imageOne?.encodeBase64()}" width="100" height="100"/><span style="color:#ffffff;font-size:20px;"><br><br>${chapterInstance.name}</span>
 														</g:link></p>
 														</div>
 														</g:each>
