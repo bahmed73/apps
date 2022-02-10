@@ -1,12 +1,12 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<meta name="description" content="bookly.love - books" />
+		<meta name="description" content="bookly.love - NFT Marketplace!" />
 <meta name="keywords" content="Books, Publish, Marketing, pdf, text, images, image, video, photo, distribute, distribution, Garments, Art, Clothing, Jewelry, startup, online store, entrepreneur" />
 <meta http-equiv="window-target" content="_top" />
 <META HTTP-EQUIV="CACHE-CONTROL" CONTENT="PUBLIC">
 	<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
-	<title>bookly.love - Chapters</title>
+	<title>bookly.love - Chapters and Buy a Coin!</title>
 	<asset:stylesheet src="skel-noscript.css"/>
 	<asset:stylesheet src="style.css"/>
 	<asset:stylesheet src="style-desktop.css"/>
@@ -182,7 +182,7 @@
 														<br><br>
 														<g:if test="${chapters}">
 														<g:each in="${chapters}" status="j" var="chapterInstance">
-														<div class="3u" style="float:left;height:450px;width:300px;">
+														<div class="3u" style="float:left;height:550px;width:300px;">
 														<p style="float:left;height:530px;width:250px;"><g:link controller="chapter" action="show" id="${chapterInstance.id}"><br><img src="data:image/png;base64,${chapterInstance.imageOne?.encodeBase64()}" width="100" height="100"/><span style="color:#ffffff;font-size:20px;"><br><br>${chapterInstance.name}</span>
 														</g:link></p>
 														</div>

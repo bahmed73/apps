@@ -1,12 +1,12 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<meta name="description" content="bookly.love - books" />
+		<meta name="description" content="bookly.love - NFT Marketplace!" />
 <meta name="keywords" content="Books, Publish, Marketing, pdf, text, images, image, video, photo, distribute, distribution, Garments, Art, Clothing, Jewelry, startup, online store, entrepreneur" />
 <meta http-equiv="window-target" content="_top" />
 <META HTTP-EQUIV="CACHE-CONTROL" CONTENT="PUBLIC">
 	<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
-	<title>bookly.love - Books</title>
+	<title>bookly.love - Books and Buy a Coin!</title>
 	<asset:stylesheet src="skel-noscript.css"/>
 	<asset:stylesheet src="style.css"/>
 	<asset:stylesheet src="style-desktop.css"/>
